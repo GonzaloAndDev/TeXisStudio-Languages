@@ -1,0 +1,74 @@
+name: Validate Language Packs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml jsonschema
+
+      - name: Validate YAML and JSON syntax
+        run: |
+          python - <<'PY'
+          import json, yaml, pathlib, sys
+          errors = []
+          root = pathlib.Path('packs')
+          yaml_files = list(root.rglob('*.yaml'))
+          json_files = list(root.rglob('*.json'))
+          for path in yaml_files:
+              try:
+                  yaml.safe_load(path.read_text(encoding='utf-8'))
+              except Exception as e:
+                  errors.append(f"YAML ERROR {path}: {e}")
+          for path in json_files:
+              try:
+                  json.loads(path.read_text(encoding='utf-8'))
+              except Exception as e:
+                  errors.append(f"JSON ERROR {path}: {e}")
+          if errors:
+              for e in errors:
+                  print(e)
+              sys.exit(1)
+          print(f"OK: {len(yaml_files)} YAML, {len(json_files)} JSON validos")
+          PY
+
+      - name: Validate catalog.json structure
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          catalog_path = pathlib.Path('catalog.json')
+          if not catalog_path.exists():
+              print("WARN: catalog.json no encontrado — se omite validacion de catalogo")
+              sys.exit(0)
+          try:
+              catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
+          except Exception as e:
+              print(f"ERROR catalog.json: {e}")
+              sys.exit(1)
+          required_keys = {'schema_version', 'updated_at', 'packages'}
+          if not required_keys.issubset(catalog.keys()):
+              missing = required_keys - catalog.keys()
+              print(f"ERROR catalog.json: faltan campos requeridos: {missing}")
+              sys.exit(1)
+          pack_ids = {p['id'] for p in catalog['packages']}
+          packs_dir = pathlib.Path('packs')
+          errors = []
+          for pack_dir in sorted(packs_dir.iterdir()):
+              if not pack_dir.is_dir():
+                  continue
+              if pack_dir.name not in pack_ids:
+                  errors.append(f"WARN: directorio '{pack_dir.name}' no tiene entrada en catalog.json")
+          if errors:
+              for e in errors:
+                  print(e)
+          print(f"OK: catalog.json valido con {len(catalog['packages'])} paquetes")
+          PY
