@@ -20,7 +20,7 @@ capabilities:
 
 notes:
   - Translations are experimental — native speaker review strongly encouraged.
-  - "Batz'il k'op" = true word/true language (Tzeltal self-designation).
+  - "'Batz''il k''op' = true word/true language (Tzeltal self-designation)."
   - Orthography follows INALI Tzeltal guidelines; uses Latin script with ejectives (').
   - Spoken primarily in Chiapas (Oxchuc, Tenejapa, Amatenango, etc.).
   - XeLaTeX recommended for proper Unicode support.
