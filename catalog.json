@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "updated_at": "2026-05-24",
+  "schema_version": "1.1",
+  "updated_at": "2026-05-27",
   "packages": [
     {
       "id": "ru",
@@ -205,6 +205,49 @@
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/ui.json",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/latex.json"
+    }
+  ],
+
+  "vocabulary_packs": [
+    {
+      "id": "es-engineering",
+      "name": "Ingeniería (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de ingeniería en español. Ingeniería civil, mecánica, eléctrica, electrónica y de sistemas.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-engineering/pack.yaml"
+    },
+    {
+      "id": "es-mathematics",
+      "name": "Matemáticas Avanzadas (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario de matemáticas avanzadas en español. Álgebra lineal, cálculo, estadística, topología.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-mathematics/pack.yaml"
+    },
+    {
+      "id": "en-engineering",
+      "name": "Engineering (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "Technical engineering vocabulary in English. Civil, mechanical, electrical, electronic, and systems engineering.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-engineering/pack.yaml"
+    },
+    {
+      "id": "en-mathematics",
+      "name": "Advanced Mathematics (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "Advanced mathematics vocabulary in English. Linear algebra, calculus, statistics, topology, logic.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-mathematics/pack.yaml"
     }
   ]
 }

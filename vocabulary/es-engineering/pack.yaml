@@ -1,0 +1,115 @@
+id: es-engineering
+name: "Ingeniería (Español)"
+native_name: "Ingeniería"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de ingeniería en español. Cubre terminología de
+  ingeniería civil, mecánica, eléctrica, electrónica y de sistemas.
+  Independiente del paquete de idioma base — se puede usar solo o
+  combinado con el paquete de español y/u otros vocabularios.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+# Este paquete es completamente independiente.
+# Compatible con cualquier base language que use caracteres latinos.
+base_language_hint: es  # sugerencia (no restricción)
+
+# Fuente: terminología estándar de ingeniería en español.
+# Los términos son aceptados en todos los diccionarios regionales de español.
+terms:
+  # ── Estructuras y materiales ─────────────────────────────────────
+  - tensión
+  - compresión
+  - tracción
+  - deformación
+  - esfuerzo
+  - resistencia
+  - rigidez
+  - elasticidad
+  - plasticidad
+  - fluencia
+  - fatiga
+  - fractura
+  - corrosión
+  - soldadura
+  - laminado
+  - extrusión
+  - fundición
+  - mecanizado
+  - torneado
+  - fresado
+  # ── Diseño y análisis ────────────────────────────────────────────
+  - prototipo
+  - iteración
+  - convergencia
+  - tolerancia
+  - holgura
+  - interferencia
+  - ensamble
+  - componente
+  - subsistema
+  - especificación
+  - requerimiento
+  - validación
+  - verificación
+  - homologación
+  - normativa
+  - estándar
+  # ── Eléctrica y electrónica ──────────────────────────────────────
+  - transistor
+  - capacitor
+  - inductor
+  - resistor
+  - microcontrolador
+  - microprocesador
+  - firmware
+  - bus
+  - protocolo
+  - multiplexor
+  - demodulación
+  - modulación
+  - amplificador
+  - oscilador
+  - rectificador
+  - inversor
+  - convertidor
+  - regulador
+  - transistorizado
+  - semiconductores
+  # ── Sistemas y control ───────────────────────────────────────────
+  - retroalimentación
+  - controlador
+  - actuador
+  - sensor
+  - transductor
+  - lazo
+  - planta
+  - perturbación
+  - setpoint
+  - estabilización
+  - sintonización
+  - automatización
+  - servo
+  - telemetría
+  - supervisión
+  # ── Ingeniería de software ───────────────────────────────────────
+  - algoritmo
+  - compilación
+  - depuración
+  - refactorización
+  - despliegue
+  - escalabilidad
+  - concurrencia
+  - paralelismo
+  - latencia
+  - throughput
+  - benchmarking
+  - contenedor
+  - microservicio
+  - orquestación
+  - virtualización

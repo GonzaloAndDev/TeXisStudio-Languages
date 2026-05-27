@@ -1,0 +1,104 @@
+id: es-mathematics
+name: "Matemáticas Avanzadas (Español)"
+native_name: "Matemáticas"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario de matemáticas avanzadas en español. Cubre álgebra lineal,
+  cálculo, estadística, topología, análisis numérico y lógica matemática.
+  Independiente — combinable con cualquier otro paquete de vocabulario.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Álgebra lineal ───────────────────────────────────────────────
+  - eigenvalor
+  - eigenvector
+  - autovalor
+  - autovector
+  - determinante
+  - traza
+  - transpuesta
+  - adjunta
+  - congruencia
+  - isomorfismo
+  - homomorfismo
+  - endomorfismo
+  - automorfismo
+  - diagonalización
+  - triangulación
+  - descomposición
+  - proyección
+  - ortogonalización
+  # ── Cálculo y análisis ───────────────────────────────────────────
+  - diferenciabilidad
+  - integrabilidad
+  - convergencia
+  - divergencia
+  - sucesión
+  - subsucesión
+  - límite
+  - continuidad
+  - semicontinuidad
+  - compacidad
+  - acotamiento
+  - lipschitziana
+  - diferenciable
+  - holomorfa
+  - meromorfa
+  - armónica
+  - bivariada
+  - multivariada
+  # ── Estadística ──────────────────────────────────────────────────
+  - estimador
+  - insesgado
+  - consistente
+  - eficiente
+  - heterocedasticidad
+  - homocedasticidad
+  - multicolinealidad
+  - autocorrelación
+  - estacionariedad
+  - covarianza
+  - correlación
+  - regresión
+  - interpolación
+  - extrapolación
+  - cuantil
+  - percentil
+  - curtosis
+  - asimetría
+  - bootstrapping
+  # ── Topología y geometría ────────────────────────────────────────
+  - homeomorfismo
+  - difeomorfismo
+  - variedad
+  - subvariedad
+  - simplejo
+  - triangulación
+  - homotopía
+  - cohomología
+  - fibrado
+  - métrica
+  - pseudométrica
+  # ── Lógica y fundamentos ─────────────────────────────────────────
+  - axioma
+  - corolario
+  - lema
+  - proposición
+  - conjetura
+  - demostración
+  - refutación
+  - contraejemplo
+  - bicondicional
+  - tautología
+  - contradicción
+  - consistencia
+  - completitud
+  - decidibilidad

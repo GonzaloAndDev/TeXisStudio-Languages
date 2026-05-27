@@ -1,0 +1,74 @@
+id: en-engineering
+name: "Engineering (English)"
+native_name: "Engineering"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Technical engineering vocabulary in English. Covers civil, mechanical,
+  electrical, electronic, and systems engineering terminology.
+  Fully independent — mix with any base language pack or other vocabularies.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  - tensile
+  - compressive
+  - shear
+  - torsional
+  - deformation
+  - elasticity
+  - plasticity
+  - creep
+  - fatigue
+  - fracture
+  - corrosion
+  - welding
+  - machining
+  - sintering
+  - annealing
+  - quenching
+  - hardening
+  - tempering
+  - microstructure
+  - nanostructure
+  - transistor
+  - capacitor
+  - inductor
+  - microcontroller
+  - microprocessor
+  - firmware
+  - multiplexer
+  - demultiplexer
+  - rectifier
+  - inverter
+  - transducer
+  - actuator
+  - sensor
+  - feedback
+  - feedforward
+  - setpoint
+  - linearization
+  - stabilization
+  - telemetry
+  - supervisory
+  - algorithm
+  - compiler
+  - debugger
+  - refactoring
+  - deployment
+  - scalability
+  - concurrency
+  - parallelism
+  - throughput
+  - benchmarking
+  - containerization
+  - microservice
+  - orchestration
+  - virtualization
+  - hypervisor

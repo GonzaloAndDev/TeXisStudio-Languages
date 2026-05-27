@@ -1,0 +1,71 @@
+id: en-mathematics
+name: "Advanced Mathematics (English)"
+native_name: "Mathematics"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Advanced mathematics vocabulary in English. Covers linear algebra, calculus,
+  statistics, topology, numerical analysis, and mathematical logic.
+  Fully independent — combinable with any other vocabulary pack.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  - eigenvalue
+  - eigenvector
+  - determinant
+  - cofactor
+  - adjugate
+  - isomorphism
+  - homomorphism
+  - endomorphism
+  - automorphism
+  - diagonalization
+  - triangularization
+  - orthogonalization
+  - differentiability
+  - integrability
+  - convergence
+  - subsequence
+  - semicontinuity
+  - compactness
+  - boundedness
+  - holomorphic
+  - meromorphic
+  - harmonic
+  - multivariate
+  - estimator
+  - unbiasedness
+  - consistency
+  - heteroscedasticity
+  - homoscedasticity
+  - multicollinearity
+  - autocorrelation
+  - stationarity
+  - covariance
+  - bootstrapping
+  - homeomorphism
+  - diffeomorphism
+  - manifold
+  - submanifold
+  - simplex
+  - triangulation
+  - homotopy
+  - cohomology
+  - fibration
+  - pseudometric
+  - axiom
+  - corollary
+  - conjecture
+  - refutation
+  - counterexample
+  - biconditional
+  - tautology
+  - decidability
+  - completeness
