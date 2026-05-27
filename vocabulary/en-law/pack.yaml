@@ -1,0 +1,109 @@
+id: en-law
+name: "Law (English)"
+native_name: "Law"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English legal vocabulary. Covers common law, civil law, constitutional law,
+  administrative law, commercial law, labor law, and international law.
+  Designed for theses in law and social sciences.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Legal theory ─────────────────────────────────────────────────
+  - jurisprudence
+  - precedent
+  - stare decisis
+  - common law
+  - civil law
+  - statute
+  - codification
+  - hermeneutics
+  - positivism
+  - natural law
+  - equity
+  - analogy
+  - retroactivity
+  - derogation
+  - normative
+  # ── Civil law ────────────────────────────────────────────────────
+  - legal capacity
+  - legal personality
+  - guardianship
+  - trusteeship
+  - easement
+  - usufruct
+  - bailment
+  - mandate
+  - surety
+  - mortgage
+  - pledge
+  - lease
+  - barter
+  - bequest
+  - testamentary
+  - succession
+  - executor
+  - legatee
+  - heir
+  - probate
+  # ── Criminal law ─────────────────────────────────────────────────
+  - actus reus
+  - mens rea
+  - culpability
+  - intent
+  - negligence
+  - recklessness
+  - attempt
+  - conspiracy
+  - complicity
+  - aiding and abetting
+  - recidivism
+  - mitigating circumstance
+  - aggravating circumstance
+  - statute of limitations
+  - pardon
+  - amnesty
+  - acquittal
+  - conviction
+  - sentencing
+  - incarceration
+  # ── Constitutional law ───────────────────────────────────────────
+  - constitutionality
+  - habeas corpus
+  - due process
+  - equal protection
+  - supremacy clause
+  - judicial review
+  - fundamental rights
+  - proportionality
+  - sovereignty
+  - federalism
+  - separation of powers
+  - checks and balances
+  - bill of rights
+  - constitutional convention
+  - amendment
+  # ── Procedural law ───────────────────────────────────────────────
+  - jurisdiction
+  - standing
+  - joinder
+  - counterclaim
+  - affirmative defense
+  - expert testimony
+  - res judicata
+  - collateral estoppel
+  - appellate
+  - certiorari
+  - writ
+  - injunction
+  - declaratory judgment
+  - pleading
+  - discovery

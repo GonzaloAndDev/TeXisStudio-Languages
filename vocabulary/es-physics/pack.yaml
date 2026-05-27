@@ -1,0 +1,122 @@
+id: es-physics
+name: "Física (Español)"
+native_name: "Física"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de física en español. Cubre mecánica clásica,
+  termodinámica, electromagnetismo, óptica, mecánica cuántica y
+  física del estado sólido. Ideal para tesis en ciencias básicas.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Mecánica clásica ─────────────────────────────────────────────
+  - cinemática
+  - dinámica
+  - estática
+  - traslación
+  - rotación
+  - momento lineal
+  - momento angular
+  - trayectoria
+  - desplazamiento
+  - velocidad
+  - aceleración
+  - inercia
+  - fricción
+  - torque
+  - palanca
+  - tensión
+  - compresión
+  - oscilación
+  - resonancia
+  - amortiguamiento
+  # ── Termodinámica ────────────────────────────────────────────────
+  - isoterma
+  - adiabática
+  - isocora
+  - isobara
+  - entropía
+  - entalpía
+  - energía interna
+  - calor específico
+  - conductividad térmica
+  - convección
+  - radiación
+  - ciclo de Carnot
+  - eficiencia
+  - irreversibilidad
+  - exergía
+  # ── Electromagnetismo ────────────────────────────────────────────
+  - campo eléctrico
+  - campo magnético
+  - potencial eléctrico
+  - gradiente
+  - flujo
+  - divergencia
+  - rotacional
+  - inducción
+  - permitividad
+  - permeabilidad
+  - polarización
+  - magnetización
+  - ondas electromagnéticas
+  - espectro electromagnético
+  - fotón
+  - frecuencia
+  - longitud de onda
+  - interferencia
+  - difracción
+  - polarización
+  # ── Óptica ───────────────────────────────────────────────────────
+  - reflexión
+  - refracción
+  - aberración
+  - lente
+  - espejo
+  - prisma
+  - interferómetro
+  - microscopio
+  - telescopio
+  - láser
+  - coherencia
+  - monocromático
+  # ── Mecánica cuántica ────────────────────────────────────────────
+  - cuantización
+  - función de onda
+  - hamiltoniano
+  - operador
+  - autovalor
+  - superposición
+  - entrelazamiento
+  - dualidad
+  - tunelamiento
+  - espín
+  - orbital
+  - probabilidad
+  - colapso
+  - observables
+  - incertidumbre
+  # ── Estado sólido ────────────────────────────────────────────────
+  - cristal
+  - red cristalina
+  - celda unitaria
+  - banda de conducción
+  - banda de valencia
+  - semiconductor
+  - dopado
+  - defecto
+  - fonón
+  - plasmón
+  - superconductividad
+  - ferromagnetismo
+  - diamagnetismo
+  - piezoelectricidad
+  - nanotecnología

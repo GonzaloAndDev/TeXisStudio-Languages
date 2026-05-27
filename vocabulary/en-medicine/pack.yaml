@@ -1,0 +1,119 @@
+id: en-medicine
+name: "Medicine (English)"
+native_name: "Medicine"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for medicine. Covers clinical terminology,
+  anatomy, physiology, pharmacology, pathology, and epidemiology.
+  Designed for theses in health sciences and biomedical research.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Anatomy & physiology ─────────────────────────────────────────
+  - myocardium
+  - endocardium
+  - pericardium
+  - alveolar
+  - bronchiolar
+  - hepatocyte
+  - nephron
+  - glomerular
+  - tubular
+  - neuron
+  - synapse
+  - neurotransmitter
+  - receptor
+  - ligand
+  - homeostasis
+  - hematopoiesis
+  - erythrocyte
+  - leukocyte
+  - thrombocyte
+  - endothelial
+  # ── Pathology ────────────────────────────────────────────────────
+  - inflammation
+  - necrosis
+  - apoptosis
+  - hypertrophy
+  - hypoplasia
+  - neoplasia
+  - metastasis
+  - carcinoma
+  - adenocarcinoma
+  - ischemia
+  - hypoxia
+  - sepsis
+  - fibrosis
+  - sclerosis
+  - thrombosis
+  - embolism
+  - atherosclerosis
+  - arteriosclerosis
+  - infarction
+  - edema
+  # ── Pharmacology ─────────────────────────────────────────────────
+  - pharmacokinetics
+  - pharmacodynamics
+  - bioavailability
+  - bioequivalence
+  - half-life
+  - dosing
+  - toxicity
+  - adverse effect
+  - drug interaction
+  - agonist
+  - antagonist
+  - inhibitor
+  - inducer
+  - excipient
+  - formulation
+  - pharmacovigilance
+  - clinical trial
+  - placebo
+  - double-blind
+  - randomized
+  # ── Epidemiology ─────────────────────────────────────────────────
+  - incidence
+  - prevalence
+  - mortality
+  - morbidity
+  - seroprevalence
+  - endemic
+  - epidemic
+  - pandemic
+  - cohort
+  - case-control
+  - cross-sectional
+  - longitudinal
+  - prospective
+  - retrospective
+  - confounding
+  - odds ratio
+  - relative risk
+  - confidence interval
+  - meta-analysis
+  - systematic review
+  # ── Diagnosis & clinical ─────────────────────────────────────────
+  - diagnosis
+  - prognosis
+  - semiology
+  - auscultation
+  - palpation
+  - percussion
+  - biopsy
+  - histopathology
+  - immunohistochemistry
+  - cytology
+  - hematology
+  - radiology
+  - tomography
+  - ultrasonography
+  - electrocardiography

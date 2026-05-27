@@ -1,0 +1,115 @@
+id: en-physics
+name: "Physics (English)"
+native_name: "Physics"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for physics. Covers classical mechanics,
+  thermodynamics, electromagnetism, optics, quantum mechanics, and
+  solid-state physics. Ideal for theses in natural sciences.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Classical mechanics ──────────────────────────────────────────
+  - kinematics
+  - dynamics
+  - statics
+  - translational
+  - rotational
+  - momentum
+  - angular momentum
+  - trajectory
+  - displacement
+  - velocity
+  - acceleration
+  - inertia
+  - friction
+  - torque
+  - oscillation
+  - resonance
+  - damping
+  - Lagrangian
+  - Hamiltonian
+  - Newtonian
+  # ── Thermodynamics ───────────────────────────────────────────────
+  - isothermal
+  - adiabatic
+  - isochoric
+  - isobaric
+  - entropy
+  - enthalpy
+  - internal energy
+  - specific heat
+  - thermal conductivity
+  - convection
+  - Carnot
+  - irreversibility
+  - exergy
+  - fugacity
+  - equipartition
+  # ── Electromagnetism ─────────────────────────────────────────────
+  - permittivity
+  - permeability
+  - polarization
+  - magnetization
+  - divergence
+  - curl
+  - Lorentz
+  - Maxwell
+  - electromagnetic
+  - photon
+  - wavelength
+  - interference
+  - diffraction
+  - refraction
+  - coherence
+  # ── Optics ───────────────────────────────────────────────────────
+  - reflection
+  - aberration
+  - interferometer
+  - microscopy
+  - spectroscopy
+  - laser
+  - monochromatic
+  - birefringence
+  - holography
+  - photodetector
+  # ── Quantum mechanics ────────────────────────────────────────────
+  - quantization
+  - wavefunction
+  - eigenvalue
+  - superposition
+  - entanglement
+  - tunneling
+  - spin
+  - orbital
+  - uncertainty
+  - Schrödinger
+  - Heisenberg
+  - Dirac
+  - commutator
+  - perturbation
+  - decoherence
+  # ── Solid state ──────────────────────────────────────────────────
+  - crystallography
+  - lattice
+  - unit cell
+  - bandgap
+  - semiconductor
+  - dopant
+  - phonon
+  - plasmon
+  - superconductivity
+  - ferromagnetism
+  - diamagnetism
+  - piezoelectricity
+  - nanotechnology
+  - nanostructure
+  - heterostructure

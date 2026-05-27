@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "updated_at": "2026-05-27",
   "packages": [
     {
@@ -248,6 +248,106 @@
       "base_language_hint": "en",
       "description": "Advanced mathematics vocabulary in English. Linear algebra, calculus, statistics, topology, logic.",
       "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-mathematics/pack.yaml"
+    },
+    {
+      "id": "es-chemistry",
+      "name": "Química (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de química en español. Química general, orgánica, inorgánica, analítica, fisicoquímica y bioquímica.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-chemistry/pack.yaml"
+    },
+    {
+      "id": "en-chemistry",
+      "name": "Chemistry (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for chemistry. General, organic, inorganic, analytical, physical chemistry, and biochemistry.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-chemistry/pack.yaml"
+    },
+    {
+      "id": "es-physics",
+      "name": "Física (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de física en español. Mecánica clásica, termodinámica, electromagnetismo, óptica, mecánica cuántica y estado sólido.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-physics/pack.yaml"
+    },
+    {
+      "id": "en-physics",
+      "name": "Physics (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for physics. Classical mechanics, thermodynamics, electromagnetism, optics, quantum mechanics, solid-state.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-physics/pack.yaml"
+    },
+    {
+      "id": "es-medicine",
+      "name": "Medicina (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico médico en español. Anatomía, fisiología, patología, farmacología y epidemiología.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-medicine/pack.yaml"
+    },
+    {
+      "id": "en-medicine",
+      "name": "Medicine (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for medicine. Anatomy, physiology, pathology, pharmacology, and epidemiology.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-medicine/pack.yaml"
+    },
+    {
+      "id": "es-computing",
+      "name": "Computación (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de ciencias de la computación en español. Algoritmos, sistemas operativos, redes, IA, bases de datos y seguridad.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-computing/pack.yaml"
+    },
+    {
+      "id": "en-computing",
+      "name": "Computer Science (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for computer science. Data structures, OS, networking, AI, databases, and cybersecurity.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-computing/pack.yaml"
+    },
+    {
+      "id": "es-law",
+      "name": "Derecho (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario jurídico en español. Derecho civil, penal, constitucional, administrativo, mercantil y procesal. Contexto latinoamericano.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-law/pack.yaml"
+    },
+    {
+      "id": "en-law",
+      "name": "Law (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English legal vocabulary. Common law, civil law, constitutional, administrative, commercial, and procedural law.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-law/pack.yaml"
     }
   ]
 }

@@ -1,0 +1,119 @@
+id: es-medicine
+name: "Medicina (Español)"
+native_name: "Medicina"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico médico en español. Cubre terminología clínica,
+  anatomía, fisiología, farmacología, patología y epidemiología.
+  Diseñado para tesis en ciencias de la salud e investigación biomédica.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Anatomía y fisiología ────────────────────────────────────────
+  - miocardio
+  - endocardio
+  - pericardio
+  - alveolar
+  - bronquiolar
+  - hepatocito
+  - nefrona
+  - glomerular
+  - tubular
+  - neurona
+  - sinápsis
+  - neurotransmisor
+  - hormona
+  - receptor
+  - ligando
+  - homeostasis
+  - metabolismo basal
+  - hematopoyesis
+  - eritrocito
+  - leucocito
+  # ── Patología ────────────────────────────────────────────────────
+  - inflamación
+  - necrosis
+  - apoptosis
+  - hipertrofia
+  - hipoplasia
+  - neoplasia
+  - metástasis
+  - carcinoma
+  - adenocarcinoma
+  - isquemia
+  - hipoxia
+  - sepsis
+  - fibrosis
+  - esclerosis
+  - trombosis
+  - embolia
+  - aterosclerosis
+  - arteriosclerosis
+  - infarto
+  - edema
+  # ── Farmacología ─────────────────────────────────────────────────
+  - farmacocinética
+  - farmacodinámica
+  - biodisponibilidad
+  - bioequivalencia
+  - vida media
+  - dosis
+  - dosificación
+  - toxicidad
+  - efecto adverso
+  - interacción medicamentosa
+  - agonista
+  - antagonista
+  - inhibidor
+  - inductor
+  - excipiente
+  - formulación
+  - farmacovigilancia
+  - ensayo clínico
+  - placebo
+  - doble ciego
+  # ── Epidemiología ────────────────────────────────────────────────
+  - incidencia
+  - prevalencia
+  - mortalidad
+  - morbilidad
+  - seroprevalencia
+  - endemia
+  - epidemia
+  - pandemia
+  - cohorte
+  - caso-control
+  - transversal
+  - longitudinal
+  - prospectivo
+  - retrospectivo
+  - sesgo
+  - confusión
+  - odds ratio
+  - riesgo relativo
+  - intervalo de confianza
+  - metaanálisis
+  # ── Diagnóstico y clínica ────────────────────────────────────────
+  - diagnóstico
+  - pronóstico
+  - semiología
+  - auscultación
+  - palpación
+  - percusión
+  - biopsia
+  - histopatología
+  - inmunohistoquímica
+  - citología
+  - hematología
+  - bioquímica clínica
+  - radiología
+  - resonancia magnética
+  - tomografía

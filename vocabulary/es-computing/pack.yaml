@@ -1,0 +1,131 @@
+id: es-computing
+name: "Computación (Español)"
+native_name: "Computación"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de ciencias de la computación en español.
+  Cubre estructuras de datos, sistemas operativos, redes, inteligencia
+  artificial, bases de datos y seguridad informática. Para tesis en
+  computación, sistemas e ingeniería de software.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Estructuras de datos y algoritmos ───────────────────────────
+  - árbol binario
+  - árbol de búsqueda
+  - grafo
+  - lista enlazada
+  - pila
+  - cola
+  - tabla hash
+  - montículo
+  - trie
+  - ordenamiento
+  - búsqueda binaria
+  - recursividad
+  - memoización
+  - backtracking
+  - greedy
+  - complejidad computacional
+  - notación asintótica
+  - invariante
+  - heurística
+  - aproximación
+  # ── Sistemas operativos ─────────────────────────────────────────
+  - proceso
+  - hilo
+  - planificador
+  - semáforo
+  - mutex
+  - condición de carrera
+  - interbloqueo
+  - paginación
+  - segmentación
+  - memoria virtual
+  - caché
+  - sistema de archivos
+  - llamada al sistema
+  - interrupción
+  - privilegios
+  - contenedor
+  - virtualización
+  - hipervisor
+  - orquestación
+  - despliegue
+  # ── Redes y comunicaciones ───────────────────────────────────────
+  - protocolo
+  - enrutamiento
+  - conmutación
+  - subred
+  - máscara
+  - gateway
+  - firewall
+  - proxy
+  - cifrado
+  - autenticación
+  - autorización
+  - latencia
+  - ancho de banda
+  - throughput
+  - retransmisión
+  - fragmentación
+  - encapsulamiento
+  - decodificación
+  - multiplexación
+  - tunelización
+  # ── Inteligencia artificial ─────────────────────────────────────
+  - aprendizaje automático
+  - aprendizaje profundo
+  - red neuronal
+  - capa oculta
+  - retropropagación
+  - gradiente
+  - sobreajuste
+  - regularización
+  - hiperparámetro
+  - conjunto de entrenamiento
+  - conjunto de validación
+  - conjunto de prueba
+  - matriz de confusión
+  - precisión
+  - exhaustividad
+  - F-medida
+  - inferencia
+  - embeddings
+  - tokenización
+  - transformador
+  # ── Bases de datos ───────────────────────────────────────────────
+  - normalización
+  - desnormalización
+  - transacción
+  - atomicidad
+  - consistencia
+  - aislamiento
+  - durabilidad
+  - índice
+  - consulta
+  - vista
+  - procedimiento almacenado
+  - disparador
+  - clave primaria
+  - clave foránea
+  - relacional
+  # ── Seguridad informática ────────────────────────────────────────
+  - vulnerabilidad
+  - explotación
+  - inyección
+  - desbordamiento
+  - criptografía
+  - hashing
+  - firma digital
+  - certificado
+  - OAuth
+  - JWT

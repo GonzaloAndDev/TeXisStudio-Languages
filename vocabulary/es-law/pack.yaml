@@ -1,0 +1,115 @@
+id: es-law
+name: "Derecho (Español)"
+native_name: "Derecho"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario jurídico en español. Cubre derecho civil, penal,
+  constitucional, administrativo, mercantil, laboral e internacional.
+  Diseñado para tesis en derecho y ciencias sociales en contexto
+  latinoamericano e iberoamericano.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Teoría del derecho ──────────────────────────────────────────
+  - jurisprudencia
+  - normatividad
+  - dogmática
+  - axiología
+  - iusnaturalismo
+  - positivismo
+  - hermenéutica
+  - prelación
+  - supletoriedad
+  - codificación
+  - exégesis
+  - analogía
+  - equidad
+  - antinomia
+  - jerarquía normativa
+  - derogación
+  - abrogación
+  - vacatio legis
+  - ultractividad
+  - retroactividad
+  # ── Derecho civil ────────────────────────────────────────────────
+  - capacidad jurídica
+  - personalidad jurídica
+  - patria potestad
+  - tutela
+  - curatela
+  - servidumbre
+  - usufructo
+  - comodato
+  - mandato
+  - fianza
+  - hipoteca
+  - prenda
+  - arrendamiento
+  - permuta
+  - donación
+  - testamento
+  - sucesión
+  - albacea
+  - legatario
+  - heredero
+  # ── Derecho penal ────────────────────────────────────────────────
+  - tipicidad
+  - antijuridicidad
+  - culpabilidad
+  - imputabilidad
+  - dolo
+  - culpa
+  - preterintención
+  - tentativa
+  - consumación
+  - autoría
+  - complicidad
+  - encubrimiento
+  - recidivismo
+  - atenuante
+  - agravante
+  - prescripción
+  - extinción de la acción
+  - indulto
+  - amnistía
+  - rehabilitación
+  # ── Derecho constitucional ──────────────────────────────────────
+  - constitucionalidad
+  - amparo
+  - habeas corpus
+  - habeas data
+  - control difuso
+  - control concentrado
+  - supremacía constitucional
+  - bloque de constitucionalidad
+  - derechos fundamentales
+  - garantías individuales
+  - principio de legalidad
+  - principio de proporcionalidad
+  - due process
+  - tutela judicial efectiva
+  - autonomía
+  # ── Procesal ────────────────────────────────────────────────────
+  - jurisdicción
+  - competencia
+  - legitimación
+  - litisconsorcio
+  - reconvención
+  - excepción
+  - prueba pericial
+  - prueba testimonial
+  - cosa juzgada
+  - ejecutoria
+  - apelación
+  - casación
+  - recurso
+  - sentencia
+  - resolución

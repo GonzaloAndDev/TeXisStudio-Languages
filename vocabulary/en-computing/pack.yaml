@@ -1,0 +1,126 @@
+id: en-computing
+name: "Computer Science (English)"
+native_name: "Computer Science"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for computer science. Covers data structures,
+  algorithms, operating systems, networking, artificial intelligence,
+  databases, and cybersecurity. For theses in CS, software engineering,
+  and information systems.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Data structures & algorithms ────────────────────────────────
+  - binary tree
+  - binary search tree
+  - adjacency matrix
+  - adjacency list
+  - linked list
+  - hash table
+  - heap
+  - trie
+  - memoization
+  - backtracking
+  - greedy
+  - computational complexity
+  - asymptotic notation
+  - amortized
+  - heuristic
+  - approximation
+  - invariant
+  - recursion
+  - dynamic programming
+  - divide-and-conquer
+  # ── Operating systems ────────────────────────────────────────────
+  - scheduler
+  - semaphore
+  - mutex
+  - deadlock
+  - starvation
+  - preemption
+  - paging
+  - segmentation
+  - virtual memory
+  - syscall
+  - interrupt
+  - hypervisor
+  - containerization
+  - orchestration
+  - namespace
+  # ── Networking ───────────────────────────────────────────────────
+  - routing
+  - switching
+  - subnet
+  - gateway
+  - firewall
+  - proxy
+  - encryption
+  - authentication
+  - authorization
+  - bandwidth
+  - throughput
+  - retransmission
+  - fragmentation
+  - encapsulation
+  - multiplexing
+  - tunneling
+  - handshake
+  - congestion
+  - jitter
+  - round-trip time
+  # ── Artificial intelligence ──────────────────────────────────────
+  - machine learning
+  - deep learning
+  - neural network
+  - backpropagation
+  - gradient descent
+  - overfitting
+  - underfitting
+  - regularization
+  - hyperparameter
+  - training set
+  - validation set
+  - test set
+  - confusion matrix
+  - precision
+  - recall
+  - F-score
+  - embedding
+  - tokenization
+  - transformer
+  - fine-tuning
+  # ── Databases ────────────────────────────────────────────────────
+  - normalization
+  - denormalization
+  - transaction
+  - atomicity
+  - consistency
+  - isolation
+  - durability
+  - indexing
+  - query optimizer
+  - stored procedure
+  - trigger
+  - primary key
+  - foreign key
+  - relational
+  - NoSQL
+  # ── Cybersecurity ────────────────────────────────────────────────
+  - vulnerability
+  - exploit
+  - injection
+  - buffer overflow
+  - cryptography
+  - hashing
+  - digital signature
+  - certificate
+  - OAuth
+  - JWT

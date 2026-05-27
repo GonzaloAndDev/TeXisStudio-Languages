@@ -1,0 +1,130 @@
+id: es-chemistry
+name: "Química (Español)"
+native_name: "Química"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de química en español. Cubre terminología de
+  química general, orgánica, inorgánica, analítica, fisicoquímica
+  y bioquímica. Diseñado para tesis en ciencias exactas y naturales.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Química general ─────────────────────────────────────────────
+  - átomos
+  - moléculas
+  - electrones
+  - protones
+  - neutrones
+  - isótopos
+  - isómeros
+  - estequiometría
+  - mol
+  - molaridad
+  - molalidad
+  - osmolaridad
+  - electrolito
+  - soluto
+  - solvente
+  - dilución
+  - titulación
+  - valoración
+  - precipitado
+  - catalizador
+  # ── Química orgánica ────────────────────────────────────────────
+  - hidrocarburo
+  - alcano
+  - alqueno
+  - alquino
+  - aromático
+  - funcional
+  - éster
+  - éter
+  - aldehído
+  - cetona
+  - amina
+  - amida
+  - carboxilo
+  - carbonilo
+  - hidroxilo
+  - polimerización
+  - polímero
+  - monómero
+  - copolímero
+  - termoplástico
+  # ── Química inorgánica ──────────────────────────────────────────
+  - oxidación
+  - reducción
+  - redox
+  - electroquímica
+  - electrodo
+  - cátodo
+  - ánodo
+  - electrólisis
+  - galvánico
+  - potencial
+  - conductividad
+  - ionización
+  - disociación
+  - enlace
+  - covalente
+  - iónico
+  - metálico
+  - hidrólisis
+  - solvatación
+  - cristalografía
+  # ── Química analítica ───────────────────────────────────────────
+  - cromatografía
+  - espectrometría
+  - espectroscopia
+  - absorbancia
+  - fluorescencia
+  - centrifugación
+  - filtración
+  - destilación
+  - extracción
+  - reacristallización
+  - gravimetría
+  - volumetría
+  - potenciometría
+  - polarimetría
+  - refractometría
+  # ── Fisicoquímica ────────────────────────────────────────────────
+  - termodinámica
+  - entalpía
+  - entropía
+  - energía libre
+  - cinética
+  - orden de reacción
+  - mecanismo
+  - estado de transición
+  - activación
+  - equilibrio
+  - constante de equilibrio
+  - pH
+  - pKa
+  - tampón
+  - tampón buffer
+  # ── Bioquímica ───────────────────────────────────────────────────
+  - proteína
+  - aminoácido
+  - enzima
+  - sustrato
+  - cofactor
+  - coenzima
+  - metabolismo
+  - catabolismo
+  - anabolismo
+  - glucólisis
+  - fosforilación
+  - lípido
+  - membrana
+  - nucleótido
+  - nucleósido

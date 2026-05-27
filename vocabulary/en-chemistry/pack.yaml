@@ -1,0 +1,125 @@
+id: en-chemistry
+name: "Chemistry (English)"
+native_name: "Chemistry"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for chemistry. Covers terminology from
+  general, organic, inorganic, analytical, physical chemistry, and
+  biochemistry. Designed for academic theses in natural sciences.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── General chemistry ────────────────────────────────────────────
+  - stoichiometry
+  - molarity
+  - molality
+  - osmolarity
+  - electrolyte
+  - solute
+  - solvent
+  - titration
+  - precipitate
+  - catalyst
+  - isotope
+  - isomer
+  - chromatography
+  - spectrometry
+  - spectroscopy
+  # ── Organic chemistry ────────────────────────────────────────────
+  - hydrocarbon
+  - alkane
+  - alkene
+  - alkyne
+  - aromatic
+  - ester
+  - ether
+  - aldehyde
+  - ketone
+  - amine
+  - amide
+  - carboxyl
+  - carbonyl
+  - hydroxyl
+  - polymerization
+  - polymer
+  - monomer
+  - copolymer
+  - thermoplastic
+  - thermoset
+  # ── Inorganic chemistry ──────────────────────────────────────────
+  - oxidation
+  - reduction
+  - redox
+  - electrochemistry
+  - electrode
+  - cathode
+  - anode
+  - electrolysis
+  - galvanic
+  - ionization
+  - dissociation
+  - covalent
+  - ionic
+  - metallic
+  - hydrolysis
+  - solvation
+  - crystallography
+  - coordination
+  - ligand
+  - chelate
+  # ── Analytical chemistry ─────────────────────────────────────────
+  - absorbance
+  - fluorescence
+  - centrifugation
+  - filtration
+  - distillation
+  - recrystallization
+  - gravimetry
+  - volumetry
+  - potentiometry
+  - polarimetry
+  - refractometry
+  - calibration
+  - standardization
+  - interferent
+  - detectability
+  # ── Physical chemistry ───────────────────────────────────────────
+  - thermodynamics
+  - enthalpy
+  - entropy
+  - Gibbs
+  - kinetics
+  - mechanism
+  - transition state
+  - activation energy
+  - equilibrium
+  - electronegativity
+  - intermolecular
+  - intramolecular
+  - adsorption
+  - desorption
+  - fugacity
+  # ── Biochemistry ─────────────────────────────────────────────────
+  - amino acid
+  - enzyme
+  - substrate
+  - cofactor
+  - coenzyme
+  - metabolism
+  - catabolism
+  - anabolism
+  - glycolysis
+  - phosphorylation
+  - nucleotide
+  - nucleoside
+  - lipid
+  - membrane
+  - biosynthesis
