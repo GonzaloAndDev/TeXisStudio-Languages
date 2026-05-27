@@ -1,0 +1,109 @@
+id: en-economics
+name: "Economics & Business (English)"
+native_name: "Economics"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for economics, administration, and business.
+  Covers microeconomics, macroeconomics, econometrics, finance, accounting,
+  and business management. Ideal for theses in social and economic sciences.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Microeconomics ───────────────────────────────────────────────
+  - elasticity
+  - equilibrium
+  - surplus
+  - marginal utility
+  - marginal cost
+  - opportunity cost
+  - externality
+  - public good
+  - monopoly
+  - oligopoly
+  - duopoly
+  - perfect competition
+  - monopolistic competition
+  - monopsony
+  - vertical integration
+  - horizontal integration
+  - economies of scale
+  - diminishing returns
+  - price discrimination
+  - deadweight loss
+  # ── Macroeconomics ───────────────────────────────────────────────
+  - gross domestic product
+  - inflation
+  - deflation
+  - stagflation
+  - unemployment
+  - balance of payments
+  - trade balance
+  - exchange rate
+  - purchasing power parity
+  - fiscal policy
+  - monetary policy
+  - Keynesian multiplier
+  - Phillips curve
+  - business cycle
+  - recession
+  - austerity
+  - public debt
+  - fiscal deficit
+  - quantitative easing
+  - crowding out
+  # ── Econometrics ─────────────────────────────────────────────────
+  - ordinary least squares
+  - heteroscedasticity
+  - autocorrelation
+  - multicollinearity
+  - time series
+  - cointegration
+  - Granger causality
+  - VAR model
+  - panel data
+  - instrumental variable
+  - endogeneity
+  - stationarity
+  - unit root
+  - spurious regression
+  - fixed effects
+  # ── Finance ──────────────────────────────────────────────────────
+  - net present value
+  - internal rate of return
+  - discount rate
+  - cash flow
+  - leverage
+  - profitability
+  - liquidity
+  - solvency
+  - systematic risk
+  - idiosyncratic risk
+  - portfolio
+  - diversification
+  - volatility
+  - derivative
+  - option
+  - hedge
+  - arbitrage
+  - capital market
+  - money market
+  - yield curve
+  # ── Management ───────────────────────────────────────────────────
+  - value chain
+  - competitive advantage
+  - benchmarking
+  - balanced scorecard
+  - corporate governance
+  - supply chain
+  - just-in-time
+  - entrepreneurship
+  - stakeholder
+  - shareholder

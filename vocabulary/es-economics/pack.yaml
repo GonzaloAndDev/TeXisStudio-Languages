@@ -1,0 +1,110 @@
+id: es-economics
+name: "Economía y Negocios (Español)"
+native_name: "Economía"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de economía, administración y negocios en español.
+  Cubre microeconomía, macroeconomía, econometría, finanzas, contabilidad
+  y administración de empresas. Ideal para tesis en ciencias sociales y
+  ciencias económico-administrativas.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Microeconomía ────────────────────────────────────────────────
+  - elasticidad
+  - oferta
+  - demanda
+  - equilibrio
+  - excedente
+  - utilidad marginal
+  - costo marginal
+  - costo de oportunidad
+  - externalidad
+  - bien público
+  - monopolio
+  - oligopolio
+  - duopolio
+  - competencia perfecta
+  - competencia monopolística
+  - monopsonio
+  - integración vertical
+  - integración horizontal
+  - economías de escala
+  - rendimientos decrecientes
+  # ── Macroeconomía ────────────────────────────────────────────────
+  - producto interno bruto
+  - inflación
+  - deflación
+  - estanflación
+  - desempleo
+  - balanza de pagos
+  - balanza comercial
+  - tipo de cambio
+  - paridad del poder adquisitivo
+  - política fiscal
+  - política monetaria
+  - multiplicador keynesiano
+  - curva de Phillips
+  - ciclo económico
+  - recesión
+  - expansión
+  - austeridad
+  - deuda pública
+  - déficit fiscal
+  - superávit
+  # ── Econometría ─────────────────────────────────────────────────
+  - regresión lineal
+  - mínimos cuadrados ordinarios
+  - heteroscedasticidad
+  - autocorrelación
+  - multicolinealidad
+  - series de tiempo
+  - cointegración
+  - causalidad de Granger
+  - modelo VAR
+  - datos de panel
+  - variable instrumental
+  - endogeneidad
+  - prueba de hipótesis
+  - estadístico t
+  - p-valor
+  # ── Finanzas ────────────────────────────────────────────────────
+  - valor presente neto
+  - tasa interna de retorno
+  - tasa de descuento
+  - flujo de efectivo
+  - apalancamiento
+  - rentabilidad
+  - liquidez
+  - solvencia
+  - riesgo sistemático
+  - riesgo idiosincrático
+  - cartera
+  - diversificación
+  - volatilidad
+  - derivado financiero
+  - opción financiera
+  - cobertura
+  - arbitraje
+  - mercado de capitales
+  - mercado de dinero
+  - bursátil
+  # ── Administración ───────────────────────────────────────────────
+  - cadena de valor
+  - ventaja competitiva
+  - benchmarking
+  - balanced scorecard
+  - gobierno corporativo
+  - responsabilidad social
+  - cadena de suministro
+  - justo a tiempo
+  - reingeniería
+  - emprendimiento

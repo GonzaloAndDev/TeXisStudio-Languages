@@ -1,0 +1,120 @@
+id: es-biology
+name: "Biología (Español)"
+native_name: "Biología"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  Vocabulario técnico de biología en español. Cubre biología celular y
+  molecular, genética, ecología, evolución, microbiología y biotecnología.
+  Diseñado para tesis en ciencias biológicas y de la salud.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: es
+
+terms:
+  # ── Biología celular y molecular ────────────────────────────────
+  - célula procariota
+  - célula eucariota
+  - membrana plasmática
+  - citoplasma
+  - mitocondria
+  - ribosoma
+  - retículo endoplásmico
+  - aparato de Golgi
+  - lisosoma
+  - peroxisoma
+  - citoesqueleto
+  - cromatina
+  - nucleosoma
+  - replicación
+  - transcripción
+  - traducción
+  - splicing
+  - proteómica
+  - metabolómica
+  - epigenética
+  # ── Genética ────────────────────────────────────────────────────
+  - alelo
+  - genotipo
+  - fenotipo
+  - dominancia
+  - recesividad
+  - codominancia
+  - ligamiento
+  - recombinación
+  - mutación
+  - polimorfismo
+  - haplotipo
+  - locus
+  - cromosoma
+  - cariotipo
+  - ploidía
+  - expresión génica
+  - regulación génica
+  - silenciamiento
+  - CRISPR
+  - secuenciación
+  # ── Ecología ────────────────────────────────────────────────────
+  - ecosistema
+  - bioma
+  - biodiversidad
+  - cadena trófica
+  - nicho ecológico
+  - hábitat
+  - población
+  - comunidad biótica
+  - sucesión ecológica
+  - biomasa
+  - productividad primaria
+  - ciclo biogeoquímico
+  - depredación
+  - competencia
+  - mutualismo
+  - parasitismo
+  - simbiosis
+  - fragmentación
+  - endemismo
+  - invasión biológica
+  # ── Evolución ───────────────────────────────────────────────────
+  - selección natural
+  - selección sexual
+  - deriva génica
+  - flujo génico
+  - especiación
+  - filogenia
+  - cladística
+  - homología
+  - analogía
+  - convergencia evolutiva
+  - radiación adaptativa
+  - endosimbiosis
+  # ── Microbiología ───────────────────────────────────────────────
+  - bacteria
+  - arquea
+  - virus
+  - bacteriófago
+  - patógeno
+  - cepa
+  - cultivo
+  - espora
+  - quórum sensing
+  - biopelícula
+  - antibiótico
+  - resistencia bacteriana
+  - virulencia
+  # ── Biotecnología ───────────────────────────────────────────────
+  - PCR
+  - electroforesis
+  - clonación molecular
+  - vector
+  - transgénico
+  - organismo genéticamente modificado
+  - fermentación
+  - biorreactor
+  - biofármaco
+  - vacuna recombinante

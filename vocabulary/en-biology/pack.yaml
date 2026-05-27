@@ -1,0 +1,119 @@
+id: en-biology
+name: "Biology (English)"
+native_name: "Biology"
+type: vocabulary
+status: experimental
+version: 0.1.0
+
+description: >
+  English technical vocabulary for biology. Covers cell and molecular biology,
+  genetics, ecology, evolution, microbiology, and biotechnology. Designed for
+  theses in biological and health sciences.
+
+maintainers:
+  - name: TeXisStudio Community
+    contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
+
+base_language_hint: en
+
+terms:
+  # ── Cell & molecular biology ────────────────────────────────────
+  - prokaryote
+  - eukaryote
+  - plasma membrane
+  - cytoplasm
+  - mitochondrion
+  - ribosome
+  - endoplasmic reticulum
+  - Golgi apparatus
+  - lysosome
+  - peroxisome
+  - cytoskeleton
+  - chromatin
+  - nucleosome
+  - replication
+  - transcription
+  - translation
+  - splicing
+  - proteomics
+  - metabolomics
+  - epigenetics
+  # ── Genetics ────────────────────────────────────────────────────
+  - allele
+  - genotype
+  - phenotype
+  - dominance
+  - recessiveness
+  - codominance
+  - linkage
+  - recombination
+  - mutation
+  - polymorphism
+  - haplotype
+  - locus
+  - chromosome
+  - karyotype
+  - ploidy
+  - gene expression
+  - gene regulation
+  - silencing
+  - CRISPR
+  - sequencing
+  # ── Ecology ─────────────────────────────────────────────────────
+  - ecosystem
+  - biome
+  - biodiversity
+  - food chain
+  - ecological niche
+  - habitat
+  - population
+  - biotic community
+  - ecological succession
+  - biomass
+  - primary productivity
+  - biogeochemical cycle
+  - predation
+  - competition
+  - mutualism
+  - parasitism
+  - symbiosis
+  - endemism
+  - invasive species
+  - fragmentation
+  # ── Evolution ───────────────────────────────────────────────────
+  - natural selection
+  - sexual selection
+  - genetic drift
+  - gene flow
+  - speciation
+  - phylogeny
+  - cladistics
+  - homology
+  - analogy
+  - convergent evolution
+  - adaptive radiation
+  - endosymbiosis
+  # ── Microbiology ────────────────────────────────────────────────
+  - bacterium
+  - archaea
+  - bacteriophage
+  - pathogen
+  - strain
+  - sporulation
+  - quorum sensing
+  - biofilm
+  - antibiotic
+  - antimicrobial resistance
+  - virulence
+  - serotype
+  # ── Biotechnology ───────────────────────────────────────────────
+  - PCR
+  - electrophoresis
+  - molecular cloning
+  - vector
+  - transgenic
+  - genetically modified organism
+  - fermentation
+  - bioreactor
+  - biopharmaceutical
+  - recombinant vaccine

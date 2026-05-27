@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "updated_at": "2026-05-27",
   "packages": [
     {
@@ -348,6 +348,46 @@
       "base_language_hint": "en",
       "description": "English legal vocabulary. Common law, civil law, constitutional, administrative, commercial, and procedural law.",
       "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-law/pack.yaml"
+    },
+    {
+      "id": "es-biology",
+      "name": "Biología (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de biología en español. Biología celular y molecular, genética, ecología, evolución, microbiología y biotecnología.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-biology/pack.yaml"
+    },
+    {
+      "id": "en-biology",
+      "name": "Biology (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for biology. Cell and molecular biology, genetics, ecology, evolution, microbiology, and biotechnology.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-biology/pack.yaml"
+    },
+    {
+      "id": "es-economics",
+      "name": "Economía y Negocios (Español)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "es",
+      "description": "Vocabulario técnico de economía, administración y negocios en español. Microeconomía, macroeconomía, econometría, finanzas y administración.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-economics/pack.yaml"
+    },
+    {
+      "id": "en-economics",
+      "name": "Economics & Business (English)",
+      "type": "vocabulary",
+      "status": "experimental",
+      "version": "0.1.0",
+      "base_language_hint": "en",
+      "description": "English technical vocabulary for economics and business. Microeconomics, macroeconomics, econometrics, finance, and management.",
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-economics/pack.yaml"
     }
   ]
 }
