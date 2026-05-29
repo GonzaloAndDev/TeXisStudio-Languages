@@ -1,0 +1,11 @@
+{
+  "polyglossia_name": "japanese",
+  "engine": "xelatex",
+  "font": "Noto Serif CJK JP",
+  "chapter_name": "第",
+  "bibliography_name": "参考文献",
+  "figure_name": "図",
+  "table_name": "表",
+  "abstract_name": "要旨",
+  "contents_name": "目次"
+}

@@ -18,7 +18,7 @@ capabilities:
   latex_babel: true       # \usepackage[brazil]{babel}
   latex_polyglossia: true # \setmainlanguage[variant=brazilian]{portuguese}
 
-spelling_source: "npm:dictionary-pt"
+spelling_source: "vendor:dictionaries/pt-BR (upstream dictionary-pt)"
 spelling_license: LGPL-2.1
 grammar_lt_code: pt-BR
 

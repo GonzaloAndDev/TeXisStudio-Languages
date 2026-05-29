@@ -1,0 +1,24 @@
+id: he
+name: Hebrew
+native_name: עברית
+flag: "🇮🇱"
+status: beta
+version: 1.0.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: false
+  spelling: true
+  autocorrect: false
+  grammar_remote: false
+  grammar_local: false
+  latex_babel: false
+  latex_polyglossia: false
+
+spelling_source: "vendor:dictionaries/he (upstream dictionary-he)"
+spelling_license: "Upstream package license"
+
+notes:
+  - Official TeXisStudio spelling-only pack.

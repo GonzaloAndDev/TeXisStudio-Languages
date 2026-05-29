@@ -1,0 +1,25 @@
+id: de
+name: German
+native_name: Deutsch
+flag: "🇩🇪"
+status: stable
+version: 1.0.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: true
+  spelling: true
+  autocorrect: false
+  grammar_remote: true
+  grammar_local: false
+  latex_babel: true
+  latex_polyglossia: true
+
+spelling_source: "vendor:dictionaries/de"
+spelling_license: "Upstream dictionary-de license"
+grammar_lt_code: de-DE
+
+notes:
+  - Official TeXisStudio downloadable pack.

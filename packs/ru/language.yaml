@@ -18,7 +18,7 @@ capabilities:
   latex_babel: true       # \usepackage[russian]{babel}
   latex_polyglossia: true # \setmainlanguage{russian}
 
-spelling_source: "npm:dictionary-ru"
+spelling_source: "vendor:dictionaries/ru (upstream dictionary-ru)"
 spelling_license: LGPL-2.1
 grammar_lt_code: ru-RU
 

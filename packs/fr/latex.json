@@ -1,0 +1,10 @@
+{
+  "babel_name": "french",
+  "polyglossia_name": "french",
+  "chapter_name": "Chapitre",
+  "bibliography_name": "Bibliographie",
+  "figure_name": "Figure",
+  "table_name": "Tableau",
+  "abstract_name": "Résumé",
+  "contents_name": "Table des matières"
+}

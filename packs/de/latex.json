@@ -1,0 +1,10 @@
+{
+  "babel_name": "ngerman",
+  "polyglossia_name": "german",
+  "chapter_name": "Kapitel",
+  "bibliography_name": "Literaturverzeichnis",
+  "figure_name": "Abbildung",
+  "table_name": "Tabelle",
+  "abstract_name": "Zusammenfassung",
+  "contents_name": "Inhaltsverzeichnis"
+}

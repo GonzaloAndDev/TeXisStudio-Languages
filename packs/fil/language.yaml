@@ -1,0 +1,22 @@
+id: fil
+name: Filipino
+native_name: Filipino
+flag: "🇵🇭"
+status: experimental
+version: 0.1.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: false
+  spelling: false
+  autocorrect: false
+  grammar_remote: false
+  grammar_local: false
+  latex_babel: false
+  latex_polyglossia: false
+
+notes:
+  - Repo-only incubating pack.
+  - Official publication is pending a vetted spelling source and UI translation set.

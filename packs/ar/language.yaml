@@ -1,0 +1,22 @@
+id: ar
+name: Arabic
+native_name: العربية
+flag: "🇸🇦"
+status: experimental
+version: 0.1.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: false
+  spelling: false
+  autocorrect: false
+  grammar_remote: false
+  grammar_local: false
+  latex_babel: false
+  latex_polyglossia: true
+
+notes:
+  - Repo-only incubating pack.
+  - LaTeX support is planned before UI or spelling support becomes official.

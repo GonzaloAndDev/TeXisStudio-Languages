@@ -1,0 +1,11 @@
+{
+  "polyglossia_name": "arabic",
+  "engine": "xelatex",
+  "font": "Amiri",
+  "chapter_name": "الفصل",
+  "bibliography_name": "المراجع",
+  "figure_name": "شكل",
+  "table_name": "جدول",
+  "abstract_name": "الملخص",
+  "contents_name": "المحتويات"
+}

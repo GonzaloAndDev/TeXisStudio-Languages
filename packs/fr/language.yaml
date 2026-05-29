@@ -1,0 +1,25 @@
+id: fr
+name: French
+native_name: Français
+flag: "🇫🇷"
+status: stable
+version: 1.0.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: true
+  spelling: true
+  autocorrect: false
+  grammar_remote: true
+  grammar_local: false
+  latex_babel: true
+  latex_polyglossia: true
+
+spelling_source: "vendor:dictionaries/fr"
+spelling_license: "Upstream dictionary-fr license"
+grammar_lt_code: fr
+
+notes:
+  - Official TeXisStudio downloadable pack.

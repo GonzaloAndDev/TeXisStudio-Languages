@@ -1,0 +1,22 @@
+id: ja
+name: Japanese
+native_name: 日本語
+flag: "🇯🇵"
+status: beta
+version: 1.0.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: true
+  spelling: false
+  autocorrect: false
+  grammar_remote: false
+  grammar_local: false
+  latex_babel: false
+  latex_polyglossia: true
+
+notes:
+  - Official UI + LaTeX pack.
+  - Spell-check is not yet shipped as an official Hunspell pack.

@@ -57,10 +57,9 @@ A language with `spelling: false` will never show the spell-check panel — no s
 |----|----------|----|----------|---------|-------|
 | `es` | Español | ✅ | ✅ | ✅ LT | babel `spanish` |
 | `en` | English | ✅ | ✅ | ✅ LT | babel `english` |
-| `fr` | Français | ✅ | ✅ | ✅ LT | babel `french` |
-| `de` | Deutsch | ✅ | ✅ | ✅ LT | babel `german` |
-| `zh` | 中文 | ✅ | — | — | polyglossia `chinese` |
-| `ja` | 日本語 | ✅ | — | — | polyglossia `japanese` |
+
+> Starting in this cycle, TeXisStudio keeps only `es` and `en` bundled by default.
+> Other languages live in `TeXisStudio-Languages` as official downloadable packs.
 
 ### Community packages (downloadable from Settings → Community)
 
@@ -68,6 +67,23 @@ A language with `spelling: false` will never show the spell-check panel — no s
 |----|----------|----|----------|---------|--------|
 | `ru` | Русский (Russian) | ✅ | ✅ | ✅ LT | stable |
 | `pt-BR` | Português — Brasil | ✅ | ✅ | ✅ LT | stable |
+| `fr` | Français | ✅ | ✅ | ✅ LT | stable |
+| `de` | Deutsch | ✅ | ✅ | ✅ LT | stable |
+| `zh` | 中文 | ✅ | — | — | beta |
+| `ja` | 日本語 | ✅ | — | — | beta |
+| `it` | Italiano | — | ✅ | — | beta |
+| `nl` | Nederlands | — | ✅ | — | beta |
+| `pl` | Polski | — | ✅ | — | beta |
+| `cs` | Čeština | — | ✅ | — | beta |
+| `ro` | Română | — | ✅ | — | beta |
+| `tr` | Türkçe | — | ✅ | — | beta |
+| `uk` | Українська | — | ✅ | — | beta |
+| `sv` | Svenska | — | ✅ | — | beta |
+| `ko` | 한국어 | — | ✅ | — | beta |
+| `vi` | Tiếng Việt | — | ✅ | — | beta |
+| `fa` | فارسی | — | ✅ | — | beta |
+| `he` | עברית | — | ✅ | — | beta |
+| `ar` | العربية | — | — | — | experimental |
 | `th` | ภาษาไทย (Thai) | ✅ | — | — | beta |
 | `hi` | हिन्दी (Hindi) | ✅ | — | — | beta |
 | `nah` | Nāhuatl | ✅ | — | — | experimental |
@@ -75,6 +91,17 @@ A language with `spelling: false` will never show the spell-check panel — no s
 | `tzh` | Batz'il k'op (Tzeltal) | ✅ | — | — | experimental |
 | `mix` | Tu'un Savi (Mixtec) | ✅ | — | — | experimental |
 | `zap` | Diidxazá (Zapotec) | ✅ | — | — | experimental |
+
+> **Dictionary-only packs** — some community packages currently provide native
+> Hunspell spelling support without UI translation or LaTeX localization yet.
+> This is intentional: TeXisStudio should expose real capabilities early without
+> pretending that the whole language stack is complete.
+
+> **Incubating repo-only packs** — some languages may already live in `packs/`
+> with honest metadata before they are exposed in `catalog.json`. This allows
+> the repo to track work in progress without advertising capabilities too early.
+> Current example: `fil` (Filipino), which is kept in-repo until a vetted
+> spelling source and UI translation set are ready.
 
 > **Indigenous Mexican languages** — The five most-spoken indigenous languages of Mexico
 > (INEGI 2020 census: Náhuatl 1.65 M · Maya 860 K · Tzeltal 589 K · Mixtec 529 K · Zapotec 479 K).
@@ -203,8 +230,8 @@ Keep entries minimal; full metadata lives in `language.yaml`.
       "latex_url": "https://raw.githubusercontent.com/.../latex.json",
 
       // Optional — only when capabilities.spelling = true
-      "spelling_aff_url": "https://cdn.jsdelivr.net/npm/dictionary-ru@latest/index.aff",
-      "spelling_dic_url": "https://cdn.jsdelivr.net/npm/dictionary-ru@latest/index.dic",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ru/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ru/index.dic",
 
       // Optional — only when capabilities.autocorrect = true
       "autocorrect_url": "https://raw.githubusercontent.com/.../autocorrect.json"
@@ -224,7 +251,7 @@ Language packs are **data only** — they cannot execute code.
 | No code execution | Packages contain only JSON, YAML, and Hunspell binary dicts. |
 | No path traversal | Paths like `../../../` in any file field are rejected on install. |
 | Atomic installation | Files are downloaded to a temp key, validated, then swapped in localStorage in one operation. A failed download leaves the previous version intact. |
-| CDN pinning | Hunspell dicts are served from jsDelivr CDN (npm `dictionary-*` packages) with known, auditable release hashes. |
+| Official vendoring | Core spelling dictionaries are distributed from this repo under `dictionaries/`, with upstream provenance documented in package metadata. |
 | No telemetry | The app only fetches URLs declared in `catalog.json`. No usage data is sent. |
 | Grammar consent | If `grammar_remote: true`, the app shows an explicit privacy notice before sending text to LanguageTool. |
 
@@ -251,7 +278,8 @@ Language packs are **data only** — they cannot execute code.
 5. **Optional:** Add `autocorrect.json` if you have correction rules.
 
 6. **Optional:** Add Hunspell dictionary URLs to your `catalog.json` entry
-   (prefer npm `dictionary-*` packages via jsDelivr CDN rather than committing large binary files).
+   and document whether TeXisStudio vendors the dictionary directly or references
+   an upstream source temporarily during incubation.
 
 7. **Update** `catalog.json` with your entry and bump `updated_at`.
 
@@ -321,40 +349,57 @@ General-purpose dictionaries don't know words like
 *"acetylcholinesterase"*, *"eigenvalue"*, or *"isogeometric analysis"*.
 Domain dictionaries extend the base language pack for specific fields.
 
-### Planned structure (roadmap)
+### Current structure
 
 ```
-community/dictionaries/
-  medical-es/
-    dict.yaml           ← metadata, license, field: medicine
-    wordlist.txt        ← one word per line (or .aff + .dic for Hunspell)
-  engineering-en/
-    dict.yaml
-    wordlist.txt
-  legal-mx/
-    dict.yaml
-    wordlist.txt
-  computing-es/
-    dict.yaml
-    wordlist.txt
+vocabulary/
+  es-medicine/
+    pack.yaml           ← metadata + terms
+  en-engineering/
+    pack.yaml
+  es-law/
+    pack.yaml
+  en-computing/
+    pack.yaml
 ```
 
-### `dict.yaml` reference (planned)
+### `pack.yaml` reference
 
 ```yaml
-id: medical-es
-name: Medical Spanish
-field: medicine
-base_language: es
-license: CC0-1.0
+id: es-medicine
+name: Medicina (Español)
+type: vocabulary
+base_language_hint: es
+pack_kind: discipline
+discipline: medicine
+subject: medicine
+target_levels:
+  - licenciatura
+  - especialidad
+  - maestria
+  - doctorado
+  - posdoctorado
 version: 1.0.0
 maintainers:
   - name: ...
-word_count: 12000
-sources:
-  - "SNOMED CT Spanish Edition"
-  - "Diccionario de términos médicos — RAE"
+terms:
+  - anatomía
+  - fisiología
+  - farmacología
 ```
+
+### Classification model
+
+Vocabulary packs can now declare:
+
+| Field | Purpose |
+|-------|---------|
+| `base_language_hint` | Suggested pairing language (`es`, `en`, etc.) |
+| `pack_kind` | `general`, `academic`, `discipline`, `subject`, or `program` |
+| `discipline` | Broad academic area like `engineering`, `law`, `biology` |
+| `subject` | Narrower classification inside the discipline |
+| `program_name` | Optional concrete program when a pack is program-specific |
+| `target_levels` | Intended academic levels, e.g. `licenciatura`, `doctorado` |
 
 ### What kinds of domain dictionaries make sense?
 
@@ -371,12 +416,14 @@ sources:
 ### How to contribute a domain dictionary
 
 1. Collect your word list (one word per line, UTF-8).
-2. Create `community/dictionaries/<id>/` with `dict.yaml` and `wordlist.txt`.
-3. Ensure you have the right to redistribute the word list (check its license).
-4. Open a PR — we'll validate format and license before merging.
+2. Create `vocabulary/<id>/pack.yaml` with metadata and `terms:`.
+3. Classify it honestly with `pack_kind`, `discipline`, and `target_levels`.
+4. Ensure you have the right to redistribute the word list (check its license).
+5. Open a PR — we'll validate format and taxonomy before merging.
 
-> Domain dictionaries are **not yet implemented in the app** — this is a planned feature.
-> If you're interested in working on it, open an issue labeled `domain-dicts`.
+> Domain vocabularies are already installable in the app.
+> The current cycle focuses on making their taxonomy strong enough to support
+> future filtering by area, subject, and academic program.
 
 ---
 

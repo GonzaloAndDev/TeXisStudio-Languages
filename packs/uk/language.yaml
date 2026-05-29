@@ -1,0 +1,25 @@
+id: uk
+name: Ukrainian
+native_name: Українська
+flag: "🇺🇦"
+status: beta
+version: 1.0.0
+
+maintainers:
+  - name: TeXisStudio Community
+
+capabilities:
+  ui: false
+  spelling: true
+  autocorrect: false
+  grammar_remote: false
+  grammar_local: false
+  latex_babel: false
+  latex_polyglossia: false
+
+spelling_source: "vendor:dictionaries/uk (upstream dictionary-uk)"
+spelling_license: "Upstream package license"
+
+notes:
+  - Official TeXisStudio spelling-only pack.
+  - UI and LaTeX localization are not yet included.
