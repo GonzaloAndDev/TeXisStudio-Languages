@@ -18,6 +18,14 @@ maintainers:
 # Este paquete es completamente independiente.
 # Compatible con cualquier base language que use caracteres latinos.
 base_language_hint: es  # sugerencia (no restricción)
+pack_kind: discipline
+discipline: engineering
+subject: engineering
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 # Fuente: terminología estándar de ingeniería en español.
 # Los términos son aceptados en todos los diccionarios regionales de español.

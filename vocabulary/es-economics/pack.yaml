@@ -16,6 +16,14 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: es
+pack_kind: discipline
+discipline: economics
+subject: business_and_management
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   # ── Microeconomía ────────────────────────────────────────────────

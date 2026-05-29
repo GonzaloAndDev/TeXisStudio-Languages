@@ -15,6 +15,15 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: en
+pack_kind: discipline
+discipline: medicine
+subject: medicine
+target_levels:
+  - licenciatura
+  - especialidad
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   # ── Anatomy & physiology ─────────────────────────────────────────

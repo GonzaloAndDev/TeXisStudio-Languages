@@ -16,6 +16,14 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: es
+pack_kind: discipline
+discipline: law
+subject: law
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   # ── Teoría del derecho ──────────────────────────────────────────

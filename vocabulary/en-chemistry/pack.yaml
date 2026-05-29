@@ -15,6 +15,14 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: en
+pack_kind: discipline
+discipline: chemistry
+subject: chemistry
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   # ── General chemistry ────────────────────────────────────────────

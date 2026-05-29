@@ -21,9 +21,8 @@ jobs:
           python - <<'PY'
           import json, yaml, pathlib, sys
           errors = []
-          root = pathlib.Path('packs')
-          yaml_files = list(root.rglob('*.yaml'))
-          json_files = list(root.rglob('*.json'))
+          yaml_files = list(pathlib.Path('packs').rglob('*.yaml')) + list(pathlib.Path('vocabulary').rglob('*.yaml'))
+          json_files = list(pathlib.Path('packs').rglob('*.json'))
           for path in yaml_files:
               try:
                   yaml.safe_load(path.read_text(encoding='utf-8'))
@@ -45,6 +44,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, pathlib, sys
+          from urllib.parse import urlparse
           catalog_path = pathlib.Path('catalog.json')
           if not catalog_path.exists():
               print("WARN: catalog.json no encontrado — se omite validacion de catalogo")
@@ -62,13 +62,66 @@ jobs:
           pack_ids = {p['id'] for p in catalog['packages']}
           packs_dir = pathlib.Path('packs')
           errors = []
+          warnings = []
           for pack_dir in sorted(packs_dir.iterdir()):
               if not pack_dir.is_dir():
                   continue
               if pack_dir.name not in pack_ids:
-                  errors.append(f"WARN: directorio '{pack_dir.name}' no tiene entrada en catalog.json")
+                  warnings.append(f"WARN: directorio '{pack_dir.name}' no tiene entrada en catalog.json")
+          for pack_id in sorted(pack_ids):
+              if not (packs_dir / pack_id).is_dir():
+                  errors.append(f"ERROR: catalog.json declara '{pack_id}' pero no existe packs/{pack_id}/")
+          dictionaries_dir = pathlib.Path('dictionaries')
+          for pkg in catalog['packages']:
+              caps = pkg.get('capabilities', {})
+              if caps.get('spelling'):
+                  aff = pkg.get('spelling_aff_url')
+                  dic = pkg.get('spelling_dic_url')
+                  if not aff or not dic:
+                      errors.append(f"ERROR: paquete '{pkg['id']}' marca spelling=true pero no declara URLs .aff/.dic")
+                      continue
+                  for label, url in [('aff', aff), ('dic', dic)]:
+                      parsed = urlparse(url)
+                      if parsed.hostname == 'raw.githubusercontent.com' and 'TeXisStudio-Languages/main/dictionaries/' in parsed.path:
+                          local_rel = parsed.path.split('TeXisStudio-Languages/main/', 1)[1]
+                          local_path = pathlib.Path(local_rel)
+                          if not local_path.exists():
+                              errors.append(f"ERROR: paquete '{pkg['id']}' apunta a {local_rel} pero el archivo no existe")
+                          elif local_path.stat().st_size == 0:
+                              errors.append(f"ERROR: paquete '{pkg['id']}' tiene {local_rel} vacío")
+          # Validate vocabulary_packs if present
+          vocab_packs = catalog.get('vocabulary_packs', [])
+          vocab_dir = pathlib.Path('vocabulary')
+          vocab_required = {'id', 'name', 'type', 'status', 'version', 'base_language_hint', 'description', 'pack_url'}
+          for vp in vocab_packs:
+              vid = vp.get('id', '<unknown>')
+              missing = vocab_required - vp.keys()
+              if missing:
+                  errors.append(f"ERROR: vocabulary_pack '{vid}' faltan campos: {sorted(missing)}")
+              if not (vocab_dir / vid / 'pack.yaml').exists():
+                  errors.append(f"ERROR: vocabulary_pack '{vid}' referencia vocabulary/{vid}/pack.yaml que no existe")
+              pack_url = vp.get('pack_url', '')
+              if pack_url and 'TeXisStudio-Languages/main/vocabulary/' in pack_url:
+                  local_rel = pack_url.split('TeXisStudio-Languages/main/', 1)[1]
+                  if not pathlib.Path(local_rel).exists():
+                      errors.append(f"ERROR: vocabulary_pack '{vid}' apunta a {local_rel} pero el archivo no existe")
+              # Check for duplicate terms inside the pack.yaml
+              pack_path = vocab_dir / vid / 'pack.yaml'
+              if pack_path.exists():
+                  import yaml as _yaml
+                  pack_data = _yaml.safe_load(pack_path.read_text(encoding='utf-8'))
+                  terms = pack_data.get('terms', [])
+                  seen = set()
+                  for t in terms:
+                      if t in seen:
+                          errors.append(f"ERROR: vocabulary_pack '{vid}' tiene término duplicado: '{t}'")
+                      seen.add(t)
+          if warnings:
+              for e in warnings:
+                  print(e)
           if errors:
               for e in errors:
                   print(e)
-          print(f"OK: catalog.json valido con {len(catalog['packages'])} paquetes")
+              sys.exit(1)
+          print(f"OK: catalog.json valido con {len(catalog['packages'])} paquetes y {len(vocab_packs)} vocabulary_packs")
           PY

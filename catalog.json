@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "updated_at": "2026-05-27",
   "packages": [
     {
@@ -10,7 +10,9 @@
       "status": "stable",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -22,8 +24,8 @@
         "latex_polyglossia": true
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ru/ui.json",
-      "spelling_aff_url": "https://cdn.jsdelivr.net/npm/dictionary-ru@latest/index.aff",
-      "spelling_dic_url": "https://cdn.jsdelivr.net/npm/dictionary-ru@latest/index.dic",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ru/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ru/index.dic",
       "autocorrect_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ru/autocorrect.json",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ru/latex.json"
     },
@@ -35,7 +37,9 @@
       "status": "stable",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -47,8 +51,8 @@
         "latex_polyglossia": true
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/pt-BR/ui.json",
-      "spelling_aff_url": "https://cdn.jsdelivr.net/npm/dictionary-pt@latest/index.aff",
-      "spelling_dic_url": "https://cdn.jsdelivr.net/npm/dictionary-pt@latest/index.dic",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pt-BR/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pt-BR/index.dic",
       "autocorrect_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/pt-BR/autocorrect.json",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/pt-BR/latex.json"
     },
@@ -60,7 +64,9 @@
       "status": "beta",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -82,7 +88,9 @@
       "status": "beta",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -104,7 +112,9 @@
       "status": "experimental",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -126,7 +136,9 @@
       "status": "experimental",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -148,7 +160,9 @@
       "status": "experimental",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -170,7 +184,9 @@
       "status": "experimental",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -192,7 +208,9 @@
       "status": "experimental",
       "version": "1.0.0",
       "maintainers": [
-        { "name": "TeXisStudio Community" }
+        {
+          "name": "TeXisStudio Community"
+        }
       ],
       "capabilities": {
         "ui": true,
@@ -205,9 +223,419 @@
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/ui.json",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/latex.json"
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "native_name": "Italiano",
+      "flag": "🇮🇹",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/it/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/it/index.dic"
+    },
+    {
+      "id": "nl",
+      "name": "Dutch",
+      "native_name": "Nederlands",
+      "flag": "🇳🇱",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nl/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nl/index.dic"
+    },
+    {
+      "id": "pl",
+      "name": "Polish",
+      "native_name": "Polski",
+      "flag": "🇵🇱",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pl/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pl/index.dic"
+    },
+    {
+      "id": "cs",
+      "name": "Czech",
+      "native_name": "Čeština",
+      "flag": "🇨🇿",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/cs/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/cs/index.dic"
+    },
+    {
+      "id": "ro",
+      "name": "Romanian",
+      "native_name": "Română",
+      "flag": "🇷🇴",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ro/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ro/index.dic"
+    },
+    {
+      "id": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "flag": "🇹🇷",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tr/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tr/index.dic"
+    },
+    {
+      "id": "uk",
+      "name": "Ukrainian",
+      "native_name": "Українська",
+      "flag": "🇺🇦",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/uk/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/uk/index.dic"
+    },
+    {
+      "id": "sv",
+      "name": "Swedish",
+      "native_name": "Svenska",
+      "flag": "🇸🇪",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/sv/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/sv/index.dic"
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "native_name": "Français",
+      "flag": "🇫🇷",
+      "status": "stable",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": true,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": true,
+        "grammar_local": false,
+        "latex_babel": true,
+        "latex_polyglossia": true
+      },
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/fr/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fr/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fr/index.dic",
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/fr/latex.json"
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "flag": "🇩🇪",
+      "status": "stable",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": true,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": true,
+        "grammar_local": false,
+        "latex_babel": true,
+        "latex_polyglossia": true
+      },
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/de/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/de/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/de/index.dic",
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/de/latex.json"
+    },
+    {
+      "id": "zh",
+      "name": "Chinese",
+      "native_name": "中文",
+      "flag": "🇨🇳",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": true,
+        "spelling": false,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": true
+      },
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zh/ui.json",
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zh/latex.json"
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "native_name": "日本語",
+      "flag": "🇯🇵",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": true,
+        "spelling": false,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": true
+      },
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ja/ui.json",
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ja/latex.json"
+    },
+    {
+      "id": "ko",
+      "name": "Korean",
+      "native_name": "한국어",
+      "flag": "🇰🇷",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ko/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ko/index.dic"
+    },
+    {
+      "id": "vi",
+      "name": "Vietnamese",
+      "native_name": "Tiếng Việt",
+      "flag": "🇻🇳",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/vi/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/vi/index.dic"
+    },
+    {
+      "id": "fa",
+      "name": "Persian",
+      "native_name": "فارسی",
+      "flag": "🇮🇷",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fa/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fa/index.dic"
+    },
+    {
+      "id": "he",
+      "name": "Hebrew",
+      "native_name": "עברית",
+      "flag": "🇮🇱",
+      "status": "beta",
+      "version": "1.0.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": true,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": false
+      },
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/he/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/he/index.dic"
+    },
+    {
+      "id": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "flag": "🇸🇦",
+      "status": "experimental",
+      "version": "0.1.0",
+      "maintainers": [
+        {
+          "name": "TeXisStudio Community"
+        }
+      ],
+      "capabilities": {
+        "ui": false,
+        "spelling": false,
+        "autocorrect": false,
+        "grammar_remote": false,
+        "grammar_local": false,
+        "latex_babel": false,
+        "latex_polyglossia": true
+      },
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ar/latex.json"
     }
   ],
-
   "vocabulary_packs": [
     {
       "id": "es-engineering",
@@ -217,7 +645,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de ingeniería en español. Ingeniería civil, mecánica, eléctrica, electrónica y de sistemas.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-engineering/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-engineering/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "engineering",
+      "subject": "engineering",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-mathematics",
@@ -227,7 +664,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario de matemáticas avanzadas en español. Álgebra lineal, cálculo, estadística, topología.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-mathematics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-mathematics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "mathematics",
+      "subject": "mathematics",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-engineering",
@@ -237,7 +683,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "Technical engineering vocabulary in English. Civil, mechanical, electrical, electronic, and systems engineering.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-engineering/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-engineering/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "engineering",
+      "subject": "engineering",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-mathematics",
@@ -247,7 +702,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "Advanced mathematics vocabulary in English. Linear algebra, calculus, statistics, topology, logic.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-mathematics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-mathematics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "mathematics",
+      "subject": "mathematics",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-chemistry",
@@ -257,7 +721,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de química en español. Química general, orgánica, inorgánica, analítica, fisicoquímica y bioquímica.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-chemistry/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-chemistry/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "chemistry",
+      "subject": "chemistry",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-chemistry",
@@ -267,7 +740,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for chemistry. General, organic, inorganic, analytical, physical chemistry, and biochemistry.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-chemistry/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-chemistry/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "chemistry",
+      "subject": "chemistry",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-physics",
@@ -277,7 +759,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de física en español. Mecánica clásica, termodinámica, electromagnetismo, óptica, mecánica cuántica y estado sólido.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-physics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-physics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "physics",
+      "subject": "physics",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-physics",
@@ -287,7 +778,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for physics. Classical mechanics, thermodynamics, electromagnetism, optics, quantum mechanics, solid-state.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-physics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-physics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "physics",
+      "subject": "physics",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-medicine",
@@ -297,7 +797,17 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico médico en español. Anatomía, fisiología, patología, farmacología y epidemiología.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-medicine/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-medicine/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "medicine",
+      "subject": "medicine",
+      "target_levels": [
+        "licenciatura",
+        "especialidad",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-medicine",
@@ -307,7 +817,17 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for medicine. Anatomy, physiology, pathology, pharmacology, and epidemiology.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-medicine/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-medicine/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "medicine",
+      "subject": "medicine",
+      "target_levels": [
+        "licenciatura",
+        "especialidad",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-computing",
@@ -317,7 +837,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de ciencias de la computación en español. Algoritmos, sistemas operativos, redes, IA, bases de datos y seguridad.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-computing/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-computing/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "computing",
+      "subject": "computer_science",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-computing",
@@ -327,7 +856,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for computer science. Data structures, OS, networking, AI, databases, and cybersecurity.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-computing/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-computing/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "computing",
+      "subject": "computer_science",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-law",
@@ -337,7 +875,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario jurídico en español. Derecho civil, penal, constitucional, administrativo, mercantil y procesal. Contexto latinoamericano.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-law/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-law/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "law",
+      "subject": "law",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-law",
@@ -347,7 +894,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English legal vocabulary. Common law, civil law, constitutional, administrative, commercial, and procedural law.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-law/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-law/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "law",
+      "subject": "law",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-biology",
@@ -357,7 +913,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de biología en español. Biología celular y molecular, genética, ecología, evolución, microbiología y biotecnología.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-biology/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-biology/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "biology",
+      "subject": "biology",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-biology",
@@ -367,7 +932,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for biology. Cell and molecular biology, genetics, ecology, evolution, microbiology, and biotechnology.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-biology/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-biology/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "biology",
+      "subject": "biology",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "es-economics",
@@ -377,7 +951,16 @@
       "version": "0.1.0",
       "base_language_hint": "es",
       "description": "Vocabulario técnico de economía, administración y negocios en español. Microeconomía, macroeconomía, econometría, finanzas y administración.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-economics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/es-economics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "economics",
+      "subject": "business_and_management",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     },
     {
       "id": "en-economics",
@@ -387,7 +970,16 @@
       "version": "0.1.0",
       "base_language_hint": "en",
       "description": "English technical vocabulary for economics and business. Microeconomics, macroeconomics, econometrics, finance, and management.",
-      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-economics/pack.yaml"
+      "pack_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/vocabulary/en-economics/pack.yaml",
+      "pack_kind": "discipline",
+      "discipline": "economics",
+      "subject": "business_and_management",
+      "target_levels": [
+        "licenciatura",
+        "maestria",
+        "doctorado",
+        "posdoctorado"
+      ]
     }
   ]
 }

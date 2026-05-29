@@ -16,6 +16,14 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: es
+pack_kind: discipline
+discipline: computing
+subject: computer_science
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   # ── Estructuras de datos y algoritmos ───────────────────────────

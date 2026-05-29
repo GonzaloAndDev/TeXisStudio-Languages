@@ -15,6 +15,14 @@ maintainers:
     contact: https://github.com/GonzaloAndDev/TeXisStudio-Languages
 
 base_language_hint: en
+pack_kind: discipline
+discipline: mathematics
+subject: mathematics
+target_levels:
+  - licenciatura
+  - maestria
+  - doctorado
+  - posdoctorado
 
 terms:
   - eigenvalue
