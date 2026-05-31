@@ -1,7 +1,9 @@
 # TeXisStudio — Community Language Packages
 
-Downloadable language packs that extend TeXisStudio without inflating the installer.
-Born in Mexico, built for the world — including minority and indigenous languages.
+> Paquetes de idioma descargables que extienden TeXisStudio sin inflar el instalador.  
+> Nacido en México, construido para el mundo — incluyendo lenguas minorizadas e indígenas.
+
+Parte del ecosistema **[TeXisStudio](../TeXisStudio/README.md)** · También: [TeXisStudio-Plugins](../TeXisStudio-Plugins/README.md)
 
 ---
 
