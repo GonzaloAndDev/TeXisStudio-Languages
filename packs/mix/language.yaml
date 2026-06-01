@@ -11,7 +11,7 @@ maintainers:
 
 capabilities:
   ui: true
-  spelling: false         # No Hunspell dictionary for any Mixtec variety exists yet.
+  spelling: true          # Experimental seed Hunspell dictionary; native-speaker and licensing review required.
   autocorrect: false
   grammar_remote: false   # LanguageTool does not support Mixtec
   grammar_local: false
@@ -23,6 +23,9 @@ notes:
   - "'Tu''un Savi' = language of the rain (Mixtec self-designation)."
   - Mixtec is an Oto-Manguean tonal language with many varieties (Oaxaca, Guerrero, Puebla).
   - This translation uses a broadly intelligible Mixtec base; regional variants may differ.
+  - Includes an experimental seed spelling dictionary extracted from the Magdalena Peñasco Mixtec dictionary.
+  - Treat the spelling dictionary as aid data, not as a normative or pan-variant dictionary.
+  - Source license status needs manual review before any stable release.
   - Orthography follows INALI recommendations; tone marks may vary by variety.
   - Uses Latin script with glottal stops and tone diacritics.
   - XeLaTeX recommended for Unicode support.

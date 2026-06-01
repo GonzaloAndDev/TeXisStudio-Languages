@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "language_code": "zap",
+  "generated_at": "2026-06-01",
+  "status": "experimental_seed",
+  "source": "Diccionario Zapoteco (diꞌdz xiꞌdzaꞌ), San Juan Jaltepec, Santiago Yaveo, Sierra Norte de Oaxaca, Ernesto Hernández Andrade and Oscar López Nicolás, 2022",
+  "license_status": "needs_manual_review_before_stable_release",
+  "word_count": 1746,
+  "notes": [
+    "Generated from uploaded PDF text extraction.",
+    "Do not mark as stable without native-speaker review.",
+    "Do not treat this as a general pan-variant dictionary."
+  ]
+}

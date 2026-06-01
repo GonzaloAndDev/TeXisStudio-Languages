@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "language_code": "mix",
+  "generated_at": "2026-06-01",
+  "status": "experimental_seed",
+  "source": "Diccionario mixteco de Magdalena Peñasco (Saꞌan Ñuu Savi), Elena Erickson de Hollenbach, Instituto Lingüístico de Verano, A.C., 2017",
+  "license_status": "needs_manual_review_before_stable_release",
+  "word_count": 6614,
+  "notes": [
+    "Generated from uploaded PDF text extraction.",
+    "Do not mark as stable without native-speaker review.",
+    "Do not treat this as a general pan-variant dictionary."
+  ]
+}

@@ -11,7 +11,7 @@ maintainers:
 
 capabilities:
   ui: true
-  spelling: false         # No Hunspell dictionary for any Zapotec variety exists yet.
+  spelling: true          # Experimental seed Hunspell dictionary; native-speaker and licensing review required.
   autocorrect: false
   grammar_remote: false   # LanguageTool does not support Zapotec
   grammar_local: false
@@ -24,9 +24,12 @@ notes:
   - "'Binnizá' = Zapotec people."
   - Isthmus Zapotec spoken in Tehuantepec and Juchitán de Zaragoza, Oaxaca.
   - Many Zapotec varieties exist across the Sierra Juárez, Valles Centrales, etc.
+  - Includes an experimental seed spelling dictionary extracted from a San Juan Jaltepec Zapotec dictionary.
+  - Treat the spelling dictionary as aid data, not as a normative or pan-variant dictionary.
+  - Source license status needs manual review before any stable release.
   - Uses Latin script with apostrophe for glottal stop, tonal diacritics.
   - XeLaTeX recommended for proper Unicode rendering.
-  - No Hunspell dictionary or LanguageTool support available.
+  - No LanguageTool support available.
 
 latex:
   engine: xelatex

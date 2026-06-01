@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4",
-  "updated_at": "2026-05-27",
+  "updated_at": "2026-06-01",
   "packages": [
     {
       "id": "ru",
@@ -190,7 +190,7 @@
       ],
       "capabilities": {
         "ui": true,
-        "spelling": false,
+        "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
         "grammar_local": false,
@@ -198,6 +198,8 @@
         "latex_polyglossia": false
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/mix/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/mix/index.dic",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/latex.json"
     },
     {
@@ -214,7 +216,7 @@
       ],
       "capabilities": {
         "ui": true,
-        "spelling": false,
+        "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
         "grammar_local": false,
@@ -222,6 +224,8 @@
         "latex_polyglossia": false
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/zap/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/zap/index.dic",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/latex.json"
     },
     {
