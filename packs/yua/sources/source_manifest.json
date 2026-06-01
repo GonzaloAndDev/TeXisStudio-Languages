@@ -1,0 +1,26 @@
+{
+  "language": "Yucatec Maya",
+  "bcp47": "yua",
+  "package_status": "experimental",
+  "generated_at": "2026-06-01",
+  "entry_count": 3450,
+  "license_status": "needs_manual_review_before_stable_release",
+  "sources": [
+    {
+      "uploaded_filename": "lc_otro_005.pdf",
+      "title": "Diccionario introductorio Español-Maya / Maya-Español",
+      "author": "Javier Abelardo Gómez Navarrete",
+      "institution": "Universidad de Quintana Roo",
+      "year": "2009",
+      "observed_rights_notice": "No explicit open redistribution license found in parsed text.",
+      "usage_in_seed": "candidate headwords extracted from Maya-Spanish section"
+    }
+  ],
+  "normalization": [
+    "Unicode NFC",
+    "Curly apostrophes normalized to straight apostrophe",
+    "Lowercase output",
+    "Deduplicated unique word forms",
+    "No AI-generated or inferred words"
+  ]
+}

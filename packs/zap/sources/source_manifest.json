@@ -3,12 +3,38 @@
   "language_code": "zap",
   "generated_at": "2026-06-01",
   "status": "experimental_seed",
-  "source": "Diccionario Zapoteco (diꞌdz xiꞌdzaꞌ), San Juan Jaltepec, Santiago Yaveo, Sierra Norte de Oaxaca, Ernesto Hernández Andrade and Oscar López Nicolás, 2022",
-  "license_status": "needs_manual_review_before_stable_release",
-  "word_count": 1746,
+  "word_count": 6458,
+  "license_status": "source_specific_review_required_before_stable_release",
+  "sources": [
+    {
+      "title": "Diccionario Zapoteco (di'dz xi'dza') San Juan Jaltepec, Santiago Yaveo",
+      "type": "uploaded_pdf",
+      "variant": "Zapotec of San Juan Jaltepec / Santiago Yaveo",
+      "license_status": "needs_review"
+    },
+    {
+      "title": "Vocabulario Zapoteco del Istmo",
+      "type": "uploaded_pdf",
+      "variant": "Isthmus Zapotec / Juchitán",
+      "license_status": "needs_review"
+    },
+    {
+      "title": "Xke'ch Dizdea - Libro zapoteco",
+      "type": "uploaded_pdf",
+      "variant": "Zapotec of San Bartolo Yautepec",
+      "license_status": "all_rights_reserved_distribution_free; needs permission for stable redistribution"
+    },
+    {
+      "title": "Diccionario del Zapoteco de Teotitlán del Valle",
+      "type": "uploaded_pdf",
+      "variant": "Teotitlán del Valle Zapotec",
+      "license_status": "freely usable for non-commercial purposes with credit; needs review for app distribution"
+    }
+  ],
   "notes": [
-    "Generated from uploaded PDF text extraction.",
-    "Do not mark as stable without native-speaker review.",
-    "Do not treat this as a general pan-variant dictionary."
+    "Hardened Zapotec seed merges multiple clearly labeled Zapotec varieties.",
+    "Do not present this as a unified standard Zapotec dictionary.",
+    "Best use: broad experimental spell-check seed until per-variant packages are split.",
+    "Recommended future split: zai for Isthmus Zapotec, plus separate local metadata for San Juan Jaltepec, San Bartolo Yautepec, and Teotitlán del Valle."
   ]
 }

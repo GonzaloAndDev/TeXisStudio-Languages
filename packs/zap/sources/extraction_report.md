@@ -1,41 +1,60 @@
-# Extraction report — Zapotec seed dictionary — San Juan Jaltepec
+# Extraction report - Zapotec (zap)
 
 - Generated at: 2026-06-01
-- Source: Diccionario Zapoteco (diꞌdz xiꞌdzaꞌ), San Juan Jaltepec, Santiago Yaveo, Sierra Norte de Oaxaca, Ernesto Hernández Andrade and Oscar López Nicolás, 2022
-- Raw candidate count: 1971
-- Clean unique word count: 1746
-- Status: seed dictionary; requires native-speaker and licensing review before stable release.
+- Clean unique word count: 6458
+- Status: experimental seed dictionary; requires native-speaker review before stable release.
+
+## Raw candidates by source
+
+- San Juan Jaltepec / Santiago Yaveo: 1900
+- Isthmus Zapotec / Juchitán: 2588
+- San Bartolo Yautepec / Dizdea: 436
+- Teotitlán del Valle: 2067
 
 ## Initial-letter distribution
 
-- `a`: 13
-- `b`: 217
-- `c`: 18
-- `d`: 86
-- `f`: 2
-- `g`: 155
-- `i`: 17
-- `j`: 1
-- `k`: 77
-- `l`: 113
-- `m`: 17
-- `n`: 81
-- `o`: 11
-- `p`: 23
-- `r`: 573
-- `s`: 26
-- `t`: 46
+- `a`: 37
+- `b`: 712
+- `c`: 142
+- `d`: 237
+- `e`: 17
+- `f`: 8
+- `g`: 809
+- `h`: 25
+- `i`: 53
+- `j`: 21
+- `k`: 183
+- `l`: 300
+- `m`: 161
+- `n`: 615
+- `o`: 21
+- `p`: 107
+- `q`: 1
+- `r`: 1949
+- `s`: 136
+- `t`: 135
+- `u`: 29
+- `v`: 1
 - `w`: 68
-- `x`: 115
-- `y`: 74
-- `z`: 3
+- `x`: 355
+- `y`: 156
+- `z`: 165
 - `á`: 5
+- `â`: 1
 - `í`: 4
-- `ó`: 1
+- `ñ`: 3
+- `ó`: 2
+
+## Notes
+
+- Hardened Zapotec seed merges multiple clearly labeled Zapotec varieties.
+- Do not present this as a unified standard Zapotec dictionary.
+- Best use: broad experimental spell-check seed until per-variant packages are split.
+- Recommended future split: zai for Isthmus Zapotec, plus separate local metadata for San Juan Jaltepec, San Bartolo Yautepec, and Teotitlán del Valle.
 
 ## Known limitations
 
-- Extracted automatically from parsed PDF text; OCR/PDF column ordering can introduce noise.
-- Multi-word entries are preserved when they appear as lexical headwords.
+- Extracted automatically from uploaded source files; PDF column order and OCR/text extraction can introduce noise.
 - No Hunspell affix rules are inferred yet.
-- This file should be treated as experimental seed data, not as a normative dictionary.
+- Multi-word lexical items are preserved when they look like headwords.
+- Treat as spell-check seed data, not as a normative or pan-variant dictionary.

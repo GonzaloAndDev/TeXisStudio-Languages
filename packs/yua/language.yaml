@@ -11,7 +11,7 @@ maintainers:
 
 capabilities:
   ui: true
-  spelling: false         # No Hunspell dictionary for Yucatec Maya exists yet.
+  spelling: true          # Experimental seed Hunspell dictionary; native-speaker and licensing review required.
   autocorrect: false
   grammar_remote: false   # LanguageTool does not support Yucatec Maya
   grammar_local: false
@@ -23,7 +23,10 @@ notes:
   - Orthography follows the unified Maya alphabet (alfabeto maya unificado, INALI 2014).
   - Uses Latin script; glottal stop written as apostrophe (').
   - XeLaTeX recommended for correct rendering of special characters.
-  - No Hunspell dictionary available; no LanguageTool grammar support.
+  - Includes an experimental spelling seed from an introductory Spanish-Maya / Maya-Spanish source.
+  - This package targets Yucatec Maya / Maya Peninsular, not all Mayan languages.
+  - Source license status needs manual review before any stable release.
+  - No LanguageTool grammar support.
 
 latex:
   engine: xelatex

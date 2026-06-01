@@ -1,0 +1,7 @@
+SET UTF-8
+FLAG UTF-8
+TRY aeiouáéíóúbcchgjklmnñpsttltsxxy'-
+WORDCHARS '-
+
+# Minimal seed dictionary.
+# No affix rules are declared yet because this package is experimental.

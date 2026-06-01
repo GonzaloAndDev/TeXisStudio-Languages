@@ -1,5 +1,5 @@
 SET UTF-8
-TRY aeiouáéíóúàèìòùâêîôûäëïöübcchdɨfghjklmnñopqrstuvwxyz'ʼ-
+TRY aeioubchjklmnoprstwxy'-
 
 # Minimal seed affix file. No affix rules are declared yet.
 # This dictionary is experimental and variant-sensitive.

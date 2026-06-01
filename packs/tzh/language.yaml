@@ -11,7 +11,7 @@ maintainers:
 
 capabilities:
   ui: true
-  spelling: false         # No Hunspell dictionary for Tzeltal exists yet.
+  spelling: true          # Experimental seed Hunspell dictionary; native-speaker and licensing review required.
   autocorrect: false
   grammar_remote: false   # LanguageTool does not support Tzeltal
   grammar_local: false
@@ -24,7 +24,10 @@ notes:
   - Orthography follows INALI Tzeltal guidelines; uses Latin script with ejectives (').
   - Spoken primarily in Chiapas (Oxchuc, Tenejapa, Amatenango, etc.).
   - XeLaTeX recommended for proper Unicode support.
-  - No Hunspell dictionary or LanguageTool support available.
+  - Includes an experimental spelling seed generated from canonical \lx entries in an uploaded SFM database.
+  - Multidialectal Tseltal; do not treat as a normative single-variety dictionary.
+  - Source license status needs manual review before any stable release.
+  - No LanguageTool support available.
 
 latex:
   engine: xelatex

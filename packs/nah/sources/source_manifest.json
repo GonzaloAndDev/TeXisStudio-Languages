@@ -1,0 +1,41 @@
+{
+  "language": "Nahuatl",
+  "bcp47": "nah",
+  "package_status": "experimental",
+  "generated_at": "2026-06-01",
+  "entry_count": 6716,
+  "license_status": "needs_manual_review_before_stable_release",
+  "sources": [
+    {
+      "uploaded_filename": "diccionario_biligue_nahuatl_esp.pdf",
+      "title": "Diccionario bilingüe Náhuatl-Español. En defensa del náhuatl en el México moderno",
+      "author": "Marcos Hilario Cruz",
+      "year": "2018",
+      "observed_rights_notice": "All rights reserved notice in uploaded PDF.",
+      "usage_in_seed": "candidate headwords extracted from Náhuatl-Spanish entries"
+    },
+    {
+      "uploaded_filename": "diccionario_nahuatl_hueyapan_comunicadores_indigenas_v2016.pdf",
+      "title": "Ejercicios para el aprendizaje de la lengua náhuatl de Hueyapan y diccionario español-náhuatl",
+      "author": "Marcelino Montero Baeza",
+      "year": "2016 electronic edition",
+      "observed_rights_notice": "Public-program funding notice; no explicit open redistribution license found in parsed text.",
+      "usage_in_seed": "right-column Nahuatl translation tokens extracted from dictionary pages"
+    },
+    {
+      "uploaded_filename": "vocabulario_nahuatl_WEB.pdf",
+      "title": "Vocabulario básico Náhuatl-Español",
+      "author": "Fernando Silva Hernández / Secretaría de Educación Pública de Hidalgo",
+      "year": "2014",
+      "observed_rights_notice": "Free distribution / sale prohibited notice; no explicit open redistribution license found in parsed text.",
+      "usage_in_seed": "candidate headwords extracted from Nahuatl-Spanish entries"
+    }
+  ],
+  "normalization": [
+    "Unicode NFC",
+    "Curly apostrophes normalized to straight apostrophe",
+    "Lowercase output",
+    "Deduplicated unique word forms",
+    "No AI-generated or inferred words"
+  ]
+}

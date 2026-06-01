@@ -11,8 +11,7 @@ maintainers:
 
 capabilities:
   ui: true
-  spelling: false         # No Hunspell dictionary for Nahuatl exists yet.
-                          # Contribution welcome: see community/dictionaries/README.md
+  spelling: true          # Experimental seed Hunspell dictionary; native-speaker and licensing review required.
   autocorrect: false
   grammar_remote: false   # LanguageTool does not support Nahuatl
   grammar_local: false
@@ -24,7 +23,9 @@ notes:
   - Orthography follows INALI guidelines (SEP/UNAM modern standard).
   - Latin script with macrons for long vowels (ā, ē, ī, ō).
   - XeLaTeX recommended for proper Unicode rendering.
-  - No Hunspell dictionary available; contributions from native speakers welcome.
+  - Includes an experimental spelling seed generated from several uploaded Nahuatl PDF sources.
+  - Mixes several Nahuatl variants; do not treat as a normative or pan-Nahuatl dictionary.
+  - Source license status needs manual review before any stable release.
   - Grammar check: LanguageTool does not yet support Nahuatl (hi-IN used as fallback placeholder).
 
 latex:

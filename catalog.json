@@ -118,7 +118,7 @@
       ],
       "capabilities": {
         "ui": true,
-        "spelling": false,
+        "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
         "grammar_local": false,
@@ -126,6 +126,8 @@
         "latex_polyglossia": false
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nah/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nah/index.dic",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/latex.json"
     },
     {
@@ -142,7 +144,7 @@
       ],
       "capabilities": {
         "ui": true,
-        "spelling": false,
+        "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
         "grammar_local": false,
@@ -150,6 +152,8 @@
         "latex_polyglossia": false
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/yua/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/yua/index.dic",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/latex.json"
     },
     {
@@ -166,7 +170,7 @@
       ],
       "capabilities": {
         "ui": true,
-        "spelling": false,
+        "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
         "grammar_local": false,
@@ -174,6 +178,8 @@
         "latex_polyglossia": false
       },
       "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/ui.json",
+      "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tzh/index.aff",
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tzh/index.dic",
       "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/latex.json"
     },
     {

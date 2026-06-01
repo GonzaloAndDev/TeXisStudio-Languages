@@ -20,6 +20,10 @@ The dictionaries vendored here must meet all of the following:
 - compatible with Hunspell (`.aff` + `.dic`)
 - stable URL or upstream package provenance
 
+Experimental seed dictionaries are the exception: they may live here while they
+are reviewed, but their package metadata and source report must clearly mark
+them as non-stable, source-limited, and pending native-speaker/licensing review.
+
 ## Scope
 
 Current coverage is intentionally focused on languages with mature Hunspell
@@ -28,6 +32,7 @@ resources and good value for academic writing:
 - `en`, `es`, `fr`, `de`
 - `pt-BR`, `ru`
 - `it`, `nl`, `pl`, `cs`, `ro`, `tr`, `uk`, `sv`
+- experimental seeds: `nah`, `yua`, `tzh`, `mix`, `zap`
 
 ## Non-Latin-script note
 
@@ -39,10 +44,10 @@ support where tokenization, morphology, or upstream quality are still unclear:
 - Japanese
 - Hindi
 - Thai
-- indigenous Mexican languages
+- indigenous Mexican languages without reviewed spelling seeds
 
-Those languages may still exist as UI/LaTeX packs, but not yet as official
-Hunspell spelling packs.
+Those languages may still exist as UI/LaTeX packs, or as explicitly marked
+experimental seed spelling packs.
 
 ## Provenance
 

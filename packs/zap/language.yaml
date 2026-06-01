@@ -7,7 +7,7 @@ version: 1.0.0
 
 maintainers:
   - name: TeXisStudio Community
-    note: "Seeking native Zapotec speakers — contributions welcome. This translation uses Isthmus Zapotec (Tehuantepec/Juchitán) as a base variety."
+    note: "Seeking native Zapotec speakers — contributions welcome. This pack now uses a hardened multi-source spelling seed."
 
 capabilities:
   ui: true
@@ -22,11 +22,11 @@ notes:
   - Translations are experimental — native speaker review strongly encouraged.
   - "'Diidxazá' = Zapotec language (Isthmus variety self-designation)."
   - "'Binnizá' = Zapotec people."
-  - Isthmus Zapotec spoken in Tehuantepec and Juchitán de Zaragoza, Oaxaca.
-  - Many Zapotec varieties exist across the Sierra Juárez, Valles Centrales, etc.
-  - Includes an experimental seed spelling dictionary extracted from a San Juan Jaltepec Zapotec dictionary.
-  - Treat the spelling dictionary as aid data, not as a normative or pan-variant dictionary.
-  - Source license status needs manual review before any stable release.
+  - Hardened Zapotec seed merges multiple clearly labeled Zapotec varieties.
+  - Sources include San Juan Jaltepec/Santiago Yaveo, Isthmus Zapotec/Juchitán, San Bartolo Yautepec, and Teotitlán del Valle.
+  - Treat the spelling dictionary as broad experimental aid data, not as a normative or pan-variant dictionary.
+  - Recommended future split: zai for Isthmus Zapotec plus separate local metadata for the other varieties.
+  - Source-specific license status needs manual review before any stable release.
   - Uses Latin script with apostrophe for glottal stop, tonal diacritics.
   - XeLaTeX recommended for proper Unicode rendering.
   - No LanguageTool support available.

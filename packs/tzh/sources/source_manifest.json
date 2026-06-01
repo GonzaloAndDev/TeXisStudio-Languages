@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "language_code": "tzh",
+  "generated_at": "2026-06-01",
+  "status": "experimental_seed",
+  "word_count": 6961,
+  "license_status": "source_specific_review_required_before_stable_release",
+  "sources": [
+    {
+      "title": "Tseltal-Spanish multidialectal dictionary / db.sfm",
+      "type": "uploaded_sfm",
+      "variant": "Multidialectal Tseltal",
+      "license_status": "verify against upstream Dictionaria release; commonly distributed as open lexical data with attribution"
+    }
+  ],
+  "notes": [
+    "Generated from canonical \\lx entries in the uploaded SFM database.",
+    "Multidialectal Tseltal; includes data from several dialect areas.",
+    "No inflectional Hunspell rules are generated yet."
+  ]
+}

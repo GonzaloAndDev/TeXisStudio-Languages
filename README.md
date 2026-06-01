@@ -91,9 +91,9 @@ A language with `spelling: false` will never show the spell-check panel — no s
 | `ar` | العربية | — | — | — | experimental |
 | `th` | ภาษาไทย (Thai) | ✅ | — | — | beta |
 | `hi` | हिन्दी (Hindi) | ✅ | — | — | beta |
-| `nah` | Nāhuatl | ✅ | — | — | experimental |
-| `yua` | Maaya t'aan (Yucatec Maya) | ✅ | — | — | experimental |
-| `tzh` | Batz'il k'op (Tzeltal) | ✅ | — | — | experimental |
+| `nah` | Nāhuatl | ✅ | seed | — | experimental |
+| `yua` | Maaya t'aan (Yucatec Maya) | ✅ | seed | — | experimental |
+| `tzh` | Batz'il k'op (Tzeltal) | ✅ | seed | — | experimental |
 | `mix` | Tu'un Savi (Mixtec) | ✅ | seed | — | experimental |
 | `zap` | Diidxazá (Zapotec) | ✅ | seed | — | experimental |
 
@@ -111,10 +111,9 @@ A language with `spelling: false` will never show the spell-check panel — no s
 > **Indigenous Mexican languages** — The five most-spoken indigenous languages of Mexico
 > (INEGI 2020 census: Náhuatl 1.65 M · Maya 860 K · Tzeltal 589 K · Mixtec 529 K · Zapotec 479 K).
 > Translations are experimental and need native-speaker review.
-> Mixtec and Zapotec now include experimental seed Hunspell dictionaries extracted
-> from published lexical sources. They are useful for testing spell-check plumbing,
+> These five indigenous-language packs now include experimental seed Hunspell dictionaries
+> extracted from lexical sources. They are useful for testing spell-check plumbing,
 > but they still require native-speaker and licensing review before any stable release.
-> Náhuatl, Maya and Tzeltal still need spelling dictionary contributions.
 
 ---
 
@@ -455,9 +454,11 @@ please open a PR to upgrade it to `beta`. Full native-speaker review → `stable
 | Portuguese (`pt-BR`) | [`dictionary-pt`](https://www.npmjs.com/package/dictionary-pt) via jsDelivr | LGPL 2.1 |
 | Thai (`th`) | No open Hunspell dict — Thai requires libthai word segmentation | — |
 | Hindi (`hi`) | No reliable open Hunspell dict | — |
+| Nahuatl (`nah`) | Seed dictionary from uploaded Nahuatl PDF sources, including Náhuatl-Español and Hueyapan materials | Needs manual review before stable release |
+| Yucatec Maya (`yua`) | Seed dictionary from *Diccionario introductorio Español-Maya / Maya-Español*, Javier Abelardo Gómez Navarrete, Universidad de Quintana Roo, 2009 | Needs manual review before stable release |
+| Tzeltal (`tzh`) | Seed dictionary from canonical `\lx` entries in an uploaded Tseltal-Spanish multidialectal SFM database | Needs manual review before stable release |
 | Mixtec (`mix`) | Seed dictionary from *Diccionario mixteco de Magdalena Peñasco (Saꞌan Ñuu Savi)*, Elena Erickson de Hollenbach, Instituto Lingüístico de Verano, A.C., 2017 | Needs manual review before stable release |
-| Zapotec (`zap`) | Seed dictionary from *Diccionario Zapoteco (diꞌdz xiꞌdzaꞌ)*, San Juan Jaltepec, Santiago Yaveo, Sierra Norte de Oaxaca, Ernesto Hernández Andrade and Oscar López Nicolás, 2022 | Needs manual review before stable release |
-| Náhuatl, Maya, Tzeltal | No Hunspell dict exists yet | **Contributions welcome** |
+| Zapotec (`zap`) | Hardened multi-source seed dictionary covering clearly labeled Zapotec varieties: San Juan Jaltepec/Santiago Yaveo, Isthmus/Juchitán, San Bartolo Yautepec, and Teotitlán del Valle | Source-specific review required before stable release |
 
 Most dictionary binary files (`.aff`, `.dic`) are fetched from jsDelivr CDN at install time
 and cached by the browser. Small experimental seed dictionaries may be committed directly
