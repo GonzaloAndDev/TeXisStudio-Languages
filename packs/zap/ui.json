@@ -61,6 +61,8 @@
     "level_licenciatura": "Licenciatura",
     "level_maestria": "Maestría",
     "level_doctorado": "Doctorado",
+    "level_especialidad": "Especialidad",
+    "level_posdoctorado": "Posdoctorado",
     "level_bachillerato": "Bachillerato",
     "level_tecnico": "Técnico"
   },
@@ -170,7 +172,9 @@
     "dismiss": "Ca'",
     "auto_check": "Riní nuu guidxi",
     "check_now": "Riní dxi",
-    "error_api": "Ca' runi LanguageTool. Riní ainternet."
+    "error_api": "Ca' runi LanguageTool. Riní ainternet.",
+    "guided_title": "Binni riní herramienta nga",
+    "guided_body": "Rini guendanagana diidxa', concordancia ne puntuación. Rini xquidxi antes entrega, peru ca' kexi criterio académico ne revisión asesor."
   },
   "settings": {
     "title": "Guendaranaxhii",

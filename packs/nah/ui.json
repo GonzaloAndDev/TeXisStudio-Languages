@@ -61,6 +61,8 @@
     "level_licenciatura": "Licenciatura",
     "level_maestria": "Maestría",
     "level_doctorado": "Doctorado",
+    "level_especialidad": "Especialidad",
+    "level_posdoctorado": "Posdoctorado",
     "level_bachillerato": "Bachillerato",
     "level_tecnico": "Técnico"
   },
@@ -170,7 +172,9 @@
     "dismiss": "Xictlacahua",
     "auto_check": "Xicchihua tlapiya ipan",
     "check_now": "Xictemoa axcan",
-    "error_api": "Amo mochihua LanguageTool. Xiccaqui mointernet."
+    "error_api": "Amo mochihua LanguageTool. Xiccaqui mointernet.",
+    "guided_title": "Tlein quitlachilia inin tequitl",
+    "guided_body": "Xicui ipampa xictemoa tlahtol, tlapohualiztli ihuan machiyotl tlahtlacolli. Quipalehuia achto tiquitemaca, auh amo quipatla motlamatiliz académico anozo motematiani itlachialis."
   },
   "settings": {
     "title": "Tlapializtli",

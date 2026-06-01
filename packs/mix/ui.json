@@ -61,6 +61,8 @@
     "level_licenciatura": "Licenciatura",
     "level_maestria": "Maestría",
     "level_doctorado": "Doctorado",
+    "level_especialidad": "Especialidad",
+    "level_posdoctorado": "Posdoctorado",
     "level_bachillerato": "Bachillerato",
     "level_tecnico": "Técnico"
   },
@@ -170,7 +172,9 @@
     "dismiss": "Ko'o",
     "auto_check": "Kundaa nuu kuu ini",
     "check_now": "Kundaa nuu",
-    "error_api": "Kaa nduu LanguageTool. Kundaa ainternet."
+    "error_api": "Kaa nduu LanguageTool. Kundaa ainternet.",
+    "guided_title": "Nuu kundaa herramienta ya'a",
+    "guided_body": "Kuu ini kundaa chopol ta tu'un, concordancia waye' puntuación. Kuu ña'a antes entrega, pero kaa nchaa atu'un académico waye' revisión asesor."
   },
   "settings": {
     "title": "K'eyi",

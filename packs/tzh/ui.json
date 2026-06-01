@@ -61,6 +61,8 @@
     "level_licenciatura": "Licenciatura",
     "level_maestria": "Maestría",
     "level_doctorado": "Doctorado",
+    "level_especialidad": "Especialidad",
+    "level_posdoctorado": "Posdoctorado",
     "level_bachillerato": "Bachillerato",
     "level_tecnico": "Técnico"
   },
@@ -170,7 +172,9 @@
     "dismiss": "P'ajel",
     "auto_check": "K'elatik ta yich'el",
     "check_now": "K'elatik ta ora",
-    "error_api": "Ma' xu' k'opanel ta LanguageTool. K'elatik ainternet."
+    "error_api": "Ma' xu' k'opanel ta LanguageTool. K'elatik ainternet.",
+    "guided_title": "Binti ya xk'ele in teklum",
+    "guided_body": "A'botik ta sk'opil ts'ibajel, concordancia sok puntuación. Ya xkoltae antes entrega, pero ma' ya sk'ex awil akademiko sok revisión yu'un asesor."
   },
   "settings": {
     "title": "K'el",
