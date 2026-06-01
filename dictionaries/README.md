@@ -24,6 +24,11 @@ Experimental seed dictionaries are the exception: they may live here while they
 are reviewed, but their package metadata and source report must clearly mark
 them as non-stable, source-limited, and pending native-speaker/licensing review.
 
+For Nahuatl, Yucatec Maya, Tzeltal, Mixtec, and Zapotec seed dictionaries, see
+the repository-level [source and rights notice](../NOTICE.md). That notice is
+part of the publication record for these experimental files and must be updated
+whenever attribution or redistribution status changes.
+
 ## Scope
 
 Current coverage is intentionally focused on languages with mature Hunspell

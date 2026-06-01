@@ -23,6 +23,7 @@ Also / También: [TeXisStudio-Plugins](../TeXisStudio-Plugins/README.md) · [TeX
 9. [Specialized domain dictionaries](#specialized-domain-dictionaries)
 10. [Status meanings](#status-meanings)
 11. [Spelling dictionary sources](#spelling-dictionary-sources)
+12. [Source and rights notice](#source-and-rights-notice)
 
 ---
 
@@ -448,6 +449,10 @@ please open a PR to upgrade it to `beta`. Full native-speaker review → `stable
 
 ## Spelling dictionary sources
 
+See [NOTICE.md](NOTICE.md) for the source and rights notice that applies to the
+experimental seed dictionaries for Nahuatl, Yucatec Maya, Tzeltal, Mixtec, and
+Zapotec.
+
 | Language | Source | License |
 |----------|--------|---------|
 | Russian (`ru`) | [`dictionary-ru`](https://www.npmjs.com/package/dictionary-ru) via jsDelivr | LGPL 2.1 |
@@ -463,6 +468,12 @@ please open a PR to upgrade it to `beta`. Full native-speaker review → `stable
 Most dictionary binary files (`.aff`, `.dic`) are fetched from jsDelivr CDN at install time
 and cached by the browser. Small experimental seed dictionaries may be committed directly
 under `dictionaries/<id>/` when they need repository-side review and source notes.
+
+## Source and rights notice
+
+The experimental indigenous-language seed dictionaries are governed by the
+review policy in [NOTICE.md](NOTICE.md). Keep the notice updated whenever a seed
+dictionary source, attribution, or redistribution status changes.
 
 ### Want to create a Hunspell dictionary for an indigenous language?
 
