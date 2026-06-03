@@ -67,8 +67,7 @@
     "level_bachillerato": "มัธยมศึกษา",
     "level_tecnico": "เทคนิค",
     "level_especialidad": "Especialidad",
-    "level_posdoctorado": "Posdoctorado",
-    "chip_more": "+ more"
+    "level_posdoctorado": "Posdoctorado"
   },
   "wizard": {
     "title": "โครงการใหม่",
@@ -193,7 +192,8 @@
     "cloud_tip_suffix": "and then use that folder as the destination. Your thesis will sync automatically.",
     "continue": "Continue",
     "statusbar_active": "Wizard active",
-    "statusbar_unsaved": "tesis.project.yaml (unsaved)"
+    "statusbar_unsaved": "tesis.project.yaml (unsaved)",
+    "chip_more": "+ more"
   },
   "editor": {
     "placement_front": "หน้าปกและส่วนนำ",

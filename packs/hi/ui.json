@@ -67,8 +67,7 @@
     "level_bachillerato": "माध्यमिक",
     "level_tecnico": "तकनीकी",
     "level_especialidad": "Especialidad",
-    "level_posdoctorado": "Posdoctorado",
-    "chip_more": "+ more"
+    "level_posdoctorado": "Posdoctorado"
   },
   "wizard": {
     "title": "नई परियोजना",
@@ -193,7 +192,8 @@
     "cloud_tip_suffix": "and then use that folder as the destination. Your thesis will sync automatically.",
     "continue": "Continue",
     "statusbar_active": "Wizard active",
-    "statusbar_unsaved": "tesis.project.yaml (unsaved)"
+    "statusbar_unsaved": "tesis.project.yaml (unsaved)",
+    "chip_more": "+ more"
   },
   "editor": {
     "placement_front": "शीर्षक और प्रारंभिक पृष्ठ",
