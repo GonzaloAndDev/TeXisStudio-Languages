@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4",
-  "updated_at": "2026-06-01",
+  "updated_at": "2026-06-04",
   "packages": [
     {
       "id": "ru",
@@ -8,7 +8,7 @@
       "native_name": "Русский",
       "flag": "🇷🇺",
       "status": "stable",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -35,7 +35,7 @@
       "native_name": "Português (Brasil)",
       "flag": "🇧🇷",
       "status": "stable",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -62,7 +62,7 @@
       "native_name": "ภาษาไทย",
       "flag": "🇹🇭",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -86,7 +86,7 @@
       "native_name": "हिन्दी",
       "flag": "🇮🇳",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -110,7 +110,7 @@
       "native_name": "Nāhuatl",
       "flag": "🌵",
       "status": "experimental",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -125,10 +125,10 @@
         "latex_babel": false,
         "latex_polyglossia": false
       },
-      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/ui.json",
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nah/index.aff",
       "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nah/index.dic",
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nah/ui.json"
     },
     {
       "id": "yua",
@@ -136,7 +136,7 @@
       "native_name": "Maaya t'aan",
       "flag": "🌿",
       "status": "experimental",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -151,10 +151,10 @@
         "latex_babel": false,
         "latex_polyglossia": false
       },
-      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/ui.json",
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/yua/index.aff",
       "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/yua/index.dic",
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/yua/ui.json"
     },
     {
       "id": "tzh",
@@ -162,7 +162,7 @@
       "native_name": "Batz'il k'op",
       "flag": "🌄",
       "status": "experimental",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -177,10 +177,10 @@
         "latex_babel": false,
         "latex_polyglossia": false
       },
-      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/ui.json",
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tzh/index.aff",
       "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tzh/index.dic",
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tzh/ui.json"
     },
     {
       "id": "mix",
@@ -188,7 +188,7 @@
       "native_name": "Tu'un Savi",
       "flag": "🌧️",
       "status": "experimental",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -203,10 +203,10 @@
         "latex_babel": false,
         "latex_polyglossia": false
       },
-      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/ui.json",
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/mix/index.aff",
       "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/mix/index.dic",
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/mix/ui.json"
     },
     {
       "id": "zap",
@@ -214,7 +214,7 @@
       "native_name": "Diidxazá",
       "flag": "🦋",
       "status": "experimental",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
@@ -229,10 +229,10 @@
         "latex_babel": false,
         "latex_polyglossia": false
       },
-      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/ui.json",
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/zap/index.aff",
       "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/zap/index.dic",
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/zap/ui.json"
     },
     {
       "id": "it",
@@ -240,14 +240,14 @@
       "native_name": "Italiano",
       "flag": "🇮🇹",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -256,7 +256,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/it/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/it/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/it/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/it/ui.json"
     },
     {
       "id": "nl",
@@ -264,14 +265,14 @@
       "native_name": "Nederlands",
       "flag": "🇳🇱",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -280,7 +281,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nl/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nl/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/nl/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/nl/ui.json"
     },
     {
       "id": "pl",
@@ -288,14 +290,14 @@
       "native_name": "Polski",
       "flag": "🇵🇱",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -304,7 +306,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pl/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pl/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/pl/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/pl/ui.json"
     },
     {
       "id": "cs",
@@ -312,14 +315,14 @@
       "native_name": "Čeština",
       "flag": "🇨🇿",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -328,7 +331,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/cs/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/cs/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/cs/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/cs/ui.json"
     },
     {
       "id": "ro",
@@ -336,14 +340,14 @@
       "native_name": "Română",
       "flag": "🇷🇴",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -352,7 +356,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ro/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ro/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ro/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ro/ui.json"
     },
     {
       "id": "tr",
@@ -360,14 +365,14 @@
       "native_name": "Türkçe",
       "flag": "🇹🇷",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -376,7 +381,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tr/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tr/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/tr/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/tr/ui.json"
     },
     {
       "id": "uk",
@@ -384,14 +390,14 @@
       "native_name": "Українська",
       "flag": "🇺🇦",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -400,7 +406,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/uk/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/uk/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/uk/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/uk/ui.json"
     },
     {
       "id": "sv",
@@ -408,14 +415,14 @@
       "native_name": "Svenska",
       "flag": "🇸🇪",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -424,7 +431,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/sv/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/sv/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/sv/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/sv/ui.json"
     },
     {
       "id": "fr",
@@ -532,14 +540,14 @@
       "native_name": "한국어",
       "flag": "🇰🇷",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -548,7 +556,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ko/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ko/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/ko/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ko/ui.json"
     },
     {
       "id": "vi",
@@ -556,14 +565,14 @@
       "native_name": "Tiếng Việt",
       "flag": "🇻🇳",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -572,7 +581,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/vi/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/vi/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/vi/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/vi/ui.json"
     },
     {
       "id": "fa",
@@ -580,14 +590,14 @@
       "native_name": "فارسی",
       "flag": "🇮🇷",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -596,7 +606,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fa/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fa/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/fa/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/fa/ui.json"
     },
     {
       "id": "he",
@@ -604,14 +615,14 @@
       "native_name": "עברית",
       "flag": "🇮🇱",
       "status": "beta",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": true,
         "autocorrect": false,
         "grammar_remote": false,
@@ -620,7 +631,8 @@
         "latex_polyglossia": false
       },
       "spelling_aff_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/he/index.aff",
-      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/he/index.dic"
+      "spelling_dic_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/dictionaries/he/index.dic",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/he/ui.json"
     },
     {
       "id": "ar",
@@ -628,14 +640,14 @@
       "native_name": "العربية",
       "flag": "🇸🇦",
       "status": "experimental",
-      "version": "0.1.0",
+      "version": "1.0.1",
       "maintainers": [
         {
           "name": "TeXisStudio Community"
         }
       ],
       "capabilities": {
-        "ui": false,
+        "ui": true,
         "spelling": false,
         "autocorrect": false,
         "grammar_remote": false,
@@ -643,7 +655,8 @@
         "latex_babel": false,
         "latex_polyglossia": true
       },
-      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ar/latex.json"
+      "latex_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ar/latex.json",
+      "ui_url": "https://raw.githubusercontent.com/GonzaloAndDev/TeXisStudio-Languages/main/packs/ar/ui.json"
     }
   ],
   "vocabulary_packs": [
