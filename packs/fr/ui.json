@@ -227,7 +227,11 @@
     "cloud_tip_suffix": "puis utiliser ce dossier comme destination. Votre thèse se synchronisera automatiquement.",
     "continue": "Continuer",
     "statusbar_active": "Assistant actif",
-    "statusbar_unsaved": "tesis.project.yaml (non enregistré)"
+    "statusbar_unsaved": "tesis.project.yaml (non enregistré)",
+    "vocab_area_used": "Area used",
+    "vocab_area_from_project": "from the project",
+    "vocab_will_activate": "Will activate on create",
+    "vocab_click_to_activate": "Click to activate"
   },
   "editor": {
     "placement_front": "Pages liminaires",
