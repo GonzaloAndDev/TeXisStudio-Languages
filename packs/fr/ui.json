@@ -231,7 +231,47 @@
     "vocab_area_used": "Area used",
     "vocab_area_from_project": "from the project",
     "vocab_will_activate": "Will activate on create",
-    "vocab_click_to_activate": "Click to activate"
+    "vocab_click_to_activate": "Click to activate",
+    "discipline_hint_title": "Ce que TeXisStudio peut faire pour votre domaine",
+    "discipline_produces": "✓ Produit directement",
+    "discipline_integrates": "↗ Intègre comme fichier externe",
+    "builtin_thesis_name": "Thèse générique",
+    "builtin_thesis_desc": "Structure classique pour les travaux de licence, spécialité, master, doctorat ou postdoctorat.",
+    "builtin_thesis_meta": "Thèse · Bibliographie auto · APA 7",
+    "builtin_tesina_name": "Mémoire court générique",
+    "builtin_tesina_desc": "Version simplifiée pour la licence : introduction, développement et conclusion.",
+    "builtin_tesina_meta": "Mémoire court · Bibliographie auto · APA 7",
+    "vocab_kind_general": "général",
+    "vocab_kind_academic": "académique",
+    "vocab_kind_subject": "par matière",
+    "vocab_kind_program": "par programme",
+    "vocab_kind_discipline": "par domaine",
+    "vocab_area_project": "Utiliser le domaine du projet",
+    "vocab_area_medicine": "Médecine et santé",
+    "vocab_area_chemistry": "Chimie",
+    "vocab_area_biology": "Biologie",
+    "vocab_area_engineering": "Ingénierie",
+    "vocab_area_mathematics": "Mathématiques",
+    "vocab_area_physics": "Physique",
+    "vocab_area_economics": "Économie",
+    "vocab_area_social_sciences": "Sciences sociales",
+    "vocab_area_humanities": "Sciences humaines",
+    "vocab_area_arts": "Arts et design",
+    "placement_front_short": "Préliminaires",
+    "placement_body_short": "Corps",
+    "placement_back_short": "Finales",
+    "placement_appendix_short": "Annexe",
+    "cloud_tip_or": "ou",
+    "esc_to_cancel": "Échap pour annuler · ↵ pour continuer",
+    "error_author_required": "Saisissez votre nom complet avant de continuer.",
+    "recommend_reason_institution": "correspond à {{name}}",
+    "recommend_reason_level": "couvre {{level}}",
+    "recommend_reason_discipline": "adapté au domaine {{discipline}}",
+    "recommend_reason_program": "mentionne le programme {{program}}",
+    "recommend_reason_tesina": "conçu pour les mémoires courts",
+    "recommend_reason_tesis": "base solide pour les thèses",
+    "recommend_reason_verified": "dispose d'une vérification institutionnelle",
+    "recommend_reason_reviewed": "révisé par l'équipe"
   },
   "editor": {
     "placement_front": "Pages liminaires",
@@ -445,7 +485,14 @@
     "no_snapshots": "Aucune version sauvegardée.",
     "no_snapshots_hint": "Utilisez le champ ci-dessus pour en créer une.",
     "snapshot_restore_title": "Restaurer cette version",
-    "snapshot_delete_title": "Supprimer la version"
+    "snapshot_delete_title": "Supprimer la version",
+    "diag_title": "Diagnostics du projet",
+    "diag_ok": "Aucun problème détecté",
+    "diag_pkg_missing": "{{pkg}} manquant dans le préambule",
+    "diag_gls_undefined": "non défini",
+    "diag_gls_unused_one": "{{count}} entrée de glossaire définie mais inutilisée",
+    "diag_gls_unused_other": "{{count}} entrées de glossaire définies mais inutilisées",
+    "section_guidance_label": "Guide de section"
   },
   "spell": {
     "panel_title": "Vérification orthographique",
@@ -550,7 +597,16 @@
     "ui_scale_normal": "Normal",
     "ui_scale_large": "Grande",
     "ui_scale_xlarge": "Très grande",
-    "ui_scale_hint": "Augmente la taille du texte de l'application sans modifier la typographie du PDF. Les contrôles grandissent légèrement pour éviter les troncatures."
+    "ui_scale_hint": "Augmente la taille du texte de l'application sans modifier la typographie du PDF. Les contrôles grandissent légèrement pour éviter les troncatures.",
+    "grammar_remote_note": "La vérification grammaticale utilise LanguageTool en mode distant. Utile pour réviser le texte, mais l'envoie au service pour analyse.",
+    "no_dict_chip": "sans dictionnaire",
+    "installed_chip": "installé",
+    "spell_lang_hint_1": "L'espagnol et l'anglais incluent un dictionnaire Hunspell intégré. Pour d'autres langues, installez un pack de langue depuis la section",
+    "spell_lang_hint_2": "qui inclut la vérification orthographique.",
+    "basic_mode_title": "Mode de base actif",
+    "basic_mode_body": "Seul l'essentiel pour rédiger et soumettre sans complexité est affiché. Vous pouvez activer",
+    "basic_mode_suffix": "dans la section texte.",
+    "basic_top_body": "Ces paramètres sont conçus pour des décisions utiles sans entrer dans les détails techniques LaTeX. Passer à"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' référencée dans la section '{{section}}' introuvable.",
@@ -714,7 +770,11 @@
     "delete_section": "Supprimer la section",
     "no_sections_add_one": "Aucune section. Ajoutez-en au moins une.",
     "save_changes": "Enregistrer les modifications",
-    "profile_name_required": "Le nom du profil est obligatoire."
+    "profile_name_required": "Le nom du profil est obligatoire.",
+    "tab_plugins": "Plugins",
+    "selected_chip": "sélectionné",
+    "installed_chip": "installé",
+    "sections_count_suffix": "rubriques"
   },
   "progress": {
     "status_draft": "Brouillon",
@@ -1119,7 +1179,192 @@
     "select_style_detail": "Sélectionnez un style pour voir les détails",
     "order_hint_line_1": "Utilisez ▲▼ pour modifier l'ordre.",
     "order_hint_line_2": "L'ordre détermine la liste déroulante lors de la création d'un projet.",
-    "add_custom_style": "Ajouter un style personnalisé"
+    "add_custom_style": "Ajouter un style personnalisé",
+    "id_required": "ID *",
+    "biblatex_style_required": "Style biblatex *",
+    "references_default_title": "References",
+    "biblatex_label": "biblatex",
+    "citation_label": "citation",
+    "types": {
+      "author_date": "Auteur-Date",
+      "numeric": "Numérique",
+      "notes_bibliography": "Notes-Biblio.",
+      "author_page": "Auteur-Page"
+    },
+    "builtins": {
+      "apa7": {
+        "name": "APA 7",
+        "full_name": "American Psychological Association, 7e édition",
+        "disciplines": [
+          "Psychology",
+          "Education",
+          "Social sciences",
+          "Nursing",
+          "Communication"
+        ],
+        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "regions_primary": [
+          "United States",
+          "Canada",
+          "Latin America",
+          "Australia"
+        ],
+        "in_text_format": "(Auteur, année)",
+        "bibliography_title": "Références"
+      },
+      "vancouver": {
+        "name": "Vancouver",
+        "full_name": "Vancouver / ICMJE Recommendations",
+        "disciplines": [
+          "Médecine",
+          "Soins infirmiers",
+          "Pharmacie",
+          "Odontologie",
+          "Sciences de la santé"
+        ],
+        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "regions_primary": [
+          "Global, medical and health sciences"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "Références"
+      },
+      "ieee": {
+        "name": "IEEE",
+        "full_name": "IEEE Citation Style",
+        "disciplines": [
+          "Génie électrique",
+          "Informatique",
+          "Télécommunications",
+          "Robotique",
+          "Électronique"
+        ],
+        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "regions_primary": [
+          "Global, engineering and technology"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "Références"
+      },
+      "chicago17_notes": {
+        "name": "Chicago 17 (Notes)",
+        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "disciplines": [
+          "History",
+          "Literature",
+          "Arts",
+          "Philosophy",
+          "Religious studies"
+        ],
+        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "regions_primary": [
+          "United States",
+          "United Kingdom",
+          "Canada, humanities"
+        ],
+        "in_text_format": "Note de bas de page¹",
+        "bibliography_title": "Bibliographie"
+      },
+      "chicago17_authordate": {
+        "name": "Chicago 17 (Auteur-Date)",
+        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "disciplines": [
+          "Economics",
+          "Political science",
+          "Sociology",
+          "Anthropology",
+          "Geography"
+        ],
+        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "regions_primary": [
+          "United States",
+          "Canada, social sciences"
+        ],
+        "in_text_format": "(Auteur année)",
+        "bibliography_title": "Références"
+      },
+      "mla9": {
+        "name": "MLA 9",
+        "full_name": "MLA Handbook, 9e édition",
+        "disciplines": [
+          "Literature",
+          "Language",
+          "Linguistics",
+          "Cultural studies",
+          "Rhetoric"
+        ],
+        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "regions_primary": [
+          "United States",
+          "Canada, language and literature"
+        ],
+        "in_text_format": "(Auteur page)",
+        "bibliography_title": "Travaux cités"
+      },
+      "harvard": {
+        "name": "Harvard",
+        "full_name": "Harvard Referencing Style",
+        "disciplines": [
+          "Affaires",
+          "Gestion",
+          "Économie",
+          "Sciences sociales"
+        ],
+        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "regions_primary": [
+          "United Kingdom",
+          "Australia",
+          "Ireland",
+          "South Africa"
+        ],
+        "in_text_format": "(Auteur année)",
+        "bibliography_title": "Références"
+      },
+      "mhra": {
+        "name": "MHRA",
+        "full_name": "Modern Humanities Research Association Style Guide, 3e édition",
+        "disciplines": [
+          "Humanities",
+          "History",
+          "Literature",
+          "Philosophy",
+          "Linguistics"
+        ],
+        "description": "UK humanities standard similar to Chicago Notes.",
+        "regions_primary": [
+          "United Kingdom",
+          "Ireland, humanities"
+        ],
+        "in_text_format": "Note de bas de page¹",
+        "bibliography_title": "Bibliographie"
+      },
+      "abnt": {
+        "name": "ABNT",
+        "full_name": "ABNT NBR 6023:2018",
+        "disciplines": [
+          "All disciplines (Brazil)"
+        ],
+        "description": "National standard for academic work in Brazilian universities.",
+        "regions_primary": [
+          "Brazil, required"
+        ],
+        "in_text_format": "(AUTEUR, année)",
+        "bibliography_title": "Références"
+      },
+      "gb7714": {
+        "name": "GB/T 7714",
+        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "disciplines": [
+          "All disciplines (China)"
+        ],
+        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "regions_primary": [
+          "China, required"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "Références"
+      }
+    }
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Insérer un renvoi ({{count}})",
@@ -1430,7 +1675,33 @@
     "included_sections": "Sections incluses",
     "review_notice": "Le profil sera enregistré dans le répertoire des profils locaux et sera disponible immédiatement lors de la création de nouveaux projets. Vous pouvez l'exporter en ZIP depuis la Bibliothèque pour le partager.",
     "editing_profile": "Modification du profil",
-    "new_profile": "Nouveau profil"
+    "new_profile": "Nouveau profil",
+    "step_latex": "LaTeX",
+    "latex_engine_label": "Moteur LaTeX",
+    "latex_engine_hint": "XeLaTeX est recommandé — prend en charge UTF-8 et les polices système.",
+    "engine_xelatex": "XeLaTeX (recommandé)",
+    "engine_pdflatex": "pdfLaTeX (compatibilité maximale)",
+    "engine_lualatex": "LuaLaTeX (scripts avancés)",
+    "doc_class_label": "Classe de document",
+    "doc_class_hint": "Définit la structure de base du document LaTeX.",
+    "class_book": "book — Thèse, monographies (chapitres)",
+    "class_article": "article — Articles, communications",
+    "class_report": "report — Rapports",
+    "bib_backend_label": "Moteur de bibliographie",
+    "bib_biber": "Biber (recommandé, support Unicode)",
+    "bib_bibtex": "BibTeX (héritage, compatibilité)",
+    "bib_style_label": "Style bibliographique",
+    "bib_apa": "APA 7e édition",
+    "bib_ieee": "IEEE",
+    "bib_vancouver": "Vancouver (sciences de la santé)",
+    "bib_chicago": "Chicago 17e",
+    "bib_mla": "MLA",
+    "bib_numeric": "Numérique générique",
+    "placement_front": "Pages préliminaires",
+    "placement_body": "Corps du document",
+    "placement_back_matter": "Pages finales",
+    "placement_appendix": "Annexe",
+    "section_required": "obligatoire"
   },
   "community": {
     "preset_starter": "Base institutionnelle simple",
@@ -1464,7 +1735,73 @@
     "no_filter_matches": "Aucun profil ne correspond aux filtres actuels.",
     "heading": "Communauté",
     "heading_desc": "Profils par institution, niveau, domaine et programme. Nécessite une connexion internet.",
-    "refresh": "Actualiser"
+    "refresh": "Actualiser",
+    "guided_hint_title": "Vous n’avez pas besoin du nom exact du profil",
+    "guided_hint_body": "Commencez par votre institution ou par une combinaison proche de diplôme, domaine et style de citation. S’il n’existe pas de correspondance exacte, partez d’une base institutionnelle simple puis ajustez-la.",
+    "catalog_load_error": "Impossible de charger le catalogue : {{error}}. Vérifiez votre connexion.",
+    "install_success": "« {{name}} » installé correctement.",
+    "breadcrumb_all": "Tous",
+    "profile_count_one": "{{count}} profil",
+    "profile_count_other": "{{count}} profils",
+    "continent": {
+      "america": "Amérique",
+      "europe": "Europe",
+      "asia": "Asie",
+      "generic": "Générique"
+    },
+    "country": {
+      "mexico": "Mexique",
+      "usa": "États-Unis",
+      "canada": "Canada",
+      "brazil": "Brésil",
+      "argentina": "Argentine",
+      "chile": "Chili",
+      "uk": "Royaume-Uni",
+      "germany": "Allemagne",
+      "spain": "Espagne",
+      "netherlands": "Pays-Bas",
+      "italy": "Italie",
+      "sweden": "Suède",
+      "france": "France",
+      "china": "Chine",
+      "japan": "Japon",
+      "south_korea": "Corée du Sud",
+      "singapore": "Singapour",
+      "india": "Inde",
+      "generic": "Générique"
+    },
+    "academic_level": {
+      "bachillerato": "Lycée",
+      "tecnico": "Diplôme technique",
+      "licenciatura": "Licence",
+      "especialidad": "Spécialisation",
+      "maestria": "Master",
+      "doctorado": "Doctorat",
+      "posdoctorado": "Postdoctorat"
+    },
+    "profile_scope": {
+      "institutional": "Institutionnel",
+      "degree_specific": "Par diplôme",
+      "program_specific": "Par programme",
+      "discipline_specific": "Par domaine"
+    },
+    "discipline": {
+      "all_disciplines": "Toutes les disciplines",
+      "engineering": "Ingénierie",
+      "social_sciences": "Sciences sociales",
+      "humanities": "Humanités",
+      "health_sciences": "Sciences de la santé",
+      "computing": "Informatique",
+      "natural_sciences": "Sciences naturelles"
+    },
+    "confidence_title": "Comment interpréter le niveau de confiance",
+    "confidence_body_verified": "indique des preuves solides.",
+    "confidence_body_reviewed": "indique une révision éditoriale rigoureuse.",
+    "confidence_tip": "En cas de doute, privilégiez les profils avec preuves et exemples associés.",
+    "browser_warning": "Les téléchargements réels ne fonctionnent que dans l'application de bureau. Simulation dans le navigateur.",
+    "install_from_url_title": "Installer depuis une URL",
+    "install_from_url_hint": "Collez l'URL d'un .zip contenant un profile.yaml valide.",
+    "install_btn": "Installer"
   },
   "about": {
     "title": "À propos",
@@ -1787,5 +2124,157 @@
         }
       }
     }
+  },
+  "elements_tab": {
+    "title": "Éléments",
+    "subtitle": "Blocs de contenu disponibles dans l’éditeur. Cliquez pour voir les détails.",
+    "latex_output_label": "Sortie LaTeX",
+    "internal_type_label": "Type interne",
+    "blocks": {
+      "paragraph": {
+        "name": "Paragraphe",
+        "description": "Bloc de texte libre. Prend en charge l’emphase, les citations en ligne et le LaTeX en ligne.",
+        "latex_output": "Texte échappé directement dans le document."
+      },
+      "heading": {
+        "name": "Titre / En-tête",
+        "description": "En-tête de section : section (H1), subsection (H2) ou subsubsection (H3).",
+        "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
+      },
+      "figure": {
+        "name": "Figure",
+        "description": "Image avec légende, source et étiquette pour les références croisées. Largeurs : 50 %, 75 %, 100 %.",
+        "latex_output": "Environnement figure + \\includegraphics + \\caption + \\label"
+      },
+      "table": {
+        "name": "Tableau",
+        "description": "Tableau avec en-têtes, lignes, légende et source. Styles : simple, booktabs, wide, longtable.",
+        "latex_output": "Environnement table + tabular/longtable + \\caption"
+      },
+      "equation": {
+        "name": "Équation",
+        "description": "Formule mathématique numérotée ou non. Écrite en LaTeX math pur.",
+        "latex_output": "Environnement equation ou equation* + \\label facultatif"
+      },
+      "list": {
+        "name": "Liste",
+        "description": "Liste à puces (itemize), numérotée (enumerate) ou descriptive (description).",
+        "latex_output": "\\begin{itemize/enumerate/description}"
+      },
+      "citation": {
+        "name": "Citation bibliographique",
+        "description": "Citation parenthétique, narrative ou multiple liée à une clé BibTeX du fichier .bib.",
+        "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
+      },
+      "raw_latex": {
+        "name": "LaTeX brut",
+        "description": "Fragment LaTeX arbitraire pour les cas avancés. Requiert une confirmation.",
+        "latex_output": "Verbatim, sans échappement. À utiliser avec prudence."
+      }
+    },
+    "tags": {
+      "text": "texte",
+      "content": "contenu",
+      "structure": "structure",
+      "navigation": "navigation",
+      "image": "image",
+      "graphic": "graphique",
+      "data": "données",
+      "statistics": "statistiques",
+      "mathematics": "mathématiques",
+      "formula": "formule",
+      "list": "liste",
+      "enumeration": "énumération",
+      "bibliography": "bibliographie",
+      "reference": "référence",
+      "advanced": "avancé",
+      "custom": "personnalisé"
+    }
+  },
+  "plugins_tab": {
+    "title": "Plugins",
+    "subtitle": "{{count}} plugins visuels disponibles pour insérer figures et diagrammes.",
+    "search_placeholder": "Rechercher par nom, paquet ou catégorie…",
+    "no_results": "Aucun plugin ne correspond à cette recherche.",
+    "quality": {
+      "stable": "stable",
+      "beta": "bêta",
+      "experimental": "expérimental",
+      "draft": "brouillon"
+    }
+  },
+  "figure_picker": {
+    "title": "Insérer une figure générée",
+    "count_hint": "{{count}} figures · sans code LaTeX",
+    "close_title": "Fermer (Échap)",
+    "search_placeholder": "Rechercher une figure… (nom, description ou discipline)",
+    "all_tab": "Tout",
+    "level_label": "Niveau :",
+    "clear_filters": "Effacer les filtres",
+    "no_results": "Aucun résultat",
+    "no_results_search": "Aucun résultat pour « {{search}} »",
+    "try_another": "Essayez un autre terme ou effacez les filtres",
+    "footer_hint": "Cliquez sur une figure pour l'insérer directement · Les packages LaTeX sont ajoutés automatiquement",
+    "esc_close": "Échap pour fermer",
+    "generating": "Génération en cours…",
+    "error_generate": "Erreur lors de la génération de la figure : {{error}}",
+    "error_load": "Impossible de charger le catalogue de figures : {{error}}",
+    "quality_all": "Tout",
+    "cat_mathematics": "Mathématiques",
+    "cat_physics": "Physique",
+    "cat_chemistry": "Chimie",
+    "cat_biology": "Biologie / Médecine",
+    "cat_engineering": "Ingénierie / Informatique",
+    "cat_humanities": "Sciences humaines / Sociales",
+    "cat_arts": "Art / Visuel",
+    "cat_import": "Importer externe"
+  },
+  "figure_edit": {
+    "edited_badge": "MODIFIÉ",
+    "latex_preview_dirty": "Aperçu du LaTeX généré (avec les modifications actuelles)",
+    "latex_preview": "Aperçu du LaTeX généré",
+    "packages_label": "Packages LaTeX :",
+    "plugin_figure_hint": "Figure générée par le plugin {{pluginId}}. Pour la modifier, utilisez le bouton « Modifier la figure » dans l'aperçu.",
+    "close_title": "Fermer (Échap)",
+    "caption_label": "Titre / Légende",
+    "label_latex": "Étiquette LaTeX (\\ref / \\cref)",
+    "regen_title": "Relance le plugin depuis les données d'origine sauvegardées. Utile si le moteur a été mis à jour.",
+    "regen_btn": "Regénérer la figure",
+    "regenerating": "Régénération…",
+    "save_title_dirty": "Enregistrer le nouveau titre et l'étiquette sans relancer le plugin",
+    "save_title_clean": "Aucune modification en attente",
+    "save_btn": "Enregistrer les modifications",
+    "saving": "Enregistrement…"
+  },
+  "readiness": {
+    "panel_title": "Avancement du projet",
+    "row_overall": "Projet",
+    "row_setup": "Configuration",
+    "row_writing": "Rédaction",
+    "row_delivery": "Remise",
+    "row_quality": "Qualité finale",
+    "pending_prefix": "En attente :",
+    "delivery_blocked": "Il y a des éléments en attente avant la remise finale",
+    "setup_title": "Définissez le titre réel du travail",
+    "setup_author": "Complétez l'auteur principal",
+    "setup_institution": "Indiquez l'institution réelle",
+    "setup_profile": "Sélectionnez un profil académique",
+    "setup_language": "Choisissez la langue de base",
+    "setup_advisor": "Ajoutez au moins un directeur de thèse",
+    "writing_sections": "Activez au moins une section de contenu",
+    "writing_draft": "Rédigez du contenu dans une section principale",
+    "writing_words": "Développez un premier brouillon substantiel",
+    "writing_reviewed": "Marquez au moins une section comme révisée",
+    "delivery_references": "Incluez une section de références",
+    "delivery_abstract": "Rédigez le résumé ou l'abstract",
+    "delivery_required": "Complétez les sections obligatoires du profil",
+    "delivery_latex": "Confirmez ou supprimez les blocs LaTeX non validés",
+    "delivery_committee": "Complétez le jury pour les travaux avancés",
+    "delivery_review_main": "Révisez les sections principales avant la remise",
+    "quality_citation": "Incluez au moins une citation vérifiable dans le corps",
+    "quality_required_reviewed": "Marquez les sections obligatoires comme révisées",
+    "quality_raw_latex": "Migrez ou révisez manuellement les blocs LaTeX importés avant la remise finale",
+    "quality_plugin_warnings": "Résolvez les avertissements de figures ou plugins avant la remise finale",
+    "quality_profile": "Utilisez un profil institutionnel ou personnalisé pour les remises formelles"
   }
 }

@@ -231,7 +231,47 @@
     "vocab_area_used": "Area used",
     "vocab_area_from_project": "from the project",
     "vocab_will_activate": "Will activate on create",
-    "vocab_click_to_activate": "Click to activate"
+    "vocab_click_to_activate": "Click to activate",
+    "discipline_hint_title": "TeXisStudio能为您的领域做什么",
+    "discipline_produces": "✓ 直接生成",
+    "discipline_integrates": "↗ 作为外部文件集成",
+    "builtin_thesis_name": "通用论文",
+    "builtin_thesis_desc": "适用于本科、专项、硕士、博士或博士后工作的经典结构。",
+    "builtin_thesis_meta": "论文 · 自动参考文献 · APA 7",
+    "builtin_tesina_name": "通用小论文",
+    "builtin_tesina_desc": "本科简化版：引言、正文和结论。",
+    "builtin_tesina_meta": "小论文 · 自动参考文献 · APA 7",
+    "vocab_kind_general": "通用",
+    "vocab_kind_academic": "学术",
+    "vocab_kind_subject": "按学科",
+    "vocab_kind_program": "按专业",
+    "vocab_kind_discipline": "按领域",
+    "vocab_area_project": "使用项目领域",
+    "vocab_area_medicine": "医学与健康",
+    "vocab_area_chemistry": "化学",
+    "vocab_area_biology": "生物学",
+    "vocab_area_engineering": "工程学",
+    "vocab_area_mathematics": "数学",
+    "vocab_area_physics": "物理学",
+    "vocab_area_economics": "经济学",
+    "vocab_area_social_sciences": "社会科学",
+    "vocab_area_humanities": "人文科学",
+    "vocab_area_arts": "艺术与设计",
+    "placement_front_short": "前言",
+    "placement_body_short": "正文",
+    "placement_back_short": "后记",
+    "placement_appendix_short": "附录",
+    "cloud_tip_or": "或",
+    "esc_to_cancel": "Esc取消 · ↵继续",
+    "error_author_required": "继续前请输入您的全名。",
+    "recommend_reason_institution": "匹配{{name}}",
+    "recommend_reason_level": "涵盖{{level}}",
+    "recommend_reason_discipline": "适合{{discipline}}领域",
+    "recommend_reason_program": "提及{{program}}专业",
+    "recommend_reason_tesina": "专为小论文设计",
+    "recommend_reason_tesis": "论文的可靠基础",
+    "recommend_reason_verified": "具有机构认证",
+    "recommend_reason_reviewed": "经团队审核"
   },
   "editor": {
     "placement_front": "前置内容",
@@ -445,7 +485,14 @@
     "no_snapshots": "No saved versions.",
     "no_snapshots_hint": "Use the field above to create one.",
     "snapshot_restore_title": "Restore this version",
-    "snapshot_delete_title": "Delete version"
+    "snapshot_delete_title": "Delete version",
+    "diag_title": "项目诶断",
+    "diag_ok": "未检测到问题",
+    "diag_pkg_missing": "前言中缺少{{pkg}}",
+    "diag_gls_undefined": "未定义",
+    "diag_gls_unused_one": "{{count}}个术语表条目已定义但未使用",
+    "diag_gls_unused_other": "{{count}}个术语表条目已定义但未使用",
+    "section_guidance_label": "章节指南"
   },
   "spell": {
     "panel_title": "Spell check",
@@ -550,7 +597,16 @@
     "ui_scale_normal": "Normal",
     "ui_scale_large": "Large",
     "ui_scale_xlarge": "Very large",
-    "ui_scale_hint": "Increases the app text without changing the PDF typography. Controls grow a little to avoid clipped text."
+    "ui_scale_hint": "Increases the app text without changing the PDF typography. Controls grow a little to avoid clipped text.",
+    "grammar_remote_note": "目前，语法检查以远程模式使用LanguageTool。有助于检查写作，但会将文本发送到服务进行分析。",
+    "no_dict_chip": "无词典",
+    "installed_chip": "已安装",
+    "spell_lang_hint_1": "西班牙语和英语包含内置的Hunspell词典。对于其他语言，请从",
+    "spell_lang_hint_2": "包含拼写检查的部分安装语言包。",
+    "basic_mode_title": "基本模式已激活",
+    "basic_mode_body": "仅显示无复杂性地编写和提交所需的内容。您可以启用",
+    "basic_mode_suffix": "在文本部分。",
+    "basic_top_body": "这些设置旨在不涉及LaTeX技术细节的情况下做出有用决策。切换到"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' referenced in section '{{section}}' not found.",
@@ -714,7 +770,11 @@
     "delete_section": "Delete section",
     "no_sections_add_one": "No sections. Add at least one.",
     "save_changes": "Save changes",
-    "profile_name_required": "The profile name is required."
+    "profile_name_required": "The profile name is required.",
+    "tab_plugins": "插件",
+    "selected_chip": "已选择",
+    "installed_chip": "已安装",
+    "sections_count_suffix": "章节"
   },
   "progress": {
     "status_draft": "草稿",
@@ -1119,7 +1179,192 @@
     "select_style_detail": "Select a style to view details",
     "order_hint_line_1": "Use ▲▼ to change the order.",
     "order_hint_line_2": "The order determines the dropdown when creating a project.",
-    "add_custom_style": "Add custom style"
+    "add_custom_style": "Add custom style",
+    "id_required": "ID *",
+    "biblatex_style_required": "Biblatex 样式 *",
+    "references_default_title": "References",
+    "biblatex_label": "biblatex",
+    "citation_label": "引用",
+    "types": {
+      "author_date": "作者-年份",
+      "numeric": "数字式",
+      "notes_bibliography": "注释-书目",
+      "author_page": "作者-页码"
+    },
+    "builtins": {
+      "apa7": {
+        "name": "APA 7",
+        "full_name": "American Psychological Association 第7版",
+        "disciplines": [
+          "Psychology",
+          "Education",
+          "Social sciences",
+          "Nursing",
+          "Communication"
+        ],
+        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "regions_primary": [
+          "United States",
+          "Canada",
+          "Latin America",
+          "Australia"
+        ],
+        "in_text_format": "（作者，年份）",
+        "bibliography_title": "参考文献"
+      },
+      "vancouver": {
+        "name": "Vancouver",
+        "full_name": "Vancouver / ICMJE Recommendations",
+        "disciplines": [
+          "医学",
+          "护理",
+          "药学",
+          "牙医学",
+          "健康科学"
+        ],
+        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "regions_primary": [
+          "Global, medical and health sciences"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "参考文献"
+      },
+      "ieee": {
+        "name": "IEEE",
+        "full_name": "IEEE Citation Style",
+        "disciplines": [
+          "电气工程",
+          "计算机",
+          "电信",
+          "机器人",
+          "电子"
+        ],
+        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "regions_primary": [
+          "Global, engineering and technology"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "参考文献"
+      },
+      "chicago17_notes": {
+        "name": "Chicago 17（注释）",
+        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "disciplines": [
+          "History",
+          "Literature",
+          "Arts",
+          "Philosophy",
+          "Religious studies"
+        ],
+        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "regions_primary": [
+          "United States",
+          "United Kingdom",
+          "Canada, humanities"
+        ],
+        "in_text_format": "脚注¹",
+        "bibliography_title": "参考书目"
+      },
+      "chicago17_authordate": {
+        "name": "Chicago 17（作者-年份）",
+        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "disciplines": [
+          "Economics",
+          "Political science",
+          "Sociology",
+          "Anthropology",
+          "Geography"
+        ],
+        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "regions_primary": [
+          "United States",
+          "Canada, social sciences"
+        ],
+        "in_text_format": "（作者 年份）",
+        "bibliography_title": "参考文献"
+      },
+      "mla9": {
+        "name": "MLA 9",
+        "full_name": "MLA Handbook 第9版",
+        "disciplines": [
+          "Literature",
+          "Language",
+          "Linguistics",
+          "Cultural studies",
+          "Rhetoric"
+        ],
+        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "regions_primary": [
+          "United States",
+          "Canada, language and literature"
+        ],
+        "in_text_format": "（作者 页码）",
+        "bibliography_title": "引用作品"
+      },
+      "harvard": {
+        "name": "Harvard",
+        "full_name": "Harvard Referencing Style",
+        "disciplines": [
+          "商业",
+          "管理",
+          "经济学",
+          "社会科学"
+        ],
+        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "regions_primary": [
+          "United Kingdom",
+          "Australia",
+          "Ireland",
+          "South Africa"
+        ],
+        "in_text_format": "（作者 年份）",
+        "bibliography_title": "参考文献"
+      },
+      "mhra": {
+        "name": "MHRA",
+        "full_name": "Modern Humanities Research Association Style Guide 第3版",
+        "disciplines": [
+          "Humanities",
+          "History",
+          "Literature",
+          "Philosophy",
+          "Linguistics"
+        ],
+        "description": "UK humanities standard similar to Chicago Notes.",
+        "regions_primary": [
+          "United Kingdom",
+          "Ireland, humanities"
+        ],
+        "in_text_format": "脚注¹",
+        "bibliography_title": "参考书目"
+      },
+      "abnt": {
+        "name": "ABNT",
+        "full_name": "ABNT NBR 6023:2018",
+        "disciplines": [
+          "All disciplines (Brazil)"
+        ],
+        "description": "National standard for academic work in Brazilian universities.",
+        "regions_primary": [
+          "Brazil, required"
+        ],
+        "in_text_format": "（作者，年份）",
+        "bibliography_title": "参考文献"
+      },
+      "gb7714": {
+        "name": "GB/T 7714",
+        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "disciplines": [
+          "All disciplines (China)"
+        ],
+        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "regions_primary": [
+          "China, required"
+        ],
+        "in_text_format": "[1]",
+        "bibliography_title": "参考文献"
+      }
+    }
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Insert cross-reference ({{count}})",
@@ -1430,7 +1675,33 @@
     "included_sections": "Included sections",
     "review_notice": "The profile will be saved in the local profiles directory and will be available immediately when creating new projects. You can export it as a ZIP from the Library to share it.",
     "editing_profile": "Editing profile",
-    "new_profile": "New profile"
+    "new_profile": "New profile",
+    "step_latex": "LaTeX",
+    "latex_engine_label": "LaTeX引擎",
+    "latex_engine_hint": "推荐XeLaTeX — 支持UTF-8和系统字体。",
+    "engine_xelatex": "XeLaTeX（推荐）",
+    "engine_pdflatex": "pdfLaTeX（最大兼容性）",
+    "engine_lualatex": "LuaLaTeX（高级脚本）",
+    "doc_class_label": "文档类",
+    "doc_class_hint": "定义LaTeX文档的基本结构。",
+    "class_book": "book — 论文、专著（章节）",
+    "class_article": "article — 文章、论文",
+    "class_report": "report — 报告",
+    "bib_backend_label": "参考文献后端",
+    "bib_biber": "Biber（推荐，Unicode支持）",
+    "bib_bibtex": "BibTeX（旧版，兼容性）",
+    "bib_style_label": "参考文献样式",
+    "bib_apa": "APA第7版",
+    "bib_ieee": "IEEE",
+    "bib_vancouver": "温哥华（健康科学）",
+    "bib_chicago": "芝加哥第17版",
+    "bib_mla": "MLA",
+    "bib_numeric": "通用数字",
+    "placement_front": "前言部分",
+    "placement_body": "正文",
+    "placement_back_matter": "后记部分",
+    "placement_appendix": "附录",
+    "section_required": "必填"
   },
   "community": {
     "preset_starter": "简单机构基础",
@@ -1464,7 +1735,73 @@
     "no_filter_matches": "没有配置文件匹配当前筛选条件。",
     "heading": "社区",
     "heading_desc": "按机构、学位、领域和项目搜索配置文件。需要互联网连接。",
-    "refresh": "刷新"
+    "refresh": "刷新",
+    "guided_hint_title": "你不需要知道准确的配置名称",
+    "guided_hint_body": "先从你的机构，或学位、领域和引用样式的相近组合开始。如果没有完全匹配，可以先使用简单的机构基础配置，再逐步调整。",
+    "catalog_load_error": "无法加载目录：{{error}}。请检查连接。",
+    "install_success": "“{{name}}”已成功安装。",
+    "breadcrumb_all": "全部",
+    "profile_count_one": "{{count}} 个配置",
+    "profile_count_other": "{{count}} 个配置",
+    "continent": {
+      "america": "美洲",
+      "europe": "欧洲",
+      "asia": "亚洲",
+      "generic": "通用"
+    },
+    "country": {
+      "mexico": "墨西哥",
+      "usa": "美国",
+      "canada": "加拿大",
+      "brazil": "巴西",
+      "argentina": "阿根廷",
+      "chile": "智利",
+      "uk": "英国",
+      "germany": "德国",
+      "spain": "西班牙",
+      "netherlands": "荷兰",
+      "italy": "意大利",
+      "sweden": "瑞典",
+      "france": "法国",
+      "china": "中国",
+      "japan": "日本",
+      "south_korea": "韩国",
+      "singapore": "新加坡",
+      "india": "印度",
+      "generic": "通用"
+    },
+    "academic_level": {
+      "bachillerato": "高中",
+      "tecnico": "技术学位",
+      "licenciatura": "本科",
+      "especialidad": "专科/专业化",
+      "maestria": "硕士",
+      "doctorado": "博士",
+      "posdoctorado": "博士后"
+    },
+    "profile_scope": {
+      "institutional": "机构",
+      "degree_specific": "按学位",
+      "program_specific": "按项目",
+      "discipline_specific": "按领域"
+    },
+    "discipline": {
+      "all_disciplines": "所有学科",
+      "engineering": "工程",
+      "social_sciences": "社会科学",
+      "humanities": "人文学科",
+      "health_sciences": "健康科学",
+      "computing": "计算机",
+      "natural_sciences": "自然科学"
+    },
+    "confidence_title": "如何理解可信度",
+    "confidence_body_verified": "表示有力证据。",
+    "confidence_body_reviewed": "表示严格的编辑审查。",
+    "confidence_tip": "如果时间紧迫，优先选择有证据和相关示例的模板。",
+    "browser_warning": "真实下载仅在桌面应用中可用。浏览器中为模拟。",
+    "install_from_url_title": "从 URL 安装",
+    "install_from_url_hint": "粘贴包含有效profile.yaml的.zip的URL。",
+    "install_btn": "安装"
   },
   "about": {
     "title": "关于",
@@ -1787,5 +2124,157 @@
         }
       }
     }
+  },
+  "elements_tab": {
+    "title": "元素",
+    "subtitle": "编辑器中可用的内容块。点击查看详情。",
+    "latex_output_label": "LaTeX 输出",
+    "internal_type_label": "内部类型",
+    "blocks": {
+      "paragraph": {
+        "name": "段落",
+        "description": "自由文本块。支持强调、行内引用和行内 LaTeX。",
+        "latex_output": "转义后的文本直接写入文档。"
+      },
+      "heading": {
+        "name": "标题 / 标题栏",
+        "description": "章节标题：section (H1)、subsection (H2) 或 subsubsection (H3)。",
+        "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
+      },
+      "figure": {
+        "name": "图",
+        "description": "带标题、来源和交叉引用标签的图片。宽度：50%、75%、100%。",
+        "latex_output": "figure 环境 + \\includegraphics + \\caption + \\label"
+      },
+      "table": {
+        "name": "表格",
+        "description": "包含表头、行、标题和来源的表格。样式：simple、booktabs、wide、longtable。",
+        "latex_output": "table 环境 + tabular/longtable + \\caption"
+      },
+      "equation": {
+        "name": "公式",
+        "description": "带编号或不带编号的数学公式。使用纯 LaTeX 数学语法编写。",
+        "latex_output": "equation 或 equation* 环境 + 可选 \\label"
+      },
+      "list": {
+        "name": "列表",
+        "description": "项目符号列表 (itemize)、编号列表 (enumerate) 或描述列表 (description)。",
+        "latex_output": "\\begin{itemize/enumerate/description}"
+      },
+      "citation": {
+        "name": "文献引用",
+        "description": "与 .bib 文件中的 BibTeX 键关联的括号式、叙述式或多重引用。",
+        "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
+      },
+      "raw_latex": {
+        "name": "原始 LaTeX",
+        "description": "高级场景使用的任意 LaTeX 片段。需要用户确认。",
+        "latex_output": "Verbatim，不转义。请谨慎使用。"
+      }
+    },
+    "tags": {
+      "text": "文本",
+      "content": "内容",
+      "structure": "结构",
+      "navigation": "导航",
+      "image": "图片",
+      "graphic": "图形",
+      "data": "数据",
+      "statistics": "统计",
+      "mathematics": "数学",
+      "formula": "公式",
+      "list": "列表",
+      "enumeration": "枚举",
+      "bibliography": "参考文献",
+      "reference": "引用",
+      "advanced": "高级",
+      "custom": "自定义"
+    }
+  },
+  "plugins_tab": {
+    "title": "插件",
+    "subtitle": "可用于插入图形和示意图的 {{count}} 个可视化插件。",
+    "search_placeholder": "按名称、包或类别搜索…",
+    "no_results": "没有匹配的插件。",
+    "quality": {
+      "stable": "稳定",
+      "beta": "测试版",
+      "experimental": "实验性",
+      "draft": "草稿"
+    }
+  },
+  "figure_picker": {
+    "title": "插入生成的图形",
+    "count_hint": "{{count}}个图形 · 无需LaTeX代码",
+    "close_title": "关闭（Esc）",
+    "search_placeholder": "搜索图形…（名称、说明或学科）",
+    "all_tab": "全部",
+    "level_label": "级别：",
+    "clear_filters": "清除筛选",
+    "no_results": "无结果",
+    "no_results_search": "“{{search}}”无结果",
+    "try_another": "尝试其他词语或清除筛选条件",
+    "footer_hint": "点击任意图形直接插入 · LaTeX包自动添加",
+    "esc_close": "Esc关闭",
+    "generating": "生成中…",
+    "error_generate": "图形生成错误：{{error}}",
+    "error_load": "无法加载图形目录：{{error}}",
+    "quality_all": "全部",
+    "cat_mathematics": "数学",
+    "cat_physics": "物理",
+    "cat_chemistry": "化学",
+    "cat_biology": "生物学/医学",
+    "cat_engineering": "工程/计算机科学",
+    "cat_humanities": "人文/社会科学",
+    "cat_arts": "艺术/视觉",
+    "cat_import": "导入外部"
+  },
+  "figure_edit": {
+    "edited_badge": "已编辑",
+    "latex_preview_dirty": "生成LaTeX的预览（包含当前更改）",
+    "latex_preview": "生成LaTeX的预览",
+    "packages_label": "LaTeX包：",
+    "plugin_figure_hint": "由插件{{pluginId}}生成的图形。要修改它，请使用预览中的“编辑图形”按鈕。",
+    "close_title": "关闭（Esc）",
+    "caption_label": "标题 / 说明",
+    "label_latex": "LaTeX标签（\\ref / \\cref）",
+    "regen_title": "从原始保存数据重新运行插件。在引擎更新后很有用。",
+    "regen_btn": "重新生成图形",
+    "regenerating": "重新生成中…",
+    "save_title_dirty": "保存新标题和标签而不重新运行插件",
+    "save_title_clean": "没有待处理的更改",
+    "save_btn": "保存更改",
+    "saving": "保存中…"
+  },
+  "readiness": {
+    "panel_title": "项目进度",
+    "row_overall": "项目",
+    "row_setup": "配置",
+    "row_writing": "写作",
+    "row_delivery": "提交",
+    "row_quality": "最终质量",
+    "pending_prefix": "待处理：",
+    "delivery_blocked": "最终提交前有待处理的项目",
+    "setup_title": "设置作品的真实标题",
+    "setup_author": "完成主要作者信息",
+    "setup_institution": "输入真实机构",
+    "setup_profile": "选择学术模板",
+    "setup_language": "选择基础语言",
+    "setup_advisor": "添加至少一位导师",
+    "writing_sections": "至少启用一个内容章节",
+    "writing_draft": "在主要章节中编写内容",
+    "writing_words": "完成实质性的初稿",
+    "writing_reviewed": "将至少一个章节标记为已修订",
+    "delivery_references": "包含参考文献章节",
+    "delivery_abstract": "编写摘要",
+    "delivery_required": "完成模板的必填章节",
+    "delivery_latex": "确认或删除未验证的LaTeX块",
+    "delivery_committee": "为高级作品完成答辩委员会",
+    "delivery_review_main": "提交前审阅主要章节",
+    "quality_citation": "在正文中包含至少一个可验证的引用",
+    "quality_required_reviewed": "将必填正文章节标记为已修订",
+    "quality_raw_latex": "最终提交前迁移或手动审查导入的LaTeX块",
+    "quality_plugin_warnings": "最终提交前解决图形或插件警告",
+    "quality_profile": "正式提交时使用机构或自定义模板"
   }
 }
