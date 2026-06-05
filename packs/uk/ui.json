@@ -986,7 +986,7 @@
     "delete_profile_title": "Видалити профіль?",
     "delete_profile_body_before": "Це видалить",
     "delete_profile_body_after": "Цю дію не можна скасувати.",
-    "sidebar_counts": "Профілі {{profiles}} · Елементи {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Встановлені профілі",
     "profile_count_hint": "Профілі {{count}} · натисніть, щоб переглянути деталі",
     "import_profile_title": "Імпорт профілю з каталогу",

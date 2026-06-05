@@ -986,7 +986,7 @@
     "delete_profile_title": "Ștergeți profilul?",
     "delete_profile_body_before": "Aceasta se va șterge",
     "delete_profile_body_after": "Această acțiune nu poate fi anulată.",
-    "sidebar_counts": "Profile {{profiles}} · Elemente {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Profiluri instalate",
     "profile_count_hint": "Profiluri {{count}} · dați clic pentru a vedea detalii",
     "import_profile_title": "Importați profilul din director",

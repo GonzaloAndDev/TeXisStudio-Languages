@@ -986,7 +986,7 @@
     "delete_profile_title": "प्रोफ़ाइल हटाएं?",
     "delete_profile_body_before": "ये डिलीट हो जाएगा",
     "delete_profile_body_after": "इस एक्शन को वापस नहीं किया जा सकता।",
-    "sidebar_counts": "{{profiles}} प्रोफाइल · {{elements}} तत्व",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "स्थापित प्रोफ़ाइलें",
     "profile_count_hint": "{{count}} प्रोफाइल · विवरण देखने के लिए क्लिक करें",
     "import_profile_title": "निर्देशिका से प्रोफ़ाइल आयात करें",

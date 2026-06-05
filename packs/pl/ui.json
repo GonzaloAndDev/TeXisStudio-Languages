@@ -986,7 +986,7 @@
     "delete_profile_title": "Usunąć profil?",
     "delete_profile_body_before": "To zostanie usunięte",
     "delete_profile_body_after": "Tej akcji nie można cofnąć.",
-    "sidebar_counts": "Profile {{profiles}} · Elementy {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Zainstalowane profile",
     "profile_count_hint": "Profile {{count}} · kliknij, żeby zobaczyć szczegóły",
     "import_profile_title": "Importuj profil z katalogu",

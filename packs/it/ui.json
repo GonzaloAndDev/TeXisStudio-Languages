@@ -986,7 +986,7 @@
     "delete_profile_title": "Eliminare il profilo?",
     "delete_profile_body_before": "Questo eliminerà",
     "delete_profile_body_after": "Questa azione non può essere annullata.",
-    "sidebar_counts": "Profili {{profiles}} · Elementi {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Profili installati",
     "profile_count_hint": "Profili {{count}} · fare clic per visualizzare i dettagli",
     "import_profile_title": "Importa il profilo dalla directory",

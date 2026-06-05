@@ -986,7 +986,7 @@
     "delete_profile_title": "هل تريد حذف الملف الشخصي؟",
     "delete_profile_body_before": "سيتم حذف هذا",
     "delete_profile_body_after": "لا يمكن التراجع عن هذا الإجراء.",
-    "sidebar_counts": "ملامح {{profiles}} · عناصر {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "الملفات الشخصية المثبتة",
     "profile_count_hint": "ملفات تعريف {{count}} · انقر لعرض التفاصيل",
     "import_profile_title": "استيراد الملف الشخصي من الدليل",

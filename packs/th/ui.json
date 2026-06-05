@@ -986,7 +986,7 @@
     "delete_profile_title": "ลบโปรไฟล์ใช่ไหม",
     "delete_profile_body_before": "สิ่งนี้จะลบ",
     "delete_profile_body_after": "การดำเนินการนี้ไม่สามารถยกเลิกได้",
-    "sidebar_counts": "โปรไฟล์ {{profiles}} · องค์ประกอบ {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "โปรไฟล์ที่ติดตั้ง",
     "profile_count_hint": "โปรไฟล์ {{count}} · คลิกเพื่อดูรายละเอียด",
     "import_profile_title": "นำเข้าโปรไฟล์จากไดเร็กทอรี",

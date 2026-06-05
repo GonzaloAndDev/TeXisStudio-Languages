@@ -986,7 +986,7 @@
     "delete_profile_title": "Xóa hồ sơ?",
     "delete_profile_body_before": "Điều này sẽ xóa",
     "delete_profile_body_after": "Không thể hoàn tác hành động này.",
-    "sidebar_counts": "Cấu hình {{profiles}} · Phần tử {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Hồ sơ đã cài đặt",
     "profile_count_hint": "Cấu hình {{count}} · bấm vào để xem chi tiết",
     "import_profile_title": "Nhập hồ sơ từ thư mục",

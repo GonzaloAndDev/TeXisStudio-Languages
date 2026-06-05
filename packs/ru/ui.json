@@ -986,7 +986,7 @@
     "delete_profile_title": "Удалить профиль?",
     "delete_profile_body_before": "Это удалит",
     "delete_profile_body_after": "Это действие невозможно отменить.",
-    "sidebar_counts": "Профили {{profiles}} · Элементы {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Установленные профили",
     "profile_count_hint": "Профили {{count}} · нажмите, чтобы просмотреть подробности",
     "import_profile_title": "Импортировать профиль из каталога",

@@ -986,7 +986,7 @@
     "delete_profile_title": "Profiel verwijderen?",
     "delete_profile_body_before": "Dit wordt verwijderd",
     "delete_profile_body_after": "Deze actie kan niet ongedaan worden gemaakt.",
-    "sidebar_counts": "{{profiles}}-profielen · {{elements}}-elementen",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Geïnstalleerde profielen",
     "profile_count_hint": "{{count}}-profielen · klik om details te bekijken",
     "import_profile_title": "Profiel uit map importeren",

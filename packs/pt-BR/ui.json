@@ -986,7 +986,7 @@
     "delete_profile_title": "Excluir perfil?",
     "delete_profile_body_before": "Isso irá excluir",
     "delete_profile_body_after": "Esta ação não pode ser desfeita.",
-    "sidebar_counts": "Perfis {{profiles}} · Elementos {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Perfis instalados",
     "profile_count_hint": "Perfis {{count}} · clique para ver detalhes",
     "import_profile_title": "Importar perfil do diretório",

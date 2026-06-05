@@ -986,7 +986,7 @@
     "delete_profile_title": "Smazat profil?",
     "delete_profile_body_before": "Tím se smaže",
     "delete_profile_body_after": "Tuto akci nelze vrátit zpět.",
-    "sidebar_counts": "Profily {{profiles}} · Prvky {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Instalované profily",
     "profile_count_hint": "Profily {{count}} · kliknutím zobrazíte podrobnosti",
     "import_profile_title": "Import profilu z adresáře",

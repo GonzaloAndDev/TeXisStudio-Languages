@@ -986,7 +986,7 @@
     "delete_profile_title": "پروفایل حذف شود؟",
     "delete_profile_body_before": "این حذف خواهد شد",
     "delete_profile_body_after": "این عمل قابل لغو نیست.",
-    "sidebar_counts": "پروفایل های {{profiles}} · المان های {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "پروفایل های نصب شده",
     "profile_count_hint": "پروفایل های {{count}} · برای مشاهده جزئیات کلیک کنید",
     "import_profile_title": "نمایه را از دایرکتوری وارد کنید",

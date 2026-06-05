@@ -986,7 +986,7 @@
     "delete_profile_title": "Ta bort profil?",
     "delete_profile_body_before": "Detta kommer att raderas",
     "delete_profile_body_after": "Denna åtgärd kan inte ångras.",
-    "sidebar_counts": "{{profiles}}-profiler · {{elements}}-element",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Installerade profiler",
     "profile_count_hint": "{{count}}-profiler · klicka för att se detaljer",
     "import_profile_title": "Importera profil från katalogen",

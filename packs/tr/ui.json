@@ -986,7 +986,7 @@
     "delete_profile_title": "Profil silinsin mi?",
     "delete_profile_body_before": "Bu silinecek",
     "delete_profile_body_after": "Bu eylem geri alınamaz.",
-    "sidebar_counts": "{{profiles}} profilleri · {{elements}} öğeleri",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "Yüklü profiller",
     "profile_count_hint": "{{count}} profilleri · ayrıntıları görüntülemek için tıklayın",
     "import_profile_title": "Profili dizinden içe aktar",

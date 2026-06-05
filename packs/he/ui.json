@@ -986,7 +986,7 @@
     "delete_profile_title": "למחוק את הפרופיל?",
     "delete_profile_body_before": "זה ימחק",
     "delete_profile_body_after": "לא ניתן לבטל פעולה זו.",
-    "sidebar_counts": "פרופילי {{profiles}} · אלמנטים של {{elements}}",
+    "sidebar_counts": "{{profiles}} installed profiles",
     "installed_profiles": "פרופילים מותקנים",
     "profile_count_hint": "פרופילי {{count}} · לחץ כדי להציג פרטים",
     "import_profile_title": "ייבא פרופיל מהספרייה",
