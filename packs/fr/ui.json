@@ -1734,11 +1734,11 @@
     "empty_catalog": "Le catalogue est vide.",
     "no_filter_matches": "Aucun profil ne correspond aux filtres actuels.",
     "heading": "Communauté",
-    "heading_desc": "Profils par institution, niveau, domaine et programme. Nécessite une connexion internet.",
+    "heading_desc": "Profils par établissement, niveau, domaine et programme. Nécessite une connexion Internet.",
     "refresh": "Actualiser",
     "guided_hint_title": "Vous n’avez pas besoin du nom exact du profil",
     "guided_hint_body": "Commencez par votre institution ou par une combinaison proche de diplôme, domaine et style de citation. S’il n’existe pas de correspondance exacte, partez d’une base institutionnelle simple puis ajustez-la.",
-    "catalog_load_error": "Impossible de charger le catalogue : {{error}}. Vérifiez votre connexion.",
+    "catalog_load_error": "Impossible de charger le catalogue de profils. Vérifiez votre connexion ou réessayez.",
     "install_success": "« {{name}} » installé correctement.",
     "breadcrumb_all": "Tous",
     "profile_count_one": "{{count}} profil",
@@ -1801,7 +1801,9 @@
     "browser_warning": "Les téléchargements réels ne fonctionnent que dans l'application de bureau. Simulation dans le navigateur.",
     "install_from_url_title": "Installer depuis une URL",
     "install_from_url_hint": "Collez l'URL d'un .zip contenant un profile.yaml valide.",
-    "install_btn": "Installer"
+    "install_btn": "Installer",
+    "status_verified_label": "Vérifié",
+    "status_reviewed_label": "Révisé"
   },
   "about": {
     "title": "À propos",

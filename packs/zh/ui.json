@@ -1738,7 +1738,7 @@
     "refresh": "刷新",
     "guided_hint_title": "你不需要知道准确的配置名称",
     "guided_hint_body": "先从你的机构，或学位、领域和引用样式的相近组合开始。如果没有完全匹配，可以先使用简单的机构基础配置，再逐步调整。",
-    "catalog_load_error": "无法加载目录：{{error}}。请检查连接。",
+    "catalog_load_error": "无法加载配置文件目录。请检查连接或重试。",
     "install_success": "“{{name}}”已成功安装。",
     "breadcrumb_all": "全部",
     "profile_count_one": "{{count}} 个配置",
@@ -1801,7 +1801,9 @@
     "browser_warning": "真实下载仅在桌面应用中可用。浏览器中为模拟。",
     "install_from_url_title": "从 URL 安装",
     "install_from_url_hint": "粘贴包含有效profile.yaml的.zip的URL。",
-    "install_btn": "安装"
+    "install_btn": "安装",
+    "status_verified_label": "已验证",
+    "status_reviewed_label": "已审阅"
   },
   "about": {
     "title": "关于",
