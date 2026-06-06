@@ -557,7 +557,8 @@
     "recommend_reason_tesina": "लघु थीसिस के लिए डिज़ाइन किया गया",
     "recommend_reason_tesis": "थीसिस के लिए ठोस आधार",
     "recommend_reason_verified": "संस्थागत सत्यापन है",
-    "recommend_reason_reviewed": "टीम द्वारा समीक्षा की गई"
+    "recommend_reason_reviewed": "टीम द्वारा समीक्षा की गई",
+    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}"
   },
   "editor": {
     "diag_title": "परियोजना निदान",
@@ -1060,7 +1061,30 @@
     "selected_chip": "चयनित",
     "installed_chip": "स्थापित",
     "sections_count_suffix": "अनुभाग",
-    "tab_plugins": "Plugins"
+    "tab_plugins": "Plugins",
+    "placement": {
+      "front_matter": "Front Matter",
+      "body": "Body",
+      "back_matter": "Back Matter",
+      "appendix": "Appendix"
+    },
+    "section_element": {
+      "title_page": "Title Page",
+      "abstract": "Abstract",
+      "acknowledgements": "Acknowledgements",
+      "table_of_contents": "Table of Contents",
+      "list_of_figures": "List of Figures",
+      "list_of_tables": "List of Tables",
+      "introduction": "Introduction",
+      "theoretical_framework": "Theoretical Framework",
+      "methodology": "Methodology",
+      "results": "Results",
+      "discussion": "Discussion",
+      "conclusions": "Conclusions",
+      "references": "References",
+      "appendix": "Appendix",
+      "appendix_a": "Appendix A"
+    }
   },
   "progress": {
     "status_draft": "ड्राफ्ट",
@@ -1394,7 +1418,15 @@
     "compile_error": "संकलन त्रुटि",
     "compiling_statusbar": "संकलन... ({{count}} पंक्तियाँ)",
     "backends_available": "{{backends}} उपलब्ध है",
-    "latex_not_installed_status": "⚠LaTeX स्थापित नहीं है"
+    "latex_not_installed_status": "⚠LaTeX स्थापित नहीं है",
+    "preflight_action_compile": "Compile",
+    "preflight_action_export": "Export submission",
+    "preflight_title": "Pre-{{action}} check",
+    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
+    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
+    "preflight_errors_section": "Errors ({{count}})",
+    "preflight_warnings_section": "Warnings ({{count}})",
+    "preflight_suggestions_section": "Suggestions ({{count}})"
   },
   "community_profile": {
     "audience_label": "यह किसके लिए है",
@@ -2278,5 +2310,13 @@
       "experimental": "experimental",
       "draft": "draft"
     }
+  },
+  "welcome": {
+    "heading": "Select your language",
+    "subheading": "You can change this later in Settings.",
+    "more_languages": "More languages",
+    "loading_more": "Loading more languages…",
+    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
+    "skip": "Skip"
   }
 }

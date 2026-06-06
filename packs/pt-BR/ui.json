@@ -557,7 +557,8 @@
     "recommend_reason_tesina": "projetado para teses curtas",
     "recommend_reason_tesis": "base sólida para teses",
     "recommend_reason_verified": "tem verificação institucional",
-    "recommend_reason_reviewed": "revisado pela equipe"
+    "recommend_reason_reviewed": "revisado pela equipe",
+    "error_vocab_install": "Nao foi possivel ativar \"{{name}}\". Verifique sua conexao ou desmarque-o. Detalhe: {{error}}"
   },
   "editor": {
     "diag_title": "Diagnóstico de projeto",
@@ -1060,7 +1061,30 @@
     "selected_chip": "selecionado",
     "installed_chip": "instalado",
     "sections_count_suffix": "seções",
-    "tab_plugins": "Plugins"
+    "tab_plugins": "Plugins",
+    "placement": {
+      "front_matter": "Pré-texto",
+      "body": "Corpo",
+      "back_matter": "Pós-texto",
+      "appendix": "Apêndice"
+    },
+    "section_element": {
+      "title_page": "Página de título",
+      "abstract": "Resumo",
+      "acknowledgements": "Agradecimentos",
+      "table_of_contents": "Sumário",
+      "list_of_figures": "Lista de figuras",
+      "list_of_tables": "Lista de tabelas",
+      "introduction": "Introdução",
+      "theoretical_framework": "Referencial teórico",
+      "methodology": "Metodologia",
+      "results": "Resultados",
+      "discussion": "Discussão",
+      "conclusions": "Conclusões",
+      "references": "Referências",
+      "appendix": "Apêndice",
+      "appendix_a": "Apêndice A"
+    }
   },
   "progress": {
     "status_draft": "Rascunho",
@@ -1394,7 +1418,15 @@
     "compile_error": "Erro de compilação",
     "compiling_statusbar": "Compilando… (linhas {{count}})",
     "backends_available": "{{backends}} disponível",
-    "latex_not_installed_status": "⚠ LaTeX não instalado"
+    "latex_not_installed_status": "⚠ LaTeX não instalado",
+    "preflight_action_compile": "Compilar",
+    "preflight_action_export": "Exportar entrega",
+    "preflight_title": "Verificação antes de {{action}}",
+    "preflight_has_errors": "Corrija {{count}} erro(s) antes de continuar.",
+    "preflight_has_warnings": "{{count}} aviso(s) encontrado(s). Você pode continuar mesmo assim.",
+    "preflight_errors_section": "Erros ({{count}})",
+    "preflight_warnings_section": "Avisos ({{count}})",
+    "preflight_suggestions_section": "Sugestões ({{count}})"
   },
   "community_profile": {
     "audience_label": "Para quem é",
@@ -2278,5 +2310,13 @@
       "experimental": "experimental",
       "draft": "draft"
     }
+  },
+  "welcome": {
+    "heading": "Selecione seu idioma",
+    "subheading": "Você pode alterar isso depois em Configurações.",
+    "more_languages": "Mais idiomas",
+    "loading_more": "Carregando mais idiomas…",
+    "catalog_error": "Não foi possível carregar mais idiomas. Você pode continuar com um idioma incluído.",
+    "skip": "Pular"
   }
 }
