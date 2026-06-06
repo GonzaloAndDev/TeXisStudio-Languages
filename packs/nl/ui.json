@@ -893,7 +893,12 @@
     "basic_mode_title": "Basismodus actief",
     "basic_mode_body": "We laten alleen zien wat u moet schrijven en indienen zonder complexiteit. Je kunt inschakelen",
     "basic_mode_suffix": "in het tekstgedeelte.",
-    "basic_top_body": "Deze instellingen zijn ontworpen voor nuttige beslissingen zonder de technische details van LaTeX in te voeren. Schakel over naar"
+    "basic_top_body": "Deze instellingen zijn ontworpen voor nuttige beslissingen zonder de technische details van LaTeX in te voeren. Schakel over naar",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Afbeelding '{{file}}' waarnaar wordt verwezen in sectie '{{section}}' niet gevonden.",

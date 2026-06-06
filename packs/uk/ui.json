@@ -893,7 +893,12 @@
     "basic_mode_title": "Базовий режим активний",
     "basic_mode_body": "Ми покажемо лише те, що вам потрібно написати та подати без ускладнень. Ви можете включити",
     "basic_mode_suffix": "у текстовому розділі.",
-    "basic_top_body": "Ці налаштування призначені для прийняття корисних рішень без введення технічних деталей LaTeX. Перейти на"
+    "basic_top_body": "Ці налаштування призначені для прийняття корисних рішень без введення технічних деталей LaTeX. Перейти на",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Зображення «{{file}}», на яке посилається розділ «{{section}}», не знайдено.",

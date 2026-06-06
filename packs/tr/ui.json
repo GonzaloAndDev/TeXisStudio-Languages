@@ -893,7 +893,12 @@
     "basic_mode_title": "Temel mod etkin",
     "basic_mode_body": "Karmaşıklık olmadan yalnızca yazmanız ve göndermeniz gerekenleri gösteriyoruz. Etkinleştirebilirsiniz",
     "basic_mode_suffix": "metin bölümünde.",
-    "basic_top_body": "Bu ayarlar, LaTeX teknik ayrıntılarını girmeden faydalı kararlar vermek için tasarlanmıştır. Geçiş yap"
+    "basic_top_body": "Bu ayarlar, LaTeX teknik ayrıntılarını girmeden faydalı kararlar vermek için tasarlanmıştır. Geçiş yap",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' bölümünde başvurulan '{{file}}' resmi bulunamadı.",

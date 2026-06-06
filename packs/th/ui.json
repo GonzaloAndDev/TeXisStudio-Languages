@@ -893,7 +893,12 @@
     "basic_mode_title": "โหมดพื้นฐานใช้งานอยู่",
     "basic_mode_body": "เราแสดงเฉพาะสิ่งที่คุณต้องเขียนและส่งโดยไม่ซับซ้อน คุณสามารถเปิดใช้งานได้",
     "basic_mode_suffix": "ในส่วนข้อความ",
-    "basic_top_body": "การตั้งค่าเหล่านี้ออกแบบมาเพื่อการตัดสินใจที่เป็นประโยชน์โดยไม่ต้องป้อนรายละเอียดทางเทคนิคของ LaTeX เปลี่ยนไปที่"
+    "basic_top_body": "การตั้งค่าเหล่านี้ออกแบบมาเพื่อการตัดสินใจที่เป็นประโยชน์โดยไม่ต้องป้อนรายละเอียดทางเทคนิคของ LaTeX เปลี่ยนไปที่",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "ไม่พบรูปภาพ '{{file}}' ที่อ้างอิงในส่วน '{{section}}'",

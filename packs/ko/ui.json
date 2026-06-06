@@ -893,7 +893,12 @@
     "basic_mode_title": "기본 모드 활성화",
     "basic_mode_body": "작성하고 제출하는데 꼭 필요한 내용만 복잡하지 않게 보여드립니다. 활성화할 수 있습니다.",
     "basic_mode_suffix": "텍스트 섹션에서.",
-    "basic_top_body": "이러한 설정은 LaTeX 기술 세부 사항을 입력하지 않고도 유용한 결정을 내릴 수 있도록 설계되었습니다. 다음으로 전환"
+    "basic_top_body": "이러한 설정은 LaTeX 기술 세부 사항을 입력하지 않고도 유용한 결정을 내릴 수 있도록 설계되었습니다. 다음으로 전환",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' 섹션에서 참조된 '{{file}}' 이미지를 찾을 수 없습니다.",

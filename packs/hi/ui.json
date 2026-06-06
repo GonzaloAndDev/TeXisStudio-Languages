@@ -893,7 +893,12 @@
     "basic_mode_title": "मूल मोड सक्रिय",
     "basic_mode_body": "हम केवल वही दिखाते हैं जो आपको बिना किसी जटिलता के लिखने और सबमिट करने के लिए चाहिए। आप सक्षम कर सकते हैं",
     "basic_mode_suffix": "पाठ अनुभाग में.",
-    "basic_top_body": "ये सेटिंग्स LaTeX तकनीकी विवरण दर्ज किए बिना उपयोगी निर्णयों के लिए डिज़ाइन की गई हैं। पर स्विच करें"
+    "basic_top_body": "ये सेटिंग्स LaTeX तकनीकी विवरण दर्ज किए बिना उपयोगी निर्णयों के लिए डिज़ाइन की गई हैं। पर स्विच करें",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' अनुभाग में संदर्भित छवि '{{file}}' नहीं मिली।",

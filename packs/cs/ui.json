@@ -893,7 +893,12 @@
     "basic_mode_title": "Základní režim aktivní",
     "basic_mode_body": "Zobrazujeme pouze to, co potřebujete napsat a odeslat bez složitosti. Můžete povolit",
     "basic_mode_suffix": "v textové části.",
-    "basic_top_body": "Tato nastavení jsou navržena pro užitečná rozhodnutí bez zadávání technických podrobností LaTeX. Přepnout na"
+    "basic_top_body": "Tato nastavení jsou navržena pro užitečná rozhodnutí bez zadávání technických podrobností LaTeX. Přepnout na",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Obrázek '{{file}}' odkazovaný v sekci '{{section}}' nebyl nalezen.",

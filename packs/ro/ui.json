@@ -893,7 +893,12 @@
     "basic_mode_title": "Modul de bază activ",
     "basic_mode_body": "Vă arătăm doar ceea ce trebuie să scrieți și să trimiteți fără complexitate. Puteți activa",
     "basic_mode_suffix": "în secțiunea de text.",
-    "basic_top_body": "Aceste setări sunt concepute pentru decizii utile fără a introduce detalii tehnice LaTeX. Comutați la"
+    "basic_top_body": "Aceste setări sunt concepute pentru decizii utile fără a introduce detalii tehnice LaTeX. Comutați la",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imaginea „{{file}}” la care se face referire în secțiunea „{{section}}” nu a fost găsită.",

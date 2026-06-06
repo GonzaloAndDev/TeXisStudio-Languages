@@ -893,7 +893,12 @@
     "basic_mode_title": "Основной режим активен",
     "basic_mode_body": "Мы показываем только то, что вам нужно написать и подать без сложностей. Вы можете включить",
     "basic_mode_suffix": "в текстовом разделе.",
-    "basic_top_body": "Эти настройки предназначены для принятия полезных решений без ввода технических подробностей LaTeX. Переключиться на"
+    "basic_top_body": "Эти настройки предназначены для принятия полезных решений без ввода технических подробностей LaTeX. Переключиться на",
+    "update_check_btn": "Check for updates",
+    "update_checking": "Checking…",
+    "update_available": "Version {{version}} available — restart to install",
+    "update_up_to_date": "You are up to date",
+    "update_error": "Could not check for updates"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Изображение «{{file}}», указанное в разделе «{{section}}», не найдено.",
