@@ -24,8 +24,8 @@
                    "retry":  "Reintentar",
                    "apply":  "Aplicar",
                    "export":  "Exportar",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Ts\u0027o\u0027oktik",
+                   "working":  "Táan u beetik…"
                },
     "lang":  {
                  "picker_label":  "T\u0027aan k\u0027áayil",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Jóok\u0027ol t\u0027aanil",
+                  "notifications_area_label":  "T\u0027aanilo\u0027ob"
               }
 }

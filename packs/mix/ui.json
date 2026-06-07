@@ -24,8 +24,8 @@
                    "retry":  "Reintentar",
                    "apply":  "Aplicar",
                    "export":  "Exportar",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Kachi naa",
+                   "working":  "Ta ndiko…"
                },
     "lang":  {
                  "picker_label":  "Tu\u0027un k\u0027eyi",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Ndoo tu\u0027un",
+                  "notifications_area_label":  "Tu\u0027un"
               }
 }

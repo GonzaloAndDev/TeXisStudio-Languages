@@ -310,8 +310,8 @@
                    "retry":  "Thử lại",
                    "apply":  "Áp dụng",
                    "export":  "Xuất khẩu",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Xác nhận",
+                   "working":  "Đang xử lý…"
                },
     "lang":  {
                  "picker_label":  "Ngôn ngữ giao diện",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Đóng thông báo",
+                  "notifications_area_label":  "Thông báo"
               }
 }

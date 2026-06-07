@@ -24,8 +24,8 @@
                    "retry":  "Reintentar",
                    "apply":  "Aplicar",
                    "export":  "Exportar",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Ja\u0027anel",
+                   "working":  "Ta spasel…"
                },
     "lang":  {
                  "picker_label":  "K\u0027op k\u0027el",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Lok\u0027esel k\u0027opil",
+                  "notifications_area_label":  "K\u0027opil"
               }
 }

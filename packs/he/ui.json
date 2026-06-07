@@ -310,8 +310,8 @@
                    "retry":  "נסה שוב",
                    "apply":  "החל",
                    "export":  "ייצוא",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "אשר",
+                   "working":  "מעבד…"
                },
     "lang":  {
                  "picker_label":  "שפת ממשק",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "סגור התראה",
+                  "notifications_area_label":  "התראות"
               }
 }

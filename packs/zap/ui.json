@@ -24,8 +24,8 @@
                    "retry":  "Reintentar",
                    "apply":  "Aplicar",
                    "export":  "Exportar",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Ricana\u0027",
+                   "working":  "Ritite…"
                },
     "lang":  {
                  "picker_label":  "Diidxazá guendaranaxhii",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Gueta diidxa\u0027",
+                  "notifications_area_label":  "Diidxa\u0027"
               }
 }

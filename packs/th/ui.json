@@ -310,8 +310,8 @@
                    "retry":  "ลองอีกครั้ง",
                    "apply":  "สมัคร",
                    "export":  "ส่งออก",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "ยืนยัน",
+                   "working":  "กำลังดำเนินการ…"
                },
     "lang":  {
                  "picker_label":  "ภาษาอินเทอร์เฟซ",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "ปิดการแจ้งเตือน",
+                  "notifications_area_label":  "การแจ้งเตือน"
               }
 }

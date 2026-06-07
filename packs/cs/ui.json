@@ -310,8 +310,8 @@
                    "retry":  "Zkuste to znovu",
                    "apply":  "Použít",
                    "export":  "Exportovat",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Potvrdit",
+                   "working":  "Probíhá…"
                },
     "lang":  {
                  "picker_label":  "Jazyk rozhraní",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Zavřít oznámení",
+                  "notifications_area_label":  "Oznámení"
               }
 }

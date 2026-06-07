@@ -310,8 +310,8 @@
                    "retry":  "دوباره امتحان کنید",
                    "apply":  "درخواست کنید",
                    "export":  "صادرات",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "تأیید کنید",
+                   "working":  "در حال پردازش…"
                },
     "lang":  {
                  "picker_label":  "زبان رابط",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "بستن اعلان",
+                  "notifications_area_label":  "اعلان‌ها"
               }
 }

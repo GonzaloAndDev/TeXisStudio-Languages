@@ -310,8 +310,8 @@
                    "retry":  "Reîncercați",
                    "apply":  "Aplicați",
                    "export":  "Exportați",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Confirmați",
+                   "working":  "Se procesează…"
                },
     "lang":  {
                  "picker_label":  "Limbajul interfeței",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Închide notificarea",
+                  "notifications_area_label":  "Notificări"
               }
 }

@@ -24,8 +24,8 @@
                    "retry":  "Reintentar",
                    "apply":  "Aplicar",
                    "export":  "Exportar",
-                   "confirm":  "Confirm",
-                   "working":  "Working…"
+                   "confirm":  "Xicneltoca",
+                   "working":  "Motequipanoa…"
                },
     "lang":  {
                  "picker_label":  "Tlahtol tlapializtli",
@@ -2327,7 +2327,7 @@
                     "skip":  "Skip"
                 },
     "toast":  {
-                  "close_button":  "Close notification",
-                  "notifications_area_label":  "Notifications"
+                  "close_button":  "Xiquiza tlamachiliztli",
+                  "notifications_area_label":  "Tlamachiliztli"
               }
 }
