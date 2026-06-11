@@ -311,7 +311,8 @@
     "apply": "Applicare",
     "export": "Esportazione",
     "confirm": "Conferma",
-    "working": "In corso…"
+    "working": "In corso…",
+    "language_picker_title": "Lingua"
   },
   "lang": {
     "picker_label": "Linguaggio dell'interfaccia",
@@ -565,7 +566,8 @@
     "recommend_reason_tesis": "base solida per tesi",
     "recommend_reason_verified": "ha una verifica istituzionale",
     "recommend_reason_reviewed": "revisionato dal team",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}"
+    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
+    "google_drive_desktop": "Google Drive per desktop"
   },
   "editor": {
     "diag_title": "Diagnostica del progetto",
@@ -840,7 +842,9 @@
     "dismiss": "Ignora",
     "auto_check": "Controlla automaticamente al salvataggio",
     "check_now": "Controlla ora",
-    "error_api": "Impossibile connettersi a LanguageTool. Controlla la tua connessione."
+    "error_api": "Impossibile connettersi a LanguageTool. Controlla la tua connessione.",
+    "not_supported": "{{language}}: il controllo grammaticale non è supportato",
+    "pack_remote_disabled_prefix": "Questo pacchetto linguistico dichiara"
   },
   "settings": {
     "title": "Impostazioni",
@@ -926,7 +930,21 @@
     "update_available": "Version {{version}} available — restart to install",
     "update_up_to_date": "You are up to date",
     "update_error": "Could not check for updates",
-    "update_disabled": "Aggiornamento automatico non configurato per questa versione"
+    "update_disabled": "Aggiornamento automatico non configurato per questa versione",
+    "refresh_catalog": "Aggiorna catalogo",
+    "package_status_stable": "Stabile",
+    "package_status_beta": "Beta",
+    "package_status_experimental": "Sperimentale",
+    "capability_ui": "interfaccia utente",
+    "capability_spelling": "Ortografia",
+    "capability_autocorrect": "Correzione automatica",
+    "capability_grammar": "Grammatica",
+    "capability_no_spelling": "Nessuna ortografia",
+    "installing_ui": "↓Interfaccia utente...",
+    "installing_dictionary": "↓ Dizionario…",
+    "installing_rules": "↓ Regolamento…",
+    "dict_format_hint": "Formato: un termine per riga (.txt senza intestazione)",
+    "user_defaults_hint": "Questi dettagli verranno utilizzati come predefiniti durante la creazione di nuovi progetti."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Immagine \"{{file}}\" citata nella sezione \"{{section}}\" non trovata.",
@@ -1324,7 +1342,8 @@
     "footer_navigate": "↑↓ naviga",
     "footer_go_block": "↵ vai al blocco",
     "footer_cancel": "Esc annulla",
-    "commands": "Comandi"
+    "commands": "Comandi",
+    "dialog_title": "Tavolozza dei comandi"
   },
   "block_item": {
     "not_editable": "Il blocco non è modificabile",
@@ -1363,7 +1382,10 @@
     "delete_block": "Elimina blocco",
     "manual_latex_warning": "Manuale LaTeX: potrebbe interrompere la compilazione",
     "confirm_manual_latex": "Confermo che questo manuale LaTeX potrebbe influenzare la compilazione",
-    "unconfirmed_latex_hint": "Non confermato: questo blocco non sarà incluso nello PDF finché non lo confermerai."
+    "unconfirmed_latex_hint": "Non confermato: questo blocco non sarà incluso nello PDF finché non lo confermerai.",
+    "packages": "Pacchetti",
+    "edit_figure_title": "Modifica il titolo o l'etichetta o rigenera la figura",
+    "edit_figure": "Modifica figura"
   },
   "compile": {
     "ensure_latex_installed_path": "Verificare che un compilatore LaTeX sia installato e disponibile in PATH.",
@@ -1470,7 +1492,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "Errore",
+    "severity_warning": "Avvertimento",
+    "severity_suggestion": "Suggerimento",
+    "go_to_section": "Vai alla sezione",
+    "preflight_review_first": "Rivedi prima"
   },
   "community_profile": {
     "audience_label": "Per chi è",
@@ -1979,7 +2006,8 @@
     "add_events": "Aggiungi eventi",
     "empty_equation": "Equazione vuota",
     "custom_molecule": "Molecola personalizzata",
-    "molecule_compile_hint": "Struttura generata con chemfig durante la compilazione"
+    "molecule_compile_hint": "Struttura generata con chemfig durante la compilazione",
+    "chemical_syntax_hint": "Utilizzare -> (reazione), <=> (equilibrio), ^ (gas) e v (precipitato)"
   },
   "vocabulary": {
     "title": "Vocabolari di dominio",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "Mappa di calore",
     "col_y_error": "±y errore",
     "col_iqr": "½ IQR",
-    "col_meta": "Meta (colore)"
+    "col_meta": "Meta (colore)",
+    "undo": "Annulla",
+    "redo": "Rifare",
+    "restore_btn": "Esempio di ripristino",
+    "restore_title": "Sostituisci con un esempio funzionante minimo"
   },
   "help": {
     "title": "Centro assistenza",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ trattino basso letterale",
       "hint_braces": "\\{ \\}  parentesi graffe letterali"
     }
+  },
+  "app_error": {
+    "title": "Qualcosa è andato storto",
+    "body": "TeXisStudio ha mantenuto intatti i tuoi file. Torna a casa e prova a riaprire il progetto.",
+    "back_home": "Ritorno a casa"
   }
 }

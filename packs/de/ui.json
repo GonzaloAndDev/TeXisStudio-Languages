@@ -25,7 +25,8 @@
     "apply": "Anwenden",
     "export": "Exportieren",
     "confirm": "Bestätigen",
-    "working": "Wird verarbeitet…"
+    "working": "Wird verarbeitet…",
+    "language_picker_title": "Sprache"
   },
   "lang": {
     "picker_label": "Sprache der Benutzeroberfläche",
@@ -279,7 +280,8 @@
     "recommend_reason_tesis": "solide Basis für Dissertationen",
     "recommend_reason_verified": "hat institutionelle Verifizierung",
     "recommend_reason_reviewed": "vom Team geprüft",
-    "error_vocab_install": "\"{{name}}\" konnte nicht aktiviert werden. Verbindung pruefen oder Auswahl aufheben. Detail: {{error}}"
+    "error_vocab_install": "\"{{name}}\" konnte nicht aktiviert werden. Verbindung pruefen oder Auswahl aufheben. Detail: {{error}}",
+    "google_drive_desktop": "Google Drive für den Desktop"
   },
   "editor": {
     "placement_front": "Titelei",
@@ -554,7 +556,9 @@
     "dismiss": "Verwerfen",
     "auto_check": "Beim Speichern automatisch prüfen",
     "check_now": "Jetzt prüfen",
-    "error_api": "Verbindung zu LanguageTool fehlgeschlagen. Überprüfen Sie Ihre Verbindung."
+    "error_api": "Verbindung zu LanguageTool fehlgeschlagen. Überprüfen Sie Ihre Verbindung.",
+    "not_supported": "{{language}} – Grammatikprüfung wird nicht unterstützt",
+    "pack_remote_disabled_prefix": "Dieses Sprachpaket deklariert"
   },
   "settings": {
     "title": "Einstellungen",
@@ -640,7 +644,21 @@
     "update_available": "Version {{version}} verfügbar — neu starten zum Installieren",
     "update_up_to_date": "Du bist auf dem neuesten Stand",
     "update_error": "Updates konnten nicht geprüft werden",
-    "update_disabled": "Automatische Updates für diese Version nicht eingerichtet"
+    "update_disabled": "Automatische Updates für diese Version nicht eingerichtet",
+    "refresh_catalog": "Katalog aktualisieren",
+    "package_status_stable": "Stabil",
+    "package_status_beta": "Beta",
+    "package_status_experimental": "Experimentell",
+    "capability_ui": "Benutzeroberfläche",
+    "capability_spelling": "Rechtschreibung",
+    "capability_autocorrect": "Automatische Korrektur",
+    "capability_grammar": "Grammatik",
+    "capability_no_spelling": "Keine Rechtschreibung",
+    "installing_ui": "↓ Benutzeroberfläche…",
+    "installing_dictionary": "↓ Wörterbuch…",
+    "installing_rules": "↓ Regeln…",
+    "dict_format_hint": "Format: ein Begriff pro Zeile (.txt ohne Kopfzeile)",
+    "user_defaults_hint": "Diese Details werden beim Erstellen neuer Projekte als Standard verwendet."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bild '{{file}}' in Abschnitt '{{section}}' nicht gefunden.",
@@ -749,7 +767,7 @@
     "all": "Alle",
     "clear_filters": "Filter löschen",
     "loading_profiles": "Profile werden geladen…",
-    "no_profiles_found": "Keine Profile gefunden.",
+    "no_profiles_found": "Keine Profile für „{{search}}“ gefunden.",
     "installed_profiles_count": "{{count}} installed profiles",
     "country_mx": "Mexico",
     "country_us": "United States",
@@ -936,7 +954,7 @@
     "responsibility_prefix": "The assistant supports your work as writer, editor, reviewer, advisor, and simulated examiner.",
     "responsibility_strong": "It does not replace any real person.",
     "responsibility_suffix": "Authorship, corrections, and responsibility for the work remain with the author.",
-    "api_key_label": "API-Schlüssel",
+    "api_key_label": "{{provider}}-API-Schlüssel",
     "api_key_placeholder": "API-Schlüssel eingeben…",
     "hide_key": "Hide",
     "show_key": "Show",
@@ -1038,7 +1056,8 @@
     "footer_navigate": "↑↓ navigate",
     "footer_go_block": "↵ go to block",
     "footer_cancel": "Esc cancel",
-    "commands": "Commands"
+    "commands": "Commands",
+    "dialog_title": "Befehlspalette"
   },
   "block_item": {
     "not_editable": "Block is not editable",
@@ -1077,7 +1096,10 @@
     "delete_block": "Delete block",
     "manual_latex_warning": "Manual LaTeX — may break compilation",
     "confirm_manual_latex": "I confirm this manual LaTeX may affect compilation",
-    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it."
+    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it.",
+    "packages": "Pakete",
+    "edit_figure_title": "Bearbeiten Sie den Titel oder die Beschriftung oder generieren Sie die Abbildung neu",
+    "edit_figure": "Figur bearbeiten"
   },
   "compile": {
     "ensure_latex_installed_path": "Check that a LaTeX compiler is installed and available in PATH.",
@@ -1184,7 +1206,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "Fehler",
+    "severity_warning": "Warnung",
+    "severity_suggestion": "Vorschlag",
+    "go_to_section": "Gehen Sie zum Abschnitt",
+    "preflight_review_first": "Überprüfen Sie zuerst"
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -1693,7 +1720,8 @@
     "add_events": "Add events",
     "empty_equation": "Empty equation",
     "custom_molecule": "Custom molecule",
-    "molecule_compile_hint": "Structure generated with chemfig when compiling"
+    "molecule_compile_hint": "Structure generated with chemfig when compiling",
+    "chemical_syntax_hint": "Verwenden Sie -> (Reaktion), <=> (Gleichgewicht), ^ (Gas) und v (Niederschlag)."
   },
   "vocabulary": {
     "title": "Domain vocabularies",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "Heatmap",
     "col_y_error": "±y Fehler",
     "col_iqr": "½ IQR",
-    "col_meta": "Meta (Farbe)"
+    "col_meta": "Meta (Farbe)",
+    "undo": "Rückgängig machen",
+    "redo": "Wiederholen",
+    "restore_btn": "Beispiel wiederherstellen",
+    "restore_title": "Ersetzen Sie es durch ein minimales Arbeitsbeispiel"
   },
   "help": {
     "title": "Hilfe-Center",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ Unterstrich literal",
       "hint_braces": "\\{ \\}  geschweifte Klammern literal"
     }
+  },
+  "app_error": {
+    "title": "Etwas ist schief gelaufen",
+    "body": "TeXisStudio hat Ihre Dateien intakt gehalten. Kehren Sie zum Startbildschirm zurück und versuchen Sie, das Projekt erneut zu öffnen.",
+    "back_home": "Zum Start"
   }
 }

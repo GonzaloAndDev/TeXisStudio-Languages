@@ -25,7 +25,8 @@
     "apply": "適用",
     "export": "エクスポート",
     "confirm": "確認",
-    "working": "処理中…"
+    "working": "処理中…",
+    "language_picker_title": "言語"
   },
   "lang": {
     "picker_label": "インターフェース言語",
@@ -279,7 +280,8 @@
     "recommend_reason_tesis": "論文の堅固なベース",
     "recommend_reason_verified": "機関認証あり",
     "recommend_reason_reviewed": "チームによる審査済み",
-    "error_vocab_install": "\"{{name}}\" を有効化できませんでした。接続を確認するか選択を外してください。詳細: {{error}}"
+    "error_vocab_install": "\"{{name}}\" を有効化できませんでした。接続を確認するか選択を外してください。詳細: {{error}}",
+    "google_drive_desktop": "デスクトップ版 Google ドライブ"
   },
   "editor": {
     "placement_front": "前付け",
@@ -554,7 +556,9 @@
     "dismiss": "無視",
     "auto_check": "保存時に自動チェック",
     "check_now": "今すぐチェック",
-    "error_api": "LanguageTool に接続できません。接続を確認してください。"
+    "error_api": "LanguageTool に接続できません。接続を確認してください。",
+    "not_supported": "{{language}} — 文法チェックはサポートされていません",
+    "pack_remote_disabled_prefix": "この言語パックは宣言します"
   },
   "settings": {
     "title": "設定",
@@ -640,7 +644,21 @@
     "update_available": "バージョン {{version}} が利用可能 — 再起動してインストール",
     "update_up_to_date": "最新バージョンです",
     "update_error": "アップデートを確認できませんでした",
-    "update_disabled": "このリリースでは自動更新は設定されていません"
+    "update_disabled": "このリリースでは自動更新は設定されていません",
+    "refresh_catalog": "カタログを更新する",
+    "package_status_stable": "安定した",
+    "package_status_beta": "ベータ版",
+    "package_status_experimental": "実験的",
+    "capability_ui": "UI",
+    "capability_spelling": "スペル",
+    "capability_autocorrect": "自動修正",
+    "capability_grammar": "文法",
+    "capability_no_spelling": "スペルなし",
+    "installing_ui": "↓UI…",
+    "installing_dictionary": "↓辞書…",
+    "installing_rules": "↓ルール…",
+    "dict_format_hint": "形式: 1 行に 1 つの用語 (ヘッダーなしの .txt)",
+    "user_defaults_hint": "これらの詳細は、新しいプロジェクトを作成するときにデフォルトとして使用されます。"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "セクション '{{section}}' で参照されている画像 '{{file}}' が見つかりません。",
@@ -749,7 +767,7 @@
     "all": "All",
     "clear_filters": "Clear filters",
     "loading_profiles": "Loading profiles…",
-    "no_profiles_found": "プロファイルが見つかりません。",
+    "no_profiles_found": "「{{search}}」に一致するプロファイルが見つかりません。",
     "installed_profiles_count": "{{count}} installed profiles",
     "country_mx": "Mexico",
     "country_us": "United States",
@@ -936,7 +954,7 @@
     "responsibility_prefix": "The assistant supports your work as writer, editor, reviewer, advisor, and simulated examiner.",
     "responsibility_strong": "It does not replace any real person.",
     "responsibility_suffix": "Authorship, corrections, and responsibility for the work remain with the author.",
-    "api_key_label": "API キー",
+    "api_key_label": "{{provider}} API キー",
     "api_key_placeholder": "API キーを入力…",
     "hide_key": "Hide",
     "show_key": "Show",
@@ -1038,7 +1056,8 @@
     "footer_navigate": "↑↓ navigate",
     "footer_go_block": "↵ go to block",
     "footer_cancel": "Esc cancel",
-    "commands": "Commands"
+    "commands": "Commands",
+    "dialog_title": "コマンドパレット"
   },
   "block_item": {
     "not_editable": "Block is not editable",
@@ -1077,7 +1096,10 @@
     "delete_block": "Delete block",
     "manual_latex_warning": "Manual LaTeX — may break compilation",
     "confirm_manual_latex": "I confirm this manual LaTeX may affect compilation",
-    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it."
+    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it.",
+    "packages": "パッケージ",
+    "edit_figure_title": "タイトルまたはラベルを編集するか、図を再生成します",
+    "edit_figure": "図の編集"
   },
   "compile": {
     "ensure_latex_installed_path": "Check that a LaTeX compiler is installed and available in PATH.",
@@ -1184,7 +1206,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "エラー",
+    "severity_warning": "警告",
+    "severity_suggestion": "提案",
+    "go_to_section": "セクションに移動",
+    "preflight_review_first": "最初に確認してください"
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -1693,7 +1720,8 @@
     "add_events": "Add events",
     "empty_equation": "Empty equation",
     "custom_molecule": "Custom molecule",
-    "molecule_compile_hint": "Structure generated with chemfig when compiling"
+    "molecule_compile_hint": "Structure generated with chemfig when compiling",
+    "chemical_syntax_hint": "-> (反応)、<=> (平衡)、^ (ガス)、v (沈殿) を使用します。"
   },
   "vocabulary": {
     "title": "Domain vocabularies",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "ヒートマップ",
     "col_y_error": "±y誤差",
     "col_iqr": "½ IQR",
-    "col_meta": "メタ（色）"
+    "col_meta": "メタ（色）",
+    "undo": "元に戻す",
+    "redo": "やり直し",
+    "restore_btn": "復元の例",
+    "restore_title": "最小限の動作例に置き換えます"
   },
   "help": {
     "title": "ヘルプセンター",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ アンダースコア（リテラル）",
       "hint_braces": "\\{ \\}  波括弧（リテラル）"
     }
+  },
+  "app_error": {
+    "title": "何か問題が発生しました",
+    "body": "TeXisStudio はファイルを変更していません。開始画面に戻り、プロジェクトをもう一度開いてください。",
+    "back_home": "開始画面に戻る"
   }
 }

@@ -152,6 +152,27 @@ All 9 sections must be present for a complete translation:
 See [`../../../texis-app/src/i18n/locales/en.json`](../../texis-app/src/i18n/locales/en.json) for
 the canonical key list to translate from.
 
+### Incremental UI synchronization
+
+`scripts/translate-ui-json.mjs` adds only keys that are missing from each
+`ui.json`. It preserves existing translations and protects i18next variables,
+HTML, URLs, LaTeX commands, and technical identifiers.
+
+```bash
+# Update all supported remote packs with missing keys only
+node scripts/translate-ui-json.mjs
+
+# Also update the bundled de/fr/ja/pt-BR/zh locales in TeXisStudio
+node scripts/translate-ui-json.mjs --bundled
+
+# Use reviewed Spanish strings for experimental languages unsupported by MT
+node scripts/translate-ui-json.mjs --spanish-fallback --include-experimental nah yua tzh mix zap
+```
+
+The script fails when a translation loses or changes an i18next placeholder
+such as `{{count}}`. Automatic translation must never be used to overwrite an
+existing community translation.
+
 ### `language.yaml` reference
 
 ```yaml

@@ -311,7 +311,8 @@
     "apply": "Применить",
     "export": "Экспорт",
     "confirm": "Подтвердить",
-    "working": "Обработка…"
+    "working": "Обработка…",
+    "language_picker_title": "Язык"
   },
   "lang": {
     "picker_label": "Язык интерфейса",
@@ -565,7 +566,8 @@
     "recommend_reason_tesis": "прочная база для дипломных работ",
     "recommend_reason_verified": "имеет институциональную проверку",
     "recommend_reason_reviewed": "проверено командой",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}"
+    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
+    "google_drive_desktop": "Google Диск для компьютеров"
   },
   "editor": {
     "diag_title": "Диагностика проекта",
@@ -840,7 +842,9 @@
     "dismiss": "Уволить",
     "auto_check": "Автоматически проверять при сохранении",
     "check_now": "Проверьте сейчас",
-    "error_api": "Не удалось подключиться к LanguageTool. Проверьте свое соединение."
+    "error_api": "Не удалось подключиться к LanguageTool. Проверьте свое соединение.",
+    "not_supported": "{{language}} — проверка грамматики не поддерживается.",
+    "pack_remote_disabled_prefix": "Этот языковой пакет объявляет"
   },
   "settings": {
     "title": "Настройки",
@@ -926,7 +930,21 @@
     "update_available": "Version {{version}} available — restart to install",
     "update_up_to_date": "You are up to date",
     "update_error": "Could not check for updates",
-    "update_disabled": "Автоматическое обновление не настроено для этой версии"
+    "update_disabled": "Автоматическое обновление не настроено для этой версии",
+    "refresh_catalog": "Обновить каталог",
+    "package_status_stable": "Стабильный",
+    "package_status_beta": "Бета",
+    "package_status_experimental": "Экспериментальный",
+    "capability_ui": "пользовательский интерфейс",
+    "capability_spelling": "Правописание",
+    "capability_autocorrect": "Автокоррекция",
+    "capability_grammar": "Грамматика",
+    "capability_no_spelling": "Нет орфографии",
+    "installing_ui": "↓ Интерфейс…",
+    "installing_dictionary": "↓ Словарь…",
+    "installing_rules": "↓ Правила…",
+    "dict_format_hint": "Формат: по одному термину в строке (.txt без заголовка)",
+    "user_defaults_hint": "Эти данные будут использоваться по умолчанию при создании новых проектов."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Изображение «{{file}}», указанное в разделе «{{section}}», не найдено.",
@@ -1324,7 +1342,8 @@
     "footer_navigate": "↑↓ перейти",
     "footer_go_block": "↵ перейти к блокировке",
     "footer_cancel": "Esc отменить",
-    "commands": "Команды"
+    "commands": "Команды",
+    "dialog_title": "Палитра команд"
   },
   "block_item": {
     "not_editable": "Блок не доступен для редактирования",
@@ -1363,7 +1382,10 @@
     "delete_block": "Удалить блок",
     "manual_latex_warning": "Руководство LaTeX — может нарушить компиляцию.",
     "confirm_manual_latex": "Я подтверждаю, что это руководство LaTeX может повлиять на компиляцию.",
-    "unconfirmed_latex_hint": "Не подтверждено — этот блок не будет включен в PDF, пока вы его не подтвердите."
+    "unconfirmed_latex_hint": "Не подтверждено — этот блок не будет включен в PDF, пока вы его не подтвердите.",
+    "packages": "Пакеты",
+    "edit_figure_title": "Отредактируйте заголовок или метку или заново создайте рисунок.",
+    "edit_figure": "Редактировать рисунок"
   },
   "compile": {
     "ensure_latex_installed_path": "Убедитесь, что компилятор LaTeX установлен и доступен в PATH.",
@@ -1470,7 +1492,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "Ошибка",
+    "severity_warning": "Предупреждение",
+    "severity_suggestion": "Предложение",
+    "go_to_section": "Перейти в раздел",
+    "preflight_review_first": "Сначала просмотрите"
   },
   "community_profile": {
     "audience_label": "Для кого это",
@@ -1979,7 +2006,8 @@
     "add_events": "Добавить события",
     "empty_equation": "Пустое уравнение",
     "custom_molecule": "Пользовательская молекула",
-    "molecule_compile_hint": "Структура, созданная с помощью chemfig при компиляции"
+    "molecule_compile_hint": "Структура, созданная с помощью chemfig при компиляции",
+    "chemical_syntax_hint": "Используйте -> (реакция), <=> (равновесие), ^ (газ) и v (осадок)"
   },
   "vocabulary": {
     "title": "Словари доменов",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "Тепловая карта",
     "col_y_error": "±y погрешность",
     "col_iqr": "½ МКР",
-    "col_meta": "Мета (цвет)"
+    "col_meta": "Мета (цвет)",
+    "undo": "Отменить",
+    "redo": "Повторить",
+    "restore_btn": "Пример восстановления",
+    "restore_title": "Замените минимальным рабочим примером"
   },
   "help": {
     "title": "Справочный центр",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ подчёркивание (буквальное)",
       "hint_braces": "\\{ \\}  фигурные скобки (буквальные)"
     }
+  },
+  "app_error": {
+    "title": "Что-то пошло не так",
+    "body": "TeXisStudio сохранил ваши файлы нетронутыми. Вернитесь домой и попробуйте снова открыть проект.",
+    "back_home": "Вернуться домой"
   }
 }

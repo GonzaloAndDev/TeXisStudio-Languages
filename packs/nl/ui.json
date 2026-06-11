@@ -311,7 +311,8 @@
     "apply": "Toepassen",
     "export": "Exporteren",
     "confirm": "Bevestigen",
-    "working": "Bezig…"
+    "working": "Bezig…",
+    "language_picker_title": "Taal"
   },
   "lang": {
     "picker_label": "Interfacetaal",
@@ -565,7 +566,8 @@
     "recommend_reason_tesis": "solide basis voor scripties",
     "recommend_reason_verified": "beschikt over institutionele verificatie",
     "recommend_reason_reviewed": "beoordeeld door het team",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}"
+    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
+    "google_drive_desktop": "Google Drive voor desktop"
   },
   "editor": {
     "diag_title": "Projectdiagnostiek",
@@ -840,7 +842,9 @@
     "dismiss": "Negeren",
     "auto_check": "Vink automatisch aan bij opslaan",
     "check_now": "Controleer nu",
-    "error_api": "Kan geen verbinding maken met LanguageTool. Controleer uw verbinding."
+    "error_api": "Kan geen verbinding maken met LanguageTool. Controleer uw verbinding.",
+    "not_supported": "{{language}} — grammaticacontrole wordt niet ondersteund",
+    "pack_remote_disabled_prefix": "Dit taalpakket verklaart"
   },
   "settings": {
     "title": "Instellingen",
@@ -926,7 +930,21 @@
     "update_available": "Version {{version}} available — restart to install",
     "update_up_to_date": "You are up to date",
     "update_error": "Could not check for updates",
-    "update_disabled": "Automatische updates niet geconfigureerd voor deze versie"
+    "update_disabled": "Automatische updates niet geconfigureerd voor deze versie",
+    "refresh_catalog": "Catalogus vernieuwen",
+    "package_status_stable": "Stabiel",
+    "package_status_beta": "Bèta",
+    "package_status_experimental": "Experimenteel",
+    "capability_ui": "gebruikersinterface",
+    "capability_spelling": "Spelling",
+    "capability_autocorrect": "Autocorrectie",
+    "capability_grammar": "Grammatica",
+    "capability_no_spelling": "Geen spelling",
+    "installing_ui": "↓ gebruikersinterface…",
+    "installing_dictionary": "↓ Woordenboek…",
+    "installing_rules": "↓ Regels…",
+    "dict_format_hint": "Formaat: één term per regel (.txt zonder header)",
+    "user_defaults_hint": "Deze gegevens worden als standaard gebruikt bij het maken van nieuwe projecten."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Afbeelding '{{file}}' waarnaar wordt verwezen in sectie '{{section}}' niet gevonden.",
@@ -1324,7 +1342,8 @@
     "footer_navigate": "↑↓ navigeren",
     "footer_go_block": "↵ ga naar blok",
     "footer_cancel": "Esc annuleren",
-    "commands": "Commando's"
+    "commands": "Commando's",
+    "dialog_title": "Commandopalet"
   },
   "block_item": {
     "not_editable": "Blok kan niet worden bewerkt",
@@ -1363,7 +1382,10 @@
     "delete_block": "Blok verwijderen",
     "manual_latex_warning": "Handmatige LaTeX — kan de compilatie verbreken",
     "confirm_manual_latex": "Ik bevestig dat deze handleiding LaTeX de compilatie kan beïnvloeden",
-    "unconfirmed_latex_hint": "Niet bevestigd: dit blok wordt pas opgenomen in de PDF als u het bevestigt."
+    "unconfirmed_latex_hint": "Niet bevestigd: dit blok wordt pas opgenomen in de PDF als u het bevestigt.",
+    "packages": "Pakketten",
+    "edit_figure_title": "Bewerk de titel of het label, of genereer de afbeelding opnieuw",
+    "edit_figure": "Figuur bewerken"
   },
   "compile": {
     "ensure_latex_installed_path": "Controleer of er een LaTeX-compiler is geïnstalleerd en beschikbaar is in PATH.",
@@ -1470,7 +1492,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "Fout",
+    "severity_warning": "Waarschuwing",
+    "severity_suggestion": "Suggestie",
+    "go_to_section": "Ga naar sectie",
+    "preflight_review_first": "Eerst beoordelen"
   },
   "community_profile": {
     "audience_label": "Voor wie is het?",
@@ -1979,7 +2006,8 @@
     "add_events": "Voeg evenementen toe",
     "empty_equation": "Lege vergelijking",
     "custom_molecule": "Aangepaste molecuul",
-    "molecule_compile_hint": "Structuur gegenereerd met chemfig tijdens het compileren"
+    "molecule_compile_hint": "Structuur gegenereerd met chemfig tijdens het compileren",
+    "chemical_syntax_hint": "Gebruik -> (reactie), <=> (evenwicht), ^ (gas) en v (neerslag)"
   },
   "vocabulary": {
     "title": "Domeinwoordenschat",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "Warmtekaart",
     "col_y_error": "±y fout",
     "col_iqr": "½ IQR",
-    "col_meta": "Meta (kleur)"
+    "col_meta": "Meta (kleur)",
+    "undo": "Ongedaan maken",
+    "redo": "Opnieuw uitvoeren",
+    "restore_btn": "Voorbeeld herstellen",
+    "restore_title": "Vervang door een minimaal werkend voorbeeld"
   },
   "help": {
     "title": "Helpcentrum",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ literale underscore",
       "hint_braces": "\\{ \\}  letterlijke accolades"
     }
+  },
+  "app_error": {
+    "title": "Er is iets misgegaan",
+    "body": "TeXisStudio hield uw bestanden intact. Ga terug naar huis en probeer het project opnieuw te openen.",
+    "back_home": "Terug naar huis"
   }
 }

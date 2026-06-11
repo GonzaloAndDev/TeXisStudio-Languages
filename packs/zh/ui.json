@@ -25,7 +25,8 @@
     "apply": "应用",
     "export": "导出",
     "confirm": "确认",
-    "working": "处理中…"
+    "working": "处理中…",
+    "language_picker_title": "语言"
   },
   "lang": {
     "picker_label": "界面语言",
@@ -279,7 +280,8 @@
     "recommend_reason_tesis": "论文的可靠基础",
     "recommend_reason_verified": "具有机构认证",
     "recommend_reason_reviewed": "经团队审核",
-    "error_vocab_install": "\"{{name}}\"无法激活。请检查网络连接或取消选择。详情：{{error}}"
+    "error_vocab_install": "\"{{name}}\"无法激活。请检查网络连接或取消选择。详情：{{error}}",
+    "google_drive_desktop": "桌面版 Google 云端硬盘"
   },
   "editor": {
     "placement_front": "前置内容",
@@ -554,7 +556,9 @@
     "dismiss": "Dismiss",
     "auto_check": "Check automatically on save",
     "check_now": "Check now",
-    "error_api": "Could not connect to LanguageTool. Check your connection."
+    "error_api": "Could not connect to LanguageTool. Check your connection.",
+    "not_supported": "{{language}} — 不支持语法检查",
+    "pack_remote_disabled_prefix": "该语言包声明"
   },
   "settings": {
     "title": "设置",
@@ -640,7 +644,21 @@
     "update_available": "{{version}} 版本可用 — 重启以安装",
     "update_up_to_date": "已是最新版本",
     "update_error": "无法检查更新",
-    "update_disabled": "此版本未配置自动更新"
+    "update_disabled": "此版本未配置自动更新",
+    "refresh_catalog": "刷新目录",
+    "package_status_stable": "稳定",
+    "package_status_beta": "贝塔",
+    "package_status_experimental": "实验性的",
+    "capability_ui": "用户界面",
+    "capability_spelling": "拼写",
+    "capability_autocorrect": "自动更正",
+    "capability_grammar": "语法",
+    "capability_no_spelling": "没有拼写",
+    "installing_ui": "↓ 用户界面...",
+    "installing_dictionary": "↓ 词典...",
+    "installing_rules": "↓ 规则...",
+    "dict_format_hint": "格式：每行一个术语（.txt，无标题）",
+    "user_defaults_hint": "创建新项目时，这些详细信息将用作默认值。"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' referenced in section '{{section}}' not found.",
@@ -749,7 +767,7 @@
     "all": "All",
     "clear_filters": "Clear filters",
     "loading_profiles": "Loading profiles…",
-    "no_profiles_found": "未找到配置文件。",
+    "no_profiles_found": "未找到与“{{search}}”匹配的配置文件。",
     "installed_profiles_count": "{{count}} installed profiles",
     "country_mx": "Mexico",
     "country_us": "United States",
@@ -936,7 +954,7 @@
     "responsibility_prefix": "The assistant supports your work as writer, editor, reviewer, advisor, and simulated examiner.",
     "responsibility_strong": "It does not replace any real person.",
     "responsibility_suffix": "Authorship, corrections, and responsibility for the work remain with the author.",
-    "api_key_label": "API 密钥",
+    "api_key_label": "{{provider}} API 密钥",
     "api_key_placeholder": "输入 API 密钥…",
     "hide_key": "Hide",
     "show_key": "Show",
@@ -1038,7 +1056,8 @@
     "footer_navigate": "↑↓ navigate",
     "footer_go_block": "↵ go to block",
     "footer_cancel": "Esc cancel",
-    "commands": "Commands"
+    "commands": "Commands",
+    "dialog_title": "命令面板"
   },
   "block_item": {
     "not_editable": "Block is not editable",
@@ -1077,7 +1096,10 @@
     "delete_block": "Delete block",
     "manual_latex_warning": "Manual LaTeX — may break compilation",
     "confirm_manual_latex": "I confirm this manual LaTeX may affect compilation",
-    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it."
+    "unconfirmed_latex_hint": "Not confirmed — this block will not be included in the PDF until you confirm it.",
+    "packages": "套餐",
+    "edit_figure_title": "编辑标题或标签，或重新生成图形",
+    "edit_figure": "编辑图"
   },
   "compile": {
     "ensure_latex_installed_path": "Check that a LaTeX compiler is installed and available in PATH.",
@@ -1184,7 +1206,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "错误",
+    "severity_warning": "警告",
+    "severity_suggestion": "建议",
+    "go_to_section": "转到部分",
+    "preflight_review_first": "先回顾一下"
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -1693,7 +1720,8 @@
     "add_events": "Add events",
     "empty_equation": "Empty equation",
     "custom_molecule": "Custom molecule",
-    "molecule_compile_hint": "Structure generated with chemfig when compiling"
+    "molecule_compile_hint": "Structure generated with chemfig when compiling",
+    "chemical_syntax_hint": "使用 ->（反应）、<=>（平衡）、^（气体）和 v（沉淀）"
   },
   "vocabulary": {
     "title": "Domain vocabularies",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "热力图",
     "col_y_error": "±y误差",
     "col_iqr": "½ IQR",
-    "col_meta": "元数据（颜色）"
+    "col_meta": "元数据（颜色）",
+    "undo": "撤消",
+    "redo": "重做",
+    "restore_btn": "恢复示例",
+    "restore_title": "替换为最小工作示例"
   },
   "help": {
     "title": "帮助中心",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ 字面下划线",
       "hint_braces": "\\{ \\}  字面花括号"
     }
+  },
+  "app_error": {
+    "title": "出了点问题",
+    "body": "TeXisStudio 保留了您的文件。请返回开始界面，然后尝试重新打开项目。",
+    "back_home": "返回开始界面"
   }
 }

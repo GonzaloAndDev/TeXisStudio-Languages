@@ -311,7 +311,8 @@
     "apply": "Aplicar",
     "export": "Exportar",
     "confirm": "Confirmar",
-    "working": "Processando…"
+    "working": "Processando…",
+    "language_picker_title": "Idioma"
   },
   "lang": {
     "picker_label": "Idioma da interface",
@@ -565,7 +566,8 @@
     "recommend_reason_tesis": "base sólida para teses",
     "recommend_reason_verified": "tem verificação institucional",
     "recommend_reason_reviewed": "revisado pela equipe",
-    "error_vocab_install": "Nao foi possivel ativar \"{{name}}\". Verifique sua conexao ou desmarque-o. Detalhe: {{error}}"
+    "error_vocab_install": "Nao foi possivel ativar \"{{name}}\". Verifique sua conexao ou desmarque-o. Detalhe: {{error}}",
+    "google_drive_desktop": "Google Drive para computador"
   },
   "editor": {
     "diag_title": "Diagnóstico de projeto",
@@ -840,7 +842,9 @@
     "dismiss": "Dispensar",
     "auto_check": "Verifique automaticamente ao salvar",
     "check_now": "Verifique agora",
-    "error_api": "Não foi possível conectar-se a LanguageTool. Verifique sua conexão."
+    "error_api": "Não foi possível conectar-se a LanguageTool. Verifique sua conexão.",
+    "not_supported": "{{language}} — verificação gramatical não é suportada",
+    "pack_remote_disabled_prefix": "Este pacote de idiomas declara"
   },
   "settings": {
     "title": "Configurações",
@@ -926,7 +930,21 @@
     "update_available": "Versão {{version}} disponível — reinicie para instalar",
     "update_up_to_date": "Você está atualizado",
     "update_error": "Não foi possível verificar atualizações",
-    "update_disabled": "Atualização automática não configurada para esta versão"
+    "update_disabled": "Atualização automática não configurada para esta versão",
+    "refresh_catalog": "Atualizar catálogo",
+    "package_status_stable": "Estável",
+    "package_status_beta": "Beta",
+    "package_status_experimental": "Experimental",
+    "capability_ui": "IU",
+    "capability_spelling": "Ortografia",
+    "capability_autocorrect": "Correção automática",
+    "capability_grammar": "Gramática",
+    "capability_no_spelling": "Sem ortografia",
+    "installing_ui": "↓ IU…",
+    "installing_dictionary": "↓ Dicionário…",
+    "installing_rules": "↓ Regras…",
+    "dict_format_hint": "Formato: um termo por linha (.txt sem cabeçalho)",
+    "user_defaults_hint": "Esses detalhes serão usados como padrão ao criar novos projetos."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imagem '{{file}}' referenciada na seção '{{section}}' não encontrada.",
@@ -1324,7 +1342,8 @@
     "footer_navigate": "↑↓ navegar",
     "footer_go_block": "↵ vá para bloquear",
     "footer_cancel": "Esc cancelar",
-    "commands": "Comandos"
+    "commands": "Comandos",
+    "dialog_title": "Paleta de comandos"
   },
   "block_item": {
     "not_editable": "O bloco não é editável",
@@ -1363,7 +1382,10 @@
     "delete_block": "Excluir bloco",
     "manual_latex_warning": "Manual LaTeX — pode interromper a compilação",
     "confirm_manual_latex": "Confirmo que este manual LaTeX pode afetar a compilação",
-    "unconfirmed_latex_hint": "Não confirmado — este bloco não será incluído no PDF até que você o confirme."
+    "unconfirmed_latex_hint": "Não confirmado — este bloco não será incluído no PDF até que você o confirme.",
+    "packages": "Pacotes",
+    "edit_figure_title": "Edite o título ou rótulo ou gere novamente a figura",
+    "edit_figure": "Editar figura"
   },
   "compile": {
     "ensure_latex_installed_path": "Verifique se um compilador LaTeX está instalado e disponível em PATH.",
@@ -1470,7 +1492,12 @@
     "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
     "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
     "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality"
+    "readiness_quality": "Final quality",
+    "severity_error": "Erro",
+    "severity_warning": "Aviso",
+    "severity_suggestion": "Sugestão",
+    "go_to_section": "Vá para a seção",
+    "preflight_review_first": "Revise primeiro"
   },
   "community_profile": {
     "audience_label": "Para quem é",
@@ -1979,7 +2006,8 @@
     "add_events": "Adicionar eventos",
     "empty_equation": "Equação vazia",
     "custom_molecule": "Molécula personalizada",
-    "molecule_compile_hint": "Estrutura gerada com chemfig durante a compilação"
+    "molecule_compile_hint": "Estrutura gerada com chemfig durante a compilação",
+    "chemical_syntax_hint": "Use -> (reação), <=> (equilíbrio), ^ (gás) e v (precipitado)"
   },
   "vocabulary": {
     "title": "Vocabulários de domínio",
@@ -2470,7 +2498,11 @@
     "plot_heatmap": "Mapa de calor",
     "col_y_error": "±y erro",
     "col_iqr": "½ IQR",
-    "col_meta": "Meta (cor)"
+    "col_meta": "Meta (cor)",
+    "undo": "Desfazer",
+    "redo": "Refazer",
+    "restore_btn": "Exemplo de restauração",
+    "restore_title": "Substitua por um exemplo funcional mínimo"
   },
   "help": {
     "title": "Central de Ajuda",
@@ -2552,5 +2584,10 @@
       "hint_under": "_ sublinhado literal",
       "hint_braces": "\\{ \\}  chaves literais"
     }
+  },
+  "app_error": {
+    "title": "Algo deu errado",
+    "body": "O TeXisStudio manteve seus arquivos intactos. Volte à tela inicial e tente reabrir o projeto.",
+    "back_home": "Voltar ao início"
   }
 }
