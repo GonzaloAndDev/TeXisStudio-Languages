@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Wstaw figurę naukową (61 typów)",
+    "block_plugin_figure": "Rysunek+"
   },
   "spell": {
     "panel_title": "Sprawdzanie pisowni",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Zasady…",
     "update_disabled": "Dla tej wersji nie skonfigurowano automatycznej aktualizacji",
     "dict_format_hint": "Format: jeden termin w wierszu (.txt bez nagłówka)",
-    "user_defaults_hint": "Dane te będą używane jako domyślne podczas tworzenia nowych projektów."
+    "user_defaults_hint": "Dane te będą używane jako domyślne podczas tworzenia nowych projektów.",
+    "section_latex": "Silnik LaTeX",
+    "latex_primary_title": "Podstawowy silnik kompilacji",
+    "latex_primary_hint": "Wybierz silnik, którego TeXisStudio powinien używać domyślnie. Nadal możesz go zastąpić dla konkretnej kompilacji.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Lekki i łatwy w utrzymaniu. Polecany do codziennego pisania i projektów, które nie wymagają pełnej dystrybucji TeX-a.",
+    "latex_suite_title": "Kompletny zestaw LaTeX",
+    "latex_suite_description": "Używa lateksu z TeX Live lub MiKTeX. Zalecane w przypadku zaawansowanych pakietów, skomplikowanych bibliografii i ostatecznej dostawy.",
+    "latex_available": "Dostępne",
+    "latex_not_available": "Nie zainstalowano",
+    "latex_detected_version": "Wykryta wersja: {{version}}",
+    "latex_fallback_title": "Użyj drugiego silnika, gdy podstawowy jest niedostępny",
+    "latex_fallback_hint": "Skonfigurowany priorytet zostaje zachowany. TeXisStudio przełącza się tylko wtedy, gdy nie można użyć silnika głównego.",
+    "latex_install_hint": "Zainstaluj lub napraw silnik LaTeX za pomocą asystenta konfiguracji, a następnie odśwież tutaj wykrywanie.",
+    "latex_checking": "Sprawdzam…",
+    "latex_refresh": "Odśwież wykrywanie",
+    "latex_manage_installation": "Zarządzaj instalacją LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Nie znaleziono obrazu „{{file}}”, o którym mowa w sekcji „{{section}}”.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Ostrzeżenie",
     "severity_suggestion": "Sugestia",
     "go_to_section": "Przejdź do sekcji",
-    "preflight_review_first": "Najpierw przejrzyj"
+    "preflight_review_first": "Najpierw przejrzyj",
+    "autostart_pending": "Rozpoczynam kompilację…"
   },
   "community_profile": {
     "audience_label": "Dla kogo to jest",
@@ -2502,7 +2521,8 @@
     "undo": "Cofnij",
     "redo": "Powtórz",
     "restore_btn": "Przywróć przykład",
-    "restore_title": "Zastąp minimalnym działającym przykładem"
+    "restore_title": "Zastąp minimalnym działającym przykładem",
+    "advanced_section": "Zaawansowane opcje"
   },
   "help": {
     "title": "Centrum pomocy",
@@ -2589,5 +2609,71 @@
     "title": "Coś poszło nie tak",
     "body": "TeXisStudio zachował Twoje pliki w nienaruszonym stanie. Wróć do domu i spróbuj ponownie otworzyć projekt.",
     "back_home": "Powrót do domu"
+  },
+  "circuit": {
+    "components": "Komponenty",
+    "nodes": "Węzły",
+    "connections": "Połączenia",
+    "connections_hint": "Bezpośrednie połączenia przewodowe między węzłami, które nie przechodzą przez komponent.",
+    "from": "Od",
+    "to": "Do",
+    "label": "Etykieta",
+    "label_hint": "R1, C1...",
+    "value": "Wartość",
+    "node_label": "Etykieta (opcja)",
+    "add_component": "Komponent",
+    "add_node": "Węzeł",
+    "add_connection": "Połączenie",
+    "need_nodes": "Najpierw dodaj co najmniej 2 węzły."
+  },
+  "chem": {
+    "formula": "Formuła",
+    "reaction": "Reakcja",
+    "formula_text": "Formuła",
+    "charge": "Ładuj",
+    "state": "Stan",
+    "reactants": "Reagenty",
+    "products": "Produkty",
+    "conditions_above": "Powyżej strzałka",
+    "conditions_below": "Poniżej strzałka",
+    "conditions_hint": "Δ, hν, kat.",
+    "add_formula": "Formuła",
+    "add_reaction": "Reakcja",
+    "add_reactant": "Reagent",
+    "add_product": "Produkt",
+    "empty_hint": "Aby rozpocząć, dodaj formułę lub reakcję."
+  },
+  "tikz": {
+    "shapes": "Kształty",
+    "canvas": "Płótno",
+    "type_point": "Punkt",
+    "type_line": "Linia",
+    "type_arrow": "Strzałka",
+    "type_rectangle": "Prostokąt",
+    "type_circle": "Okrąg",
+    "type_ellipse": "Elipsa",
+    "type_polygon": "Wielokąt",
+    "type_arc": "Łuk",
+    "type_bezier": "Béziera",
+    "type_label": "Etykieta",
+    "type_axis": "Osie",
+    "type_vector": "Wektor",
+    "type_angle": "Kąt",
+    "ls_solid": "Solidne",
+    "ls_dashed": "Przerywana",
+    "ls_dotted": "Przerywana",
+    "ls_densely_dashed": "Gęsta kreska",
+    "color": "Kolor",
+    "label": "Etykieta",
+    "label_hint": "Tekst (opcja)",
+    "options": "Opcje",
+    "coords": "Współrzędne",
+    "add_coord": "Koordynat.",
+    "add_shape": "Kształt",
+    "viewbox": "Rozmiar płótna",
+    "width": "Szerokość",
+    "height": "Wysokość",
+    "libraries": "Biblioteki TikZ",
+    "libraries_hint": "Oddzielone przecinkami. Dodano do \\usetikzlibrary{...}."
   }
 }

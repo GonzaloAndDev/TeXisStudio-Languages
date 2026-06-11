@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Introduceți o figură științifică (61 de tipuri)",
+    "block_plugin_figure": "Figura+"
   },
   "spell": {
     "panel_title": "Verificare ortografică",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Reguli...",
     "update_disabled": "Actualizarea automată nu a fost configurată pentru această versiune",
     "dict_format_hint": "Format: un termen pe linie (.txt fără antet)",
-    "user_defaults_hint": "Aceste detalii vor fi folosite ca implicite la crearea proiectelor noi."
+    "user_defaults_hint": "Aceste detalii vor fi folosite ca implicite la crearea proiectelor noi.",
+    "section_latex": "motor LaTeX",
+    "latex_primary_title": "Motor de compilare primar",
+    "latex_primary_hint": "Alegeți motorul pe care trebuie să-l folosească TeXisStudio în mod implicit. Puteți încă să-l suprascrieți pentru o anumită compilație.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Ușoare și ușor de întreținut. Recomandat pentru scrisul de zi cu zi și proiectele care nu necesită o distribuție completă TeX.",
+    "latex_suite_title": "Suita completă LaTeX",
+    "latex_suite_description": "Utilizează latexmk cu TeX Live sau MiKTeX. Recomandat pentru pachete avansate, bibliografii complexe și livrare finală.",
+    "latex_available": "Disponibil",
+    "latex_not_available": "Neinstalat",
+    "latex_detected_version": "Versiunea detectată: {{version}}",
+    "latex_fallback_title": "Utilizați celălalt motor atunci când cel principal nu este disponibil",
+    "latex_fallback_hint": "Prioritatea configurată este păstrată. TeXisStudio comută numai atunci când motorul principal nu poate fi utilizat.",
+    "latex_install_hint": "Instalați sau reparați un motor LaTeX din asistentul de configurare, apoi reîmprospătați detectarea aici.",
+    "latex_checking": "Se verifică…",
+    "latex_refresh": "Detectare reîmprospătare",
+    "latex_manage_installation": "Gestionați instalarea LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imaginea „{{file}}” la care se face referire în secțiunea „{{section}}” nu a fost găsită.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Avertisment",
     "severity_suggestion": "Sugestie",
     "go_to_section": "Accesați secțiunea",
-    "preflight_review_first": "Revizuiește mai întâi"
+    "preflight_review_first": "Revizuiește mai întâi",
+    "autostart_pending": "Se începe compilarea..."
   },
   "community_profile": {
     "audience_label": "Pentru cine este",
@@ -2502,7 +2521,8 @@
     "undo": "Anulați",
     "redo": "Reface",
     "restore_btn": "Exemplu de restaurare",
-    "restore_title": "Înlocuiți cu un exemplu de lucru minim"
+    "restore_title": "Înlocuiți cu un exemplu de lucru minim",
+    "advanced_section": "Opțiuni avansate"
   },
   "help": {
     "title": "Centrul de ajutor",
@@ -2589,5 +2609,71 @@
     "title": "Ceva a mers prost",
     "body": "TeXisStudio a păstrat fișierele intacte. Întoarceți-vă acasă și încercați să redeschideți proiectul.",
     "back_home": "Înapoi acasă"
+  },
+  "circuit": {
+    "components": "Componente",
+    "nodes": "Noduri",
+    "connections": "Conexiuni",
+    "connections_hint": "Conexiuni directe prin cablu între noduri care nu trec printr-o componentă.",
+    "from": "De la",
+    "to": "Pentru a",
+    "label": "Etichetă",
+    "label_hint": "R1, C1...",
+    "value": "Valoare",
+    "node_label": "Etichetă (opt.)",
+    "add_component": "Componentă",
+    "add_node": "Nod",
+    "add_connection": "Conexiune",
+    "need_nodes": "Adăugați mai întâi cel puțin 2 noduri."
+  },
+  "chem": {
+    "formula": "Formula",
+    "reaction": "Reacție",
+    "formula_text": "Formula",
+    "charge": "Încărcați",
+    "state": "de stat",
+    "reactants": "Reactanți",
+    "products": "Produse",
+    "conditions_above": "Deasupra săgeții",
+    "conditions_below": "Săgeata de mai jos",
+    "conditions_hint": "Δ, hν, cat.",
+    "add_formula": "Formula",
+    "add_reaction": "Reacție",
+    "add_reactant": "Reactant",
+    "add_product": "Produs",
+    "empty_hint": "Adăugați o formulă sau o reacție pentru a începe."
+  },
+  "tikz": {
+    "shapes": "Forme",
+    "canvas": "Pânză",
+    "type_point": "Punct",
+    "type_line": "Linie",
+    "type_arrow": "Săgeată",
+    "type_rectangle": "dreptunghi",
+    "type_circle": "Cercul",
+    "type_ellipse": "Elipsa",
+    "type_polygon": "Poligon",
+    "type_arc": "Arc",
+    "type_bezier": "Bézier",
+    "type_label": "Etichetă",
+    "type_axis": "Topoare",
+    "type_vector": "Vector",
+    "type_angle": "Unghiul",
+    "ls_solid": "Solid",
+    "ls_dashed": "întreruptă",
+    "ls_dotted": "Punctată",
+    "ls_densely_dashed": "Dens punctat",
+    "color": "Culoare",
+    "label": "Etichetă",
+    "label_hint": "Text (opt.)",
+    "options": "Opțiuni",
+    "coords": "Coordonatele",
+    "add_coord": "Coord.",
+    "add_shape": "Formă",
+    "viewbox": "Dimensiunea pânzei",
+    "width": "lățime",
+    "height": "Înălțime",
+    "libraries": "biblioteci TikZ",
+    "libraries_hint": "Separate prin virgulă. Adăugat la \\usetikzlibrary{...}."
   }
 }

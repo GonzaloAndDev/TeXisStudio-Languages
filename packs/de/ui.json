@@ -522,7 +522,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Wissenschaftliche Figur einfügen (61 Typen)",
+    "block_plugin_figure": "Abbildung+"
   },
   "spell": {
     "panel_title": "Rechtschreibprüfung",
@@ -658,7 +660,23 @@
     "installing_dictionary": "↓ Wörterbuch…",
     "installing_rules": "↓ Regeln…",
     "dict_format_hint": "Format: ein Begriff pro Zeile (.txt ohne Kopfzeile)",
-    "user_defaults_hint": "Diese Details werden beim Erstellen neuer Projekte als Standard verwendet."
+    "user_defaults_hint": "Diese Details werden beim Erstellen neuer Projekte als Standard verwendet.",
+    "section_latex": "LaTeX-Motor",
+    "latex_primary_title": "Primäre Kompilierungs-Engine",
+    "latex_primary_hint": "Wählen Sie die Engine aus, die TeXisStudio standardmäßig verwenden soll. Sie können es immer noch für eine bestimmte Zusammenstellung überschreiben.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Leicht und pflegeleicht. Empfohlen für alltägliches Schreiben und Projekte, die keine vollständige TeX-Distribution erfordern.",
+    "latex_suite_title": "Komplette LaTeX-Suite",
+    "latex_suite_description": "Verwendet latexmk mit TeX Live oder MiKTeX. Empfohlen für erweiterte Pakete, komplexe Bibliografien und die endgültige Lieferung.",
+    "latex_available": "Verfügbar",
+    "latex_not_available": "Nicht installiert",
+    "latex_detected_version": "Erkannte Version: {{version}}",
+    "latex_fallback_title": "Verwenden Sie die andere Engine, wenn die primäre nicht verfügbar ist",
+    "latex_fallback_hint": "Die konfigurierte Priorität bleibt erhalten. TeXisStudio schaltet nur um, wenn die primäre Engine nicht verwendet werden kann.",
+    "latex_install_hint": "Installieren oder reparieren Sie eine LaTeX-Engine über den Setup-Assistenten und aktualisieren Sie dann die Erkennung hier.",
+    "latex_checking": "Überprüfen…",
+    "latex_refresh": "Aktualisierungserkennung",
+    "latex_manage_installation": "Verwalten Sie die LaTeX-Installation"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bild '{{file}}' in Abschnitt '{{section}}' nicht gefunden.",
@@ -1211,7 +1229,8 @@
     "severity_warning": "Warnung",
     "severity_suggestion": "Vorschlag",
     "go_to_section": "Gehen Sie zum Abschnitt",
-    "preflight_review_first": "Überprüfen Sie zuerst"
+    "preflight_review_first": "Überprüfen Sie zuerst",
+    "autostart_pending": "Kompilierung wird gestartet…"
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -2502,7 +2521,8 @@
     "undo": "Rückgängig machen",
     "redo": "Wiederholen",
     "restore_btn": "Beispiel wiederherstellen",
-    "restore_title": "Ersetzen Sie es durch ein minimales Arbeitsbeispiel"
+    "restore_title": "Ersetzen Sie es durch ein minimales Arbeitsbeispiel",
+    "advanced_section": "Erweiterte Optionen"
   },
   "help": {
     "title": "Hilfe-Center",
@@ -2589,5 +2609,71 @@
     "title": "Etwas ist schief gelaufen",
     "body": "TeXisStudio hat Ihre Dateien intakt gehalten. Kehren Sie zum Startbildschirm zurück und versuchen Sie, das Projekt erneut zu öffnen.",
     "back_home": "Zum Start"
+  },
+  "circuit": {
+    "components": "Komponenten",
+    "nodes": "Knoten",
+    "connections": "Verbindungen",
+    "connections_hint": "Direkte Drahtverbindungen zwischen Knoten, die nicht durch eine Komponente verlaufen.",
+    "from": "Von",
+    "to": "Zu",
+    "label": "Etikett",
+    "label_hint": "R1, C1...",
+    "value": "Wert",
+    "node_label": "Beschriftung (opt.)",
+    "add_component": "Komponente",
+    "add_node": "Knoten",
+    "add_connection": "Verbindung",
+    "need_nodes": "Fügen Sie zuerst mindestens 2 Knoten hinzu."
+  },
+  "chem": {
+    "formula": "Formel",
+    "reaction": "Reaktion",
+    "formula_text": "Formel",
+    "charge": "Aufladen",
+    "state": "Staat",
+    "reactants": "Reaktanten",
+    "products": "Produkte",
+    "conditions_above": "Oben Pfeil",
+    "conditions_below": "Unten Pfeil",
+    "conditions_hint": "Δ, hν, Kat.",
+    "add_formula": "Formel",
+    "add_reaction": "Reaktion",
+    "add_reactant": "Reaktant",
+    "add_product": "Produkt",
+    "empty_hint": "Fügen Sie eine Formel oder eine Reaktion hinzu, um loszulegen."
+  },
+  "tikz": {
+    "shapes": "Formen",
+    "canvas": "Leinwand",
+    "type_point": "Punkt",
+    "type_line": "Linie",
+    "type_arrow": "Pfeil",
+    "type_rectangle": "Rechteck",
+    "type_circle": "Kreis",
+    "type_ellipse": "Ellipse",
+    "type_polygon": "Polygon",
+    "type_arc": "Bogen",
+    "type_bezier": "Bézier",
+    "type_label": "Etikett",
+    "type_axis": "Äxte",
+    "type_vector": "Vektor",
+    "type_angle": "Winkel",
+    "ls_solid": "Solide",
+    "ls_dashed": "Gestrichelt",
+    "ls_dotted": "Gepunktet",
+    "ls_densely_dashed": "Dicht gestrichelt",
+    "color": "Farbe",
+    "label": "Etikett",
+    "label_hint": "Text (opt.)",
+    "options": "Optionen",
+    "coords": "Koordinaten",
+    "add_coord": "Koordin.",
+    "add_shape": "Form",
+    "viewbox": "Leinwandgröße",
+    "width": "Breite",
+    "height": "Höhe",
+    "libraries": "TikZ-Bibliotheken",
+    "libraries_hint": "Durch Kommas getrennt. Zu \\usetikzlibrary{...} hinzugefügt."
   }
 }

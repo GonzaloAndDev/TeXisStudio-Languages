@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Infoga vetenskaplig figur (61 typer)",
+    "block_plugin_figure": "Figur+"
   },
   "spell": {
     "panel_title": "Stavningskontroll",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Regler...",
     "update_disabled": "Automatisk uppdatering är inte konfigurerad för den här utgåvan",
     "dict_format_hint": "Format: en term per rad (.txt utan rubrik)",
-    "user_defaults_hint": "Dessa detaljer kommer att användas som standard när nya projekt skapas."
+    "user_defaults_hint": "Dessa detaljer kommer att användas som standard när nya projekt skapas.",
+    "section_latex": "LaTeX motor",
+    "latex_primary_title": "Primär kompileringsmotor",
+    "latex_primary_hint": "Välj den motor som TeXisStudio ska använda som standard. Du kan fortfarande åsidosätta den för en specifik kompilering.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Lätt och lätt att underhålla. Rekommenderas för vardagligt skrivande och projekt som inte kräver en fullständig TeX-distribution.",
+    "latex_suite_title": "Komplett LaTeX-svit",
+    "latex_suite_description": "Använder latexmk med TeX Live eller MiKTeX. Rekommenderas för avancerade paket, komplexa bibliografier och slutleverans.",
+    "latex_available": "Tillgänglig",
+    "latex_not_available": "Ej installerad",
+    "latex_detected_version": "Upptäckt version: {{version}}",
+    "latex_fallback_title": "Använd den andra motorn när den primära motorn inte är tillgänglig",
+    "latex_fallback_hint": "Den konfigurerade prioriteten bevaras. TeXisStudio växlar endast när primärmotorn inte kan användas.",
+    "latex_install_hint": "Installera eller reparera en LaTeX-motor från inställningsassistenten och uppdatera sedan upptäckten här.",
+    "latex_checking": "Kontrollerar...",
+    "latex_refresh": "Uppdateringsdetektering",
+    "latex_manage_installation": "Hantera LaTeX installation"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bilden '{{file}}' som hänvisas till i avsnittet '{{section}}' hittades inte.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Varning",
     "severity_suggestion": "Förslag",
     "go_to_section": "Gå till avsnittet",
-    "preflight_review_first": "Granska först"
+    "preflight_review_first": "Granska först",
+    "autostart_pending": "Startar sammanställning..."
   },
   "community_profile": {
     "audience_label": "Vem är det för",
@@ -2502,7 +2521,8 @@
     "undo": "Ångra",
     "redo": "Gör om",
     "restore_btn": "Återställ exempel",
-    "restore_title": "Ersätt med ett minimalt fungerande exempel"
+    "restore_title": "Ersätt med ett minimalt fungerande exempel",
+    "advanced_section": "Avancerade alternativ"
   },
   "help": {
     "title": "Hjälpcenter",
@@ -2589,5 +2609,71 @@
     "title": "Något gick fel",
     "body": "TeXisStudio höll dina filer intakta. Gå tillbaka hem och försök öppna projektet igen.",
     "back_home": "Tillbaka till hemmet"
+  },
+  "circuit": {
+    "components": "Komponenter",
+    "nodes": "Noder",
+    "connections": "Anslutningar",
+    "connections_hint": "Direkta trådanslutningar mellan noder som inte går genom en komponent.",
+    "from": "Från",
+    "to": "Till",
+    "label": "Etikett",
+    "label_hint": "R1, C1...",
+    "value": "Värde",
+    "node_label": "Etikett (opt.)",
+    "add_component": "Komponent",
+    "add_node": "Nod",
+    "add_connection": "Anslutning",
+    "need_nodes": "Lägg till minst 2 noder först."
+  },
+  "chem": {
+    "formula": "Formel",
+    "reaction": "Reaktion",
+    "formula_text": "Formel",
+    "charge": "Ladda",
+    "state": "staten",
+    "reactants": "Reaktanter",
+    "products": "Produkter",
+    "conditions_above": "Ovanför pilen",
+    "conditions_below": "Under pilen",
+    "conditions_hint": "Δ, hν, kat.",
+    "add_formula": "Formel",
+    "add_reaction": "Reaktion",
+    "add_reactant": "Reaktant",
+    "add_product": "Produkt",
+    "empty_hint": "Lägg till en formel eller en reaktion för att komma igång."
+  },
+  "tikz": {
+    "shapes": "Former",
+    "canvas": "Canvas",
+    "type_point": "Peka",
+    "type_line": "Linje",
+    "type_arrow": "Pil",
+    "type_rectangle": "Rektangel",
+    "type_circle": "Cirkel",
+    "type_ellipse": "Ellips",
+    "type_polygon": "Polygon",
+    "type_arc": "Arc",
+    "type_bezier": "Bézier",
+    "type_label": "Etikett",
+    "type_axis": "Yxor",
+    "type_vector": "Vektor",
+    "type_angle": "Vinkel",
+    "ls_solid": "Solid",
+    "ls_dashed": "Streckad",
+    "ls_dotted": "Prickad",
+    "ls_densely_dashed": "Tät streckad",
+    "color": "Färg",
+    "label": "Etikett",
+    "label_hint": "Text (opt.)",
+    "options": "Alternativ",
+    "coords": "Koordinater",
+    "add_coord": "Coord.",
+    "add_shape": "Form",
+    "viewbox": "Canvas storlek",
+    "width": "Bredd",
+    "height": "Höjd",
+    "libraries": "TikZ bibliotek",
+    "libraries_hint": "Kommaseparerad. Lades till i \\usetikzlibrary{...}."
   }
 }

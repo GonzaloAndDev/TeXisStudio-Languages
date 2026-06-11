@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Wetenschappelijke figuur invoegen (61 soorten)",
+    "block_plugin_figure": "Figuur+"
   },
   "spell": {
     "panel_title": "Spellingscontrole",
@@ -944,7 +946,23 @@
     "installing_dictionary": "↓ Woordenboek…",
     "installing_rules": "↓ Regels…",
     "dict_format_hint": "Formaat: één term per regel (.txt zonder header)",
-    "user_defaults_hint": "Deze gegevens worden als standaard gebruikt bij het maken van nieuwe projecten."
+    "user_defaults_hint": "Deze gegevens worden als standaard gebruikt bij het maken van nieuwe projecten.",
+    "section_latex": "LaTeX-motor",
+    "latex_primary_title": "Primaire compilatie-engine",
+    "latex_primary_hint": "Kies de motor die TeXisStudio standaard moet gebruiken. U kunt het nog steeds overschrijven voor een specifieke compilatie.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Lichtgewicht en gemakkelijk te onderhouden. Aanbevolen voor dagelijks schrijven en projecten waarvoor geen volledige TeX-distributie vereist is.",
+    "latex_suite_title": "Volledige LaTeX-suite",
+    "latex_suite_description": "Gebruikt latexmk met TeX Live of MiKTeX. Aanbevolen voor geavanceerde pakketten, complexe bibliografieën en uiteindelijke levering.",
+    "latex_available": "Beschikbaar",
+    "latex_not_available": "Niet geïnstalleerd",
+    "latex_detected_version": "Gedetecteerde versie: {{version}}",
+    "latex_fallback_title": "Gebruik de andere engine als de primaire engine niet beschikbaar is",
+    "latex_fallback_hint": "De geconfigureerde prioriteit blijft behouden. TeXisStudio schakelt alleen als de primaire motor niet kan worden gebruikt.",
+    "latex_install_hint": "Installeer of repareer een LaTeX-engine vanuit de setup-assistent en vernieuw de detectie hier.",
+    "latex_checking": "Controleren…",
+    "latex_refresh": "Vernieuwingsdetectie",
+    "latex_manage_installation": "Beheer de LaTeX-installatie"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Afbeelding '{{file}}' waarnaar wordt verwezen in sectie '{{section}}' niet gevonden.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Waarschuwing",
     "severity_suggestion": "Suggestie",
     "go_to_section": "Ga naar sectie",
-    "preflight_review_first": "Eerst beoordelen"
+    "preflight_review_first": "Eerst beoordelen",
+    "autostart_pending": "Compilatie starten…"
   },
   "community_profile": {
     "audience_label": "Voor wie is het?",
@@ -2502,7 +2521,8 @@
     "undo": "Ongedaan maken",
     "redo": "Opnieuw uitvoeren",
     "restore_btn": "Voorbeeld herstellen",
-    "restore_title": "Vervang door een minimaal werkend voorbeeld"
+    "restore_title": "Vervang door een minimaal werkend voorbeeld",
+    "advanced_section": "Geavanceerde opties"
   },
   "help": {
     "title": "Helpcentrum",
@@ -2589,5 +2609,71 @@
     "title": "Er is iets misgegaan",
     "body": "TeXisStudio hield uw bestanden intact. Ga terug naar huis en probeer het project opnieuw te openen.",
     "back_home": "Terug naar huis"
+  },
+  "circuit": {
+    "components": "Componenten",
+    "nodes": "Knooppunten",
+    "connections": "Verbindingen",
+    "connections_hint": "Directe draadverbindingen tussen knooppunten die niet door een component gaan.",
+    "from": "Van",
+    "to": "Aan",
+    "label": "Etiket",
+    "label_hint": "R1, C1...",
+    "value": "Waarde",
+    "node_label": "Etiket (optioneel)",
+    "add_component": "Onderdeel",
+    "add_node": "Knooppunt",
+    "add_connection": "Verbinding",
+    "need_nodes": "Voeg eerst minimaal 2 knooppunten toe."
+  },
+  "chem": {
+    "formula": "Formule",
+    "reaction": "Reactie",
+    "formula_text": "Formule",
+    "charge": "Opladen",
+    "state": "Staat",
+    "reactants": "Reagentia",
+    "products": "Producten",
+    "conditions_above": "Boven pijl",
+    "conditions_below": "Onder pijl",
+    "conditions_hint": "Δ, hν, cat.",
+    "add_formula": "Formule",
+    "add_reaction": "Reactie",
+    "add_reactant": "Reagens",
+    "add_product": "Product",
+    "empty_hint": "Voeg een formule of reactie toe om aan de slag te gaan."
+  },
+  "tikz": {
+    "shapes": "Vormen",
+    "canvas": "Doek",
+    "type_point": "Punt",
+    "type_line": "Lijn",
+    "type_arrow": "Pijl",
+    "type_rectangle": "Rechthoek",
+    "type_circle": "Cirkel",
+    "type_ellipse": "Ellips",
+    "type_polygon": "Veelhoek",
+    "type_arc": "Boog",
+    "type_bezier": "Bézier",
+    "type_label": "Etiket",
+    "type_axis": "Bijlen",
+    "type_vector": "Vector",
+    "type_angle": "Hoek",
+    "ls_solid": "Solide",
+    "ls_dashed": "Gestormd",
+    "ls_dotted": "Gestippeld",
+    "ls_densely_dashed": "Dicht gestormd",
+    "color": "Kleur",
+    "label": "Etiket",
+    "label_hint": "Tekst (optioneel)",
+    "options": "Opties",
+    "coords": "Coördinaten",
+    "add_coord": "Coördinatie.",
+    "add_shape": "Vorm",
+    "viewbox": "Canvasgrootte",
+    "width": "Breedte",
+    "height": "Hoogte",
+    "libraries": "TikZ-bibliotheken",
+    "libraries_hint": "Door komma's gescheiden. Toegevoegd aan \\usetikzlibrary{...}."
   }
 }

@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "वैज्ञानिक आकृति सम्मिलित करें (61 प्रकार)",
+    "block_plugin_figure": "चित्र+"
   },
   "spell": {
     "panel_title": "वर्तनी जांच",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ नियम…",
     "update_disabled": "इस रिलीज़ के लिए ऑटो-अपडेट कॉन्फ़िगर नहीं किया गया है",
     "dict_format_hint": "प्रारूप: प्रति पंक्ति एक पद (शीर्षलेख के बिना .txt)",
-    "user_defaults_hint": "नई परियोजनाएँ बनाते समय इन विवरणों का उपयोग डिफ़ॉल्ट के रूप में किया जाएगा।"
+    "user_defaults_hint": "नई परियोजनाएँ बनाते समय इन विवरणों का उपयोग डिफ़ॉल्ट के रूप में किया जाएगा।",
+    "section_latex": "LaTeX इंजन",
+    "latex_primary_title": "प्राथमिक संकलन इंजन",
+    "latex_primary_hint": "वह इंजन चुनें जिसे TeXisStudio को डिफ़ॉल्ट रूप से उपयोग करना चाहिए। आप अभी भी किसी विशिष्ट संकलन के लिए इसे ओवरराइड कर सकते हैं।",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "हल्का और रखरखाव में आसान। रोजमर्रा के लेखन और उन परियोजनाओं के लिए अनुशंसित जिन्हें पूर्ण TeX वितरण की आवश्यकता नहीं होती है।",
+    "latex_suite_title": "पूरा LaTeX सुइट",
+    "latex_suite_description": "TeX Live या MiKTeX के साथ लेटेक्सएमके का उपयोग करता है। उन्नत पैकेज, जटिल ग्रंथ सूची और अंतिम वितरण के लिए अनुशंसित।",
+    "latex_available": "उपलब्ध",
+    "latex_not_available": "स्थापित नहीं",
+    "latex_detected_version": "पता लगाया गया संस्करण: {{version}}",
+    "latex_fallback_title": "जब प्राथमिक इंजन उपलब्ध न हो तो दूसरे इंजन का उपयोग करें",
+    "latex_fallback_hint": "कॉन्फ़िगर की गई प्राथमिकता संरक्षित है. TeXisStudio केवल तभी स्विच करता है जब प्राथमिक इंजन का उपयोग नहीं किया जा सकता है।",
+    "latex_install_hint": "सेटअप सहायक से LaTeX इंजन स्थापित करें या मरम्मत करें, फिर यहां डिटेक्शन को रीफ्रेश करें।",
+    "latex_checking": "जाँच हो रही है...",
+    "latex_refresh": "ताज़ा पता लगाना",
+    "latex_manage_installation": "LaTeX स्थापना प्रबंधित करें"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' अनुभाग में संदर्भित छवि '{{file}}' नहीं मिली।",
@@ -1497,7 +1515,8 @@
     "severity_warning": "चेतावनी",
     "severity_suggestion": "सुझाव",
     "go_to_section": "अनुभाग पर जाएँ",
-    "preflight_review_first": "पहले समीक्षा करें"
+    "preflight_review_first": "पहले समीक्षा करें",
+    "autostart_pending": "संकलन प्रारंभ हो रहा है…"
   },
   "community_profile": {
     "audience_label": "यह किसके लिए है",
@@ -2502,7 +2521,8 @@
     "undo": "पूर्ववत करें",
     "redo": "पुनः करें",
     "restore_btn": "उदाहरण पुनर्स्थापित करें",
-    "restore_title": "न्यूनतम कामकाजी उदाहरण से बदलें"
+    "restore_title": "न्यूनतम कामकाजी उदाहरण से बदलें",
+    "advanced_section": "उन्नत विकल्प"
   },
   "help": {
     "title": "सहायता केंद्र",
@@ -2589,5 +2609,71 @@
     "title": "कुछ ग़लत हो गया",
     "body": "TeXisStudio ने आपकी फ़ाइलें बरकरार रखीं। घर वापस जाएँ और प्रोजेक्ट को फिर से खोलने का प्रयास करें।",
     "back_home": "घर वापस"
+  },
+  "circuit": {
+    "components": "अवयव",
+    "nodes": "नोड्स",
+    "connections": "कनेक्शन",
+    "connections_hint": "किसी घटक से न गुजरने वाले नोड्स के बीच सीधा तार कनेक्शन।",
+    "from": "से",
+    "to": "को",
+    "label": "लेबल",
+    "label_hint": "आर1, सी1...",
+    "value": "मूल्य",
+    "node_label": "लेबल (ऑप्ट.)",
+    "add_component": "घटक",
+    "add_node": "नोड",
+    "add_connection": "कनेक्शन",
+    "need_nodes": "पहले कम से कम 2 नोड जोड़ें."
+  },
+  "chem": {
+    "formula": "सूत्र",
+    "reaction": "प्रतिक्रिया",
+    "formula_text": "सूत्र",
+    "charge": "आरोप",
+    "state": "राज्य",
+    "reactants": "अभिकारक",
+    "products": "उत्पाद",
+    "conditions_above": "ऊपर तीर",
+    "conditions_below": "नीचे तीर",
+    "conditions_hint": "Δ, हा, बिल्ली।",
+    "add_formula": "सूत्र",
+    "add_reaction": "प्रतिक्रिया",
+    "add_reactant": "अभिकारक",
+    "add_product": "उत्पाद",
+    "empty_hint": "आरंभ करने के लिए एक सूत्र या प्रतिक्रिया जोड़ें।"
+  },
+  "tikz": {
+    "shapes": "आकृतियाँ",
+    "canvas": "कैनवास",
+    "type_point": "बिंदु",
+    "type_line": "रेखा",
+    "type_arrow": "तीर",
+    "type_rectangle": "आयत",
+    "type_circle": "घेरा",
+    "type_ellipse": "दीर्घवृत्त",
+    "type_polygon": "बहुभुज",
+    "type_arc": "चाप",
+    "type_bezier": "बेज़ियर",
+    "type_label": "लेबल",
+    "type_axis": "कुल्हाड़ियाँ",
+    "type_vector": "वेक्टर",
+    "type_angle": "कोण",
+    "ls_solid": "ठोस",
+    "ls_dashed": "धराशायी",
+    "ls_dotted": "बिंदीदार",
+    "ls_densely_dashed": "घना धराशायी",
+    "color": "रंग",
+    "label": "लेबल",
+    "label_hint": "पाठ (विकल्प)",
+    "options": "विकल्प",
+    "coords": "निर्देशांक",
+    "add_coord": "कोर्ड.",
+    "add_shape": "आकार",
+    "viewbox": "कैनवास का आकार",
+    "width": "चौड़ाई",
+    "height": "ऊंचाई",
+    "libraries": "टिकज़ लाइब्रेरीज़",
+    "libraries_hint": "अल्पविराम से अलग किया गया. \\usetikzlibrary{...} में जोड़ा गया।"
   }
 }

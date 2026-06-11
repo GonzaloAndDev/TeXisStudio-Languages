@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Вставка научной фигуры (61 тип)",
+    "block_plugin_figure": "Рисунок+"
   },
   "spell": {
     "panel_title": "Проверка орфографии",
@@ -944,7 +946,23 @@
     "installing_dictionary": "↓ Словарь…",
     "installing_rules": "↓ Правила…",
     "dict_format_hint": "Формат: по одному термину в строке (.txt без заголовка)",
-    "user_defaults_hint": "Эти данные будут использоваться по умолчанию при создании новых проектов."
+    "user_defaults_hint": "Эти данные будут использоваться по умолчанию при создании новых проектов.",
+    "section_latex": "Двигатель LaTeX",
+    "latex_primary_title": "Основной механизм компиляции",
+    "latex_primary_hint": "Выберите движок, который TeXisStudio должен использовать по умолчанию. Вы все равно можете переопределить его для конкретной компиляции.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Легкий и простой в обслуживании. Рекомендуется для повседневного написания и проектов, не требующих полного дистрибутива TeX.",
+    "latex_suite_title": "Полный пакет LaTeX",
+    "latex_suite_description": "Использует latexmk с TeX Live или MiKTeX. Рекомендуется для расширенных пакетов, сложной библиографии и окончательной доставки.",
+    "latex_available": "Доступно",
+    "latex_not_available": "Не установлено",
+    "latex_detected_version": "Обнаруженная версия: {{version}}",
+    "latex_fallback_title": "Используйте другой движок, когда основной недоступен.",
+    "latex_fallback_hint": "Настроенный приоритет сохраняется. TeXisStudio переключается только тогда, когда основной двигатель невозможно использовать.",
+    "latex_install_hint": "Установите или отремонтируйте модуль LaTeX с помощью помощника настройки, а затем обновите обнаружение здесь.",
+    "latex_checking": "Проверка…",
+    "latex_refresh": "Обнаружение обновления",
+    "latex_manage_installation": "Управление установкой LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Изображение «{{file}}», указанное в разделе «{{section}}», не найдено.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Предупреждение",
     "severity_suggestion": "Предложение",
     "go_to_section": "Перейти в раздел",
-    "preflight_review_first": "Сначала просмотрите"
+    "preflight_review_first": "Сначала просмотрите",
+    "autostart_pending": "Начинаем компиляцию…"
   },
   "community_profile": {
     "audience_label": "Для кого это",
@@ -2502,7 +2521,8 @@
     "undo": "Отменить",
     "redo": "Повторить",
     "restore_btn": "Пример восстановления",
-    "restore_title": "Замените минимальным рабочим примером"
+    "restore_title": "Замените минимальным рабочим примером",
+    "advanced_section": "Расширенные параметры"
   },
   "help": {
     "title": "Справочный центр",
@@ -2589,5 +2609,71 @@
     "title": "Что-то пошло не так",
     "body": "TeXisStudio сохранил ваши файлы нетронутыми. Вернитесь домой и попробуйте снова открыть проект.",
     "back_home": "Вернуться домой"
+  },
+  "circuit": {
+    "components": "Компоненты",
+    "nodes": "Узлы",
+    "connections": "Соединения",
+    "connections_hint": "Прямые проводные соединения между узлами, не проходящие через компонент.",
+    "from": "От",
+    "to": "Чтобы",
+    "label": "Этикетка",
+    "label_hint": "Р1, С1...",
+    "value": "Значение",
+    "node_label": "Этикетка (опция)",
+    "add_component": "Компонент",
+    "add_node": "Узел",
+    "add_connection": "Подключение",
+    "need_nodes": "Сначала добавьте хотя бы 2 узла."
+  },
+  "chem": {
+    "formula": "Формула",
+    "reaction": "Реакция",
+    "formula_text": "Формула",
+    "charge": "Зарядка",
+    "state": "Государство",
+    "reactants": "Реагенты",
+    "products": "Продукты",
+    "conditions_above": "Стрелка выше",
+    "conditions_below": "Стрелка ниже",
+    "conditions_hint": "Δ, hν, кат.",
+    "add_formula": "Формула",
+    "add_reaction": "Реакция",
+    "add_reactant": "Реагент",
+    "add_product": "Продукт",
+    "empty_hint": "Добавьте формулу или реакцию, чтобы начать."
+  },
+  "tikz": {
+    "shapes": "Формы",
+    "canvas": "Холст",
+    "type_point": "Точка",
+    "type_line": "Линия",
+    "type_arrow": "Стрелка",
+    "type_rectangle": "Прямоугольник",
+    "type_circle": "Круг",
+    "type_ellipse": "Эллипс",
+    "type_polygon": "Полигон",
+    "type_arc": "Дуга",
+    "type_bezier": "Безье",
+    "type_label": "Этикетка",
+    "type_axis": "Топоры",
+    "type_vector": "вектор",
+    "type_angle": "Угол",
+    "ls_solid": "Твердый",
+    "ls_dashed": "Пунктирный",
+    "ls_dotted": "Пунктирный",
+    "ls_densely_dashed": "Плотный пунктирный",
+    "color": "Цвет",
+    "label": "Этикетка",
+    "label_hint": "Текст (опция)",
+    "options": "Опции",
+    "coords": "Координаты",
+    "add_coord": "Коорд.",
+    "add_shape": "Форма",
+    "viewbox": "Размер холста",
+    "width": "Ширина",
+    "height": "Высота",
+    "libraries": "Библиотеки ТикЗ",
+    "libraries_hint": "Через запятую. Добавлено в \\usetikzlibrary{...}."
   }
 }

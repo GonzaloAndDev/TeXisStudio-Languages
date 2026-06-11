@@ -522,7 +522,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "插入科学数字（61种）",
+    "block_plugin_figure": "图+"
   },
   "spell": {
     "panel_title": "Spell check",
@@ -658,7 +660,23 @@
     "installing_dictionary": "↓ 词典...",
     "installing_rules": "↓ 规则...",
     "dict_format_hint": "格式：每行一个术语（.txt，无标题）",
-    "user_defaults_hint": "创建新项目时，这些详细信息将用作默认值。"
+    "user_defaults_hint": "创建新项目时，这些详细信息将用作默认值。",
+    "section_latex": "LaTeX发动机",
+    "latex_primary_title": "主要编译引擎",
+    "latex_primary_hint": "选择默认情况下应使用的引擎 TeXisStudio。您仍然可以针对特定编译覆盖它。",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "重量轻且易于维护。推荐用于日常写作和不需要完整 TeX 发行版的项目。",
+    "latex_suite_title": "完整的 LaTeX 套件",
+    "latex_suite_description": "将 Latexmk 与 TeX Live 或 MiKTeX 一起使用。推荐用于高级包、复杂的参考书目和最终交付。",
+    "latex_available": "可用",
+    "latex_not_available": "未安装",
+    "latex_detected_version": "检测到的版本：{{version}}",
+    "latex_fallback_title": "当主引擎不可用时使用另一个引擎",
+    "latex_fallback_hint": "保留配置的优先级。 TeXisStudio仅在主发动机无法使用时切换。",
+    "latex_install_hint": "从设置助手安装或修复 LaTeX 引擎，然后在此处刷新检测。",
+    "latex_checking": "正在检查...",
+    "latex_refresh": "刷新检测",
+    "latex_manage_installation": "管理LaTeX安装"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' referenced in section '{{section}}' not found.",
@@ -1211,7 +1229,8 @@
     "severity_warning": "警告",
     "severity_suggestion": "建议",
     "go_to_section": "转到部分",
-    "preflight_review_first": "先回顾一下"
+    "preflight_review_first": "先回顾一下",
+    "autostart_pending": "开始编译..."
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -2502,7 +2521,8 @@
     "undo": "撤消",
     "redo": "重做",
     "restore_btn": "恢复示例",
-    "restore_title": "替换为最小工作示例"
+    "restore_title": "替换为最小工作示例",
+    "advanced_section": "高级选项"
   },
   "help": {
     "title": "帮助中心",
@@ -2589,5 +2609,71 @@
     "title": "出了点问题",
     "body": "TeXisStudio 保留了您的文件。请返回开始界面，然后尝试重新打开项目。",
     "back_home": "返回开始界面"
+  },
+  "circuit": {
+    "components": "组件",
+    "nodes": "节点",
+    "connections": "连接",
+    "connections_hint": "节点之间不经过组件的直接接线。",
+    "from": "来自",
+    "to": "至",
+    "label": "标签",
+    "label_hint": "R1、C1...",
+    "value": "价值",
+    "node_label": "标签（可选）",
+    "add_component": "组件",
+    "add_node": "节点",
+    "add_connection": "连接方式",
+    "need_nodes": "首先添加至少 2 个节点。"
+  },
+  "chem": {
+    "formula": "公式",
+    "reaction": "反应",
+    "formula_text": "公式",
+    "charge": "充电",
+    "state": "状态",
+    "reactants": "反应物",
+    "products": "产品展示",
+    "conditions_above": "上方箭头",
+    "conditions_below": "下方箭头",
+    "conditions_hint": "Δ，hν，猫。",
+    "add_formula": "公式",
+    "add_reaction": "反应",
+    "add_reactant": "反应物",
+    "add_product": "产品展示",
+    "empty_hint": "添加公式或反应即可开始。"
+  },
+  "tikz": {
+    "shapes": "形状",
+    "canvas": "帆布",
+    "type_point": "点",
+    "type_line": "线",
+    "type_arrow": "箭头",
+    "type_rectangle": "矩形",
+    "type_circle": "圆",
+    "type_ellipse": "椭圆",
+    "type_polygon": "多边形",
+    "type_arc": "圆弧",
+    "type_bezier": "贝塞尔",
+    "type_label": "标签",
+    "type_axis": "轴",
+    "type_vector": "矢量",
+    "type_angle": "角度",
+    "ls_solid": "固体",
+    "ls_dashed": "虚线",
+    "ls_dotted": "点状",
+    "ls_densely_dashed": "密集虚线",
+    "color": "颜色",
+    "label": "标签",
+    "label_hint": "文本（可选）",
+    "options": "选项",
+    "coords": "坐标",
+    "add_coord": "坐标。",
+    "add_shape": "形状",
+    "viewbox": "画布尺寸",
+    "width": "宽度",
+    "height": "身高",
+    "libraries": "TikZ 库",
+    "libraries_hint": "以逗号分隔。添加到 \\usetikzlibrary{...}。"
   }
 }

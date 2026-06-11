@@ -522,7 +522,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "科学図形を挿入（61種類）",
+    "block_plugin_figure": "図+"
   },
   "spell": {
     "panel_title": "スペルチェック",
@@ -658,7 +660,23 @@
     "installing_dictionary": "↓辞書…",
     "installing_rules": "↓ルール…",
     "dict_format_hint": "形式: 1 行に 1 つの用語 (ヘッダーなしの .txt)",
-    "user_defaults_hint": "これらの詳細は、新しいプロジェクトを作成するときにデフォルトとして使用されます。"
+    "user_defaults_hint": "これらの詳細は、新しいプロジェクトを作成するときにデフォルトとして使用されます。",
+    "section_latex": "LaTeXエンジン",
+    "latex_primary_title": "プライマリコンパイルエンジン",
+    "latex_primary_hint": "TeXisStudio がデフォルトで使用するエンジンを選択します。特定のコンパイルに対してこれをオーバーライドすることもできます。",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "軽量でメンテナンスが簡単です。日常的な執筆や、完全な TeX ディストリビューションを必要としないプロジェクトに推奨されます。",
+    "latex_suite_title": "完全な LaTeX スイート",
+    "latex_suite_description": "TeX Live または MiKTeX で latexmk を使用します。高度なパッケージ、複雑な参考文献、最終納品に推奨されます。",
+    "latex_available": "利用可能",
+    "latex_not_available": "インストールされていません",
+    "latex_detected_version": "検出されたバージョン: {{version}}",
+    "latex_fallback_title": "プライマリ エンジンが使用できない場合は、他のエンジンを使用する",
+    "latex_fallback_hint": "設定された優先度は保持されます。 TeXisStudio はプライマリエンジンが使用できない場合にのみ切り替わります。",
+    "latex_install_hint": "セットアップ アシスタントから LaTeX エンジンをインストールまたは修復し、ここで検出を更新します。",
+    "latex_checking": "確認中…",
+    "latex_refresh": "リフレッシュ検出",
+    "latex_manage_installation": "LaTeX インストールの管理"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "セクション '{{section}}' で参照されている画像 '{{file}}' が見つかりません。",
@@ -1211,7 +1229,8 @@
     "severity_warning": "警告",
     "severity_suggestion": "提案",
     "go_to_section": "セクションに移動",
-    "preflight_review_first": "最初に確認してください"
+    "preflight_review_first": "最初に確認してください",
+    "autostart_pending": "コンパイルを開始しています…"
   },
   "community_profile": {
     "audience_label": "Who it is for",
@@ -2502,7 +2521,8 @@
     "undo": "元に戻す",
     "redo": "やり直し",
     "restore_btn": "復元の例",
-    "restore_title": "最小限の動作例に置き換えます"
+    "restore_title": "最小限の動作例に置き換えます",
+    "advanced_section": "詳細オプション"
   },
   "help": {
     "title": "ヘルプセンター",
@@ -2589,5 +2609,71 @@
     "title": "何か問題が発生しました",
     "body": "TeXisStudio はファイルを変更していません。開始画面に戻り、プロジェクトをもう一度開いてください。",
     "back_home": "開始画面に戻る"
+  },
+  "circuit": {
+    "components": "コンポーネント",
+    "nodes": "ノード",
+    "connections": "接続",
+    "connections_hint": "コンポーネントを経由しないノード間の直接ワイヤ接続。",
+    "from": "から",
+    "to": "に",
+    "label": "ラベル",
+    "label_hint": "R1、C1...",
+    "value": "値",
+    "node_label": "ラベル（オプション）",
+    "add_component": "コンポーネント",
+    "add_node": "ノード",
+    "add_connection": "接続",
+    "need_nodes": "まず少なくとも 2 つのノードを追加します。"
+  },
+  "chem": {
+    "formula": "計算式",
+    "reaction": "反応",
+    "formula_text": "計算式",
+    "charge": "チャージ",
+    "state": "州",
+    "reactants": "反応物",
+    "products": "製品",
+    "conditions_above": "矢印の上",
+    "conditions_below": "矢印の下",
+    "conditions_hint": "Δ、hν、猫。",
+    "add_formula": "計算式",
+    "add_reaction": "反応",
+    "add_reactant": "反応物",
+    "add_product": "製品",
+    "empty_hint": "開始するには、式または反応を追加します。"
+  },
+  "tikz": {
+    "shapes": "形状",
+    "canvas": "キャンバス",
+    "type_point": "ポイント",
+    "type_line": "ライン",
+    "type_arrow": "矢印",
+    "type_rectangle": "長方形",
+    "type_circle": "サークル",
+    "type_ellipse": "楕円",
+    "type_polygon": "ポリゴン",
+    "type_arc": "アーク",
+    "type_bezier": "ベジエ",
+    "type_label": "ラベル",
+    "type_axis": "軸",
+    "type_vector": "ベクトル",
+    "type_angle": "角度",
+    "ls_solid": "固体",
+    "ls_dashed": "破線",
+    "ls_dotted": "点線",
+    "ls_densely_dashed": "密な破線",
+    "color": "色",
+    "label": "ラベル",
+    "label_hint": "テキスト (オプション)",
+    "options": "オプション",
+    "coords": "座標",
+    "add_coord": "コーディネート。",
+    "add_shape": "形状",
+    "viewbox": "キャンバスサイズ",
+    "width": "幅",
+    "height": "高さ",
+    "libraries": "TikZライブラリ",
+    "libraries_hint": "カンマ区切り。 \\usetikzlibrary{...} に追加されました。"
   }
 }

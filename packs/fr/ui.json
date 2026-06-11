@@ -522,7 +522,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Insérer une figure scientifique (61 types)",
+    "block_plugin_figure": "Chiffre+"
   },
   "spell": {
     "panel_title": "Vérification orthographique",
@@ -658,7 +660,23 @@
     "installing_dictionary": "↓ Dictionnaire…",
     "installing_rules": "↓ Règles…",
     "dict_format_hint": "Format : un terme par ligne (.txt sans en-tête)",
-    "user_defaults_hint": "Ces détails seront utilisés par défaut lors de la création de nouveaux projets."
+    "user_defaults_hint": "Ces détails seront utilisés par défaut lors de la création de nouveaux projets.",
+    "section_latex": "Moteur LaTeX",
+    "latex_primary_title": "Moteur de compilation principal",
+    "latex_primary_hint": "Choisissez le moteur que TeXisStudio doit utiliser par défaut. Vous pouvez toujours le remplacer pour une compilation spécifique.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Léger et facile à entretenir. Recommandé pour l'écriture quotidienne et les projets qui ne nécessitent pas une distribution TeX complète.",
+    "latex_suite_title": "Suite complète LaTeX",
+    "latex_suite_description": "Utilise latexmk avec TeX Live ou MiKTeX. Recommandé pour les packages avancés, les bibliographies complexes et la livraison finale.",
+    "latex_available": "Disponible",
+    "latex_not_available": "Non installé",
+    "latex_detected_version": "Version détectée : {{version}}",
+    "latex_fallback_title": "Utilisez l'autre moteur lorsque le moteur principal n'est pas disponible",
+    "latex_fallback_hint": "La priorité configurée est conservée. TeXisStudio ne commute que lorsque le moteur principal ne peut pas être utilisé.",
+    "latex_install_hint": "Installez ou réparez un moteur LaTeX à partir de l'assistant de configuration, puis actualisez la détection ici.",
+    "latex_checking": "Vérification…",
+    "latex_refresh": "Actualiser la détection",
+    "latex_manage_installation": "Gérer l'installation de LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' référencée dans la section '{{section}}' introuvable.",
@@ -1211,7 +1229,8 @@
     "severity_warning": "Avertissement",
     "severity_suggestion": "Suggestions",
     "go_to_section": "Aller à la rubrique",
-    "preflight_review_first": "Examinez d'abord"
+    "preflight_review_first": "Examinez d'abord",
+    "autostart_pending": "Début de la compilation…"
   },
   "community_profile": {
     "audience_label": "Pour qui",
@@ -2502,7 +2521,8 @@
     "undo": "Annuler",
     "redo": "Refaire",
     "restore_btn": "Exemple de restauration",
-    "restore_title": "Remplacer par un exemple de travail minimal"
+    "restore_title": "Remplacer par un exemple de travail minimal",
+    "advanced_section": "Options avancées"
   },
   "help": {
     "title": "Centre d'aide",
@@ -2589,5 +2609,71 @@
     "title": "Quelque chose s'est mal passé",
     "body": "TeXisStudio a conservé vos fichiers intacts. Revenez à l’écran d’accueil et essayez de rouvrir le projet.",
     "back_home": "Revenir à l’accueil"
+  },
+  "circuit": {
+    "components": "Composants",
+    "nodes": "Nœuds",
+    "connections": "Connexions",
+    "connections_hint": "Connexions filaires directes entre nœuds ne passant pas par un composant.",
+    "from": "De",
+    "to": "À",
+    "label": "Étiquette",
+    "label_hint": "R1, C1...",
+    "value": "Valeur",
+    "node_label": "Étiquette (opt.)",
+    "add_component": "Composant",
+    "add_node": "Nœud",
+    "add_connection": "Connexion",
+    "need_nodes": "Ajoutez d'abord au moins 2 nœuds."
+  },
+  "chem": {
+    "formula": "Formule",
+    "reaction": "Réaction",
+    "formula_text": "Formule",
+    "charge": "Frais",
+    "state": "État",
+    "reactants": "Réactifs",
+    "products": "Produits",
+    "conditions_above": "Au-dessus de la flèche",
+    "conditions_below": "Flèche ci-dessous",
+    "conditions_hint": "Δ, hν, chat.",
+    "add_formula": "Formule",
+    "add_reaction": "Réaction",
+    "add_reactant": "Réactif",
+    "add_product": "Produit",
+    "empty_hint": "Ajoutez une formule ou une réaction pour commencer."
+  },
+  "tikz": {
+    "shapes": "Formes",
+    "canvas": "Toile",
+    "type_point": "Point",
+    "type_line": "Ligne",
+    "type_arrow": "Flèche",
+    "type_rectangle": "Rectangulaire",
+    "type_circle": "Cercle",
+    "type_ellipse": "Ellipses",
+    "type_polygon": "Polygone",
+    "type_arc": "Arc",
+    "type_bezier": "Bézier",
+    "type_label": "Étiquette",
+    "type_axis": "Haches",
+    "type_vector": "Vecteur",
+    "type_angle": "Angle",
+    "ls_solid": "Solide",
+    "ls_dashed": "En pointillés",
+    "ls_dotted": "Pointillé",
+    "ls_densely_dashed": "Tirets denses",
+    "color": "Couleur",
+    "label": "Étiquette",
+    "label_hint": "Texte (opt.)",
+    "options": "Possibilités",
+    "coords": "Coordonnées",
+    "add_coord": "Coordonner.",
+    "add_shape": "Forme",
+    "viewbox": "Taille de la toile",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "libraries": "Bibliothèques TikZ",
+    "libraries_hint": "Séparés par des virgules. Ajouté à \\usetikzlibrary{...}."
   }
 }

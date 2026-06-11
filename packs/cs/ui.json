@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Vložit vědeckou postavu (61 typů)",
+    "block_plugin_figure": "Obrázek+"
   },
   "spell": {
     "panel_title": "Kontrola pravopisu",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Pravidla…",
     "update_disabled": "Automatická aktualizace není pro toto vydání nakonfigurována",
     "dict_format_hint": "Formát: jeden výraz na řádek (.txt bez záhlaví)",
-    "user_defaults_hint": "Tyto podrobnosti budou použity jako výchozí při vytváření nových projektů."
+    "user_defaults_hint": "Tyto podrobnosti budou použity jako výchozí při vytváření nových projektů.",
+    "section_latex": "Motor LaTeX",
+    "latex_primary_title": "Primární kompilační engine",
+    "latex_primary_hint": "Vyberte motor, který má TeXisStudio standardně používat. Stále jej můžete přepsat pro konkrétní kompilaci.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Lehký a snadno se udržuje. Doporučeno pro každodenní psaní a projekty, které nevyžadují plnou distribuci TeXu.",
+    "latex_suite_title": "Kompletní sada LaTeX",
+    "latex_suite_description": "Používá latexmk s TeX Live nebo MiKTeX. Doporučeno pro pokročilé balíčky, složité bibliografie a konečné doručení.",
+    "latex_available": "K dispozici",
+    "latex_not_available": "Není nainstalováno",
+    "latex_detected_version": "Zjištěná verze: {{version}}",
+    "latex_fallback_title": "Použijte druhý motor, když primární není k dispozici",
+    "latex_fallback_hint": "Nakonfigurovaná priorita je zachována. TeXisStudio se spíná pouze v případě, že nelze použít primární motor.",
+    "latex_install_hint": "Nainstalujte nebo opravte motor LaTeX z asistenta nastavení a poté zde obnovte detekci.",
+    "latex_checking": "Kontrola…",
+    "latex_refresh": "Detekce obnovení",
+    "latex_manage_installation": "Správa instalace LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Obrázek '{{file}}' odkazovaný v sekci '{{section}}' nebyl nalezen.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Varování",
     "severity_suggestion": "Návrh",
     "go_to_section": "Přejděte do sekce",
-    "preflight_review_first": "Nejprve zkontrolujte"
+    "preflight_review_first": "Nejprve zkontrolujte",
+    "autostart_pending": "Spouštění kompilace…"
   },
   "community_profile": {
     "audience_label": "Pro koho to je",
@@ -2502,7 +2521,8 @@
     "undo": "Vrátit zpět",
     "redo": "Znovu",
     "restore_btn": "Příklad obnovení",
-    "restore_title": "Nahraďte minimálním funkčním příkladem"
+    "restore_title": "Nahraďte minimálním funkčním příkladem",
+    "advanced_section": "Pokročilé možnosti"
   },
   "help": {
     "title": "Centrum nápovědy",
@@ -2589,5 +2609,71 @@
     "title": "Něco se pokazilo",
     "body": "TeXisStudio zachoval vaše soubory nedotčené. Vraťte se domů a zkuste projekt znovu otevřít.",
     "back_home": "Zpátky domů"
+  },
+  "circuit": {
+    "components": "Komponenty",
+    "nodes": "Uzly",
+    "connections": "Spojení",
+    "connections_hint": "Přímé drátové spojení mezi uzly neprocházející komponentou.",
+    "from": "Od",
+    "to": "Komu",
+    "label": "Štítek",
+    "label_hint": "R1, C1...",
+    "value": "Hodnota",
+    "node_label": "Štítek (volitelně)",
+    "add_component": "Komponenta",
+    "add_node": "Uzel",
+    "add_connection": "Připojení",
+    "need_nodes": "Nejprve přidejte alespoň 2 uzly."
+  },
+  "chem": {
+    "formula": "Vzorec",
+    "reaction": "Reakce",
+    "formula_text": "Vzorec",
+    "charge": "Nabít",
+    "state": "stát",
+    "reactants": "Reaktanty",
+    "products": "Produkty",
+    "conditions_above": "Nad šipkou",
+    "conditions_below": "Šipka dole",
+    "conditions_hint": "Δ, hν, kat.",
+    "add_formula": "Vzorec",
+    "add_reaction": "Reakce",
+    "add_reactant": "Reaktant",
+    "add_product": "Produkt",
+    "empty_hint": "Začněte přidáním vzorce nebo reakce."
+  },
+  "tikz": {
+    "shapes": "Tvary",
+    "canvas": "Plátno",
+    "type_point": "Bod",
+    "type_line": "Linka",
+    "type_arrow": "Šipka",
+    "type_rectangle": "Obdélník",
+    "type_circle": "Kruh",
+    "type_ellipse": "Elipsa",
+    "type_polygon": "Mnohoúhelník",
+    "type_arc": "Arc",
+    "type_bezier": "Bézier",
+    "type_label": "Štítek",
+    "type_axis": "Sekery",
+    "type_vector": "Vektor",
+    "type_angle": "Úhel",
+    "ls_solid": "Pevné",
+    "ls_dashed": "čárkovaná",
+    "ls_dotted": "Tečkovaný",
+    "ls_densely_dashed": "Husté čárkované",
+    "color": "Barva",
+    "label": "Štítek",
+    "label_hint": "Text (volitelně)",
+    "options": "Možnosti",
+    "coords": "Souřadnice",
+    "add_coord": "Coord.",
+    "add_shape": "Tvar",
+    "viewbox": "Velikost plátna",
+    "width": "Šířka",
+    "height": "Výška",
+    "libraries": "Knihovny TikZ",
+    "libraries_hint": "Oddělené čárkou. Přidáno do \\usetikzlibrary{...}."
   }
 }

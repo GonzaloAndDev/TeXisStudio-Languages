@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Chèn hình khoa học (61 loại)",
+    "block_plugin_figure": "Hình+"
   },
   "spell": {
     "panel_title": "Kiểm tra chính tả",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Quy tắc…",
     "update_disabled": "Tự động cập nhật không được định cấu hình cho bản phát hành này",
     "dict_format_hint": "Định dạng: một thuật ngữ trên mỗi dòng (.txt không có tiêu đề)",
-    "user_defaults_hint": "Những chi tiết này sẽ được sử dụng làm mặc định khi tạo dự án mới."
+    "user_defaults_hint": "Những chi tiết này sẽ được sử dụng làm mặc định khi tạo dự án mới.",
+    "section_latex": "Động cơ LaTeX",
+    "latex_primary_title": "Công cụ biên dịch chính",
+    "latex_primary_hint": "Chọn công cụ TeXisStudio nên sử dụng theo mặc định. Bạn vẫn có thể ghi đè lên nó cho một bản biên dịch cụ thể.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Nhẹ và dễ bảo trì. Được đề xuất cho công việc viết lách hàng ngày và các dự án không yêu cầu phân phối TeX đầy đủ.",
+    "latex_suite_title": "Bộ LaTeX hoàn chỉnh",
+    "latex_suite_description": "Sử dụng latexmk với TeX Live hoặc MiKTeX. Được khuyến nghị cho các gói nâng cao, thư mục phức tạp và bản phân phối cuối cùng.",
+    "latex_available": "Có sẵn",
+    "latex_not_available": "Chưa được cài đặt",
+    "latex_detected_version": "Phiên bản được phát hiện: {{version}}",
+    "latex_fallback_title": "Sử dụng công cụ khác khi công cụ chính không có sẵn",
+    "latex_fallback_hint": "Ưu tiên được cấu hình được giữ nguyên. TeXisStudio chỉ chuyển đổi khi không thể sử dụng động cơ chính.",
+    "latex_install_hint": "Cài đặt hoặc sửa chữa công cụ LaTeX từ trợ lý thiết lập, sau đó làm mới tính năng phát hiện tại đây.",
+    "latex_checking": "Đang kiểm tra…",
+    "latex_refresh": "Phát hiện làm mới",
+    "latex_manage_installation": "Quản lý cài đặt LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Không tìm thấy hình ảnh '{{file}}' được tham chiếu trong phần '{{section}}'.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Cảnh báo",
     "severity_suggestion": "Đề xuất",
     "go_to_section": "Đi đến phần",
-    "preflight_review_first": "Xem xét trước"
+    "preflight_review_first": "Xem xét trước",
+    "autostart_pending": "Đang bắt đầu biên soạn…"
   },
   "community_profile": {
     "audience_label": "Nó dành cho ai",
@@ -2502,7 +2521,8 @@
     "undo": "Hoàn tác",
     "redo": "Làm lại",
     "restore_btn": "Khôi phục ví dụ",
-    "restore_title": "Thay thế bằng một ví dụ hoạt động tối thiểu"
+    "restore_title": "Thay thế bằng một ví dụ hoạt động tối thiểu",
+    "advanced_section": "Tùy chọn nâng cao"
   },
   "help": {
     "title": "Trung tâm trợ giúp",
@@ -2589,5 +2609,71 @@
     "title": "Đã xảy ra lỗi",
     "body": "TeXisStudio giữ nguyên các tập tin của bạn. Trở về nhà và thử mở lại dự án.",
     "back_home": "Trở về nhà"
+  },
+  "circuit": {
+    "components": "Linh kiện",
+    "nodes": "Nút",
+    "connections": "Kết nối",
+    "connections_hint": "Kết nối dây trực tiếp giữa các nút không đi qua một thành phần.",
+    "from": "Từ",
+    "to": "Đến",
+    "label": "Nhãn",
+    "label_hint": "R1, C1...",
+    "value": "Giá trị",
+    "node_label": "Nhãn (tùy chọn)",
+    "add_component": "thành phần",
+    "add_node": "nút",
+    "add_connection": "Kết nối",
+    "need_nodes": "Thêm ít nhất 2 nút trước."
+  },
+  "chem": {
+    "formula": "Công thức",
+    "reaction": "phản ứng",
+    "formula_text": "Công thức",
+    "charge": "Tính phí",
+    "state": "tiểu bang",
+    "reactants": "chất phản ứng",
+    "products": "Sản phẩm",
+    "conditions_above": "Mũi tên trên",
+    "conditions_below": "Mũi tên bên dưới",
+    "conditions_hint": "Δ, hν, con mèo.",
+    "add_formula": "Công thức",
+    "add_reaction": "phản ứng",
+    "add_reactant": "chất phản ứng",
+    "add_product": "sản phẩm",
+    "empty_hint": "Thêm công thức hoặc phản ứng để bắt đầu."
+  },
+  "tikz": {
+    "shapes": "Hình dạng",
+    "canvas": "Vải bạt",
+    "type_point": "điểm",
+    "type_line": "dòng",
+    "type_arrow": "Mũi tên",
+    "type_rectangle": "Hình chữ nhật",
+    "type_circle": "vòng tròn",
+    "type_ellipse": "hình elip",
+    "type_polygon": "Đa giác",
+    "type_arc": "vòng cung",
+    "type_bezier": "Bézier",
+    "type_label": "Nhãn",
+    "type_axis": "Trục",
+    "type_vector": "Vectơ",
+    "type_angle": "Góc",
+    "ls_solid": "chất rắn",
+    "ls_dashed": "nét đứt",
+    "ls_dotted": "Chấm",
+    "ls_densely_dashed": "nét đứt dày đặc",
+    "color": "Màu sắc",
+    "label": "Nhãn",
+    "label_hint": "Văn bản (tùy chọn)",
+    "options": "Tùy chọn",
+    "coords": "tọa độ",
+    "add_coord": "Phối hợp.",
+    "add_shape": "hình dạng",
+    "viewbox": "Kích thước vải",
+    "width": "Chiều rộng",
+    "height": "Chiều cao",
+    "libraries": "Thư viện TikZ",
+    "libraries_hint": "Được phân tách bằng dấu phẩy. Đã thêm vào \\usetikzlibrary{...}."
   }
 }

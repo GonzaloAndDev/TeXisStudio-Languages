@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "ใส่ตัวเลขทางวิทยาศาสตร์ (61 ชนิด)",
+    "block_plugin_figure": "รูป+"
   },
   "spell": {
     "panel_title": "ตรวจสอบการสะกด",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ กฎ…",
     "update_disabled": "ไม่ได้กำหนดค่าการอัปเดตอัตโนมัติสำหรับรุ่นนี้",
     "dict_format_hint": "รูปแบบ: หนึ่งเทอมต่อบรรทัด (.txt โดยไม่มีส่วนหัว)",
-    "user_defaults_hint": "รายละเอียดเหล่านี้จะใช้เป็นค่าเริ่มต้นเมื่อสร้างโปรเจ็กต์ใหม่"
+    "user_defaults_hint": "รายละเอียดเหล่านี้จะใช้เป็นค่าเริ่มต้นเมื่อสร้างโปรเจ็กต์ใหม่",
+    "section_latex": "เครื่องยนต์ LaTeX",
+    "latex_primary_title": "เอ็นจิ้นการคอมไพล์หลัก",
+    "latex_primary_hint": "เลือกเครื่องยนต์ TeXisStudio ที่ควรจะใช้เป็นค่าเริ่มต้น คุณยังคงสามารถแทนที่มันสำหรับการรวบรวมเฉพาะได้",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "น้ำหนักเบาและบำรุงรักษาง่าย แนะนำสำหรับการเขียนในชีวิตประจำวันและโครงการที่ไม่ต้องการการกระจาย TeX เต็มรูปแบบ",
+    "latex_suite_title": "ชุด LaTeX ที่สมบูรณ์",
+    "latex_suite_description": "ใช้ latexmk กับ TeX Live หรือ MiKTeX แนะนำสำหรับแพ็คเกจขั้นสูง บรรณานุกรมที่ซับซ้อน และการจัดส่งขั้นสุดท้าย",
+    "latex_available": "มีจำหน่าย",
+    "latex_not_available": "ไม่ได้ติดตั้ง",
+    "latex_detected_version": "เวอร์ชันที่ตรวจพบ: {{version}}",
+    "latex_fallback_title": "ใช้กลไกอื่นเมื่อกลไกหลักไม่พร้อมใช้งาน",
+    "latex_fallback_hint": "ลำดับความสำคัญที่กำหนดค่าไว้จะยังคงอยู่ TeXisStudio สวิตช์เฉพาะเมื่อไม่สามารถใช้เครื่องยนต์หลักได้",
+    "latex_install_hint": "ติดตั้งหรือซ่อมแซมกลไก LaTeX จากผู้ช่วยการตั้งค่า จากนั้นรีเฟรชการตรวจจับที่นี่",
+    "latex_checking": "กำลังตรวจสอบ...",
+    "latex_refresh": "การตรวจจับการรีเฟรช",
+    "latex_manage_installation": "จัดการการติดตั้ง LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "ไม่พบรูปภาพ '{{file}}' ที่อ้างอิงในส่วน '{{section}}'",
@@ -1497,7 +1515,8 @@
     "severity_warning": "คำเตือน",
     "severity_suggestion": "ข้อเสนอแนะ",
     "go_to_section": "ไปที่ส่วน",
-    "preflight_review_first": "ทบทวนก่อน"
+    "preflight_review_first": "ทบทวนก่อน",
+    "autostart_pending": "กำลังเริ่มการรวบรวม..."
   },
   "community_profile": {
     "audience_label": "สำหรับใคร",
@@ -2502,7 +2521,8 @@
     "undo": "เลิกทำ",
     "redo": "ทำซ้ำ",
     "restore_btn": "ตัวอย่างการคืนค่า",
-    "restore_title": "แทนที่ด้วยตัวอย่างการทำงานขั้นต่ำ"
+    "restore_title": "แทนที่ด้วยตัวอย่างการทำงานขั้นต่ำ",
+    "advanced_section": "ตัวเลือกขั้นสูง"
   },
   "help": {
     "title": "ศูนย์ช่วยเหลือ",
@@ -2589,5 +2609,71 @@
     "title": "มีบางอย่างผิดพลาด",
     "body": "TeXisStudio เก็บไฟล์ของคุณไว้ครบถ้วน กลับบ้านแล้วลองเปิดโครงการอีกครั้ง",
     "back_home": "กลับบ้าน"
+  },
+  "circuit": {
+    "components": "ส่วนประกอบ",
+    "nodes": "โหนด",
+    "connections": "การเชื่อมต่อ",
+    "connections_hint": "การเชื่อมต่อสายไฟโดยตรงระหว่างโหนดที่ไม่ผ่านส่วนประกอบ",
+    "from": "จาก",
+    "to": "ถึง",
+    "label": "ป้ายกำกับ",
+    "label_hint": "R1, C1...",
+    "value": "ความคุ้มค่า",
+    "node_label": "ป้ายกำกับ (ตัวเลือก)",
+    "add_component": "ส่วนประกอบ",
+    "add_node": "โหนด",
+    "add_connection": "การเชื่อมต่อ",
+    "need_nodes": "เพิ่มอย่างน้อย 2 โหนดก่อน"
+  },
+  "chem": {
+    "formula": "สูตร",
+    "reaction": "ปฏิกิริยา",
+    "formula_text": "สูตร",
+    "charge": "ชาร์จ",
+    "state": "รัฐ",
+    "reactants": "สารตั้งต้น",
+    "products": "สินค้า",
+    "conditions_above": "ลูกศรด้านบน",
+    "conditions_below": "ลูกศรด้านล่าง",
+    "conditions_hint": "Δ, hν, แมว",
+    "add_formula": "สูตร",
+    "add_reaction": "ปฏิกิริยา",
+    "add_reactant": "สารตั้งต้น",
+    "add_product": "สินค้า",
+    "empty_hint": "เพิ่มสูตรหรือปฏิกิริยาเพื่อเริ่มต้น"
+  },
+  "tikz": {
+    "shapes": "รูปร่าง",
+    "canvas": "ผ้าใบ",
+    "type_point": "จุด",
+    "type_line": "เส้น",
+    "type_arrow": "ลูกศร",
+    "type_rectangle": "สี่เหลี่ยมผืนผ้า",
+    "type_circle": "วงกลม",
+    "type_ellipse": "วงรี",
+    "type_polygon": "รูปหลายเหลี่ยม",
+    "type_arc": "อาร์ค",
+    "type_bezier": "เบซิเยร์",
+    "type_label": "ป้ายกำกับ",
+    "type_axis": "ขวาน",
+    "type_vector": "เวกเตอร์",
+    "type_angle": "มุม",
+    "ls_solid": "แข็ง",
+    "ls_dashed": "ประ",
+    "ls_dotted": "ลายจุด",
+    "ls_densely_dashed": "ประหนาแน่น",
+    "color": "สี",
+    "label": "ป้ายกำกับ",
+    "label_hint": "ข้อความ (ตัวเลือก)",
+    "options": "ตัวเลือก",
+    "coords": "พิกัด",
+    "add_coord": "คอร์ด",
+    "add_shape": "รูปร่าง",
+    "viewbox": "ขนาดแคนวาส",
+    "width": "ความกว้าง",
+    "height": "ส่วนสูง",
+    "libraries": "ห้องสมุด TikZ",
+    "libraries_hint": "คั่นด้วยเครื่องหมายจุลภาค เพิ่มไปยัง \\usetikzlibrary{...}"
   }
 }

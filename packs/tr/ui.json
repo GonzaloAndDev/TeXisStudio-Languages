@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Bilimsel şekil ekleyin (61 tür)",
+    "block_plugin_figure": "Şekil+"
   },
   "spell": {
     "panel_title": "Yazım denetimi",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Kurallar…",
     "update_disabled": "Bu sürüm için otomatik güncelleme yapılandırılmadı",
     "dict_format_hint": "Biçim: satır başına bir terim (başlıksız .txt)",
-    "user_defaults_hint": "Bu ayrıntılar yeni projeler oluşturulurken varsayılan olarak kullanılacaktır."
+    "user_defaults_hint": "Bu ayrıntılar yeni projeler oluşturulurken varsayılan olarak kullanılacaktır.",
+    "section_latex": "LaTeX motor",
+    "latex_primary_title": "Birincil derleme motoru",
+    "latex_primary_hint": "TeXisStudio'nin varsayılan olarak kullanması gereken motoru seçin. Belirli bir derleme için yine de geçersiz kılabilirsiniz.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Hafif ve bakımı kolaydır. Tam TeX dağıtımı gerektirmeyen günlük yazılar ve projeler için önerilir.",
+    "latex_suite_title": "LaTeX paketini tamamlayın",
+    "latex_suite_description": "TeX Live veya MiKTeX ile latexmk'yi kullanır. Gelişmiş paketler, karmaşık bibliyografyalar ve son teslimat için önerilir.",
+    "latex_available": "Mevcut",
+    "latex_not_available": "Kurulu değil",
+    "latex_detected_version": "Algılanan sürüm: {{version}}",
+    "latex_fallback_title": "Birincil motor kullanılamadığında diğer motoru kullanın",
+    "latex_fallback_hint": "Yapılandırılmış öncelik korunur. TeXisStudio yalnızca birincil motor kullanılamadığında devreye girer.",
+    "latex_install_hint": "Kurulum asistanından bir LaTeX motorunu takın veya onarın, ardından algılamayı burada yenileyin.",
+    "latex_checking": "Kontrol ediliyor…",
+    "latex_refresh": "Yenileme tespiti",
+    "latex_manage_installation": "LaTeX kurulumunu yönetin"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' bölümünde başvurulan '{{file}}' resmi bulunamadı.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Uyarı",
     "severity_suggestion": "Öneri",
     "go_to_section": "Bölüme git",
-    "preflight_review_first": "Önce incele"
+    "preflight_review_first": "Önce incele",
+    "autostart_pending": "Derleme başlatılıyor…"
   },
   "community_profile": {
     "audience_label": "Kimin için",
@@ -2502,7 +2521,8 @@
     "undo": "Geri al",
     "redo": "Yinele",
     "restore_btn": "Örneği geri yükle",
-    "restore_title": "Minimal çalışan bir örnekle değiştirin"
+    "restore_title": "Minimal çalışan bir örnekle değiştirin",
+    "advanced_section": "Gelişmiş seçenekler"
   },
   "help": {
     "title": "Yardım Merkezi",
@@ -2589,5 +2609,71 @@
     "title": "Bir şeyler ters gitti",
     "body": "TeXisStudio dosyalarınızı olduğu gibi tuttu. Eve dönün ve projeyi yeniden açmayı deneyin.",
     "back_home": "Eve dön"
+  },
+  "circuit": {
+    "components": "Bileşenler",
+    "nodes": "Düğümler",
+    "connections": "Bağlantılar",
+    "connections_hint": "Bir bileşenden geçmeyen düğümler arasındaki doğrudan kablo bağlantıları.",
+    "from": "Gönderen",
+    "to": "Kime",
+    "label": "Etiket",
+    "label_hint": "R1, C1...",
+    "value": "Değer",
+    "node_label": "Etiket (isteğe bağlı)",
+    "add_component": "Bileşen",
+    "add_node": "Düğüm",
+    "add_connection": "Bağlantı",
+    "need_nodes": "Önce en az 2 düğüm ekleyin."
+  },
+  "chem": {
+    "formula": "Formül",
+    "reaction": "Tepki",
+    "formula_text": "Formül",
+    "charge": "Şarj",
+    "state": "Eyalet",
+    "reactants": "Reaktifler",
+    "products": "Ürünler",
+    "conditions_above": "Okun üstünde",
+    "conditions_below": "Ok altında",
+    "conditions_hint": "Δ, hν, kedi.",
+    "add_formula": "Formül",
+    "add_reaction": "Tepki",
+    "add_reactant": "Reaktan",
+    "add_product": "Ürün",
+    "empty_hint": "Başlamak için bir formül veya reaksiyon ekleyin."
+  },
+  "tikz": {
+    "shapes": "Şekiller",
+    "canvas": "Kanvas",
+    "type_point": "Nokta",
+    "type_line": "Hat",
+    "type_arrow": "Ok",
+    "type_rectangle": "Dikdörtgen",
+    "type_circle": "daire",
+    "type_ellipse": "elips",
+    "type_polygon": "Çokgen",
+    "type_arc": "Yay",
+    "type_bezier": "Bezier",
+    "type_label": "Etiket",
+    "type_axis": "Eksenler",
+    "type_vector": "vektör",
+    "type_angle": "Açı",
+    "ls_solid": "Katı",
+    "ls_dashed": "Kesikli",
+    "ls_dotted": "Noktalı",
+    "ls_densely_dashed": "Yoğun kesikli",
+    "color": "Renk",
+    "label": "Etiket",
+    "label_hint": "Metin (isteğe bağlı)",
+    "options": "Seçenekler",
+    "coords": "Koordinatlar",
+    "add_coord": "Koordinat.",
+    "add_shape": "Şekil",
+    "viewbox": "Tuval boyutu",
+    "width": "Genişlik",
+    "height": "Yükseklik",
+    "libraries": "TikZ kütüphaneleri",
+    "libraries_hint": "Virgülle ayrılmış. \\usetikzlibrary{...}'ye eklendi."
   }
 }

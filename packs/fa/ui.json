@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "درج شکل علمی (61 نوع)",
+    "block_plugin_figure": "شکل +"
   },
   "spell": {
     "panel_title": "بررسی املا",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ قوانین…",
     "update_disabled": "به‌روزرسانی خودکار برای این نسخه پیکربندی نشده است",
     "dict_format_hint": "قالب: یک عبارت در هر خط (.txt بدون سرصفحه)",
-    "user_defaults_hint": "این جزئیات در هنگام ایجاد پروژه های جدید به عنوان پیش فرض استفاده می شود."
+    "user_defaults_hint": "این جزئیات در هنگام ایجاد پروژه های جدید به عنوان پیش فرض استفاده می شود.",
+    "section_latex": "موتور LaTeX",
+    "latex_primary_title": "موتور کامپایل اولیه",
+    "latex_primary_hint": "موتوری را انتخاب کنید که TeXisStudio باید به طور پیش فرض از آن استفاده کند. هنوز هم می توانید آن را برای یک کامپایل خاص لغو کنید.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "سبک وزن و نگهداری آسان. برای نوشتن روزمره و پروژه هایی که نیازی به توزیع کامل TeX ندارند توصیه می شود.",
+    "latex_suite_title": "مجموعه کامل LaTeX",
+    "latex_suite_description": "از latexmk با TeX Live یا MiKTeX استفاده می کند. برای بسته های پیشرفته، کتابشناسی های پیچیده و تحویل نهایی توصیه می شود.",
+    "latex_available": "موجود است",
+    "latex_not_available": "نصب نشده است",
+    "latex_detected_version": "نسخه شناسایی شده: {{version}}",
+    "latex_fallback_title": "وقتی موتور اصلی در دسترس نیست از موتور دیگر استفاده کنید",
+    "latex_fallback_hint": "اولویت پیکربندی شده حفظ می شود. TeXisStudio فقط زمانی سوئیچ می‌کند که موتور اصلی قابل استفاده نباشد.",
+    "latex_install_hint": "یک موتور LaTeX را از دستیار راه‌اندازی نصب یا تعمیر کنید، سپس شناسایی را در اینجا تازه‌سازی کنید.",
+    "latex_checking": "در حال بررسی…",
+    "latex_refresh": "تشخیص تازه کردن",
+    "latex_manage_installation": "نصب LaTeX را مدیریت کنید"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "تصویر '{{file}}' ارجاع شده در بخش '{{section}}' یافت نشد.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "هشدار",
     "severity_suggestion": "پیشنهاد",
     "go_to_section": "به بخش بروید",
-    "preflight_review_first": "ابتدا مرور کنید"
+    "preflight_review_first": "ابتدا مرور کنید",
+    "autostart_pending": "شروع تدوین…"
   },
   "community_profile": {
     "audience_label": "برای چه کسی است",
@@ -2502,7 +2521,8 @@
     "undo": "واگرد",
     "redo": "دوباره انجام دهید",
     "restore_btn": "نمونه را بازیابی کنید",
-    "restore_title": "با یک نمونه کار حداقلی جایگزین کنید"
+    "restore_title": "با یک نمونه کار حداقلی جایگزین کنید",
+    "advanced_section": "گزینه های پیشرفته"
   },
   "help": {
     "title": "مرکز راهنمایی",
@@ -2589,5 +2609,71 @@
     "title": "مشکلی پیش آمد",
     "body": "TeXisStudio فایل های شما را دست نخورده نگه داشته است. به خانه برگردید و دوباره پروژه را باز کنید.",
     "back_home": "بازگشت به خانه"
+  },
+  "circuit": {
+    "components": "اجزاء",
+    "nodes": "گره ها",
+    "connections": "اتصالات",
+    "connections_hint": "اتصالات سیم مستقیم بین گره هایی که از یک جزء عبور نمی کنند.",
+    "from": "از",
+    "to": "به",
+    "label": "برچسب بزنید",
+    "label_hint": "R1، C1 ...",
+    "value": "ارزش",
+    "node_label": "برچسب (انتخابی)",
+    "add_component": "جزء",
+    "add_node": "گره",
+    "add_connection": "اتصال",
+    "need_nodes": "ابتدا حداقل 2 گره اضافه کنید."
+  },
+  "chem": {
+    "formula": "فرمول",
+    "reaction": "واکنش",
+    "formula_text": "فرمول",
+    "charge": "شارژ کنید",
+    "state": "ایالت",
+    "reactants": "واکنش دهنده ها",
+    "products": "محصولات",
+    "conditions_above": "بالای فلش",
+    "conditions_below": "زیر فلش",
+    "conditions_hint": "Δ, hν, گربه.",
+    "add_formula": "فرمول",
+    "add_reaction": "واکنش",
+    "add_reactant": "واکنش دهنده",
+    "add_product": "محصول",
+    "empty_hint": "برای شروع یک فرمول یا یک واکنش اضافه کنید."
+  },
+  "tikz": {
+    "shapes": "اشکال",
+    "canvas": "بوم",
+    "type_point": "نقطه",
+    "type_line": "خط",
+    "type_arrow": "پیکان",
+    "type_rectangle": "مستطیل",
+    "type_circle": "دایره",
+    "type_ellipse": "بیضی",
+    "type_polygon": "چند ضلعی",
+    "type_arc": "قوس",
+    "type_bezier": "بزیه",
+    "type_label": "برچسب بزنید",
+    "type_axis": "تبرها",
+    "type_vector": "بردار",
+    "type_angle": "زاویه",
+    "ls_solid": "جامد",
+    "ls_dashed": "بریده بریده",
+    "ls_dotted": "نقطه چین",
+    "ls_densely_dashed": "خط تیره متراکم",
+    "color": "رنگ",
+    "label": "برچسب بزنید",
+    "label_hint": "متن (انتخابی)",
+    "options": "گزینه ها",
+    "coords": "مختصات",
+    "add_coord": "هماهنگی",
+    "add_shape": "شکل",
+    "viewbox": "اندازه بوم",
+    "width": "عرض",
+    "height": "ارتفاع",
+    "libraries": "کتابخانه های TikZ",
+    "libraries_hint": "با کاما جدا شده است. به \\usetikzlibrary{...} اضافه شد."
   }
 }

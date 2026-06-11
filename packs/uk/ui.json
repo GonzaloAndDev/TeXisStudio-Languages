@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "Вставка наукового діяча (61 тип)",
+    "block_plugin_figure": "Малюнок+"
   },
   "spell": {
     "panel_title": "Перевірка правопису",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ Правила…",
     "update_disabled": "Для цього випуску не налаштовано автоматичне оновлення",
     "dict_format_hint": "Формат: один термін на рядок (.txt без заголовка)",
-    "user_defaults_hint": "Ці дані використовуватимуться за замовчуванням під час створення нових проектів."
+    "user_defaults_hint": "Ці дані використовуватимуться за замовчуванням під час створення нових проектів.",
+    "section_latex": "Двигун LaTeX",
+    "latex_primary_title": "Основний механізм компіляції",
+    "latex_primary_hint": "Виберіть двигун, який TeXisStudio має використовувати за замовчуванням. Ви все одно можете змінити його для конкретної компіляції.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "Легкий і простий в обслуговуванні. Рекомендовано для повсякденного написання та проектів, які не вимагають повного дистрибутива TeX.",
+    "latex_suite_title": "Повний комплект LaTeX",
+    "latex_suite_description": "Використовує latexmk із TeX Live або MiKTeX. Рекомендовано для розширених пакетів, складної бібліографії та остаточної доставки.",
+    "latex_available": "в наявності",
+    "latex_not_available": "Не встановлено",
+    "latex_detected_version": "Виявлена версія: {{version}}",
+    "latex_fallback_title": "Використовуйте інший механізм, коли основний недоступний",
+    "latex_fallback_hint": "Налаштований пріоритет зберігається. TeXisStudio перемикається лише тоді, коли основний механізм не може бути використаний.",
+    "latex_install_hint": "Установіть або відремонтуйте двигун LaTeX за допомогою помічника з налаштування, а потім оновіть виявлення тут.",
+    "latex_checking": "Перевірка…",
+    "latex_refresh": "Виявлення оновлення",
+    "latex_manage_installation": "Керуйте встановленням LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Зображення «{{file}}», на яке посилається розділ «{{section}}», не знайдено.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "Попередження",
     "severity_suggestion": "Пропозиція",
     "go_to_section": "Перейти до розділу",
-    "preflight_review_first": "Перегляньте спочатку"
+    "preflight_review_first": "Перегляньте спочатку",
+    "autostart_pending": "Початок компіляції…"
   },
   "community_profile": {
     "audience_label": "Для кого це",
@@ -2502,7 +2521,8 @@
     "undo": "Скасувати",
     "redo": "Повторити",
     "restore_btn": "Приклад відновлення",
-    "restore_title": "Замініть мінімальним робочим прикладом"
+    "restore_title": "Замініть мінімальним робочим прикладом",
+    "advanced_section": "Розширені параметри"
   },
   "help": {
     "title": "Довідковий центр",
@@ -2589,5 +2609,71 @@
     "title": "Щось пішло не так",
     "body": "TeXisStudio зберіг ваші файли недоторканими. Поверніться додому та спробуйте знову відкрити проект.",
     "back_home": "Назад додому"
+  },
+  "circuit": {
+    "components": "компоненти",
+    "nodes": "Вузли",
+    "connections": "Зв'язки",
+    "connections_hint": "Прямі дротові з’єднання між вузлами, які не проходять через компонент.",
+    "from": "Від",
+    "to": "до",
+    "label": "Мітка",
+    "label_hint": "R1, C1...",
+    "value": "Значення",
+    "node_label": "Мітка (необов.)",
+    "add_component": "компонент",
+    "add_node": "Вузол",
+    "add_connection": "Підключення",
+    "need_nodes": "Спочатку додайте принаймні 2 вузли."
+  },
+  "chem": {
+    "formula": "Формула",
+    "reaction": "Реакція",
+    "formula_text": "Формула",
+    "charge": "Зарядити",
+    "state": "Держава",
+    "reactants": "Реагенти",
+    "products": "Продукти",
+    "conditions_above": "Над стрілкою",
+    "conditions_below": "Під стрілкою",
+    "conditions_hint": "Δ, hν, кат.",
+    "add_formula": "Формула",
+    "add_reaction": "Реакція",
+    "add_reactant": "Реагент",
+    "add_product": "Продукт",
+    "empty_hint": "Щоб почати, додайте формулу або реакцію."
+  },
+  "tikz": {
+    "shapes": "Фігури",
+    "canvas": "Полотно",
+    "type_point": "точка",
+    "type_line": "лінія",
+    "type_arrow": "Стрілка",
+    "type_rectangle": "Прямокутник",
+    "type_circle": "Коло",
+    "type_ellipse": "Еліпс",
+    "type_polygon": "Багатокутник",
+    "type_arc": "Арк",
+    "type_bezier": "Безьє",
+    "type_label": "Мітка",
+    "type_axis": "Сокири",
+    "type_vector": "Вектор",
+    "type_angle": "Кут",
+    "ls_solid": "Твердий",
+    "ls_dashed": "Штриховий",
+    "ls_dotted": "Пунктирний",
+    "ls_densely_dashed": "Щільний штриховий",
+    "color": "колір",
+    "label": "Мітка",
+    "label_hint": "Текст (додатково)",
+    "options": "Опції",
+    "coords": "Координати",
+    "add_coord": "Coord.",
+    "add_shape": "Форма",
+    "viewbox": "Розмір полотна",
+    "width": "Ширина",
+    "height": "Висота",
+    "libraries": "Бібліотеки TikZ",
+    "libraries_hint": "Через кому. Додано до \\usetikzlibrary{...}."
   }
 }

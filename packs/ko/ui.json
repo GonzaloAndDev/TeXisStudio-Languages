@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "과학도형 삽입(61종)",
+    "block_plugin_figure": "그림+"
   },
   "spell": {
     "panel_title": "맞춤법 검사",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ 규칙…",
     "update_disabled": "이 릴리스에는 자동 업데이트가 구성되지 않았습니다.",
     "dict_format_hint": "형식: 한 줄에 하나의 용어(헤더가 없는 .txt)",
-    "user_defaults_hint": "이러한 세부 정보는 새 프로젝트를 생성할 때 기본값으로 사용됩니다."
+    "user_defaults_hint": "이러한 세부 정보는 새 프로젝트를 생성할 때 기본값으로 사용됩니다.",
+    "section_latex": "LaTeX 엔진",
+    "latex_primary_title": "기본 컴파일 엔진",
+    "latex_primary_hint": "TeXisStudio가 기본적으로 사용해야 하는 엔진을 선택하세요. 특정 컴파일에 대해서는 여전히 이를 재정의할 수 있습니다.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "가볍고 유지 관리가 쉽습니다. 전체 TeX 배포가 필요하지 않은 일상적인 글쓰기 및 프로젝트에 권장됩니다.",
+    "latex_suite_title": "완전한 LaTeX 제품군",
+    "latex_suite_description": "TeX Live 또는 MiKTeX와 함께 latexmk를 사용합니다. 고급 패키지, 복잡한 참고문헌 및 최종 전달에 권장됩니다.",
+    "latex_available": "가능",
+    "latex_not_available": "설치되지 않음",
+    "latex_detected_version": "감지된 버전: {{version}}",
+    "latex_fallback_title": "기본 엔진을 사용할 수 없는 경우 다른 엔진을 사용하세요.",
+    "latex_fallback_hint": "구성된 우선순위가 유지됩니다. TeXisStudio는 기본 엔진을 사용할 수 없는 경우에만 전환됩니다.",
+    "latex_install_hint": "설정 도우미에서 LaTeX 엔진을 설치하거나 수리한 다음 여기에서 검색을 새로 고치세요.",
+    "latex_checking": "확인 중…",
+    "latex_refresh": "새로 고침 감지",
+    "latex_manage_installation": "LaTeX 설치 관리"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' 섹션에서 참조된 '{{file}}' 이미지를 찾을 수 없습니다.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "경고",
     "severity_suggestion": "제안",
     "go_to_section": "섹션으로 이동",
-    "preflight_review_first": "먼저 검토하세요"
+    "preflight_review_first": "먼저 검토하세요",
+    "autostart_pending": "컴파일 시작 중…"
   },
   "community_profile": {
     "audience_label": "누구를 위한 것인가",
@@ -2502,7 +2521,8 @@
     "undo": "실행 취소",
     "redo": "다시 실행",
     "restore_btn": "복원 예시",
-    "restore_title": "최소한의 작업 예제로 교체"
+    "restore_title": "최소한의 작업 예제로 교체",
+    "advanced_section": "고급 옵션"
   },
   "help": {
     "title": "도움말 센터",
@@ -2589,5 +2609,71 @@
     "title": "문제가 발생했습니다.",
     "body": "TeXisStudio는 파일을 그대로 유지했습니다. 집으로 돌아가서 프로젝트를 다시 열어보세요.",
     "back_home": "집으로 돌아가기"
+  },
+  "circuit": {
+    "components": "구성요소",
+    "nodes": "노드",
+    "connections": "연결",
+    "connections_hint": "구성 요소를 통과하지 않는 노드 간의 직접 와이어 연결입니다.",
+    "from": "에서",
+    "to": "받는 사람",
+    "label": "라벨",
+    "label_hint": "R1, C1...",
+    "value": "가치",
+    "node_label": "라벨(선택)",
+    "add_component": "구성요소",
+    "add_node": "노드",
+    "add_connection": "연결",
+    "need_nodes": "먼저 노드를 2개 이상 추가하세요."
+  },
+  "chem": {
+    "formula": "공식",
+    "reaction": "반응",
+    "formula_text": "공식",
+    "charge": "요금",
+    "state": "상태",
+    "reactants": "반응물",
+    "products": "제품",
+    "conditions_above": "화살표 위",
+    "conditions_below": "아래 화살표",
+    "conditions_hint": "Δ, hν, 고양이.",
+    "add_formula": "공식",
+    "add_reaction": "반응",
+    "add_reactant": "반응물",
+    "add_product": "제품",
+    "empty_hint": "시작하려면 수식이나 반응을 추가하세요."
+  },
+  "tikz": {
+    "shapes": "모양",
+    "canvas": "캔버스",
+    "type_point": "포인트",
+    "type_line": "라인",
+    "type_arrow": "화살표",
+    "type_rectangle": "직사각형",
+    "type_circle": "서클",
+    "type_ellipse": "타원",
+    "type_polygon": "다각형",
+    "type_arc": "호",
+    "type_bezier": "베지어",
+    "type_label": "라벨",
+    "type_axis": "축",
+    "type_vector": "벡터",
+    "type_angle": "각도",
+    "ls_solid": "솔리드",
+    "ls_dashed": "점선",
+    "ls_dotted": "점선",
+    "ls_densely_dashed": "촘촘한 파선",
+    "color": "색상",
+    "label": "라벨",
+    "label_hint": "텍스트(선택)",
+    "options": "옵션",
+    "coords": "좌표",
+    "add_coord": "코디.",
+    "add_shape": "모양",
+    "viewbox": "캔버스 크기",
+    "width": "폭",
+    "height": "신장",
+    "libraries": "TikZ 라이브러리",
+    "libraries_hint": "쉼표로 구분됩니다. \\usetikzlibrary{...}에 추가되었습니다."
   }
 }

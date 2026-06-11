@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "הכנס דמות מדעית (61 סוגים)",
+    "block_plugin_figure": "איור+"
   },
   "spell": {
     "panel_title": "בדיקת איות",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ כללים...",
     "update_disabled": "עדכון אוטומטי לא הוגדר עבור מהדורה זו",
     "dict_format_hint": "פורמט: מונח אחד בכל שורה (.txt ללא כותרת)",
-    "user_defaults_hint": "פרטים אלה ישמשו כברירת מחדל בעת יצירת פרויקטים חדשים."
+    "user_defaults_hint": "פרטים אלה ישמשו כברירת מחדל בעת יצירת פרויקטים חדשים.",
+    "section_latex": "מנוע LaTeX",
+    "latex_primary_title": "מנוע הידור ראשי",
+    "latex_primary_hint": "בחר את המנוע TeXisStudio צריך להשתמש כברירת מחדל. אתה עדיין יכול לעקוף אותו עבור קומפילציה ספציפית.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "קל משקל וקל לתחזוקה. מומלץ לכתיבה יומיומית ולפרויקטים שאינם דורשים הפצת TeX מלאה.",
+    "latex_suite_title": "חבילת LaTeX מלאה",
+    "latex_suite_description": "משתמש ב-latexmk עם TeX Live או MiKTeX. מומלץ לחבילות מתקדמות, ביבליוגרפיות מורכבות ומשלוח סופי.",
+    "latex_available": "זמין",
+    "latex_not_available": "לא מותקן",
+    "latex_detected_version": "גרסה זוהתה: {{version}}",
+    "latex_fallback_title": "השתמש במנוע השני כאשר המנוע הראשי אינו זמין",
+    "latex_fallback_hint": "העדיפות המוגדרת נשמרת. TeXisStudio עובר רק כאשר לא ניתן להשתמש במנוע הראשי.",
+    "latex_install_hint": "התקן או תקן מנוע LaTeX מעוזר ההתקנה, ולאחר מכן רענן את הזיהוי כאן.",
+    "latex_checking": "בודק...",
+    "latex_refresh": "זיהוי רענון",
+    "latex_manage_installation": "ניהול התקנת LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "התמונה '{{file}}' המוזכרת בסעיף '{{section}}' לא נמצאה.",
@@ -1497,7 +1515,8 @@
     "severity_warning": "אזהרה",
     "severity_suggestion": "הצעה",
     "go_to_section": "עבור לסעיף",
-    "preflight_review_first": "תחילה סקירה"
+    "preflight_review_first": "תחילה סקירה",
+    "autostart_pending": "מתחיל הידור..."
   },
   "community_profile": {
     "audience_label": "למי זה מיועד",
@@ -2502,7 +2521,8 @@
     "undo": "בטל",
     "redo": "בצע מחדש",
     "restore_btn": "שחזור דוגמה",
-    "restore_title": "החלף בדוגמה עבודה מינימלית"
+    "restore_title": "החלף בדוגמה עבודה מינימלית",
+    "advanced_section": "אפשרויות מתקדמות"
   },
   "help": {
     "title": "מרכז העזרה",
@@ -2589,5 +2609,71 @@
     "title": "משהו השתבש",
     "body": "TeXisStudio שמר על הקבצים שלך ללא פגע. חזור הביתה ונסה לפתוח מחדש את הפרויקט.",
     "back_home": "חזרה הביתה"
+  },
+  "circuit": {
+    "components": "רכיבים",
+    "nodes": "צמתים",
+    "connections": "חיבורים",
+    "connections_hint": "חיבורי חוטים ישירים בין צמתים שאינם עוברים דרך רכיב.",
+    "from": "מ",
+    "to": "ל",
+    "label": "תווית",
+    "label_hint": "R1, C1...",
+    "value": "ערך",
+    "node_label": "תווית (אופט.)",
+    "add_component": "רכיב",
+    "add_node": "צומת",
+    "add_connection": "חיבור",
+    "need_nodes": "הוסף תחילה לפחות 2 צמתים."
+  },
+  "chem": {
+    "formula": "נוסחה",
+    "reaction": "תגובה",
+    "formula_text": "נוסחה",
+    "charge": "טעינה",
+    "state": "מדינה",
+    "reactants": "מגיבים",
+    "products": "מוצרים",
+    "conditions_above": "מעל החץ",
+    "conditions_below": "מתחת לחץ",
+    "conditions_hint": "Δ, hν, חתול.",
+    "add_formula": "נוסחה",
+    "add_reaction": "תגובה",
+    "add_reactant": "מגיב",
+    "add_product": "מוצר",
+    "empty_hint": "הוסף נוסחה או תגובה כדי להתחיל."
+  },
+  "tikz": {
+    "shapes": "צורות",
+    "canvas": "קנבס",
+    "type_point": "נקודה",
+    "type_line": "קו",
+    "type_arrow": "חץ",
+    "type_rectangle": "מלבן",
+    "type_circle": "מעגל",
+    "type_ellipse": "אליפסה",
+    "type_polygon": "מצולע",
+    "type_arc": "קשת",
+    "type_bezier": "בזייר",
+    "type_label": "תווית",
+    "type_axis": "צירים",
+    "type_vector": "וקטור",
+    "type_angle": "זווית",
+    "ls_solid": "מוצק",
+    "ls_dashed": "מקווקו",
+    "ls_dotted": "מנוקד",
+    "ls_densely_dashed": "מקווקו צפוף",
+    "color": "צבע",
+    "label": "תווית",
+    "label_hint": "טקסט (אופט.)",
+    "options": "אפשרויות",
+    "coords": "קואורדינטות",
+    "add_coord": "קוורד.",
+    "add_shape": "צורה",
+    "viewbox": "גודל קנבס",
+    "width": "רוחב",
+    "height": "גובה",
+    "libraries": "ספריות TikZ",
+    "libraries_hint": "מופרדים בפסיקים. נוסף ל-\\usetikzlibrary{...}."
   }
 }

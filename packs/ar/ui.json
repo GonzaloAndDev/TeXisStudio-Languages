@@ -808,7 +808,9 @@
     "default_set_c": "Set C",
     "default_set_b": "Set B",
     "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib"
+    "no_bib_file": "no .bib",
+    "insert_plugin_figure_title": "أدخل الشكل العلمي (61 نوعا)",
+    "block_plugin_figure": "الشكل+"
   },
   "spell": {
     "panel_title": "التدقيق الإملائي",
@@ -944,7 +946,23 @@
     "installing_rules": "↓ القواعد…",
     "update_disabled": "لم يتم تكوين التحديث التلقائي لهذا الإصدار",
     "dict_format_hint": "التنسيق: مصطلح واحد في كل سطر (.txt بدون رأس)",
-    "user_defaults_hint": "سيتم استخدام هذه التفاصيل كإعدادات افتراضية عند إنشاء مشاريع جديدة."
+    "user_defaults_hint": "سيتم استخدام هذه التفاصيل كإعدادات افتراضية عند إنشاء مشاريع جديدة.",
+    "section_latex": "محرك LaTeX",
+    "latex_primary_title": "محرك التجميع الأساسي",
+    "latex_primary_hint": "اختر المحرك الذي يجب أن يستخدمه TeXisStudio افتراضيًا. لا يزال بإمكانك تجاوزه لتجميع محدد.",
+    "latex_tectonic_title": "Tectonic",
+    "latex_tectonic_description": "خفيفة الوزن وسهلة الصيانة. يوصى به للكتابة اليومية والمشاريع التي لا تتطلب توزيع TeX الكامل.",
+    "latex_suite_title": "مجموعة LaTeX كاملة",
+    "latex_suite_description": "يستخدم latexmk مع TeX Live أو MiKTeX. يوصى به للحزم المتقدمة والببليوغرافيات المعقدة والتسليم النهائي.",
+    "latex_available": "متاح",
+    "latex_not_available": "غير مثبت",
+    "latex_detected_version": "النسخة المكتشفة: {{version}}",
+    "latex_fallback_title": "استخدم المحرك الآخر عندما يكون المحرك الأساسي غير متاح",
+    "latex_fallback_hint": "يتم الحفاظ على الأولوية التي تم تكوينها. يتم تبديل TeXisStudio فقط عندما لا يمكن استخدام المحرك الأساسي.",
+    "latex_install_hint": "قم بتثبيت أو إصلاح محرك LaTeX من مساعد الإعداد، ثم قم بتحديث الكشف هنا.",
+    "latex_checking": "جارٍ التحقق…",
+    "latex_refresh": "تحديث الكشف",
+    "latex_manage_installation": "إدارة تثبيت LaTeX"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "لم يتم العثور على الصورة \"{{file}}\" المشار إليها في القسم \"{{section}}\".",
@@ -1497,7 +1515,8 @@
     "severity_warning": "تحذير",
     "severity_suggestion": "اقتراح",
     "go_to_section": "اذهب إلى القسم",
-    "preflight_review_first": "قم بالمراجعة أولاً"
+    "preflight_review_first": "قم بالمراجعة أولاً",
+    "autostart_pending": "جارٍ بدء التجميع…"
   },
   "community_profile": {
     "audience_label": "لمن هو",
@@ -2502,7 +2521,8 @@
     "undo": "تراجع",
     "redo": "إعادة",
     "restore_btn": "استعادة المثال",
-    "restore_title": "استبدل بمثال عمل بسيط"
+    "restore_title": "استبدل بمثال عمل بسيط",
+    "advanced_section": "خيارات متقدمة"
   },
   "help": {
     "title": "مركز المساعدة",
@@ -2589,5 +2609,71 @@
     "title": "حدث خطأ ما",
     "body": "حافظ TeXisStudio على ملفاتك سليمة. عد إلى المنزل وحاول إعادة فتح المشروع.",
     "back_home": "العودة إلى المنزل"
+  },
+  "circuit": {
+    "components": "المكونات",
+    "nodes": "العقد",
+    "connections": "اتصالات",
+    "connections_hint": "اتصالات سلكية مباشرة بين العقد لا تمر عبر أحد المكونات.",
+    "from": "من",
+    "to": "ل",
+    "label": "التسمية",
+    "label_hint": "ر1، ج1...",
+    "value": "القيمة",
+    "node_label": "التسمية (اختياري)",
+    "add_component": "مكون",
+    "add_node": "عقدة",
+    "add_connection": "اتصال",
+    "need_nodes": "أضف عقدتين على الأقل أولاً."
+  },
+  "chem": {
+    "formula": "صيغة",
+    "reaction": "رد فعل",
+    "formula_text": "صيغة",
+    "charge": "تهمة",
+    "state": "الدولة",
+    "reactants": "المتفاعلات",
+    "products": "المنتجات",
+    "conditions_above": "فوق السهم",
+    "conditions_below": "أسفل السهم",
+    "conditions_hint": "Δ، ح، القط.",
+    "add_formula": "صيغة",
+    "add_reaction": "رد فعل",
+    "add_reactant": "متفاعل",
+    "add_product": "المنتج",
+    "empty_hint": "أضف صيغة أو رد فعل للبدء."
+  },
+  "tikz": {
+    "shapes": "الأشكال",
+    "canvas": "قماش",
+    "type_point": "نقطة",
+    "type_line": "الخط",
+    "type_arrow": "السهم",
+    "type_rectangle": "مستطيل",
+    "type_circle": "دائرة",
+    "type_ellipse": "القطع الناقص",
+    "type_polygon": "مضلع",
+    "type_arc": "قوس",
+    "type_bezier": "بيزييه",
+    "type_label": "التسمية",
+    "type_axis": "محاور",
+    "type_vector": "ناقل",
+    "type_angle": "زاوية",
+    "ls_solid": "صلب",
+    "ls_dashed": "متقطع",
+    "ls_dotted": "منقط",
+    "ls_densely_dashed": "متقطع كثيفة",
+    "color": "اللون",
+    "label": "التسمية",
+    "label_hint": "النص (اختياري)",
+    "options": "خيارات",
+    "coords": "الإحداثيات",
+    "add_coord": "التنسيق.",
+    "add_shape": "الشكل",
+    "viewbox": "حجم القماش",
+    "width": "العرض",
+    "height": "الارتفاع",
+    "libraries": "مكتبات TikZ",
+    "libraries_hint": "مفصولة بفواصل. تمت الإضافة إلى \\usetikzlibrary {...}."
   }
 }
