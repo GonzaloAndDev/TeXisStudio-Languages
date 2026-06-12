@@ -962,7 +962,12 @@
     "latex_install_hint": "Zainstaluj lub napraw silnik LaTeX za pomocą asystenta konfiguracji, a następnie odśwież tutaj wykrywanie.",
     "latex_checking": "Sprawdzam…",
     "latex_refresh": "Odśwież wykrywanie",
-    "latex_manage_installation": "Zarządzaj instalacją LaTeX"
+    "latex_manage_installation": "Zarządzaj instalacją LaTeX",
+    "window_mode_title": "Rozmiar okna przy uruchomieniu",
+    "window_mode_default": "Domyślne ustawienie laptopa",
+    "window_mode_remember": "Zapamiętaj ostatni rozmiar",
+    "window_mode_maximized": "Zmaksymalizowany",
+    "window_mode_hint": "Wybierz okno o rozdzielczości 1280 × 760, przywróć ostatni używany rozmiar lub otwórz, wykorzystując całe dostępne miejsce na monitorze."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Nie znaleziono obrazu „{{file}}”, o którym mowa w sekcji „{{section}}”.",

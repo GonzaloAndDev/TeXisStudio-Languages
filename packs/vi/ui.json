@@ -962,7 +962,12 @@
     "latex_install_hint": "Cài đặt hoặc sửa chữa công cụ LaTeX từ trợ lý thiết lập, sau đó làm mới tính năng phát hiện tại đây.",
     "latex_checking": "Đang kiểm tra…",
     "latex_refresh": "Phát hiện làm mới",
-    "latex_manage_installation": "Quản lý cài đặt LaTeX"
+    "latex_manage_installation": "Quản lý cài đặt LaTeX",
+    "window_mode_title": "Kích thước cửa sổ khi khởi động",
+    "window_mode_default": "Máy tính xách tay mặc định",
+    "window_mode_remember": "Nhớ kích thước cuối cùng",
+    "window_mode_maximized": "Tối đa hóa",
+    "window_mode_hint": "Chọn cửa sổ 1280 × 760, khôi phục kích thước cuối cùng bạn đã sử dụng hoặc mở bằng tất cả không gian màn hình có sẵn."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Không tìm thấy hình ảnh '{{file}}' được tham chiếu trong phần '{{section}}'.",

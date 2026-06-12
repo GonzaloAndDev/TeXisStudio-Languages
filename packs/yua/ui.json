@@ -676,7 +676,12 @@
     "latex_install_hint": "Instala o repara un motor LaTeX desde el asistente y después actualiza aquí la detección.",
     "latex_checking": "Comprobando…",
     "latex_refresh": "Actualizar detección",
-    "latex_manage_installation": "Administrar instalación de LaTeX"
+    "latex_manage_installation": "Administrar instalación de LaTeX",
+    "window_mode_title": "Tamaño de la ventana al iniciar",
+    "window_mode_default": "Predeterminado para laptop",
+    "window_mode_remember": "Recordar último tamaño",
+    "window_mode_maximized": "Maximizada",
+    "window_mode_hint": "Elige una ventana de 1280 × 760, recupera el último tamaño que usaste o abre aprovechando todo el monitor disponible."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Náajil '{{file}}' tu chuun '{{section}}' ma' suumak.",

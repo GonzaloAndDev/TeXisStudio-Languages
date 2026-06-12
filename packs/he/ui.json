@@ -962,7 +962,12 @@
     "latex_install_hint": "התקן או תקן מנוע LaTeX מעוזר ההתקנה, ולאחר מכן רענן את הזיהוי כאן.",
     "latex_checking": "בודק...",
     "latex_refresh": "זיהוי רענון",
-    "latex_manage_installation": "ניהול התקנת LaTeX"
+    "latex_manage_installation": "ניהול התקנת LaTeX",
+    "window_mode_title": "גודל חלון בעת ההפעלה",
+    "window_mode_default": "ברירת מחדל של מחשב נייד",
+    "window_mode_remember": "זכור את המידה האחרונה",
+    "window_mode_maximized": "מקסימום",
+    "window_mode_hint": "בחר חלון בגודל 1280 × 760, שחזר את הגודל האחרון שהשתמשת בו, או פתח באמצעות כל שטח הצג הפנוי."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "התמונה '{{file}}' המוזכרת בסעיף '{{section}}' לא נמצאה.",

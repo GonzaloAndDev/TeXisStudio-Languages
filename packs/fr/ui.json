@@ -676,7 +676,12 @@
     "latex_install_hint": "Installez ou réparez un moteur LaTeX à partir de l'assistant de configuration, puis actualisez la détection ici.",
     "latex_checking": "Vérification…",
     "latex_refresh": "Actualiser la détection",
-    "latex_manage_installation": "Gérer l'installation de LaTeX"
+    "latex_manage_installation": "Gérer l'installation de LaTeX",
+    "window_mode_title": "Taille de la fenêtre au démarrage",
+    "window_mode_default": "Ordinateur portable par défaut",
+    "window_mode_remember": "Mémoriser la dernière taille",
+    "window_mode_maximized": "Maximisé",
+    "window_mode_hint": "Choisissez une fenêtre 1280 × 760, restaurez la dernière taille que vous avez utilisée ou ouvrez en utilisant tout l'espace disponible sur le moniteur."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' référencée dans la section '{{section}}' introuvable.",

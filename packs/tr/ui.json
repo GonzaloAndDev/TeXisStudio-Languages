@@ -962,7 +962,12 @@
     "latex_install_hint": "Kurulum asistanından bir LaTeX motorunu takın veya onarın, ardından algılamayı burada yenileyin.",
     "latex_checking": "Kontrol ediliyor…",
     "latex_refresh": "Yenileme tespiti",
-    "latex_manage_installation": "LaTeX kurulumunu yönetin"
+    "latex_manage_installation": "LaTeX kurulumunu yönetin",
+    "window_mode_title": "Başlangıçta pencere boyutu",
+    "window_mode_default": "Dizüstü bilgisayar varsayılanı",
+    "window_mode_remember": "Son boyutu hatırla",
+    "window_mode_maximized": "Büyütülmüş",
+    "window_mode_hint": "1280 × 760 boyutunda bir pencere seçin, kullandığınız son boyutu geri yükleyin veya mevcut tüm monitör alanını kullanarak açın."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' bölümünde başvurulan '{{file}}' resmi bulunamadı.",

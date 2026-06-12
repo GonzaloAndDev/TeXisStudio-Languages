@@ -676,7 +676,12 @@
     "latex_install_hint": "从设置助手安装或修复 LaTeX 引擎，然后在此处刷新检测。",
     "latex_checking": "正在检查...",
     "latex_refresh": "刷新检测",
-    "latex_manage_installation": "管理LaTeX安装"
+    "latex_manage_installation": "管理LaTeX安装",
+    "window_mode_title": "启动时的窗口大小",
+    "window_mode_default": "笔记本电脑默认设置",
+    "window_mode_remember": "记住最后的尺码",
+    "window_mode_maximized": "最大化",
+    "window_mode_hint": "选择 1280 × 760 窗口，恢复上次使用的尺寸，或使用所有可用的显示器空间打开。"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Image '{{file}}' referenced in section '{{section}}' not found.",

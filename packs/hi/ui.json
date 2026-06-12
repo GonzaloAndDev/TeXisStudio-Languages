@@ -962,7 +962,12 @@
     "latex_install_hint": "सेटअप सहायक से LaTeX इंजन स्थापित करें या मरम्मत करें, फिर यहां डिटेक्शन को रीफ्रेश करें।",
     "latex_checking": "जाँच हो रही है...",
     "latex_refresh": "ताज़ा पता लगाना",
-    "latex_manage_installation": "LaTeX स्थापना प्रबंधित करें"
+    "latex_manage_installation": "LaTeX स्थापना प्रबंधित करें",
+    "window_mode_title": "स्टार्टअप पर विंडो का आकार",
+    "window_mode_default": "लैपटॉप डिफ़ॉल्ट",
+    "window_mode_remember": "अंतिम आकार याद रखें",
+    "window_mode_maximized": "अधिकतमीकरण",
+    "window_mode_hint": "एक 1280 × 760 विंडो चुनें, आपके द्वारा उपयोग किए गए अंतिम आकार को पुनर्स्थापित करें, या सभी उपलब्ध मॉनिटर स्थान का उपयोग करके खोलें।"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' अनुभाग में संदर्भित छवि '{{file}}' नहीं मिली।",

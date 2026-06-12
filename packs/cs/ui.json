@@ -962,7 +962,12 @@
     "latex_install_hint": "Nainstalujte nebo opravte motor LaTeX z asistenta nastavení a poté zde obnovte detekci.",
     "latex_checking": "Kontrola…",
     "latex_refresh": "Detekce obnovení",
-    "latex_manage_installation": "Správa instalace LaTeX"
+    "latex_manage_installation": "Správa instalace LaTeX",
+    "window_mode_title": "Velikost okna při spuštění",
+    "window_mode_default": "Výchozí nastavení notebooku",
+    "window_mode_remember": "Pamatujte na poslední velikost",
+    "window_mode_maximized": "Maximalizováno",
+    "window_mode_hint": "Vyberte okno s rozlišením 1280 × 760, obnovte naposledy použitou velikost nebo otevřete pomocí veškerého dostupného místa na monitoru."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Obrázek '{{file}}' odkazovaný v sekci '{{section}}' nebyl nalezen.",

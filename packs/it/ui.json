@@ -962,7 +962,12 @@
     "latex_install_hint": "Installa o ripara un motore LaTeX dall'assistente di configurazione, quindi aggiorna il rilevamento qui.",
     "latex_checking": "Controllo…",
     "latex_refresh": "Aggiorna rilevamento",
-    "latex_manage_installation": "Gestisci l'installazione di LaTeX"
+    "latex_manage_installation": "Gestisci l'installazione di LaTeX",
+    "window_mode_title": "Dimensioni della finestra all'avvio",
+    "window_mode_default": "Impostazione predefinita del portatile",
+    "window_mode_remember": "Ricorda l'ultima taglia",
+    "window_mode_maximized": "Massimizzato",
+    "window_mode_hint": "Scegli una finestra 1280 × 760, ripristina l'ultima dimensione utilizzata o aprila utilizzando tutto lo spazio disponibile sul monitor."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Immagine \"{{file}}\" citata nella sezione \"{{section}}\" non trovata.",

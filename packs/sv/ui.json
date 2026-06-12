@@ -962,7 +962,12 @@
     "latex_install_hint": "Installera eller reparera en LaTeX-motor från inställningsassistenten och uppdatera sedan upptäckten här.",
     "latex_checking": "Kontrollerar...",
     "latex_refresh": "Uppdateringsdetektering",
-    "latex_manage_installation": "Hantera LaTeX installation"
+    "latex_manage_installation": "Hantera LaTeX installation",
+    "window_mode_title": "Fönsterstorlek vid start",
+    "window_mode_default": "Laptop standard",
+    "window_mode_remember": "Kom ihåg sista storleken",
+    "window_mode_maximized": "Maximerad",
+    "window_mode_hint": "Välj ett 1280 × 760 fönster, återställ den senast använda storleken eller öppna med allt tillgängligt bildskärmsutrymme."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bilden '{{file}}' som hänvisas till i avsnittet '{{section}}' hittades inte.",

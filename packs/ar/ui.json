@@ -962,7 +962,12 @@
     "latex_install_hint": "قم بتثبيت أو إصلاح محرك LaTeX من مساعد الإعداد، ثم قم بتحديث الكشف هنا.",
     "latex_checking": "جارٍ التحقق…",
     "latex_refresh": "تحديث الكشف",
-    "latex_manage_installation": "إدارة تثبيت LaTeX"
+    "latex_manage_installation": "إدارة تثبيت LaTeX",
+    "window_mode_title": "حجم النافذة عند بدء التشغيل",
+    "window_mode_default": "الكمبيوتر المحمول الافتراضي",
+    "window_mode_remember": "تذكر الحجم الأخير",
+    "window_mode_maximized": "تعظيم",
+    "window_mode_hint": "اختر نافذة بحجم 1280 × 760، أو استعد آخر حجم استخدمته، أو افتحها باستخدام كل مساحة الشاشة المتاحة."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "لم يتم العثور على الصورة \"{{file}}\" المشار إليها في القسم \"{{section}}\".",

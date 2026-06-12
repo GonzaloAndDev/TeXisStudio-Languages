@@ -962,7 +962,12 @@
     "latex_install_hint": "Installeer of repareer een LaTeX-engine vanuit de setup-assistent en vernieuw de detectie hier.",
     "latex_checking": "Controleren…",
     "latex_refresh": "Vernieuwingsdetectie",
-    "latex_manage_installation": "Beheer de LaTeX-installatie"
+    "latex_manage_installation": "Beheer de LaTeX-installatie",
+    "window_mode_title": "Venstergrootte bij opstarten",
+    "window_mode_default": "Standaard laptop",
+    "window_mode_remember": "Onthoud de laatste maat",
+    "window_mode_maximized": "Gemaximaliseerd",
+    "window_mode_hint": "Kies een venster van 1280 x 760, herstel het laatst gebruikte formaat of open het met alle beschikbare monitorruimte."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Afbeelding '{{file}}' waarnaar wordt verwezen in sectie '{{section}}' niet gevonden.",

@@ -676,7 +676,12 @@
     "latex_install_hint": "Installieren oder reparieren Sie eine LaTeX-Engine über den Setup-Assistenten und aktualisieren Sie dann die Erkennung hier.",
     "latex_checking": "Überprüfen…",
     "latex_refresh": "Aktualisierungserkennung",
-    "latex_manage_installation": "Verwalten Sie die LaTeX-Installation"
+    "latex_manage_installation": "Verwalten Sie die LaTeX-Installation",
+    "window_mode_title": "Fenstergröße beim Start",
+    "window_mode_default": "Laptop-Standard",
+    "window_mode_remember": "Merken Sie sich die letzte Größe",
+    "window_mode_maximized": "Maximiert",
+    "window_mode_hint": "Wählen Sie ein 1280 × 760-Fenster, stellen Sie die zuletzt verwendete Größe wieder her oder öffnen Sie es unter Nutzung des gesamten verfügbaren Monitorplatzes."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bild '{{file}}' in Abschnitt '{{section}}' nicht gefunden.",

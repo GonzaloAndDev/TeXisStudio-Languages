@@ -962,7 +962,12 @@
     "latex_install_hint": "Instale ou repare um mecanismo LaTeX a partir do assistente de configuração e atualize a detecção aqui.",
     "latex_checking": "Verificando…",
     "latex_refresh": "Detecção de atualização",
-    "latex_manage_installation": "Gerenciar a instalação do LaTeX"
+    "latex_manage_installation": "Gerenciar a instalação do LaTeX",
+    "window_mode_title": "Tamanho da janela na inicialização",
+    "window_mode_default": "Padrão do laptop",
+    "window_mode_remember": "Lembre-se do último tamanho",
+    "window_mode_maximized": "Maximizado",
+    "window_mode_hint": "Escolha uma janela de 1280 × 760, restaure o último tamanho usado ou abra usando todo o espaço disponível no monitor."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imagem '{{file}}' referenciada na seção '{{section}}' não encontrada.",

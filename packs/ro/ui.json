@@ -962,7 +962,12 @@
     "latex_install_hint": "Instalați sau reparați un motor LaTeX din asistentul de configurare, apoi reîmprospătați detectarea aici.",
     "latex_checking": "Se verifică…",
     "latex_refresh": "Detectare reîmprospătare",
-    "latex_manage_installation": "Gestionați instalarea LaTeX"
+    "latex_manage_installation": "Gestionați instalarea LaTeX",
+    "window_mode_title": "Dimensiunea ferestrei la pornire",
+    "window_mode_default": "Laptop implicit",
+    "window_mode_remember": "Amintiți-vă ultima mărime",
+    "window_mode_maximized": "Maximizat",
+    "window_mode_hint": "Alegeți o fereastră de 1280 × 760, restaurați ultima dimensiune pe care ați folosit-o sau deschideți folosind tot spațiul disponibil pe monitor."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imaginea „{{file}}” la care se face referire în secțiunea „{{section}}” nu a fost găsită.",

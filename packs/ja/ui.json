@@ -676,7 +676,12 @@
     "latex_install_hint": "セットアップ アシスタントから LaTeX エンジンをインストールまたは修復し、ここで検出を更新します。",
     "latex_checking": "確認中…",
     "latex_refresh": "リフレッシュ検出",
-    "latex_manage_installation": "LaTeX インストールの管理"
+    "latex_manage_installation": "LaTeX インストールの管理",
+    "window_mode_title": "起動時のウィンドウサイズ",
+    "window_mode_default": "ラップトップのデフォルト",
+    "window_mode_remember": "前回のサイズを記憶",
+    "window_mode_maximized": "最大化",
+    "window_mode_hint": "1280 × 760 のウィンドウを選択するか、最後に使用したサイズに戻すか、利用可能なすべてのモニター領域を使用して開きます。"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "セクション '{{section}}' で参照されている画像 '{{file}}' が見つかりません。",

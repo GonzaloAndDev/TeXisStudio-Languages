@@ -962,7 +962,12 @@
     "latex_install_hint": "یک موتور LaTeX را از دستیار راه‌اندازی نصب یا تعمیر کنید، سپس شناسایی را در اینجا تازه‌سازی کنید.",
     "latex_checking": "در حال بررسی…",
     "latex_refresh": "تشخیص تازه کردن",
-    "latex_manage_installation": "نصب LaTeX را مدیریت کنید"
+    "latex_manage_installation": "نصب LaTeX را مدیریت کنید",
+    "window_mode_title": "اندازه پنجره هنگام راه اندازی",
+    "window_mode_default": "پیش فرض لپ تاپ",
+    "window_mode_remember": "آخرین اندازه را به خاطر بسپارید",
+    "window_mode_maximized": "به حداکثر رساند",
+    "window_mode_hint": "یک پنجره 1280 × 760 انتخاب کنید، آخرین اندازه ای را که استفاده کرده اید بازیابی کنید، یا با استفاده از تمام فضای موجود مانیتور باز کنید."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "تصویر '{{file}}' ارجاع شده در بخش '{{section}}' یافت نشد.",

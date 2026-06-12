@@ -962,7 +962,12 @@
     "latex_install_hint": "ติดตั้งหรือซ่อมแซมกลไก LaTeX จากผู้ช่วยการตั้งค่า จากนั้นรีเฟรชการตรวจจับที่นี่",
     "latex_checking": "กำลังตรวจสอบ...",
     "latex_refresh": "การตรวจจับการรีเฟรช",
-    "latex_manage_installation": "จัดการการติดตั้ง LaTeX"
+    "latex_manage_installation": "จัดการการติดตั้ง LaTeX",
+    "window_mode_title": "ขนาดหน้าต่างเมื่อเริ่มต้น",
+    "window_mode_default": "ค่าเริ่มต้นของแล็ปท็อป",
+    "window_mode_remember": "จำขนาดสุดท้าย",
+    "window_mode_maximized": "ขยายใหญ่สุด",
+    "window_mode_hint": "เลือกหน้าต่าง 1280 × 760 คืนค่าขนาดล่าสุดที่คุณใช้ หรือเปิดโดยใช้พื้นที่จอภาพที่มีอยู่ทั้งหมด"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "ไม่พบรูปภาพ '{{file}}' ที่อ้างอิงในส่วน '{{section}}'",
