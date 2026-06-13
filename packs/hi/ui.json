@@ -1087,6 +1087,8 @@
     "update_available": "संस्करण {{version}} उपलब्ध है - इंस्टॉल करने के लिए पुनरारंभ करें",
     "update_up_to_date": "आप अप टू डेट हैं",
     "update_error": "अद्यतनों की जाँच नहीं की जा सकी",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "कैटलॉग ताज़ा करें",
     "package_status_stable": "स्थिर",
     "package_status_beta": "बीटा",

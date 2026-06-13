@@ -1087,6 +1087,8 @@
     "update_available": "มีเวอร์ชัน {{version}} — รีสตาร์ทเพื่อติดตั้ง",
     "update_up_to_date": "คุณทันสมัยแล้ว",
     "update_error": "ไม่สามารถตรวจสอบการอัปเดตได้",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "รีเฟรชแคตตาล็อก",
     "package_status_stable": "มีเสถียรภาพ",
     "package_status_beta": "เบต้า",

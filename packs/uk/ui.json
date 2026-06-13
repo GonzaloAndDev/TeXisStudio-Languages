@@ -1087,6 +1087,8 @@
     "update_available": "Доступна версія {{version}} — перезапустіть, щоб інсталювати",
     "update_up_to_date": "Ви в курсі подій",
     "update_error": "Не вдалося перевірити наявність оновлень",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "Оновити каталог",
     "package_status_stable": "Стабільний",
     "package_status_beta": "Бета",

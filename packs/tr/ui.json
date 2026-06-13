@@ -1087,6 +1087,8 @@
     "update_available": "Sürüm {{version}} mevcut — yüklemeyi yeniden başlatın",
     "update_up_to_date": "Güncelsiniz",
     "update_error": "Güncellemeler kontrol edilemedi",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "Kataloğu yenile",
     "package_status_stable": "Kararlı",
     "package_status_beta": "beta",

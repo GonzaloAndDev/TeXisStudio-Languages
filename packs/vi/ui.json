@@ -1087,6 +1087,8 @@
     "update_available": "Đã có phiên bản {{version}} — khởi động lại để cài đặt",
     "update_up_to_date": "Bạn đã cập nhật",
     "update_error": "Không thể kiểm tra cập nhật",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "Làm mới danh mục",
     "package_status_stable": "Ổn định",
     "package_status_beta": "bản thử nghiệm",

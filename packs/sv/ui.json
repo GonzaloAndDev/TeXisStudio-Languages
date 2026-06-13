@@ -1087,6 +1087,8 @@
     "update_available": "Version {{version}} tillgänglig — starta om för att installera",
     "update_up_to_date": "Du är uppdaterad",
     "update_error": "Det gick inte att söka efter uppdateringar",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "Uppdatera katalogen",
     "package_status_stable": "Stabil",
     "package_status_beta": "Beta",

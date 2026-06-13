@@ -1087,6 +1087,8 @@
     "update_available": "Versão {{version}} disponível — reinicie para instalar",
     "update_up_to_date": "Você está atualizado",
     "update_error": "Não foi possível verificar atualizações",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "update_disabled": "Atualização automática não configurada para esta versão",
     "refresh_catalog": "Atualizar catálogo",
     "package_status_stable": "Estável",

@@ -1087,6 +1087,8 @@
     "update_available": "Verze {{version}} je k dispozici – restartujte pro instalaci",
     "update_up_to_date": "Jste aktuální",
     "update_error": "Nelze zkontrolovat aktualizace",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "Aktualizovat katalog",
     "package_status_stable": "Stabilní",
     "package_status_beta": "Beta",

@@ -1087,6 +1087,8 @@
     "update_available": "الإصدار {{version}} متوفر — أعد التشغيل للتثبيت",
     "update_up_to_date": "أنت على اطلاع",
     "update_error": "لا يمكن التحقق من وجود تحديثات",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "تحديث الكتالوج",
     "package_status_stable": "مستقر",
     "package_status_beta": "بيتا",

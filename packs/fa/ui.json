@@ -1087,6 +1087,8 @@
     "update_available": "نسخه {{version}} موجود است — برای نصب مجدد راه اندازی کنید",
     "update_up_to_date": "شما به روز هستید",
     "update_error": "نمی‌توان به‌روزرسانی‌ها را بررسی کرد",
+    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
+    "latex_tectonic_only_btn": "Install {{suiteName}}",
     "refresh_catalog": "تازه کردن کاتالوگ",
     "package_status_stable": "پایدار",
     "package_status_beta": "بتا",
