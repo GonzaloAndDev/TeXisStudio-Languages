@@ -483,7 +483,7 @@
     "meta_city": "都市",
     "meta_year": "年",
     "meta_keywords": "キーワード",
-    "meta_orcid": "オーシド",
+    "meta_orcid": "ORCID",
     "meta_funding": "資金提供",
     "meta_committee": "審査委員会",
     "meta_add_committee": "メンバーを追加",
@@ -1075,7 +1075,7 @@
     "notes_title": "内部メモ",
     "notes_subtitle": "著者のセクションごとのメモ。エディターでのみ表示され、PDF には含まれません。",
     "report_title": "レビューレポート",
-    "report_subtitle": "アドバイザーと共有するためのマークダウン ドキュメント。セクションのステータスと検証の問題が含まれます。",
+    "report_subtitle": "アドバイザーと共有するためのMarkdown ドキュメント。セクションのステータスと検証の問題が含まれます。",
     "regenerate": "再生する",
     "download_md": "ダウンロード",
     "report_empty_hint": "「レポートを生成」をクリックしてレビュー文書を作成します。",
@@ -1741,9 +1741,9 @@
     "importing": "インポート中…",
     "search_all": "すべて検索",
     "add_all_to_bib": "すべてを.bibに追加",
-    "detect_zotero": "ゾテロを検出する",
+    "detect_zotero": "Zoteroを検出する",
     "zotero_requirement": "Zotero + Better BibTeX プラグインが実行されている必要があります。",
-    "zotero_unavailable": "ゾテロは利用できません。",
+    "zotero_unavailable": "Zoteroは利用できません。",
     "zotero_search_placeholder": "Zotero ライブラリを検索してください…",
     "import_refs_to_bib_one": "{{count}} 参照を .bib にインポート",
     "import_refs_to_bib_other": "{{count}} 参照を .bib にインポート",
@@ -2009,7 +2009,7 @@
     "bib_style_label": "参考文献スタイル",
     "bib_apa": "APA第7版",
     "bib_ieee": "IEEE",
-    "bib_vancouver": "バンクーバー（医療科学）",
+    "bib_vancouver": "Vancouver（医療科学）",
     "bib_chicago": "シカゴ第17版",
     "bib_mla": "MLA",
     "bib_numeric": "汎用数字",
@@ -2286,7 +2286,7 @@
               "note": "すべてが含まれます。スペースが限られている場合は、texlive-full の代わりに texlive-xetex を使用してください。"
             },
             {
-              "title": "Fedora / RHEL / CentOS ストリーム",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "完全な TeX Live スキームをインストールします。"
             },
             {

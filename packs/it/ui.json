@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu/Debian/Linux Mint",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "Include tutto. Se lo spazio è limitato, usa texlive-xetex invece di texlive-full."
             },
             {
-              "title": "Flusso Fedora/RHEL/CentOS",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Installa lo schema TeX Live completo."
             },
             {
@@ -666,7 +666,7 @@
         ],
         "external": [
           "Immagini/istologia DICOM (esportazione come PNG/TIFF ad alta risoluzione)",
-          "Diagrammi di flusso clinici (disegna.io → PDF)"
+          "Diagrammi di flusso clinici (draw.io → PDF)"
         ],
         "tip": "Le immagini medico-diagnostiche devono essere importate come file esterni, non riprodotte in LaTeX."
       },

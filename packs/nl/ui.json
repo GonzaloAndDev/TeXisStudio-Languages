@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu/Debian/Linux Mint",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "Inclusief alles. Als de ruimte beperkt is, gebruik dan texlive-xetex in plaats van texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS-stream",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Installeert het volledige TeX Live-schema."
             },
             {
@@ -666,7 +666,7 @@
         ],
         "external": [
           "DICOM-afbeeldingen / histologie (exporteren als PNG/TIFF met hoge resolutie)",
-          "Klinische stroomdiagrammen (teken .io → PDF)"
+          "Klinische stroomdiagrammen (draw.io → PDF)"
         ],
         "tip": "Diagnostische medische beelden moeten worden geïmporteerd als externe bestanden en mogen niet worden gereproduceerd in LaTeX."
       },
@@ -1924,7 +1924,7 @@
       },
       "abnt": {
         "name": "ABNT",
-        "full_name": "ABNT NBR6023:2018",
+        "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
           "Alle disciplines (Brazilië)"
         ],

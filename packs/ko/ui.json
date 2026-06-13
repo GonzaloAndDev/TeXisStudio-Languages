@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "우분투/데비안/리눅스 민트",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "모든 것을 포함합니다. 공간이 제한되어 있으면 texlive-full 대신 texlive-xetex를 사용하십시오."
             },
             {
-              "title": "Fedora/RHEL/CentOS 스트림",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "전체 TeX Live 체계를 설치합니다."
             },
             {
@@ -1361,7 +1361,7 @@
     "notes_title": "내부 메모",
     "notes_subtitle": "섹션별 저자 노트. 편집기에서만 볼 수 있으며 PDF에는 포함되지 않습니다.",
     "report_title": "보고서 검토",
-    "report_subtitle": "조언자와 공유할 마크다운 문서입니다. 섹션 상태 및 유효성 검사 문제가 포함됩니다.",
+    "report_subtitle": "조언자와 공유할 Markdown 문서입니다. 섹션 상태 및 유효성 검사 문제가 포함됩니다.",
     "regenerate": "재생성",
     "download_md": ".md 다운로드",
     "report_empty_hint": "리뷰 문서를 생성하려면 “보고서 생성”을 클릭하세요.",
@@ -1905,7 +1905,7 @@
         "bibliography_title": "참고자료"
       },
       "mhra": {
-        "name": "므라",
+        "name": "MHRA",
         "full_name": "현대인문학연구회 스타일가이드 제3판",
         "disciplines": [
           "인문학",
@@ -2027,9 +2027,9 @@
     "importing": "가져오는 중…",
     "search_all": "모두 검색",
     "add_all_to_bib": ".bib에 모두 추가",
-    "detect_zotero": "조테로 감지",
+    "detect_zotero": "Zotero 감지",
     "zotero_requirement": "Zotero + Better BibTeX 플러그인 실행이 필요합니다.",
-    "zotero_unavailable": "조테로는 사용할 수 없습니다.",
+    "zotero_unavailable": "Zotero는 사용할 수 없습니다.",
     "zotero_search_placeholder": "Zotero 라이브러리를 검색하세요...",
     "import_refs_to_bib_one": "{{count}} 참조를 .bib로 가져오기",
     "import_refs_to_bib_other": "{{count}} 참조를 .bib로 가져오기",

@@ -1361,7 +1361,7 @@
     "notes_title": "Note interne",
     "notes_subtitle": "Note de autor pe secțiune. Vizibil numai în editor și nu este inclus în PDF.",
     "report_title": "Raport de revizuire",
-    "report_subtitle": "Document de reducere pe care să îl distribuiți consilierului dvs. Include starea secțiunii și probleme de validare.",
+    "report_subtitle": "Document de Markdown pe care să îl distribuiți consilierului dvs. Include starea secțiunii și probleme de validare.",
     "regenerate": "Regenerați",
     "download_md": "Descărcați .md",
     "report_empty_hint": "Faceți clic pe „Generează raport” pentru a crea documentul de revizuire.",

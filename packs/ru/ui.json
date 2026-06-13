@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Убунту/Дебиан/Линукс Минт",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "Включает в себя все. Если пространство ограничено, используйте texlive-xetex вместо texlive-full."
             },
             {
-              "title": "Fedora/RHEL/CentOS Stream",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Устанавливает полную схему TeX Live."
             },
             {
@@ -775,7 +775,7 @@
     "meta_city": "Город",
     "meta_year": "Год",
     "meta_keywords": "Ключевые слова",
-    "meta_orcid": "ОРЦИД",
+    "meta_orcid": "ORCID",
     "meta_funding": "Финансирование",
     "meta_committee": "Члены комитета",
     "meta_add_committee": "Добавить участника",
@@ -1905,7 +1905,7 @@
         "bibliography_title": "Ссылки"
       },
       "mhra": {
-        "name": "МХРА",
+        "name": "MHRA",
         "full_name": "Руководство по стилю Ассоциации современных гуманитарных исследований, 3-е издание",
         "disciplines": [
           "Гуманитарные науки",
@@ -1923,8 +1923,8 @@
         "bibliography_title": "Библиография"
       },
       "abnt": {
-        "name": "АБНТ",
-        "full_name": "АБНТ НБР 6023:2018",
+        "name": "ABNT",
+        "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
           "Все дисциплины (Бразилия)"
         ],
@@ -2027,9 +2027,9 @@
     "importing": "Импорт…",
     "search_all": "Искать все",
     "add_all_to_bib": "Добавить все в .bib",
-    "detect_zotero": "Обнаружить Зотеро",
+    "detect_zotero": "Обнаружить Zotero",
     "zotero_requirement": "Требуется работающий плагин Zotero + Better BibTeX.",
-    "zotero_unavailable": "Зотеро недоступен.",
+    "zotero_unavailable": "Zotero недоступен.",
     "zotero_search_placeholder": "Найдите в своей библиотеке Zotero…",
     "import_refs_to_bib_one": "Импортируйте ссылку {{count}} в .bib.",
     "import_refs_to_bib_other": "Импортируйте ссылки {{count}} в .bib.",

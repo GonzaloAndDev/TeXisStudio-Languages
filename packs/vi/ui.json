@@ -93,7 +93,7 @@
               "note": "Bao gồm tất cả mọi thứ. Nếu không gian có hạn, hãy sử dụng texlive-xetex thay vì texlive-full."
             },
             {
-              "title": "Luồng Fedora / RHEL / CentOS",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Cài đặt sơ đồ TeX Live đầy đủ."
             },
             {

@@ -93,7 +93,7 @@
               "note": "Zahrnuje vše. Pokud je prostor omezený, použijte texlive-xetex místo texlive-full."
             },
             {
-              "title": "Stream Fedora / RHEL / CentOS",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Nainstaluje úplné schéma TeX Live."
             },
             {
@@ -633,7 +633,7 @@
           "Rozhodovací stromy (tikz)"
         ],
         "external": [
-          "Schémata komplexní architektury (kresba.io → PDF/PNG)"
+          "Schémata komplexní architektury (draw.io → PDF/PNG)"
         ]
       },
       "humanidades": {
@@ -666,7 +666,7 @@
         ],
         "external": [
           "DICOM snímky / histologie (exportovat jako PNG/TIFF s vysokým rozlišením)",
-          "Klinické vývojové diagramy (nakreslete.io → PDF)"
+          "Klinické vývojové diagramy (draw.io → PDF)"
         ],
         "tip": "Diagnostické lékařské snímky musí být importovány jako externí soubory, nikoli reprodukovány v LaTeX."
       },

@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu/Debian/Linux Mint",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "Zawiera wszystko. Jeśli przestrzeń jest ograniczona, użyj texlive-xetex zamiast texlive-full."
             },
             {
-              "title": "Strumień Fedory/RHEL/CentOS",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "Instaluje pełny schemat TeX Live."
             },
             {
@@ -633,7 +633,7 @@
           "Drzewa decyzyjne (tikz)"
         ],
         "external": [
-          "Diagramy złożonej architektury (rysunek.io → PDF/PNG)"
+          "Diagramy złożonej architektury (draw.io → PDF/PNG)"
         ]
       },
       "humanidades": {
@@ -666,7 +666,7 @@
         ],
         "external": [
           "Obrazy DICOM / histologia (eksport w formacie PNG/TIFF o wysokiej rozdzielczości)",
-          "Schematy kliniczne (narysuj.io → PDF)"
+          "Schematy kliniczne (draw.io → PDF)"
         ],
         "tip": "Diagnostyczne obrazy medyczne należy importować jako pliki zewnętrzne, a nie reprodukować w LaTeX."
       },
@@ -775,7 +775,7 @@
     "meta_city": "Miasto",
     "meta_year": "Rok",
     "meta_keywords": "Słowa kluczowe",
-    "meta_orcid": "ORCYD",
+    "meta_orcid": "ORCID",
     "meta_funding": "Finansowanie",
     "meta_committee": "Członkowie komisji",
     "meta_add_committee": "Dodaj członka",

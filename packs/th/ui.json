@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "อูบุนตู / เดเบียน / ลินุกซ์มิ้นท์",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "รวมทุกอย่าง. หากพื้นที่มีจำกัด ให้ใช้ texlive-xetex แทน texlive-full"
             },
             {
-              "title": "Fedora / RHEL / CentOS สตรีม",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "ติดตั้งรูปแบบ TeX Live แบบเต็ม"
             },
             {
@@ -775,7 +775,7 @@
     "meta_city": "เมือง",
     "meta_year": "ปี",
     "meta_keywords": "คำหลัก",
-    "meta_orcid": "ออร์คิด",
+    "meta_orcid": "ORCID",
     "meta_funding": "เงินทุน",
     "meta_committee": "สมาชิกคณะกรรมการ",
     "meta_add_committee": "เพิ่มสมาชิก",
@@ -1905,7 +1905,7 @@
         "bibliography_title": "อ้างอิง"
       },
       "mhra": {
-        "name": "มฮรา",
+        "name": "MHRA",
         "full_name": "คู่มือสไตล์สมาคมวิจัยมนุษยศาสตร์สมัยใหม่ ฉบับที่ 3",
         "disciplines": [
           "มนุษยศาสตร์",
@@ -1923,7 +1923,7 @@
         "bibliography_title": "บรรณานุกรม"
       },
       "abnt": {
-        "name": "เอบีเอ็นที",
+        "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
           "ทุกสาขาวิชา (บราซิล)"
@@ -2027,9 +2027,9 @@
     "importing": "กำลังนำเข้า...",
     "search_all": "ค้นหาทั้งหมด",
     "add_all_to_bib": "เพิ่มทั้งหมดลงใน .bib",
-    "detect_zotero": "ตรวจจับโซเทโร",
+    "detect_zotero": "ตรวจจับZotero",
     "zotero_requirement": "ต้องใช้ปลั๊กอิน Zotero + Better BibTeX ทำงาน",
-    "zotero_unavailable": "โซเทโรไม่ว่าง",
+    "zotero_unavailable": "Zoteroไม่ว่าง",
     "zotero_search_placeholder": "ค้นหาห้องสมุด Zotero ของคุณ...",
     "import_refs_to_bib_one": "นำเข้าการอ้างอิง {{count}} ไปยัง .bib",
     "import_refs_to_bib_other": "นำเข้าการอ้างอิง {{count}} ไปยัง .bib",

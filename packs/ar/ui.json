@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "أوبونتو / ديبيان / لينكس منت",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "يشمل كل شيء. إذا كانت المساحة محدودة، استخدم texlive-xetex بدلاً من texlive-full."
             },
             {
-              "title": "فيدورا / RHEL / CentOS ستريم",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "تثبيت نظام TeX Live الكامل."
             },
             {
@@ -620,7 +620,7 @@
           "الخوارزميات (algpseudocode)"
         ],
         "external": [
-          "الرسومات الفنية (أوتوكاد → PDF)",
+          "الرسومات الفنية (AutoCAD → PDF)",
           "مخططات ثنائي الفينيل متعدد الكلور (KiCad → PDF)"
         ],
         "tip": "يغطي circuitikz معظم دوائر الإشارة والطاقة."
@@ -708,7 +708,7 @@
           "أشجار التطور (tikz)"
         ],
         "external": [
-          "الرسوم البيانية التشريحية المعقدة (إنكسكيب → PDF/SVG)",
+          "الرسوم البيانية التشريحية المعقدة (Inkscape → PDF/SVG)",
           "الفحص المجهري (عالية الدقة PNG)"
         ]
       },
@@ -775,7 +775,7 @@
     "meta_city": "المدينة",
     "meta_year": "سنة",
     "meta_keywords": "الكلمات الرئيسية",
-    "meta_orcid": "أوركيد",
+    "meta_orcid": "ORCID",
     "meta_funding": "التمويل",
     "meta_committee": "أعضاء اللجنة",
     "meta_add_committee": "إضافة عضو",
@@ -1361,7 +1361,7 @@
     "notes_title": "ملاحظات داخلية",
     "notes_subtitle": "ملاحظات المؤلف حسب القسم. مرئي فقط في المحرر وغير مضمن في PDF.",
     "report_title": "تقرير المراجعة",
-    "report_subtitle": "وثيقة تخفيض السعر لمشاركتها مع المستشار الخاص بك. يتضمن حالة القسم ومشكلات التحقق من الصحة.",
+    "report_subtitle": "وثيقة Markdown لمشاركتها مع المستشار الخاص بك. يتضمن حالة القسم ومشكلات التحقق من الصحة.",
     "regenerate": "تجديد",
     "download_md": "تحميل .md",
     "report_empty_hint": "انقر فوق \"إنشاء تقرير\" لإنشاء مستند المراجعة.",
@@ -1923,8 +1923,8 @@
         "bibliography_title": "قائمة المراجع"
       },
       "abnt": {
-        "name": "أبنت",
-        "full_name": "أبنت إن بي آر 6023:2018",
+        "name": "ABNT",
+        "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
           "جميع التخصصات (البرازيل)"
         ],
@@ -2027,10 +2027,10 @@
     "importing": "جارٍ الاستيراد...",
     "search_all": "بحث الكل",
     "add_all_to_bib": "أضف الكل إلى .bib",
-    "detect_zotero": "كشف زوتيرو",
+    "detect_zotero": "كشف Zotero",
     "zotero_requirement": "يتطلب تشغيل البرنامج المساعد Zotero + Better BibTeX.",
-    "zotero_unavailable": "زوتيرو غير متوفر.",
-    "zotero_search_placeholder": "ابحث في مكتبة زوتيرو الخاصة بك...",
+    "zotero_unavailable": "Zotero غير متوفر.",
+    "zotero_search_placeholder": "ابحث في مكتبة Zotero الخاصة بك...",
     "import_refs_to_bib_one": "قم باستيراد مرجع {{count}} إلى .bib",
     "import_refs_to_bib_other": "استيراد مراجع {{count}} إلى .bib",
     "bib_not_found": "لم يتم العثور على ملف .bib",

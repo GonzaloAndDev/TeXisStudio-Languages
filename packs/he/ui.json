@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "אובונטו / דביאן / לינוקס מנטה",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "כולל הכל. אם המקום מוגבל, השתמש ב-texlive-xetex במקום ב-texlive-full."
             },
             {
-              "title": "פדורה / RHEL / CentOS Stream",
+              "title": "Fedora / RHEL / CentOS Stream",
               "note": "מתקין את ערכת TeX Live המלאה."
             },
             {
@@ -1361,7 +1361,7 @@
     "notes_title": "הערות פנימיות",
     "notes_subtitle": "הערות מחבר לפי סעיף. גלוי רק בעורך ולא כלול ב-PDF.",
     "report_title": "עיין בדוח",
-    "report_subtitle": "מסמך סימון לשיתוף עם היועץ שלך. כולל מצב מדור ובעיות אימות.",
+    "report_subtitle": "מסמך Markdown לשיתוף עם היועץ שלך. כולל מצב מדור ובעיות אימות.",
     "regenerate": "תתחדש",
     "download_md": "הורד את .md",
     "report_empty_hint": "לחץ על \"צור דוח\" כדי ליצור את מסמך הסקירה.",
@@ -2027,7 +2027,7 @@
     "importing": "מייבא...",
     "search_all": "חפש הכל",
     "add_all_to_bib": "הוסף הכל ל-.bib",
-    "detect_zotero": "גלה את זוטרו",
+    "detect_zotero": "גלה את Zotero",
     "zotero_requirement": "דורש תוסף Zotero + Better BibTeX פועל.",
     "zotero_unavailable": "Zotero אינו זמין.",
     "zotero_search_placeholder": "חפש בספריית Zotero שלך...",

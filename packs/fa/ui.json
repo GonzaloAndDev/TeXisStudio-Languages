@@ -89,7 +89,7 @@
           ],
           "steps": [
             {
-              "title": "اوبونتو / دبیان / لینوکس مینت",
+              "title": "Ubuntu / Debian / Linux Mint",
               "note": "همه چیز را شامل می شود. اگر فضا محدود است، از texlive-xetex به جای texlive-full استفاده کنید."
             },
             {
