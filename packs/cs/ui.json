@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Nejlepší typografie a výstup jakékoli lehké alternativy",
+            "100% kompatibilní bibliografie (včetně správné biber verze)",
+            "Všechny balíčky CTAN dostupné bez omezení",
+            "Nativní vícejazyčná podpora: azbuka, CJK, arabština, devanagari",
+            "Správná víceprůchodová kompilace: TOC, indexy, křížové odkazy",
+            "Instalace Homebrew jedním příkazem"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Velké stahování (~5 GB)",
+            "Instalace trvá 10–20 minut"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Nainstalujte si Homebrew (pokud jej nemáte)",
+              "note": "Homebrew je standardní správce balíčků macOS. Pokud jej již máte, tento krok přeskočte."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Nainstalujte MacTeX s Homebrew",
+              "note": "Stahování ~5 GB. Proces trvá 10–20 minut v závislosti na vašem připojení."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Aktualizujte proměnné prostředí",
+              "note": "Nebo jednoduše zavřete a znovu otevřete Terminál, aby nabral novou PATH."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Ověřte instalaci",
+              "note": "Všechny tři příkazy by měly odpovídat číslem verze."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci, aby zjistila novou instalaci."
             }
           ],
           "tagline": "Doporučeno — nejlepší, nejstabilnější a úplný výstup",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Instalace za méně než 1 minutu",
+            "Stáhne pouze balíčky, které vaše práce používá",
+            "Koexistuje s MacTeXem, pokud potřebujete obojí",
+            "Možnost upgradu pomocí upgradu vaření"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "První kompilace vyžaduje připojení k internetu",
+            "Vysoce specializované balíčky (pokročilá fyzika atd.) mohou vyžadovat MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Nainstalujte si Homebrew (pokud jej nemáte)",
+              "note": "Pokud již máte Homebrew, tento krok přeskočte."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Nainstalujte Tectonic s Homebrew",
+              "note": "Lehké stahování. Připraveno za méně než 1 minutu."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Ověřte instalaci",
+              "note": "Měli byste vidět něco jako: tektonický 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci, aby detekovala tektoniku."
             }
           ],
           "tagline": "Lehký – stáhne pouze to, co potřebuje",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Nejlepší typografie a výstup přes odlehčené alternativy",
+            "100% správné bibliografie — včetně kompatibilní verze biber",
+            "Všechny balíčky CTAN bez omezení",
+            "Nativní vícejazyčná podpora: azbuka, CJK, arabština, devanagari",
+            "Správná víceprůchodová kompilace: TOC, indexy, křížové odkazy",
+            "Instalace pomocí jediného příkazu systému"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Plná instalace zabere 3–5 GB",
+            "Verze úložiště může být o něco starší než oficiální vydání"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Zahrnuje vše. Pokud je prostor omezený, použijte texlive-xetex místo texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Stream Fedora / RHEL / CentOS",
+              "note": "Nainstaluje úplné schéma TeX Live."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Oblouk / Manjaro",
+              "note": "Nainstaluje hlavní skupiny a biber pro bibliografii."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Úplné schéma přes zip."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Ověřte instalaci",
+              "note": "Všechny tři příkazy by měly odpovídat číslem verze."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci, aby zjistila novou instalaci."
             }
           ],
           "tagline": "Doporučeno — nejlepší, nejstabilnější a úplný výstup",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "K instalaci nevyžaduje sudo",
+            "Stáhne pouze to, co vaše diplomová práce potřebuje",
+            "Koexistuje se TeX Live, pokud potřebujete obojí"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "První kompilace vyžaduje internet",
+            "Vysoce specializované balíčky (pokročilá fyzika atd.) mohou vyžadovat TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Nainstalujte pomocí oficiálního skriptu",
+              "note": "Stáhne a nainstaluje binární soubor do ~/.cargo/bin nebo ~/bin v závislosti na vašem nastavení."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternativa: instalace s Cargo",
+              "note": "Vyžaduje nainstalovaný Rust. Kompilace ze zdroje trvá několik minut."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Ověřte instalaci",
+              "note": "Měli byste vidět něco jako: tektonický 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci."
             }
           ],
           "tagline": "Lehký – není vyžadován žádný správce systémových balíčků",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Nejlepší typografie a výstup přes odlehčené alternativy",
+            "100% správné bibliografie — včetně biber a kompatibilní",
+            "Všechny balíčky CTAN, stažené na vyžádání",
+            "Nevyžaduje Strawberry Perl (na rozdíl od manuálního latexmk)",
+            "Vícejazyčná podpora: azbuka, CJK, arabština, dévanágarí",
+            "Snadno použitelný grafický instalátor .exe"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "Konzole MiKTeX může být zpočátku matoucí",
+            "Vyžaduje přijetí instalace balíčku během první kompilace"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Nainstalujte MiKTeX s wingetem",
+              "note": "Otevřete PowerShell jako běžný uživatel (není potřeba správce). winget je součástí Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternativa: grafický instalátor",
+              "note": "Přejděte na miktex.org → Stáhnout → Windows. Stáhněte si 64bitový instalační program a spusťte jej. Zvolte Install MiKTeX only for me."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Ověřte instalaci",
+              "note": "Měli byste odpovědět číslem verze."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci, aby detekovala MiKTeX."
             }
           ],
           "tagline": "Doporučeno pro Windows – nejlepší výstup, kompletní bez Perlu",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Instalace za 1 minutu s wingetem",
+            "Nevyžaduje Strawberry Perl",
+            "Koexistuje se MiKTeX, pokud potřebujete obojí",
+            "Upgradovatelný upgradem wingetu"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "První kompilace vyžaduje internet",
+            "Vysoce specializované balíčky (pokročilá fyzika atd.) mohou vyžadovat MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Instalujte pomocí wingetu",
+              "note": "Otevřete PowerShell jako běžný uživatel. Není potřeba žádný správce."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Ověřte instalaci",
+              "note": "Měli byste vidět něco jako: tektonický 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci, aby detekovala tektoniku."
             }
           ],
           "tagline": "Lehká — jeden příkaz, žádný Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Nejlepší typografie a výstup přes odlehčené alternativy",
+            "Zahrnuty všechny balíčky CTAN, žádné další stahování",
+            "100% správné bibliografie — včetně kompatibilního biberu",
+            "Nativní vícejazyčná podpora: azbuka, CJK, arabština, devanagari",
+            "Kompatibilní s jakýmkoli institucionálním profilem"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Pomalá instalace (30–90 minut)",
+            "Zabere 4–8 GB místa na disku",
+            "Vyžaduje Strawberry Perl pro latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Stáhněte si instalační program TeX Live",
+              "note": "Přejděte na tug.org/texlive → download → install-tl-windows.exe. Stáhněte si instalační program."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Spusťte instalační program",
+              "note": "Chcete-li nainstalovat vše, vyberte možnost Jednoduchá instalace (velká). Proces trvá 30–90 minut."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Nainstalujte Strawberry Perl (vyžadováno pro latexmk)",
+              "note": "Pro fungování latexmk ve Windows je vyžadován Perl."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Ověřte instalaci",
+              "note": "Všechny tři příkazy by měly odpovídat číslem verze."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Restartujte TeXisStudio",
+              "note": "Zavřete a znovu otevřete aplikaci."
             }
           ],
           "tagline": "Kompletní – nejlepší, nejstabilnější výstup, žádná překvapení",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Postdoktorát",
     "level_bachillerato": "střední škola",
     "level_tecnico": "Technická",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio je v režimu s průvodcem: soustřeďte se na svou práci a aplikace se postará o formátování, bibliografii a doručení.",
+    "error_opening_project": "Tuto složku nelze otevřít jako projekt TeXisStudio. Ujistěte se, že obsahuje tesis.project.yaml.",
+    "search_library_hint": "Prohledat knihovnu",
+    "detecting_latex": "Detekce LaTeX…",
+    "error_importing_tex": "Nelze importovat soubor .tex: {{error}}"
   },
   "wizard": {
     "title": "Nový projekt",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "pevný základ pro teze",
     "recommend_reason_verified": "má institucionální ověření",
     "recommend_reason_reviewed": "zkontrolován týmem",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Disk Google pro počítače"
+    "error_vocab_install": "Nelze aktivovat \"{{name}}\". Zkontrolujte své připojení nebo zrušte jeho výběr a vytvořte projekt bez této podpory. Detail: {{error}}",
+    "google_drive_desktop": "Disk Google pro počítače",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Číslované rovnice \\\\eqref{}",
+          "Věty a důkazy",
+          "Matice a vektory",
+          "Komutativní diagramy (tikz-cd)",
+          "Důkazní stromy (bussproof)"
+        ],
+        "external": [],
+        "tip": "LaTeX je kanonický nástroj pro formální matematiku."
+      },
+      "logica": {
+        "native": [
+          "Odpočtové stromy (odolné proti autobusům)",
+          "Pravdivé tabulky",
+          "Formální sémantika",
+          "Hasseovy diagramy"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Fyzické jednotky \\\\SI{} (siunitx)",
+          "Parciální derivace \\\\pdv{}",
+          "Feynmanovy diagramy (tikz-feynman)",
+          "Pozemky (pgfplots)"
+        ],
+        "external": [
+          "Numerické simulace (export jako PDF/PNG)"
+        ],
+        "tip": "Použijte siunitx pro všechny jednotky — nikdy nepište přímo 'km/h'."
+      },
+      "quimica": {
+        "native": [
+          "Chemické reakce \\\\ce{} (mhchem)",
+          "Molekulární struktury (chemfig)",
+          "Jednotky \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Komplexní 3D struktury (export z ChemDraw jako PDF)"
+        ],
+        "tip": "For simple structures use chemfig. Pro krystalografii nebo proteiny importujte jako PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Jednotky \\\\SI{} (siunitx)",
+          "Obvody (circuitikz)",
+          "Datové grafy (pgfplots)",
+          "Algoritmy (algpseudokód)"
+        ],
+        "external": [
+          "Technické výkresy (AutoCAD → PDF)",
+          "Schémata PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz pokrývá většinu signálových a výkonových obvodů."
+      },
+      "computacion": {
+        "native": [
+          "Zdrojový kód (lstlisting)",
+          "Algoritmy s pseudokódem",
+          "Grafy výkonu (pgfplots)",
+          "Rozhodovací stromy (tikz)"
+        ],
+        "external": [
+          "Schémata komplexní architektury (kresba.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Rozsáhlé poznámky pod čarou",
+          "Kritický aparát a citace textů",
+          "Analytické indexy (makeindex)",
+          "Lingvistické příklady (gb4e)"
+        ],
+        "external": [
+          "Obrázky uměleckých děl (vysoké rozlišení jako PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Statistické tabulky (booktabs)",
+          "Pozemky (pgfplots)",
+          "Bibliografické citace ve stylu APA/Chicago"
+        ],
+        "external": [
+          "Komplexní vizualizace dat (R/Python → PDF/PNG)"
+        ],
+        "tip": "For simple plots use pgfplots. Pro propracované vizualizace exportujte z R nebo Pythonu."
+      },
+      "medicina": {
+        "native": [
+          "Klinické tabulky (záložky)",
+          "Lékařské jednotky \\\\SI{}",
+          "Obrázky s popiskem a štítkem"
+        ],
+        "external": [
+          "DICOM snímky / histologie (exportovat jako PNG/TIFF s vysokým rozlišením)",
+          "Klinické vývojové diagramy (nakreslete.io → PDF)"
+        ],
+        "tip": "Diagnostické lékařské snímky musí být importovány jako externí soubory, nikoli reprodukovány v LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Kompletní skóre (MuseScore/Sibelius → PDF)",
+          "Zvukové fragmenty (externí odkaz)"
+        ],
+        "tip": "Pro komplexní hudební notaci použijte editor partitury a připojte jako PDF."
+      },
+      "arte": {
+        "native": [
+          "Tabulkové technické listy (booktabs)"
+        ],
+        "external": [
+          "Talíře a umělecká díla (vysoké rozlišení jako PNG/TIFF)",
+          "Vizuální portfolio (externí PDF)",
+          "Plány (DWG → PDF)"
+        ],
+        "tip": "Pro portfolia zahrňte vysoce kvalitní PDF nebo PNG. LaTeX manages layout and descriptive text."
+      },
+      "arquitectura": {
+        "native": [
+          "Rozpočet a tabulky materiálů",
+          "Jízdní řády",
+          "Popisné texty"
+        ],
+        "external": [
+          "Půdorysy (AutoCAD/ArchiCAD → PDF)",
+          "Vykreslování (exportovat jako PNG/PDF)",
+          "Modely (foto jako PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Datové tabulky (booktabs)",
+          "Jednotky \\\\SI{}",
+          "Fylogenetické stromy (tikz)"
+        ],
+        "external": [
+          "Komplexní anatomické diagramy (Inkscape → PDF/SVG)",
+          "Mikroskopie (PNG s vysokým rozlišením)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Statistické tabulky (booktabs)",
+          "Pozemky (pgfplots)",
+          "Ekonometrické rovnice"
+        ],
+        "external": [
+          "Interaktivní řídicí panely a vizualizace (exportovat jako PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Diagnostika projektu",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Obnovte tuto verzi",
     "snapshot_delete_title": "Smazat verzi",
     "section_guidance_label": "Oddílový návod",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "Uložte a ukončete",
+    "snapshot_restore_action": "Obnovit",
+    "continue_editing": "Pokračujte v úpravách",
+    "unsaved_changes_message": "V této sekci máte neuložené změny. Co byste chtěl udělat před odjezdem?",
+    "unsaved_changes_title": "Neuložené změny",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "visual_type_selector_title": "Jaký typ diagramu chcete vložit?",
+    "default_set_a": "Sada A",
+    "add_paragraph": "Nový odstavec",
+    "review_grammar": "Gramatika",
+    "bib_refs_count": "{{count}} odkazy v .bib",
+    "section_status_legend": "Legenda stavu",
+    "sections_count": "Sekce {{count}}",
+    "review_spell": "Pravopis",
+    "leave_without_saving": "Odejděte bez uložení",
+    "default_table_column_2": "Sloupec 2",
+    "default_set_c": "Sada C",
+    "default_set_b": "Sada B",
+    "default_table_column_1": "Sloupec 1",
+    "no_bib_file": "žádné .bib",
     "insert_plugin_figure_title": "Vložit vědeckou postavu (61 typů)",
     "block_plugin_figure": "Obrázek+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Zobrazujeme pouze to, co potřebujete napsat a odeslat bez složitosti. Můžete povolit",
     "basic_mode_suffix": "v textové části.",
     "basic_top_body": "Tato nastavení jsou navržena pro užitečná rozhodnutí bez zadávání technických podrobností LaTeX. Přepnout na",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Zkontrolujte aktualizace",
+    "update_checking": "Kontrola…",
+    "update_available": "Verze {{version}} je k dispozici – restartujte pro instalaci",
+    "update_up_to_date": "Jste aktuální",
+    "update_error": "Nelze zkontrolovat aktualizace",
     "refresh_catalog": "Aktualizovat katalog",
     "package_status_stable": "Stabilní",
     "package_status_beta": "Beta",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Lehký a snadno se udržuje. Doporučeno pro každodenní psaní a projekty, které nevyžadují plnou distribuci TeXu.",
     "latex_suite_title": "Kompletní sada LaTeX",
-    "latex_suite_description": "Používá latexmk s TeX Live nebo MiKTeX. Doporučeno pro pokročilé balíčky, složité bibliografie a konečné doručení.",
+    "latex_suite_description": "Full LaTeX suite ({{suiteName}}) with latexmk. Podporuje všechny balíčky CTAN, biblatex + Biber, shell-escape a víceprůchodovou kompilaci. Doporučená volba pro kompletní dokumenty, institucionální profily a obrázky pluginů.",
     "latex_available": "K dispozici",
     "latex_not_available": "Není nainstalováno",
     "latex_detected_version": "Zjištěná verze: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Výchozí nastavení notebooku",
     "window_mode_remember": "Pamatujte na poslední velikost",
     "window_mode_maximized": "Maximalizováno",
-    "window_mode_hint": "Vyberte okno s rozlišením 1280 × 760, obnovte naposledy použitou velikost nebo otevřete pomocí veškerého dostupného místa na monitoru."
+    "window_mode_hint": "Vyberte okno s rozlišením 1280 × 760, obnovte naposledy použitou velikost nebo otevřete pomocí veškerého dostupného místa na monitoru.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Přejděte na «Správa instalace LaTeX» a nainstalujte {{suiteName}}.",
+    "latex_recommended_badge": "Doporučeno",
+    "latex_upgrade_banner": "{{suiteName}} je nainstalován — podporuje všechny balíčky CTAN, Biber a pluginy bez omezení. Switching is recommended.",
+    "latex_upgrade_btn": "Přepněte na {{suiteName}}",
+    "language_catalog_error": "Nelze načíst jazykový katalog. Zkontrolujte připojení a zkuste to znovu.",
+    "language_install_error": "Nelze nainstalovat jazykovou sadu. Zkontrolujte připojení a zkuste to znovu."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Obrázek '{{file}}' odkazovaný v sekci '{{section}}' nebyl nalezen.",
@@ -1026,7 +1188,7 @@
     "hypothesis": "Hypotéza",
     "extra_preamble": "Dodatečná preambule",
     "latex_warning": "Toto pole přijímá libovolné LaTeX. Chyba zde může zabránit kompilaci dokumentu.",
-    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbb{R}}",
+    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbbZXQ0QXZ}",
     "footer": "Změny se projeví při příští kompilaci PDF.",
     "advanced_hint": "Chcete-li zobrazit písma, operátory a další nastavení preambule, povolte pokročilý režim."
   },
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Smazat profil?",
     "delete_profile_body_before": "Tím se smaže",
     "delete_profile_body_after": "Tuto akci nelze vrátit zpět.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "Instalované profily {{profiles}}",
     "installed_profiles": "Instalované profily",
     "profile_count_hint": "Profily {{count}} · kliknutím zobrazíte podrobnosti",
     "import_profile_title": "Import profilu z adresáře",
@@ -1135,30 +1297,31 @@
     "selected_chip": "vybrané",
     "installed_chip": "nainstalováno",
     "sections_count_suffix": "sekce",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Pluginy",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
+      "front_matter": "Přední záležitost",
+      "body": "Tělo",
       "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "appendix": "Dodatek"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Titulní strana",
+      "abstract": "Abstraktní",
+      "acknowledgements": "Poděkování",
+      "table_of_contents": "Obsah",
+      "list_of_figures": "Seznam obrázků",
+      "list_of_tables": "Seznam tabulek",
+      "introduction": "Zavedení",
+      "theoretical_framework": "Teoretický rámec",
+      "methodology": "Metodologie",
+      "results": "Výsledky",
+      "discussion": "Diskuse",
+      "conclusions": "Závěry",
+      "references": "Reference",
+      "appendix": "Dodatek",
+      "appendix_a": "Dodatek A"
+    },
+    "tags_placeholder": "diplomová práce, bakalář, apa"
   },
   "progress": {
     "status_draft": "Koncept",
@@ -1280,7 +1443,14 @@
     "generating_response": "Generování odpovědi…",
     "message_placeholder": "Napište svou zprávu… (zadejte pro odeslání)",
     "configure_key_first": "Nejprve nakonfigurujte klíč API",
-    "send": "Send"
+    "send": "Odeslat",
+    "error_not_configured": "Klíč API není nakonfigurován. Přidejte svůj klíč na kartě poskytovatele.",
+    "error_auth": "Neplatný klíč API. Zkontrolujte, zda je správná a aktivní.",
+    "error_rate_limited": "Byl dosažen limit požadavků. Zkuste to znovu za několik minut.",
+    "error_network": "Chyba sítě. Zkontrolujte připojení k internetu.",
+    "error_safety": "Požadavek byl zablokován bezpečnostními zásadami.",
+    "error_model_unavailable": "Vybraný model není k dispozici. V nastavení vyberte jiný.",
+    "error_provider": "Chyba poskytovatele. Zkuste to znovu."
   },
   "editor_meta": {
     "project_guide": "Průvodce projektem",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Nepotvrzeno — tento blok nebude zahrnut do PDF, dokud jej nepotvrdíte.",
     "packages": "Balíčky",
     "edit_figure_title": "Upravte název nebo štítek nebo znovu vytvořte obrázek",
-    "edit_figure": "Upravit obrázek"
+    "edit_figure": "Upravit obrázek",
+    "preview_pending": "Zkompilujte náhled na kartě «Náhled», abyste viděli obrázek zde."
   },
   "compile": {
     "ensure_latex_installed_path": "Zkontrolujte, zda je kompilátor LaTeX nainstalován a dostupný v PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Kompilace… (řádky {{count}})",
     "backends_available": "{{backends}} k dispozici",
     "latex_not_installed_status": "⚠ LaTeX není nainstalováno",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Kompilace",
+    "preflight_action_export": "Exportovat podání",
+    "preflight_title": "Kontrola před {{action}}",
+    "preflight_has_errors": "Než budete pokračovat, opravte chyby {{count}}.",
+    "preflight_has_warnings": "Nalezena varování {{count}}. Stejně můžete pokračovat.",
+    "preflight_errors_section": "Chyby ({{count}})",
+    "preflight_warnings_section": "Upozornění ({{count}})",
+    "preflight_suggestions_section": "Návrhy ({{count}})",
+    "export_success": "Export dokončen",
+    "compile_as_draft": "Zkompilujte jako koncept",
+    "readiness_complete": "Dokončeno",
+    "readiness_export_title": "Konečné doručení zablokováno",
+    "readiness_back": "Vraťte se ke kontrole",
+    "readiness_compile_title": "Projekt není připraven pro formální verzi",
+    "readiness_export_subtitle": "Chcete-li exportovat v konečném režimu, dokončete nejprve dodávku a kontrolu kvality.",
+    "readiness_compile_subtitle": "Tyto body zkompilujte jako koncept nebo si je prohlédněte, než je budete považovat za formální verzi.",
+    "readiness_delivery": "Doručení",
+    "readiness_quality": "Finální kvalita",
     "severity_error": "Chyba",
     "severity_warning": "Varování",
     "severity_suggestion": "Návrh",
@@ -1594,192 +1765,192 @@
     "order_hint_line_2": "Pořadí určuje rozevírací seznam při vytváření projektu.",
     "add_custom_style": "Přidejte vlastní styl",
     "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "biblatex_style_required": "styl biblatex*",
+    "references_default_title": "Reference",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "citace",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Autor-Datum",
+      "numeric": "Numerický",
+      "notes_bibliography": "Poznámky-Bibliog.",
+      "author_page": "Stránka autora"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Americká psychologická asociace, 7. vydání",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Psychologie",
+          "Vzdělávání",
+          "Společenské vědy",
+          "Ošetřovatelství",
+          "Komunikace"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Celosvětově nejrozšířenější styl. Požadováno v mnoha programech psychologie, vzdělávání a sociálních věd. Sedmé vydání (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "Spojené státy americké",
+          "Kanada",
+          "Latinská Amerika",
+          "Austrálie"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Autor, rok)",
+        "bibliography_title": "Reference"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Doporučení Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Medicína",
+          "Ošetřovatelství",
+          "Lékárna",
+          "Stomatologie",
+          "Zdravotní vědy"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Požadovaný číselný styl pro zdravovědy. Reference jsou seřazeny podle vzhledu. Standard v časopisech MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Globální, lékařské a zdravotnické vědy"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Reference"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "Styl citace IEEE",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Elektrotechnika",
+          "Výpočetní technika",
+          "Telekomunikace",
+          "Robotika",
+          "Elektronika"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Standardní číselný styl pro strojírenství, výpočetní techniku a technologii. Široce přijato na strojírenských školách.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Globální, inženýrství a technologie"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Reference"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (poznámky)",
+        "full_name": "Chicago Manuál stylu, 17. vydání, Poznámky-Bibliografie",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Historie",
+          "Literatura",
+          "umění",
+          "Filosofie",
+          "Náboženská studia"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Systém poznámek a bibliografie pro humanitní vědy. Citace jsou uvedeny v poznámkách pod čarou.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Spojené státy americké",
+          "Spojené království",
+          "Kanada, humanitní vědy"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Poznámka pod čarou¹",
+        "bibliography_title": "Bibliografie"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Datum autora)",
+        "full_name": "Chicago Manuál stylu, 17. vydání, datum autora",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Ekonomie",
+          "Politologie",
+          "Sociologie",
+          "Antropologie",
+          "Zeměpis"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago varianta autor-datum, preferovaná ve společenských vědách a ekonomii.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Spojené státy americké",
+          "Kanada, společenské vědy"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Rok autora)",
+        "bibliography_title": "Reference"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "Příručka MLA, 9. vydání",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Literatura",
+          "Jazyk",
+          "Lingvistika",
+          "Kulturní studia",
+          "Rétorika"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Standard pro jazyk, literaturu a kulturní studia v Severní Americe. Deváté vydání (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Spojené státy americké",
+          "Kanada, jazyk a literatura"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Stránka autora)",
+        "bibliography_title": "Práce citované"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Harvardský referenční styl",
         "disciplines": [
-          "Business",
+          "podnikání",
           "Management",
-          "Economics",
-          "Social sciences"
+          "Ekonomie",
+          "Společenské vědy"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Styl data autora podobný APA. Široce používán na britských a australských univerzitách.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Spojené království",
+          "Austrálie",
+          "Irsko",
+          "Jižní Afrika"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Rok autora)",
+        "bibliography_title": "Reference"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Průvodce stylem Asociace moderních humanitních věd, 3. vydání",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Humanitní vědy",
+          "Historie",
+          "Literatura",
+          "Filosofie",
+          "Lingvistika"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Britský humanitní standard podobný Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Spojené království",
+          "Irsko, humanitní vědy"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Poznámka pod čarou¹",
+        "bibliography_title": "Bibliografie"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Všechny disciplíny (Brazílie)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Národní standard pro akademickou práci na brazilských univerzitách.",
         "regions_primary": [
-          "Brazil, required"
+          "Brazílie, povinné"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(AUTHOR, rok)",
+        "bibliography_title": "Reference"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, čínský národní standard",
         "disciplines": [
-          "All disciplines (China)"
+          "Všechny obory (Čína)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Národní standard pro diplomové práce v čínštině. Povinné na čínských univerzitách.",
         "regions_primary": [
-          "China, required"
+          "Čína, nutné"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Reference"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Obnovit výchozí styly",
+    "reset_action": "Obnovit"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Vložte křížový odkaz ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Volitelný název",
     "theorem_title_placeholder": "Pythagorova věta",
     "math_content": "Obsah (přijímá matematické LaTeX)",
-    "theorem_content_placeholder": "Nechť $a^2 + b^2 = c^2$ kde $c$ je přepona..."
+    "theorem_content_placeholder": "Nechť $a^2 + b^2 = c^2$ kde $c$ je přepona...",
+    "term_placeholder": "Ontologie",
+    "definition_placeholder": "Obor filozofie, který studuje bytí jako bytí.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "Umělá inteligence"
   },
   "citation": {
     "error_connect": "Chyba připojení.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Prázdná rovnice",
     "custom_molecule": "Vlastní molekula",
     "molecule_compile_hint": "Struktura generovaná pomocí chemfig při kompilaci",
-    "chemical_syntax_hint": "Použijte -> (reakce), <=> (rovnováha), ^ (plyn) a v (sraženina)"
+    "chemical_syntax_hint": "Použijte -> (reakce), <=> (rovnováha), ^ (plyn) a v (sraženina)",
+    "label_example": "obr: můj-diagram",
+    "circuit_lower": "obvod",
+    "diagram_lower": "diagram",
+    "default_start": "Začněte",
+    "default_process": "Proces",
+    "default_end": "Konec",
+    "default_event": "Událost {{number}}",
+    "default_major_scale": "Stupnice C dur"
   },
   "vocabulary": {
     "title": "Doménové slovníky",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "který má a",
     "repo_hint_suffix": "sekce. Může to být vaše vlastní repo GitHub.",
     "alias_placeholder": "Alias (e.g. my-lab-terms)",
-    "adding": "Přidávání…"
+    "adding": "Přidávání…",
+    "catalog_error": "Nepodařilo se načíst katalog slovní zásoby. Zkontrolujte připojení a zkuste to znovu.",
+    "repo_sync_error": "Toto úložiště se nepodařilo synchronizovat.",
+    "repo_add_error": "Nelze přidat úložiště. Zkontrolujte jeho adresu a zkuste to znovu."
   },
   "profile_wizard": {
     "step_of": "Krok {{current}} z {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Instalace z URL",
     "install_from_url_hint": "Vložte URL ze .zip obsahujícího platný profil.yaml.",
     "install_btn": "Instalovat",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Nepotřebujete přesné jméno profilu",
+    "guided_hint_body": "Začněte svou institucí nebo blízkou kombinací stupně, oboru a stylu citace. Pokud neexistuje přesná shoda, začněte s jednoduchou institucionální základnou a poté ji upravte.",
+    "catalog_load_error": "Katalog profilů nelze načíst. Zkontrolujte připojení nebo to zkuste znovu.",
+    "install_success": "\"{{name}}\" úspěšně nainstalován.",
+    "breadcrumb_all": "všechny",
+    "profile_count_one": "Profil {{count}}",
+    "profile_count_other": "Profily {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Americe",
+      "europe": "Evropě",
+      "asia": "Asie",
+      "generic": "Obecný"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
+      "mexico": "Mexiko",
+      "usa": "Spojené státy americké",
+      "canada": "Kanada",
+      "brazil": "Brazílie",
       "argentina": "Argentina",
       "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "uk": "Spojené království",
+      "germany": "Německo",
+      "spain": "Španělsko",
+      "netherlands": "Nizozemsko",
+      "italy": "Itálie",
+      "sweden": "Švédsko",
+      "france": "Francie",
+      "china": "Čína",
+      "japan": "Japonsko",
+      "south_korea": "Jižní Korea",
+      "singapore": "Singapur",
+      "india": "Indie",
+      "generic": "Obecný"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
+      "bachillerato": "střední škola",
+      "tecnico": "Technický stupeň",
+      "licenciatura": "Bakalářský titul",
+      "especialidad": "Specializace",
+      "maestria": "magisterský titul",
+      "doctorado": "doktorát",
       "posdoctorado": "Postdoc"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Institucionální",
+      "degree_specific": "Stupně specifické",
+      "program_specific": "Programově specifické",
+      "discipline_specific": "Oborově specifické"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Všechny disciplíny",
+      "engineering": "Strojírenství",
+      "social_sciences": "Společenské vědy",
+      "humanities": "Humanitní vědy",
+      "health_sciences": "Zdravotní vědy",
+      "computing": "Výpočetní technika",
+      "natural_sciences": "Přírodní vědy"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Ověřeno",
+    "status_reviewed_label": "Zkontrolováno"
   },
   "about": {
     "title": "O",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Aplikujte změny a regenerujte postavu",
     "apply_visual_btn": "Použít změny",
     "applying": "Aplikace…",
-    "done_msg": "Obrázek aktualizován"
+    "done_msg": "Obrázek aktualizován",
+    "tab_preview": "Náhled",
+    "preview_compile_btn": "Překompilovat náhled",
+    "preview_compiling": "Kompilace…",
+    "preview_apply_first": "Aplikujte změny před zobrazením náhledu.",
+    "preview_tectonic_note": "Tectonic is the active engine. Pokud náhled selže, může tento obrázek vyžadovat úplnou sadu LaTeX (MacTeX / MiKTeX / TeX Live). Motor můžete změnit v Nastavení → Motor LaTeX.",
+    "preview_error_prefix": "Chyba kompilace:",
+    "preview_no_tectonic": "Tectonic není nainstalován nebo nebyl nalezen."
   },
   "elements_tab": {
     "title": "Prvky",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Vnitřní typ",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Odstavec",
+        "description": "Blok volného textu. Podporuje důraz, vložené citace a vložené LaTeX.",
+        "latex_output": "Uniklý text zapsaný přímo do dokumentu."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Název / Nadpis",
+        "description": "Nadpis sekce: sekce (H1), podsekce (H2) nebo podsekce (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Obrázek",
+        "description": "Obrázek s popiskem, zdrojem a štítkem pro křížové odkazy. Šířky: 50 %, 75 %, 100 %.",
+        "latex_output": "prostředí postavy + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tabulka",
+        "description": "Tabulka se záhlavími, řádky, titulkem a zdrojem. Styly: jednoduché, booktabs, wide, longtable.",
+        "latex_output": "tabulkové prostředí + tabulkový/longtable + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Rovnice",
+        "description": "Číslovaný nebo nečíslovaný matematický vzorec. Napsáno čistou matematikou LaTeX.",
+        "latex_output": "rovnice nebo rovnice* prostředí + volitelné \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
+        "name": "Seznam",
+        "description": "Seznam s odrážkami (položka), číslovaný (výčet) nebo popisný (popis).",
         "latex_output": "\\begin{itemize/enumerate/description}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Bibliografická citace",
+        "description": "Závorková, popisná nebo vícenásobná citace spojená s klíčem BibTeX v souboru .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Surový LaTeX",
+        "description": "Libovolný fragment LaTeX pro pokročilé případy. Vyžaduje potvrzení uživatele.",
+        "latex_output": "Doslovně, bez útěku. Používejte opatrně."
       }
     },
     "tags": {
       "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "content": "obsahu",
+      "structure": "struktura",
+      "navigation": "navigace",
+      "image": "obrázek",
+      "graphic": "grafický",
+      "data": "dat",
+      "statistics": "statistiky",
+      "mathematics": "matematika",
+      "formula": "vzorec",
+      "list": "seznam",
+      "enumeration": "výčet",
+      "bibliography": "bibliografie",
+      "reference": "odkaz",
+      "advanced": "pokročilé",
+      "custom": "vlastní"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Průběh projektu",
+    "row_overall": "Projekt",
+    "row_setup": "Nastavení",
+    "row_writing": "Psaní",
+    "row_delivery": "Doručení",
+    "row_quality": "Finální kvalita",
+    "pending_prefix": "Nevyřízeno:",
+    "delivery_blocked": "Před konečným doručením jsou nevyřízené položky",
+    "setup_title": "Nastavte skutečný název díla",
+    "setup_author": "Kompletní hlavní autorství",
+    "setup_institution": "Vstupte do skutečné instituce",
+    "setup_profile": "Vyberte akademický profil",
+    "setup_language": "Vyberte základní jazyk",
+    "setup_advisor": "Přidejte alespoň jednoho poradce nebo vedoucího diplomové práce",
+    "writing_sections": "Povolit alespoň jednu sekci obsahu",
+    "writing_draft": "Napište obsah do hlavní sekce",
+    "writing_words": "Vypracujte zásadní první návrh",
+    "writing_reviewed": "Označte alespoň jeden oddíl jako revidovaný",
+    "delivery_references": "Zahrňte sekci referencí",
+    "delivery_abstract": "Napište shrnutí nebo abstrakt",
+    "delivery_required": "Vyplňte požadované části profilu",
+    "delivery_latex": "Potvrďte nebo odstraňte nevalidované bloky LaTeX",
+    "delivery_committee": "Doplňte komisi pro pokročilé práce",
+    "delivery_review_main": "Před doručením zkontrolujte hlavní části",
+    "quality_citation": "V textu uveďte alespoň jednu ověřitelnou citaci",
+    "quality_required_reviewed": "Označte požadované části těla jako revidované",
+    "quality_raw_latex": "Migrujte nebo ručně zkontrolujte importované bloky LaTeX před konečným doručením",
+    "quality_plugin_warnings": "Před konečným doručením vyřešte varování obrázku nebo pluginu",
+    "quality_profile": "Pro formální podání použijte institucionální nebo vlastní profil"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Pluginy",
+    "subtitle": "Pro vkládání obrázků a diagramů jsou k dispozici vizuální pluginy {{count}}.",
+    "search_placeholder": "Hledat podle názvu, balíčku nebo kategorie…",
+    "no_results": "Tomuto vyhledávání neodpovídají žádné pluginy.",
     "quality": {
-      "stable": "stable",
+      "stable": "stabilní",
       "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "experimental": "experimentální",
+      "draft": "návrh"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Vyberte svůj jazyk",
+    "subheading": "Toto můžete později změnit v Nastavení.",
+    "more_languages": "Více jazyků",
+    "loading_more": "Načítání dalších jazyků…",
+    "catalog_error": "Další jazyky nelze načíst. Můžete pokračovat s přibaleným jazykem.",
+    "skip": "Přeskočit",
+    "install_error": "Tento jazyk nelze nainstalovat. Zkontrolujte připojení a zkuste to znovu."
   },
   "toast": {
     "close_button": "Zavřít oznámení",
@@ -2527,7 +2721,50 @@
     "redo": "Znovu",
     "restore_btn": "Příklad obnovení",
     "restore_title": "Nahraďte minimálním funkčním příkladem",
-    "advanced_section": "Pokročilé možnosti"
+    "advanced_section": "Pokročilé možnosti",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Štítek pro křížové odkazy (e.g. eq:kvadratický). Prázdný znamená žádný štítek."
+      },
+      "chemistry_output": {
+        "label": "Výstupní režim",
+        "description": "mhchem: inline \\ce{...}. chemfig: struktury vazba-úhelník."
+      },
+      "circuit_style": {
+        "label": "americký styl",
+        "description": "Zapnuto: Americké symboly součástí (IEEE). Vypnuto: Evropské symboly (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Knihovny TikZ",
+        "description": "Čárkami oddělené další knihovny TikZ (e.g. kalkul, šipky.meta, vzory)."
+      },
+      "pgfplots_options": {
+        "label": "Možnosti PGFPlots",
+        "description": "Další možnosti vložené do \\beginZXQ0QXZ[…], jako je xbar nebo compat=1.18."
+      },
+      "forest_options": {
+        "label": "Možnosti lesa",
+        "description": "Další možnosti předané prostředí lesa, jako jsou rozvětvené okraje nebo styly štítků okrajů."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Orientované a neorientované grafy s uzly, hranami, tvary a styly oblouků."
+      },
+      "pgfplots": {
+        "description": "Grafy, histogramy, sloupcové grafy, bodové grafy a tepelné mapy s PGFPloty."
+      },
+      "tree_forest": {
+        "description": "Hierarchická syntaxe, taxonomické, fylogenetické, rozhodovací a pravděpodobnostní stromy."
+      },
+      "table_data": {
+        "description": "Datové tabulky exportovatelné do booktabs, longtable nebo dat PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Ganttovy diagramy a časové osy se skupinami, úkoly a závislostmi."
+      }
+    }
   },
   "help": {
     "title": "Centrum nápovědy",

@@ -72,7 +72,7 @@ const PROTECTED_PATTERNS = [
 ];
 
 function flatten(value, prefix = "") {
-  if (value && typeof value === "object" && !Array.isArray(value)) {
+  if (value && typeof value === "object") {
     return Object.entries(value).flatMap(([key, child]) =>
       flatten(child, prefix ? `${prefix}.${key}` : key),
     );
@@ -83,8 +83,10 @@ function flatten(value, prefix = "") {
 function setPath(target, path, value) {
   const parts = path.split(".");
   let cursor = target;
-  for (const part of parts.slice(0, -1)) {
-    cursor[part] ??= {};
+  for (let index = 0; index < parts.length - 1; index++) {
+    const part = parts[index];
+    const nextPart = parts[index + 1];
+    cursor[part] ??= /^\d+$/.test(nextPart) ? [] : {};
     cursor = cursor[part];
   }
   cursor[parts.at(-1)] = value;
@@ -92,6 +94,17 @@ function setPath(target, path, value) {
 
 function getPath(target, path) {
   return path.split(".").reduce((value, part) => value?.[part], target);
+}
+
+function selectPathsBySuffix(source, suffixes) {
+  if (!suffixes.length) return source;
+  const selected = {};
+  for (const [path, value] of flatten(source)) {
+    if (suffixes.some((suffix) => path === suffix || path.endsWith(`.${suffix}`))) {
+      setPath(selected, path, value);
+    }
+  }
+  return selected;
 }
 
 function placeholderSet(value) {
@@ -251,6 +264,17 @@ async function translateOne(text, target) {
   return restore(translated, saved);
 }
 
+async function translatePreservingPlaceholders(text, target) {
+  const parts = text.split(/(\{\{[^}]+\}\})/g);
+  const translated = [];
+  for (const part of parts) {
+    translated.push(part.startsWith("{{") && part.endsWith("}}")
+      ? part
+      : await translateOne(part, target));
+  }
+  return translated.join("");
+}
+
 async function translateBatch(items, target) {
   const protectedItems = items.map(({ value }) => protect(value));
   const joined = protectedItems.map((item) => item.value).join("\n");
@@ -268,14 +292,52 @@ async function translateBatch(items, target) {
   return lines.map((line, index) => restore(line, protectedItems[index].saved));
 }
 
-async function translateMissing(en, existing, target) {
+function needsRefresh(
+  path,
+  sourceValue,
+  existingValue,
+  refreshMatchingPrefixes,
+  refreshAllMatching,
+  repairPlaceholders,
+) {
+  if (existingValue === undefined) return true;
+  if (
+    (refreshAllMatching || refreshMatchingPrefixes.some((prefix) => path === prefix || path.startsWith(`${prefix}.`)))
+    && existingValue === sourceValue
+  ) return true;
+  if (
+    repairPlaceholders
+    && typeof sourceValue === "string"
+    && typeof existingValue === "string"
+    && JSON.stringify(placeholderSet(sourceValue)) !== JSON.stringify(placeholderSet(existingValue))
+  ) return true;
+  return false;
+}
+
+async function translateMissing(
+  en,
+  existing,
+  target,
+  refreshMatchingPrefixes,
+  refreshAllMatching,
+  repairPlaceholders,
+) {
   const out = {};
   const entries = flatten(en);
   const pending = [];
   let done = 0;
+  let changed = 0;
 
   for (const [path, value] of entries) {
-    if (getPath(existing, path) !== undefined) continue;
+    if (!needsRefresh(
+      path,
+      value,
+      getPath(existing, path),
+      refreshMatchingPrefixes,
+      refreshAllMatching,
+      repairPlaceholders,
+    )) continue;
+    changed++;
     if (typeof value === "string") {
       pending.push({ path, value });
     } else {
@@ -286,34 +348,71 @@ async function translateMissing(en, existing, target) {
   for (let start = 0; start < pending.length; start += 40) {
     const batch = pending.slice(start, start + 40);
     const translated = await translateBatch(batch, target);
-    batch.forEach((item, index) => {
-      assertPlaceholders(item.path, item.value, translated[index], target);
-      setPath(out, item.path, translated[index]);
-    });
+    for (let index = 0; index < batch.length; index++) {
+      const item = batch[index];
+      let value = translated[index];
+      if (JSON.stringify(placeholderSet(item.value)) !== JSON.stringify(placeholderSet(value))) {
+        value = await translatePreservingPlaceholders(item.value, target);
+      }
+      assertPlaceholders(item.path, item.value, value, target);
+      setPath(out, item.path, value);
+    }
     done += batch.length;
     if (done % 100 === 0) {
       console.log(`${target}: ${done}/${pending.length}`);
     }
   }
 
-  return { additions: out, count: pending.length };
+  return { additions: out, count: changed };
 }
 
-async function updateLocale(en, target, uiPath) {
+async function updateLocale(
+  en,
+  target,
+  uiPath,
+  refreshMatchingPrefixes,
+  refreshAllMatching,
+  repairPlaceholders,
+) {
   const existingText = await readFile(uiPath, "utf8");
   const existing = JSON.parse(existingText);
-  const { additions, count } = await translateMissing(en, existing, target);
-  if (count) await writeFile(uiPath, mergeMissingText(existingText, existing, additions));
-  console.log(`${target}: added ${count} missing keys in ${uiPath}`);
+  const { additions, count } = await translateMissing(
+    en,
+    existing,
+    target,
+    refreshMatchingPrefixes,
+    refreshAllMatching,
+    repairPlaceholders,
+  );
+  if (count) {
+    for (const [path, value] of flatten(additions)) setPath(existing, path, value);
+    await writeFile(uiPath, `${JSON.stringify(existing, null, 2)}\n`);
+  }
+  console.log(`${target}: synchronized ${count} keys in ${uiPath}`);
 }
 
-async function updateLocaleFromFallback(en, fallback, target, uiPath) {
+async function updateLocaleFromFallback(
+  en,
+  fallback,
+  target,
+  uiPath,
+  refreshMatchingPrefixes,
+  refreshAllMatching,
+  repairPlaceholders,
+) {
   const existingText = await readFile(uiPath, "utf8");
   const existing = JSON.parse(existingText);
   const additions = {};
   let count = 0;
   for (const [path, sourceValue] of flatten(en)) {
-    if (getPath(existing, path) !== undefined) continue;
+    if (!needsRefresh(
+      path,
+      sourceValue,
+      getPath(existing, path),
+      refreshMatchingPrefixes,
+      refreshAllMatching,
+      repairPlaceholders,
+    )) continue;
     const fallbackValue = getPath(fallback, path);
     if (fallbackValue === undefined) throw new Error(`${target}:${path}: missing from fallback locale`);
     if (typeof sourceValue === "string" && typeof fallbackValue === "string") {
@@ -322,15 +421,77 @@ async function updateLocaleFromFallback(en, fallback, target, uiPath) {
     setPath(additions, path, fallbackValue);
     count++;
   }
-  if (count) await writeFile(uiPath, mergeMissingText(existingText, existing, additions));
-  console.log(`${target}: added ${count} missing keys from Spanish fallback in ${uiPath}`);
+  if (count) {
+    for (const [path, value] of flatten(additions)) setPath(existing, path, value);
+    await writeFile(uiPath, `${JSON.stringify(existing, null, 2)}\n`);
+  }
+  console.log(`${target}: synchronized ${count} keys from Spanish fallback in ${uiPath}`);
 }
 
 async function main() {
   const includeExperimental = process.argv.includes("--include-experimental");
   const updateBundled = process.argv.includes("--bundled");
   const spanishFallback = process.argv.includes("--spanish-fallback");
+  const repairPlaceholders = process.argv.includes("--repair-placeholders");
+  const refreshAllMatching = process.argv.includes("--refresh-all-matching");
+  const refreshMatchingPrefixes = process.argv
+    .filter((arg) => arg.startsWith("--refresh-matching="))
+    .map((arg) => arg.slice("--refresh-matching=".length));
+  const sourceFileArg = process.argv.find((arg) => arg.startsWith("--source-file="));
+  const targetDirArg = process.argv.find((arg) => arg.startsWith("--target-dir="));
+  const fallbackFileArg = process.argv.find((arg) => arg.startsWith("--fallback-file="));
+  const onlySuffixes = process.argv
+    .filter((arg) => arg.startsWith("--only-suffix="))
+    .map((arg) => arg.slice("--only-suffix=".length));
   const requested = process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
+
+  if (sourceFileArg || targetDirArg) {
+    if (!sourceFileArg || !targetDirArg) {
+      throw new Error("--source-file and --target-dir must be used together");
+    }
+    const sourcePath = sourceFileArg.slice("--source-file=".length);
+    const targetDir = targetDirArg.slice("--target-dir=".length);
+    const source = selectPathsBySuffix(
+      JSON.parse(await readFile(sourcePath, "utf8")),
+      onlySuffixes,
+    );
+    const fallback = fallbackFileArg
+      ? selectPathsBySuffix(
+          JSON.parse(await readFile(fallbackFileArg.slice("--fallback-file=".length), "utf8")),
+          onlySuffixes,
+        )
+      : null;
+    const ids = requested.length
+      ? requested
+      : (await import("node:fs/promises")).readdir(targetDir)
+          .then((files) => files.filter((file) => file.endsWith(".json")).map((file) => file.slice(0, -5)));
+
+    for (const id of await ids) {
+      const targetPath = join(targetDir, `${id}.json`);
+      if (fallback) {
+        await updateLocaleFromFallback(
+          source,
+          fallback,
+          id,
+          targetPath,
+          refreshMatchingPrefixes,
+          refreshAllMatching,
+          repairPlaceholders,
+        );
+      } else {
+        await updateLocale(
+          source,
+          id,
+          targetPath,
+          refreshMatchingPrefixes,
+          refreshAllMatching,
+          repairPlaceholders,
+        );
+      }
+    }
+    return;
+  }
+
   const en = JSON.parse(await readFile(enPath, "utf8"));
   const es = JSON.parse(await readFile(esPath, "utf8"));
   const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
@@ -339,7 +500,14 @@ async function main() {
 
   if (updateBundled) {
     for (const id of BUNDLED_TRANSLATABLE) {
-      await updateLocale(en, id, join(bundledDir, `${id}.json`));
+      await updateLocale(
+        en,
+        id,
+        join(bundledDir, `${id}.json`),
+        refreshMatchingPrefixes,
+        refreshAllMatching,
+        repairPlaceholders,
+      );
     }
   }
 
@@ -354,8 +522,26 @@ async function main() {
     }
 
     const uiPath = join(root, "packs", id, "ui.json");
-    if (spanishFallback) await updateLocaleFromFallback(en, es, id, uiPath);
-    else await updateLocale(en, id, uiPath);
+    if (spanishFallback) {
+      await updateLocaleFromFallback(
+        en,
+        es,
+        id,
+        uiPath,
+        refreshMatchingPrefixes,
+        refreshAllMatching,
+        repairPlaceholders,
+      );
+    } else {
+      await updateLocale(
+        en,
+        id,
+        uiPath,
+        refreshMatchingPrefixes,
+        refreshAllMatching,
+        repairPlaceholders,
+      );
+    }
   }
 }
 

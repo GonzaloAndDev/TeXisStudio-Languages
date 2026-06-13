@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "การพิมพ์และเอาท์พุตที่ดีที่สุดของทางเลือกน้ำหนักเบา",
+            "บรรณานุกรมที่เข้ากันได้ 100% (รวมเวอร์ชัน biber ที่ถูกต้อง)",
+            "แพ็คเกจ CTAN ทั้งหมดสามารถใช้ได้โดยไม่มีข้อจำกัด",
+            "รองรับหลายภาษา: Cyrillic, CJK, Arabic, Devanagari",
+            "การรวบรวมหลายรอบที่ถูกต้อง: TOC, ดัชนี, ตัวอ้างอิงโยง",
+            "การติดตั้ง Homebrew ด้วยคำสั่งเดียว"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "ดาวน์โหลดขนาดใหญ่ (~ 5 GB)",
+            "การติดตั้งใช้เวลา 10-20 นาที"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "ติดตั้ง Homebrew (หากคุณไม่มี)",
+              "note": "Homebrew เป็นตัวจัดการแพ็คเกจ macOS มาตรฐาน หากคุณมีอยู่แล้ว ให้ข้ามขั้นตอนนี้"
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "ติดตั้ง MacTeX ด้วย Homebrew",
+              "note": "ดาวน์โหลด ~5 GB กระบวนการนี้ใช้เวลา 10–20 นาที ขึ้นอยู่กับการเชื่อมต่อของคุณ"
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "อัปเดตตัวแปรสภาพแวดล้อม",
+              "note": "หรือเพียงปิดและเปิด Terminal อีกครั้งเพื่อให้รับ PATH ใหม่"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คำสั่งทั้งสามควรตอบสนองด้วยหมายเลขเวอร์ชัน"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้งเพื่อให้ตรวจพบการติดตั้งใหม่"
             }
           ],
           "tagline": "แนะนำ — เอาต์พุตที่ดีที่สุด เสถียรที่สุด และสมบูรณ์ที่สุด",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "ติดตั้งภายใน 1 นาที",
+            "ดาวน์โหลดเฉพาะแพ็คเกจที่วิทยานิพนธ์ของคุณใช้",
+            "อยู่ร่วมกับ MacTeX หากคุณต้องการทั้งสองอย่าง",
+            "อัพเกรดได้ด้วยการอัพเกรดเบียร์"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "การรวบรวมครั้งแรกต้องใช้การเชื่อมต่ออินเทอร์เน็ต",
+            "แพ็คเกจเฉพาะทางสูง (ฟิสิกส์ขั้นสูง ฯลฯ) อาจต้องใช้ MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "ติดตั้ง Homebrew (หากคุณไม่มี)",
+              "note": "หากคุณมี Homebrew อยู่แล้ว ให้ข้ามขั้นตอนนี้"
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "ติดตั้ง Tectonic ด้วย Homebrew",
+              "note": "ดาวน์โหลดน้ำหนักเบา พร้อมภายในไม่ถึง 1 นาที"
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คุณควรเห็นสิ่งที่ต้องการ: เปลือกโลก 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้งเพื่อตรวจจับการเคลื่อนตัวของเปลือกโลก"
             }
           ],
           "tagline": "น้ำหนักเบา — ดาวน์โหลดเฉพาะสิ่งที่ต้องการเท่านั้น",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "การพิมพ์และเอาท์พุตที่ดีที่สุดเหนือทางเลือกที่มีน้ำหนักเบา",
+            "บรรณานุกรมที่ถูกต้อง 100% - รวมเวอร์ชัน biber ที่เข้ากันได้",
+            "แพ็คเกจ CTAN ทั้งหมดโดยไม่มีข้อจำกัด",
+            "รองรับหลายภาษา: Cyrillic, CJK, Arabic, Devanagari",
+            "การรวบรวมหลายรอบที่ถูกต้อง: TOC, ดัชนี, ตัวอ้างอิงโยง",
+            "การติดตั้งด้วยคำสั่งระบบเดียว"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "การติดตั้งแบบเต็มจะใช้เวลา 3–5 GB",
+            "เวอร์ชันของพื้นที่เก็บข้อมูลอาจเก่ากว่าเวอร์ชันอย่างเป็นทางการเล็กน้อย"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "อูบุนตู / เดเบียน / ลินุกซ์มิ้นท์",
+              "note": "รวมทุกอย่าง. หากพื้นที่มีจำกัด ให้ใช้ texlive-xetex แทน texlive-full"
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Fedora / RHEL / CentOS สตรีม",
+              "note": "ติดตั้งรูปแบบ TeX Live แบบเต็ม"
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "อาร์ช / มันจาโร",
+              "note": "ติดตั้งกลุ่มหลักและ biber สำหรับบรรณานุกรม"
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "โครงการเต็มรูปแบบผ่าน zypper"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คำสั่งทั้งสามควรตอบสนองด้วยหมายเลขเวอร์ชัน"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้งเพื่อให้ตรวจพบการติดตั้งใหม่"
             }
           ],
           "tagline": "แนะนำ — เอาต์พุตที่ดีที่สุด เสถียรที่สุด และสมบูรณ์ที่สุด",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "ไม่จำเป็นต้องติดตั้ง sudo",
+            "ดาวน์โหลดเฉพาะสิ่งที่วิทยานิพนธ์ของคุณต้องการเท่านั้น",
+            "อยู่ร่วมกับ TeX Live หากคุณต้องการทั้งสองอย่าง"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "การรวบรวมครั้งแรกต้องใช้อินเทอร์เน็ต",
+            "แพ็คเกจเฉพาะทางสูง (ฟิสิกส์ขั้นสูง ฯลฯ) อาจต้องใช้ TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "ติดตั้งด้วยสคริปต์อย่างเป็นทางการ",
+              "note": "ดาวน์โหลดและติดตั้งไบนารี่ใน ~/.cargo/bin หรือ ~/bin ขึ้นอยู่กับการตั้งค่าของคุณ"
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "ทางเลือก: ติดตั้งด้วย Cargo",
+              "note": "ต้องติดตั้ง Rust คอมไพล์จากแหล่งที่มา ใช้เวลาหลายนาที"
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คุณควรเห็นสิ่งที่ต้องการ: เปลือกโลก 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้ง"
             }
           ],
           "tagline": "น้ำหนักเบา — ไม่ต้องใช้ตัวจัดการแพ็คเกจระบบ",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "การพิมพ์และเอาท์พุตที่ดีที่สุดเหนือทางเลือกที่มีน้ำหนักเบา",
+            "บรรณานุกรมที่ถูกต้อง 100% - รวม biber และเข้ากันได้",
+            "แพ็คเกจ CTAN ทั้งหมด ดาวน์โหลดตามความต้องการ",
+            "ไม่ต้องใช้ Strawberry Perl (ต่างจากคู่มือ latexmk)",
+            "การสนับสนุนหลายภาษา: ซีริลลิก, CJK, อาหรับ, เทวนาครี",
+            "โปรแกรมติดตั้งกราฟิก .exe ที่ใช้งานง่าย"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "คอนโซล MiKTeX อาจทำให้เกิดความสับสนในตอนแรก",
+            "จำเป็นต้องยอมรับการติดตั้งแพ็คเกจในระหว่างการคอมไพล์ครั้งแรก"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "ติดตั้ง MiKTeX พร้อมวิงเก็ต",
+              "note": "เปิด PowerShell ในฐานะผู้ใช้ปกติ (ไม่ต้องใช้ผู้ดูแลระบบ) winget รวมอยู่ใน Windows 10/11"
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "ทางเลือก: ตัวติดตั้งแบบกราฟิก",
+              "note": "ไปที่ miktex.org → ดาวน์โหลด → Windows ดาวน์โหลดตัวติดตั้ง 64 บิตและเรียกใช้ เลือกติดตั้ง MiKTeX สำหรับฉันเท่านั้น"
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "ควรตอบกลับด้วยหมายเลขเวอร์ชัน"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้งเพื่อให้ตรวจพบ MiKTeX"
             }
           ],
           "tagline": "แนะนำบน Windows — ผลลัพธ์ที่ดีที่สุด สมบูรณ์โดยไม่ต้องใช้ Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "ติดตั้งภายใน 1 นาทีด้วยวิงเก็ต",
+            "ไม่ต้องใช้ Strawberry Perl",
+            "อยู่ร่วมกับ MiKTeX หากคุณต้องการทั้งสองอย่าง",
+            "อัพเกรดได้ด้วยการอัพเกรด winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "การรวบรวมครั้งแรกต้องใช้อินเทอร์เน็ต",
+            "แพ็คเกจเฉพาะทางสูง (ฟิสิกส์ขั้นสูง ฯลฯ) อาจต้องใช้ MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "ติดตั้งพร้อมวิงเก็ต",
+              "note": "เปิด PowerShell ในฐานะผู้ใช้ปกติ ไม่จำเป็นต้องมีผู้ดูแลระบบ"
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คุณควรเห็นสิ่งที่ต้องการ: เปลือกโลก 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้งเพื่อตรวจจับการเคลื่อนตัวของเปลือกโลก"
             }
           ],
           "tagline": "น้ำหนักเบา — คำสั่งเดียว ไม่มี Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "การพิมพ์และเอาท์พุตที่ดีที่สุดเหนือทางเลือกที่มีน้ำหนักเบา",
+            "รวมแพ็คเกจ CTAN ทั้งหมดแล้ว ไม่มีการดาวน์โหลดเพิ่มเติม",
+            "บรรณานุกรมที่ถูกต้อง 100% - รวม biber ที่เข้ากันได้",
+            "รองรับหลายภาษา: Cyrillic, CJK, Arabic, Devanagari",
+            "เข้ากันได้กับโปรไฟล์สถาบันใด ๆ"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "การติดตั้งช้า (30–90 นาที)",
+            "ใช้พื้นที่ดิสก์ 4–8 GB",
+            "ต้องใช้ Strawberry Perl สำหรับ latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "ดาวน์โหลดตัวติดตั้ง TeX Live",
+              "note": "ไปที่ tug.org/texlive → ดาวน์โหลด → install-tl-windows.exe ดาวน์โหลดตัวติดตั้ง"
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "เรียกใช้โปรแกรมติดตั้ง",
+              "note": "เลือกติดตั้งง่าย (ใหญ่) เพื่อติดตั้งทุกอย่าง กระบวนการนี้ใช้เวลา 30–90 นาที"
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "ติดตั้ง Strawberry Perl (จำเป็นสำหรับ latexmk)",
+              "note": "ต้องใช้ Perl เพื่อให้ latexmk ทำงานบน Windows"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ตรวจสอบการติดตั้ง",
+              "note": "คำสั่งทั้งสามควรตอบสนองด้วยหมายเลขเวอร์ชัน"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "รีสตาร์ท TeXisStudio",
+              "note": "ปิดและเปิดแอปอีกครั้ง"
             }
           ],
           "tagline": "สมบูรณ์ — เอาต์พุตที่ดีที่สุดและเสถียรที่สุด ไม่มีเรื่องน่าประหลาดใจ",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "ปริญญาเอก",
     "level_bachillerato": "มัธยมปลาย",
     "level_tecnico": "เทคนิค",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio อยู่ในโหมดแนะนำ: มุ่งเน้นไปที่งานของคุณ จากนั้นแอปจะจัดการการจัดรูปแบบ บรรณานุกรม และการนำส่ง",
+    "error_opening_project": "ไม่สามารถเปิดโฟลเดอร์นั้นเป็นโครงการ TeXisStudio ตรวจสอบให้แน่ใจว่ามี tesis.project.yaml",
+    "search_library_hint": "ค้นหาห้องสมุด",
+    "detecting_latex": "กำลังตรวจจับ LaTeX...",
+    "error_importing_tex": "ไม่สามารถนำเข้าไฟล์ .tex: {{error}}"
   },
   "wizard": {
     "title": "โครงการใหม่",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "ฐานที่มั่นคงสำหรับวิทยานิพนธ์",
     "recommend_reason_verified": "มีการตรวจสอบจากสถาบัน",
     "recommend_reason_reviewed": "ตรวจสอบโดยทีมงาน",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google ไดรฟ์สำหรับเดสก์ท็อป"
+    "error_vocab_install": "ไม่สามารถเปิดใช้งาน \"{{name}}\" ได้ ตรวจสอบการเชื่อมต่อของคุณหรือยกเลิกการเลือกเพื่อสร้างโปรเจ็กต์โดยไม่มีการสนับสนุนนี้ รายละเอียด : {{error}}",
+    "google_drive_desktop": "Google ไดรฟ์สำหรับเดสก์ท็อป",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "สมการตัวเลข \\\\eqref{}",
+          "ทฤษฎีบทและการพิสูจน์",
+          "เมทริกซ์และเวกเตอร์",
+          "แผนภาพสลับ (tikz-cd)",
+          "ต้นไม้พิสูจน์อักษร (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX เป็นเครื่องมือมาตรฐานสำหรับคณิตศาสตร์แบบเป็นทางการ"
+      },
+      "logica": {
+        "native": [
+          "ต้นไม้หัก (bussproofs)",
+          "ตารางความจริง",
+          "ความหมายที่เป็นทางการ",
+          "แผนภาพฮาสส์"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "หน่วยฟิสิคัล \\\\SI{} (siunitx)",
+          "อนุพันธ์บางส่วน \\\\pdv{}",
+          "ไดอะแกรมไฟน์แมน (tikz-feynman)",
+          "แปลง (pgfplots)"
+        ],
+        "external": [
+          "การจำลองเชิงตัวเลข (ส่งออกเป็น PDF/PNG)"
+        ],
+        "tip": "ใช้ siunitx สำหรับทุกหน่วย — อย่าเขียน 'km/h' โดยตรง"
+      },
+      "quimica": {
+        "native": [
+          "ปฏิกิริยาเคมี \\\\ce{} (mhchem)",
+          "โครงสร้างโมเลกุล (เคมฟิก)",
+          "หน่วย \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "โครงสร้าง 3 มิติที่ซับซ้อน (ส่งออกจาก ChemDraw เป็น PDF)"
+        ],
+        "tip": "สำหรับโครงสร้างอย่างง่ายให้ใช้ chemfig สำหรับผลึกศาสตร์หรือโปรตีน ให้นำเข้าเป็น PDF"
+      },
+      "ingenieria": {
+        "native": [
+          "หน่วย \\\\SI{} (siunitx)",
+          "วงจร (circuitikz)",
+          "แปลงข้อมูล (pgfplots)",
+          "อัลกอริทึม (algpseudocode)"
+        ],
+        "external": [
+          "เขียนแบบทางเทคนิค (AutoCAD → PDF)",
+          "แผนภาพ PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz ครอบคลุมวงจรสัญญาณและกำลังส่วนใหญ่"
+      },
+      "computacion": {
+        "native": [
+          "ซอร์สโค้ด (lstlisting)",
+          "อัลกอริทึมที่มีรหัสเทียม",
+          "แผนประสิทธิภาพ (pgfplots)",
+          "ต้นไม้ตัดสินใจ (tikz)"
+        ],
+        "external": [
+          "ไดอะแกรมสถาปัตยกรรมที่ซับซ้อน (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "เชิงอรรถที่กว้างขวาง",
+          "เครื่องมือวิพากษ์วิจารณ์และการอ้างอิงข้อความ",
+          "ดัชนีวิเคราะห์ (makeindex)",
+          "ตัวอย่างภาษา (gb4e)"
+        ],
+        "external": [
+          "ภาพอาร์ตเวิร์ค (ความละเอียดสูงเป็น PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "ตารางสถิติ (แท็บหนังสือ)",
+          "แปลง (pgfplots)",
+          "การอ้างอิงบรรณานุกรมในรูปแบบ APA/Chicago"
+        ],
+        "external": [
+          "การสร้างภาพข้อมูลที่ซับซ้อน (R/Python → PDF/PNG)"
+        ],
+        "tip": "สำหรับแปลงอย่างง่าย ให้ใช้ pgfplots สำหรับการแสดงภาพที่ซับซ้อน ให้ส่งออกจาก R หรือ Python"
+      },
+      "medicina": {
+        "native": [
+          "ตารางคลินิก (แท็บหนังสือ)",
+          "หน่วยแพทย์ \\\\SI{}",
+          "ตัวเลขพร้อมคำบรรยายและป้ายกำกับ"
+        ],
+        "external": [
+          "ภาพ DICOM / มิญชวิทยา (ส่งออกเป็น PNG/TIFF ความละเอียดสูง)",
+          "ผังงานทางคลินิก (draw.io → PDF)"
+        ],
+        "tip": "ภาพทางการแพทย์เพื่อการวินิจฉัยจะต้องนำเข้าเป็นไฟล์ภายนอก ห้ามทำซ้ำใน LaTeX"
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "คะแนนเต็ม (MuseScore/Sibelius → PDF)",
+          "ชิ้นส่วนเสียง (ลิงก์ภายนอก)"
+        ],
+        "tip": "สำหรับโน้ตดนตรีที่ซับซ้อน ให้ใช้ตัวแก้ไขโน้ตเพลงและแนบเป็น PDF"
+      },
+      "arte": {
+        "native": [
+          "เอกสารทางเทคนิคแบบตาราง (แท็บหนังสือ)"
+        ],
+        "external": [
+          "เพลทและงานศิลปะ (ความละเอียดสูงเป็น PNG/TIFF)",
+          "ผลงานภาพ (PDF ภายนอก)",
+          "แผน (DWG → PDF)"
+        ],
+        "tip": "สำหรับพอร์ตการลงทุน ให้รวม PDF หรือ PNG คุณภาพสูงด้วย LaTeX จัดการเค้าโครงและข้อความอธิบาย"
+      },
+      "arquitectura": {
+        "native": [
+          "ตารางงบประมาณและวัสดุ",
+          "กำหนดการ",
+          "ข้อความอธิบาย"
+        ],
+        "external": [
+          "แผนผังชั้น (AutoCAD/ArchiCAD → PDF)",
+          "แสดงผล (ส่งออกเป็น PNG/PDF)",
+          "โมเดล (ภาพเป็น PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "ตารางข้อมูล (แท็บหนังสือ)",
+          "หน่วย \\\\SI{}",
+          "ต้นไม้สายวิวัฒนาการ (tikz)"
+        ],
+        "external": [
+          "แผนภาพทางกายวิภาคที่ซับซ้อน (Inkscape → PDF/SVG)",
+          "กล้องจุลทรรศน์ (PNG ความละเอียดสูง)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "ตารางสถิติ (แท็บหนังสือ)",
+          "แปลง (pgfplots)",
+          "สมการทางเศรษฐมิติ"
+        ],
+        "external": [
+          "แดชบอร์ดแบบโต้ตอบและการแสดงภาพข้อมูล (ส่งออกเป็น PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "การวินิจฉัยโครงการ",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "คืนค่าเวอร์ชันนี้",
     "snapshot_delete_title": "ลบเวอร์ชัน",
     "section_guidance_label": "คำแนะนำส่วน",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "บันทึกและออก",
+    "snapshot_restore_action": "คืนค่า",
+    "continue_editing": "แก้ไขต่อไป",
+    "unsaved_changes_message": "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงในส่วนนี้ คุณอยากจะทำอะไรก่อนออกเดินทาง?",
+    "unsaved_changes_title": "การเปลี่ยนแปลงที่ไม่ได้บันทึก",
+    "review_ai": "เอไอ",
+    "visual_type_selector_title": "คุณต้องการแทรกไดอะแกรมประเภทใด",
+    "default_set_a": "ชุดเอ",
+    "add_paragraph": "ย่อหน้าใหม่",
+    "review_grammar": "ไวยากรณ์",
+    "bib_refs_count": "{{count}} อ้างอิงใน .bib",
+    "section_status_legend": "ตำนานสถานะ",
+    "sections_count": "ส่วน {{count}}",
+    "review_spell": "การสะกดคำ",
+    "leave_without_saving": "ออกโดยไม่บันทึก",
+    "default_table_column_2": "คอลัมน์ 2",
+    "default_set_c": "ชุดซี",
+    "default_set_b": "ชุดบี",
+    "default_table_column_1": "คอลัมน์ 1",
+    "no_bib_file": "ไม่มี .bib",
     "insert_plugin_figure_title": "ใส่ตัวเลขทางวิทยาศาสตร์ (61 ชนิด)",
     "block_plugin_figure": "รูป+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "เราแสดงเฉพาะสิ่งที่คุณต้องเขียนและส่งโดยไม่ซับซ้อน คุณสามารถเปิดใช้งานได้",
     "basic_mode_suffix": "ในส่วนข้อความ",
     "basic_top_body": "การตั้งค่าเหล่านี้ออกแบบมาเพื่อการตัดสินใจที่เป็นประโยชน์โดยไม่ต้องป้อนรายละเอียดทางเทคนิคของ LaTeX เปลี่ยนไปที่",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "ตรวจสอบการอัปเดต",
+    "update_checking": "กำลังตรวจสอบ...",
+    "update_available": "มีเวอร์ชัน {{version}} — รีสตาร์ทเพื่อติดตั้ง",
+    "update_up_to_date": "คุณทันสมัยแล้ว",
+    "update_error": "ไม่สามารถตรวจสอบการอัปเดตได้",
     "refresh_catalog": "รีเฟรชแคตตาล็อก",
     "package_status_stable": "มีเสถียรภาพ",
     "package_status_beta": "เบต้า",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "น้ำหนักเบาและบำรุงรักษาง่าย แนะนำสำหรับการเขียนในชีวิตประจำวันและโครงการที่ไม่ต้องการการกระจาย TeX เต็มรูปแบบ",
     "latex_suite_title": "ชุด LaTeX ที่สมบูรณ์",
-    "latex_suite_description": "ใช้ latexmk กับ TeX Live หรือ MiKTeX แนะนำสำหรับแพ็คเกจขั้นสูง บรรณานุกรมที่ซับซ้อน และการจัดส่งขั้นสุดท้าย",
+    "latex_suite_description": "ชุด LaTeX เต็มรูปแบบ ({{suiteName}}) พร้อม latexmk รองรับแพ็คเกจ CTAN ทั้งหมด, biblatex + Biber, Shell-Escape และการรวบรวม Multi-Pass ตัวเลือกที่แนะนำสำหรับเอกสารฉบับสมบูรณ์ โปรไฟล์สถาบัน และตัวเลขปลั๊กอิน",
     "latex_available": "มีจำหน่าย",
     "latex_not_available": "ไม่ได้ติดตั้ง",
     "latex_detected_version": "เวอร์ชันที่ตรวจพบ: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "ค่าเริ่มต้นของแล็ปท็อป",
     "window_mode_remember": "จำขนาดสุดท้าย",
     "window_mode_maximized": "ขยายใหญ่สุด",
-    "window_mode_hint": "เลือกหน้าต่าง 1280 × 760 คืนค่าขนาดล่าสุดที่คุณใช้ หรือเปิดโดยใช้พื้นที่จอภาพที่มีอยู่ทั้งหมด"
+    "window_mode_hint": "เลือกหน้าต่าง 1280 × 760 คืนค่าขนาดล่าสุดที่คุณใช้ หรือเปิดโดยใช้พื้นที่จอภาพที่มีอยู่ทั้งหมด",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "ไปที่ \"จัดการการติดตั้ง LaTeX\" เพื่อติดตั้ง {{suiteName}}",
+    "latex_recommended_badge": "แนะนำ",
+    "latex_upgrade_banner": "ติดตั้ง {{suiteName}} แล้ว — รองรับแพ็คเกจ CTAN, Biber และรูปแบบปลั๊กอินทั้งหมดโดยไม่มีข้อจำกัด แนะนำให้เปลี่ยน",
+    "latex_upgrade_btn": "เปลี่ยนเป็น {{suiteName}}",
+    "language_catalog_error": "ไม่สามารถโหลดแคตตาล็อกภาษาได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+    "language_install_error": "ไม่สามารถติดตั้งชุดภาษาได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "ไม่พบรูปภาพ '{{file}}' ที่อ้างอิงในส่วน '{{section}}'",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "ลบโปรไฟล์ใช่ไหม",
     "delete_profile_body_before": "สิ่งนี้จะลบ",
     "delete_profile_body_after": "การดำเนินการนี้ไม่สามารถยกเลิกได้",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "โปรไฟล์ที่ติดตั้ง {{profiles}}",
     "installed_profiles": "โปรไฟล์ที่ติดตั้ง",
     "profile_count_hint": "โปรไฟล์ {{count}} · คลิกเพื่อดูรายละเอียด",
     "import_profile_title": "นำเข้าโปรไฟล์จากไดเร็กทอรี",
@@ -1135,30 +1297,31 @@
     "selected_chip": "เลือกแล้ว",
     "installed_chip": "ติดตั้งแล้ว",
     "sections_count_suffix": "ส่วนต่างๆ",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "ปลั๊กอิน",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "เรื่องด้านหน้า",
+      "body": "ร่างกาย",
+      "back_matter": "กลับเรื่อง",
+      "appendix": "ภาคผนวก"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "หน้าชื่อเรื่อง",
+      "abstract": "นามธรรม",
+      "acknowledgements": "รับทราบ",
+      "table_of_contents": "สารบัญ",
+      "list_of_figures": "รายการตัวเลข",
+      "list_of_tables": "รายชื่อตาราง",
+      "introduction": "บทนำ",
+      "theoretical_framework": "กรอบทฤษฎี",
+      "methodology": "ระเบียบวิธี",
+      "results": "ผลลัพธ์",
+      "discussion": "การอภิปราย",
+      "conclusions": "ข้อสรุป",
+      "references": "อ้างอิง",
+      "appendix": "ภาคผนวก",
+      "appendix_a": "ภาคผนวก ก"
+    },
+    "tags_placeholder": "วิทยานิพนธ์ระดับปริญญาตรีอาภา"
   },
   "progress": {
     "status_draft": "ร่าง",
@@ -1280,7 +1443,14 @@
     "generating_response": "กำลังสร้างคำตอบ...",
     "message_placeholder": "เขียนข้อความของคุณ… (ป้อนเพื่อส่ง)",
     "configure_key_first": "กำหนดค่าคีย์ API ของคุณก่อน",
-    "send": "Send"
+    "send": "ส่ง",
+    "error_not_configured": "ไม่ได้กำหนดค่าคีย์ API เพิ่มรหัสของคุณในแท็บผู้ให้บริการ",
+    "error_auth": "คีย์ API ไม่ถูกต้อง ตรวจสอบว่าถูกต้องและใช้งานอยู่",
+    "error_rate_limited": "ถึงขีดจำกัดคำขอแล้ว โปรดลองอีกครั้งในอีกสักครู่",
+    "error_network": "ข้อผิดพลาดของเครือข่าย ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ",
+    "error_safety": "คำขอถูกบล็อกโดยนโยบายความปลอดภัย",
+    "error_model_unavailable": "รุ่นที่เลือกไม่พร้อมใช้งาน เลือกอันอื่นในการตั้งค่า",
+    "error_provider": "ข้อผิดพลาดของผู้ให้บริการ ลองอีกครั้ง"
   },
   "editor_meta": {
     "project_guide": "คู่มือโครงการ",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "ไม่ได้รับการยืนยัน — บล็อกนี้จะไม่รวมอยู่ใน PDF จนกว่าคุณจะยืนยัน",
     "packages": "แพ็คเกจ",
     "edit_figure_title": "แก้ไขชื่อเรื่องหรือป้ายกำกับ หรือสร้างรูปภาพใหม่",
-    "edit_figure": "แก้ไขรูป"
+    "edit_figure": "แก้ไขรูป",
+    "preview_pending": "รวบรวมตัวอย่างจากแท็บ «ดูตัวอย่าง» เพื่อดูรูปที่นี่"
   },
   "compile": {
     "ensure_latex_installed_path": "ตรวจสอบว่าคอมไพเลอร์ LaTeX ได้รับการติดตั้งและพร้อมใช้งานใน PATH",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "กำลังคอมไพล์… (บรรทัด {{count}})",
     "backends_available": "{{backends}} พร้อมใช้งาน",
     "latex_not_installed_status": "⚠ ไม่ได้ติดตั้ง LaTeX",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "คอมไพล์",
+    "preflight_action_export": "การส่งการส่งออก",
+    "preflight_title": "เช็คก่อน {{action}}",
+    "preflight_has_errors": "แก้ไขข้อผิดพลาด {{count}} ก่อนดำเนินการต่อ",
+    "preflight_has_warnings": "พบคำเตือน {{count}} คุณสามารถดำเนินการต่อได้",
+    "preflight_errors_section": "ข้อผิดพลาด ({{count}})",
+    "preflight_warnings_section": "คำเตือน ({{count}})",
+    "preflight_suggestions_section": "คำแนะนำ ({{count}})",
+    "export_success": "ส่งออกเสร็จแล้ว",
+    "compile_as_draft": "เรียบเรียงเป็นฉบับร่าง",
+    "readiness_complete": "เสร็จสมบูรณ์",
+    "readiness_export_title": "การจัดส่งขั้นสุดท้ายถูกบล็อก",
+    "readiness_back": "กลับไปทบทวน",
+    "readiness_compile_title": "โครงการไม่พร้อมสำหรับเวอร์ชันอย่างเป็นทางการ",
+    "readiness_export_subtitle": "หากต้องการส่งออกในโหมดสุดท้าย ให้ดำเนินการตรวจสอบการจัดส่งและคุณภาพให้เสร็จสิ้นก่อน",
+    "readiness_compile_subtitle": "รวบรวมเป็นฉบับร่างหรือตรวจสอบประเด็นเหล่านี้ก่อนที่จะถือว่าเป็นเวอร์ชันที่เป็นทางการ",
+    "readiness_delivery": "จัดส่ง",
+    "readiness_quality": "คุณภาพขั้นสุดท้าย",
     "severity_error": "เกิดข้อผิดพลาด",
     "severity_warning": "คำเตือน",
     "severity_suggestion": "ข้อเสนอแนะ",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "ใช้ ▲▼ เพื่อเปลี่ยนลำดับ",
     "order_hint_line_2": "คำสั่งซื้อจะกำหนดเมนูแบบเลื่อนลงเมื่อสร้างโปรเจ็กต์",
     "add_custom_style": "เพิ่มสไตล์ที่กำหนดเอง",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "บัตรประจำตัว *",
+    "biblatex_style_required": "สไตล์บิลาเท็กซ์ *",
+    "references_default_title": "อ้างอิง",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "การอ้างอิง",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "ผู้แต่ง-วันที่",
+      "numeric": "ตัวเลข",
+      "notes_bibliography": "หมายเหตุ-บรรณานุกรม",
+      "author_page": "ผู้แต่ง-เพจ"
     },
     "builtins": {
       "apa7": {
-        "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "name": "APA7",
+        "full_name": "สมาคมจิตวิทยาอเมริกัน ฉบับที่ 7",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "จิตวิทยา",
+          "การศึกษา",
+          "สังคมศาสตร์",
+          "การพยาบาล",
+          "การสื่อสาร"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "สไตล์ที่ใช้กันอย่างแพร่หลายทั่วโลก จำเป็นในโปรแกรมจิตวิทยา การศึกษา และสังคมศาสตร์หลายโปรแกรม ฉบับที่เจ็ด (2020)",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "สหรัฐอเมริกา",
+          "แคนาดา",
+          "ละตินอเมริกา",
+          "ออสเตรเลีย"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(ผู้แต่ง, ปี)",
+        "bibliography_title": "อ้างอิง"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "คำแนะนำ Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "ยารักษาโรค",
+          "การพยาบาล",
+          "ร้านขายยา",
+          "ทันตกรรม",
+          "วิทยาศาสตร์สุขภาพ"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "รูปแบบตัวเลขที่จำเป็นสำหรับวิทยาศาสตร์สุขภาพ การอ้างอิงจะเรียงลำดับตามรูปลักษณ์ภายนอก มาตรฐานในวารสาร MEDLINE/PubMed",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "วิทยาศาสตร์การแพทย์และสุขภาพระดับโลก"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "อ้างอิง"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "รูปแบบการอ้างอิง IEEE",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "วิศวกรรมไฟฟ้า",
+          "คอมพิวเตอร์",
+          "โทรคมนาคม",
+          "วิทยาการหุ่นยนต์",
+          "อิเล็กทรอนิกส์"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "รูปแบบตัวเลขมาตรฐานสำหรับวิศวกรรม คอมพิวเตอร์ และเทคโนโลยี นำมาใช้กันอย่างแพร่หลายในโรงเรียนวิศวกรรม",
         "regions_primary": [
-          "Global, engineering and technology"
+          "ระดับโลก วิศวกรรมและเทคโนโลยี"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "อ้างอิง"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (หมายเหตุ)",
+        "full_name": "คู่มือสไตล์ Chicago ฉบับที่ 17 หมายเหตุ-บรรณานุกรม",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "ประวัติศาสตร์",
+          "วรรณกรรม",
+          "ศิลปะ",
+          "ปรัชญา",
+          "ศึกษาศาสนา"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "ระบบบันทึกและบรรณานุกรมด้านมนุษยศาสตร์ การอ้างอิงปรากฏในเชิงอรรถ",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "สหรัฐอเมริกา",
+          "สหราชอาณาจักร",
+          "แคนาดามนุษยศาสตร์"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "เชิงอรรถ¹",
+        "bibliography_title": "บรรณานุกรม"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (วันที่ผู้เขียน)",
+        "full_name": "คู่มือสไตล์ Chicago ฉบับที่ 17 วันที่ผู้แต่ง",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "เศรษฐศาสตร์",
+          "รัฐศาสตร์",
+          "สังคมวิทยา",
+          "มานุษยวิทยา",
+          "ภูมิศาสตร์"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "รูปแบบวันที่ผู้เขียน Chicago เป็นที่นิยมในสาขาสังคมศาสตร์และเศรษฐศาสตร์",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "สหรัฐอเมริกา",
+          "แคนาดา, สังคมศาสตร์"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(ปีที่ผู้เขียน)",
+        "bibliography_title": "อ้างอิง"
       },
       "mla9": {
-        "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "name": "MLA9",
+        "full_name": "คู่มือ MLA ฉบับที่ 9",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "วรรณกรรม",
+          "ภาษา",
+          "ภาษาศาสตร์",
+          "การศึกษาวัฒนธรรม",
+          "วาทศาสตร์"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "มาตรฐานภาษา วรรณคดี และวัฒนธรรมศึกษาในทวีปอเมริกาเหนือ ฉบับที่เก้า (2021)",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "สหรัฐอเมริกา",
+          "แคนาดา ภาษาและวรรณคดี"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(หน้าผู้เขียน)",
+        "bibliography_title": "ผลงานที่อ้างถึง"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "ฮาร์วาร์ด",
+        "full_name": "รูปแบบการอ้างอิงของฮาร์วาร์ด",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "ธุรกิจ",
+          "การจัดการ",
+          "เศรษฐศาสตร์",
+          "สังคมศาสตร์"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "รูปแบบวันที่ผู้เขียนคล้ายกับ APA ใช้กันอย่างแพร่หลายในมหาวิทยาลัยในสหราชอาณาจักรและออสเตรเลีย",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "สหราชอาณาจักร",
+          "ออสเตรเลีย",
+          "ไอร์แลนด์",
+          "แอฟริกาใต้"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(ปีที่ผู้เขียน)",
+        "bibliography_title": "อ้างอิง"
       },
       "mhra": {
-        "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "name": "มฮรา",
+        "full_name": "คู่มือสไตล์สมาคมวิจัยมนุษยศาสตร์สมัยใหม่ ฉบับที่ 3",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "มนุษยศาสตร์",
+          "ประวัติศาสตร์",
+          "วรรณกรรม",
+          "ปรัชญา",
+          "ภาษาศาสตร์"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "มาตรฐานมนุษยศาสตร์ของสหราชอาณาจักรคล้ายกับหมายเหตุ Chicago",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "สหราชอาณาจักร",
+          "ไอร์แลนด์มนุษยศาสตร์"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "เชิงอรรถ¹",
+        "bibliography_title": "บรรณานุกรม"
       },
       "abnt": {
-        "name": "ABNT",
+        "name": "เอบีเอ็นที",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "ทุกสาขาวิชา (บราซิล)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "มาตรฐานแห่งชาติสำหรับงานวิชาการในมหาวิทยาลัยของบราซิล",
         "regions_primary": [
-          "Brazil, required"
+          "บราซิล, จำเป็น"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(ผู้แต่ง, ปี)",
+        "bibliography_title": "อ้างอิง"
       },
       "gb7714": {
-        "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "name": "กิกะไบต์/ที 7714",
+        "full_name": "GB/T 7714-2015 มาตรฐานแห่งชาติจีน",
         "disciplines": [
-          "All disciplines (China)"
+          "ทุกสาขาวิชา (จีน)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "มาตรฐานแห่งชาติสำหรับวิทยานิพนธ์ภาษาจีน จำเป็นในมหาวิทยาลัยของจีน",
         "regions_primary": [
-          "China, required"
+          "จีน จำเป็น"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "อ้างอิง"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "คืนค่าสไตล์เริ่มต้น",
+    "reset_action": "คืนค่า"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ ใส่ตัวอ้างอิงโยง ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "ชื่อที่ไม่บังคับ",
     "theorem_title_placeholder": "ทฤษฎีบทพีทาโกรัส",
     "math_content": "เนื้อหา (ยอมรับ LaTeX ทางคณิตศาสตร์)",
-    "theorem_content_placeholder": "ให้ $a^2 + b^2 = c^2$ โดยที่ $c$ คือด้านตรงข้ามมุมฉาก..."
+    "theorem_content_placeholder": "ให้ $a^2 + b^2 = c^2$ โดยที่ $c$ คือด้านตรงข้ามมุมฉาก...",
+    "term_placeholder": "ภววิทยา",
+    "definition_placeholder": "สาขาวิชาปรัชญาที่ศึกษาความเป็นอยู่",
+    "acronym_placeholder": "เอไอ",
+    "full_form_placeholder": "ปัญญาประดิษฐ์"
   },
   "citation": {
     "error_connect": "ข้อผิดพลาดในการเชื่อมต่อ",
@@ -2031,7 +2206,15 @@
     "empty_equation": "สมการว่าง",
     "custom_molecule": "โมเลกุลที่กำหนดเอง",
     "molecule_compile_hint": "โครงสร้างที่สร้างด้วย chemfig เมื่อทำการคอมไพล์",
-    "chemical_syntax_hint": "ใช้ -> (ปฏิกิริยา), <=> (สมดุล), ^ (แก๊ส) และ v (ตกตะกอน)"
+    "chemical_syntax_hint": "ใช้ -> (ปฏิกิริยา), <=> (สมดุล), ^ (แก๊ส) และ v (ตกตะกอน)",
+    "label_example": "รูป: แผนภาพของฉัน",
+    "circuit_lower": "วงจร",
+    "diagram_lower": "แผนภาพ",
+    "default_start": "เริ่ม",
+    "default_process": "กระบวนการ",
+    "default_end": "สิ้นสุด",
+    "default_event": "เหตุการณ์ {{number}}",
+    "default_major_scale": "ซีเมเจอร์สเกล"
   },
   "vocabulary": {
     "title": "คำศัพท์เกี่ยวกับโดเมน",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "ที่มี",
     "repo_hint_suffix": "ส่วน มันสามารถเป็น repo GitHub ของคุณเองได้",
     "alias_placeholder": "นามแฝง (e.g. my-lab-terms)",
-    "adding": "กำลังเพิ่ม..."
+    "adding": "กำลังเพิ่ม...",
+    "catalog_error": "ไม่สามารถโหลดแคตตาล็อกคำศัพท์ได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+    "repo_sync_error": "ไม่สามารถซิงโครไนซ์ที่เก็บนี้",
+    "repo_add_error": "ไม่สามารถเพิ่มที่เก็บได้ ตรวจสอบที่อยู่แล้วลองอีกครั้ง"
   },
   "profile_wizard": {
     "step_of": "ขั้นตอน {{current}} ของ {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "ติดตั้งจาก URL",
     "install_from_url_hint": "วาง URL ของ .zip ที่มีโปรไฟล์.yaml ที่ถูกต้อง",
     "install_btn": "ติดตั้ง",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "คุณไม่จำเป็นต้องมีชื่อโปรไฟล์ที่แน่นอน",
+    "guided_hint_body": "เริ่มต้นด้วยสถาบันของคุณหรือการผสมผสานระหว่างปริญญา สาขา และรูปแบบการอ้างอิง หากไม่มีการจับคู่ที่ตรงกันทุกประการ ให้เริ่มต้นด้วยฐานสถาบันที่เรียบง่ายแล้วปรับเปลี่ยนในภายหลัง",
+    "catalog_load_error": "ไม่สามารถโหลดแค็ตตาล็อกโปรไฟล์ได้ ตรวจสอบการเชื่อมต่อของคุณหรือลองอีกครั้ง",
+    "install_success": "ติดตั้ง \"{{name}}\" สำเร็จแล้ว",
+    "breadcrumb_all": "ทั้งหมด",
+    "profile_count_one": "โปรไฟล์ {{count}}",
+    "profile_count_other": "โปรไฟล์ {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "อเมริกา",
+      "europe": "ยุโรป",
+      "asia": "เอเชีย",
+      "generic": "ทั่วไป"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "เม็กซิโก",
+      "usa": "สหรัฐอเมริกา",
+      "canada": "แคนาดา",
+      "brazil": "บราซิล",
+      "argentina": "อาร์เจนตินา",
+      "chile": "ชิลี",
+      "uk": "สหราชอาณาจักร",
+      "germany": "เยอรมนี",
+      "spain": "สเปน",
+      "netherlands": "เนเธอร์แลนด์",
+      "italy": "อิตาลี",
+      "sweden": "สวีเดน",
+      "france": "ฝรั่งเศส",
+      "china": "จีน",
+      "japan": "ญี่ปุ่น",
+      "south_korea": "เกาหลีใต้",
+      "singapore": "สิงคโปร์",
+      "india": "อินเดีย",
+      "generic": "ทั่วไป"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "มัธยมปลาย",
+      "tecnico": "ปริญญาเทคนิค",
+      "licenciatura": "ปริญญาตรี",
+      "especialidad": "ความเชี่ยวชาญ",
+      "maestria": "ปริญญาโท",
+      "doctorado": "ปริญญาเอก",
+      "posdoctorado": "หลังปริญญาเอก"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "สถาบัน",
+      "degree_specific": "เฉพาะปริญญา",
+      "program_specific": "เฉพาะโปรแกรม",
+      "discipline_specific": "เฉพาะสาขา"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "ทุกสาขาวิชา",
+      "engineering": "วิศวกรรม",
+      "social_sciences": "สังคมศาสตร์",
+      "humanities": "มนุษยศาสตร์",
+      "health_sciences": "วิทยาศาสตร์สุขภาพ",
+      "computing": "คอมพิวเตอร์",
+      "natural_sciences": "วิทยาศาสตร์ธรรมชาติ"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "ตรวจสอบแล้ว",
+    "status_reviewed_label": "ตรวจสอบแล้ว"
   },
   "about": {
     "title": "เกี่ยวกับ",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "ใช้การเปลี่ยนแปลงและสร้างรูปใหม่",
     "apply_visual_btn": "ใช้การเปลี่ยนแปลง",
     "applying": "กำลังสมัคร...",
-    "done_msg": "อัพเดตรูปแล้ว"
+    "done_msg": "อัพเดตรูปแล้ว",
+    "tab_preview": "ดูตัวอย่าง",
+    "preview_compile_btn": "คอมไพล์ตัวอย่างอีกครั้ง",
+    "preview_compiling": "กำลังรวบรวม...",
+    "preview_apply_first": "ใช้การเปลี่ยนแปลงก่อนดูตัวอย่าง",
+    "preview_tectonic_note": "Tectonic เป็นเครื่องยนต์ที่ใช้งานอยู่ หากการแสดงตัวอย่างล้มเหลว รูปนี้อาจต้องใช้ชุด LaTeX เต็มรูปแบบ (MacTeX / MiKTeX / TeX Live) คุณสามารถเปลี่ยนเครื่องยนต์ได้ในการตั้งค่า → เครื่องยนต์ LaTeX",
+    "preview_error_prefix": "ข้อผิดพลาดในการรวบรวม:",
+    "preview_no_tectonic": "ไม่ได้ติดตั้ง Tectonic หรือไม่พบ"
   },
   "elements_tab": {
     "title": "องค์ประกอบ",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "ประเภทภายใน",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "ย่อหน้า",
+        "description": "บล็อกข้อความรูปแบบอิสระ รองรับการเน้น การอ้างอิงแบบอินไลน์ และ LaTeX แบบอินไลน์",
+        "latex_output": "ข้อความ Escape ที่เขียนลงในเอกสารโดยตรง"
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "ชื่อเรื่อง/หัวเรื่อง",
+        "description": "ส่วนหัวของส่วน: ส่วน (H1) ส่วนย่อย (H2) หรือส่วนย่อย (H3)",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "รูปที่",
+        "description": "รูปภาพพร้อมคำบรรยาย แหล่งที่มา และป้ายกำกับสำหรับการอ้างอิงโยง ความกว้าง: 50%, 75%, 100%",
+        "latex_output": "สภาพแวดล้อมรูป + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "ตาราง",
+        "description": "ตารางที่มีส่วนหัว แถว คำอธิบาย และแหล่งที่มา รูปแบบ: เรียบง่าย แถบหนังสือ กว้าง โต๊ะยาว",
+        "latex_output": "สภาพแวดล้อมของตาราง + ตาราง/โต๊ะยาว + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "สมการ",
+        "description": "สูตรทางคณิตศาสตร์แบบมีเลขหรือไม่มีเลข เขียนด้วยคณิตศาสตร์ LaTeX ล้วนๆ",
+        "latex_output": "สภาพแวดล้อมสมการหรือสมการ* + ตัวเลือก \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "รายการ",
+        "description": "รายการสัญลักษณ์แสดงหัวข้อย่อย (แยกรายการ) ลำดับเลข (แจกแจง) หรือคำอธิบาย (คำอธิบาย)",
+        "latex_output": "\\begin{รายการ/แจงนับ/คำอธิบาย}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "การอ้างอิงบรรณานุกรม",
+        "description": "การอ้างอิงในวงเล็บ การเล่าเรื่อง หรือการอ้างอิงหลายรายการเชื่อมโยงกับคีย์ BibTeX ในไฟล์ .bib",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "ดิบ LaTeX",
+        "description": "ส่วนย่อย LaTeX โดยพลการสำหรับกรณีขั้นสูง ต้องมีการยืนยันจากผู้ใช้",
+        "latex_output": "คำต่อคำ, หนีไม่พ้น. ใช้ด้วยความระมัดระวัง"
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "ข้อความ",
+      "content": "เนื้อหา",
+      "structure": "โครงสร้าง",
+      "navigation": "การนำทาง",
+      "image": "รูปภาพ",
+      "graphic": "กราฟิก",
+      "data": "ข้อมูล",
+      "statistics": "สถิติ",
+      "mathematics": "คณิตศาสตร์",
+      "formula": "สูตร",
+      "list": "รายการ",
+      "enumeration": "การแจงนับ",
+      "bibliography": "บรรณานุกรม",
+      "reference": "อ้างอิง",
+      "advanced": "ขั้นสูง",
+      "custom": "กำหนดเอง"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "ความคืบหน้าโครงการ",
+    "row_overall": "โครงการ",
+    "row_setup": "ตั้งค่า",
+    "row_writing": "การเขียน",
+    "row_delivery": "จัดส่ง",
+    "row_quality": "คุณภาพขั้นสุดท้าย",
+    "pending_prefix": "รอดำเนินการ:",
+    "delivery_blocked": "มีสินค้ารอดำเนินการก่อนส่งมอบขั้นสุดท้าย",
+    "setup_title": "ตั้งชื่อผลงานที่แท้จริง",
+    "setup_author": "ประพันธ์หลักให้สมบูรณ์",
+    "setup_institution": "เข้าสู่สถาบันที่แท้จริง",
+    "setup_profile": "เลือกประวัติการศึกษา",
+    "setup_language": "เลือกภาษาพื้นฐาน",
+    "setup_advisor": "เพิ่มที่ปรึกษาหรือผู้อำนวยการวิทยานิพนธ์อย่างน้อยหนึ่งคน",
+    "writing_sections": "เปิดใช้งานส่วนเนื้อหาอย่างน้อยหนึ่งส่วน",
+    "writing_draft": "เขียนเนื้อหาในส่วนหลัก",
+    "writing_words": "พัฒนาร่างฉบับแรกที่สำคัญ",
+    "writing_reviewed": "ทำเครื่องหมายอย่างน้อยหนึ่งส่วนว่าแก้ไขแล้ว",
+    "delivery_references": "รวมส่วนอ้างอิง",
+    "delivery_abstract": "เขียนบทสรุปหรือบทคัดย่อ",
+    "delivery_required": "กรอกส่วนที่จำเป็นของโปรไฟล์ให้ครบถ้วน",
+    "delivery_latex": "ยืนยันหรือลบบล็อก LaTeX ที่ไม่ได้รับการตรวจสอบ",
+    "delivery_committee": "กรอกคณะกรรมการเพื่อการทำงานขั้นสูง",
+    "delivery_review_main": "ตรวจสอบส่วนหลักก่อนจัดส่ง",
+    "quality_citation": "รวมการอ้างอิงที่ตรวจสอบได้อย่างน้อยหนึ่งรายการในร่างกาย",
+    "quality_required_reviewed": "ทำเครื่องหมายส่วนเนื้อหาที่ต้องการว่าแก้ไขแล้ว",
+    "quality_raw_latex": "ย้ายหรือตรวจสอบบล็อก LaTeX ที่นำเข้าด้วยตนเองก่อนส่งมอบขั้นสุดท้าย",
+    "quality_plugin_warnings": "แก้ไขคำเตือนรูปหรือปลั๊กอินก่อนส่งมอบขั้นสุดท้าย",
+    "quality_profile": "ใช้โปรไฟล์ของสถาบันหรือแบบกำหนดเองสำหรับการส่งผลงานอย่างเป็นทางการ"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "ปลั๊กอิน",
+    "subtitle": "มีปลั๊กอินภาพ {{count}} สำหรับการแทรกรูปภาพและไดอะแกรม",
+    "search_placeholder": "ค้นหาตามชื่อ แพ็คเกจ หรือหมวดหมู่...",
+    "no_results": "ไม่มีปลั๊กอินที่ตรงกับการค้นหานั้น",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "มีเสถียรภาพ",
+      "beta": "เบต้า",
+      "experimental": "ทดลอง",
+      "draft": "ร่าง"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "เลือกภาษาของคุณ",
+    "subheading": "คุณสามารถเปลี่ยนแปลงได้ในภายหลังในการตั้งค่า",
+    "more_languages": "ภาษาเพิ่มเติม",
+    "loading_more": "กำลังโหลดภาษาเพิ่มเติม...",
+    "catalog_error": "ไม่สามารถโหลดภาษาเพิ่มเติมได้ คุณสามารถดำเนินการต่อด้วยภาษาแบบรวมได้",
+    "skip": "ข้าม",
+    "install_error": "ไม่สามารถติดตั้งภาษานั้นได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง"
   },
   "toast": {
     "close_button": "ปิดการแจ้งเตือน",
@@ -2527,7 +2721,50 @@
     "redo": "ทำซ้ำ",
     "restore_btn": "ตัวอย่างการคืนค่า",
     "restore_title": "แทนที่ด้วยตัวอย่างการทำงานขั้นต่ำ",
-    "advanced_section": "ตัวเลือกขั้นสูง"
+    "advanced_section": "ตัวเลือกขั้นสูง",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "ป้ายกำกับสำหรับตัวอ้างอิงโยง (e.g.eq:quadratic) ว่างเปล่าหมายถึงไม่มีป้ายกำกับ"
+      },
+      "chemistry_output": {
+        "label": "โหมดเอาท์พุต",
+        "description": "mhchem: อินไลน์ \\ce{...} เคมฟิก: โครงสร้างมุมบอนด์"
+      },
+      "circuit_style": {
+        "label": "สไตล์อเมริกัน",
+        "description": "เปิด: สัญลักษณ์ส่วนประกอบแบบอเมริกัน (IEEE) ปิด: สัญลักษณ์ยุโรป (IEC)"
+      },
+      "tikz_libraries": {
+        "label": "ไลบรารี TikZ",
+        "description": "ไลบรารี TikZ พิเศษที่คั่นด้วยเครื่องหมายจุลภาค (e.g. calc, arrows.meta, รูปแบบ)"
+      },
+      "pgfplots_options": {
+        "label": "ตัวเลือก PGFPlots",
+        "description": "ตัวเลือกพิเศษที่แทรกลงใน \\beginZXQ0QXZ[…] เช่น xbar หรือ compat=1.18"
+      },
+      "forest_options": {
+        "label": "ทางเลือกของป่าไม้",
+        "description": "ตัวเลือกพิเศษที่ส่งผ่านไปยังสภาพแวดล้อมฟอเรสต์ เช่น ขอบทางแยกหรือสไตล์ป้ายขอบ"
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "กราฟแบบกำหนดทิศทางและแบบไม่กำหนดทิศทางพร้อมโหนด ขอบ รูปร่าง และลักษณะส่วนโค้ง"
+      },
+      "pgfplots": {
+        "description": "พล็อต ฮิสโตแกรม แผนภูมิแท่ง แผนภูมิกระจาย และแผนที่ความร้อนด้วย PGFPlots"
+      },
+      "tree_forest": {
+        "description": "ไวยากรณ์แบบลำดับชั้น อนุกรมวิธาน สายวิวัฒนาการ การตัดสินใจ และต้นไม้ความน่าจะเป็น"
+      },
+      "table_data": {
+        "description": "ตารางข้อมูลที่สามารถส่งออกไปยังแท็บหนังสือ ตารางยาว หรือข้อมูล PGFPlots"
+      },
+      "timeline_gantt": {
+        "description": "แผนภูมิแกนต์และไทม์ไลน์พร้อมกลุ่ม งาน และการขึ้นต่อกัน"
+      }
+    }
   },
   "help": {
     "title": "ศูนย์ช่วยเหลือ",

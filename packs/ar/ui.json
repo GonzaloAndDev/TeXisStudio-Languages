@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "أفضل الطباعة والإخراج من أي بديل خفيف الوزن",
+            "ببليوغرافيات متوافقة بنسبة 100% (يتضمن الإصدار الصحيح من biber)",
+            "جميع حزم CTAN متاحة دون قيود",
+            "دعم متعدد اللغات الأصلي: السيريلية، CJK، العربية، الديفاناغاري",
+            "تصحيح التجميع المتعدد التمريرات: جدول المحتويات، والفهارس، والإسنادات الترافقية",
+            "تثبيت Homebrew بأمر واحد"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "تنزيل كبير (~5 جيجابايت)",
+            "يستغرق التثبيت من 10 إلى 20 دقيقة"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "تثبيت Homebrew (إذا لم يكن لديك)",
+              "note": "Homebrew هو مدير حزم macOS القياسي. إذا كان لديك بالفعل، تخطي هذه الخطوة."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "قم بتثبيت MacTeX باستخدام Homebrew",
+              "note": "التنزيلات ~ 5 جيجابايت. تستغرق العملية من 10 إلى 20 دقيقة حسب اتصالك."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "تحديث متغيرات البيئة",
+              "note": "أو ببساطة قم بإغلاق الوحدة الطرفية وإعادة فتحها حتى تلتقط المسار الجديد."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن تستجيب جميع الأوامر الثلاثة برقم الإصدار."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه حتى يكتشف التثبيت الجديد."
             }
           ],
           "tagline": "موصى به - أفضل المخرجات وأكثرها استقرارًا واكتمالًا",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "تم تركيبه في أقل من دقيقة واحدة",
+            "يقوم بتنزيل الحزم التي تستخدمها أطروحتك فقط",
+            "يتواجد مع MacTeX إذا كنت بحاجة إلى كليهما",
+            "قابلة للترقية مع ترقية المشروب"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "التجميع الأول يتطلب اتصال بالإنترنت",
+            "قد تتطلب الحزم المتخصصة للغاية (الفيزياء المتقدمة، وما إلى ذلك) MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "تثبيت Homebrew (إذا لم يكن لديك)",
+              "note": "إذا كان لديك برنامج Homebrew بالفعل، فتخط هذه الخطوة."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "قم بتثبيت Tectonic مع Homebrew",
+              "note": "تحميل خفيف. جاهز في أقل من دقيقة واحدة."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن ترى شيئًا مثل: التكتونية 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه حتى يكتشف التكتونية."
             }
           ],
           "tagline": "خفيف الوزن - يقوم بتنزيل ما يحتاجه فقط",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "أفضل الطباعة والإخراج على البدائل خفيفة الوزن",
+            "المراجع الببليوغرافية الصحيحة بنسبة 100% - تم تضمين إصدار biber المتوافق",
+            "جميع حزم CTAN دون قيود",
+            "دعم متعدد اللغات الأصلي: السيريلية، CJK، العربية، الديفاناغاري",
+            "تصحيح التجميع المتعدد التمريرات: جدول المحتويات، والفهارس، والإسنادات الترافقية",
+            "التثبيت باستخدام أمر نظام واحد"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "يستغرق التثبيت الكامل 3-5 جيجابايت",
+            "قد يكون إصدار المستودع أقدم قليلاً من الإصدار الرسمي"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "أوبونتو / ديبيان / لينكس منت",
+              "note": "يشمل كل شيء. إذا كانت المساحة محدودة، استخدم texlive-xetex بدلاً من texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "فيدورا / RHEL / CentOS ستريم",
+              "note": "تثبيت نظام TeX Live الكامل."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "القوس / مانجارو",
+              "note": "تثبيت المجموعات الرئيسية وbiber للببليوغرافيا."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "المخطط كامل عبر zypper"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن تستجيب جميع الأوامر الثلاثة برقم الإصدار."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه حتى يكتشف التثبيت الجديد."
             }
           ],
           "tagline": "موصى به - أفضل المخرجات وأكثرها استقرارًا واكتمالًا",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "لا يتطلب تثبيت سودو",
+            "قم بتنزيل ما تحتاجه أطروحتك فقط",
+            "يتواجد مع TeX Live إذا كنت بحاجة إلى كليهما"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "التجميع الأول يتطلب الإنترنت",
+            "قد تتطلب الحزم المتخصصة للغاية (الفيزياء المتقدمة، وما إلى ذلك) TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "التثبيت باستخدام البرنامج النصي الرسمي",
+              "note": "قم بتنزيل الملف الثنائي وتثبيته في ~/.cargo/bin أو ~/bin وفقًا لإعدادك."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "البديل: التثبيت مع Cargo",
+              "note": "يتطلب تثبيت الصدأ. يجمع من المصدر، ويستغرق عدة دقائق."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن ترى شيئًا مثل: التكتونية 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه."
             }
           ],
           "tagline": "خفيف الوزن - لا يلزم وجود مدير لحزم النظام",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "أفضل الطباعة والإخراج على البدائل خفيفة الوزن",
+            "المراجع الببليوغرافية الصحيحة بنسبة 100% - تتضمن biber ومتوافقة",
+            "جميع حزم CTAN، يتم تنزيلها عند الطلب",
+            "لا يتطلب Strawberry Perl (على عكس latexmk اليدوي)",
+            "دعم متعدد اللغات: السيريلية، CJK، العربية، الديفاناغاري",
+            "برنامج التثبيت الرسومي .exe سهل الاستخدام"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "قد تكون وحدة التحكم MiKTeX مربكة في البداية",
+            "يتطلب قبول تثبيت الحزمة أثناء التجميع الأول"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "تثبيت MiKTeX مع الجناح",
+              "note": "افتح PowerShell كمستخدم عادي (لا حاجة لمسؤول). تم تضمين Winget في نظام التشغيل Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "البديل: المثبت الرسومي",
+              "note": "انتقل إلى miktex.org → تنزيل → Windows. قم بتنزيل برنامج التثبيت 64 بت وتشغيله. اختر تثبيت MiKTeX لي فقط."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "التحقق من التثبيت",
+              "note": "ينبغي الرد مع رقم الإصدار."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه حتى يكتشف MiKTeX."
             }
           ],
           "tagline": "موصى به على نظام التشغيل Windows — أفضل إخراج، مكتمل بدون لغة Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "تم تركيبه خلال دقيقة واحدة باستخدام Winget",
+            "لا يتطلب الفراولة بيرل",
+            "يتواجد مع MiKTeX إذا كنت بحاجة إلى كليهما",
+            "قابلة للترقية مع ترقية Winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "التجميع الأول يتطلب الإنترنت",
+            "قد تتطلب الحزم المتخصصة للغاية (الفيزياء المتقدمة، وما إلى ذلك) MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "التثبيت مع وينجت",
+              "note": "افتح PowerShell كمستخدم عادي. لا حاجة للمسؤول."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن ترى شيئًا مثل: التكتونية 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه حتى يكتشف التكتونية."
             }
           ],
           "tagline": "خفيف الوزن — أمر واحد، بدون لغة Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "أفضل الطباعة والإخراج على البدائل خفيفة الوزن",
+            "تم تضمين جميع حزم CTAN، ولا توجد تنزيلات إضافية",
+            "الببليوغرافيات الصحيحة بنسبة 100% - بما في ذلك البيبر المتوافق",
+            "دعم متعدد اللغات الأصلي: السيريلية، CJK، العربية، الديفاناغاري",
+            "متوافق مع أي ملف تعريف مؤسسي"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "التثبيت البطيء (30-90 دقيقة)",
+            "يستغرق 4-8 جيجابايت من مساحة القرص",
+            "يتطلب Strawberry Perl لـ latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "قم بتنزيل برنامج التثبيت TeX Live",
+              "note": "انتقل إلى tug.org/texlive → تنزيل → install-tl-windows.exe. قم بتنزيل المثبت."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "قم بتشغيل المثبت",
+              "note": "اختر تثبيت بسيط (كبير) لتثبيت كل شيء. تستغرق العملية من 30 إلى 90 دقيقة."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "تثبيت Strawberry Perl (مطلوب لـ latexmk)",
+              "note": "مطلوب لغة Perl حتى يعمل latexmk على نظام التشغيل Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "التحقق من التثبيت",
+              "note": "يجب أن تستجيب جميع الأوامر الثلاثة برقم الإصدار."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "أعد تشغيل TeXisStudio",
+              "note": "أغلق التطبيق وأعد فتحه."
             }
           ],
           "tagline": "مكتمل - أفضل إخراج وأكثر استقرارًا، ولا توجد مفاجآت",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "ما بعد الدكتوراه",
     "level_bachillerato": "المدرسة الثانوية",
     "level_tecnico": "التقنية",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio في الوضع الموجه: ركز على عملك وسيتعامل التطبيق مع التنسيق والمراجع والتسليم.",
+    "error_opening_project": "لا يمكن فتح هذا المجلد كمشروع TeXisStudio. تأكد من أنه يحتوي على tesis.project.yaml.",
+    "search_library_hint": "مكتبة البحث",
+    "detecting_latex": "جارٍ اكتشاف LaTeX...",
+    "error_importing_tex": "تعذر استيراد الملف .tex: {{error}}"
   },
   "wizard": {
     "title": "مشروع جديد",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "قاعدة صلبة للأطروحات",
     "recommend_reason_verified": "لديه التحقق المؤسسي",
     "recommend_reason_reviewed": "تمت مراجعته من قبل الفريق",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "جوجل درايف لسطح المكتب"
+    "error_vocab_install": "لا يمكن تفعيل \"{{name}}\". تحقق من اتصالك أو قم بإلغاء تحديده لإنشاء المشروع بدون هذا الدعم. التفاصيل: {{error}}",
+    "google_drive_desktop": "جوجل درايف لسطح المكتب",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "المعادلات المرقمة \\\\eqref{}",
+          "النظريات والبراهين",
+          "المصفوفات والمتجهات",
+          "الرسوم البيانية التبادلية (tikz-cd)",
+          "أشجار الإثبات (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX هي الأداة الأساسية للرياضيات الرسمية."
+      },
+      "logica": {
+        "native": [
+          "أشجار الخصم (bussproofs)",
+          "جداول الحقيقة",
+          "دلالات رسمية",
+          "مخططات هاس"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "الوحدات المادية \\\\SI{} (siunitx)",
+          "المشتقات الجزئية \\\\pdv{}",
+          "مخططات فاينمان (tikz-feynman)",
+          "قطع الأراضي (pgfplots)"
+        ],
+        "external": [
+          "عمليات المحاكاة العددية (التصدير بتنسيق PDF/PNG)"
+        ],
+        "tip": "استخدم siunitx لجميع الوحدات — لا تكتب أبدًا \"كم/ساعة\" مباشرة."
+      },
+      "quimica": {
+        "native": [
+          "التفاعلات الكيميائية \\\\ce{} (mhchem)",
+          "الهياكل الجزيئية (الشكل الكيميائي)",
+          "الوحدات \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "الهياكل ثلاثية الأبعاد المعقدة (التصدير من ChemDraw كـ PDF)"
+        ],
+        "tip": "للهياكل البسيطة استخدم chemfig. بالنسبة لعلم البلورات أو البروتينات، قم باستيرادها باسم PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "الوحدات \\\\SI{} (siunitx)",
+          "الدوائر (circuitikz)",
+          "مخططات البيانات (pgfplots)",
+          "الخوارزميات (algpseudocode)"
+        ],
+        "external": [
+          "الرسومات الفنية (أوتوكاد → PDF)",
+          "مخططات ثنائي الفينيل متعدد الكلور (KiCad → PDF)"
+        ],
+        "tip": "يغطي circuitikz معظم دوائر الإشارة والطاقة."
+      },
+      "computacion": {
+        "native": [
+          "كود المصدر (lstlisting)",
+          "خوارزميات مع الكود الكاذب",
+          "مؤامرات الأداء (pgfplots)",
+          "أشجار القرار (تيكز)"
+        ],
+        "external": [
+          "مخططات معمارية معقدة (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "الحواشي واسعة النطاق",
+          "الأجهزة الحرجة والاستشهادات النصية",
+          "الفهارس التحليلية (makeindex)",
+          "أمثلة لغوية (gb4e)"
+        ],
+        "external": [
+          "صور العمل الفني (دقة عالية مثل PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "الجداول الإحصائية (أشرطة الكتب)",
+          "قطع الأراضي (pgfplots)",
+          "الاستشهادات الببليوغرافية بأسلوب APA/Chicago"
+        ],
+        "external": [
+          "تصورات البيانات المعقدة (R/Python → PDF/PNG)"
+        ],
+        "tip": "للمؤامرات البسيطة استخدم pgfplots. للحصول على تصورات مفصلة، ​​قم بالتصدير من R أو Python."
+      },
+      "medicina": {
+        "native": [
+          "الجداول السريرية (أسماء الكتب)",
+          "الوحدات الطبية \\\\SI{}",
+          "الأرقام مع التسمية التوضيحية والتسمية"
+        ],
+        "external": [
+          "صور / الأنسجة DICOM (تصدير بتنسيق PNG/TIFF عالي الدقة)",
+          "المخططات الانسيابية السريرية (draw.io → PDF)"
+        ],
+        "tip": "يجب استيراد الصور الطبية التشخيصية كملفات خارجية، وعدم إعادة إنتاجها في LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "النتائج الكاملة (MuseScore/Sibelius → PDF)",
+          "المقاطع الصوتية (رابط خارجي)"
+        ],
+        "tip": "بالنسبة للتدوين الموسيقي المعقد، استخدم محرر النقاط وأرفقه كـ PDF."
+      },
+      "arte": {
+        "native": [
+          "الأوراق الفنية المجدولة (أشرطة الكتب)"
+        ],
+        "external": [
+          "اللوحات والأعمال الفنية (دقة عالية بتنسيق PNG/TIFF)",
+          "المحفظة المرئية (PDF خارجي)",
+          "الخطط (DWG → PDF)"
+        ],
+        "tip": "بالنسبة للحافظات، قم بتضمين PDF أو PNG عالي الجودة. يدير LaTeX التخطيط والنص الوصفي."
+      },
+      "arquitectura": {
+        "native": [
+          "جداول الميزانية والمواد",
+          "الجداول الزمنية",
+          "النصوص الوصفية"
+        ],
+        "external": [
+          "مخططات الطوابق (AutoCAD/ArchiCAD → PDF)",
+          "العروض (التصدير بتنسيق PNG/PDF)",
+          "النماذج (الصورة بصيغة PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "جداول البيانات (علامات التبويب)",
+          "الوحدات \\\\SI{}",
+          "أشجار التطور (tikz)"
+        ],
+        "external": [
+          "الرسوم البيانية التشريحية المعقدة (إنكسكيب → PDF/SVG)",
+          "الفحص المجهري (عالية الدقة PNG)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "الجداول الإحصائية (أشرطة الكتب)",
+          "قطع الأراضي (pgfplots)",
+          "المعادلات الاقتصادية"
+        ],
+        "external": [
+          "لوحات المعلومات والمرئيات التفاعلية (تصدير بتنسيق PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "تشخيص المشروع",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "استعادة هذا الإصدار",
     "snapshot_delete_title": "حذف النسخة",
     "section_guidance_label": "توجيه القسم",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "حفظ والخروج",
+    "snapshot_restore_action": "استعادة",
+    "continue_editing": "استمر في التحرير",
+    "unsaved_changes_message": "لديك تغييرات غير محفوظة في هذا القسم. ماذا تريد أن تفعل قبل المغادرة؟",
+    "unsaved_changes_title": "التغييرات غير المحفوظة",
+    "review_ai": "منظمة العفو الدولية",
+    "visual_type_selector_title": "ما نوع الرسم البياني الذي تريد إدراجه؟",
+    "default_set_a": "تعيين أ",
+    "add_paragraph": "فقرة جديدة",
+    "review_grammar": "القواعد",
+    "bib_refs_count": "مراجع {{count}} في .bib",
+    "section_status_legend": "أسطورة الحالة",
+    "sections_count": "أقسام {{count}}",
+    "review_spell": "تهجئة",
+    "leave_without_saving": "غادر دون حفظ",
+    "default_table_column_2": "العمود 2",
+    "default_set_c": "تعيين ج",
+    "default_set_b": "مجموعة ب",
+    "default_table_column_1": "العمود 1",
+    "no_bib_file": "لا .bib",
     "insert_plugin_figure_title": "أدخل الشكل العلمي (61 نوعا)",
     "block_plugin_figure": "الشكل+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "نعرض فقط ما تحتاج إلى كتابته وتقديمه دون تعقيد. يمكنك تمكين",
     "basic_mode_suffix": "في قسم النص.",
     "basic_top_body": "تم تصميم هذه الإعدادات لاتخاذ قرارات مفيدة دون إدخال التفاصيل الفنية لـ LaTeX. التبديل إلى",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "التحقق من وجود تحديثات",
+    "update_checking": "جارٍ التحقق…",
+    "update_available": "الإصدار {{version}} متوفر — أعد التشغيل للتثبيت",
+    "update_up_to_date": "أنت على اطلاع",
+    "update_error": "لا يمكن التحقق من وجود تحديثات",
     "refresh_catalog": "تحديث الكتالوج",
     "package_status_stable": "مستقر",
     "package_status_beta": "بيتا",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "خفيفة الوزن وسهلة الصيانة. يوصى به للكتابة اليومية والمشاريع التي لا تتطلب توزيع TeX الكامل.",
     "latex_suite_title": "مجموعة LaTeX كاملة",
-    "latex_suite_description": "يستخدم latexmk مع TeX Live أو MiKTeX. يوصى به للحزم المتقدمة والببليوغرافيات المعقدة والتسليم النهائي.",
+    "latex_suite_description": "مجموعة LaTeX الكاملة ({{suiteName}}) مع latexmk. يدعم جميع حزم CTAN، biblatex + Biber، shell-escape، وتجميع التمريرات المتعددة. الخيار الموصى به للمستندات الكاملة والملفات التعريفية المؤسسية وأرقام المكونات الإضافية.",
     "latex_available": "متاح",
     "latex_not_available": "غير مثبت",
     "latex_detected_version": "النسخة المكتشفة: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "الكمبيوتر المحمول الافتراضي",
     "window_mode_remember": "تذكر الحجم الأخير",
     "window_mode_maximized": "تعظيم",
-    "window_mode_hint": "اختر نافذة بحجم 1280 × 760، أو استعد آخر حجم استخدمته، أو افتحها باستخدام كل مساحة الشاشة المتاحة."
+    "window_mode_hint": "اختر نافذة بحجم 1280 × 760، أو استعد آخر حجم استخدمته، أو افتحها باستخدام كل مساحة الشاشة المتاحة.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "انتقل إلى «إدارة تثبيت LaTeX» لتثبيت {{suiteName}}.",
+    "latex_recommended_badge": "موصى به",
+    "latex_upgrade_banner": "تم تثبيت {{suiteName}} - وهو يدعم جميع حزم CTAN، وBiber، وأرقام المكونات الإضافية دون قيود. يوصى بالتبديل.",
+    "latex_upgrade_btn": "قم بالتبديل إلى {{suiteName}}",
+    "language_catalog_error": "تعذر تحميل كتالوج اللغة. تحقق من اتصالك وحاول مرة أخرى.",
+    "language_install_error": "تعذر تثبيت حزمة اللغة. تحقق من اتصالك وحاول مرة أخرى."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "لم يتم العثور على الصورة \"{{file}}\" المشار إليها في القسم \"{{section}}\".",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "هل تريد حذف الملف الشخصي؟",
     "delete_profile_body_before": "سيتم حذف هذا",
     "delete_profile_body_after": "لا يمكن التراجع عن هذا الإجراء.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "ملفات التعريف المثبتة {{profiles}}",
     "installed_profiles": "الملفات الشخصية المثبتة",
     "profile_count_hint": "ملفات تعريف {{count}} · انقر لعرض التفاصيل",
     "import_profile_title": "استيراد الملف الشخصي من الدليل",
@@ -1135,30 +1297,31 @@
     "selected_chip": "مختارة",
     "installed_chip": "مثبتة",
     "sections_count_suffix": "أقسام",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "الإضافات",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "المسألة الأمامية",
+      "body": "الجسم",
+      "back_matter": "عودة المسألة",
+      "appendix": "الملحق"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "صفحة العنوان",
+      "abstract": "مجردة",
+      "acknowledgements": "شكر وتقدير",
+      "table_of_contents": "جدول المحتويات",
+      "list_of_figures": "قائمة الأرقام",
+      "list_of_tables": "قائمة الجداول",
+      "introduction": "مقدمة",
+      "theoretical_framework": "الإطار النظري",
+      "methodology": "المنهجية",
+      "results": "النتائج",
+      "discussion": "مناقشة",
+      "conclusions": "الاستنتاجات",
+      "references": "المراجع",
+      "appendix": "الملحق",
+      "appendix_a": "الملحق أ"
+    },
+    "tags_placeholder": "أطروحة، المرحلة الجامعية، ابا"
   },
   "progress": {
     "status_draft": "مسودة",
@@ -1280,7 +1443,14 @@
     "generating_response": "جارٍ إنشاء الاستجابة…",
     "message_placeholder": "اكتب رسالتك... (أدخل للإرسال)",
     "configure_key_first": "قم بتكوين مفتاح API الخاص بك أولاً",
-    "send": "Send"
+    "send": "أرسل",
+    "error_not_configured": "لم يتم تكوين مفتاح API. أضف مفتاحك في علامة تبويب الموفر.",
+    "error_auth": "مفتاح API غير صالح. تأكد من أنها صحيحة ونشطة.",
+    "error_rate_limited": "تم الوصول إلى حد الطلب. حاول مرة أخرى خلال بضع دقائق.",
+    "error_network": "خطأ في الشبكة. تحقق من اتصالك بالإنترنت.",
+    "error_safety": "تم حظر الطلب بواسطة سياسة الأمان.",
+    "error_model_unavailable": "النموذج المحدد غير متوفر. اختر واحدًا آخر في الإعدادات.",
+    "error_provider": "خطأ في الموفر. حاول ثانية."
   },
   "editor_meta": {
     "project_guide": "دليل المشروع",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "غير مؤكدة - لن يتم تضمين هذه الكتلة في PDF حتى تقوم بتأكيدها.",
     "packages": "الحزم",
     "edit_figure_title": "قم بتحرير العنوان أو التسمية، أو قم بإعادة إنشاء الشكل",
-    "edit_figure": "تحرير الشكل"
+    "edit_figure": "تحرير الشكل",
+    "preview_pending": "قم بتجميع معاينة من علامة التبويب «معاينة» لرؤية الشكل هنا."
   },
   "compile": {
     "ensure_latex_installed_path": "تأكد من تثبيت برنامج التحويل البرمجي LaTeX وتوافره في PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "تجميع... (خطوط {{count}})",
     "backends_available": "{{backends}} متاح",
     "latex_not_installed_status": "⚠ LaTeX غير مثبت",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "تجميع",
+    "preflight_action_export": "تقديم التصدير",
+    "preflight_title": "فحص ما قبل {{action}}",
+    "preflight_has_errors": "قم بإصلاح خطأ (أخطاء) {{count}} قبل المتابعة.",
+    "preflight_has_warnings": "تم العثور على تحذيرات {{count}}. يمكنك الاستمرار على أي حال.",
+    "preflight_errors_section": "أخطاء ({{count}})",
+    "preflight_warnings_section": "التحذيرات ({{count}})",
+    "preflight_suggestions_section": "الاقتراحات ({{count}})",
+    "export_success": "اكتمل التصدير",
+    "compile_as_draft": "تجميع كمسودة",
+    "readiness_complete": "كامل",
+    "readiness_export_title": "تم حظر التسليم النهائي",
+    "readiness_back": "العودة للمراجعة",
+    "readiness_compile_title": "المشروع غير جاهز للنسخة الرسمية",
+    "readiness_export_subtitle": "للتصدير في الوضع النهائي، قم أولاً بإكمال عمليات التسليم والجودة.",
+    "readiness_compile_subtitle": "قم بتجميع هذه النقاط كمسودة أو قم بمراجعتها قبل التعامل معها كنسخة رسمية.",
+    "readiness_delivery": "التسليم",
+    "readiness_quality": "الجودة النهائية",
     "severity_error": "خطأ",
     "severity_warning": "تحذير",
     "severity_suggestion": "اقتراح",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "استخدم ▲▼ لتغيير الترتيب.",
     "order_hint_line_2": "يحدد الترتيب القائمة المنسدلة عند إنشاء المشروع.",
     "add_custom_style": "أضف نمطًا مخصصًا",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "المعرف *",
+    "biblatex_style_required": "أسلوب بيبلاتكس *",
+    "references_default_title": "المراجع",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "الاقتباس",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "تاريخ المؤلف",
+      "numeric": "رقمي",
+      "notes_bibliography": "ملاحظات-الببليوج.",
+      "author_page": "صفحة المؤلف"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "جمعية علم النفس الأمريكية، الطبعة السابعة",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "علم النفس",
+          "التعليم",
+          "العلوم الاجتماعية",
+          "التمريض",
+          "الاتصالات"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "الأسلوب الأكثر استخدامًا على مستوى العالم. مطلوب في العديد من برامج علم النفس والتربية والعلوم الاجتماعية. الطبعة السابعة (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "الولايات المتحدة",
+          "كندا",
+          "أمريكا اللاتينية",
+          "أستراليا"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(المؤلف، السنة)",
+        "bibliography_title": "المراجع"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "توصيات Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "الطب",
+          "التمريض",
+          "صيدلية",
+          "طب الأسنان",
+          "العلوم الصحية"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "النمط الرقمي المطلوب للعلوم الصحية. يتم ترتيب المراجع حسب المظهر. قياسي في مجلات MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "العلوم العالمية والطبية والصحية"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "المراجع"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE نمط الاقتباس",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "الهندسة الكهربائية",
+          "الحوسبة",
+          "الاتصالات",
+          "الروبوتات",
+          "إلكترونيات"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "النمط الرقمي القياسي للهندسة والحوسبة والتكنولوجيا. تم اعتماده على نطاق واسع في كليات الهندسة.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "العالمية والهندسة والتكنولوجيا"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "المراجع"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (ملاحظات)",
+        "full_name": "دليل الأسلوب Chicago، الإصدار السابع عشر، الملاحظات-الببليوغرافيا",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "التاريخ",
+          "الأدب",
+          "الفنون",
+          "فلسفة",
+          "الدراسات الدينية"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "نظام الملاحظات والببليوغرافيا للعلوم الإنسانية. تظهر الاقتباسات في الحواشي السفلية.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "الولايات المتحدة",
+          "المملكة المتحدة",
+          "كندا، العلوم الإنسانية"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "حاشية سفلية¹",
+        "bibliography_title": "قائمة المراجع"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (تاريخ المؤلف)",
+        "full_name": "دليل الأسلوب Chicago، الإصدار السابع عشر، تاريخ المؤلف",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "الاقتصاد",
+          "العلوم السياسية",
+          "علم الاجتماع",
+          "الأنثروبولوجيا",
+          "الجغرافيا"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago متغير تاريخ المؤلف، مفضل في العلوم الاجتماعية والاقتصاد.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "الولايات المتحدة",
+          "كندا، العلوم الاجتماعية"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(سنة المؤلف)",
+        "bibliography_title": "المراجع"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "دليل MLA، الطبعة التاسعة",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "الأدب",
+          "اللغة",
+          "اللغويات",
+          "الدراسات الثقافية",
+          "البلاغة"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "معيار اللغة والأدب والدراسات الثقافية في أمريكا الشمالية. الطبعة التاسعة (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "الولايات المتحدة",
+          "كندا، اللغة والأدب"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(صفحة المؤلف)",
+        "bibliography_title": "الأعمال المذكورة"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "هارفارد",
+        "full_name": "أسلوب هارفارد المرجعي",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "الأعمال",
+          "الإدارة",
+          "الاقتصاد",
+          "العلوم الاجتماعية"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "نمط تاريخ المؤلف مشابه لـ APA. تستخدم على نطاق واسع في جامعات المملكة المتحدة وأستراليا.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "المملكة المتحدة",
+          "أستراليا",
+          "أيرلندا",
+          "جنوب أفريقيا"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(سنة المؤلف)",
+        "bibliography_title": "المراجع"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "دليل أسلوب جمعية أبحاث العلوم الإنسانية الحديثة، الطبعة الثالثة",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "العلوم الإنسانية",
+          "التاريخ",
+          "الأدب",
+          "فلسفة",
+          "اللغويات"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "معيار العلوم الإنسانية في المملكة المتحدة مشابه لملاحظات Chicago.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "المملكة المتحدة",
+          "أيرلندا، العلوم الإنسانية"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "حاشية سفلية¹",
+        "bibliography_title": "قائمة المراجع"
       },
       "abnt": {
-        "name": "ABNT",
-        "full_name": "ABNT NBR 6023:2018",
+        "name": "أبنت",
+        "full_name": "أبنت إن بي آر 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "جميع التخصصات (البرازيل)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "المعيار الوطني للعمل الأكاديمي في الجامعات البرازيلية.",
         "regions_primary": [
-          "Brazil, required"
+          "البرازيل مطلوبة"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(المؤلف، السنة)",
+        "bibliography_title": "المراجع"
       },
       "gb7714": {
-        "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "name": "جيجابايت/ت 7714",
+        "full_name": "GB/T 7714-2015، المعيار الوطني الصيني",
         "disciplines": [
-          "All disciplines (China)"
+          "جميع التخصصات (الصين)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "المعيار الوطني للأطروحات باللغة الصينية. مطلوب في الجامعات الصينية.",
         "regions_primary": [
-          "China, required"
+          "الصين مطلوبة"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "المراجع"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "استعادة الأنماط الافتراضية",
+    "reset_action": "استعادة"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ أدخل إسناد ترافقي ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "عنوان اختياري",
     "theorem_title_placeholder": "نظرية فيثاغورس",
     "math_content": "المحتوى (يقبل LaTeX الرياضي)",
-    "theorem_content_placeholder": "دع $a^2 + b^2 = c^2$ حيث $c$ هو الوتر..."
+    "theorem_content_placeholder": "دع $a^2 + b^2 = c^2$ حيث $c$ هو الوتر...",
+    "term_placeholder": "الوجود",
+    "definition_placeholder": "فرع من الفلسفة يدرس الوجود باعتباره كائنا.",
+    "acronym_placeholder": "منظمة العفو الدولية",
+    "full_form_placeholder": "الذكاء الاصطناعي"
   },
   "citation": {
     "error_connect": "خطأ في الاتصال.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "معادلة فارغة",
     "custom_molecule": "جزيء مخصص",
     "molecule_compile_hint": "البنية التي تم إنشاؤها باستخدام chemfig عند التجميع",
-    "chemical_syntax_hint": "استخدم -> (التفاعل)، <=> (التوازن)، ^ (الغاز)، وv (الترسيب)"
+    "chemical_syntax_hint": "استخدم -> (التفاعل)، <=> (التوازن)، ^ (الغاز)، وv (الترسيب)",
+    "label_example": "الشكل:مخططي",
+    "circuit_lower": "الدائرة",
+    "diagram_lower": "مخطط",
+    "default_start": "ابدأ",
+    "default_process": "عملية",
+    "default_end": "نهاية",
+    "default_event": "الحدث {{number}}",
+    "default_major_scale": "ج- المقياس الرئيسي"
   },
   "vocabulary": {
     "title": "مفردات المجال",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "التي لديها",
     "repo_hint_suffix": "قسم. يمكن أن يكون الريبو GitHub الخاص بك.",
     "alias_placeholder": "الاسم المستعار (e.g.my-lab-terms)",
-    "adding": "جارٍ الإضافة…"
+    "adding": "جارٍ الإضافة…",
+    "catalog_error": "لا يمكن تحميل كتالوج المفردات. تحقق من اتصالك وحاول مرة أخرى.",
+    "repo_sync_error": "لا يمكن مزامنة هذا المستودع.",
+    "repo_add_error": "لا يمكن إضافة المستودع. تحقق من عنوانه وحاول مرة أخرى."
   },
   "profile_wizard": {
     "step_of": "الخطوة {{current}} من {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "التثبيت من URL",
     "install_from_url_hint": "قم بلصق URL الخاص بـ .zip الذي يحتوي على ملف تعريف صالح .yaml.",
     "install_btn": "تثبيت",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "لا تحتاج إلى اسم الملف الشخصي الدقيق",
+    "guided_hint_body": "ابدأ بمؤسستك أو بمزيج وثيق من الدرجة العلمية والمجال وأسلوب الاقتباس. إذا لم يكن هناك تطابق تام، فابدأ بقاعدة مؤسسية بسيطة وقم بتعديلها بعد ذلك.",
+    "catalog_load_error": "تعذر تحميل كتالوج الملف الشخصي. تحقق من اتصالك أو حاول مرة أخرى.",
+    "install_success": "تم تثبيت \"{{name}}\" بنجاح.",
+    "breadcrumb_all": "الكل",
+    "profile_count_one": "الملف الشخصي لـ{{count}}",
+    "profile_count_other": "الملفات الشخصية لـ {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "أمريكا",
+      "europe": "أوروبا",
+      "asia": "آسيا",
+      "generic": "عام"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "المكسيك",
+      "usa": "الولايات المتحدة",
+      "canada": "كندا",
+      "brazil": "البرازيل",
+      "argentina": "الأرجنتين",
+      "chile": "شيلي",
+      "uk": "المملكة المتحدة",
+      "germany": "ألمانيا",
+      "spain": "اسبانيا",
+      "netherlands": "هولندا",
+      "italy": "إيطاليا",
+      "sweden": "السويد",
+      "france": "فرنسا",
+      "china": "الصين",
+      "japan": "اليابان",
+      "south_korea": "كوريا الجنوبية",
+      "singapore": "سنغافورة",
+      "india": "الهند",
+      "generic": "عام"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "المدرسة الثانوية",
+      "tecnico": "الدرجة الفنية",
+      "licenciatura": "درجة البكالوريوس",
+      "especialidad": "التخصص",
+      "maestria": "درجة الماجستير",
+      "doctorado": "دكتوراه",
+      "posdoctorado": "ما بعد الدكتوراه"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "المؤسسية",
+      "degree_specific": "درجة محددة",
+      "program_specific": "خاص بالبرنامج",
+      "discipline_specific": "خاص بالمجال"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "جميع التخصصات",
+      "engineering": "الهندسة",
+      "social_sciences": "العلوم الاجتماعية",
+      "humanities": "العلوم الإنسانية",
+      "health_sciences": "العلوم الصحية",
+      "computing": "الحوسبة",
+      "natural_sciences": "العلوم الطبيعية"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "تم التحقق منه",
+    "status_reviewed_label": "تمت المراجعة"
   },
   "about": {
     "title": "حول",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "تطبيق التغييرات وتجديد الشكل",
     "apply_visual_btn": "تطبيق التغييرات",
     "applying": "جارٍ التقديم…",
-    "done_msg": "تم تحديث الشكل"
+    "done_msg": "تم تحديث الشكل",
+    "tab_preview": "معاينة",
+    "preview_compile_btn": "إعادة ترجمة المعاينة",
+    "preview_compiling": "جارٍ التجميع…",
+    "preview_apply_first": "تطبيق التغييرات قبل المعاينة.",
+    "preview_tectonic_note": "Tectonic هو المحرك النشط. إذا فشلت المعاينة، فقد يتطلب هذا الشكل مجموعة LaTeX كاملة (MacTeX / MiKTeX / TeX Live). يمكنك تغيير المحرك في الإعدادات → محرك LaTeX.",
+    "preview_error_prefix": "خطأ في التجميع:",
+    "preview_no_tectonic": "لم يتم تثبيت Tectonic أو تعذر العثور عليه."
   },
   "elements_tab": {
     "title": "العناصر",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "النوع الداخلي",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "الفقرة",
+        "description": "كتلة نصية ذات شكل حر. يدعم التركيز والاستشهادات المضمنة وLaTeX المضمنة.",
+        "latex_output": "نجا النص المكتوب مباشرة في الوثيقة."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
-        "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
+        "name": "العنوان / العنوان",
+        "description": "عنوان القسم: القسم (H1)، القسم الفرعي (H2)، أو القسم الفرعي (H3).",
+        "latex_output": "\\section{}، \\subsection{}، \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "الشكل",
+        "description": "صورة مع تسمية توضيحية ومصدر وتسمية للإسنادات الترافقية. العرض: 50%، 75%، 100%.",
+        "latex_output": "بيئة الشكل + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "الجدول",
+        "description": "جدول يحتوي على الرؤوس والصفوف والتسمية التوضيحية والمصدر. الأنماط: بسيطة، وعلامات تبويب الكتب، وواسعة، وطاولة طويلة.",
+        "latex_output": "بيئة الجدول + جدولي/طاولة طويلة + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "المعادلة",
+        "description": "صيغة رياضية مرقمة أو غير مرقمة. مكتوب بالرياضيات النقية LaTeX.",
+        "latex_output": "المعادلة أو المعادلة* البيئة + اختياري \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "قائمة",
+        "description": "قائمة نقطية (تفصيل)، مرقمة (تعداد)، أو قائمة وصفية (وصف).",
+        "latex_output": "\\begin {تعداد/تعداد/وصف}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
-        "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
+        "name": "الاقتباس الببليوغرافي",
+        "description": "اقتباسات قوسية أو سردية أو متعددة مرتبطة بمفتاح BibTeX في ملف .bib.",
+        "latex_output": "\\parencite{}، \\textcite{}، \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "الخام LaTeX",
+        "description": "جزء LaTeX تعسفي للحالات المتقدمة. يتطلب تأكيد المستخدم.",
+        "latex_output": "حرفيا، دون فرار. استخدمه بعناية."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
+      "text": "نص",
+      "content": "المحتوى",
+      "structure": "هيكل",
+      "navigation": "الملاحة",
+      "image": "صورة",
+      "graphic": "الرسم",
       "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "statistics": "إحصائيات",
+      "mathematics": "الرياضيات",
+      "formula": "صيغة",
+      "list": "قائمة",
+      "enumeration": "التعداد",
+      "bibliography": "ببليوغرافيا",
+      "reference": "مرجع",
+      "advanced": "متقدم",
+      "custom": "مخصص"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "تقدم المشروع",
+    "row_overall": "مشروع",
+    "row_setup": "الإعداد",
+    "row_writing": "الكتابة",
+    "row_delivery": "التسليم",
+    "row_quality": "الجودة النهائية",
+    "pending_prefix": "في انتظار:",
+    "delivery_blocked": "هناك عناصر معلقة قبل التسليم النهائي",
+    "setup_title": "تحديد العنوان الحقيقي للعمل",
+    "setup_author": "استكمال التأليف الرئيسي",
+    "setup_institution": "أدخل المؤسسة الحقيقية",
+    "setup_profile": "اختر الملف الأكاديمي",
+    "setup_language": "اختر اللغة الأساسية",
+    "setup_advisor": "أضف مستشارًا واحدًا أو مديرًا للأطروحة على الأقل",
+    "writing_sections": "تمكين قسم محتوى واحد على الأقل",
+    "writing_draft": "كتابة المحتوى في القسم الرئيسي",
+    "writing_words": "تطوير مسودة أولى كبيرة",
+    "writing_reviewed": "ضع علامة على قسم واحد على الأقل كمنقّح",
+    "delivery_references": "تضمين قسم المراجع",
+    "delivery_abstract": "اكتب الملخص أو الملخص",
+    "delivery_required": "أكمل الأقسام المطلوبة من الملف الشخصي",
+    "delivery_latex": "قم بتأكيد أو إزالة كتل LaTeX التي لم يتم التحقق منها",
+    "delivery_committee": "استكمال اللجنة للأعمال المتقدمة",
+    "delivery_review_main": "مراجعة الأقسام الرئيسية قبل التسليم",
+    "quality_citation": "قم بتضمين اقتباس واحد على الأقل يمكن التحقق منه في النص",
+    "quality_required_reviewed": "ضع علامة على أقسام النص المطلوبة كما تمت مراجعتها",
+    "quality_raw_latex": "قم بترحيل كتل LaTeX المستوردة أو مراجعتها يدويًا قبل التسليم النهائي",
+    "quality_plugin_warnings": "قم بحل تحذيرات الشكل أو البرنامج المساعد قبل التسليم النهائي",
+    "quality_profile": "استخدم ملف تعريف مؤسسي أو مخصص لتقديم الطلبات الرسمية"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "الإضافات",
+    "subtitle": "{{count}} المكونات الإضافية المرئية متاحة لإدراج الأشكال والرسوم البيانية.",
+    "search_placeholder": "البحث حسب الاسم أو الحزمة أو الفئة...",
+    "no_results": "لا توجد مكونات إضافية تتطابق مع هذا البحث.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "مستقر",
+      "beta": "بيتا",
+      "experimental": "تجريبي",
+      "draft": "مشروع"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "اختر لغتك",
+    "subheading": "يمكنك تغيير هذا لاحقًا في الإعدادات.",
+    "more_languages": "المزيد من اللغات",
+    "loading_more": "جارٍ تحميل المزيد من اللغات…",
+    "catalog_error": "تعذر تحميل المزيد من اللغات. يمكنك الاستمرار مع لغة المجمعة.",
+    "skip": "تخطي",
+    "install_error": "تعذر تثبيت تلك اللغة. تحقق من اتصالك وحاول مرة أخرى."
   },
   "toast": {
     "close_button": "إغلاق الإشعار",
@@ -2527,7 +2721,50 @@
     "redo": "إعادة",
     "restore_btn": "استعادة المثال",
     "restore_title": "استبدل بمثال عمل بسيط",
-    "advanced_section": "خيارات متقدمة"
+    "advanced_section": "خيارات متقدمة",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "تسمية للإسنادات الترافقية (e.g.eq:quadratic). فارغة تعني عدم وجود تسمية."
+      },
+      "chemistry_output": {
+        "label": "وضع الإخراج",
+        "description": "mhchem: \\ce المضمنة{...}. الشكل الكيميائي: هياكل زاوية الرابطة."
+      },
+      "circuit_style": {
+        "label": "النمط الأمريكي",
+        "description": "على: رموز المكونات الأمريكية (IEEE). إيقاف: الرموز الأوروبية (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "مكتبات TikZ",
+        "description": "مكتبات TikZ الإضافية المفصولة بفواصل (e.g.calc، Arrows.meta، الأنماط)."
+      },
+      "pgfplots_options": {
+        "label": "خيارات PGFPlots",
+        "description": "تم إدراج خيارات إضافية في \\beginZXQ0QXZ[...]، مثل xbar أو compat=1.18."
+      },
+      "forest_options": {
+        "label": "خيارات الغابات",
+        "description": "تم تمرير خيارات إضافية إلى بيئة الغابة، مثل الحواف المتشعبة أو أنماط تسمية الحافة."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "الرسوم البيانية الموجهة وغير الموجهة مع العقد والحواف والأشكال وأنماط القوس."
+      },
+      "pgfplots": {
+        "description": "المخططات والرسوم البيانية والمخططات الشريطية والمؤامرات المبعثرة والخرائط الحرارية باستخدام PGFPlots."
+      },
+      "tree_forest": {
+        "description": "بناء الجملة الهرمي، والتصنيف، والنشوء والتطور، والقرار، وأشجار الاحتمالية."
+      },
+      "table_data": {
+        "description": "جداول البيانات قابلة للتصدير إلى علامات تبويب الكتب أو الجداول الطويلة أو بيانات PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "مخططات جانت والجداول الزمنية مع المجموعات والمهام والتبعيات."
+      }
+    }
   },
   "help": {
     "title": "مركز المساعدة",

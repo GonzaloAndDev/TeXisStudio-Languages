@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Beste typografie en uitvoer van elk lichtgewicht alternatief",
+            "100% compatibele bibliografieën (inclusief correcte Biber-versie)",
+            "Alle CTAN-pakketten zijn onbeperkt beschikbaar",
+            "Native meertalige ondersteuning: Cyrillisch, CJK, Arabisch, Devanagari",
+            "Correcte multi-pass compilatie: TOC, indexen, kruisverwijzingen",
+            "Homebrew-installatie met één commando"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Grote download (~5 GB)",
+            "De installatie duurt 10-20 minuten"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Installeer Homebrew (als je dit niet hebt)",
+              "note": "Homebrew is de standaard macOS-pakketbeheerder. Als u deze al heeft, slaat u deze stap over."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Installeer MacTeX met Homebrew",
+              "note": "Downloadt ~5 GB. Het proces duurt 10 tot 20 minuten, afhankelijk van uw verbinding."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Omgevingsvariabelen bijwerken",
+              "note": "Of sluit eenvoudigweg Terminal en open deze opnieuw, zodat deze het nieuwe PATH oppikt."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Controleer de installatie",
+              "note": "Alle drie de opdrachten zouden moeten reageren met een versienummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw zodat deze de nieuwe installatie detecteert."
             }
           ],
           "tagline": "Aanbevolen — beste, meest stabiele en volledige uitvoer",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Binnen 1 minuut geïnstalleerd",
+            "Downloadt alleen de pakketten die jouw proefschrift gebruikt",
+            "Bestaat naast MacTeX als je beide nodig hebt",
+            "Uitbreidbaar met brouwupgrade"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Voor de eerste compilatie is een internetverbinding vereist",
+            "Voor zeer gespecialiseerde pakketten (geavanceerde natuurkunde, enz.) is mogelijk MacTeX vereist"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Installeer Homebrew (als je dit niet hebt)",
+              "note": "Als u al Homebrew heeft, slaat u deze stap over."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Installeer Tectonic met Homebrew",
+              "note": "Lichtgewicht downloaden. Klaar in minder dan 1 minuut."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Controleer de installatie",
+              "note": "Je zou zoiets moeten zien als: tektonische 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw zodat deze tektoniek detecteert."
             }
           ],
           "tagline": "Lichtgewicht: downloadt alleen wat het nodig heeft",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Beste typografie en uitvoer via lichtgewicht alternatieven",
+            "100% correcte bibliografieën - compatibele Biber-versie inbegrepen",
+            "Alle CTAN-pakketten zonder beperking",
+            "Native meertalige ondersteuning: Cyrillisch, CJK, Arabisch, Devanagari",
+            "Correcte multi-pass compilatie: TOC, indexen, kruisverwijzingen",
+            "Installatie met één enkel systeemcommando"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "De volledige installatie neemt 3 tot 5 GB in beslag",
+            "De repositoryversie kan iets ouder zijn dan de officiële release"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "Ubuntu/Debian/Linux Mint",
+              "note": "Inclusief alles. Als de ruimte beperkt is, gebruik dan texlive-xetex in plaats van texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Fedora / RHEL / CentOS-stream",
+              "note": "Installeert het volledige TeX Live-schema."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Boog / Manjaro",
+              "note": "Installeert de hoofdgroepen en biber voor bibliografie."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Volledig schema via zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Controleer de installatie",
+              "note": "Alle drie de opdrachten zouden moeten reageren met een versienummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw zodat deze de nieuwe installatie detecteert."
             }
           ],
           "tagline": "Aanbevolen — beste, meest stabiele en volledige uitvoer",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Vereist geen sudo om te installeren",
+            "Downloadt alleen wat jouw scriptie nodig heeft",
+            "Kan naast TeX Live bestaan als je beide nodig hebt"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Voor de eerste compilatie is internet vereist",
+            "Voor zeer gespecialiseerde pakketten (geavanceerde natuurkunde, enz.) is mogelijk TeX Live vereist"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Installeer met het officiële script",
+              "note": "Downloadt en installeert het binaire bestand in ~/.cargo/bin of ~/bin, afhankelijk van uw installatie."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternatief: installeren met Cargo",
+              "note": "Vereist Rust geïnstalleerd. Compileert vanuit de broncode, duurt enkele minuten."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Controleer de installatie",
+              "note": "Je zou zoiets moeten zien als: tektonische 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw."
             }
           ],
           "tagline": "Lichtgewicht – geen systeempakketbeheerder vereist",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Beste typografie en uitvoer via lichtgewicht alternatieven",
+            "100% correcte bibliografieën — biber inbegrepen en compatibel",
+            "Alle CTAN-pakketten, op aanvraag gedownload",
+            "Vereist geen Strawberry Perl (in tegenstelling tot handleiding latexmk)",
+            "Meertalige ondersteuning: Cyrillisch, CJK, Arabisch, Devanagari",
+            "Eenvoudig te gebruiken .exe grafisch installatieprogramma"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "De MiKTeX-console kan in het begin verwarrend zijn",
+            "Vereist het accepteren van de pakketinstallatie tijdens de eerste compilatie"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Installeer MiKTeX met winget",
+              "note": "Open PowerShell als een normale gebruiker (geen beheerder nodig). winget is opgenomen in Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternatief: grafisch installatieprogramma",
+              "note": "Ga naar miktex.org → Downloaden → Windows. Download het 64-bits installatieprogramma en voer het uit. Kies MiKTeX alleen voor mij installeren."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Controleer de installatie",
+              "note": "Zou moeten reageren met een versienummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw zodat deze MiKTeX detecteert."
             }
           ],
           "tagline": "Aanbevolen voor Windows: de beste uitvoer, compleet zonder Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Binnen 1 minuut geïnstalleerd met winget",
+            "Vereist geen Strawberry Perl",
+            "Kan naast MiKTeX bestaan als je beide nodig hebt",
+            "Uitbreidbaar met winget-upgrade"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Voor de eerste compilatie is internet vereist",
+            "Voor zeer gespecialiseerde pakketten (geavanceerde natuurkunde, enz.) is mogelijk MiKTeX vereist"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Installeren met winget",
+              "note": "Open PowerShell als een normale gebruiker. Geen beheerder nodig."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Controleer de installatie",
+              "note": "Je zou zoiets moeten zien als: tektonische 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw zodat deze tektoniek detecteert."
             }
           ],
           "tagline": "Lichtgewicht: één opdracht, geen Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Beste typografie en uitvoer via lichtgewicht alternatieven",
+            "Alle CTAN-pakketten inbegrepen, geen extra downloads",
+            "100% correcte bibliografieën — compatibele biber inbegrepen",
+            "Native meertalige ondersteuning: Cyrillisch, CJK, Arabisch, Devanagari",
+            "Compatibel met elk institutioneel profiel"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Langzame installatie (30-90 minuten)",
+            "Neemt 4–8 GB schijfruimte in beslag",
+            "Vereist Strawberry Perl voor latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Download het TeX Live-installatieprogramma",
+              "note": "Ga naar tug.org/texlive → downloaden → install-tl-windows.exe. Download het installatieprogramma."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Voer het installatieprogramma uit",
+              "note": "Kies Eenvoudige installatie (groot) om alles te installeren. Het proces duurt 30-90 minuten."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Installeer Strawberry Perl (vereist voor latexmk)",
+              "note": "Perl is vereist om latexmk op Windows te laten werken."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Controleer de installatie",
+              "note": "Alle drie de opdrachten zouden moeten reageren met een versienummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Start TeXisStudio opnieuw",
+              "note": "Sluit de app en open deze opnieuw."
             }
           ],
           "tagline": "Compleet: de beste, meest stabiele output, geen verrassingen",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Postdoctoraal",
     "level_bachillerato": "Middelbare school",
     "level_tecnico": "Technisch",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
+    "basic_mode_description": "TeXisStudio bevindt zich in de begeleide modus: focus op uw werk en de app zorgt voor de opmaak, bibliografie en levering.",
+    "error_opening_project": "Kan die map niet openen als een TeXisStudio-project. Zorg ervoor dat het tesis.project.yaml bevat.",
     "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "detecting_latex": "LaTeX detecteren...",
+    "error_importing_tex": "Kan het .tex-bestand niet importeren: {{error}}"
   },
   "wizard": {
     "title": "Nieuw project",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "solide basis voor scripties",
     "recommend_reason_verified": "beschikt over institutionele verificatie",
     "recommend_reason_reviewed": "beoordeeld door het team",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive voor desktop"
+    "error_vocab_install": "Kan \"{{name}}\" niet activeren. Controleer uw verbinding of deselecteer deze om het project zonder deze ondersteuning te maken. Detail: {{error}}",
+    "google_drive_desktop": "Google Drive voor desktop",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Genummerde vergelijkingen \\\\eqref{}",
+          "Stellingen en bewijzen",
+          "Matrices en vectoren",
+          "Commutatieve diagrammen (tikz-cd)",
+          "Proefbomen (busproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX is het canonieke hulpmiddel voor formele wiskunde."
+      },
+      "logica": {
+        "native": [
+          "Aftrekbomen (busproofs)",
+          "Waarheidstabellen",
+          "Formele semantiek",
+          "Hasse-diagrammen"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Fysieke eenheden \\\\SI{} (siunitx)",
+          "Partiële afgeleiden \\\\pdv{}",
+          "Feynman-diagrammen (tikz-feynman)",
+          "Percelen (pgfplots)"
+        ],
+        "external": [
+          "Numerieke simulaties (exporteren als PDF/PNG)"
+        ],
+        "tip": "Gebruik siunitx voor alle eenheden. Schrijf nooit rechtstreeks 'km/h'."
+      },
+      "quimica": {
+        "native": [
+          "Chemische reacties \\\\ce{} (mhchem)",
+          "Moleculaire structuren (chemfig)",
+          "Eenheden \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Complexe 3D-structuren (exporteren vanuit ChemDraw als PDF)"
+        ],
+        "tip": "Gebruik chemfig voor eenvoudige structuren. Voor kristallografie of eiwitten importeert u als PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Eenheden \\\\SI{} (siunitx)",
+          "Circuits (circuitikz)",
+          "Gegevensplots (pgfplots)",
+          "Algoritmen (algpseudocode)"
+        ],
+        "external": [
+          "Technische tekeningen (AutoCAD → PDF)",
+          "Printschema's (KiCad → PDF)"
+        ],
+        "tip": "circuitikz dekt de meeste signaal- en stroomcircuits."
+      },
+      "computacion": {
+        "native": [
+          "Broncode (lstlisting)",
+          "Algoritmen met pseudocode",
+          "Prestatiegrafieken (pgfplots)",
+          "Beslisbomen (tikz)"
+        ],
+        "external": [
+          "Complexe architectuurdiagrammen (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Uitgebreide voetnoten",
+          "Kritische apparatuur en tekstcitaten",
+          "Analytische indexen (makeindex)",
+          "Taalkundige voorbeelden (gb4e)"
+        ],
+        "external": [
+          "Illustraties (hoge resolutie als PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Statistische tabellen (boekentabbladen)",
+          "Percelen (pgfplots)",
+          "Bibliografische citaten in APA/Chicago-stijl"
+        ],
+        "external": [
+          "Complexe datavisualisaties (R/Python → PDF/PNG)"
+        ],
+        "tip": "Gebruik voor eenvoudige plots pgfplots. Voor uitgebreide visualisaties exporteert u vanuit R of Python."
+      },
+      "medicina": {
+        "native": [
+          "Klinische tabellen (boekentabbladen)",
+          "Medische eenheden \\\\SI{}",
+          "Figuren met onderschrift en label"
+        ],
+        "external": [
+          "DICOM-afbeeldingen / histologie (exporteren als PNG/TIFF met hoge resolutie)",
+          "Klinische stroomdiagrammen (teken .io → PDF)"
+        ],
+        "tip": "Diagnostische medische beelden moeten worden geïmporteerd als externe bestanden en mogen niet worden gereproduceerd in LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Volledige partituren (MuseScore/Sibelius → PDF)",
+          "Audiofragmenten (externe link)"
+        ],
+        "tip": "Gebruik voor complexe muzieknotatie een partituureditor en voeg deze toe als PDF."
+      },
+      "arte": {
+        "native": [
+          "Technische bladen in tabelvorm (booktabs)"
+        ],
+        "external": [
+          "Platen en kunstwerken (hoge resolutie als PNG/TIFF)",
+          "Visueel portfolio (extern PDF)",
+          "Plannen (DWG → PDF)"
+        ],
+        "tip": "Voeg voor portfolio's PDF of PNG van hoge kwaliteit toe. LaTeX beheert de lay-out en beschrijvende tekst."
+      },
+      "arquitectura": {
+        "native": [
+          "Budget- en materiaaltabellen",
+          "Schema's",
+          "Beschrijvende teksten"
+        ],
+        "external": [
+          "Plattegronden (AutoCAD/ArchiCAD → PDF)",
+          "Renders (exporteren als PNG/PDF)",
+          "Modellen (foto als PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Gegevenstabellen (boekentabbladen)",
+          "Eenheden \\\\SI{}",
+          "Fylogenetische bomen (tikz)"
+        ],
+        "external": [
+          "Complexe anatomische diagrammen (Inkscape → PDF/SVG)",
+          "Microscopie (PNG met hoge resolutie)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Statistische tabellen (boekentabbladen)",
+          "Percelen (pgfplots)",
+          "Econometrische vergelijkingen"
+        ],
+        "external": [
+          "Interactieve dashboards en visualisaties (exporteren als PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Projectdiagnostiek",
@@ -789,25 +944,25 @@
     "snapshot_restore_title": "Herstel deze versie",
     "snapshot_delete_title": "Versie verwijderen",
     "section_guidance_label": "Sectiebegeleiding",
-    "save_and_exit": "Save and exit",
+    "save_and_exit": "Opslaan en afsluiten",
     "snapshot_restore_action": "Restore",
     "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
+    "unsaved_changes_message": "Er zijn niet-opgeslagen wijzigingen in deze sectie. Wat zou je willen doen voordat je vertrekt?",
     "unsaved_changes_title": "Unsaved changes",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
+    "visual_type_selector_title": "Welk type diagram wilt u invoegen?",
+    "default_set_a": "Stel A in",
     "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
+    "review_grammar": "Grammatica",
+    "bib_refs_count": "{{count}}-referenties in .bib",
+    "section_status_legend": "Statuslegenda",
+    "sections_count": "{{count}} secties",
     "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
+    "leave_without_saving": "Verlaten zonder op te slaan",
     "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
+    "default_set_c": "Stel C in",
+    "default_set_b": "Stel B in",
+    "default_table_column_1": "Kolom 1",
     "no_bib_file": "no .bib",
     "insert_plugin_figure_title": "Wetenschappelijke figuur invoegen (61 soorten)",
     "block_plugin_figure": "Figuur+"
@@ -927,11 +1082,11 @@
     "basic_mode_body": "We laten alleen zien wat u moet schrijven en indienen zonder complexiteit. Je kunt inschakelen",
     "basic_mode_suffix": "in het tekstgedeelte.",
     "basic_top_body": "Deze instellingen zijn ontworpen voor nuttige beslissingen zonder de technische details van LaTeX in te voeren. Schakel over naar",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Controleer op updates",
+    "update_checking": "Controleren…",
+    "update_available": "Versie {{version}} beschikbaar - start opnieuw op om te installeren",
+    "update_up_to_date": "Je bent op de hoogte",
+    "update_error": "Kan niet controleren op updates",
     "update_disabled": "Automatische updates niet geconfigureerd voor deze versie",
     "refresh_catalog": "Catalogus vernieuwen",
     "package_status_stable": "Stabiel",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Lichtgewicht en gemakkelijk te onderhouden. Aanbevolen voor dagelijks schrijven en projecten waarvoor geen volledige TeX-distributie vereist is.",
     "latex_suite_title": "Volledige LaTeX-suite",
-    "latex_suite_description": "Gebruikt latexmk met TeX Live of MiKTeX. Aanbevolen voor geavanceerde pakketten, complexe bibliografieën en uiteindelijke levering.",
+    "latex_suite_description": "Volledige LaTeX-suite ({{suiteName}}) met latexmk. Ondersteunt alle CTAN-pakketten, biblatex + Biber, shell-escape en multi-pass compilatie. De aanbevolen keuze voor volledige documenten, institutionele profielen en plug-incijfers.",
     "latex_available": "Beschikbaar",
     "latex_not_available": "Niet geïnstalleerd",
     "latex_detected_version": "Gedetecteerde versie: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Standaard laptop",
     "window_mode_remember": "Onthoud de laatste maat",
     "window_mode_maximized": "Gemaximaliseerd",
-    "window_mode_hint": "Kies een venster van 1280 x 760, herstel het laatst gebruikte formaat of open het met alle beschikbare monitorruimte."
+    "window_mode_hint": "Kies een venster van 1280 x 760, herstel het laatst gebruikte formaat of open het met alle beschikbare monitorruimte.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Ga naar «LaTeX-installatie beheren» om {{suiteName}} te installeren.",
+    "latex_recommended_badge": "Aanbevolen",
+    "latex_upgrade_banner": "{{suiteName}} is geïnstalleerd - het ondersteunt alle CTAN-pakketten, Biber en plug-infiguren zonder beperkingen. Overstappen wordt aanbevolen.",
+    "latex_upgrade_btn": "Schakel over naar {{suiteName}}",
+    "language_catalog_error": "Kan de taalcatalogus niet laden. Controleer uw verbinding en probeer het opnieuw.",
+    "language_install_error": "Kan het taalpakket niet installeren. Controleer uw verbinding en probeer het opnieuw."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Afbeelding '{{file}}' waarnaar wordt verwezen in sectie '{{section}}' niet gevonden.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Profiel verwijderen?",
     "delete_profile_body_before": "Dit wordt verwijderd",
     "delete_profile_body_after": "Deze actie kan niet ongedaan worden gemaakt.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} geïnstalleerde profielen",
     "installed_profiles": "Geïnstalleerde profielen",
     "profile_count_hint": "{{count}}-profielen · klik om details te bekijken",
     "import_profile_title": "Profiel uit map importeren",
@@ -1135,30 +1297,31 @@
     "selected_chip": "geselecteerd",
     "installed_chip": "geïnstalleerd",
     "sections_count_suffix": "secties",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Plug-ins",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Voorste zaak",
+      "body": "Lichaam",
+      "back_matter": "Terug zaak",
+      "appendix": "Bijlage"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Titelpagina",
+      "abstract": "Samenvatting",
+      "acknowledgements": "Dankbetuigingen",
+      "table_of_contents": "Inhoudsopgave",
+      "list_of_figures": "Lijst met figuren",
+      "list_of_tables": "Lijst met tabellen",
+      "introduction": "Introductie",
+      "theoretical_framework": "Theoretisch raamwerk",
+      "methodology": "Methodologie",
+      "results": "Resultaten",
+      "discussion": "Discussie",
+      "conclusions": "Conclusies",
+      "references": "Referenties",
+      "appendix": "Bijlage",
+      "appendix_a": "Bijlage A"
+    },
+    "tags_placeholder": "scriptie, bachelor, apa"
   },
   "progress": {
     "status_draft": "Diepgang",
@@ -1280,7 +1443,14 @@
     "generating_response": "Reactie genereren...",
     "message_placeholder": "Schrijf uw bericht... (Voer in om te verzenden)",
     "configure_key_first": "Configureer eerst uw API-sleutel",
-    "send": "Send"
+    "send": "Verzenden",
+    "error_not_configured": "API-sleutel niet geconfigureerd. Voeg uw sleutel toe op het tabblad Provider.",
+    "error_auth": "Ongeldige API-sleutel. Controleer of deze correct en actief is.",
+    "error_rate_limited": "Verzoeklimiet bereikt. Probeer het over een paar minuten opnieuw.",
+    "error_network": "Netwerkfout. Controleer uw internetverbinding.",
+    "error_safety": "Het verzoek werd geblokkeerd door het veiligheidsbeleid.",
+    "error_model_unavailable": "Het geselecteerde model is niet beschikbaar. Kies een andere in instellingen.",
+    "error_provider": "Providerfout. Probeer het opnieuw."
   },
   "editor_meta": {
     "project_guide": "Projectgids",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Niet bevestigd: dit blok wordt pas opgenomen in de PDF als u het bevestigt.",
     "packages": "Pakketten",
     "edit_figure_title": "Bewerk de titel of het label, of genereer de afbeelding opnieuw",
-    "edit_figure": "Figuur bewerken"
+    "edit_figure": "Figuur bewerken",
+    "preview_pending": "Stel een voorbeeld samen vanaf het tabblad «Voorbeeld» om de figuur hier te zien."
   },
   "compile": {
     "ensure_latex_installed_path": "Controleer of er een LaTeX-compiler is geïnstalleerd en beschikbaar is in PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Compileren... ({{count}}-regels)",
     "backends_available": "{{backends}} beschikbaar",
     "latex_not_installed_status": "⚠ LaTeX niet geïnstalleerd",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Compileren",
+    "preflight_action_export": "Indiening exporteren",
+    "preflight_title": "Controle vóór {{action}}",
+    "preflight_has_errors": "Herstel de {{count}}-fout(en) voordat u doorgaat.",
+    "preflight_has_warnings": "{{count}} waarschuwing(en) gevonden. Je kunt hoe dan ook doorgaan.",
+    "preflight_errors_section": "Fouten ({{count}})",
+    "preflight_warnings_section": "Waarschuwingen ({{count}})",
+    "preflight_suggestions_section": "Suggesties ({{count}})",
+    "export_success": "Exporteren voltooid",
+    "compile_as_draft": "Compileren als concept",
+    "readiness_complete": "Compleet",
+    "readiness_export_title": "Laatste levering geblokkeerd",
+    "readiness_back": "Ga terug naar beoordeling",
+    "readiness_compile_title": "Project niet klaar voor formele versie",
+    "readiness_export_subtitle": "Om in de definitieve modus te exporteren, voltooit u eerst de leverings- en kwaliteitscontroles.",
+    "readiness_compile_subtitle": "Compileer deze punten als concept of bekijk deze voordat u deze als een formele versie behandelt.",
+    "readiness_delivery": "Levering",
+    "readiness_quality": "Eindkwaliteit",
     "severity_error": "Fout",
     "severity_warning": "Waarschuwing",
     "severity_suggestion": "Suggestie",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "Gebruik ▲▼ om de volgorde te wijzigen.",
     "order_hint_line_2": "De volgorde bepaalt de vervolgkeuzelijst bij het aanmaken van een project.",
     "add_custom_style": "Voeg een aangepaste stijl toe",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "Identiteitskaart *",
+    "biblatex_style_required": "Biblatex-stijl *",
+    "references_default_title": "Referenties",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "citaat",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Auteur-datum",
+      "numeric": "Numeriek",
+      "notes_bibliography": "Notities-Bibliog.",
+      "author_page": "Auteur-pagina"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Amerikaanse psychologische vereniging, 7e editie",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Psychologie",
+          "Onderwijs",
+          "Sociale wetenschappen",
+          "Verpleging",
+          "Communicatie"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "De meest gebruikte stijl wereldwijd. Vereist in veel programma's op het gebied van psychologie, onderwijs en sociale wetenschappen. Zevende editie (2020).",
         "regions_primary": [
-          "United States",
+          "Verenigde Staten",
           "Canada",
-          "Latin America",
-          "Australia"
+          "Latijns-Amerika",
+          "Australië"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(auteur, jaar)",
+        "bibliography_title": "Referenties"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / ICMJE-aanbevelingen",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Geneeskunde",
+          "Verpleging",
+          "Apotheek",
+          "Tandheelkunde",
+          "Gezondheidswetenschappen"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Vereiste numerieke stijl voor gezondheidswetenschappen. Referenties zijn gerangschikt op uiterlijk. Standaard in MEDLINE/PubMed-tijdschriften.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Mondiale, medische en gezondheidswetenschappen"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenties"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE Citatiestijl",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Elektrotechniek",
+          "Computergebruik",
+          "Telecommunicatie",
+          "Robotica",
+          "Elektronica"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Standaard numerieke stijl voor techniek, computergebruik en technologie. Op grote schaal toegepast op technische scholen.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Globaal, techniek en technologie"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenties"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Opmerkingen)",
+        "full_name": "Chicago Stijlhandleiding, 17e editie, notities-bibliografie",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Geschiedenis",
+          "Literatuur",
+          "Kunst",
+          "Filosofie",
+          "Religieuze studies"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Noten- en bibliografiesysteem voor de geesteswetenschappen. Citaties verschijnen in voetnoten.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Verenigde Staten",
+          "Verenigd Koninkrijk",
+          "Canada, geesteswetenschappen"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Voetnoot¹",
+        "bibliography_title": "Bibliografie"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (auteur-datum)",
+        "full_name": "Chicago Stijlhandleiding, 17e editie, auteursdatum",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Economie",
+          "Politieke wetenschappen",
+          "Sociologie",
+          "Antropologie",
+          "Aardrijkskunde"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago auteur-datumvariant, bij voorkeur in de sociale wetenschappen en economie.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Verenigde Staten",
+          "Canada, sociale wetenschappen"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Auteurjaar)",
+        "bibliography_title": "Referenties"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA-handboek, 9e editie",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Literatuur",
+          "Taal",
+          "Taalkunde",
+          "Culturele studies",
+          "Retoriek"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Standaard voor taal-, literatuur- en culturele studies in Noord-Amerika. Negende editie (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Verenigde Staten",
+          "Canada, taal en literatuur"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(auteurpagina)",
+        "bibliography_title": "Geciteerde werken"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Harvard-referentiestijl",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Zakelijk",
+          "Beheer",
+          "Economie",
+          "Sociale wetenschappen"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Auteur-datumstijl vergelijkbaar met APA. Op grote schaal gebruikt in Britse en Australische universiteiten.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Verenigd Koninkrijk",
+          "Australië",
+          "Ierland",
+          "Zuid-Afrika"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Auteurjaar)",
+        "bibliography_title": "Referenties"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Stijlgids voor de Modern Humanities Research Association, 3e editie",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Geesteswetenschappen",
+          "Geschiedenis",
+          "Literatuur",
+          "Filosofie",
+          "Taalkunde"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Britse geesteswetenschappenstandaard vergelijkbaar met Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Verenigd Koninkrijk",
+          "Ierland, geesteswetenschappen"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Voetnoot¹",
+        "bibliography_title": "Bibliografie"
       },
       "abnt": {
         "name": "ABNT",
-        "full_name": "ABNT NBR 6023:2018",
+        "full_name": "ABNT NBR6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Alle disciplines (Brazilië)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Nationale standaard voor academisch werk aan Braziliaanse universiteiten.",
         "regions_primary": [
-          "Brazil, required"
+          "Brazilië, vereist"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(AUTEUR, Jaar)",
+        "bibliography_title": "Referenties"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, Chinese nationale norm",
         "disciplines": [
-          "All disciplines (China)"
+          "Alle disciplines (China)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Nationale standaard voor scripties in het Chinees. Vereist op Chinese universiteiten.",
         "regions_primary": [
-          "China, required"
+          "China, vereist"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenties"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Standaardstijlen herstellen",
+    "reset_action": "Herstellen"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Kruisverwijzing invoegen ({{count}})",
@@ -1836,12 +2007,16 @@
     "optional_title": "Optionele titel",
     "theorem_title_placeholder": "Stelling van Pythagoras",
     "math_content": "Inhoud (accepteert wiskundige LaTeX)",
-    "theorem_content_placeholder": "Stel $a^2 + b^2 = c^2$ waarbij $c$ de hypotenusa is..."
+    "theorem_content_placeholder": "Stel $a^2 + b^2 = c^2$ waarbij $c$ de hypotenusa is...",
+    "term_placeholder": "Ontologie",
+    "definition_placeholder": "Tak van de filosofie die het zijn als zijn bestudeert.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "Kunstmatige intelligentie"
   },
   "citation": {
     "error_connect": "Verbindingsfout.",
     "insert_title": "Bibliografisch citaat invoegen",
-    "type": "Type",
+    "type": "Typ",
     "search_placeholder": "Zoek op sleutel, titel, auteur of jaar...",
     "single_doi": "Eén DOI",
     "multiple_dois": "Meerdere DOI's",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Lege vergelijking",
     "custom_molecule": "Aangepaste molecuul",
     "molecule_compile_hint": "Structuur gegenereerd met chemfig tijdens het compileren",
-    "chemical_syntax_hint": "Gebruik -> (reactie), <=> (evenwicht), ^ (gas) en v (neerslag)"
+    "chemical_syntax_hint": "Gebruik -> (reactie), <=> (evenwicht), ^ (gas) en v (neerslag)",
+    "label_example": "fig:mijn-diagram",
+    "circuit_lower": "circuit",
+    "diagram_lower": "diagram",
+    "default_start": "Begin",
+    "default_process": "Proces",
+    "default_end": "Einde",
+    "default_event": "Evenement {{number}}",
+    "default_major_scale": "C majeur toonladder"
   },
   "vocabulary": {
     "title": "Domeinwoordenschat",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "dat heeft een",
     "repo_hint_suffix": "sectie. Het kan uw eigen GitHub-repository zijn.",
     "alias_placeholder": "Alias (e.g. mijn-lab-termen)",
-    "adding": "Toevoegen…"
+    "adding": "Toevoegen…",
+    "catalog_error": "Kan de woordenschatcatalogus niet laden. Controleer uw verbinding en probeer het opnieuw.",
+    "repo_sync_error": "Kan deze opslagplaats niet synchroniseren.",
+    "repo_add_error": "Kan de opslagplaats niet toevoegen. Controleer het adres en probeer het opnieuw."
   },
   "profile_wizard": {
     "step_of": "Stap {{current}} van {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Installeer vanaf URL",
     "install_from_url_hint": "Plak de URL van een .zip met een geldig profiel.yaml.",
     "install_btn": "Installeren",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "U hebt niet de exacte profielnaam nodig",
+    "guided_hint_body": "Begin met uw instelling of een nauwe combinatie van graad, vakgebied en citatiestijl. Als er geen exacte match is, begin dan met een eenvoudige institutionele basis en pas deze daarna aan.",
+    "catalog_load_error": "Kan de profielencatalogus niet laden. Controleer uw verbinding of probeer het opnieuw.",
+    "install_success": "\"{{name}}\" is succesvol geïnstalleerd.",
+    "breadcrumb_all": "Allemaal",
+    "profile_count_one": "{{count}}-profiel",
+    "profile_count_other": "{{count}}-profielen",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Amerika",
+      "europe": "Europa",
+      "asia": "Azië",
+      "generic": "Generiek"
     },
     "country": {
       "mexico": "Mexico",
-      "usa": "United States",
+      "usa": "Verenigde Staten",
       "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
+      "brazil": "Brazilië",
+      "argentina": "Argentinië",
+      "chile": "Chili",
+      "uk": "Verenigd Koninkrijk",
+      "germany": "Duitsland",
+      "spain": "Spanje",
+      "netherlands": "Nederland",
+      "italy": "Italië",
+      "sweden": "Zweden",
+      "france": "Frankrijk",
       "china": "China",
       "japan": "Japan",
-      "south_korea": "South Korea",
+      "south_korea": "Zuid-Korea",
       "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "india": "Indië",
+      "generic": "Generiek"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
+      "bachillerato": "Middelbare school",
+      "tecnico": "Technische graad",
+      "licenciatura": "Bachelor diploma",
+      "especialidad": "Specialisatie",
+      "maestria": "Masterdiploma",
+      "doctorado": "Doctoraat",
       "posdoctorado": "Postdoc"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Institutioneel",
+      "degree_specific": "Graadspecifiek",
+      "program_specific": "Programmaspecifiek",
+      "discipline_specific": "Veldspecifiek"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Alle disciplines",
+      "engineering": "Techniek",
+      "social_sciences": "Sociale wetenschappen",
+      "humanities": "Geesteswetenschappen",
+      "health_sciences": "Gezondheidswetenschappen",
+      "computing": "Computergebruik",
+      "natural_sciences": "Natuurwetenschappen"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Geverifieerd",
+    "status_reviewed_label": "Beoordeeld"
   },
   "about": {
     "title": "Over",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Wijzigingen toepassen en figuur opnieuw genereren",
     "apply_visual_btn": "Wijzigingen toepassen",
     "applying": "Toepassen…",
-    "done_msg": "Figuur bijgewerkt"
+    "done_msg": "Figuur bijgewerkt",
+    "tab_preview": "Voorbeeld",
+    "preview_compile_btn": "Voorbeeld opnieuw compileren",
+    "preview_compiling": "Compileren…",
+    "preview_apply_first": "Pas wijzigingen toe voordat u een voorbeeld bekijkt.",
+    "preview_tectonic_note": "Tectonic is de actieve motor. Als de preview mislukt, vereist dit cijfer mogelijk een volledige LaTeX-suite (MacTeX / MiKTeX / TeX Live). U kunt de engine wijzigen in Instellingen → LaTeX-engine.",
+    "preview_error_prefix": "Compilatiefout:",
+    "preview_no_tectonic": "Tectonic is niet geïnstalleerd of kon niet worden gevonden."
   },
   "elements_tab": {
     "title": "Elementen",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Intern type",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Paragraaf",
+        "description": "Tekstblok in vrije vorm. Ondersteunt nadruk, inline citaten en inline LaTeX.",
+        "latex_output": "Ontsnapte tekst rechtstreeks in het document geschreven."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Titel / Kop",
+        "description": "Sectiekop: sectie (H1), subsectie (H2) of subsubsectie (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Figuur",
+        "description": "Afbeelding met bijschrift, bron en label voor kruisverwijzingen. Breedtes: 50%, 75%, 100%.",
+        "latex_output": "figuuromgeving + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tafel",
+        "description": "Tabel met kopteksten, rijen, bijschrift en bron. Stijlen: eenvoudig, boekenbladen, breed, lange tafel.",
+        "latex_output": "tafelomgeving + tafel/langtafel + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Vergelijking",
+        "description": "Genummerde of ongenummerde wiskundige formule. Geschreven in pure LaTeX-wiskunde.",
+        "latex_output": "vergelijking of vergelijking* omgeving + optioneel \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Lijst",
+        "description": "Lijst met opsommingstekens (gespecificeerd), genummerd (opsomming) of beschrijvend (beschrijving).",
+        "latex_output": "\\begin{opsomming/opsomming/beschrijving}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Bibliografisch citaat",
+        "description": "Tussen haakjes, verhalend of meervoudig citaat gekoppeld aan een BibTeX-sleutel in het .bib-bestand.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Ruwe LaTeX",
+        "description": "Willekeurig LaTeX-fragment voor geavanceerde gevallen. Vereist gebruikersbevestiging.",
+        "latex_output": "Letterlijk, onontkoombaar. Gebruik het met zorg."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "tekst",
+      "content": "inhoud",
+      "structure": "structuur",
+      "navigation": "navigatie",
+      "image": "afbeelding",
+      "graphic": "grafisch",
+      "data": "gegevens",
+      "statistics": "statistieken",
+      "mathematics": "wiskunde",
+      "formula": "formule",
+      "list": "lijst",
+      "enumeration": "opsomming",
+      "bibliography": "bibliografie",
+      "reference": "referentie",
+      "advanced": "gevorderd",
+      "custom": "gewoonte"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
+    "panel_title": "Projectvoortgang",
     "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "row_setup": "Installatie",
+    "row_writing": "Schrijven",
+    "row_delivery": "Levering",
+    "row_quality": "Eindkwaliteit",
+    "pending_prefix": "In behandeling:",
+    "delivery_blocked": "Er zijn artikelen in behandeling vóór de definitieve levering",
+    "setup_title": "Stel de echte titel van het werk in",
+    "setup_author": "Compleet hoofdauteurschap",
+    "setup_institution": "Betreed de echte instelling",
+    "setup_profile": "Selecteer een academisch profiel",
+    "setup_language": "Kies de basistaal",
+    "setup_advisor": "Voeg minimaal één adviseur of scriptiedirecteur toe",
+    "writing_sections": "Schakel ten minste één inhoudssectie in",
+    "writing_draft": "Schrijf inhoud in een hoofdsectie",
+    "writing_words": "Ontwikkel een substantieel eerste ontwerp",
+    "writing_reviewed": "Markeer ten minste één sectie als herzien",
+    "delivery_references": "Voeg een referentiesectie toe",
+    "delivery_abstract": "Schrijf de samenvatting of samenvatting",
+    "delivery_required": "Vul de vereiste secties van het profiel in",
+    "delivery_latex": "Bevestig of verwijder niet-gevalideerde LaTeX-blokken",
+    "delivery_committee": "Voltooi de commissie voor geavanceerd werk",
+    "delivery_review_main": "Controleer de belangrijkste secties vóór de levering",
+    "quality_citation": "Voeg ten minste één verifieerbare citatie toe aan de hoofdtekst",
+    "quality_required_reviewed": "Markeer de vereiste carrosseriedelen als herzien",
+    "quality_raw_latex": "Migreer of controleer geïmporteerde LaTeX-blokken vóór de definitieve levering",
+    "quality_plugin_warnings": "Los figuur- of plug-inwaarschuwingen op vóór de definitieve levering",
+    "quality_profile": "Gebruik een institutioneel of aangepast profiel voor formele inzendingen"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Plug-ins",
+    "subtitle": "{{count}} visuele plug-ins beschikbaar voor het invoegen van figuren en diagrammen.",
+    "search_placeholder": "Zoek op naam, pakket of categorie…",
+    "no_results": "Er zijn geen plug-ins die overeenkomen met die zoekopdracht.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "stabiel",
+      "beta": "bèta",
+      "experimental": "experimenteel",
+      "draft": "ontwerp"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Selecteer uw taal",
+    "subheading": "Je kunt dit later wijzigen in Instellingen.",
+    "more_languages": "Meer talen",
+    "loading_more": "Meer talen laden…",
+    "catalog_error": "Kan niet meer talen laden. U kunt doorgaan met een gebundelde taal.",
+    "skip": "Overslaan",
+    "install_error": "Kan die taal niet installeren. Controleer uw verbinding en probeer het opnieuw."
   },
   "toast": {
     "close_button": "Melding sluiten",
@@ -2436,7 +2630,7 @@
     "nodes": "Knooppunten",
     "edges": "Verbindingen",
     "new_node": "Nieuw knooppunt",
-    "label": "Label",
+    "label": "Etiket",
     "delete": "Verwijderen",
     "delete_col": "verwijderen",
     "add_node": "Knooppunt toevoegen",
@@ -2468,7 +2662,7 @@
     "expression": "Expressie (f(x))",
     "domain_from": "Van",
     "domain_to": "Tot",
-    "auto_color": "Auto",
+    "auto_color": "Automatisch",
     "add_series": "Reeks toevoegen",
     "plot_function2d": "Functie f(x)",
     "plot_scatter": "Spreidingsdiagram",
@@ -2478,7 +2672,7 @@
     "rows": "Rijen",
     "cols": "Kolommen",
     "delimiter": "Haakjes",
-    "delim_paren": "( )",
+    "delim_paren": "()",
     "delim_bracket": "[ ]",
     "delim_brace": "{ }",
     "delim_vert": "| |",
@@ -2527,7 +2721,50 @@
     "redo": "Opnieuw uitvoeren",
     "restore_btn": "Voorbeeld herstellen",
     "restore_title": "Vervang door een minimaal werkend voorbeeld",
-    "advanced_section": "Geavanceerde opties"
+    "advanced_section": "Geavanceerde opties",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Label voor kruisverwijzingen (e.g. eq:kwadratisch). Leeg betekent geen label."
+      },
+      "chemistry_output": {
+        "label": "Uitvoermodus",
+        "description": "mhchem: inline \\ce{...}. chemfig: verbindingshoekstructuren."
+      },
+      "circuit_style": {
+        "label": "Amerikaanse stijl",
+        "description": "Aan: Amerikaanse componentsymbolen (IEEE). Uit: Europese symbolen (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "TikZ-bibliotheken",
+        "description": "Door komma's gescheiden extra TikZ-bibliotheken (e.g. calc, pijlen.meta, patronen)."
+      },
+      "pgfplots_options": {
+        "label": "PGFPlots-opties",
+        "description": "Extra opties ingevoegd in \\beginZXQ0QXZ[…], zoals xbar of compat=1.18."
+      },
+      "forest_options": {
+        "label": "Bos opties",
+        "description": "Extra opties die worden doorgegeven aan de bosomgeving, zoals gevorkte randen of randlabelstijlen."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Gerichte en ongerichte grafieken met knooppunten, randen, vormen en boogstijlen."
+      },
+      "pgfplots": {
+        "description": "Plots, histogrammen, staafdiagrammen, spreidingsdiagrammen en heatmaps met PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Hiërarchische syntaxis, taxonomische, fylogenetische, beslissings- en waarschijnlijkheidsbomen."
+      },
+      "table_data": {
+        "description": "Gegevenstabellen kunnen worden geëxporteerd naar boekentabbladen, lange tabellen of PGFPlots-gegevens."
+      },
+      "timeline_gantt": {
+        "description": "Gantt-diagrammen en tijdlijnen met groepen, taken en afhankelijkheden."
+      }
+    }
   },
   "help": {
     "title": "Helpcentrum",
@@ -2538,7 +2775,7 @@
     "section_figures": "Figuren & plugins",
     "section_latex": "LaTeX-basis",
     "section_errors": "Veelvoorkomende fouten",
-    "section_faq": "FAQ",
+    "section_faq": "Veelgestelde vragen",
     "start": {
       "intro": "TeXisStudio laat u professionele academische documenten maken zonder LaTeX te kennen.",
       "step1": "1. Maak of open een project via het startscherm.",

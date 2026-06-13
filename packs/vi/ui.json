@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Kiểu chữ và kết quả đầu ra tốt nhất so với bất kỳ giải pháp thay thế nhẹ nào",
+            "Thư mục tương thích 100% (bao gồm phiên bản biber chính xác)",
+            "Tất cả các gói CTAN đều có sẵn không hạn chế",
+            "Hỗ trợ đa ngôn ngữ bản địa: Cyrillic, CJK, Ả Rập, Devanagari",
+            "Biên dịch nhiều lượt chính xác: TOC, chỉ mục, tham chiếu chéo",
+            "Cài đặt Homebrew bằng một lệnh"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Tải xuống lớn (~5 GB)",
+            "Quá trình cài đặt mất 10–20 phút"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Cài đặt Homebrew (nếu chưa có)",
+              "note": "Homebrew là trình quản lý gói macOS tiêu chuẩn. Nếu bạn đã có nó, hãy bỏ qua bước này."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Cài đặt MacTeX với Homebrew",
+              "note": "Tải xuống ~ 5 GB. Quá trình này mất 10–20 phút tùy thuộc vào kết nối của bạn."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Cập nhật các biến môi trường",
+              "note": "Hoặc đơn giản là đóng và mở lại Terminal để nó chọn PATH mới."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Xác minh cài đặt",
+              "note": "Tất cả ba lệnh sẽ phản hồi bằng số phiên bản."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng để nó phát hiện cài đặt mới."
             }
           ],
           "tagline": "Khuyến nghị - đầu ra tốt nhất, ổn định nhất và đầy đủ",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Được cài đặt trong vòng chưa đầy 1 phút",
+            "Chỉ tải xuống các gói mà luận án của bạn sử dụng",
+            "Cùng tồn tại với MacTeX nếu bạn cần cả hai",
+            "Có thể nâng cấp với nâng cấp bia"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Quá trình biên dịch đầu tiên yêu cầu kết nối internet",
+            "Các gói chuyên môn cao (vật lý nâng cao, v.v.) có thể yêu cầu MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Cài đặt Homebrew (nếu chưa có)",
+              "note": "Nếu bạn đã có Homebrew thì bỏ qua bước này."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Cài đặt Tectonic với Homebrew",
+              "note": "Tải nhẹ. Sẵn sàng trong vòng chưa đầy 1 phút."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Xác minh cài đặt",
+              "note": "Bạn sẽ thấy một cái gì đó như: kiến tạo 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng để nó phát hiện kiến tạo."
             }
           ],
           "tagline": "Nhẹ - chỉ tải xuống những gì nó cần",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Kiểu chữ và đầu ra tốt nhất so với các lựa chọn thay thế nhẹ",
+            "Thư mục chính xác 100% — bao gồm phiên bản biber tương thích",
+            "Tất cả các gói CTAN không hạn chế",
+            "Hỗ trợ đa ngôn ngữ bản địa: Cyrillic, CJK, Ả Rập, Devanagari",
+            "Biên dịch nhiều lượt chính xác: TOC, chỉ mục, tham chiếu chéo",
+            "Cài đặt bằng một lệnh hệ thống duy nhất"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Quá trình cài đặt đầy đủ mất 3–5 GB",
+            "Phiên bản kho lưu trữ có thể cũ hơn một chút so với bản phát hành chính thức"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Bao gồm tất cả mọi thứ. Nếu không gian có hạn, hãy sử dụng texlive-xetex thay vì texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Luồng Fedora / RHEL / CentOS",
+              "note": "Cài đặt sơ đồ TeX Live đầy đủ."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Vòm / Manjaro",
+              "note": "Cài đặt các nhóm chính và biber cho thư mục."
             },
             {
-              "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "title": "mởSUSE",
+              "note": "Đề án đầy đủ thông qua zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Xác minh cài đặt",
+              "note": "Tất cả ba lệnh sẽ phản hồi bằng số phiên bản."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng để nó phát hiện cài đặt mới."
             }
           ],
           "tagline": "Khuyến nghị - đầu ra tốt nhất, ổn định nhất và đầy đủ",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Không yêu cầu cài đặt sudo",
+            "Chỉ tải xuống những gì luận án của bạn cần",
+            "Cùng tồn tại với TeX Live nếu bạn cần cả hai"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Quá trình biên dịch đầu tiên cần có internet",
+            "Các gói chuyên môn cao (vật lý nâng cao, v.v.) có thể yêu cầu TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Cài đặt với tập lệnh chính thức",
+              "note": "Tải xuống và cài đặt tệp nhị phân trong ~/.cargo/bin hoặc ~/bin tùy thuộc vào thiết lập của bạn."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Thay thế: cài đặt với Cargo",
+              "note": "Yêu cầu cài đặt Rust. Biên dịch từ nguồn, mất vài phút."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Xác minh cài đặt",
+              "note": "Bạn sẽ thấy một cái gì đó như: kiến tạo 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng."
             }
           ],
           "tagline": "Nhẹ - không cần trình quản lý gói hệ thống",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Kiểu chữ và đầu ra tốt nhất so với các lựa chọn thay thế nhẹ",
+            "Thư mục chính xác 100% — bao gồm biber và tương thích",
+            "Tất cả các gói CTAN, được tải xuống theo yêu cầu",
+            "Không yêu cầu Strawberry Perl (không giống như latexmk thủ công)",
+            "Hỗ trợ đa ngôn ngữ: Cyrillic, CJK, Ả Rập, Devanagari",
+            "Trình cài đặt đồ họa .exe dễ sử dụng"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "Bảng điều khiển MiKTeX ban đầu có thể gây nhầm lẫn",
+            "Yêu cầu chấp nhận cài đặt gói trong lần biên dịch đầu tiên"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Cài đặt MiKTeX bằng winget",
+              "note": "Mở PowerShell với tư cách người dùng bình thường (không cần quản trị viên). winget được bao gồm trong Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Thay thế: trình cài đặt đồ họa",
+              "note": "Vào miktex.org → Tải xuống → Windows. Tải xuống trình cài đặt 64-bit và chạy nó. Chọn Cài đặt MiKTeX chỉ dành cho tôi."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Xác minh cài đặt",
+              "note": "Nên trả lời bằng số phiên bản."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng để phát hiện MiKTeX."
             }
           ],
           "tagline": "Được khuyến nghị trên Windows - đầu ra tốt nhất, hoàn chỉnh mà không cần Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Cài đặt trong 1 phút với winget",
+            "Không yêu cầu Strawberry Perl",
+            "Cùng tồn tại với MiKTeX nếu bạn cần cả hai",
+            "Có thể nâng cấp với nâng cấp winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Quá trình biên dịch đầu tiên cần có internet",
+            "Các gói chuyên môn cao (vật lý nâng cao, v.v.) có thể yêu cầu MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Cài đặt bằng winget",
+              "note": "Mở PowerShell như một người dùng bình thường. Không cần quản trị viên."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Xác minh cài đặt",
+              "note": "Bạn sẽ thấy một cái gì đó như: kiến tạo 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng để nó phát hiện kiến tạo."
             }
           ],
           "tagline": "Nhẹ - một lệnh, không có Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Kiểu chữ và đầu ra tốt nhất so với các lựa chọn thay thế nhẹ",
+            "Bao gồm tất cả các gói CTAN, không cần tải xuống thêm",
+            "Thư mục chính xác 100% — bao gồm biber tương thích",
+            "Hỗ trợ đa ngôn ngữ bản địa: Cyrillic, CJK, Ả Rập, Devanagari",
+            "Tương thích với mọi hồ sơ tổ chức"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Cài đặt chậm (30–90 phút)",
+            "Tốn 4–8 GB dung lượng ổ đĩa",
+            "Yêu cầu Strawberry Perl cho latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Tải xuống trình cài đặt TeX Live",
+              "note": "Đi tới tug.org/texlive → tải xuống → install-tl-windows.exe. Tải xuống trình cài đặt."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Chạy trình cài đặt",
+              "note": "Chọn Cài đặt đơn giản (lớn) để cài đặt mọi thứ. Quá trình này mất 30–90 phút."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Cài đặt Strawberry Perl (bắt buộc cho latexmk)",
+              "note": "Cần có Perl để latexmk hoạt động trên Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Xác minh cài đặt",
+              "note": "Tất cả ba lệnh sẽ phản hồi bằng số phiên bản."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Khởi động lại TeXisStudio",
+              "note": "Đóng và mở lại ứng dụng."
             }
           ],
           "tagline": "Hoàn thành - đầu ra tốt nhất, ổn định nhất, không có gì bất ngờ",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "sau tiến sĩ",
     "level_bachillerato": "Trường trung học",
     "level_tecnico": "kỹ thuật",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio ở chế độ hướng dẫn: tập trung vào công việc của bạn và ứng dụng sẽ xử lý việc định dạng, thư mục và phân phối.",
+    "error_opening_project": "Không thể mở thư mục đó dưới dạng dự án TeXisStudio. Hãy chắc chắn rằng nó chứa tesis.project.yaml.",
+    "search_library_hint": "Tìm kiếm thư viện",
+    "detecting_latex": "Đang phát hiện LaTeX…",
+    "error_importing_tex": "Không thể nhập tệp .tex: {{error}}"
   },
   "wizard": {
     "title": "Dự án mới",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "cơ sở vững chắc cho luận văn",
     "recommend_reason_verified": "có xác minh thể chế",
     "recommend_reason_reviewed": "được nhóm xem xét",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive dành cho máy tính để bàn"
+    "error_vocab_install": "Không thể kích hoạt \"{{name}}\". Kiểm tra kết nối của bạn hoặc bỏ chọn nó để tạo dự án mà không cần hỗ trợ này. Chi tiết: {{error}}",
+    "google_drive_desktop": "Google Drive dành cho máy tính để bàn",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Các phương trình được đánh số \\\\eqref{}",
+          "Định lý và chứng minh",
+          "Ma trận và vectơ",
+          "Sơ đồ giao hoán (tikz-cd)",
+          "Cây chứng minh (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX là công cụ chuẩn cho toán học hình thức."
+      },
+      "logica": {
+        "native": [
+          "Cây khấu trừ (bussproofs)",
+          "Bảng chân lý",
+          "Ngữ nghĩa hình thức",
+          "Sơ đồ Hasse"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Đơn vị vật lý \\\\SI{} (siunitx)",
+          "Đạo hàm riêng \\\\pdv{}",
+          "Sơ đồ Feynman (tikz-feynman)",
+          "Lô (pgfplots)"
+        ],
+        "external": [
+          "Mô phỏng số (xuất dưới dạng PDF/PNG)"
+        ],
+        "tip": "Sử dụng siunitx cho tất cả các đơn vị — không bao giờ viết trực tiếp 'km/h'."
+      },
+      "quimica": {
+        "native": [
+          "Phản ứng hóa học \\\\ce{} (mhchem)",
+          "Cấu trúc phân tử (chemfig)",
+          "Đơn vị \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Cấu trúc 3D phức tạp (xuất từ ChemDraw dưới dạng PDF)"
+        ],
+        "tip": "Đối với các cấu trúc đơn giản, hãy sử dụng chemfig. Đối với tinh thể học hoặc protein, hãy nhập dưới dạng PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Đơn vị \\\\SI{} (siunitx)",
+          "Mạch (circuitikz)",
+          "Sơ đồ dữ liệu (pgfplots)",
+          "Thuật toán (algpseudocode)"
+        ],
+        "external": [
+          "Bản vẽ kỹ thuật (AutoCAD → PDF)",
+          "Sơ đồ PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz bao gồm hầu hết các mạch tín hiệu và nguồn."
+      },
+      "computacion": {
+        "native": [
+          "Mã nguồn (llistlist)",
+          "Thuật toán có mã giả",
+          "Sơ đồ hiệu suất (pgfplots)",
+          "Cây quyết định (tikz)"
+        ],
+        "external": [
+          "Sơ đồ kiến trúc phức tạp (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Chú thích mở rộng",
+          "Bộ máy quan trọng và trích dẫn văn bản",
+          "Chỉ số phân tích (makeindex)",
+          "Ví dụ ngôn ngữ (gb4e)"
+        ],
+        "external": [
+          "Hình ảnh tác phẩm nghệ thuật (độ phân giải cao dưới dạng PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Bảng thống kê (booktabs)",
+          "Lô đất (pgfplots)",
+          "Trích dẫn thư mục theo kiểu APA/Chicago"
+        ],
+        "external": [
+          "Trực quan hóa dữ liệu phức tạp (R/Python → PDF/PNG)"
+        ],
+        "tip": "Đối với các ô đơn giản, hãy sử dụng pgfplots. Để trực quan hóa phức tạp, hãy xuất từ ​​R hoặc Python."
+      },
+      "medicina": {
+        "native": [
+          "Bảng lâm sàng (booktabs)",
+          "Đơn vị y tế \\\\SI{}",
+          "Số liệu có chú thích và nhãn"
+        ],
+        "external": [
+          "Hình ảnh / mô học DICOM (xuất dưới dạng PNG/TIFF độ phân giải cao)",
+          "Sơ đồ lâm sàng (draw.io → PDF)"
+        ],
+        "tip": "Hình ảnh y tế chẩn đoán phải được nhập dưới dạng tệp bên ngoài, không được sao chép trong LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Điểm hoàn chỉnh (MuseScore/Sibelius → PDF)",
+          "Các đoạn âm thanh (liên kết ngoài)"
+        ],
+        "tip": "Đối với ký hiệu âm nhạc phức tạp, hãy sử dụng trình chỉnh sửa điểm và đính kèm dưới dạng PDF."
+      },
+      "arte": {
+        "native": [
+          "Bảng kỹ thuật được lập bảng (booktabs)"
+        ],
+        "external": [
+          "Đĩa và tác phẩm nghệ thuật (độ phân giải cao như PNG/TIFF)",
+          "Danh mục đầu tư trực quan (PDF bên ngoài)",
+          "Kế hoạch (DWG → PDF)"
+        ],
+        "tip": "Đối với danh mục đầu tư, hãy bao gồm PDF hoặc PNG chất lượng cao. LaTeX quản lý bố cục và văn bản mô tả."
+      },
+      "arquitectura": {
+        "native": [
+          "Bảng ngân sách và vật liệu",
+          "Lịch trình",
+          "văn bản mô tả"
+        ],
+        "external": [
+          "Sơ đồ mặt bằng (AutoCAD/ArchiCAD → PDF)",
+          "Kết xuất (xuất dưới dạng PNG/PDF)",
+          "Người mẫu (ảnh dưới dạng PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Bảng dữ liệu (booktabs)",
+          "Đơn vị \\\\SI{}",
+          "Cây phát sinh chủng loại (tikz)"
+        ],
+        "external": [
+          "Sơ đồ giải phẫu phức tạp (Inkscape → PDF/SVG)",
+          "Kính hiển vi (PNG có độ phân giải cao)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Bảng thống kê (booktabs)",
+          "Lô đất (pgfplots)",
+          "Các phương trình kinh tế lượng"
+        ],
+        "external": [
+          "Bảng điều khiển tương tác và trực quan hóa (xuất dưới dạng PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Chẩn đoán dự án",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Khôi phục phiên bản này",
     "snapshot_delete_title": "Xóa phiên bản",
     "section_guidance_label": "Hướng dẫn phần",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "Lưu và thoát",
+    "snapshot_restore_action": "Khôi phục",
+    "continue_editing": "Tiếp tục chỉnh sửa",
+    "unsaved_changes_message": "Bạn có những thay đổi chưa được lưu trong phần này. Bạn muốn làm gì trước khi rời đi?",
+    "unsaved_changes_title": "Những thay đổi chưa được lưu",
+    "review_ai": "trí tuệ nhân tạo",
+    "visual_type_selector_title": "Bạn muốn chèn loại sơ đồ nào?",
+    "default_set_a": "Đặt A",
+    "add_paragraph": "Đoạn mới",
+    "review_grammar": "ngữ pháp",
+    "bib_refs_count": "{{count}} giới thiệu trong .bib",
+    "section_status_legend": "Chú giải trạng thái",
+    "sections_count": "Phần {{count}}",
+    "review_spell": "chính tả",
+    "leave_without_saving": "Rời khỏi mà không lưu",
+    "default_table_column_2": "Cột 2",
+    "default_set_c": "Bộ C",
+    "default_set_b": "Bộ B",
+    "default_table_column_1": "Cột 1",
+    "no_bib_file": "không có .bib",
     "insert_plugin_figure_title": "Chèn hình khoa học (61 loại)",
     "block_plugin_figure": "Hình+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Chúng tôi chỉ hiển thị những gì bạn cần viết và gửi mà không phức tạp. Bạn có thể kích hoạt",
     "basic_mode_suffix": "trong phần văn bản.",
     "basic_top_body": "Các cài đặt này được thiết kế để đưa ra các quyết định hữu ích mà không cần nhập chi tiết kỹ thuật của LaTeX. Chuyển sang",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Kiểm tra các bản cập nhật",
+    "update_checking": "Đang kiểm tra…",
+    "update_available": "Đã có phiên bản {{version}} — khởi động lại để cài đặt",
+    "update_up_to_date": "Bạn đã cập nhật",
+    "update_error": "Không thể kiểm tra cập nhật",
     "refresh_catalog": "Làm mới danh mục",
     "package_status_stable": "Ổn định",
     "package_status_beta": "bản thử nghiệm",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Nhẹ và dễ bảo trì. Được đề xuất cho công việc viết lách hàng ngày và các dự án không yêu cầu phân phối TeX đầy đủ.",
     "latex_suite_title": "Bộ LaTeX hoàn chỉnh",
-    "latex_suite_description": "Sử dụng latexmk với TeX Live hoặc MiKTeX. Được khuyến nghị cho các gói nâng cao, thư mục phức tạp và bản phân phối cuối cùng.",
+    "latex_suite_description": "Bộ LaTeX đầy đủ ({{suiteName}}) với latexmk. Hỗ trợ tất cả các gói CTAN, biblatex + Biber, shell-escape và biên dịch nhiều lượt. Lựa chọn được đề xuất cho các tài liệu hoàn chỉnh, hồ sơ tổ chức và số liệu plugin.",
     "latex_available": "Có sẵn",
     "latex_not_available": "Chưa được cài đặt",
     "latex_detected_version": "Phiên bản được phát hiện: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Máy tính xách tay mặc định",
     "window_mode_remember": "Nhớ kích thước cuối cùng",
     "window_mode_maximized": "Tối đa hóa",
-    "window_mode_hint": "Chọn cửa sổ 1280 × 760, khôi phục kích thước cuối cùng bạn đã sử dụng hoặc mở bằng tất cả không gian màn hình có sẵn."
+    "window_mode_hint": "Chọn cửa sổ 1280 × 760, khôi phục kích thước cuối cùng bạn đã sử dụng hoặc mở bằng tất cả không gian màn hình có sẵn.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Vào «Quản lý cài đặt LaTeX» để cài đặt {{suiteName}}.",
+    "latex_recommended_badge": "Được đề xuất",
+    "latex_upgrade_banner": "{{suiteName}} đã được cài đặt — nó hỗ trợ tất cả các gói CTAN, Biber và số liệu plugin mà không bị hạn chế. Chuyển đổi được khuyến khích.",
+    "latex_upgrade_btn": "Chuyển sang {{suiteName}}",
+    "language_catalog_error": "Không thể tải danh mục ngôn ngữ. Hãy kiểm tra kết nối của bạn và thử lại.",
+    "language_install_error": "Không thể cài đặt gói ngôn ngữ. Hãy kiểm tra kết nối của bạn và thử lại."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Không tìm thấy hình ảnh '{{file}}' được tham chiếu trong phần '{{section}}'.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Xóa hồ sơ?",
     "delete_profile_body_before": "Điều này sẽ xóa",
     "delete_profile_body_after": "Không thể hoàn tác hành động này.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "Hồ sơ cài đặt {{profiles}}",
     "installed_profiles": "Hồ sơ đã cài đặt",
     "profile_count_hint": "Cấu hình {{count}} · bấm vào để xem chi tiết",
     "import_profile_title": "Nhập hồ sơ từ thư mục",
@@ -1135,30 +1297,31 @@
     "selected_chip": "đã chọn",
     "installed_chip": "đã cài đặt",
     "sections_count_suffix": "phần",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Plugin",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Vấn đề phía trước",
+      "body": "Thân hình",
+      "back_matter": "Vấn đề trở lại",
+      "appendix": "Phụ lục"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Trang tiêu đề",
+      "abstract": "Tóm tắt",
+      "acknowledgements": "Lời cảm ơn",
+      "table_of_contents": "Mục lục",
+      "list_of_figures": "Danh sách các hình",
+      "list_of_tables": "Danh sách các bảng",
+      "introduction": "Giới thiệu",
+      "theoretical_framework": "Khung lý thuyết",
+      "methodology": "Phương pháp luận",
+      "results": "Kết quả",
+      "discussion": "Thảo luận",
+      "conclusions": "Kết luận",
+      "references": "Tài liệu tham khảo",
+      "appendix": "Phụ lục",
+      "appendix_a": "Phụ lục A"
+    },
+    "tags_placeholder": "luận văn, đại học, apa"
   },
   "progress": {
     "status_draft": "bản nháp",
@@ -1280,7 +1443,14 @@
     "generating_response": "Đang tạo phản hồi…",
     "message_placeholder": "Viết tin nhắn của bạn… (Nhập để gửi)",
     "configure_key_first": "Trước tiên hãy định cấu hình khóa API của bạn",
-    "send": "Send"
+    "send": "Gửi",
+    "error_not_configured": "Khóa API chưa được định cấu hình. Thêm khóa của bạn vào tab nhà cung cấp.",
+    "error_auth": "Khóa API không hợp lệ. Kiểm tra xem nó có đúng và đang hoạt động không.",
+    "error_rate_limited": "Đã đạt đến giới hạn yêu cầu. Hãy thử lại sau vài phút.",
+    "error_network": "Lỗi mạng. Kiểm tra kết nối internet của bạn.",
+    "error_safety": "Yêu cầu đã bị chặn bởi chính sách an toàn.",
+    "error_model_unavailable": "Mẫu đã chọn không có sẵn. Chọn một cái khác trong cài đặt.",
+    "error_provider": "Lỗi nhà cung cấp. Hãy thử lại."
   },
   "editor_meta": {
     "project_guide": "Hướng dẫn dự án",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Chưa được xác nhận - khối này sẽ không được đưa vào PDF cho đến khi bạn xác nhận.",
     "packages": "Gói",
     "edit_figure_title": "Chỉnh sửa tiêu đề hoặc nhãn hoặc tạo lại hình",
-    "edit_figure": "Chỉnh sửa hình"
+    "edit_figure": "Chỉnh sửa hình",
+    "preview_pending": "Biên dịch bản xem trước từ tab \"Xem trước\" để xem hình ở đây."
   },
   "compile": {
     "ensure_latex_installed_path": "Kiểm tra xem trình biên dịch LaTeX đã được cài đặt và có sẵn trong PATH chưa.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Đang biên dịch… (dòng {{count}})",
     "backends_available": "{{backends}} có sẵn",
     "latex_not_installed_status": "⚠ LaTeX chưa được cài đặt",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Biên dịch",
+    "preflight_action_export": "Xuất trình",
+    "preflight_title": "Kiểm tra trước {{action}}",
+    "preflight_has_errors": "Sửa (các) lỗi {{count}} trước khi tiếp tục.",
+    "preflight_has_warnings": "Đã tìm thấy (các) cảnh báo {{count}}. Dù thế nào bạn cũng có thể tiếp tục.",
+    "preflight_errors_section": "Lỗi ({{count}})",
+    "preflight_warnings_section": "Cảnh báo ({{count}})",
+    "preflight_suggestions_section": "Đề xuất ({{count}})",
+    "export_success": "Đã xuất xong",
+    "compile_as_draft": "Biên dịch dưới dạng bản nháp",
+    "readiness_complete": "Hoàn thành",
+    "readiness_export_title": "Giao hàng cuối cùng bị chặn",
+    "readiness_back": "Quay lại để xem xét",
+    "readiness_compile_title": "Dự án chưa sẵn sàng cho phiên bản chính thức",
+    "readiness_export_subtitle": "Để xuất ở chế độ cuối cùng, trước tiên hãy hoàn tất quá trình phân phối và kiểm tra chất lượng.",
+    "readiness_compile_subtitle": "Biên soạn dưới dạng bản nháp hoặc xem lại các điểm này trước khi coi đây là phiên bản chính thức.",
+    "readiness_delivery": "Giao hàng tận nơi",
+    "readiness_quality": "Chất lượng cuối cùng",
     "severity_error": "Lỗi",
     "severity_warning": "Cảnh báo",
     "severity_suggestion": "Đề xuất",
@@ -1594,192 +1765,192 @@
     "order_hint_line_2": "Thứ tự xác định danh sách thả xuống khi tạo dự án.",
     "add_custom_style": "Thêm phong cách tùy chỉnh",
     "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "biblatex_style_required": "Phong cách Biblatex *",
+    "references_default_title": "Tài liệu tham khảo",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "trích dẫn",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Tác giả-Ngày",
+      "numeric": "số",
+      "notes_bibliography": "Ghi chú-Bibliog.",
+      "author_page": "Trang tác giả"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Hiệp hội Tâm lý Hoa Kỳ, tái bản lần thứ 7",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Tâm lý học",
+          "giáo dục",
+          "Khoa học xã hội",
+          "điều dưỡng",
+          "Truyền thông"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Phong cách được sử dụng rộng rãi nhất trên toàn cầu. Cần thiết trong nhiều chương trình tâm lý học, giáo dục và khoa học xã hội. Phiên bản thứ bảy (2020).",
         "regions_primary": [
-          "United States",
+          "Hoa Kỳ",
           "Canada",
-          "Latin America",
-          "Australia"
+          "Mỹ Latinh",
+          "Úc"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Tác giả, năm)",
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Khuyến nghị của Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Y học",
+          "điều dưỡng",
+          "Hiệu thuốc",
+          "Nha khoa",
+          "Khoa học sức khỏe"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Kiểu số bắt buộc cho khoa học sức khỏe. Tài liệu tham khảo được sắp xếp theo sự xuất hiện. Tiêu chuẩn trên tạp chí MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Khoa học toàn cầu, y tế và sức khỏe"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "Kiểu trích dẫn IEEE",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Kỹ thuật điện",
+          "Máy tính",
+          "Viễn thông",
+          "Người máy",
+          "Điện tử"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Kiểu số tiêu chuẩn cho kỹ thuật, máy tính và công nghệ. Được áp dụng rộng rãi trong các trường kỹ thuật.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Toàn cầu, kỹ thuật và công nghệ"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Ghi chú)",
+        "full_name": "Sách hướng dẫn phong cách Chicago, tái bản lần thứ 17, Ghi chú-Thư mục",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Lịch sử",
+          "Văn học",
+          "Nghệ thuật",
+          "Triết học",
+          "Nghiên cứu tôn giáo"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Hệ thống ghi chú và thư mục cho nhân văn. Trích dẫn xuất hiện trong chú thích cuối trang.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Hoa Kỳ",
+          "Vương quốc Anh",
+          "Canada, nhân văn"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Chú thích cuối trang¹",
+        "bibliography_title": "Thư mục"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Tác giả-Ngày)",
+        "full_name": "Sách hướng dẫn phong cách Chicago, tái bản lần thứ 17, ngày tác giả",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Kinh tế",
+          "Khoa học chính trị",
+          "Xã hội học",
+          "nhân chủng học",
+          "Địa lý"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Biến thể ngày tác giả Chicago, được ưa thích trong khoa học xã hội và kinh tế.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Hoa Kỳ",
+          "Canada, khoa học xã hội"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Năm tác giả)",
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "Cẩm nang MLA, tái bản lần thứ 9",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Văn học",
+          "Ngôn ngữ",
+          "Ngôn ngữ học",
+          "Nghiên cứu văn hóa",
+          "Hùng biện"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Tiêu chuẩn cho nghiên cứu ngôn ngữ, văn học và văn hóa ở Bắc Mỹ. Phiên bản thứ chín (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Hoa Kỳ",
+          "Canada, ngôn ngữ và văn học"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Trang tác giả)",
+        "bibliography_title": "Tác phẩm được trích dẫn"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Phong cách tham khảo của Harvard",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Kinh doanh",
+          "Quản lý",
+          "Kinh tế",
+          "Khoa học xã hội"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Kiểu ngày tác giả tương tự như APA. Được sử dụng rộng rãi ở các trường đại học ở Anh và Úc.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
+          "Vương quốc Anh",
+          "Úc",
           "Ireland",
-          "South Africa"
+          "Nam Phi"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Năm tác giả)",
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Hướng dẫn về phong cách của Hiệp hội nghiên cứu nhân văn hiện đại, tái bản lần thứ 3",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Nhân văn",
+          "Lịch sử",
+          "Văn học",
+          "Triết học",
+          "Ngôn ngữ học"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Tiêu chuẩn nhân văn của Vương quốc Anh tương tự như Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Vương quốc Anh",
+          "Ireland, nhân văn"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Chú thích cuối trang¹",
+        "bibliography_title": "Thư mục"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Tất cả các ngành (Brazil)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Tiêu chuẩn quốc gia về công tác học thuật ở các trường đại học Brazil.",
         "regions_primary": [
-          "Brazil, required"
+          "Brazil, bắt buộc"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(TÁC GIẢ, Năm)",
+        "bibliography_title": "Tài liệu tham khảo"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, Tiêu chuẩn quốc gia Trung Quốc",
         "disciplines": [
-          "All disciplines (China)"
+          "Tất cả các ngành (Trung Quốc)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Tiêu chuẩn quốc gia về luận văn bằng tiếng Trung. Bắt buộc ở các trường đại học Trung Quốc.",
         "regions_primary": [
-          "China, required"
+          "Trung Quốc, bắt buộc"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Tài liệu tham khảo"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Khôi phục kiểu mặc định",
+    "reset_action": "Khôi phục"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Chèn tham chiếu chéo ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Tiêu đề tùy chọn",
     "theorem_title_placeholder": "định lý Pythagore",
     "math_content": "Nội dung (chấp nhận LaTeX toán học)",
-    "theorem_content_placeholder": "Đặt $a^2 + b^2 = c^2$ trong đó $c$ là cạnh huyền..."
+    "theorem_content_placeholder": "Đặt $a^2 + b^2 = c^2$ trong đó $c$ là cạnh huyền...",
+    "term_placeholder": "Bản thể học",
+    "definition_placeholder": "Nhánh triết học nghiên cứu về sự tồn tại.",
+    "acronym_placeholder": "trí tuệ nhân tạo",
+    "full_form_placeholder": "Trí tuệ nhân tạo"
   },
   "citation": {
     "error_connect": "Lỗi kết nối.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "phương trình rỗng",
     "custom_molecule": "Phân tử tùy chỉnh",
     "molecule_compile_hint": "Cấu trúc được tạo bằng chemfig khi biên dịch",
-    "chemical_syntax_hint": "Sử dụng -> (phản ứng), <=> (cân bằng), ^ (khí) và v (kết tủa)"
+    "chemical_syntax_hint": "Sử dụng -> (phản ứng), <=> (cân bằng), ^ (khí) và v (kết tủa)",
+    "label_example": "hình: sơ đồ của tôi",
+    "circuit_lower": "mạch điện",
+    "diagram_lower": "sơ đồ",
+    "default_start": "Bắt đầu",
+    "default_process": "Quy trình",
+    "default_end": "Kết thúc",
+    "default_event": "Sự kiện {{number}}",
+    "default_major_scale": "âm giai C trưởng"
   },
   "vocabulary": {
     "title": "Từ vựng tên miền",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "cái đó có một",
     "repo_hint_suffix": "phần. Nó có thể là kho lưu trữ GitHub của riêng bạn.",
     "alias_placeholder": "Bí danh (e.g. my-lab-terms)",
-    "adding": "Đang thêm…"
+    "adding": "Đang thêm…",
+    "catalog_error": "Không thể tải danh mục từ vựng. Hãy kiểm tra kết nối của bạn và thử lại.",
+    "repo_sync_error": "Không thể đồng bộ hóa kho lưu trữ này.",
+    "repo_add_error": "Không thể thêm kho lưu trữ. Hãy kiểm tra địa chỉ của nó và thử lại."
   },
   "profile_wizard": {
     "step_of": "Bước {{current}} của {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Cài đặt từ URL",
     "install_from_url_hint": "Dán URL của .zip chứa hồ sơ.yaml hợp lệ.",
     "install_btn": "cài đặt",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Bạn không cần tên hồ sơ chính xác",
+    "guided_hint_body": "Bắt đầu với tổ chức của bạn hoặc sự kết hợp chặt chẽ giữa bằng cấp, lĩnh vực và phong cách trích dẫn. Nếu không có sự trùng khớp chính xác, hãy bắt đầu với một cơ sở thể chế đơn giản và điều chỉnh nó sau đó.",
+    "catalog_load_error": "Không thể tải danh mục hồ sơ. Hãy kiểm tra kết nối của bạn hoặc thử lại.",
+    "install_success": "\"{{name}}\" đã được cài đặt thành công.",
+    "breadcrumb_all": "Tất cả",
+    "profile_count_one": "Hồ sơ {{count}}",
+    "profile_count_other": "Hồ sơ {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Mỹ",
+      "europe": "Châu Âu",
+      "asia": "Châu Á",
+      "generic": "Chung"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
+      "mexico": "México",
+      "usa": "Hoa Kỳ",
       "canada": "Canada",
       "brazil": "Brazil",
       "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
+      "chile": "Chilê",
+      "uk": "Vương quốc Anh",
+      "germany": "nước Đức",
+      "spain": "Tây Ban Nha",
+      "netherlands": "Hà Lan",
+      "italy": "Ý",
+      "sweden": "Thụy Điển",
+      "france": "Pháp",
+      "china": "Trung Quốc",
+      "japan": "Nhật Bản",
+      "south_korea": "Hàn Quốc",
       "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "india": "Ấn Độ",
+      "generic": "Chung"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "Trường trung học",
+      "tecnico": "Bằng cấp kỹ thuật",
+      "licenciatura": "bằng cử nhân",
+      "especialidad": "Chuyên môn",
+      "maestria": "bằng thạc sĩ",
+      "doctorado": "tiến sĩ",
+      "posdoctorado": "bài tiến sĩ"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Thể chế",
+      "degree_specific": "Bằng cấp cụ thể",
+      "program_specific": "Chương trình cụ thể",
+      "discipline_specific": "Lĩnh vực cụ thể"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Tất cả các môn học",
+      "engineering": "Kỹ thuật",
+      "social_sciences": "Khoa học xã hội",
+      "humanities": "Nhân văn",
+      "health_sciences": "Khoa học sức khỏe",
+      "computing": "Máy tính",
+      "natural_sciences": "Khoa học tự nhiên"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Đã xác minh",
+    "status_reviewed_label": "Đã đánh giá"
   },
   "about": {
     "title": "Giới thiệu",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Áp dụng các thay đổi và tạo lại hình",
     "apply_visual_btn": "Áp dụng thay đổi",
     "applying": "Đang áp dụng…",
-    "done_msg": "Hình được cập nhật"
+    "done_msg": "Hình được cập nhật",
+    "tab_preview": "Xem trước",
+    "preview_compile_btn": "Biên dịch lại bản xem trước",
+    "preview_compiling": "Đang biên soạn…",
+    "preview_apply_first": "Áp dụng các thay đổi trước khi xem trước.",
+    "preview_tectonic_note": "Tectonic là động cơ hoạt động. Nếu bản xem trước không thành công, hình này có thể yêu cầu bộ LaTeX đầy đủ (MacTeX / MiKTeX / TeX Live). Bạn có thể thay đổi động cơ trong Cài đặt → động cơ LaTeX.",
+    "preview_error_prefix": "Lỗi biên dịch:",
+    "preview_no_tectonic": "Tectonic chưa được cài đặt hoặc không thể tìm thấy."
   },
   "elements_tab": {
     "title": "Yếu tố",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Loại nội bộ",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Đoạn",
+        "description": "Khối văn bản dạng tự do. Hỗ trợ nhấn mạnh, trích dẫn nội tuyến và LaTeX nội tuyến.",
+        "latex_output": "Văn bản thoát được viết trực tiếp vào tài liệu."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Tiêu đề/Tiêu đề",
+        "description": "Tiêu đề mục: mục (H1), tiểu mục (H2) hoặc tiểu mục (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Hình",
+        "description": "Hình ảnh có chú thích, nguồn và nhãn để tham khảo chéo. Chiều rộng: 50%, 75%, 100%.",
+        "latex_output": "môi trường hình + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Bảng",
+        "description": "Bảng có tiêu đề, hàng, chú thích và nguồn. Kiểu dáng: đơn giản, bìa sách, rộng, bàn dài.",
+        "latex_output": "môi trường bảng + dạng bảng/bàn dài + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "phương trình",
+        "description": "Công thức toán học được đánh số hoặc không đánh số. Được viết bằng toán LaTeX thuần túy.",
+        "latex_output": "phương trình hoặc phương trình* môi trường + \\label tùy chọn"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Danh sách",
+        "description": "Danh sách có dấu đầu dòng (phân thành từng mục), đánh số (liệt kê) hoặc mô tả (mô tả).",
+        "latex_output": "\\begin{mục/liệt kê/mô tả}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Trích dẫn thư mục",
+        "description": "Trích dẫn trong ngoặc đơn, tường thuật hoặc nhiều trích dẫn được liên kết với khóa BibTeX trong tệp .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "LaTeX thô",
+        "description": "Đoạn LaTeX tùy ý cho các trường hợp nâng cao. Yêu cầu xác nhận của người dùng.",
+        "latex_output": "Nguyên văn, không thoát. Sử dụng cẩn thận."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "văn bản",
+      "content": "nội dung",
+      "structure": "cấu trúc",
+      "navigation": "điều hướng",
+      "image": "hình ảnh",
+      "graphic": "đồ họa",
+      "data": "dữ liệu",
+      "statistics": "thống kê",
+      "mathematics": "toán học",
+      "formula": "công thức",
+      "list": "danh sách",
+      "enumeration": "sự liệt kê",
+      "bibliography": "thư mục",
+      "reference": "tài liệu tham khảo",
+      "advanced": "nâng cao",
+      "custom": "tùy chỉnh"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Tiến độ dự án",
+    "row_overall": "dự án",
+    "row_setup": "thiết lập",
+    "row_writing": "Viết",
+    "row_delivery": "Giao hàng tận nơi",
+    "row_quality": "Chất lượng cuối cùng",
+    "pending_prefix": "Đang chờ xử lý:",
+    "delivery_blocked": "Có những mặt hàng đang chờ xử lý trước khi giao hàng cuối cùng",
+    "setup_title": "Đặt tên thật của tác phẩm",
+    "setup_author": "Hoàn thành quyền tác giả chính",
+    "setup_institution": "Vào tổ chức thực sự",
+    "setup_profile": "Chọn hồ sơ học tập",
+    "setup_language": "Chọn ngôn ngữ cơ sở",
+    "setup_advisor": "Thêm ít nhất một cố vấn hoặc giám đốc luận án",
+    "writing_sections": "Bật ít nhất một phần nội dung",
+    "writing_draft": "Viết nội dung vào phần chính",
+    "writing_words": "Phát triển một bản dự thảo đầu tiên đáng kể",
+    "writing_reviewed": "Đánh dấu ít nhất một phần là đã sửa đổi",
+    "delivery_references": "Bao gồm phần tài liệu tham khảo",
+    "delivery_abstract": "Viết tóm tắt hoặc tóm tắt",
+    "delivery_required": "Hoàn thành các phần bắt buộc của hồ sơ",
+    "delivery_latex": "Xác nhận hoặc xóa các khối LaTeX chưa được xác thực",
+    "delivery_committee": "Hoàn thành ủy ban cho công việc nâng cao",
+    "delivery_review_main": "Xem lại các phần chính trước khi giao hàng",
+    "quality_citation": "Bao gồm ít nhất một trích dẫn có thể kiểm chứng được trong nội dung",
+    "quality_required_reviewed": "Đánh dấu các phần nội dung bắt buộc là đã sửa đổi",
+    "quality_raw_latex": "Di chuyển hoặc xem xét thủ công các khối LaTeX đã nhập trước khi giao hàng cuối cùng",
+    "quality_plugin_warnings": "Giải quyết các cảnh báo về hình ảnh hoặc plugin trước khi phân phối cuối cùng",
+    "quality_profile": "Sử dụng hồ sơ tổ chức hoặc tùy chỉnh để gửi chính thức"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Plugin",
+    "subtitle": "Các plugin trực quan {{count}} có sẵn để chèn số liệu và sơ đồ.",
+    "search_placeholder": "Tìm kiếm theo tên, gói hoặc danh mục…",
+    "no_results": "Không có plugin nào phù hợp với tìm kiếm đó.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "ổn định",
+      "beta": "phiên bản beta",
+      "experimental": "thực nghiệm",
+      "draft": "dự thảo"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Chọn ngôn ngữ của bạn",
+    "subheading": "Bạn có thể thay đổi điều này sau trong Cài đặt.",
+    "more_languages": "Thêm ngôn ngữ",
+    "loading_more": "Đang tải thêm ngôn ngữ…",
+    "catalog_error": "Không thể tải thêm ngôn ngữ. Bạn có thể tiếp tục với một ngôn ngữ đi kèm.",
+    "skip": "Bỏ qua",
+    "install_error": "Không thể cài đặt ngôn ngữ đó. Hãy kiểm tra kết nối của bạn và thử lại."
   },
   "toast": {
     "close_button": "Đóng thông báo",
@@ -2527,7 +2721,50 @@
     "redo": "Làm lại",
     "restore_btn": "Khôi phục ví dụ",
     "restore_title": "Thay thế bằng một ví dụ hoạt động tối thiểu",
-    "advanced_section": "Tùy chọn nâng cao"
+    "advanced_section": "Tùy chọn nâng cao",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Nhãn dành cho tham chiếu chéo (e.g. eq:quadratic). Trống có nghĩa là không có nhãn."
+      },
+      "chemistry_output": {
+        "label": "Chế độ đầu ra",
+        "description": "mhchem: \\ce nội tuyến{...}. chemfig: cấu trúc góc liên kết."
+      },
+      "circuit_style": {
+        "label": "phong cách Mỹ",
+        "description": "Bật: Ký hiệu thành phần của Mỹ (IEEE). Tắt: Ký hiệu Châu Âu (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Thư viện TikZ",
+        "description": "Các thư viện TikZ bổ sung được phân tách bằng dấu phẩy (e.g. calc, mũi tên.meta, mẫu)."
+      },
+      "pgfplots_options": {
+        "label": "Tùy chọn PGFPlots",
+        "description": "Các tùy chọn bổ sung được chèn vào \\beginZXQ0QXZ[…], chẳng hạn như xbar hoặc compat=1.18."
+      },
+      "forest_options": {
+        "label": "Tùy chọn rừng",
+        "description": "Các tùy chọn bổ sung được chuyển đến môi trường forest, chẳng hạn như các cạnh rẽ nhánh hoặc kiểu nhãn cạnh."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Đồ thị có hướng và vô hướng với các nút, cạnh, hình dạng và kiểu cung."
+      },
+      "pgfplots": {
+        "description": "Sơ đồ, biểu đồ, biểu đồ thanh, sơ đồ phân tán và bản đồ nhiệt với PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Cú pháp phân cấp, cây phân loại, cây phát sinh loài, cây quyết định và cây xác suất."
+      },
+      "table_data": {
+        "description": "Các bảng dữ liệu có thể xuất sang dữ liệu booktabs, longtable hoặc PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Biểu đồ Gantt và dòng thời gian với các nhóm, nhiệm vụ và phần phụ thuộc."
+      }
+    }
   },
   "help": {
     "title": "Trung tâm trợ giúp",

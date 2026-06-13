@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Tipografia e output migliori di qualsiasi alternativa leggera",
+            "Bibliografie compatibili al 100% (inclusa la versione biber corretta)",
+            "Tutti i pacchetti CTAN disponibili senza restrizioni",
+            "Supporto multilingue nativo: cirillico, CJK, arabo, devanagari",
+            "Compilazione multipass corretta: TOC, indici, riferimenti incrociati",
+            "Installazione Homebrew con un solo comando"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Download di grandi dimensioni (~5 GB)",
+            "L'installazione richiede 10-20 minuti"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Installa Homebrew (se non ce l'hai)",
+              "note": "Homebrew è il gestore di pacchetti standard di macOS. Se lo hai già, salta questo passaggio."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Installa MacTeX con Homebrew",
+              "note": "Download ~5 GB. Il processo richiede 10-20 minuti a seconda della connessione."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Aggiorna le variabili di ambiente",
+              "note": "Oppure semplicemente chiudi e riapri Terminale in modo che riprenda il nuovo PERCORSO."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificare l'installazione",
+              "note": "Tutti e tre i comandi dovrebbero rispondere con un numero di versione."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app in modo che rilevi la nuova installazione."
             }
           ],
           "tagline": "Consigliato: output migliore, più stabile e completo",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Installato in meno di 1 minuto",
+            "Scarica solo i pacchetti utilizzati dalla tua tesi",
+            "Coesiste con MacTeX se hai bisogno di entrambi",
+            "Aggiornabile con aggiornamento brew"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "La prima compilazione richiede una connessione internet",
+            "I pacchetti altamente specializzati (fisica avanzata, ecc.) potrebbero richiedere MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Installa Homebrew (se non ce l'hai)",
+              "note": "Se hai già Homebrew, salta questo passaggio."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Installa Tectonic con Homebrew",
+              "note": "Download leggero. Pronto in meno di 1 minuto."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificare l'installazione",
+              "note": "Dovresti vedere qualcosa del tipo: tettonico 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app in modo che rilevi la tettonica."
             }
           ],
           "tagline": "Leggero: scarica solo ciò di cui ha bisogno",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Tipografia e output migliori rispetto ad alternative leggere",
+            "Bibliografie corrette al 100%: versione biber compatibile inclusa",
+            "Tutti i pacchetti CTAN senza restrizioni",
+            "Supporto multilingue nativo: cirillico, CJK, arabo, devanagari",
+            "Compilazione multipass corretta: TOC, indici, riferimenti incrociati",
+            "Installazione con un unico comando di sistema"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "L'installazione completa richiede 3-5 GB",
+            "La versione del repository potrebbe essere leggermente precedente alla versione ufficiale"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "Ubuntu/Debian/Linux Mint",
+              "note": "Include tutto. Se lo spazio è limitato, usa texlive-xetex invece di texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Flusso Fedora/RHEL/CentOS",
+              "note": "Installa lo schema TeX Live completo."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Arco/Manjaro",
+              "note": "Installa i gruppi principali e biber per la bibliografia."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Schema completo tramite zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificare l'installazione",
+              "note": "Tutti e tre i comandi dovrebbero rispondere con un numero di versione."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app in modo che rilevi la nuova installazione."
             }
           ],
           "tagline": "Consigliato: output migliore, più stabile e completo",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Non richiede sudo per l'installazione",
+            "Scarica solo ciò che serve alla tua tesi",
+            "Coesiste con TeX Live se ti servono entrambi"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "La prima compilazione richiede Internet",
+            "Pacchetti altamente specializzati (fisica avanzata, ecc.) potrebbero richiedere TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Installa con lo script ufficiale",
+              "note": "Scarica e installa il file binario in ~/.cargo/bin o ~/bin a seconda della configurazione."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternativa: installazione con Cargo",
+              "note": "Richiede Rust installato. Compila dal sorgente, richiede diversi minuti."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificare l'installazione",
+              "note": "Dovresti vedere qualcosa del tipo: tettonico 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app."
             }
           ],
           "tagline": "Leggero: non è richiesto alcun gestore di pacchetti di sistema",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Tipografia e output migliori rispetto ad alternative leggere",
+            "Bibliografie corrette al 100%: biber incluso e compatibile",
+            "Tutti i pacchetti CTAN, scaricabili su richiesta",
+            "Non richiede Strawberry Perl (a differenza del manuale latexmk)",
+            "Supporto multilingue: cirillico, CJK, arabo, devanagari",
+            "Programma di installazione grafico .exe facile da usare"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "All'inizio la console MiKTeX può creare confusione",
+            "Richiede l'accettazione dell'installazione del pacchetto durante la prima compilazione"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Installa MiKTeX con winget",
+              "note": "Apri PowerShell come utente normale (non è necessario alcun amministratore). winget è incluso in Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternativa: programma di installazione grafico",
+              "note": "Vai a miktex.org → Scarica → Windows. Scarica il programma di installazione a 64 bit ed eseguilo. Scegli Installa MiKTeX solo per me."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Verificare l'installazione",
+              "note": "Dovrebbe rispondere con un numero di versione."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app in modo che rilevi MiKTeX."
             }
           ],
           "tagline": "Consigliato su Windows: output ottimale, completo senza Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Installato in 1 minuto con Winget",
+            "Non richiede Perl alla fragola",
+            "Coesiste con MiKTeX se ti servono entrambi",
+            "Aggiornabile con aggiornamento Winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "La prima compilazione richiede Internet",
+            "Pacchetti altamente specializzati (fisica avanzata, ecc.) potrebbero richiedere MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Installare con Winget",
+              "note": "Apri PowerShell come utente normale. Non è necessario alcun amministratore."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificare l'installazione",
+              "note": "Dovresti vedere qualcosa del tipo: tettonico 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app in modo che rilevi la tettonica."
             }
           ],
           "tagline": "Leggero: un comando, niente Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Tipografia e output migliori rispetto ad alternative leggere",
+            "Tutti i pacchetti CTAN inclusi, nessun download aggiuntivo",
+            "Bibliografia corretta al 100%: biber compatibile incluso",
+            "Supporto multilingue nativo: cirillico, CJK, arabo, devanagari",
+            "Compatibile con qualsiasi profilo istituzionale"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Installazione lenta (30-90 minuti)",
+            "Richiede 4-8 GB di spazio su disco",
+            "Richiede Perl Fragola per latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Scarica il programma di installazione TeX Live",
+              "note": "Vai su tug.org/texlive → download → install-tl-windows.exe. Scarica il programma di installazione."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Esegui il programma di installazione",
+              "note": "Scegli Installazione semplice (grande) per installare tutto. Il processo dura 30-90 minuti."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Installa Strawberry Perl (richiesto per latexmk)",
+              "note": "Perl è necessario affinché latexmk funzioni su Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificare l'installazione",
+              "note": "Tutti e tre i comandi dovrebbero rispondere con un numero di versione."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Riavvia TeXisStudio",
+              "note": "Chiudi e riapri l'app."
             }
           ],
           "tagline": "Completo: output migliore e più stabile, senza sorprese",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Post-dottorato",
     "level_bachillerato": "Scuola superiore",
     "level_tecnico": "Tecnico",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio è in modalità guidata: concentrati sul tuo lavoro e l'app si occuperà della formattazione, della bibliografia e della consegna.",
+    "error_opening_project": "Impossibile aprire la cartella come progetto TeXisStudio. Assicurati che contenga tesis.project.yaml.",
+    "search_library_hint": "Cerca biblioteca",
+    "detecting_latex": "Rilevamento LaTeX…",
+    "error_importing_tex": "Impossibile importare il file .tex: {{error}}"
   },
   "wizard": {
     "title": "Nuovo progetto",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "base solida per tesi",
     "recommend_reason_verified": "ha una verifica istituzionale",
     "recommend_reason_reviewed": "revisionato dal team",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive per desktop"
+    "error_vocab_install": "Impossibile attivare \"{{name}}\". Controlla la tua connessione o deselezionala per creare il progetto senza questo supporto. Dettaglio: {{error}}",
+    "google_drive_desktop": "Google Drive per desktop",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Equazioni numerate \\\\eqref{}",
+          "Teoremi e dimostrazioni",
+          "Matrici e vettori",
+          "Diagrammi commutativi (tikz-cd)",
+          "Alberi di prova (bussproof)"
+        ],
+        "external": [],
+        "tip": "LaTeX è lo strumento canonico per la matematica formale."
+      },
+      "logica": {
+        "native": [
+          "Alberi di detrazione (bussproof)",
+          "Tavole di verità",
+          "Semantica formale",
+          "Diagrammi di Hasse"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Unità fisiche \\\\SI{} (siunitx)",
+          "Derivate parziali \\\\pdv{}",
+          "Diagrammi di Feynman (tikz-feynman)",
+          "Trame (pgfplots)"
+        ],
+        "external": [
+          "Simulazioni numeriche (esportazione come PDF/PNG)"
+        ],
+        "tip": "Utilizza siunitx per tutte le unità: non scrivere mai direttamente \"km/h\"."
+      },
+      "quimica": {
+        "native": [
+          "Reazioni chimiche \\\\ce{} (mhchem)",
+          "Strutture molecolari (chemfig)",
+          "Unità \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Strutture 3D complesse (esportazione da ChemDraw come PDF)"
+        ],
+        "tip": "Per strutture semplici utilizzare chemfig. Per la cristallografia o le proteine, importare come PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Unità \\\\SI{} (siunitx)",
+          "Circuiti (circuitikz)",
+          "Grafici di dati (pgfplots)",
+          "Algoritmi (algpseudocodice)"
+        ],
+        "external": [
+          "Disegni tecnici (AutoCAD → PDF)",
+          "Schemi PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz copre la maggior parte dei circuiti di segnale e di alimentazione."
+      },
+      "computacion": {
+        "native": [
+          "Codice sorgente (lstlist)",
+          "Algoritmi con pseudocodice",
+          "Grafici delle prestazioni (pgfplots)",
+          "Alberi decisionali (tikz)"
+        ],
+        "external": [
+          "Diagrammi di architettura complessa (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Note estese",
+          "Apparati critici e citazioni testuali",
+          "Indici analitici (makeindex)",
+          "Esempi linguistici (gb4e)"
+        ],
+        "external": [
+          "Immagini delle opere d'arte (alta risoluzione come PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Tavole statistiche (booktabs)",
+          "Trame (pgfplots)",
+          "Citazioni bibliografiche in stile APA/Chicago"
+        ],
+        "external": [
+          "Visualizzazioni dati complesse (R/Python → PDF/PNG)"
+        ],
+        "tip": "Per grafici semplici utilizzare pgfplots. Per visualizzazioni elaborate, esporta da R o Python."
+      },
+      "medicina": {
+        "native": [
+          "Tavole cliniche (booktabs)",
+          "Unità mediche \\\\SI{}",
+          "Figure con didascalia ed etichetta"
+        ],
+        "external": [
+          "Immagini/istologia DICOM (esportazione come PNG/TIFF ad alta risoluzione)",
+          "Diagrammi di flusso clinici (disegna.io → PDF)"
+        ],
+        "tip": "Le immagini medico-diagnostiche devono essere importate come file esterni, non riprodotte in LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Partiture complete (MuseScore/Sibelius → PDF)",
+          "Frammenti audio (link esterno)"
+        ],
+        "tip": "Per notazioni musicali complesse, utilizza un editor di spartiti e allegalo come PDF."
+      },
+      "arte": {
+        "native": [
+          "Schede tecniche tabellate (booktabs)"
+        ],
+        "external": [
+          "Tavole e opere d'arte (alta risoluzione come PNG/TIFF)",
+          "Portfolio visivo (PDF esterno)",
+          "Piante (DWG → PDF)"
+        ],
+        "tip": "Per i portfolio, includi PDF o PNG di alta qualità. LaTeX gestisce il layout e il testo descrittivo."
+      },
+      "arquitectura": {
+        "native": [
+          "Tabelle di budget e materiali",
+          "Orari",
+          "Testi descrittivi"
+        ],
+        "external": [
+          "Planimetrie (AutoCAD/ArchiCAD → PDF)",
+          "Rendering (esporta come PNG/PDF)",
+          "Modelli (foto come PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Tabelle dati (booktabs)",
+          "Unità \\\\SI{}",
+          "Alberi filogenetici (tikz)"
+        ],
+        "external": [
+          "Diagrammi anatomici complessi (Inkscape → PDF/SVG)",
+          "Microscopia (PNG ad alta risoluzione)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Tavole statistiche (booktabs)",
+          "Trame (pgfplots)",
+          "Equazioni econometriche"
+        ],
+        "external": [
+          "Dashboard e visualizzazioni interattive (esportazione come PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Diagnostica del progetto",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Ripristina questa versione",
     "snapshot_delete_title": "Elimina versione",
     "section_guidance_label": "Guida alla sezione",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "Salva ed esci",
+    "snapshot_restore_action": "Ripristina",
+    "continue_editing": "Continua a modificare",
+    "unsaved_changes_message": "Sono presenti modifiche non salvate in questa sezione. Cosa vorresti fare prima di partire?",
+    "unsaved_changes_title": "Modifiche non salvate",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "visual_type_selector_title": "Che tipo di diagramma vuoi inserire?",
+    "default_set_a": "Impostare A",
+    "add_paragraph": "Nuovo paragrafo",
+    "review_grammar": "Grammatica",
+    "bib_refs_count": "Riferimenti {{count}} in .bib",
+    "section_status_legend": "Legenda dello stato",
+    "sections_count": "Sezioni {{count}}",
+    "review_spell": "Ortografia",
+    "leave_without_saving": "Esci senza salvare",
+    "default_table_column_2": "Colonna 2",
+    "default_set_c": "Impostare C",
+    "default_set_b": "Insieme B",
+    "default_table_column_1": "Colonna 1",
+    "no_bib_file": "niente .bib",
     "insert_plugin_figure_title": "Inserisci figura scientifica (61 tipologie)",
     "block_plugin_figure": "Figura+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Mostriamo solo ciò che ti serve per scrivere e inviare senza complessità. Puoi abilitare",
     "basic_mode_suffix": "nella sezione testo.",
     "basic_top_body": "Queste impostazioni sono progettate per prendere decisioni utili senza inserire i dettagli tecnici LaTeX. Passa a",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Controlla gli aggiornamenti",
+    "update_checking": "Controllo…",
+    "update_available": "Versione {{version}} disponibile: riavviare per installare",
+    "update_up_to_date": "Sei aggiornato",
+    "update_error": "Impossibile verificare la presenza di aggiornamenti",
     "update_disabled": "Aggiornamento automatico non configurato per questa versione",
     "refresh_catalog": "Aggiorna catalogo",
     "package_status_stable": "Stabile",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Leggero e di facile manutenzione. Consigliato per la scrittura quotidiana e per progetti che non richiedono una distribuzione TeX completa.",
     "latex_suite_title": "Suite LaTeX completa",
-    "latex_suite_description": "Utilizza latexmk con TeX Live o MiKTeX. Consigliato per pacchetti avanzati, bibliografie complesse e consegna finale.",
+    "latex_suite_description": "Suite LaTeX completa ({{suiteName}}) con latexmk. Supporta tutti i pacchetti CTAN, biblatex + Biber, shell-escape e compilazione multi-pass. La scelta consigliata per documenti completi, profili istituzionali e figure di plugin.",
     "latex_available": "Disponibile",
     "latex_not_available": "Non installato",
     "latex_detected_version": "Versione rilevata: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Impostazione predefinita del portatile",
     "window_mode_remember": "Ricorda l'ultima taglia",
     "window_mode_maximized": "Massimizzato",
-    "window_mode_hint": "Scegli una finestra 1280 × 760, ripristina l'ultima dimensione utilizzata o aprila utilizzando tutto lo spazio disponibile sul monitor."
+    "window_mode_hint": "Scegli una finestra 1280 × 760, ripristina l'ultima dimensione utilizzata o aprila utilizzando tutto lo spazio disponibile sul monitor.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Andare su «Gestisci installazione LaTeX» per installare {{suiteName}}.",
+    "latex_recommended_badge": "Consigliato",
+    "latex_upgrade_banner": "{{suiteName}} è installato: supporta tutti i pacchetti CTAN, Biber e le figure dei plugin senza restrizioni. Si consiglia il cambio.",
+    "latex_upgrade_btn": "Passa a {{suiteName}}",
+    "language_catalog_error": "Impossibile caricare il catalogo delle lingue. Controlla la connessione e riprova.",
+    "language_install_error": "Impossibile installare il pacchetto lingua. Controlla la connessione e riprova."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Immagine \"{{file}}\" citata nella sezione \"{{section}}\" non trovata.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Eliminare il profilo?",
     "delete_profile_body_before": "Questo eliminerà",
     "delete_profile_body_after": "Questa azione non può essere annullata.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "Profili installati {{profiles}}",
     "installed_profiles": "Profili installati",
     "profile_count_hint": "Profili {{count}} · fare clic per visualizzare i dettagli",
     "import_profile_title": "Importa il profilo dalla directory",
@@ -1135,30 +1297,31 @@
     "selected_chip": "selezionato",
     "installed_chip": "installato",
     "sections_count_suffix": "sezioni",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Plugin",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Questione anteriore",
+      "body": "Corpo",
+      "back_matter": "Materia posteriore",
+      "appendix": "Appendice"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Pagina del titolo",
+      "abstract": "Estratto",
+      "acknowledgements": "Ringraziamenti",
+      "table_of_contents": "Sommario",
+      "list_of_figures": "Elenco delle figure",
+      "list_of_tables": "Elenco delle tabelle",
+      "introduction": "Introduzione",
+      "theoretical_framework": "Quadro teorico",
+      "methodology": "Metodologia",
+      "results": "Risultati",
+      "discussion": "Discussione",
+      "conclusions": "Conclusioni",
+      "references": "Riferimenti",
+      "appendix": "Appendice",
+      "appendix_a": "Appendice A"
+    },
+    "tags_placeholder": "tesi, laurea, apa"
   },
   "progress": {
     "status_draft": "Bozza",
@@ -1280,7 +1443,14 @@
     "generating_response": "Generazione della risposta…",
     "message_placeholder": "Scrivi il tuo messaggio... (Inserisci per inviare)",
     "configure_key_first": "Configura prima la tua chiave API",
-    "send": "Send"
+    "send": "Invia",
+    "error_not_configured": "Chiave API non configurata. Aggiungi la tua chiave nella scheda del provider.",
+    "error_auth": "Chiave API non valida. Verificare che sia corretto e attivo.",
+    "error_rate_limited": "Limite di richieste raggiunto. Riprova tra qualche minuto.",
+    "error_network": "Errore di rete. Controlla la tua connessione Internet.",
+    "error_safety": "La richiesta è stata bloccata dalla politica di sicurezza.",
+    "error_model_unavailable": "Il modello selezionato non è disponibile. Scegline un altro nelle impostazioni.",
+    "error_provider": "Errore del fornitore. Riprova."
   },
   "editor_meta": {
     "project_guide": "Guida al progetto",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Non confermato: questo blocco non sarà incluso nello PDF finché non lo confermerai.",
     "packages": "Pacchetti",
     "edit_figure_title": "Modifica il titolo o l'etichetta o rigenera la figura",
-    "edit_figure": "Modifica figura"
+    "edit_figure": "Modifica figura",
+    "preview_pending": "Compila un'anteprima dalla scheda «Anteprima» per vedere la figura qui."
   },
   "compile": {
     "ensure_latex_installed_path": "Verificare che un compilatore LaTeX sia installato e disponibile in PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Compilazione… (righe {{count}})",
     "backends_available": "{{backends}} disponibile",
     "latex_not_installed_status": "⚠ LaTeX non installato",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Compilare",
+    "preflight_action_export": "Invio dell'esportazione",
+    "preflight_title": "Controllo pre-{{action}}",
+    "preflight_has_errors": "Correggere gli errori {{count}} prima di continuare.",
+    "preflight_has_warnings": "Avvisi {{count}} trovati. Puoi continuare comunque.",
+    "preflight_errors_section": "Errori ({{count}})",
+    "preflight_warnings_section": "Avvertenze ({{count}})",
+    "preflight_suggestions_section": "Suggerimenti ({{count}})",
+    "export_success": "Esportazione completata",
+    "compile_as_draft": "Compilare come bozza",
+    "readiness_complete": "Completo",
+    "readiness_export_title": "Consegna finale bloccata",
+    "readiness_back": "Torna alla revisione",
+    "readiness_compile_title": "Progetto non pronto per la versione formale",
+    "readiness_export_subtitle": "Per esportare in modalità finale, completa prima la consegna e i controlli di qualità.",
+    "readiness_compile_subtitle": "Compilare come bozza o rivedere questi punti prima di trattarli come una versione formale.",
+    "readiness_delivery": "Consegna",
+    "readiness_quality": "Qualità finale",
     "severity_error": "Errore",
     "severity_warning": "Avvertimento",
     "severity_suggestion": "Suggerimento",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "Utilizzare ▲▼ per modificare l'ordine.",
     "order_hint_line_2": "L'ordine determina il menu a discesa durante la creazione di un progetto.",
     "add_custom_style": "Aggiungi uno stile personalizzato",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "documento d'identità *",
+    "biblatex_style_required": "Stile Biblatex *",
+    "references_default_title": "Riferimenti",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "citazione",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Data-autore",
+      "numeric": "Numerico",
+      "notes_bibliography": "Note-Biblioteca.",
+      "author_page": "Pagina dell'autore"
     },
     "builtins": {
       "apa7": {
-        "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "name": "APA7",
+        "full_name": "American Psychological Association, 7a edizione",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Psicologia",
+          "Istruzione",
+          "Scienze sociali",
+          "Assistenza infermieristica",
+          "Comunicazione"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Lo stile più utilizzato a livello globale. Richiesto in molti programmi di psicologia, istruzione e scienze sociali. Settima edizione (2020).",
         "regions_primary": [
-          "United States",
+          "Stati Uniti",
           "Canada",
-          "Latin America",
+          "America Latina",
           "Australia"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Autore, Anno)",
+        "bibliography_title": "Riferimenti"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Raccomandazioni Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Medicina",
+          "Assistenza infermieristica",
+          "Farmacia",
+          "Odontoiatria",
+          "Scienze della salute"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Stile numerico richiesto per le scienze della salute. I riferimenti sono ordinati per aspetto. Standard nelle riviste MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Scienze globali, mediche e della salute"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Riferimenti"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE Stile di citazione",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Ingegneria elettrica",
+          "Informatica",
+          "Telecomunicazioni",
+          "Robotica",
+          "Elettronica"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Stile numerico standard per ingegneria, informatica e tecnologia. Ampiamente adottato nelle scuole di ingegneria.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Globale, ingegneria e tecnologia"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Riferimenti"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Note)",
+        "full_name": "Chicago Manuale di Stile, XVII Edizione, Note-Bibliografia",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Storia",
+          "Letteratura",
+          "Arti",
+          "Filosofia",
+          "Studi religiosi"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Sistema di note e bibliografia per le discipline umanistiche. Le citazioni compaiono nelle note a piè di pagina.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Stati Uniti",
+          "Regno Unito",
+          "Canada, discipline umanistiche"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Nota a piè di pagina¹",
+        "bibliography_title": "Bibliografia"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Autore-Data)",
+        "full_name": "Chicago Manuale di stile, 17a edizione, data autore",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Economia",
+          "Scienza politica",
+          "Sociologia",
+          "Antropologia",
+          "Geografia"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago variante autore-data, preferita nelle scienze sociali ed economiche.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Stati Uniti",
+          "Canada, scienze sociali"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Anno dell'autore)",
+        "bibliography_title": "Riferimenti"
       },
       "mla9": {
-        "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "name": "MLA9",
+        "full_name": "Manuale MLA, 9a edizione",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Letteratura",
+          "Lingua",
+          "Linguistica",
+          "Studi culturali",
+          "Retorica"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Standard per gli studi linguistici, letterari e culturali nel Nord America. Nona edizione (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Stati Uniti",
+          "Canada, lingua e letteratura"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Pagina dell'autore)",
+        "bibliography_title": "Opere citate"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Stile di riferimento di Harvard",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Affari",
+          "Gestione",
+          "Economia",
+          "Scienze sociali"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Stile autore-data simile a APA. Ampiamente usato nelle università del Regno Unito e dell'Australia.",
         "regions_primary": [
-          "United Kingdom",
+          "Regno Unito",
           "Australia",
-          "Ireland",
-          "South Africa"
+          "Irlanda",
+          "Sud Africa"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Anno dell'autore)",
+        "bibliography_title": "Riferimenti"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Guida stilistica della Modern Humanities Research Association, 3a edizione",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Studi umanistici",
+          "Storia",
+          "Letteratura",
+          "Filosofia",
+          "Linguistica"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Standard umanistico del Regno Unito simile a Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Regno Unito",
+          "Irlanda, discipline umanistiche"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Nota a piè di pagina¹",
+        "bibliography_title": "Bibliografia"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Tutte le discipline (Brasile)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Standard nazionale per il lavoro accademico nelle università brasiliane.",
         "regions_primary": [
-          "Brazil, required"
+          "Brasile, richiesto"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(AUTORE, Anno)",
+        "bibliography_title": "Riferimenti"
       },
       "gb7714": {
-        "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "name": "GB/T7714",
+        "full_name": "GB/T 7714-2015, norma nazionale cinese",
         "disciplines": [
-          "All disciplines (China)"
+          "Tutte le discipline (Cina)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Standard nazionale per le tesi in cinese. Richiesto nelle università cinesi.",
         "regions_primary": [
-          "China, required"
+          "Cina, richiesta"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Riferimenti"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Ripristina gli stili predefiniti",
+    "reset_action": "Ripristina"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Inserisci il riferimento incrociato ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Titolo facoltativo",
     "theorem_title_placeholder": "Teorema di Pitagora",
     "math_content": "Contenuto (accetta LaTeX matematico)",
-    "theorem_content_placeholder": "Sia $a^2 + b^2 = c^2$ dove $c$ è l'ipotenusa..."
+    "theorem_content_placeholder": "Sia $a^2 + b^2 = c^2$ dove $c$ è l'ipotenusa...",
+    "term_placeholder": "Ontologia",
+    "definition_placeholder": "Ramo della filosofia che studia l'essere in quanto essere.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "Intelligenza artificiale"
   },
   "citation": {
     "error_connect": "Errore di connessione.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Equazione vuota",
     "custom_molecule": "Molecola personalizzata",
     "molecule_compile_hint": "Struttura generata con chemfig durante la compilazione",
-    "chemical_syntax_hint": "Utilizzare -> (reazione), <=> (equilibrio), ^ (gas) e v (precipitato)"
+    "chemical_syntax_hint": "Utilizzare -> (reazione), <=> (equilibrio), ^ (gas) e v (precipitato)",
+    "label_example": "fig: il mio diagramma",
+    "circuit_lower": "circuito",
+    "diagram_lower": "diagramma",
+    "default_start": "Inizia",
+    "default_process": "Processo",
+    "default_end": "Fine",
+    "default_event": "Evento {{number}}",
+    "default_major_scale": "Scala di do maggiore"
   },
   "vocabulary": {
     "title": "Vocabolari di dominio",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "quello ha un",
     "repo_hint_suffix": "sezione. Può essere il tuo repository GitHub.",
     "alias_placeholder": "Alias (e.g. termini-laboratorio)",
-    "adding": "Aggiunta…"
+    "adding": "Aggiunta…",
+    "catalog_error": "Impossibile caricare il catalogo dei vocaboli. Controlla la connessione e riprova.",
+    "repo_sync_error": "Impossibile sincronizzare questo repository.",
+    "repo_add_error": "Impossibile aggiungere il repository. Controlla il suo indirizzo e riprova."
   },
   "profile_wizard": {
     "step_of": "Passo {{current}} di {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Installa da URL",
     "install_from_url_hint": "Incolla lo URL di uno .zip contenente un profilo .yaml valido.",
     "install_btn": "Installa",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Non è necessario il nome esatto del profilo",
+    "guided_hint_body": "Inizia con la tua istituzione o una stretta combinazione di laurea, campo e stile di citazione. Se non esiste una corrispondenza esatta, iniziare con una base istituzionale semplice e adattarla successivamente.",
+    "catalog_load_error": "Impossibile caricare il catalogo dei profili. Controlla la connessione o riprova.",
+    "install_success": "\"{{name}}\" installato correttamente.",
+    "breadcrumb_all": "Tutto",
+    "profile_count_one": "Profilo {{count}}",
+    "profile_count_other": "Profili {{count}}",
     "continent": {
       "america": "America",
-      "europe": "Europe",
+      "europe": "Europa",
       "asia": "Asia",
-      "generic": "Generic"
+      "generic": "Generico"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
+      "mexico": "Messico",
+      "usa": "Stati Uniti",
       "canada": "Canada",
-      "brazil": "Brazil",
+      "brazil": "Brasile",
       "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
+      "chile": "Cile",
+      "uk": "Regno Unito",
+      "germany": "Germania",
+      "spain": "Spagna",
+      "netherlands": "Paesi Bassi",
+      "italy": "Italia",
+      "sweden": "Svezia",
+      "france": "Francia",
+      "china": "Cina",
+      "japan": "Giappone",
+      "south_korea": "Corea del Sud",
       "singapore": "Singapore",
       "india": "India",
-      "generic": "Generic"
+      "generic": "Generico"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
+      "bachillerato": "Scuola superiore",
+      "tecnico": "Laurea tecnica",
+      "licenciatura": "Laurea triennale",
+      "especialidad": "Specializzazione",
+      "maestria": "Laurea Magistrale",
+      "doctorado": "Dottorato",
       "posdoctorado": "Postdoc"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Istituzionale",
+      "degree_specific": "Specifico per il titolo di studio",
+      "program_specific": "Specifico del programma",
+      "discipline_specific": "Specifico per il settore"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Tutte le discipline",
+      "engineering": "Ingegneria",
+      "social_sciences": "Scienze sociali",
+      "humanities": "Studi umanistici",
+      "health_sciences": "Scienze della salute",
+      "computing": "Informatica",
+      "natural_sciences": "Scienze naturali"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Verificato",
+    "status_reviewed_label": "Recensito"
   },
   "about": {
     "title": "Circa",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Applica modifiche e rigenera la figura",
     "apply_visual_btn": "Applica modifiche",
     "applying": "Applicazione…",
-    "done_msg": "Figura aggiornata"
+    "done_msg": "Figura aggiornata",
+    "tab_preview": "Anteprima",
+    "preview_compile_btn": "Ricompilare l'anteprima",
+    "preview_compiling": "Compilazione…",
+    "preview_apply_first": "Applica le modifiche prima dell'anteprima.",
+    "preview_tectonic_note": "Tectonic è il motore attivo. Se l'anteprima fallisce, questa figura potrebbe richiedere una suite LaTeX completa (MacTeX / MiKTeX / TeX Live). Puoi modificare il motore in Impostazioni → Motore LaTeX.",
+    "preview_error_prefix": "Errore di compilazione:",
+    "preview_no_tectonic": "Tectonic non è installato o non è stato trovato."
   },
   "elements_tab": {
     "title": "Elementi",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Tipologia interna",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Paragrafo",
+        "description": "Blocco di testo in formato libero. Supporta enfasi, citazioni in linea e LaTeX in linea.",
+        "latex_output": "Testo di escape scritto direttamente nel documento."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Titolo/Intestazione",
+        "description": "Intestazione della sezione: sezione (H1), sottosezione (H2) o sottosezione (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Figura",
+        "description": "Immagine con didascalia, fonte ed etichetta per riferimenti incrociati. Larghezze: 50%, 75%, 100%.",
+        "latex_output": "ambiente figura + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tabella",
+        "description": "Tabella con intestazioni, righe, didascalia e fonte. Stili: semplice, booktabs, largo, longtable.",
+        "latex_output": "ambiente tavolo + tabular/longtable + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Equazione",
+        "description": "Formula matematica numerata o non numerata. Scritto in pura matematica LaTeX.",
+        "latex_output": "ambiente equazione o equazione* + \\label opzionale"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Elenco",
+        "description": "Elenco puntato (elencare), numerato (enumerato) o descrittivo (descrizione).",
+        "latex_output": "\\begin{elencare/elencare/descrivere}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Citazione bibliografica",
+        "description": "Citazione tra parentesi, narrativa o multipla collegata a una chiave BibTeX nel file .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "LaTeX grezzo",
+        "description": "Frammento LaTeX arbitrario per casi avanzati. Richiede la conferma dell'utente.",
+        "latex_output": "Alla lettera, senza escape. Utilizzare con cura."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
+      "text": "testo",
+      "content": "contenuto",
+      "structure": "struttura",
+      "navigation": "navigazione",
+      "image": "immagine",
+      "graphic": "grafico",
+      "data": "dati",
+      "statistics": "statistiche",
+      "mathematics": "matematica",
       "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "list": "elenco",
+      "enumeration": "enumerazione",
+      "bibliography": "bibliografia",
+      "reference": "riferimento",
+      "advanced": "avanzato",
+      "custom": "personalizzato"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Avanzamento del progetto",
+    "row_overall": "Progetto",
+    "row_setup": "Installazione",
+    "row_writing": "Scrivere",
+    "row_delivery": "Consegna",
+    "row_quality": "Qualità finale",
+    "pending_prefix": "In sospeso:",
+    "delivery_blocked": "Ci sono articoli in sospeso prima della consegna finale",
+    "setup_title": "Imposta il titolo reale dell'opera",
+    "setup_author": "Paternità principale completa",
+    "setup_institution": "Entra nella vera istituzione",
+    "setup_profile": "Seleziona un profilo accademico",
+    "setup_language": "Scegli la lingua di base",
+    "setup_advisor": "Aggiungi almeno un relatore o direttore della tesi",
+    "writing_sections": "Abilita almeno una sezione di contenuti",
+    "writing_draft": "Scrivi il contenuto in una sezione principale",
+    "writing_words": "Sviluppare una prima bozza sostanziale",
+    "writing_reviewed": "Contrassegna almeno una sezione come rivista",
+    "delivery_references": "Includere una sezione di riferimenti",
+    "delivery_abstract": "Scrivi il riassunto o l'abstract",
+    "delivery_required": "Completa le sezioni richieste del profilo",
+    "delivery_latex": "Conferma o rimuovi i blocchi LaTeX non convalidati",
+    "delivery_committee": "Completa il comitato per il lavoro avanzato",
+    "delivery_review_main": "Rivedere le sezioni principali prima della consegna",
+    "quality_citation": "Includere almeno una citazione verificabile nel corpo",
+    "quality_required_reviewed": "Contrassegnare le sezioni del corpo richieste come revisionate",
+    "quality_raw_latex": "Migra o rivedi manualmente i blocchi LaTeX importati prima della consegna finale",
+    "quality_plugin_warnings": "Risolvi gli avvisi relativi a figure o plug-in prima della consegna finale",
+    "quality_profile": "Utilizzare un profilo istituzionale o personalizzato per invii formali"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Plugin",
+    "subtitle": "{{count}} plugin visivi disponibili per l'inserimento di figure e diagrammi.",
+    "search_placeholder": "Cerca per nome, pacchetto o categoria...",
+    "no_results": "Nessun plugin corrisponde a quella ricerca.",
     "quality": {
-      "stable": "stable",
+      "stable": "stabile",
       "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "experimental": "sperimentale",
+      "draft": "bozza"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Seleziona la tua lingua",
+    "subheading": "Puoi modificarlo in seguito in Impostazioni.",
+    "more_languages": "Più lingue",
+    "loading_more": "Caricamento di più lingue…",
+    "catalog_error": "Impossibile caricare più lingue. Puoi continuare con una lingua in bundle.",
+    "skip": "Salta",
+    "install_error": "Impossibile installare quella lingua. Controlla la connessione e riprova."
   },
   "toast": {
     "close_button": "Chiudi notifica",
@@ -2468,18 +2662,18 @@
     "expression": "Espressione (f(x))",
     "domain_from": "Da",
     "domain_to": "A",
-    "auto_color": "Auto",
+    "auto_color": "Automatico",
     "add_series": "Aggiungi serie",
     "plot_function2d": "Funzione f(x)",
     "plot_scatter": "Dispersione",
     "plot_bar": "Istogramma a barre",
     "plot_histogram": "Istogramma",
-    "plot_boxplot": "Box plot",
+    "plot_boxplot": "Trama a scatola",
     "rows": "Righe",
     "cols": "Colonne",
     "delimiter": "Parentesi",
     "delim_paren": "( )",
-    "delim_bracket": "[ ]",
+    "delim_bracket": "[]",
     "delim_brace": "{ }",
     "delim_vert": "| |",
     "delim_none": "Nessuna",
@@ -2527,7 +2721,50 @@
     "redo": "Rifare",
     "restore_btn": "Esempio di ripristino",
     "restore_title": "Sostituisci con un esempio funzionante minimo",
-    "advanced_section": "Opzioni avanzate"
+    "advanced_section": "Opzioni avanzate",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Etichetta per riferimenti incrociati (e.g. eq:quadratico). Vuoto significa nessuna etichetta."
+      },
+      "chemistry_output": {
+        "label": "Modalità di uscita",
+        "description": "mhchem: in linea \\ce{...}. chemfig: strutture ad angoli di legame."
+      },
+      "circuit_style": {
+        "label": "Stile americano",
+        "description": "Acceso: simboli dei componenti americani (IEEE). Spento: simboli europei (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Librerie TikZ",
+        "description": "Librerie TikZ extra separate da virgole (e.g. calc, frecce.meta, modelli)."
+      },
+      "pgfplots_options": {
+        "label": "Opzioni PGFPlots",
+        "description": "Opzioni extra inserite in \\beginZXQ0QXZ[…], come xbar o compat=1.18."
+      },
+      "forest_options": {
+        "label": "Opzioni forestali",
+        "description": "Opzioni aggiuntive passate all'ambiente della foresta, come bordi biforcati o stili di etichette dei bordi."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Grafici diretti e non orientati con nodi, bordi, forme e stili di arco."
+      },
+      "pgfplots": {
+        "description": "Grafici, istogrammi, grafici a barre, grafici a dispersione e mappe termiche con PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Sintassi gerarchica, alberi tassonomici, filogenetici, decisionali e di probabilità."
+      },
+      "table_data": {
+        "description": "Tabelle di dati esportabili in dati booktabs, longtable o PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Diagrammi di Gantt e sequenze temporali con gruppi, attività e dipendenze."
+      }
+    }
   },
   "help": {
     "title": "Centro assistenza",
@@ -2538,7 +2775,7 @@
     "section_figures": "Figure e plugin",
     "section_latex": "Basi di LaTeX",
     "section_errors": "Errori comuni",
-    "section_faq": "FAQ",
+    "section_faq": "Domande frequenti",
     "start": {
       "intro": "TeXisStudio ti permette di creare documenti accademici professionali senza conoscere LaTeX. Ecco come iniziare:",
       "step1": "1. Crea o apri un progetto dalla schermata iniziale.",

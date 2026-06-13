@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Tüm hafif alternatiflerin en iyi tipografisi ve çıktısı",
+            "%100 uyumlu bibliyografyalar (doğru biber versiyonu dahil)",
+            "Tüm CTAN paketleri kısıtlama olmaksızın mevcuttur",
+            "Yerel çoklu dil desteği: Kiril, CJK, Arapça, Devanagari",
+            "Doğru çok geçişli derleme: TOC, dizinler, çapraz referanslar",
+            "Tek komutla Homebrew kurulumu"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Büyük indirme (~5 GB)",
+            "Kurulum 10–20 dakika sürer"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Homebrew'u yükleyin (eğer yoksa)",
+              "note": "Homebrew standart macOS paket yöneticisidir. Zaten sahipseniz bu adımı atlayın."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "MacTeX'i Homebrew ile yükleyin",
+              "note": "~5 GB indirilir. Bağlantınıza bağlı olarak işlem 10-20 dakika sürer."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Ortam değişkenlerini güncelleme",
+              "note": "Veya yeni PATH'i alması için Terminali kapatıp yeniden açın."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Kurulumu doğrulayın",
+              "note": "Her üç komut da bir sürüm numarasıyla yanıt vermelidir."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Yeni yüklemeyi algılaması için uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Önerilen — en iyi, en kararlı ve eksiksiz çıktı",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "1 dakikadan kısa sürede kuruldu",
+            "Yalnızca tezinizin kullandığı paketleri indirir",
+            "Her ikisine de ihtiyacınız varsa MacTeX ile bir arada bulunur",
+            "Demleme yükseltmesi ile yükseltilebilir"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "İlk derleme internet bağlantısı gerektirir",
+            "Son derece uzmanlaşmış paketler (ileri fizik vb.) MacTeX gerektirebilir"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Homebrew'u yükleyin (eğer yoksa)",
+              "note": "Zaten Homebrew'unuz varsa bu adımı atlayın."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Tectonic'yi Homebrew ile yükleyin",
+              "note": "Hafif indir. 1 dakikadan kısa sürede hazır."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Kurulumu doğrulayın",
+              "note": "Şöyle bir şey görmelisiniz: tektonik 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Tektoniği tespit etmesi için uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Hafif — yalnızca ihtiyaç duyduğu şeyi indirir",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Hafif alternatiflere göre en iyi tipografi ve çıktı",
+            "%100 doğru kaynakçalar — uyumlu biber sürümü dahil",
+            "Tüm CTAN paketleri kısıtlama olmaksızın",
+            "Yerel çoklu dil desteği: Kiril, CJK, Arapça, Devanagari",
+            "Doğru çok geçişli derleme: TOC, dizinler, çapraz referanslar",
+            "Tek sistem komutuyla kurulum"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Tam kurulum 3–5 GB alır",
+            "Depo sürümü resmi sürümden biraz daha eski olabilir"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "Ubuntu / Debian / Linux Nane",
+              "note": "Her şeyi içerir. Alan sınırlıysa texlive-full yerine texlive-xetex kullanın."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Fedora / RHEL / CentOS Akışı",
+              "note": "Tam TeX Live şemasını yükler."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Kemer / Manjaro",
+              "note": "Kaynakça için ana grupları ve biberleri yükler."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Zypper aracılığıyla tam şema."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Kurulumu doğrulayın",
+              "note": "Her üç komut da bir sürüm numarasıyla yanıt vermelidir."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Yeni yüklemeyi algılaması için uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Önerilen — en iyi, en kararlı ve eksiksiz çıktı",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Kurulum için sudo gerektirmez",
+            "Yalnızca tezinizin ihtiyaç duyduğu şeyleri indirir",
+            "Her ikisine de ihtiyacınız varsa TeX Live ile bir arada bulunur"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "İlk derleme internet gerektirir",
+            "Son derece uzmanlaşmış paketler (ileri düzey fizik vb.) TeX Live gerektirebilir"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Resmi komut dosyasıyla yükleyin",
+              "note": "Kurulumunuza bağlı olarak ikili dosyayı ~/.cargo/bin veya ~/bin dizinine indirir ve yükler."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternatif: Kargo ile kurulum",
+              "note": "Rust'ın kurulu olmasını gerektirir. Kaynaktan derlenir, birkaç dakika sürer."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Kurulumu doğrulayın",
+              "note": "Şöyle bir şey görmelisiniz: tektonik 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Hafif — sistem paketi yöneticisine gerek yok",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Hafif alternatiflere göre en iyi tipografi ve çıktı",
+            "%100 doğru bibliyografyalar — biber dahil ve uyumlu",
+            "Talep üzerine indirilen tüm CTAN paketleri",
+            "Strawberry Perl gerektirmez (latexmk kılavuzundan farklı olarak)",
+            "Çoklu dil desteği: Kiril, CJK, Arapça, Devanagari",
+            "Kullanımı kolay .exe grafik yükleyici"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "MiKTeX konsolu ilk başta kafa karıştırıcı olabilir",
+            "İlk derleme sırasında paket kurulumunun kabul edilmesini gerektirir"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "MiKTeX'yi kanatla takın",
+              "note": "PowerShell'i normal bir kullanıcı olarak açın (yöneticiye gerek yoktur). Winget, Windows 10/11'e dahildir."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternatif: grafik yükleyici",
+              "note": "Miktex.org → İndir → Windows'a gidin. 64 bit yükleyiciyi indirin ve çalıştırın. MiKTeX'yi yalnızca benim için yükle'yi seçin."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Kurulumu doğrulayın",
+              "note": "Bir sürüm numarasıyla yanıt vermelidir."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "MiKTeX'yi algılaması için uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Windows'ta önerilir — en iyi çıktı, Perl olmadan tamamlanır",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Winget ile 1 dakikada kurulum",
+            "Strawberry Perl gerektirmez",
+            "Her ikisine de ihtiyacınız varsa MiKTeX ile bir arada bulunur",
+            "Winget yükseltmesi ile yükseltilebilir"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "İlk derleme internet gerektirir",
+            "Son derece uzmanlaşmış paketler (ileri düzey fizik vb.) MiKTeX gerektirebilir"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Winget ile kurulum",
+              "note": "PowerShell'i normal bir kullanıcı olarak açın. Yöneticiye gerek yok."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Kurulumu doğrulayın",
+              "note": "Şöyle bir şey görmelisiniz: tektonik 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Tektoniği tespit etmesi için uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Hafif - tek komut, Perl yok",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Hafif alternatiflere göre en iyi tipografi ve çıktı",
+            "Tüm CTAN paketleri dahildir, ek indirme gerekmez",
+            "%100 doğru kaynakçalar — uyumlu biber dahil",
+            "Yerel çoklu dil desteği: Kiril, CJK, Arapça, Devanagari",
+            "Her türlü kurumsal profile uyumlu"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Yavaş kurulum (30–90 dakika)",
+            "4–8 GB disk alanı kaplar",
+            "latexmk için Strawberry Perl gerektirir"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "TeX Live yükleyicisini indirin",
+              "note": "tug.org/texlive → indir → install-tl-windows.exe seçeneğine gidin. Yükleyiciyi indirin."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Yükleyiciyi çalıştırın",
+              "note": "Her şeyi yüklemek için Basit kurulum (büyük) seçeneğini seçin. İşlem 30-90 dakika sürer."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Strawberry Perl'ü yükleyin (latexmk için gereklidir)",
+              "note": "latexmk'nin Windows'ta çalışması için Perl gereklidir."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Kurulumu doğrulayın",
+              "note": "Her üç komut da bir sürüm numarasıyla yanıt vermelidir."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio'yi yeniden başlatın",
+              "note": "Uygulamayı kapatıp yeniden açın."
             }
           ],
           "tagline": "Eksiksiz — en iyi, en istikrarlı çıktı, sürpriz yok",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Doktora sonrası",
     "level_bachillerato": "Lise",
     "level_tecnico": "Teknik",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio yönlendirmeli moddadır: Çalışmanıza odaklanın; uygulama biçimlendirme, kaynakça ve dağıtım işlemlerini gerçekleştirecektir.",
+    "error_opening_project": "Bu klasör TeXisStudio projesi olarak açılamadı. Tesis.project.yaml içerdiğinden emin olun.",
+    "search_library_hint": "Kütüphanede ara",
+    "detecting_latex": "LaTeX algılanıyor…",
+    "error_importing_tex": ".tex dosyası içe aktarılamadı: {{error}}"
   },
   "wizard": {
     "title": "Yeni proje",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "tezler için sağlam bir temel",
     "recommend_reason_verified": "kurumsal doğrulaması var",
     "recommend_reason_reviewed": "ekip tarafından incelendi",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Masaüstü için Google Drive"
+    "error_vocab_install": "\"{{name}}\" etkinleştirilemedi. Projeyi bu destek olmadan oluşturmak için bağlantınızı kontrol edin veya seçimini kaldırın. Detay: {{error}}",
+    "google_drive_desktop": "Masaüstü için Google Drive",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Numaralandırılmış denklemler \\\\eqref{}",
+          "Teoremler ve kanıtlar",
+          "Matrisler ve vektörler",
+          "Değişmeli diyagramlar (tikz-cd)",
+          "Dayanıklı ağaçlar (veri yolu geçirmezler)"
+        ],
+        "external": [],
+        "tip": "LaTeX formal matematik için kanonik bir araçtır."
+      },
+      "logica": {
+        "native": [
+          "Kesinti ağaçları (veri yolu geçirmezler)",
+          "Doğruluk tabloları",
+          "Biçimsel anlambilim",
+          "Hasse diyagramları"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Fiziksel birimler \\\\SI{} (siunitx)",
+          "Kısmi türevler \\\\pdv{}",
+          "Feynman diyagramları (tikz-feynman)",
+          "Grafikler (pgfplots)"
+        ],
+        "external": [
+          "Sayısal simülasyonlar (PDF/PNG olarak dışa aktarın)"
+        ],
+        "tip": "Tüm birimler için siunitx'i kullanın; asla doğrudan 'km/s' yazmayın."
+      },
+      "quimica": {
+        "native": [
+          "Kimyasal reaksiyonlar \\\\ce{} (mhchem)",
+          "Moleküler yapılar (chemfig)",
+          "Birimler \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Karmaşık 3B yapılar (ChemDraw'dan PDF olarak dışa aktarma)"
+        ],
+        "tip": "Basit yapılar için chemfig kullanın. Kristalografi veya proteinler için PDF olarak içe aktarın."
+      },
+      "ingenieria": {
+        "native": [
+          "Birimler \\\\SI{} (siunitx)",
+          "Devreler (circuitikz)",
+          "Veri grafikleri (pgfplots)",
+          "Algoritmalar (algpseudocode)"
+        ],
+        "external": [
+          "Teknik çizimler (AutoCAD → PDF)",
+          "PCB şemaları (KiCad → PDF)"
+        ],
+        "tip": "circuitikz çoğu sinyal ve güç devresini kapsar."
+      },
+      "computacion": {
+        "native": [
+          "Kaynak kodu (listeleme)",
+          "Sahte kodlu algoritmalar",
+          "Performans grafikleri (pgfplots)",
+          "Karar ağaçları (tikz)"
+        ],
+        "external": [
+          "Karmaşık mimari diyagramları (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Kapsamlı dipnotlar",
+          "Eleştirel aparat ve metin alıntıları",
+          "Analitik indeksler (makeindex)",
+          "Dilsel örnekler (gb4e)"
+        ],
+        "external": [
+          "Sanat eseri görüntüleri (PNG/PDF olarak yüksek çözünürlük)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "İstatistiksel tablolar (kitap sekmeleri)",
+          "Grafikler (pgfplots)",
+          "APA/Chicago stilinde bibliyografik alıntılar"
+        ],
+        "external": [
+          "Karmaşık veri görselleştirmeleri (R/Python → PDF/PNG)"
+        ],
+        "tip": "Basit grafikler için pgfplots kullanın. Ayrıntılı görselleştirmeler için R veya Python'dan dışa aktarın."
+      },
+      "medicina": {
+        "native": [
+          "Klinik tablolar (kitap sekmeleri)",
+          "Tıbbi birimler \\\\SI{}",
+          "Altyazılı ve etiketli şekiller"
+        ],
+        "external": [
+          "DICOM görüntüleri / histoloji (yüksek çözünürlüklü PNG/TIFF olarak dışa aktarın)",
+          "Klinik akış şemaları (draw.io → PDF)"
+        ],
+        "tip": "Tanısal tıbbi görüntüler LaTeX'de çoğaltılmamalı, harici dosyalar olarak içe aktarılmalıdır."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Tam puanlar (MuseScore/Sibelius → PDF)",
+          "Ses parçaları (harici bağlantı)"
+        ],
+        "tip": "Karmaşık müzik notaları için bir partisyon düzenleyici kullanın ve PDF olarak ekleyin."
+      },
+      "arte": {
+        "native": [
+          "Tablolanmış teknik sayfalar (kitap sekmeleri)"
+        ],
+        "external": [
+          "Plakalar ve sanat eserleri (PNG/TIFF olarak yüksek çözünürlük)",
+          "Görsel portföy (harici PDF)",
+          "Planlar (DWG → PDF)"
+        ],
+        "tip": "Portfolyolar için yüksek kaliteli PDF veya PNG ekleyin. LaTeX düzeni ve açıklayıcı metni yönetir."
+      },
+      "arquitectura": {
+        "native": [
+          "Bütçe ve malzeme tabloları",
+          "Programlar",
+          "Açıklayıcı metinler"
+        ],
+        "external": [
+          "Kat planları (AutoCAD/ArchiCAD → PDF)",
+          "Oluşturmalar (PNG/PDF olarak dışa aktar)",
+          "Modeller (PNG formatında fotoğraf)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Veri tabloları (kitap sekmeleri)",
+          "Birimler \\\\SI{}",
+          "Filogenetik ağaçlar (tikz)"
+        ],
+        "external": [
+          "Karmaşık anatomik diyagramlar (Inkscape → PDF/SVG)",
+          "Mikroskopi (yüksek çözünürlüklü PNG)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "İstatistiksel tablolar (kitap sekmeleri)",
+          "Grafikler (pgfplots)",
+          "Ekonometrik denklemler"
+        ],
+        "external": [
+          "Etkileşimli kontrol panelleri ve görselleştirmeler (PNG/PDF olarak dışa aktarın)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Proje teşhisi",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Bu sürümü geri yükle",
     "snapshot_delete_title": "Sürümü sil",
     "section_guidance_label": "Bölüm kılavuzu",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "Kaydet ve çık",
+    "snapshot_restore_action": "Eski haline getirmek",
+    "continue_editing": "Düzenlemeye devam et",
+    "unsaved_changes_message": "Bu bölümde kaydedilmemiş değişiklikleriniz var. Ayrılmadan önce ne yapmak istersin?",
+    "unsaved_changes_title": "Kaydedilmemiş değişiklikler",
+    "review_ai": "yapay zeka",
+    "visual_type_selector_title": "Ne tür bir diyagram eklemek istiyorsunuz?",
+    "default_set_a": "A'yı ayarla",
+    "add_paragraph": "Yeni paragraf",
+    "review_grammar": "Dilbilgisi",
+    "bib_refs_count": "{{count}}, .bib'deki referanslar",
+    "section_status_legend": "Durum göstergesi",
+    "sections_count": "{{count}} bölümleri",
+    "review_spell": "Yazım",
+    "leave_without_saving": "Kaydetmeden ayrıl",
+    "default_table_column_2": "Sütun 2",
+    "default_set_c": "C'yi ayarla",
+    "default_set_b": "B'yi ayarla",
+    "default_table_column_1": "Sütun 1",
+    "no_bib_file": "hayır .bib",
     "insert_plugin_figure_title": "Bilimsel şekil ekleyin (61 tür)",
     "block_plugin_figure": "Şekil+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Karmaşıklık olmadan yalnızca yazmanız ve göndermeniz gerekenleri gösteriyoruz. Etkinleştirebilirsiniz",
     "basic_mode_suffix": "metin bölümünde.",
     "basic_top_body": "Bu ayarlar, LaTeX teknik ayrıntılarını girmeden faydalı kararlar vermek için tasarlanmıştır. Geçiş yap",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Güncellemeleri kontrol edin",
+    "update_checking": "Kontrol ediliyor…",
+    "update_available": "Sürüm {{version}} mevcut — yüklemeyi yeniden başlatın",
+    "update_up_to_date": "Güncelsiniz",
+    "update_error": "Güncellemeler kontrol edilemedi",
     "refresh_catalog": "Kataloğu yenile",
     "package_status_stable": "Kararlı",
     "package_status_beta": "beta",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Hafif ve bakımı kolaydır. Tam TeX dağıtımı gerektirmeyen günlük yazılar ve projeler için önerilir.",
     "latex_suite_title": "LaTeX paketini tamamlayın",
-    "latex_suite_description": "TeX Live veya MiKTeX ile latexmk'yi kullanır. Gelişmiş paketler, karmaşık bibliyografyalar ve son teslimat için önerilir.",
+    "latex_suite_description": "latexmk ile tam LaTeX paketi ({{suiteName}}). Tüm CTAN paketlerini, biblatex + Biber, kabuk kaçışını ve çoklu geçişli derlemeyi destekler. Eksiksiz belgeler, kurumsal profiller ve eklenti rakamları için önerilen seçim.",
     "latex_available": "Mevcut",
     "latex_not_available": "Kurulu değil",
     "latex_detected_version": "Algılanan sürüm: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Dizüstü bilgisayar varsayılanı",
     "window_mode_remember": "Son boyutu hatırla",
     "window_mode_maximized": "Büyütülmüş",
-    "window_mode_hint": "1280 × 760 boyutunda bir pencere seçin, kullandığınız son boyutu geri yükleyin veya mevcut tüm monitör alanını kullanarak açın."
+    "window_mode_hint": "1280 × 760 boyutunda bir pencere seçin, kullandığınız son boyutu geri yükleyin veya mevcut tüm monitör alanını kullanarak açın.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "{{suiteName}}'yi yüklemek için «LaTeX kurulumunu yönetin» seçeneğine gidin.",
+    "latex_recommended_badge": "Önerilen",
+    "latex_upgrade_banner": "{{suiteName}} kuruludur — tüm CTAN paketlerini, Biber'yi ve eklenti şekillerini kısıtlama olmaksızın destekler. Geçiş yapılması tavsiye edilir.",
+    "latex_upgrade_btn": "{{suiteName}}'ye geç",
+    "language_catalog_error": "Dil kataloğu yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.",
+    "language_install_error": "Dil paketi yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' bölümünde başvurulan '{{file}}' resmi bulunamadı.",
@@ -1026,7 +1188,7 @@
     "hypothesis": "Hipotez",
     "extra_preamble": "Ek giriş",
     "latex_warning": "Bu alan isteğe bağlı LaTeX'yi kabul eder. Burada yapılacak bir hata belgenin derlenmesini engelleyebilir.",
-    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbb{R}}",
+    "latex_placeholder": "% e.g.:\n\\hypersetup{renkli bağlantılar=doğru, bağlantı rengi=mavi}\n\\newcommand{\\R}{\\mathbbZXQ0QXZ}",
     "footer": "PDF'yi bir sonraki derlediğinizde değişiklikler geçerli olur.",
     "advanced_hint": "Yazı tiplerini, operatörleri ve ekstra başlangıç ​​ayarlarını görmek için gelişmiş modu etkinleştirin."
   },
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Profil silinsin mi?",
     "delete_profile_body_before": "Bu silinecek",
     "delete_profile_body_after": "Bu eylem geri alınamaz.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} yüklü profiller",
     "installed_profiles": "Yüklü profiller",
     "profile_count_hint": "{{count}} profilleri · ayrıntıları görüntülemek için tıklayın",
     "import_profile_title": "Profili dizinden içe aktar",
@@ -1135,30 +1297,31 @@
     "selected_chip": "seçilmiş",
     "installed_chip": "yüklü",
     "sections_count_suffix": "bölümler",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Eklentiler",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Ön Madde",
+      "body": "Vücut",
+      "back_matter": "Geri Madde",
+      "appendix": "Ek"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Başlık Sayfası",
+      "abstract": "Özet",
+      "acknowledgements": "Teşekkür",
+      "table_of_contents": "İçindekiler",
+      "list_of_figures": "Şekil Listesi",
+      "list_of_tables": "Tablo Listesi",
+      "introduction": "Giriş",
+      "theoretical_framework": "Teorik Çerçeve",
+      "methodology": "Metodoloji",
+      "results": "Sonuçlar",
+      "discussion": "Tartışma",
+      "conclusions": "Sonuçlar",
+      "references": "Referanslar",
+      "appendix": "Ek",
+      "appendix_a": "Ek A"
+    },
+    "tags_placeholder": "tez, lisans, apa"
   },
   "progress": {
     "status_draft": "Taslak",
@@ -1280,7 +1443,14 @@
     "generating_response": "Yanıt oluşturuluyor…",
     "message_placeholder": "Mesajınızı yazın… (Göndermek için girin)",
     "configure_key_first": "Önce API anahtarınızı yapılandırın",
-    "send": "Send"
+    "send": "Gönder",
+    "error_not_configured": "API anahtarı yapılandırılmadı. Anahtarınızı sağlayıcı sekmesine ekleyin.",
+    "error_auth": "Geçersiz API anahtarı. Doğru ve aktif olup olmadığını kontrol edin.",
+    "error_rate_limited": "İstek sınırına ulaşıldı. Birkaç dakika sonra tekrar deneyin.",
+    "error_network": "Ağ hatası. İnternet bağlantınızı kontrol edin.",
+    "error_safety": "İstek güvenlik politikası tarafından engellendi.",
+    "error_model_unavailable": "Seçilen model kullanılamıyor. Ayarlarda başka bir tane seçin.",
+    "error_provider": "Sağlayıcı hatası. Tekrar deneyin."
   },
   "editor_meta": {
     "project_guide": "Proje kılavuzu",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Onaylanmadı — bu blok siz onaylayana kadar PDF'ye dahil edilmeyecektir.",
     "packages": "Paketler",
     "edit_figure_title": "Başlığı veya etiketi düzenleyin veya şekli yeniden oluşturun",
-    "edit_figure": "Şekli düzenle"
+    "edit_figure": "Şekli düzenle",
+    "preview_pending": "Buradaki şekli görmek için «Önizleme» sekmesinden bir önizleme derleyin."
   },
   "compile": {
     "ensure_latex_installed_path": "PATH'de bir LaTeX derleyicisinin kurulu ve mevcut olduğunu kontrol edin.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Derleniyor… ({{count}} satırları)",
     "backends_available": "{{backends}} mevcut",
     "latex_not_installed_status": "⚠ LaTeX kurulu değil",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Derle",
+    "preflight_action_export": "Gönderimi dışa aktar",
+    "preflight_title": "{{action}} öncesi kontrol",
+    "preflight_has_errors": "Devam etmeden önce {{count}} hatasını/hatalarını düzeltin.",
+    "preflight_has_warnings": "{{count}} uyarı(lar)ı bulundu. Yine de devam edebilirsiniz.",
+    "preflight_errors_section": "Hatalar ({{count}})",
+    "preflight_warnings_section": "Uyarılar ({{count}})",
+    "preflight_suggestions_section": "Öneriler ({{count}})",
+    "export_success": "Dışa aktarma tamamlandı",
+    "compile_as_draft": "Taslak olarak derle",
+    "readiness_complete": "Tamamlandı",
+    "readiness_export_title": "Son teslimat engellendi",
+    "readiness_back": "İncelemeye geri dön",
+    "readiness_compile_title": "Proje resmi versiyona hazır değil",
+    "readiness_export_subtitle": "Son modda dışa aktarmak için öncelikle teslimat ve kalite kontrollerini tamamlayın.",
+    "readiness_compile_subtitle": "Bunu resmi bir versiyon olarak değerlendirmeden önce taslak olarak derleyin veya bu noktaları gözden geçirin.",
+    "readiness_delivery": "Teslimat",
+    "readiness_quality": "Nihai kalite",
     "severity_error": "Hata",
     "severity_warning": "Uyarı",
     "severity_suggestion": "Öneri",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "Sırayı değiştirmek için ▲▼ tuşlarını kullanın.",
     "order_hint_line_2": "Sıra, bir proje oluştururken açılır menüyü belirler.",
     "add_custom_style": "Özel stil ekle",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "Kimlik *",
+    "biblatex_style_required": "Biblatex stili *",
+    "references_default_title": "Referanslar",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "Alıntı",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Yazar-Tarih",
+      "numeric": "Sayısal",
+      "notes_bibliography": "Notlar-Bibliog.",
+      "author_page": "Yazar-Sayfa"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Amerikan Psikoloji Derneği, 7. Baskı",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Psikoloji",
+          "Eğitim",
+          "Sosyal bilimler",
+          "Hemşirelik",
+          "İletişim"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Dünya çapında en yaygın kullanılan stil. Birçok psikoloji, eğitim ve sosyal bilim programında gereklidir. Yedinci baskı (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "Amerika Birleşik Devletleri",
+          "Kanada",
+          "Latin Amerika",
+          "Avustralya"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Yazar, Yıl)",
+        "bibliography_title": "Referanslar"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / ICMJE Önerileri",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Tıp",
+          "Hemşirelik",
+          "Eczane",
+          "Diş Hekimliği",
+          "Sağlık bilimleri"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Sağlık bilimleri için gerekli sayısal stil. Referanslar görünüşe göre sıralanır. MEDLINE/PubMed dergilerinde standarttır.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Küresel, tıp ve sağlık bilimleri"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referanslar"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE Alıntı Stili",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Elektrik mühendisliği",
+          "bilgisayar",
+          "Telekomünikasyon",
+          "Robotik",
+          "Elektronik"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Mühendislik, bilgi işlem ve teknoloji için standart sayısal stil. Mühendislik okullarında yaygın olarak benimsenmiştir.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Küresel, mühendislik ve teknoloji"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referanslar"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Notlar)",
+        "full_name": "Chicago Stil Kılavuzu, 17. Baskı, Notlar-Kaynakça",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Tarih",
+          "Edebiyat",
+          "Sanat",
+          "Felsefe",
+          "Dini çalışmalar"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Beşeri bilimler için notlar ve kaynakça sistemi. Alıntılar dipnotlarda görünür.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Amerika Birleşik Devletleri",
+          "Birleşik Krallık",
+          "Kanada, beşeri bilimler"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Dipnot¹",
+        "bibliography_title": "Kaynakça"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Yazar-Tarih)",
+        "full_name": "Chicago Stil Kılavuzu, 17. Baskı, Yazar-Tarih",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Ekonomi",
+          "Siyaset bilimi",
+          "Sosyoloji",
+          "Antropoloji",
+          "Coğrafya"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago yazar-tarih çeşidi, sosyal bilimler ve ekonomide tercih edilir.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Amerika Birleşik Devletleri",
+          "Kanada, sosyal bilimler"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Yazar Yılı)",
+        "bibliography_title": "Referanslar"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA El Kitabı, 9. Baskı",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Edebiyat",
+          "Dil",
+          "Dilbilim",
+          "Kültürel çalışmalar",
+          "Retorik"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Kuzey Amerika'da dil, edebiyat ve kültürel çalışmalar standardı. Dokuzuncu baskı (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Amerika Birleşik Devletleri",
+          "Kanada, dil ve edebiyat"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Yazar Sayfası)",
+        "bibliography_title": "Alıntı Yapılan Çalışmalar"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "Harvard'ın",
+        "full_name": "Harvard Referans Stili",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "iş",
+          "Yönetim",
+          "Ekonomi",
+          "Sosyal bilimler"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Yazar-tarih stili APA'ye benzer. İngiltere ve Avustralya üniversitelerinde yaygın olarak kullanılmaktadır.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Birleşik Krallık",
+          "Avustralya",
+          "İrlanda",
+          "Güney Afrika"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Yazar Yılı)",
+        "bibliography_title": "Referanslar"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Modern Beşeri Bilimler Araştırma Derneği Stil Kılavuzu, 3. Baskı",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Beşeri Bilimler",
+          "Tarih",
+          "Edebiyat",
+          "Felsefe",
+          "Dilbilim"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Birleşik Krallık beşeri bilimler standardı Chicago Notlarına benzer.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Birleşik Krallık",
+          "İrlanda, beşeri bilimler"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Dipnot¹",
+        "bibliography_title": "Kaynakça"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Tüm disiplinler (Brezilya)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Brezilya üniversitelerindeki akademik çalışmalara yönelik ulusal standart.",
         "regions_primary": [
-          "Brazil, required"
+          "Brezilya, gerekli"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(YAZAR, Yıl)",
+        "bibliography_title": "Referanslar"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, Çin Ulusal Standardı",
         "disciplines": [
-          "All disciplines (China)"
+          "Tüm disiplinler (Çin)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Çince tezler için ulusal standart. Çin üniversitelerinde zorunludur.",
         "regions_primary": [
-          "China, required"
+          "Çin, gerekli"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referanslar"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Varsayılan stilleri geri yükle",
+    "reset_action": "Geri yükle"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Çapraz referans ekle ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "İsteğe bağlı başlık",
     "theorem_title_placeholder": "Pisagor teoremi",
     "math_content": "İçerik (matematiksel LaTeX kabul edilir)",
-    "theorem_content_placeholder": "$a^2 + b^2 = c^2$ olsun, burada $c$ hipotenüstür..."
+    "theorem_content_placeholder": "$a^2 + b^2 = c^2$ olsun, burada $c$ hipotenüstür...",
+    "term_placeholder": "Ontoloji",
+    "definition_placeholder": "Varlığı varlık olarak inceleyen felsefe dalı.",
+    "acronym_placeholder": "yapay zeka",
+    "full_form_placeholder": "Yapay Zeka"
   },
   "citation": {
     "error_connect": "Bağlantı hatası.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Boş denklem",
     "custom_molecule": "Özel molekül",
     "molecule_compile_hint": "Derleme sırasında chemfig ile oluşturulan yapı",
-    "chemical_syntax_hint": "-> (reaksiyon), <=> (denge), ^ (gaz) ve v (çökelti) kullanın"
+    "chemical_syntax_hint": "-> (reaksiyon), <=> (denge), ^ (gaz) ve v (çökelti) kullanın",
+    "label_example": "şekil:diyagramım",
+    "circuit_lower": "devre",
+    "diagram_lower": "diyagram",
+    "default_start": "Başlat",
+    "default_process": "Süreç",
+    "default_end": "Bitiş",
+    "default_event": "Etkinlik {{number}}",
+    "default_major_scale": "C majör ölçek"
   },
   "vocabulary": {
     "title": "Etki alanı terimleri",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "bu var",
     "repo_hint_suffix": "bölüm. Kendi GitHub deponuz olabilir.",
     "alias_placeholder": "Takma ad (e.g. laboratuvar şartlarım)",
-    "adding": "Ekleniyor…"
+    "adding": "Ekleniyor…",
+    "catalog_error": "Kelime kataloğu yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.",
+    "repo_sync_error": "Bu depo senkronize edilemedi.",
+    "repo_add_error": "Depo eklenemedi. Adresini kontrol edip tekrar deneyin."
   },
   "profile_wizard": {
     "step_of": "{{total}}'nin {{current}} adımı",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "URL'den yükleyin",
     "install_from_url_hint": "Geçerli bir .yaml profili içeren bir .zip'nin URL'sini yapıştırın.",
     "install_btn": "Yükle",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Tam profil adına ihtiyacınız yok",
+    "guided_hint_body": "Kurumunuzla veya derece, alan ve alıntı stilinin yakın bir kombinasyonuyla başlayın. Tam bir eşleşme yoksa basit bir kurumsal temelle başlayın ve daha sonra ayarlayın.",
+    "catalog_load_error": "Profil kataloğu yüklenemedi. Bağlantınızı kontrol edin veya tekrar deneyin.",
+    "install_success": "\"{{name}}\" başarıyla kuruldu.",
+    "breadcrumb_all": "Hepsi",
+    "profile_count_one": "{{count}} profili",
+    "profile_count_other": "{{count}} profilleri",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Amerika",
+      "europe": "Avrupa",
+      "asia": "Asya",
+      "generic": "jenerik"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "Meksika",
+      "usa": "Amerika Birleşik Devletleri",
+      "canada": "Kanada",
+      "brazil": "Brezilya",
+      "argentina": "Arjantin",
+      "chile": "Şili",
+      "uk": "Birleşik Krallık",
+      "germany": "Almanya",
+      "spain": "İspanya",
+      "netherlands": "Hollanda",
+      "italy": "İtalya",
+      "sweden": "İsveç",
+      "france": "Fransa",
+      "china": "Çin",
+      "japan": "Japonya",
+      "south_korea": "Güney Kore",
+      "singapore": "Singapur",
+      "india": "Hindistan",
+      "generic": "jenerik"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "Lise",
+      "tecnico": "Teknik derece",
+      "licenciatura": "Lisans derecesi",
+      "especialidad": "Uzmanlık",
+      "maestria": "Yüksek lisans derecesi",
+      "doctorado": "Doktora",
+      "posdoctorado": "Doktora Sonrası"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Kurumsal",
+      "degree_specific": "Dereceye özgü",
+      "program_specific": "Programa özel",
+      "discipline_specific": "Alana özel"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Tüm disiplinler",
+      "engineering": "Mühendislik",
+      "social_sciences": "Sosyal bilimler",
+      "humanities": "Beşeri Bilimler",
+      "health_sciences": "Sağlık bilimleri",
+      "computing": "bilgisayar",
+      "natural_sciences": "Doğa bilimleri"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Doğrulandı",
+    "status_reviewed_label": "İncelendi"
   },
   "about": {
     "title": "Hakkında",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Değişiklikleri uygulayın ve şekli yeniden oluşturun",
     "apply_visual_btn": "Değişiklikleri uygula",
     "applying": "Başvuruluyor…",
-    "done_msg": "Şekil güncellendi"
+    "done_msg": "Şekil güncellendi",
+    "tab_preview": "Önizleme",
+    "preview_compile_btn": "Önizlemeyi yeniden derleyin",
+    "preview_compiling": "Derleniyor…",
+    "preview_apply_first": "Önizlemeden önce değişiklikleri uygulayın.",
+    "preview_tectonic_note": "Tectonic aktif motordur. Önizleme başarısız olursa, bu rakam tam bir LaTeX paketi (MacTeX / MiKTeX / TeX Live) gerektirebilir. Motoru Ayarlar → LaTeX motor bölümünden değiştirebilirsiniz.",
+    "preview_error_prefix": "Derleme hatası:",
+    "preview_no_tectonic": "Tectonic yüklü değil veya bulunamadı."
   },
   "elements_tab": {
     "title": "Elemanlar",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Dahili tip",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Paragraf",
+        "description": "Serbest biçimli metin bloğu. Vurguyu, satır içi alıntıları ve satır içi LaTeX'yi destekler.",
+        "latex_output": "Doğrudan belgeye yazılan kaçış metni."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Başlık / Başlık",
+        "description": "Bölüm başlığı: bölüm (H1), alt bölüm (H2) veya alt alt bölüm (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Şekil",
+        "description": "Çapraz referanslar için başlık, kaynak ve etiket içeren resim. Genişlikler: %50, %75, %100.",
+        "latex_output": "şekil ortamı + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tablo",
+        "description": "Başlıkları, satırları, resim yazılarını ve kaynağı içeren tablo. Stiller: basit, kitap sekmeleri, geniş, uzun masa.",
+        "latex_output": "tablo ortamı + tablolu/uzun tablo + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Denklem",
+        "description": "Numaralı veya numarasız matematiksel formül. Saf LaTeX matematikle yazılmıştır.",
+        "latex_output": "denklem veya denklem* ortamı + isteğe bağlı \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Liste",
+        "description": "Madde işaretli (maddeli), numaralı (numaralandırılan) veya açıklayıcı (açıklama) liste.",
+        "latex_output": "\\begin{öğeleştirme/numaralandırma/açıklama}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Bibliyografik alıntı",
+        "description": ".bib dosyasındaki bir BibTeX anahtarına bağlı parantez, açıklama veya çoklu alıntı.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Ham LaTeX",
+        "description": "Gelişmiş durumlar için rastgele LaTeX parçası. Kullanıcı onayı gerektirir.",
+        "latex_output": "Kelimenin tam anlamıyla, kaçmadı. Dikkatli kullanın."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "metin",
+      "content": "içerik",
+      "structure": "yapı",
+      "navigation": "navigasyon",
+      "image": "resim",
+      "graphic": "grafik",
+      "data": "veri",
+      "statistics": "istatistikler",
+      "mathematics": "matematik",
+      "formula": "formül",
+      "list": "liste",
+      "enumeration": "numaralandırma",
+      "bibliography": "kaynakça",
+      "reference": "referans",
+      "advanced": "ileri düzey",
+      "custom": "özel"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Proje ilerlemesi",
+    "row_overall": "Proje",
+    "row_setup": "Kurulum",
+    "row_writing": "Yazma",
+    "row_delivery": "Teslimat",
+    "row_quality": "Nihai kalite",
+    "pending_prefix": "Beklemede:",
+    "delivery_blocked": "Son teslimattan önce bekleyen öğeler var",
+    "setup_title": "Çalışmanın gerçek başlığını belirleyin",
+    "setup_author": "Ana yazarlığı tamamla",
+    "setup_institution": "Gerçek kuruma girin",
+    "setup_profile": "Bir akademik profil seçin",
+    "setup_language": "Temel dili seçin",
+    "setup_advisor": "En az bir danışman veya tez yöneticisi ekleyin",
+    "writing_sections": "En az bir içerik bölümünü etkinleştirin",
+    "writing_draft": "Ana bölüme içerik yazın",
+    "writing_words": "Önemli bir ilk taslak geliştirin",
+    "writing_reviewed": "En az bir bölümü gözden geçirilmiş olarak işaretleyin",
+    "delivery_references": "Referanslar bölümü ekleyin",
+    "delivery_abstract": "Özeti veya özeti yazın",
+    "delivery_required": "Profilin gerekli bölümlerini doldurun",
+    "delivery_latex": "Doğrulanmamış LaTeX bloklarını onaylayın veya kaldırın",
+    "delivery_committee": "İleri düzey çalışmalar için komiteyi tamamlayın",
+    "delivery_review_main": "Teslimattan önce ana bölümleri inceleyin",
+    "quality_citation": "Gövde kısmına en az bir doğrulanabilir alıntı ekleyin",
+    "quality_required_reviewed": "Gerekli gövde bölümlerini revize edildi olarak işaretleyin",
+    "quality_raw_latex": "Son teslimattan önce içe aktarılan LaTeX bloklarını taşıyın veya manuel olarak inceleyin",
+    "quality_plugin_warnings": "Son teslimattan önce şekil veya eklenti uyarılarını çözün",
+    "quality_profile": "Resmi gönderimler için kurumsal veya özel bir profil kullanın"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Eklentiler",
+    "subtitle": "Şekil ve diyagram eklemek için {{count}} görsel eklentileri mevcuttur.",
+    "search_placeholder": "Ada, pakete veya kategoriye göre arayın…",
+    "no_results": "Bu aramayla eşleşen eklenti yok.",
     "quality": {
-      "stable": "stable",
+      "stable": "istikrarlı",
       "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "experimental": "deneysel",
+      "draft": "taslak"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Dilinizi seçin",
+    "subheading": "Bunu daha sonra Ayarlar'dan değiştirebilirsiniz.",
+    "more_languages": "Daha fazla dil",
+    "loading_more": "Daha fazla dil yükleniyor…",
+    "catalog_error": "Daha fazla dil yüklenemedi. Paketlenmiş bir dille devam edebilirsiniz.",
+    "skip": "Atla",
+    "install_error": "Bu dil yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin."
   },
   "toast": {
     "close_button": "Bildirimi kapat",
@@ -2527,7 +2721,50 @@
     "redo": "Yinele",
     "restore_btn": "Örneği geri yükle",
     "restore_title": "Minimal çalışan bir örnekle değiştirin",
-    "advanced_section": "Gelişmiş seçenekler"
+    "advanced_section": "Gelişmiş seçenekler",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Çapraz referanslar için etiket (e.g.eq:quadratic). Boş, etiket olmadığı anlamına gelir."
+      },
+      "chemistry_output": {
+        "label": "Çıkış modu",
+        "description": "mhchem: satır içi \\ce{...}. chemfig: bağ açısı yapıları."
+      },
+      "circuit_style": {
+        "label": "Amerikan tarzı",
+        "description": "Açık: Amerikan bileşen sembolleri (IEEE). Kapalı: Avrupa sembolleri (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "TikZ kitaplıkları",
+        "description": "Virgülle ayrılmış ekstra TikZ kütüphaneleri (e.g.calc, oklar.meta, desenler)."
+      },
+      "pgfplots_options": {
+        "label": "PGFPlot seçenekleri",
+        "description": "\\beginZXQ0QXZ[…]'ye eklenen xbar veya compat=1.18 gibi ekstra seçenekler."
+      },
+      "forest_options": {
+        "label": "Orman seçenekleri",
+        "description": "Çatallı kenarlar veya kenar etiketi stilleri gibi orman ortamına aktarılan ekstra seçenekler."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Düğümler, kenarlar, şekiller ve yay stilleri içeren yönlendirilmiş ve yönlendirilmemiş grafikler."
+      },
+      "pgfplots": {
+        "description": "PGFPlot'larla grafikler, histogramlar, çubuk grafikler, dağılım grafikleri ve ısı haritaları."
+      },
+      "tree_forest": {
+        "description": "Hiyerarşik sözdizimi, taksonomik, filogenetik, karar ve olasılık ağaçları."
+      },
+      "table_data": {
+        "description": "Booktab'lara, longtable'a veya PGFPlots verilerine aktarılabilen veri tabloları."
+      },
+      "timeline_gantt": {
+        "description": "Gruplar, görevler ve bağımlılıklarla birlikte Gantt grafikleri ve zaman çizelgeleri."
+      }
+    }
   },
   "help": {
     "title": "Yardım Merkezi",

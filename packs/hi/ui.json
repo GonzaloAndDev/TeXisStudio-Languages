@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "किसी भी हल्के विकल्प की बेहतरीन टाइपोग्राफी और आउटपुट",
+            "100% संगत ग्रंथ सूची (सही बाइबर संस्करण शामिल)",
+            "सभी CTAN पैकेज बिना किसी प्रतिबंध के उपलब्ध हैं",
+            "मूल बहुभाषी समर्थन: सिरिलिक, सीजेके, अरबी, देवनागरी",
+            "सही मल्टी-पास संकलन: टीओसी, इंडेक्स, क्रॉस-रेफरेंस",
+            "एक-कमांड होमब्रू इंस्टालेशन"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "बड़ा डाउनलोड (~5 जीबी)",
+            "इंस्टालेशन में 10-20 मिनट लगते हैं"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "होमब्रू स्थापित करें (यदि आपके पास यह नहीं है)",
+              "note": "Homebrew मानक macOS पैकेज मैनेजर है। यदि आपके पास यह पहले से ही है, तो इस चरण को छोड़ दें।"
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Homebrew के साथ MacTeX स्थापित करें",
+              "note": "डाउनलोड ~5 जीबी. आपके कनेक्शन के आधार पर इस प्रक्रिया में 10-20 मिनट लगते हैं।"
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "पर्यावरण चर अद्यतन करें",
+              "note": "या बस टर्मिनल को बंद करें और फिर से खोलें ताकि यह नया पथ चुन सके।"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "स्थापना सत्यापित करें",
+              "note": "सभी तीन आदेशों को एक संस्करण संख्या के साथ प्रतिक्रिया देनी चाहिए।"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें ताकि यह नए इंस्टॉलेशन का पता लगा सके।"
             }
           ],
           "tagline": "अनुशंसित - बेहतरीन, सबसे स्थिर और पूर्ण आउटपुट",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "1 मिनट के अंदर इंस्टॉल हो गया",
+            "केवल उन्हीं पैकेजों को डाउनलोड करता है जिनका उपयोग आपकी थीसिस करता है",
+            "यदि आपको दोनों की आवश्यकता है तो MacTeX के साथ सह-अस्तित्व में है",
+            "ब्रू अपग्रेड के साथ अपग्रेड करने योग्य"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "पहले संकलन के लिए इंटरनेट कनेक्शन की आवश्यकता होती है",
+            "अत्यधिक विशिष्ट पैकेज (उन्नत भौतिकी, आदि) के लिए MacTeX की आवश्यकता हो सकती है"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "होमब्रू स्थापित करें (यदि आपके पास यह नहीं है)",
+              "note": "यदि आपके पास पहले से ही होमब्रू है, तो इस चरण को छोड़ दें।"
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Homebrew के साथ Tectonic स्थापित करें",
+              "note": "हल्का डाउनलोड. 1 मिनट से कम समय में तैयार."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "स्थापना सत्यापित करें",
+              "note": "आपको कुछ इस तरह देखना चाहिए: टेक्टोनिक 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें ताकि यह टेक्टोनिक का पता लगा सके।"
             }
           ],
           "tagline": "लाइटवेट - केवल वही डाउनलोड करता है जिसकी उसे आवश्यकता है",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "हल्के विकल्पों की तुलना में बेहतरीन टाइपोग्राफी और आउटपुट",
+            "100% सही ग्रंथ सूची - संगत बाइबर संस्करण शामिल है",
+            "सभी CTAN पैकेज बिना किसी प्रतिबंध के",
+            "मूल बहुभाषी समर्थन: सिरिलिक, सीजेके, अरबी, देवनागरी",
+            "सही मल्टी-पास संकलन: टीओसी, इंडेक्स, क्रॉस-रेफरेंस",
+            "एकल सिस्टम कमांड के साथ इंस्टालेशन"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "पूर्ण इंस्टालेशन में 3-5 जीबी का समय लगता है",
+            "रिपॉजिटरी संस्करण आधिकारिक रिलीज़ से थोड़ा पुराना हो सकता है"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "उबंटू/डेबियन/लिनक्स मिंट",
+              "note": "सब कुछ शामिल है. यदि स्थान सीमित है, तो टेक्सलाइव-फुल के बजाय टेक्सलाइव-ज़ेटेक्स का उपयोग करें।"
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "फेडोरा/आरएचईएल/सेंटोस स्ट्रीम",
+              "note": "पूर्ण TeX Live योजना स्थापित करता है।"
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "आर्क/मंजरो",
+              "note": "ग्रंथ सूची के लिए मुख्य समूह और बाइबर स्थापित करता है।"
             },
             {
-              "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "title": "खुला एसयूएसई",
+              "note": "ज़िपर के माध्यम से पूरी योजना."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "स्थापना सत्यापित करें",
+              "note": "सभी तीन आदेशों को एक संस्करण संख्या के साथ प्रतिक्रिया देनी चाहिए।"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें ताकि यह नए इंस्टॉलेशन का पता लगा सके।"
             }
           ],
           "tagline": "अनुशंसित - बेहतरीन, सबसे स्थिर और पूर्ण आउटपुट",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "स्थापित करने के लिए sudo की आवश्यकता नहीं है",
+            "केवल वही डाउनलोड करता है जिसकी आपकी थीसिस को आवश्यकता है",
+            "यदि आपको दोनों की आवश्यकता है तो TeX Live के साथ सह-अस्तित्व में है"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "पहले संकलन के लिए इंटरनेट की आवश्यकता है",
+            "अत्यधिक विशिष्ट पैकेज (उन्नत भौतिकी, आदि) के लिए TeX Live की आवश्यकता हो सकती है"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "आधिकारिक स्क्रिप्ट के साथ इंस्टॉल करें",
+              "note": "आपके सेटअप के आधार पर बाइनरी को ~/.cargo/bin या ~/bin में डाउनलोड और इंस्टॉल करता है।"
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "वैकल्पिक: कार्गो के साथ स्थापित करें",
+              "note": "जंग स्थापित करने की आवश्यकता है। स्रोत से संकलित होने में कई मिनट लगते हैं।"
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "स्थापना सत्यापित करें",
+              "note": "आपको कुछ इस तरह देखना चाहिए: टेक्टोनिक 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें।"
             }
           ],
           "tagline": "लाइटवेट - किसी सिस्टम पैकेज मैनेजर की आवश्यकता नहीं है",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "हल्के विकल्पों की तुलना में बेहतरीन टाइपोग्राफी और आउटपुट",
+            "100% सही ग्रंथ सूची - बाइबर शामिल और संगत",
+            "सभी CTAN पैकेज, मांग पर डाउनलोड किए गए",
+            "स्ट्रॉबेरी पर्ल की आवश्यकता नहीं है (मैन्युअल latexmk के विपरीत)",
+            "बहुभाषी समर्थन: सिरिलिक, सीजेके, अरबी, देवनागरी",
+            "उपयोग में आसान .exe ग्राफिकल इंस्टॉलर"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "MiKTeX कंसोल पहली बार में भ्रमित करने वाला हो सकता है",
+            "पहले संकलन के दौरान पैकेज स्थापना को स्वीकार करना आवश्यक है"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "विंगेट के साथ MiKTeX स्थापित करें",
+              "note": "PowerShell को एक सामान्य उपयोगकर्ता के रूप में खोलें (किसी व्यवस्थापक की आवश्यकता नहीं)। विंगेट विंडोज़ 10/11 में शामिल है।"
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "वैकल्पिक: ग्राफिकल इंस्टॉलर",
+              "note": "Miktex.org → डाउनलोड → विंडोज़ पर जाएँ। 64-बिट इंस्टॉलर डाउनलोड करें और इसे चलाएं। केवल मेरे लिए इंस्टॉल MiKTeX चुनें।"
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "स्थापना सत्यापित करें",
+              "note": "संस्करण संख्या के साथ उत्तर देना चाहिए."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें ताकि यह MiKTeX का पता लगा सके।"
             }
           ],
           "tagline": "विंडोज़ पर अनुशंसित - बेहतरीन आउटपुट, पर्ल के बिना पूर्ण",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "विंगेट के साथ 1 मिनट में स्थापित",
+            "स्ट्रॉबेरी पर्ल की आवश्यकता नहीं है",
+            "यदि आपको दोनों की आवश्यकता है तो MiKTeX के साथ सह-अस्तित्व में है",
+            "विंगेट अपग्रेड के साथ अपग्रेड करने योग्य"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "पहले संकलन के लिए इंटरनेट की आवश्यकता है",
+            "अत्यधिक विशिष्ट पैकेज (उन्नत भौतिकी, आदि) के लिए MiKTeX की आवश्यकता हो सकती है"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "विंगेट के साथ स्थापित करें",
+              "note": "PowerShell को एक सामान्य उपयोगकर्ता के रूप में खोलें. किसी प्रशासक की आवश्यकता नहीं."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "स्थापना सत्यापित करें",
+              "note": "आपको कुछ इस तरह देखना चाहिए: टेक्टोनिक 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें ताकि यह टेक्टोनिक का पता लगा सके।"
             }
           ],
           "tagline": "लाइटवेट - एक कमांड, कोई पर्ल नहीं",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "हल्के विकल्पों की तुलना में बेहतरीन टाइपोग्राफी और आउटपुट",
+            "सभी CTAN पैकेज शामिल हैं, कोई अतिरिक्त डाउनलोड नहीं",
+            "100% सही ग्रंथ सूची - संगत बाइबिल शामिल है",
+            "मूल बहुभाषी समर्थन: सिरिलिक, सीजेके, अरबी, देवनागरी",
+            "किसी भी संस्थागत प्रोफ़ाइल के साथ संगत"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "धीमी स्थापना (30-90 मिनट)",
+            "4-8 जीबी डिस्क स्थान लेता है",
+            "latexmk के लिए स्ट्रॉबेरी पर्ल की आवश्यकता है"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "TeX Live इंस्टॉलर डाउनलोड करें",
+              "note": "Tug.org/texlive → डाउनलोड → इंस्टॉल-tl-windows.exe पर जाएं। इंस्टॉलर डाउनलोड करें."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "इंस्टॉलर चलाएँ",
+              "note": "सब कुछ इंस्टॉल करने के लिए सिंपल इंस्टॉल (बड़ा) चुनें। इस प्रक्रिया में 30-90 मिनट लगते हैं।"
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "स्ट्रॉबेरी पर्ल स्थापित करें (latexmk के लिए आवश्यक)",
+              "note": "विंडोज़ पर काम करने के लिए latexmk के लिए पर्ल आवश्यक है।"
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "स्थापना सत्यापित करें",
+              "note": "सभी तीन आदेशों को एक संस्करण संख्या के साथ प्रतिक्रिया देनी चाहिए।"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio को पुनरारंभ करें",
+              "note": "ऐप को बंद करें और दोबारा खोलें।"
             }
           ],
           "tagline": "पूर्ण - बेहतरीन, सबसे स्थिर आउटपुट, कोई आश्चर्य नहीं",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "पोस्टडॉक्टरेट",
     "level_bachillerato": "हाई स्कूल",
     "level_tecnico": "तकनीकी",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio निर्देशित मोड में है: अपने काम पर ध्यान केंद्रित करें और ऐप फ़ॉर्मेटिंग, ग्रंथ सूची और डिलीवरी को संभाल लेगा।",
+    "error_opening_project": "उस फ़ोल्डर को TeXisStudio प्रोजेक्ट के रूप में नहीं खोला जा सका। सुनिश्चित करें कि इसमें tesis.project.yaml शामिल है।",
+    "search_library_hint": "लाइब्रेरी खोजें",
+    "detecting_latex": "LaTeX का पता लगाया जा रहा है...",
+    "error_importing_tex": ".tex फ़ाइल आयात नहीं कर सका: {{error}}"
   },
   "wizard": {
     "title": "नया प्रोजेक्ट",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "थीसिस के लिए ठोस आधार",
     "recommend_reason_verified": "संस्थागत सत्यापन है",
     "recommend_reason_reviewed": "टीम द्वारा समीक्षा की गई",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "डेस्कटॉप के लिए Google Drive"
+    "error_vocab_install": "\"{{name}}\" सक्रिय नहीं हो सका। इस समर्थन के बिना प्रोजेक्ट बनाने के लिए अपने कनेक्शन की जाँच करें या उसका चयन रद्द करें। विवरण: {{error}}",
+    "google_drive_desktop": "डेस्कटॉप के लिए Google Drive",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "क्रमांकित समीकरण \\\\eqref{}",
+          "प्रमेय और प्रमाण",
+          "मैट्रिक्स और वैक्टर",
+          "क्रमविनिमेय आरेख (tikz-cd)",
+          "प्रूफ़ पेड़ (बसप्रूफ़)"
+        ],
+        "external": [],
+        "tip": "LaTeX औपचारिक गणित के लिए विहित उपकरण है।"
+      },
+      "logica": {
+        "native": [
+          "कटौती वृक्ष (बसप्रूफ़)",
+          "सत्य सारणी",
+          "औपचारिक शब्दार्थ",
+          "हस्से आरेख"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "भौतिक इकाइयाँ \\\\SI{} (siunitx)",
+          "आंशिक व्युत्पन्न \\\\pdv{}",
+          "फेनमैन आरेख (टिकज़-फेनमैन)",
+          "प्लॉट (pgfplots)"
+        ],
+        "external": [
+          "संख्यात्मक सिमुलेशन (PDF/PNG के रूप में निर्यात)"
+        ],
+        "tip": "सभी इकाइयों के लिए siunitx का उपयोग करें - कभी भी सीधे 'किमी/घंटा' न लिखें।"
+      },
+      "quimica": {
+        "native": [
+          "रासायनिक प्रतिक्रियाएँ \\\\ce{} (mhchem)",
+          "आणविक संरचनाएँ (केमफ़िग)",
+          "इकाइयाँ \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "जटिल 3डी संरचनाएं (केमड्रॉ से PDF के रूप में निर्यात)"
+        ],
+        "tip": "सरल संरचनाओं के लिए केमफिग का उपयोग करें। क्रिस्टलोग्राफी या प्रोटीन के लिए, PDF के रूप में आयात करें।"
+      },
+      "ingenieria": {
+        "native": [
+          "इकाइयाँ \\\\SI{} (siunitx)",
+          "सर्किट (circuitikz)",
+          "डेटा प्लॉट (pgfplots)",
+          "एल्गोरिदम (एल्जीपीस्यूडोकोड)"
+        ],
+        "external": [
+          "तकनीकी चित्र (ऑटोकैड → PDF)",
+          "पीसीबी आरेख (KiCad → PDF)"
+        ],
+        "tip": "circuitikz अधिकांश सिग्नल और पावर सर्किट को कवर करता है।"
+      },
+      "computacion": {
+        "native": [
+          "स्रोत कोड (एलएसटीलिस्टिंग)",
+          "स्यूडोकोड के साथ एल्गोरिदम",
+          "प्रदर्शन प्लॉट (pgfplots)",
+          "निर्णय वृक्ष (टिकज़)"
+        ],
+        "external": [
+          "जटिल वास्तुकला आरेख (ड्रा.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "व्यापक फ़ुटनोट",
+          "महत्वपूर्ण उपकरण और पाठ्य उद्धरण",
+          "विश्लेषणात्मक सूचकांक (मेकइंडेक्स)",
+          "भाषाई उदाहरण (gb4e)"
+        ],
+        "external": [
+          "कलाकृति छवियाँ (PNG/PDF के रूप में उच्च रिज़ॉल्यूशन)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "सांख्यिकीय तालिकाएँ (बुकटैब)",
+          "प्लॉट (pgfplots)",
+          "APA/Chicago शैली में ग्रंथ सूची उद्धरण"
+        ],
+        "external": [
+          "जटिल डेटा विज़ुअलाइज़ेशन (आर/पायथन → PDF/PNG)"
+        ],
+        "tip": "सरल प्लॉट के लिए pgfplots का उपयोग करें। विस्तृत विज़ुअलाइज़ेशन के लिए, आर या पायथन से निर्यात करें।"
+      },
+      "medicina": {
+        "native": [
+          "क्लिनिकल टेबल (बुकटैब)",
+          "चिकित्सा इकाइयाँ \\\\SI{}",
+          "कैप्शन और लेबल के साथ आंकड़े"
+        ],
+        "external": [
+          "DICOM छवियाँ / ऊतक विज्ञान (उच्च-रिज़ॉल्यूशन PNG/TIFF के रूप में निर्यात करें)",
+          "क्लिनिकल फ्लोचार्ट (draw.io → PDF)"
+        ],
+        "tip": "डायग्नोस्टिक मेडिकल छवियों को बाहरी फ़ाइलों के रूप में आयात किया जाना चाहिए, LaTeX में पुन: प्रस्तुत नहीं किया जाना चाहिए।"
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "पूर्ण स्कोर (म्यूजस्कोर/सिबेलियस → PDF)",
+          "ऑडियो अंश (बाहरी लिंक)"
+        ],
+        "tip": "जटिल संगीत संकेतन के लिए, स्कोर संपादक का उपयोग करें और PDF के रूप में संलग्न करें।"
+      },
+      "arte": {
+        "native": [
+          "सारणीबद्ध तकनीकी पत्रक (बुकटैब)"
+        ],
+        "external": [
+          "प्लेटें और कलाकृतियाँ (पीएनजी/टीआईएफएफ के रूप में उच्च रिज़ॉल्यूशन)",
+          "विज़ुअल पोर्टफोलियो (बाहरी PDF)",
+          "योजनाएं (DWG → PDF)"
+        ],
+        "tip": "पोर्टफोलियो के लिए, उच्च गुणवत्ता वाले PDF या PNG शामिल करें। LaTeX लेआउट और वर्णनात्मक पाठ का प्रबंधन करता है।"
+      },
+      "arquitectura": {
+        "native": [
+          "बजट और सामग्री तालिकाएँ",
+          "अनुसूचियाँ",
+          "वर्णनात्मक पाठ"
+        ],
+        "external": [
+          "फ्लोर प्लान (ऑटोकैड/आर्किकैड → PDF)",
+          "रेंडर (PNG/PDF के रूप में निर्यात करें)",
+          "मॉडल (पीएनजी के रूप में फोटो)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "डेटा टेबल (बुकटैब)",
+          "इकाइयाँ \\\\SI{}",
+          "फ़ाइलोजेनेटिक पेड़ (टिकज़)"
+        ],
+        "external": [
+          "जटिल संरचनात्मक आरेख (इंकस्केप → PDF/SVG)",
+          "माइक्रोस्कोपी (उच्च-रिज़ॉल्यूशन पीएनजी)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "सांख्यिकीय तालिकाएँ (बुकटैब)",
+          "प्लॉट (pgfplots)",
+          "अर्थमितीय समीकरण"
+        ],
+        "external": [
+          "इंटरएक्टिव डैशबोर्ड और विज़ुअलाइज़ेशन (PNG/PDF के रूप में निर्यात करें)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "परियोजना निदान",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "इस संस्करण को पुनर्स्थापित करें",
     "snapshot_delete_title": "संस्करण हटाएँ",
     "section_guidance_label": "अनुभाग मार्गदर्शन",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "सहेजें और बाहर निकलें",
+    "snapshot_restore_action": "पुनर्स्थापित करें",
+    "continue_editing": "संपादन करते रहें",
+    "unsaved_changes_message": "इस अनुभाग में आपके परिवर्तन सहेजे नहीं गए हैं. जाने से पहले आप क्या करना चाहेंगे?",
+    "unsaved_changes_title": "सहेजे न गए परिवर्तन",
+    "review_ai": "ऐ",
+    "visual_type_selector_title": "आप किस प्रकार का आरेख सम्मिलित करना चाहते हैं?",
+    "default_set_a": "सेट ए",
+    "add_paragraph": "नया अनुच्छेद",
+    "review_grammar": "व्याकरण",
+    "bib_refs_count": "{{count}} .bib में रेफर करता है",
+    "section_status_legend": "स्थिति कथा",
+    "sections_count": "{{count}} अनुभाग",
+    "review_spell": "वर्तनी",
+    "leave_without_saving": "बिना सहेजे चले जाओ",
+    "default_table_column_2": "स्तम्भ 2",
+    "default_set_c": "सेट सी",
+    "default_set_b": "सेट बी",
+    "default_table_column_1": "स्तम्भ 1",
+    "no_bib_file": "कोई .bib नहीं",
     "insert_plugin_figure_title": "वैज्ञानिक आकृति सम्मिलित करें (61 प्रकार)",
     "block_plugin_figure": "चित्र+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "हम केवल वही दिखाते हैं जो आपको बिना किसी जटिलता के लिखने और सबमिट करने के लिए चाहिए। आप सक्षम कर सकते हैं",
     "basic_mode_suffix": "पाठ अनुभाग में.",
     "basic_top_body": "ये सेटिंग्स LaTeX तकनीकी विवरण दर्ज किए बिना उपयोगी निर्णयों के लिए डिज़ाइन की गई हैं। पर स्विच करें",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "अपडेट के लिए जांचें",
+    "update_checking": "जाँच हो रही है...",
+    "update_available": "संस्करण {{version}} उपलब्ध है - इंस्टॉल करने के लिए पुनरारंभ करें",
+    "update_up_to_date": "आप अप टू डेट हैं",
+    "update_error": "अद्यतनों की जाँच नहीं की जा सकी",
     "refresh_catalog": "कैटलॉग ताज़ा करें",
     "package_status_stable": "स्थिर",
     "package_status_beta": "बीटा",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "हल्का और रखरखाव में आसान। रोजमर्रा के लेखन और उन परियोजनाओं के लिए अनुशंसित जिन्हें पूर्ण TeX वितरण की आवश्यकता नहीं होती है।",
     "latex_suite_title": "पूरा LaTeX सुइट",
-    "latex_suite_description": "TeX Live या MiKTeX के साथ लेटेक्सएमके का उपयोग करता है। उन्नत पैकेज, जटिल ग्रंथ सूची और अंतिम वितरण के लिए अनुशंसित।",
+    "latex_suite_description": "latexmk के साथ पूर्ण LaTeX सुइट ({{suiteName}})। सभी CTAN पैकेज, biblatex + Biber, शेल-एस्केप और मल्टी-पास संकलन का समर्थन करता है। संपूर्ण दस्तावेज़ों, संस्थागत प्रोफ़ाइलों और प्लगइन आंकड़ों के लिए अनुशंसित विकल्प।",
     "latex_available": "उपलब्ध",
     "latex_not_available": "स्थापित नहीं",
     "latex_detected_version": "पता लगाया गया संस्करण: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "लैपटॉप डिफ़ॉल्ट",
     "window_mode_remember": "अंतिम आकार याद रखें",
     "window_mode_maximized": "अधिकतमीकरण",
-    "window_mode_hint": "एक 1280 × 760 विंडो चुनें, आपके द्वारा उपयोग किए गए अंतिम आकार को पुनर्स्थापित करें, या सभी उपलब्ध मॉनिटर स्थान का उपयोग करके खोलें।"
+    "window_mode_hint": "एक 1280 × 760 विंडो चुनें, आपके द्वारा उपयोग किए गए अंतिम आकार को पुनर्स्थापित करें, या सभी उपलब्ध मॉनिटर स्थान का उपयोग करके खोलें।",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "{{suiteName}} स्थापित करने के लिए «LaTeX इंस्टॉलेशन प्रबंधित करें» पर जाएं।",
+    "latex_recommended_badge": "अनुशंसित",
+    "latex_upgrade_banner": "{{suiteName}} स्थापित है - यह बिना किसी प्रतिबंध के सभी CTAN पैकेज, Biber और प्लगइन आंकड़ों का समर्थन करता है। स्विचिंग की अनुशंसा की जाती है.",
+    "latex_upgrade_btn": "{{suiteName}} पर स्विच करें",
+    "language_catalog_error": "भाषा सूची लोड नहीं हो सकी. अपना कनेक्शन जांचें और पुनः प्रयास करें।",
+    "language_install_error": "भाषा पैक स्थापित नहीं किया जा सका. अपना कनेक्शन जांचें और पुनः प्रयास करें।"
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' अनुभाग में संदर्भित छवि '{{file}}' नहीं मिली।",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "प्रोफ़ाइल हटाएं?",
     "delete_profile_body_before": "ये डिलीट हो जाएगा",
     "delete_profile_body_after": "इस एक्शन को वापस नहीं किया जा सकता।",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} स्थापित प्रोफ़ाइल",
     "installed_profiles": "स्थापित प्रोफ़ाइलें",
     "profile_count_hint": "{{count}} प्रोफाइल · विवरण देखने के लिए क्लिक करें",
     "import_profile_title": "निर्देशिका से प्रोफ़ाइल आयात करें",
@@ -1135,30 +1297,31 @@
     "selected_chip": "चयनित",
     "installed_chip": "स्थापित",
     "sections_count_suffix": "अनुभाग",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "प्लगइन्स",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "सामने का मामला",
+      "body": "शरीर",
+      "back_matter": "पिछला मामला",
+      "appendix": "परिशिष्ट"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "शीर्षक पृष्ठ",
+      "abstract": "सार",
+      "acknowledgements": "आभार",
+      "table_of_contents": "सामग्री तालिका",
+      "list_of_figures": "आंकड़ों की सूची",
+      "list_of_tables": "तालिकाओं की सूची",
+      "introduction": "परिचय",
+      "theoretical_framework": "सैद्धांतिक रूपरेखा",
+      "methodology": "कार्यप्रणाली",
+      "results": "परिणाम",
+      "discussion": "चर्चा",
+      "conclusions": "निष्कर्ष",
+      "references": "सन्दर्भ",
+      "appendix": "परिशिष्ट",
+      "appendix_a": "परिशिष्ट ए"
+    },
+    "tags_placeholder": "थीसिस, स्नातक, एपीए"
   },
   "progress": {
     "status_draft": "ड्राफ्ट",
@@ -1280,7 +1443,14 @@
     "generating_response": "प्रतिक्रिया उत्पन्न हो रही है...",
     "message_placeholder": "अपना संदेश लिखें... (भेजने के लिए दर्ज करें)",
     "configure_key_first": "पहले अपनी API कुंजी कॉन्फ़िगर करें",
-    "send": "Send"
+    "send": "भेजें",
+    "error_not_configured": "एपीआई कुंजी कॉन्फ़िगर नहीं की गई. प्रदाता टैब में अपनी कुंजी जोड़ें.",
+    "error_auth": "अमान्य एपीआई कुंजी. जांचें कि यह सही और सक्रिय है।",
+    "error_rate_limited": "अनुरोध सीमा पूरी हो गई. कुछ मिनटों में पुनः प्रयास करें.",
+    "error_network": "नेटवर्क त्रुटि। अपना इंटरनेट कनेक्शन जांचें.",
+    "error_safety": "अनुरोध को सुरक्षा नीति द्वारा अवरुद्ध कर दिया गया था।",
+    "error_model_unavailable": "चयनित मॉडल अनुपलब्ध है. सेटिंग्स में कोई दूसरा चुनें.",
+    "error_provider": "प्रदाता त्रुटि. पुनः प्रयास करें।"
   },
   "editor_meta": {
     "project_guide": "प्रोजेक्ट गाइड",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "पुष्टि नहीं की गई - जब तक आप इसकी पुष्टि नहीं करते तब तक यह ब्लॉक PDF में शामिल नहीं किया जाएगा।",
     "packages": "संकुल",
     "edit_figure_title": "शीर्षक या लेबल संपादित करें, या चित्र पुन: उत्पन्न करें",
-    "edit_figure": "चित्र संपादित करें"
+    "edit_figure": "चित्र संपादित करें",
+    "preview_pending": "यहां चित्र देखने के लिए \"पूर्वावलोकन\" टैब से एक पूर्वावलोकन संकलित करें।"
   },
   "compile": {
     "ensure_latex_installed_path": "जांचें कि LaTeX कंपाइलर स्थापित है और PATH में उपलब्ध है।",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "संकलन... ({{count}} पंक्तियाँ)",
     "backends_available": "{{backends}} उपलब्ध है",
     "latex_not_installed_status": "⚠LaTeX स्थापित नहीं है",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "संकलित करें",
+    "preflight_action_export": "निर्यात प्रस्तुतीकरण",
+    "preflight_title": "प्री-{{action}} जांच",
+    "preflight_has_errors": "जारी रखने से पहले {{count}} त्रुटि(त्रुटियों) को ठीक करें।",
+    "preflight_has_warnings": "{{count}} चेतावनियाँ मिलीं। आप वैसे भी जारी रख सकते हैं.",
+    "preflight_errors_section": "त्रुटियाँ ({{count}})",
+    "preflight_warnings_section": "चेतावनियाँ ({{count}})",
+    "preflight_suggestions_section": "सुझाव ({{count}})",
+    "export_success": "निर्यात पूरा हुआ",
+    "compile_as_draft": "ड्राफ्ट के रूप में संकलित करें",
+    "readiness_complete": "पूर्ण",
+    "readiness_export_title": "अंतिम डिलीवरी रोक दी गई",
+    "readiness_back": "समीक्षा के लिए वापस जाएँ",
+    "readiness_compile_title": "प्रोजेक्ट औपचारिक संस्करण के लिए तैयार नहीं है",
+    "readiness_export_subtitle": "अंतिम मोड में निर्यात करने के लिए, पहले डिलीवरी और गुणवत्ता जांच पूरी करें।",
+    "readiness_compile_subtitle": "इसे औपचारिक संस्करण मानने से पहले ड्राफ्ट के रूप में संकलित करें या इन बिंदुओं की समीक्षा करें।",
+    "readiness_delivery": "डिलिवरी",
+    "readiness_quality": "अंतिम गुणवत्ता",
     "severity_error": "त्रुटि",
     "severity_warning": "चेतावनी",
     "severity_suggestion": "सुझाव",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "ऑर्डर बदलने के लिए ▲▼ का प्रयोग करें।",
     "order_hint_line_2": "प्रोजेक्ट बनाते समय ऑर्डर ड्रॉपडाउन निर्धारित करता है।",
     "add_custom_style": "कस्टम शैली जोड़ें",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "आईडी*",
+    "biblatex_style_required": "बाइबिलटेक्स शैली*",
+    "references_default_title": "सन्दर्भ",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "उद्धरण",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "लेखक-तिथि",
+      "numeric": "संख्यात्मक",
+      "notes_bibliography": "नोट्स-ग्रंथ सूची।",
+      "author_page": "लेखक-पृष्ठ"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "अमेरिकन साइकोलॉजिकल एसोसिएशन, 7वां संस्करण",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "मनोविज्ञान",
+          "शिक्षा",
+          "सामाजिक विज्ञान",
+          "नर्सिंग",
+          "संचार"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "विश्व स्तर पर सबसे व्यापक रूप से उपयोग की जाने वाली शैली। कई मनोविज्ञान, शिक्षा और सामाजिक विज्ञान कार्यक्रमों में आवश्यक। सातवां संस्करण (2020)।",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "संयुक्त राज्य अमेरिका",
+          "कनाडा",
+          "लैटिन अमेरिका",
+          "ऑस्ट्रेलिया"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(लेखक, वर्ष)",
+        "bibliography_title": "सन्दर्भ"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / ICMJE सिफ़ारिशें",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "चिकित्सा",
+          "नर्सिंग",
+          "फार्मेसी",
+          "दंत चिकित्सा",
+          "स्वास्थ्य विज्ञान"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "स्वास्थ्य विज्ञान के लिए आवश्यक संख्यात्मक शैली। सन्दर्भों को उपस्थिति के आधार पर क्रमबद्ध किया जाता है। मेडलाइन/पबमेड पत्रिकाओं में मानक।",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "वैश्विक, चिकित्सा और स्वास्थ्य विज्ञान"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "सन्दर्भ"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE उद्धरण शैली",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "इलेक्ट्रिकल इंजीनियरिंग",
+          "कंप्यूटिंग",
+          "दूरसंचार",
+          "रोबोटिक्स",
+          "इलेक्ट्रॉनिक्स"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "इंजीनियरिंग, कंप्यूटिंग और प्रौद्योगिकी के लिए मानक संख्यात्मक शैली। इंजीनियरिंग स्कूलों में व्यापक रूप से अपनाया गया।",
         "regions_primary": [
-          "Global, engineering and technology"
+          "वैश्विक, इंजीनियरिंग और प्रौद्योगिकी"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "सन्दर्भ"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (नोट्स)",
+        "full_name": "Chicago शैली मैनुअल, 17वां संस्करण, नोट्स-ग्रंथ सूची",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "इतिहास",
+          "साहित्य",
+          "कला",
+          "दर्शन",
+          "धार्मिक अध्ययन"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "मानविकी के लिए नोट्स और ग्रंथ सूची प्रणाली। उद्धरण फ़ुटनोट में दिखाई देते हैं.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "संयुक्त राज्य अमेरिका",
+          "यूनाइटेड किंगडम",
+          "कनाडा, मानविकी"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "फ़ुटनोट¹",
+        "bibliography_title": "ग्रंथ सूची"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (लेखक-तिथि)",
+        "full_name": "Chicago शैली मैनुअल, 17वां संस्करण, लेखक-तिथि",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "अर्थशास्त्र",
+          "राजनीति विज्ञान",
+          "समाजशास्त्र",
+          "नृविज्ञान",
+          "भूगोल"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago लेखक-तिथि संस्करण, सामाजिक विज्ञान और अर्थशास्त्र में पसंदीदा।",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "संयुक्त राज्य अमेरिका",
+          "कनाडा, सामाजिक विज्ञान"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(लेखक वर्ष)",
+        "bibliography_title": "सन्दर्भ"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA हैंडबुक, 9वां संस्करण",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "साहित्य",
+          "भाषा",
+          "भाषाविज्ञान",
+          "सांस्कृतिक अध्ययन",
+          "बयानबाजी"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "उत्तरी अमेरिका में भाषा, साहित्य और सांस्कृतिक अध्ययन के लिए मानक। नौवां संस्करण (2021)।",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "संयुक्त राज्य अमेरिका",
+          "कनाडा, भाषा और साहित्य"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(लेखक पृष्ठ)",
+        "bibliography_title": "उद्धृत कार्य"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "हार्वर्ड",
+        "full_name": "हार्वर्ड संदर्भ शैली",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "व्यवसाय",
+          "प्रबंधन",
+          "अर्थशास्त्र",
+          "सामाजिक विज्ञान"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "लेखक-दिनांक शैली APA के समान है। यूके और ऑस्ट्रेलियाई विश्वविद्यालयों में व्यापक रूप से उपयोग किया जाता है।",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "यूनाइटेड किंगडम",
+          "ऑस्ट्रेलिया",
+          "आयरलैंड",
+          "दक्षिण अफ़्रीका"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(लेखक वर्ष)",
+        "bibliography_title": "सन्दर्भ"
       },
       "mhra": {
-        "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "name": "एमएचआरए",
+        "full_name": "आधुनिक मानविकी अनुसंधान संघ स्टाइल गाइड, तीसरा संस्करण",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "मानविकी",
+          "इतिहास",
+          "साहित्य",
+          "दर्शन",
+          "भाषाविज्ञान"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "यूके मानविकी मानक Chicago नोट्स के समान है।",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "यूनाइटेड किंगडम",
+          "आयरलैंड, मानविकी"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "फ़ुटनोट¹",
+        "bibliography_title": "ग्रंथ सूची"
       },
       "abnt": {
-        "name": "ABNT",
-        "full_name": "ABNT NBR 6023:2018",
+        "name": "एबीएनटी",
+        "full_name": "एबीएनटी एनबीआर 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "सभी विषय (ब्राजील)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "ब्राज़ीलियाई विश्वविद्यालयों में शैक्षणिक कार्य के लिए राष्ट्रीय मानक।",
         "regions_primary": [
-          "Brazil, required"
+          "ब्राज़ील, आवश्यक"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(लेखक, वर्ष)",
+        "bibliography_title": "सन्दर्भ"
       },
       "gb7714": {
-        "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "name": "जीबी/टी 7714",
+        "full_name": "जीबी/टी 7714-2015, चीनी राष्ट्रीय मानक",
         "disciplines": [
-          "All disciplines (China)"
+          "सभी विषय (चीन)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "चीनी में थीसिस के लिए राष्ट्रीय मानक। चीनी विश्वविद्यालयों में आवश्यक.",
         "regions_primary": [
-          "China, required"
+          "चीन, आवश्यक"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "सन्दर्भ"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "डिफ़ॉल्ट शैलियाँ पुनर्स्थापित करें",
+    "reset_action": "पुनर्स्थापित करें"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ क्रॉस-रेफरेंस डालें ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "वैकल्पिक शीर्षक",
     "theorem_title_placeholder": "पाइथागोरस प्रमेय",
     "math_content": "सामग्री (गणितीय LaTeX स्वीकार करता है)",
-    "theorem_content_placeholder": "माना $a^2 + b^2 = c^2$ जहां $c$ कर्ण है..."
+    "theorem_content_placeholder": "माना $a^2 + b^2 = c^2$ जहां $c$ कर्ण है...",
+    "term_placeholder": "ओन्टोलॉजी",
+    "definition_placeholder": "दर्शनशास्त्र की वह शाखा जो अस्तित्व के रूप में अस्तित्व का अध्ययन करती है।",
+    "acronym_placeholder": "ऐ",
+    "full_form_placeholder": "कृत्रिम बुद्धिमत्ता"
   },
   "citation": {
     "error_connect": "संपर्क त्रुटि।",
@@ -2031,7 +2206,15 @@
     "empty_equation": "खाली समीकरण",
     "custom_molecule": "कस्टम अणु",
     "molecule_compile_hint": "संकलन करते समय केमफिग के साथ संरचना उत्पन्न हुई",
-    "chemical_syntax_hint": "उपयोग करें -> (प्रतिक्रिया), <=> (संतुलन), ^ (गैस), और v (अवक्षेप)"
+    "chemical_syntax_hint": "उपयोग करें -> (प्रतिक्रिया), <=> (संतुलन), ^ (गैस), और v (अवक्षेप)",
+    "label_example": "अंजीर: मेरा-आरेख",
+    "circuit_lower": "सर्किट",
+    "diagram_lower": "आरेख",
+    "default_start": "प्रारंभ करें",
+    "default_process": "प्रक्रिया",
+    "default_end": "ख़त्म",
+    "default_event": "घटना {{number}}",
+    "default_major_scale": "सी प्रमुख पैमाना"
   },
   "vocabulary": {
     "title": "डोमेन शब्दावलियाँ",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "जिसमें एक है",
     "repo_hint_suffix": "अनुभाग. यह आपका अपना GitHub रेपो हो सकता है।",
     "alias_placeholder": "उपनाम (e.g. मेरी-प्रयोगशाला-शर्तें)",
-    "adding": "जोड़ा जा रहा है..."
+    "adding": "जोड़ा जा रहा है...",
+    "catalog_error": "शब्दावली सूची लोड नहीं हो सकी. अपना कनेक्शन जांचें और पुनः प्रयास करें।",
+    "repo_sync_error": "इस भंडार को सिंक्रनाइज़ नहीं किया जा सका.",
+    "repo_add_error": "भंडार नहीं जोड़ा जा सका. इसका पता जाँचें और पुनः प्रयास करें।"
   },
   "profile_wizard": {
     "step_of": "{{total}} का चरण {{current}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "URL से इंस्टॉल करें",
     "install_from_url_hint": "वैध प्रोफ़ाइल.yaml वाले .zip का URL चिपकाएँ।",
     "install_btn": "स्थापित करें",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "आपको सटीक प्रोफ़ाइल नाम की आवश्यकता नहीं है",
+    "guided_hint_body": "अपने संस्थान या डिग्री, क्षेत्र और उद्धरण शैली के करीबी संयोजन से शुरुआत करें। यदि कोई सटीक मिलान नहीं है, तो एक साधारण संस्थागत आधार से शुरुआत करें और बाद में इसे समायोजित करें।",
+    "catalog_load_error": "प्रोफ़ाइल कैटलॉग लोड नहीं हो सका. अपना कनेक्शन जाँचें या पुनः प्रयास करें।",
+    "install_success": "\"{{name}}\" सफलतापूर्वक स्थापित हो गया।",
+    "breadcrumb_all": "सब",
+    "profile_count_one": "{{count}} प्रोफ़ाइल",
+    "profile_count_other": "{{count}} प्रोफाइल",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "अमेरिका",
+      "europe": "यूरोप",
+      "asia": "एशिया",
+      "generic": "सामान्य"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "मेक्सिको",
+      "usa": "संयुक्त राज्य अमेरिका",
+      "canada": "कनाडा",
+      "brazil": "ब्राज़ील",
+      "argentina": "अर्जेंटीना",
+      "chile": "चिली",
+      "uk": "यूनाइटेड किंगडम",
+      "germany": "जर्मनी",
+      "spain": "स्पेन",
+      "netherlands": "नीदरलैंड",
+      "italy": "इटली",
+      "sweden": "स्वीडन",
+      "france": "फ़्रांस",
+      "china": "चीन",
+      "japan": "जापान",
+      "south_korea": "दक्षिण कोरिया",
+      "singapore": "सिंगापुर",
+      "india": "भारत",
+      "generic": "सामान्य"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "हाई स्कूल",
+      "tecnico": "तकनीकी डिग्री",
+      "licenciatura": "स्नातक की डिग्री",
+      "especialidad": "विशेषज्ञता",
+      "maestria": "मास्टर डिग्री",
+      "doctorado": "डॉक्टरेट",
+      "posdoctorado": "पोस्टडॉक"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "संस्थागत",
+      "degree_specific": "डिग्री-विशिष्ट",
+      "program_specific": "कार्यक्रम-विशिष्ट",
+      "discipline_specific": "फ़ील्ड-विशिष्ट"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "सभी अनुशासन",
+      "engineering": "इंजीनियरिंग",
+      "social_sciences": "सामाजिक विज्ञान",
+      "humanities": "मानविकी",
+      "health_sciences": "स्वास्थ्य विज्ञान",
+      "computing": "कंप्यूटिंग",
+      "natural_sciences": "प्राकृतिक विज्ञान"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "सत्यापित",
+    "status_reviewed_label": "समीक्षा की गई"
   },
   "about": {
     "title": "के बारे में",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "परिवर्तन लागू करें और आकृति पुन: उत्पन्न करें",
     "apply_visual_btn": "परिवर्तन लागू करें",
     "applying": "लागू किया जा रहा है...",
-    "done_msg": "चित्र अद्यतन किया गया"
+    "done_msg": "चित्र अद्यतन किया गया",
+    "tab_preview": "पूर्वावलोकन",
+    "preview_compile_btn": "पूर्वावलोकन पुनः संकलित करें",
+    "preview_compiling": "संकलित किया जा रहा है...",
+    "preview_apply_first": "पूर्वावलोकन करने से पहले परिवर्तन लागू करें.",
+    "preview_tectonic_note": "Tectonic सक्रिय इंजन है. यदि पूर्वावलोकन विफल हो जाता है, तो इस आंकड़े के लिए पूर्ण LaTeX सुइट (MacTeX / MiKTeX / TeX Live) की आवश्यकता हो सकती है। आप सेटिंग्स → LaTeX इंजन में इंजन बदल सकते हैं।",
+    "preview_error_prefix": "संकलन त्रुटि:",
+    "preview_no_tectonic": "Tectonic स्थापित नहीं है या पाया नहीं जा सका।"
   },
   "elements_tab": {
     "title": "तत्व",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "आंतरिक प्रकार",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "अनुच्छेद",
+        "description": "फ्री-फॉर्म टेक्स्ट ब्लॉक. जोर, इनलाइन उद्धरण और इनलाइन LaTeX का समर्थन करता है।",
+        "latex_output": "एस्केप्ड टेक्स्ट सीधे दस्तावेज़ में लिखा गया।"
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "शीर्षक/शीर्षक",
+        "description": "अनुभाग शीर्षक: अनुभाग (H1), उपधारा (H2), या उपधारा (H3)।",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "चित्रा",
+        "description": "क्रॉस-रेफरेंस के लिए कैप्शन, स्रोत और लेबल के साथ छवि। चौड़ाई: 50%, 75%, 100%।",
+        "latex_output": "चित्र वातावरण + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "टेबल",
+        "description": "हेडर, पंक्तियों, कैप्शन और स्रोत के साथ तालिका। शैलियाँ: सरल, बुकटैब, चौड़ी, लंबीटेबल।",
+        "latex_output": "तालिका वातावरण + सारणीबद्ध/दीर्घ तालिका + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "समीकरण",
+        "description": "क्रमांकित या बिना क्रमांकित गणितीय सूत्र। शुद्ध LaTeX गणित में लिखा गया है।",
+        "latex_output": "समीकरण या समीकरण* वातावरण + वैकल्पिक \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "सूची",
+        "description": "बुलेटेड (आइटमाइज़), क्रमांकित (गणना), या वर्णनात्मक (वर्णन) सूची।",
+        "latex_output": "\\begin{आइटमाइज़/गणना/विवरण}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "ग्रंथ सूची उद्धरण",
+        "description": ".bib फ़ाइल में BibTeX कुंजी से जुड़ा कोष्ठक, वर्णनात्मक या एकाधिक उद्धरण।",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "कच्चा LaTeX",
+        "description": "उन्नत मामलों के लिए मनमाना LaTeX टुकड़ा। उपयोगकर्ता पुष्टि की आवश्यकता है.",
+        "latex_output": "शब्दशः, बच निकला हुआ। सावधानी से प्रयोग करें."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "पाठ",
+      "content": "सामग्री",
+      "structure": "संरचना",
+      "navigation": "नेविगेशन",
+      "image": "छवि",
+      "graphic": "ग्राफ़िक",
+      "data": "डेटा",
+      "statistics": "आँकड़े",
+      "mathematics": "गणित",
+      "formula": "सूत्र",
+      "list": "सूची",
+      "enumeration": "गणना",
+      "bibliography": "ग्रंथ सूची",
+      "reference": "संदर्भ",
+      "advanced": "उन्नत",
+      "custom": "कस्टम"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "परियोजना की प्रगति",
+    "row_overall": "प्रोजेक्ट",
+    "row_setup": "सेटअप",
+    "row_writing": "लेखन",
+    "row_delivery": "डिलिवरी",
+    "row_quality": "अंतिम गुणवत्ता",
+    "pending_prefix": "लंबित:",
+    "delivery_blocked": "अंतिम डिलीवरी से पहले कुछ आइटम लंबित हैं",
+    "setup_title": "कार्य का वास्तविक शीर्षक निर्धारित करें",
+    "setup_author": "पूर्ण मुख्य लेखकत्व",
+    "setup_institution": "वास्तविक संस्था में प्रवेश करें",
+    "setup_profile": "एक अकादमिक प्रोफ़ाइल चुनें",
+    "setup_language": "आधार भाषा चुनें",
+    "setup_advisor": "कम से कम एक सलाहकार या थीसिस निदेशक जोड़ें",
+    "writing_sections": "कम से कम एक सामग्री अनुभाग सक्षम करें",
+    "writing_draft": "मुख्य अनुभाग में सामग्री लिखें",
+    "writing_words": "एक महत्वपूर्ण प्रथम प्रारूप विकसित करें",
+    "writing_reviewed": "कम से कम एक अनुभाग को संशोधित के रूप में चिह्नित करें",
+    "delivery_references": "एक संदर्भ अनुभाग शामिल करें",
+    "delivery_abstract": "सारांश या सार लिखें",
+    "delivery_required": "प्रोफ़ाइल के आवश्यक अनुभागों को पूरा करें",
+    "delivery_latex": "अमान्य LaTeX ब्लॉक की पुष्टि करें या हटाएँ",
+    "delivery_committee": "उन्नत कार्य हेतु समिति पूर्ण करें",
+    "delivery_review_main": "डिलीवरी से पहले मुख्य अनुभागों की समीक्षा करें",
+    "quality_citation": "मुख्य भाग में कम से कम एक सत्यापन योग्य उद्धरण शामिल करें",
+    "quality_required_reviewed": "आवश्यक बॉडी अनुभागों को संशोधित के रूप में चिह्नित करें",
+    "quality_raw_latex": "अंतिम डिलीवरी से पहले आयातित LaTeX ब्लॉकों को माइग्रेट करें या मैन्युअल रूप से समीक्षा करें",
+    "quality_plugin_warnings": "अंतिम डिलीवरी से पहले फिगर या प्लगइन चेतावनियों का समाधान करें",
+    "quality_profile": "औपचारिक प्रस्तुतिकरण के लिए संस्थागत या कस्टम प्रोफ़ाइल का उपयोग करें"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "प्लगइन्स",
+    "subtitle": "आंकड़े और आरेख सम्मिलित करने के लिए {{count}} विज़ुअल प्लगइन उपलब्ध हैं।",
+    "search_placeholder": "नाम, पैकेज या श्रेणी के आधार पर खोजें...",
+    "no_results": "कोई भी प्लगइन उस खोज से मेल नहीं खाता।",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "स्थिर",
+      "beta": "बीटा",
+      "experimental": "प्रायोगिक",
+      "draft": "ड्राफ्ट"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "अपनी भाषा चुनें",
+    "subheading": "आप इसे बाद में सेटिंग में बदल सकते हैं.",
+    "more_languages": "अधिक भाषाएँ",
+    "loading_more": "अधिक भाषाएँ लोड हो रही हैं...",
+    "catalog_error": "अधिक भाषाएँ लोड नहीं की जा सकीं. आप एक बंडल भाषा के साथ जारी रख सकते हैं.",
+    "skip": "छोड़ें",
+    "install_error": "वह भाषा स्थापित नहीं की जा सकी. अपना कनेक्शन जांचें और पुनः प्रयास करें।"
   },
   "toast": {
     "close_button": "सूचना बंद करें",
@@ -2527,7 +2721,50 @@
     "redo": "पुनः करें",
     "restore_btn": "उदाहरण पुनर्स्थापित करें",
     "restore_title": "न्यूनतम कामकाजी उदाहरण से बदलें",
-    "advanced_section": "उन्नत विकल्प"
+    "advanced_section": "उन्नत विकल्प",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "क्रॉस-रेफरेंस के लिए लेबल (e.g. eq:quadratic)। खाली का मतलब कोई लेबल नहीं है."
+      },
+      "chemistry_output": {
+        "label": "आउटपुट मोड",
+        "description": "mhchem: इनलाइन \\ce{...}। केमफिग: बंधन-कोण संरचनाएं।"
+      },
+      "circuit_style": {
+        "label": "अमेरिकी शैली",
+        "description": "पर: अमेरिकी घटक प्रतीक (IEEE)। बंद: यूरोपीय प्रतीक (आईईसी)।"
+      },
+      "tikz_libraries": {
+        "label": "TikZ पुस्तकालय",
+        "description": "अल्पविराम से अलग किए गए अतिरिक्त TikZ पुस्तकालय (e.g. कैल्क, तीर.meta, पैटर्न)।"
+      },
+      "pgfplots_options": {
+        "label": "पीजीएफप्लॉट विकल्प",
+        "description": "\\beginZXQ0QXZ[...] में अतिरिक्त विकल्प डाले गए, जैसे xbar या compat=1.18।"
+      },
+      "forest_options": {
+        "label": "वन विकल्प",
+        "description": "वन परिवेश में अतिरिक्त विकल्प दिए गए, जैसे कांटेदार किनारे या किनारे लेबल शैलियाँ।"
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "नोड्स, किनारों, आकृतियों और चाप शैलियों के साथ निर्देशित और अप्रत्यक्ष ग्राफ़।"
+      },
+      "pgfplots": {
+        "description": "पीजीएफप्लॉट्स के साथ प्लॉट, हिस्टोग्राम, बार चार्ट, स्कैटर प्लॉट और हीट मैप।"
+      },
+      "tree_forest": {
+        "description": "पदानुक्रमित वाक्यविन्यास, वर्गीकरण, फ़ाइलोजेनेटिक, निर्णय और संभाव्यता वृक्ष।"
+      },
+      "table_data": {
+        "description": "बुकटैब, लॉन्गटेबल, या पीजीएफप्लॉट्स डेटा में निर्यात योग्य डेटा टेबल।"
+      },
+      "timeline_gantt": {
+        "description": "समूहों, कार्यों और निर्भरताओं के साथ गैंट चार्ट और समयरेखा।"
+      }
+    }
   },
   "help": {
     "title": "सहायता केंद्र",

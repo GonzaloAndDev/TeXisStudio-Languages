@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Найкраща типографіка та вихід з усіх легких альтернатив",
+            "100% сумісні бібліографії (включено правильну версію biber)",
+            "Усі пакети CTAN доступні без обмежень",
+            "Рідна багатомовна підтримка: кирилиця, CJK, арабська, деванагарі",
+            "Правильна багатопрохідна компіляція: зміст, індекси, перехресні посилання",
+            "Встановлення Homebrew однією командою"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Велике завантаження (~5 ГБ)",
+            "Установка займає 10-20 хвилин"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Встановіть Homebrew (якщо у вас його немає)",
+              "note": "Homebrew — стандартний менеджер пакетів macOS. Якщо він у вас уже є, пропустіть цей крок."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Встановіть MacTeX з Homebrew",
+              "note": "Завантаження ~5 ГБ. Процес займає 10–20 хвилин залежно від вашого підключення."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Оновити змінні середовища",
+              "note": "Або просто закрийте та знову відкрийте термінал, щоб він вибрав новий ШЛЯХ."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Перевірте встановлення",
+              "note": "Усі три команди мають відповідати номером версії."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму, щоб вона виявила нову інсталяцію."
             }
           ],
           "tagline": "Рекомендовано — найкращий, найстабільніший і повний результат",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Встановлюється менш ніж за 1 хвилину",
+            "Завантажує лише пакети, які використовує ваша дисертація",
+            "Співіснує з MacTeX, якщо вам потрібні обидва",
+            "Можна оновити за допомогою оновлення пива"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Для першої компіляції потрібне підключення до Інтернету",
+            "Для вузькоспеціалізованих пакетів (розширена фізика тощо) може знадобитися MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Встановіть Homebrew (якщо у вас його немає)",
+              "note": "Якщо у вас уже є Homebrew, пропустіть цей крок."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Встановіть Tectonic за допомогою Homebrew",
+              "note": "Легке завантаження. Готовий менш ніж за 1 хвилину."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Перевірте встановлення",
+              "note": "Ви повинні побачити щось на кшталт: тектонічний 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму, щоб вона виявила тектонічні."
             }
           ],
           "tagline": "Легкий — завантажує лише те, що потрібно",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Найкраща типографіка та вихід замість легких альтернатив",
+            "100% правильна бібліографія — включена сумісна версія biber",
+            "Усі пакети CTAN без обмежень",
+            "Рідна багатомовна підтримка: кирилиця, CJK, арабська, деванагарі",
+            "Правильна багатопрохідна компіляція: зміст, індекси, перехресні посилання",
+            "Встановлення за допомогою однієї системної команди"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Повна інсталяція займає 3–5 Гб",
+            "Версія репозиторію може бути трохи старшою за офіційний випуск"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Включає все. Якщо місця обмежено, використовуйте texlive-xetex замість texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Потік Fedora / RHEL / CentOS",
+              "note": "Встановлює повну схему TeX Live."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Арка / Манджаро",
+              "note": "Встановлює основні групи та biber для бібліографії."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Повна схема через zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Перевірте встановлення",
+              "note": "Усі три команди мають відповідати номером версії."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму, щоб вона виявила нову інсталяцію."
             }
           ],
           "tagline": "Рекомендовано — найкращий, найстабільніший і повний результат",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Для встановлення sudo не потрібен",
+            "Завантажує лише те, що потрібно вашій дипломній роботі",
+            "Співіснує з TeX Live, якщо вам потрібні обидва"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Для першої компіляції потрібен Інтернет",
+            "Для вузькоспеціалізованих пакетів (розширена фізика тощо) може знадобитися TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Встановити за допомогою офіційного скрипта",
+              "note": "Завантажує та встановлює двійковий файл у ~/.cargo/bin або ~/bin залежно від налаштувань."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Альтернатива: встановити за допомогою Cargo",
+              "note": "Потрібно встановити Rust. Компілюється з вихідного коду, займає кілька хвилин."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Перевірте встановлення",
+              "note": "Ви повинні побачити щось на кшталт: тектонічний 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму."
             }
           ],
           "tagline": "Легкий — не потрібен системний менеджер пакетів",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Найкраща типографіка та вихід замість легких альтернатив",
+            "100% правильні бібліографії — Biber включено та сумісно",
+            "Усі пакети CTAN, завантажуються на вимогу",
+            "Не потребує Strawberry Perl (на відміну від посібника latexmk)",
+            "Багатомовна підтримка: кирилиця, CJK, арабська, деванагарі",
+            "Простий у використанні графічний інсталятор .exe"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "Консоль MiKTeX спочатку може збити з пантелику",
+            "Вимагає прийняття встановлення пакета під час першої компіляції"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Встановіть MiKTeX з крилом",
+              "note": "Відкрийте PowerShell як звичайний користувач (адміністратор не потрібен). winget входить до складу Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Альтернатива: графічний інсталятор",
+              "note": "Перейдіть до miktex.org → Завантажити → Windows. Завантажте 64-бітний інсталятор і запустіть його. Виберіть Установити MiKTeX тільки для мене."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Перевірте встановлення",
+              "note": "Має відповісти номер версії."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму, щоб вона виявила MiKTeX."
             }
           ],
           "tagline": "Рекомендовано для Windows — найкращий вихід без Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Встановлюється за 1 хвилину з крилом",
+            "Не потребує Strawberry Perl",
+            "Співіснує з MiKTeX, якщо вам потрібні обидва",
+            "Можливість оновлення за допомогою оновлення крил"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Для першої компіляції потрібен Інтернет",
+            "Для вузькоспеціалізованих пакетів (розширена фізика тощо) може знадобитися MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Встановити за допомогою крила",
+              "note": "Відкрийте PowerShell як звичайний користувач. Адміністратор не потрібен."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Перевірте встановлення",
+              "note": "Ви повинні побачити щось на кшталт: тектонічний 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму, щоб вона виявила тектонічні."
             }
           ],
           "tagline": "Легкий — одна команда, без Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Найкраща типографіка та вихід замість легких альтернатив",
+            "Усі пакети CTAN включені, без додаткових завантажень",
+            "100% правильна бібліографія — сумісний biber включено",
+            "Рідна багатомовна підтримка: кирилиця, CJK, арабська, деванагарі",
+            "Сумісний з будь-яким інституційним профілем"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Повільне встановлення (30–90 хвилин)",
+            "Займає 4–8 ГБ дискового простору",
+            "Потрібен Strawberry Perl для latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Завантажте програму встановлення TeX Live",
+              "note": "Перейдіть до tug.org/texlive → завантажити → install-tl-windows.exe. Завантажте інсталятор."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Запустіть інсталятор",
+              "note": "Виберіть Просте встановлення (велике), щоб установити все. Процес триває 30-90 хвилин."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Встановити Strawberry Perl (потрібно для latexmk)",
+              "note": "Для роботи latexmk у Windows потрібен Perl."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Перевірте встановлення",
+              "note": "Усі три команди мають відповідати номером версії."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Перезапустіть TeXisStudio",
+              "note": "Закрийте та знову відкрийте програму."
             }
           ],
           "tagline": "Повністю — найкращий, найстабільніший результат, без сюрпризів",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Докторантура",
     "level_bachillerato": "Середня школа",
     "level_tecnico": "технічний",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio працює в керованому режимі: зосередьтеся на своїй роботі, і програма виконає форматування, бібліографію та доставку.",
+    "error_opening_project": "Не вдалося відкрити цю папку як проект TeXisStudio. Переконайтеся, що він містить tesis.project.yaml.",
+    "search_library_hint": "Пошук бібліотеки",
+    "detecting_latex": "Виявлення LaTeX…",
+    "error_importing_tex": "Не вдалося імпортувати файл .tex: {{error}}"
   },
   "wizard": {
     "title": "Новий проект",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "міцна основа для тез",
     "recommend_reason_verified": "має інституційну перевірку",
     "recommend_reason_reviewed": "перевірено командою",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Диск Google для комп’ютера"
+    "error_vocab_install": "Не вдалося активувати \"{{name}}\". Перевірте підключення або зніміть його, щоб створити проект без цієї підтримки. Деталь: {{error}}",
+    "google_drive_desktop": "Диск Google для комп’ютера",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Пронумеровані рівняння \\\\eqref{}",
+          "Теореми та доведення",
+          "Матриці та вектори",
+          "Комутативні діаграми (tikz-cd)",
+          "Доказові дерева (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX є канонічним інструментом для формальної математики."
+      },
+      "logica": {
+        "native": [
+          "Дедукційні дерева (автобуси)",
+          "Таблиці істинності",
+          "Формальна семантика",
+          "Діаграми Хассе"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Фізичні одиниці \\\\SI{} (siunitx)",
+          "Часткові похідні \\\\pdv{}",
+          "Діаграми Фейнмана (tikz-feynman)",
+          "Ділянки (pgfplots)"
+        ],
+        "external": [
+          "Чисельне моделювання (експорт як PDF/PNG)"
+        ],
+        "tip": "Використовуйте siunitx для всіх одиниць — ніколи не пишіть безпосередньо «км/год»."
+      },
+      "quimica": {
+        "native": [
+          "Хімічні реакції \\\\ce{} (mhchem)",
+          "Молекулярні структури (chemfig)",
+          "Одиниці \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Складні 3D структури (експорт з ChemDraw як PDF)"
+        ],
+        "tip": "Для простих конструкцій використовують хімрис. Для кристалографії або білків імпортуйте як PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Одиниці \\\\SI{} (siunitx)",
+          "Схеми (circuitikz)",
+          "Графіки даних (pgfplots)",
+          "Алгоритми (algpseudocode)"
+        ],
+        "external": [
+          "Технічні креслення (AutoCAD → PDF)",
+          "Схеми друкованих плат (KiCad → PDF)"
+        ],
+        "tip": "circuitikz охоплює більшість сигнальних і силових ланцюгів."
+      },
+      "computacion": {
+        "native": [
+          "Вихідний код (lstlisting)",
+          "Алгоритми з псевдокодом",
+          "Сюжети продуктивності (pgfplots)",
+          "Дерева рішень (tikz)"
+        ],
+        "external": [
+          "Схеми складної архітектури (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Великі виноски",
+          "Критичний апарат і текстові цитати",
+          "Аналітичні індекси (makeindex)",
+          "Лінгвістичні приклади (gb4e)"
+        ],
+        "external": [
+          "Ілюстрації (висока роздільна здатність у форматі PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Статистичні таблиці (вкладки)",
+          "Ділянки (pgfplots)",
+          "Бібліографічні цитати в стилі APA/Chicago"
+        ],
+        "external": [
+          "Комплексна візуалізація даних (R/Python → PDF/PNG)"
+        ],
+        "tip": "Для простих сюжетів використовуйте pgfplots. Для детальної візуалізації експортуйте з R або Python."
+      },
+      "medicina": {
+        "native": [
+          "Клінічні таблиці (вкладиші)",
+          "Медичні частини \\\\SI{}",
+          "Малюнки з підписом і написом"
+        ],
+        "external": [
+          "Зображення DICOM / гістологія (експорт як PNG/TIFF високої роздільної здатності)",
+          "Клінічні блок-схеми (draw.io → PDF)"
+        ],
+        "tip": "Діагностичні медичні зображення потрібно імпортувати як зовнішні файли, а не відтворювати в LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Повні ноти (MuseScore/Sibelius → PDF)",
+          "Аудіо фрагменти (зовнішнє посилання)"
+        ],
+        "tip": "Для складних нотних записів скористайтеся редактором партитур і прикріпіть як PDF."
+      },
+      "arte": {
+        "native": [
+          "Табличні технічні листи (вкладиші)"
+        ],
+        "external": [
+          "Пластини та твори мистецтва (висока роздільна здатність у форматі PNG/TIFF)",
+          "Візуальне портфоліо (зовнішнє PDF)",
+          "Плани (DWG → PDF)"
+        ],
+        "tip": "Для портфоліо додайте високоякісний PDF або PNG. LaTeX керує макетом і описовим текстом."
+      },
+      "arquitectura": {
+        "native": [
+          "Таблиці бюджету та матеріалів",
+          "Розклади",
+          "Тексти-описи"
+        ],
+        "external": [
+          "Плани поверхів (AutoCAD/ArchiCAD → PDF)",
+          "Візуалізації (експорт як PNG/PDF)",
+          "Моделі (фото як PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Таблиці даних (booktabs)",
+          "Одиниці \\\\SI{}",
+          "Філогенетичні дерева (tikz)"
+        ],
+        "external": [
+          "Складні анатомічні схеми (Inkscape → PDF/SVG)",
+          "Мікроскопія (висока роздільна здатність PNG)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Статистичні таблиці (вкладки)",
+          "Ділянки (pgfplots)",
+          "Економетричні рівняння"
+        ],
+        "external": [
+          "Інтерактивні інформаційні панелі та візуалізації (експорт як PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Діагностика проекту",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Відновити цю версію",
     "snapshot_delete_title": "Видалити версію",
     "section_guidance_label": "Керівництво по розділу",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "Зберегти та вийти",
+    "snapshot_restore_action": "Відновити",
+    "continue_editing": "Продовжуйте редагувати",
+    "unsaved_changes_message": "У цьому розділі є незбережені зміни. Що б ви хотіли зробити перед від'їздом?",
+    "unsaved_changes_title": "Незбережені зміни",
+    "review_ai": "ШІ",
+    "visual_type_selector_title": "Який тип діаграми ви хочете вставити?",
+    "default_set_a": "Набір А",
+    "add_paragraph": "Новий абзац",
+    "review_grammar": "Граматика",
+    "bib_refs_count": "{{count}} посилання в .bib",
+    "section_status_legend": "Легенда стану",
+    "sections_count": "{{count}} розділи",
+    "review_spell": "Правопис",
+    "leave_without_saving": "Залишити без збереження",
+    "default_table_column_2": "Колонка 2",
+    "default_set_c": "Набір C",
+    "default_set_b": "Набір B",
+    "default_table_column_1": "Колонка 1",
+    "no_bib_file": "немає .bib",
     "insert_plugin_figure_title": "Вставка наукового діяча (61 тип)",
     "block_plugin_figure": "Малюнок+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Ми покажемо лише те, що вам потрібно написати та подати без ускладнень. Ви можете включити",
     "basic_mode_suffix": "у текстовому розділі.",
     "basic_top_body": "Ці налаштування призначені для прийняття корисних рішень без введення технічних деталей LaTeX. Перейти на",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Перевірте наявність оновлень",
+    "update_checking": "Перевірка…",
+    "update_available": "Доступна версія {{version}} — перезапустіть, щоб інсталювати",
+    "update_up_to_date": "Ви в курсі подій",
+    "update_error": "Не вдалося перевірити наявність оновлень",
     "refresh_catalog": "Оновити каталог",
     "package_status_stable": "Стабільний",
     "package_status_beta": "Бета",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Легкий і простий в обслуговуванні. Рекомендовано для повсякденного написання та проектів, які не вимагають повного дистрибутива TeX.",
     "latex_suite_title": "Повний комплект LaTeX",
-    "latex_suite_description": "Використовує latexmk із TeX Live або MiKTeX. Рекомендовано для розширених пакетів, складної бібліографії та остаточної доставки.",
+    "latex_suite_description": "Повний пакет LaTeX ({{suiteName}}) із latexmk. Підтримує всі пакети CTAN, biblatex + Biber, shell-escape і багатопрохідну компіляцію. Рекомендований вибір для повних документів, інституційних профілів і плагінів.",
     "latex_available": "в наявності",
     "latex_not_available": "Не встановлено",
     "latex_detected_version": "Виявлена версія: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Ноутбук за замовчуванням",
     "window_mode_remember": "Запам'ятайте останній розмір",
     "window_mode_maximized": "Розгорнуто",
-    "window_mode_hint": "Виберіть вікно 1280 × 760, відновіть останній використовуваний розмір або відкрийте, використовуючи весь доступний простір на моніторі."
+    "window_mode_hint": "Виберіть вікно 1280 × 760, відновіть останній використовуваний розмір або відкрийте, використовуючи весь доступний простір на моніторі.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Перейдіть до «Керування встановленням LaTeX», щоб установити {{suiteName}}.",
+    "latex_recommended_badge": "Рекомендовано",
+    "latex_upgrade_banner": "Встановлено {{suiteName}} — він підтримує всі пакети CTAN, Biber і плагіни без обмежень. Рекомендується перемикання.",
+    "latex_upgrade_btn": "Переключіться на {{suiteName}}",
+    "language_catalog_error": "Не вдалося завантажити мовний каталог. Перевірте підключення та повторіть спробу.",
+    "language_install_error": "Не вдалося встановити мовний пакет. Перевірте підключення та повторіть спробу."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Зображення «{{file}}», на яке посилається розділ «{{section}}», не знайдено.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Видалити профіль?",
     "delete_profile_body_before": "Це видалить",
     "delete_profile_body_after": "Цю дію не можна скасувати.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} встановлені профілі",
     "installed_profiles": "Встановлені профілі",
     "profile_count_hint": "Профілі {{count}} · натисніть, щоб переглянути деталі",
     "import_profile_title": "Імпорт профілю з каталогу",
@@ -1135,30 +1297,31 @@
     "selected_chip": "вибрано",
     "installed_chip": "встановлено",
     "sections_count_suffix": "розділи",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Плагіни",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Передня справа",
+      "body": "Тіло",
+      "back_matter": "Задня матерія",
+      "appendix": "Додаток"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Титульна сторінка",
+      "abstract": "Анотація",
+      "acknowledgements": "Подяки",
+      "table_of_contents": "Зміст",
+      "list_of_figures": "Список малюнків",
+      "list_of_tables": "Список таблиць",
+      "introduction": "вступ",
+      "theoretical_framework": "Теоретичні основи",
+      "methodology": "Методологія",
+      "results": "Результати",
+      "discussion": "Обговорення",
+      "conclusions": "Висновки",
+      "references": "Список літератури",
+      "appendix": "Додаток",
+      "appendix_a": "Додаток А"
+    },
+    "tags_placeholder": "дисерт., бакалавр, ап"
   },
   "progress": {
     "status_draft": "Чернетка",
@@ -1280,7 +1443,14 @@
     "generating_response": "Створення відповіді…",
     "message_placeholder": "Напишіть своє повідомлення… (Введіть, щоб надіслати)",
     "configure_key_first": "Спочатку налаштуйте ключ API",
-    "send": "Send"
+    "send": "Надіслати",
+    "error_not_configured": "Ключ API не налаштовано. Додайте свій ключ на вкладці провайдера.",
+    "error_auth": "Недійсний ключ API. Перевірте, чи він правильний і активний.",
+    "error_rate_limited": "Ліміт запитів досягнуто. Повторіть спробу через кілька хвилин.",
+    "error_network": "Помилка мережі. Перевірте підключення до Інтернету.",
+    "error_safety": "Запит заблоковано політикою безпеки.",
+    "error_model_unavailable": "Вибрана модель недоступна. Виберіть інший у налаштуваннях.",
+    "error_provider": "Помилка постачальника. Спробуйте знову."
   },
   "editor_meta": {
     "project_guide": "Керівництво по проекту",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Не підтверджено — цей блок не буде включено в PDF, доки ви не підтвердите його.",
     "packages": "пакети",
     "edit_figure_title": "Відредагуйте заголовок або мітку або повторно згенеруйте фігуру",
-    "edit_figure": "Редагувати фігуру"
+    "edit_figure": "Редагувати фігуру",
+    "preview_pending": "Скомпілюйте попередній перегляд із вкладки «Попередній перегляд», щоб побачити малюнок тут."
   },
   "compile": {
     "ensure_latex_installed_path": "Переконайтеся, що компілятор LaTeX встановлено та доступний у PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Компіляція… ({{count}} рядків)",
     "backends_available": "{{backends}} в наявності",
     "latex_not_installed_status": "⚠ LaTeX не встановлено",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Скомпілювати",
+    "preflight_action_export": "Експорт подання",
+    "preflight_title": "Попередня перевірка {{action}}",
+    "preflight_has_errors": "Перш ніж продовжити, виправте помилку(и) {{count}}.",
+    "preflight_has_warnings": "Знайдено попередження {{count}}. Ви все одно можете продовжити.",
+    "preflight_errors_section": "Помилки ({{count}})",
+    "preflight_warnings_section": "Попередження ({{count}})",
+    "preflight_suggestions_section": "Пропозиції ({{count}})",
+    "export_success": "Експорт завершено",
+    "compile_as_draft": "Зібрати як чернетку",
+    "readiness_complete": "Повний",
+    "readiness_export_title": "Остаточна доставка заблокована",
+    "readiness_back": "Повернутися до перегляду",
+    "readiness_compile_title": "Проект не готовий до офіційної версії",
+    "readiness_export_subtitle": "Щоб експортувати в остаточному режимі, спочатку завершіть доставку та перевірку якості.",
+    "readiness_compile_subtitle": "Зберіть як чернетку або перегляньте ці пункти, перш ніж розглядати це як офіційну версію.",
+    "readiness_delivery": "Доставка",
+    "readiness_quality": "Кінцева якість",
     "severity_error": "Помилка",
     "severity_warning": "Попередження",
     "severity_suggestion": "Пропозиція",
@@ -1594,192 +1765,192 @@
     "order_hint_line_2": "Порядок визначає спадне меню під час створення проекту.",
     "add_custom_style": "Додайте власний стиль",
     "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "biblatex_style_required": "Стиль Biblatex *",
+    "references_default_title": "Список літератури",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "цитування",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Автор-Дата",
+      "numeric": "Числовий",
+      "notes_bibliography": "Примітки-Бібліог.",
+      "author_page": "Автор-Сторінка"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Американська психологічна асоціація, 7-е видання",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Психологія",
+          "Освіта",
+          "Соціальні науки",
+          "сестринська справа",
+          "спілкування"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Найбільш поширений стиль у всьому світі. Необхідний у багатьох програмах з психології, освіти та соціальних наук. Видання сьоме (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "США",
+          "Канада",
+          "Латинська Америка",
+          "Австралія"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Автор, рік)",
+        "bibliography_title": "Список літератури"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Рекомендації Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Медицина",
+          "сестринська справа",
+          "Аптека",
+          "Стоматологія",
+          "Науки про здоров'я"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Обов’язковий цифровий стиль для наук про здоров’я. Посилання впорядковано за зовнішнім виглядом. Стандарт у журналах MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Глобальні, медичні та медичні науки"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Список літератури"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "Стиль цитування IEEE",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Електротехніка",
+          "обчислювальна техніка",
+          "Телекомунікації",
+          "Робототехніка",
+          "електроніка"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Стандартний числовий стиль для техніки, обчислювальної техніки та технологій. Широко застосовується в інженерних школах.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Глобальна, інженерія та технології"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Список літератури"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
+        "name": "Chicago 17 (Примітки)",
         "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "історія",
+          "Література",
+          "Мистецтво",
+          "Філософія",
+          "Релігієзнавство"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Примітки та система бібліографії для гуманітарних наук. Цитати наводяться у виносках.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "США",
+          "Велика Британія",
+          "Канада, гуман"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Виноска¹",
+        "bibliography_title": "Бібліографія"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
+        "name": "Chicago 17 (автор-дата)",
         "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Економіка",
+          "Політологія",
+          "Соціологія",
+          "Антропологія",
+          "Географія"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago Варіант авторської дати, кращий у соціальних науках та економіці.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "США",
+          "Канада, суспільні науки"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Рік автора)",
+        "bibliography_title": "Список літератури"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "Довідник MLA, 9-е видання",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Література",
+          "Мова",
+          "Лінгвістика",
+          "Культурологія",
+          "Риторика"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Стандарт для вивчення мови, літератури та культури в Північній Америці. Дев'яте видання (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "США",
+          "Канада, мова та література"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Сторінка автора)",
+        "bibliography_title": "Твори Цит"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "Гарвард",
+        "full_name": "Гарвардський стиль посилання",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Бізнес",
+          "управління",
+          "Економіка",
+          "Соціальні науки"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Стиль авторської дати, схожий на APA. Широко використовується в університетах Великобританії та Австралії.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Велика Британія",
+          "Австралія",
+          "Ірландія",
+          "Південна Африка"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Рік автора)",
+        "bibliography_title": "Список літератури"
       },
       "mhra": {
         "name": "MHRA",
         "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Гуманітарні науки",
+          "історія",
+          "Література",
+          "Філософія",
+          "Лінгвістика"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Гуманітарний стандарт Великобританії, схожий на Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Велика Британія",
+          "Ірландія, гуманітар"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Виноска¹",
+        "bibliography_title": "Бібліографія"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Усі дисципліни (Бразилія)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Національний стандарт академічної роботи в бразильських університетах.",
         "regions_primary": [
-          "Brazil, required"
+          "Бразилія, обов’язково"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(АВТОР, рік)",
+        "bibliography_title": "Список літератури"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, китайський національний стандарт",
         "disciplines": [
-          "All disciplines (China)"
+          "Усі дисципліни (Китай)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Національний стандарт дипломних робіт китайською мовою. Обов’язковий у китайських університетах.",
         "regions_primary": [
-          "China, required"
+          "Китай, обов'язково"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Список літератури"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Відновити стилі за замовчуванням",
+    "reset_action": "Відновити"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Вставте перехресне посилання ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Назва за бажанням",
     "theorem_title_placeholder": "Теорема Піфагора",
     "math_content": "Вміст (приймає математичний LaTeX)",
-    "theorem_content_placeholder": "Нехай $a^2 + b^2 = c^2$, де $c$ — гіпотенуза..."
+    "theorem_content_placeholder": "Нехай $a^2 + b^2 = c^2$, де $c$ — гіпотенуза...",
+    "term_placeholder": "Онтологія",
+    "definition_placeholder": "Розділ філософії, що вивчає буття як суще.",
+    "acronym_placeholder": "ШІ",
+    "full_form_placeholder": "Штучний інтелект"
   },
   "citation": {
     "error_connect": "Помилка підключення.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Порожнє рівняння",
     "custom_molecule": "Спеціальна молекула",
     "molecule_compile_hint": "Структура, згенерована chemfig під час компіляції",
-    "chemical_syntax_hint": "Використовуйте -> (реакція), <=> (рівновага), ^ (газ) і v (осад)"
+    "chemical_syntax_hint": "Використовуйте -> (реакція), <=> (рівновага), ^ (газ) і v (осад)",
+    "label_example": "рис: моя діаграма",
+    "circuit_lower": "схема",
+    "diagram_lower": "діаграма",
+    "default_start": "старт",
+    "default_process": "процес",
+    "default_end": "Кінець",
+    "default_event": "Подія {{number}}",
+    "default_major_scale": "Гамма до мажор"
   },
   "vocabulary": {
     "title": "Словники домену",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "що має a",
     "repo_hint_suffix": "розділ. Це може бути ваше власне репо GitHub.",
     "alias_placeholder": "Псевдонім (e.g. my-lab-terms)",
-    "adding": "Додавання…"
+    "adding": "Додавання…",
+    "catalog_error": "Не вдалося завантажити словниковий каталог. Перевірте підключення та повторіть спробу.",
+    "repo_sync_error": "Не вдалося синхронізувати це сховище.",
+    "repo_add_error": "Не вдалося додати репозиторій. Перевірте його адресу та повторіть спробу."
   },
   "profile_wizard": {
     "step_of": "Крок {{current}} з {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Встановити з URL",
     "install_from_url_hint": "Вставте URL .zip, що містить дійсний профіль.yaml.",
     "install_btn": "встановити",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Вам не потрібна точна назва профілю",
+    "guided_hint_body": "Почніть зі свого навчального закладу або з тісної комбінації ступеня, галузі та стилю цитування. Якщо точного збігу немає, почніть із простої інституційної бази, а потім коригуйте її.",
+    "catalog_load_error": "Не вдалося завантажити каталог профілів. Перевірте підключення або повторіть спробу.",
+    "install_success": "\"{{name}}\" успішно встановлено.",
+    "breadcrumb_all": "все",
+    "profile_count_one": "Профіль {{count}}",
+    "profile_count_other": "Профілі {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Америка",
+      "europe": "Європа",
+      "asia": "Азії",
+      "generic": "загальний"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "Мексика",
+      "usa": "США",
+      "canada": "Канада",
+      "brazil": "Бразилія",
+      "argentina": "Аргентина",
+      "chile": "Чилі",
+      "uk": "Велика Британія",
+      "germany": "Німеччина",
+      "spain": "Іспанія",
+      "netherlands": "Нідерланди",
+      "italy": "Італія",
+      "sweden": "Швеція",
+      "france": "Франція",
+      "china": "Китай",
+      "japan": "Японія",
+      "south_korea": "Південна Корея",
+      "singapore": "Сінгапур",
+      "india": "Індія",
+      "generic": "загальний"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "Середня школа",
+      "tecnico": "Технічний ступінь",
+      "licenciatura": "Диплом бакалавра",
+      "especialidad": "Спеціалізація",
+      "maestria": "ступінь магістра",
+      "doctorado": "Докторський ступінь",
+      "posdoctorado": "постдок"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Інституційний",
+      "degree_specific": "Специфічний за ступенем",
+      "program_specific": "Спеціальна програма",
+      "discipline_specific": "Польово-специфічний"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Всі дисципліни",
+      "engineering": "Інженерія",
+      "social_sciences": "Соціальні науки",
+      "humanities": "Гуманітарні науки",
+      "health_sciences": "Науки про здоров'я",
+      "computing": "обчислювальна техніка",
+      "natural_sciences": "Природничі науки"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Перевірено",
+    "status_reviewed_label": "Переглянуто"
   },
   "about": {
     "title": "про",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Застосуйте зміни та відновіть фігуру",
     "apply_visual_btn": "Застосувати зміни",
     "applying": "Застосування…",
-    "done_msg": "Фігура оновлена"
+    "done_msg": "Фігура оновлена",
+    "tab_preview": "Попередній перегляд",
+    "preview_compile_btn": "Перекомпілювати попередній перегляд",
+    "preview_compiling": "Компіляція…",
+    "preview_apply_first": "Застосуйте зміни перед попереднім переглядом.",
+    "preview_tectonic_note": "Tectonic є активним двигуном. Якщо попередній перегляд не вдасться, для цієї фігури може знадобитися повний пакет LaTeX (MacTeX / MiKTeX / TeX Live). Ви можете змінити механізм у Налаштуваннях → Механізм LaTeX.",
+    "preview_error_prefix": "Помилка компіляції:",
+    "preview_no_tectonic": "Tectonic не встановлено або не знайдено."
   },
   "elements_tab": {
     "title": "Елементи",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Внутрішній тип",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Абзац",
+        "description": "Текстовий блок довільної форми. Підтримує акценти, вбудовані цитати та вбудовані LaTeX.",
+        "latex_output": "Екранований текст, записаний безпосередньо в документ."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Назва / Заголовок",
+        "description": "Заголовок розділу: розділ (H1), підрозділ (H2) або підрозділ (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "малюнок",
+        "description": "Зображення з підписом, джерелом і міткою для перехресних посилань. Ширина: 50%, 75%, 100%.",
+        "latex_output": "середовище фігури + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Таблиця",
+        "description": "Таблиця із заголовками, рядками, підписом і джерелом. Стилі: простий, блокнот, широкий, довгий стіл.",
+        "latex_output": "середовище таблиці + табличний/довгий стіл + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Рівняння",
+        "description": "Пронумерована або не пронумерована математична формула. Написано чистою математикою LaTeX.",
+        "latex_output": "рівняння або середовища рівняння* + необов’язково \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Список",
+        "description": "Маркований (пункти), нумерований (перелік) або описовий (опис) список.",
+        "latex_output": "\\begin{пункти/перерахування/опис}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Бібліографічне цитування",
+        "description": "Дужки, розповідь або кілька цитат, пов’язаних із ключем BibTeX у файлі .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Необроблений LaTeX",
+        "description": "Довільний фрагмент LaTeX для складних випадків. Потрібне підтвердження користувача.",
+        "latex_output": "Дослівний, невимовний. Використовуйте з обережністю."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "текст",
+      "content": "вміст",
+      "structure": "структура",
+      "navigation": "навігація",
+      "image": "зображення",
+      "graphic": "графічний",
+      "data": "даних",
+      "statistics": "статистика",
+      "mathematics": "математика",
+      "formula": "формула",
+      "list": "список",
+      "enumeration": "перерахування",
+      "bibliography": "бібліографії",
+      "reference": "посилання",
+      "advanced": "просунутий",
+      "custom": "звичай"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Прогрес проекту",
+    "row_overall": "Проект",
+    "row_setup": "Налаштування",
+    "row_writing": "Написання",
+    "row_delivery": "Доставка",
+    "row_quality": "Кінцева якість",
+    "pending_prefix": "Очікує:",
+    "delivery_blocked": "Перед остаточною доставкою є елементи, що очікують на розгляд",
+    "setup_title": "Встановіть справжню назву твору",
+    "setup_author": "Повне основне авторство",
+    "setup_institution": "Увійти в справжній заклад",
+    "setup_profile": "Виберіть академічний профіль",
+    "setup_language": "Виберіть базову мову",
+    "setup_advisor": "Додайте принаймні одного радника або керівника дисертації",
+    "writing_sections": "Увімкніть принаймні один розділ вмісту",
+    "writing_draft": "Напишіть вміст у головному розділі",
+    "writing_words": "Розробіть суттєвий перший проект",
+    "writing_reviewed": "Позначте принаймні один розділ як переглянутий",
+    "delivery_references": "Додайте розділ посилань",
+    "delivery_abstract": "Напишіть анотацію або анотацію",
+    "delivery_required": "Заповніть необхідні розділи профілю",
+    "delivery_latex": "Підтвердьте або видаліть неперевірені блоки LaTeX",
+    "delivery_committee": "Укомплектувати комісію для випереджальної роботи",
+    "delivery_review_main": "Перегляньте основні розділи перед доставкою",
+    "quality_citation": "Включіть принаймні одну перевірену цитату в основній частині",
+    "quality_required_reviewed": "Позначте необхідні частини тіла як переглянуті",
+    "quality_raw_latex": "Перенесіть або вручну перегляньте імпортовані блоки LaTeX перед остаточною доставкою",
+    "quality_plugin_warnings": "Усуньте попередження щодо фігур або плагінів перед остаточною доставкою",
+    "quality_profile": "Використовуйте інституційний або спеціальний профіль для офіційного подання"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Плагіни",
+    "subtitle": "Доступні візуальні плагіни {{count}} для вставки малюнків і діаграм.",
+    "search_placeholder": "Пошук за назвою, пакетом або категорією…",
+    "no_results": "Жоден плагін не відповідає цьому запиту.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "стабільний",
+      "beta": "бета-версія",
+      "experimental": "експериментальний",
+      "draft": "проект"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Виберіть свою мову",
+    "subheading": "Ви можете змінити це пізніше в налаштуваннях.",
+    "more_languages": "Більше мов",
+    "loading_more": "Завантаження інших мов…",
+    "catalog_error": "Не вдалося завантажити інші мови. Ви можете продовжити з пакетною мовою.",
+    "skip": "Пропустити",
+    "install_error": "Не вдалося встановити цю мову. Перевірте підключення та повторіть спробу."
   },
   "toast": {
     "close_button": "Закрити сповіщення",
@@ -2527,7 +2721,50 @@
     "redo": "Повторити",
     "restore_btn": "Приклад відновлення",
     "restore_title": "Замініть мінімальним робочим прикладом",
-    "advanced_section": "Розширені параметри"
+    "advanced_section": "Розширені параметри",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Позначка для перехресних посилань (e.g. eq:quadratic). Порожній означає відсутність мітки."
+      },
+      "chemistry_output": {
+        "label": "Режим виведення",
+        "description": "mhchem: вбудований \\ce{...}. chemfig: зв'язково-кутні структури."
+      },
+      "circuit_style": {
+        "label": "Американський стиль",
+        "description": "Увімкнено: американські символи компонентів (IEEE). Вимкнено: європейські символи (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Бібліотеки TikZ",
+        "description": "Розділені комами додаткові бібліотеки TikZ (e.g. calc, стрілки.meta, шаблони)."
+      },
+      "pgfplots_options": {
+        "label": "Параметри PGFPlots",
+        "description": "Додаткові параметри, вставлені в \\beginZXQ0QXZ[…], наприклад xbar або compat=1.18."
+      },
+      "forest_options": {
+        "label": "Лісові варіанти",
+        "description": "Додаткові параметри, передані в середовище лісу, наприклад роздвоєні краї або стилі міток країв."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Орієнтовані та неорієнтовані графи з вузлами, ребрами, формами та стилями дуг."
+      },
+      "pgfplots": {
+        "description": "Графіки, гістограми, стовпчасті діаграми, діаграми розсіювання та теплові карти за допомогою PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Ієрархічний синтаксис, таксономічні, філогенетичні дерева, дерева рішень та ймовірності."
+      },
+      "table_data": {
+        "description": "Таблиці даних, які можна експортувати до даних booktabs, longtable або PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Діаграми Ганта та часові шкали з групами, завданнями та залежностями."
+      }
+    }
   },
   "help": {
     "title": "Довідковий центр",

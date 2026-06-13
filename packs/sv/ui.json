@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Finaste typografin och resultatet av alla lättviktsalternativ",
+            "100 % kompatibla bibliografier (korrekt biberversion ingår)",
+            "Alla CTAN-paket tillgängliga utan begränsning",
+            "Inbyggt flerspråkigt stöd: kyrilliska, CJK, arabiska, devanagari",
+            "Korrekt multi-pass kompilering: TOC, index, korsreferenser",
+            "Enkommando Homebrew-installation"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Stor nedladdning (~5 GB)",
+            "Installationen tar 10–20 minuter"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Installera Homebrew (om du inte har det)",
+              "note": "Homebrew är standardpakethanteraren för macOS. Om du redan har det, hoppa över det här steget."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Installera MacTeX med Homebrew",
+              "note": "Nedladdningar ~5 GB. Processen tar 10–20 minuter beroende på din anslutning."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Uppdatera miljövariabler",
+              "note": "Eller helt enkelt stäng och öppna terminalen igen så att den hämtar den nya PATH."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verifiera installationen",
+              "note": "Alla tre kommandon ska svara med ett versionsnummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen så att den upptäcker den nya installationen."
             }
           ],
           "tagline": "Rekommenderas — finaste, mest stabila och kompletta utdata",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Installerad på under 1 minut",
+            "Laddar bara ned de paket som din avhandling använder",
+            "Samsisterar med MacTeX om du behöver båda",
+            "Uppgraderbar med brygguppgradering"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Första sammanställningen kräver en internetanslutning",
+            "Mycket specialiserade paket (avancerad fysik, etc.) kan kräva MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Installera Homebrew (om du inte har det)",
+              "note": "Om du redan har Homebrew, hoppa över det här steget."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Installera Tectonic med Homebrew",
+              "note": "Lätt nedladdning. Klar på under 1 minut."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verifiera installationen",
+              "note": "Du bör se något som: tektonisk 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen så att den upptäcker tektonik."
             }
           ],
           "tagline": "Lättvikt – laddar bara ner vad den behöver",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Finaste typografi och utgång över lätta alternativ",
+            "100 % korrekta bibliografier — kompatibel biberversion ingår",
+            "Alla CTAN-paket utan begränsning",
+            "Inbyggt flerspråkigt stöd: kyrilliska, CJK, arabiska, devanagari",
+            "Korrekt multi-pass kompilering: TOC, index, korsreferenser",
+            "Installation med ett enda systemkommando"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Full installation tar 3–5 GB",
+            "Lagringsversionen kan vara något äldre än den officiella versionen"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Inkluderar allt. Om utrymmet är begränsat, använd texlive-xetex istället för texlive-full."
             },
             {
               "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "note": "Installerar hela TeX Live-schemat."
             },
             {
               "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "note": "Installerar huvudgrupperna och biber för bibliografi."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Fullständigt schema via zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verifiera installationen",
+              "note": "Alla tre kommandon ska svara med ett versionsnummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen så att den upptäcker den nya installationen."
             }
           ],
           "tagline": "Rekommenderas — finaste, mest stabila och kompletta utdata",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Kräver inte sudo för att installera",
+            "Laddar bara ner det som ditt examensarbete behöver",
+            "Samsister med TeX Live om du behöver båda"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Första sammanställningen kräver internet",
+            "Mycket specialiserade paket (avancerad fysik, etc.) kan kräva TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Installera med det officiella skriptet",
+              "note": "Laddar ner och installerar binären i ~/.cargo/bin eller ~/bin beroende på din inställning."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternativ: installera med Cargo",
+              "note": "Kräver Rust installerat. Kompilerar från källa, tar flera minuter."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verifiera installationen",
+              "note": "Du bör se något som: tektonisk 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen."
             }
           ],
           "tagline": "Lättvikt — ingen systempakethanterare krävs",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Finaste typografi och utgång över lätta alternativ",
+            "100 % korrekta bibliografier — biber ingår och kompatibel",
+            "Alla CTAN-paket, nedladdade på begäran",
+            "Kräver inte Strawberry Perl (till skillnad från manuell latexmk)",
+            "Flerspråkigt stöd: kyrilliska, CJK, arabiska, devanagari",
+            "Lätt att använda .exe grafiskt installationsprogram"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "MiKTeX-konsolen kan vara förvirrande till en början",
+            "Kräver att paketinstallation accepteras under den första kompileringen"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Installera MiKTeX med vinget",
+              "note": "Öppna PowerShell som en vanlig användare (ingen administratör behövs). winget ingår i Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternativ: grafiskt installationsprogram",
+              "note": "Gå till miktex.org → Ladda ner → Windows. Ladda ner 64-bitars installationsprogrammet och kör det. Välj Installera MiKTeX endast för mig."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Verifiera installationen",
+              "note": "Bör svara med ett versionsnummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen så att den upptäcker MiKTeX."
             }
           ],
           "tagline": "Rekommenderas för Windows – bästa utdata, komplett utan Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Installerad på 1 minut med vinge",
+            "Kräver inte Strawberry Perl",
+            "Samsister med MiKTeX om du behöver båda",
+            "Uppgraderbar med vingeuppgradering"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Första sammanställningen kräver internet",
+            "Mycket specialiserade paket (avancerad fysik, etc.) kan kräva MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Installera med vinget",
+              "note": "Öppna PowerShell som en vanlig användare. Ingen administratör behövs."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verifiera installationen",
+              "note": "Du bör se något som: tektonisk 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen så att den upptäcker tektonik."
             }
           ],
           "tagline": "Lättvikt — ett kommando, ingen Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Finaste typografi och utgång över lätta alternativ",
+            "Alla CTAN-paket ingår, inga ytterligare nedladdningar",
+            "100 % korrekta bibliografier — kompatibel biber ingår",
+            "Inbyggt flerspråkigt stöd: kyrilliska, CJK, arabiska, devanagari",
+            "Kompatibel med alla institutionella profiler"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Långsam installation (30–90 minuter)",
+            "Tar 4–8 GB diskutrymme",
+            "Kräver Strawberry Perl för latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Ladda ner TeX Live installationsprogrammet",
+              "note": "Gå till tug.org/texlive → ladda ner → install-tl-windows.exe. Ladda ner installationsprogrammet."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Kör installationsprogrammet",
+              "note": "Välj Enkel installation (stor) för att installera allt. Processen tar 30–90 minuter."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Installera Strawberry Perl (krävs för latexmk)",
+              "note": "Perl krävs för att latexmk ska fungera på Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verifiera installationen",
+              "note": "Alla tre kommandon ska svara med ett versionsnummer."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Starta om TeXisStudio",
+              "note": "Stäng och öppna appen igen."
             }
           ],
           "tagline": "Komplett — finaste, mest stabila utdata, inga överraskningar",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Postdoktor",
     "level_bachillerato": "Gymnasiet",
     "level_tecnico": "Tekniska",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio är i guidad läge: fokusera på ditt arbete och appen kommer att hantera formatering, bibliografi och leverans.",
+    "error_opening_project": "Det gick inte att öppna den mappen som ett TeXisStudio-projekt. Se till att den innehåller tesis.project.yaml.",
+    "search_library_hint": "Sök i biblioteket",
+    "detecting_latex": "Upptäcker LaTeX...",
+    "error_importing_tex": "Kunde inte importera .tex-filen: {{error}}"
   },
   "wizard": {
     "title": "Nytt projekt",
@@ -500,12 +500,12 @@
     "optional": "Valfritt",
     "review_title_prefix": "Granska din",
     "review_title_em": "initial inställning",
-    "review_subtitle": "You are one step away from creating your project. Later you can write, review, and deliver without touching LaTeX directly.",
+    "review_subtitle": "Du är ett steg bort från att skapa ditt projekt. Senare kan du skriva, recensera och leverera utan att beröra LaTeX direkt.",
     "advisors_committee": "Rådgivare och kommitté",
     "can_add_later": "Du kan lägga till dem senare.",
     "not_defined": "Ej definierad.",
     "suggested_language_support": "Föreslagna språkstöd",
-    "language_support_later": "You can enable academic or disciplinary vocabularies later from Settings.",
+    "language_support_later": "Du kan aktivera akademiska eller disciplinära ordförråd senare från Inställningar.",
     "bundled_default": "Bundet som standard",
     "installable_spellcheck": "Installerbar för stavningskontroll",
     "available_catalog": "Finns i katalogen",
@@ -514,8 +514,8 @@
     "language_title_suffix": "och dina supportverktyg",
     "language_subtitle": "Detta ändrar inte dokumentstrukturen; it helps recommend spelling, grammar, and useful vocabularies for your area.",
     "suggested_stack": "Föreslagen stack för {{language}}",
-    "suggested_stack_body": "The recommended setup combines a general dictionary for the language with academic vocabularies and, when applicable, one specific to your area or program.",
-    "no_vocab_match": "No specific vocabulary matches your selection yet. You can enable a general one and add your own vocabulary later from Settings.",
+    "suggested_stack_body": "Den rekommenderade inställningen kombinerar en allmän ordbok för språket med akademiska vokabulärer och, när så är tillämpligt, en specifik för ditt område eller program.",
+    "no_vocab_match": "Inget specifikt ordförråd matchar ditt val ännu. Du kan aktivera en allmän och lägga till ditt eget ordförråd senare från Inställningar.",
     "vocab_area_used": "Område som används",
     "vocab_area_from_project": "från projektet",
     "vocab_will_activate": "Kommer att aktiveras vid skapande",
@@ -530,10 +530,10 @@
     "discipline_produces": "✓ Producerar direkt",
     "discipline_integrates": "↗ Integreras som extern fil",
     "builtin_thesis_name": "Generisk avhandling",
-    "builtin_thesis_desc": "Classic structure for undergraduate, specialty, master's, doctoral, or postdoctoral work.",
+    "builtin_thesis_desc": "Klassisk struktur för grund-, specialitets-, master-, doktorand- eller postdoktoralt arbete.",
     "builtin_thesis_meta": "Examensarbete · Autobibliografi · APA 7",
     "builtin_tesina_name": "Generisk kort avhandling",
-    "builtin_tesina_desc": "Simplified version for undergraduate: introduction, body, and conclusion.",
+    "builtin_tesina_desc": "Förenklad version för grundutbildning: inledning, kropp och avslutning.",
     "builtin_tesina_meta": "Kort avhandling · Autobibliografi · APA 7",
     "vocab_kind_general": "allmänt",
     "vocab_kind_academic": "akademisk",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "solid bas för avhandlingar",
     "recommend_reason_verified": "har institutionell verifikation",
     "recommend_reason_reviewed": "granskas av teamet",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive för skrivbordet"
+    "error_vocab_install": "Kunde inte aktivera \"{{name}}\". Kontrollera din anslutning eller avmarkera den för att skapa projektet utan detta stöd. Detalj: {{error}}",
+    "google_drive_desktop": "Google Drive för skrivbordet",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Numrerade ekvationer \\\\eqref{}",
+          "Satser och bevis",
+          "Matriser och vektorer",
+          "Kommutativa diagram (tikz-cd)",
+          "Bevisträd (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX är det kanoniska verktyget för formell matematik."
+      },
+      "logica": {
+        "native": [
+          "Avdragsträd (bussproof)",
+          "Sanningstabeller",
+          "Formell semantik",
+          "Hasse diagram"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Fysiska enheter \\\\SI{} (siunitx)",
+          "Partiella derivator \\\\pdv{}",
+          "Feynman-diagram (tikz-feynman)",
+          "Tomter (pgfplots)"
+        ],
+        "external": [
+          "Numeriska simuleringar (exportera som PDF/PNG)"
+        ],
+        "tip": "Använd siunitx för alla enheter — skriv aldrig 'km/h' direkt."
+      },
+      "quimica": {
+        "native": [
+          "Kemiska reaktioner \\\\ce{} (mhchem)",
+          "Molekylära strukturer (chemfig)",
+          "Enheter \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Komplexa 3D-strukturer (exportera från ChemDraw som PDF)"
+        ],
+        "tip": "För enkla strukturer använd chemfig. För kristallografi eller proteiner, importera som PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Enheter \\\\SI{} (siunitx)",
+          "Kretsar (circuitikz)",
+          "Dataplots (pgfplots)",
+          "Algoritmer (algpseudokod)"
+        ],
+        "external": [
+          "Tekniska ritningar (AutoCAD → PDF)",
+          "PCB-diagram (KiCad → PDF)"
+        ],
+        "tip": "circuitikz täcker de flesta signal- och strömkretsar."
+      },
+      "computacion": {
+        "native": [
+          "Källkod (lstlisting)",
+          "Algoritmer med pseudokod",
+          "Prestandadiagram (pgfplots)",
+          "Beslutsträd (tikz)"
+        ],
+        "external": [
+          "Komplexa arkitekturdiagram (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Omfattande fotnoter",
+          "Kritiska apparater och texthänvisningar",
+          "Analytiska index (makeindex)",
+          "Språkliga exempel (gb4e)"
+        ],
+        "external": [
+          "Konstverksbilder (hög upplösning som PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Statistiska tabeller (bokflikar)",
+          "Tomter (pgfplots)",
+          "Bibliografiska citat i APA/Chicago-stil"
+        ],
+        "external": [
+          "Komplexa datavisualiseringar (R/Python → PDF/PNG)"
+        ],
+        "tip": "För enkla plotter använd pgfplots. För detaljerade visualiseringar, exportera från R eller Python."
+      },
+      "medicina": {
+        "native": [
+          "Kliniska tabeller (bokflikar)",
+          "Medicinska enheter \\\\SI{}",
+          "Figurer med bildtext och etikett"
+        ],
+        "external": [
+          "DICOM-bilder / histologi (exportera som högupplöst PNG/TIFF)",
+          "Kliniska flödesscheman (draw.io → PDF)"
+        ],
+        "tip": "Diagnostiska medicinska bilder måste importeras som externa filer, inte återskapas i LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Kompletta partitur (MuseScore/Sibelius → PDF)",
+          "Ljudfragment (extern länk)"
+        ],
+        "tip": "För komplex notskrift, använd en notredigerare och bifoga som PDF."
+      },
+      "arte": {
+        "native": [
+          "Tekniska blad i tabellform (bokflikar)"
+        ],
+        "external": [
+          "Plattor och konstverk (hög upplösning som PNG/TIFF)",
+          "Visuell portfölj (extern PDF)",
+          "Planer (DWG → PDF)"
+        ],
+        "tip": "För portföljer, inkludera högkvalitativa PDF eller PNG. LaTeX hanterar layout och beskrivande text."
+      },
+      "arquitectura": {
+        "native": [
+          "Budget- och materialtabeller",
+          "Schema",
+          "Beskrivande texter"
+        ],
+        "external": [
+          "Planritningar (AutoCAD/ArchiCAD → PDF)",
+          "Renderingar (exportera som PNG/PDF)",
+          "Modeller (bild som PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Datatabeller (bokflikar)",
+          "Enheter \\\\SI{}",
+          "Filogenetiska träd (tikz)"
+        ],
+        "external": [
+          "Komplexa anatomiska diagram (Inkscape → PDF/SVG)",
+          "Mikroskopi (högupplöst PNG)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Statistiska tabeller (bokflikar)",
+          "Tomter (pgfplots)",
+          "Ekonometriska ekvationer"
+        ],
+        "external": [
+          "Interaktiva instrumentpaneler och visualiseringar (exportera som PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Projektdiagnostik",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Återställ den här versionen",
     "snapshot_delete_title": "Ta bort version",
     "section_guidance_label": "Sektionsvägledning",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "Spara och avsluta",
+    "snapshot_restore_action": "Återställ",
+    "continue_editing": "Fortsätt redigera",
+    "unsaved_changes_message": "Du har osparade ändringar i det här avsnittet. Vad skulle du vilja göra innan du åker?",
+    "unsaved_changes_title": "Osparade ändringar",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
+    "visual_type_selector_title": "Vilken typ av diagram vill du infoga?",
     "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
+    "add_paragraph": "Nytt stycke",
+    "review_grammar": "Grammatik",
+    "bib_refs_count": "{{count}} refs i .bib",
+    "section_status_legend": "Statusförklaring",
+    "sections_count": "{{count}} sektioner",
+    "review_spell": "Stavning",
+    "leave_without_saving": "Lämna utan att spara",
+    "default_table_column_2": "Kolumn 2",
     "default_set_c": "Set C",
     "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "default_table_column_1": "Kolumn 1",
+    "no_bib_file": "ingen .bib",
     "insert_plugin_figure_title": "Infoga vetenskaplig figur (61 typer)",
     "block_plugin_figure": "Figur+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Vi visar bara vad du behöver skriva och skicka in utan komplexitet. Du kan aktivera",
     "basic_mode_suffix": "i textdelen.",
     "basic_top_body": "Dessa inställningar är utformade för användbara beslut utan att ange tekniska detaljer för LaTeX. Byt till",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Sök efter uppdateringar",
+    "update_checking": "Kontroll…",
+    "update_available": "Version {{version}} tillgänglig — starta om för att installera",
+    "update_up_to_date": "Du är uppdaterad",
+    "update_error": "Det gick inte att söka efter uppdateringar",
     "refresh_catalog": "Uppdatera katalogen",
     "package_status_stable": "Stabil",
     "package_status_beta": "Beta",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Lätt och lätt att underhålla. Rekommenderas för vardagligt skrivande och projekt som inte kräver en fullständig TeX-distribution.",
     "latex_suite_title": "Komplett LaTeX-svit",
-    "latex_suite_description": "Använder latexmk med TeX Live eller MiKTeX. Rekommenderas för avancerade paket, komplexa bibliografier och slutleverans.",
+    "latex_suite_description": "Full LaTeX-svit ({{suiteName}}) med latexmk. Stöder alla CTAN-paket, biblatex + Biber, shell-escape och multi-pass kompilering. Det rekommenderade valet för kompletta dokument, institutionsprofiler och plugin-figurer.",
     "latex_available": "Tillgänglig",
     "latex_not_available": "Ej installerad",
     "latex_detected_version": "Upptäckt version: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Laptop standard",
     "window_mode_remember": "Kom ihåg sista storleken",
     "window_mode_maximized": "Maximerad",
-    "window_mode_hint": "Välj ett 1280 × 760 fönster, återställ den senast använda storleken eller öppna med allt tillgängligt bildskärmsutrymme."
+    "window_mode_hint": "Välj ett 1280 × 760 fönster, återställ den senast använda storleken eller öppna med allt tillgängligt bildskärmsutrymme.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Gå till «Hantera LaTeX installation» för att installera {{suiteName}}.",
+    "latex_recommended_badge": "Rekommenderas",
+    "latex_upgrade_banner": "{{suiteName}} är installerad — den stöder alla CTAN-paket, Biber och plugin-figurer utan begränsningar. Byte rekommenderas.",
+    "latex_upgrade_btn": "Byt till {{suiteName}}",
+    "language_catalog_error": "Det gick inte att ladda språkkatalogen. Kontrollera din anslutning och försök igen.",
+    "language_install_error": "Det gick inte att installera språkpaketet. Kontrollera din anslutning och försök igen."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Bilden '{{file}}' som hänvisas till i avsnittet '{{section}}' hittades inte.",
@@ -1026,7 +1188,7 @@
     "hypothesis": "Hypotes",
     "extra_preamble": "Ytterligare ingress",
     "latex_warning": "Detta fält accepterar godtyckliga LaTeX. Ett fel här kan förhindra att dokumentet kompileras.",
-    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbb{R}}",
+    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbbZXQ0QXZ}",
     "footer": "Ändringar gäller nästa gång du kompilerar PDF.",
     "advanced_hint": "Aktivera avancerat läge för att se teckensnitt, operatorer och extra inledningsinställningar."
   },
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Ta bort profil?",
     "delete_profile_body_before": "Detta kommer att raderas",
     "delete_profile_body_after": "Denna åtgärd kan inte ångras.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} installerade profiler",
     "installed_profiles": "Installerade profiler",
     "profile_count_hint": "{{count}}-profiler · klicka för att se detaljer",
     "import_profile_title": "Importera profil från katalogen",
@@ -1138,27 +1300,28 @@
     "tab_plugins": "Plugins",
     "placement": {
       "front_matter": "Front Matter",
-      "body": "Body",
+      "body": "Kropp",
       "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "appendix": "Bilaga"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Titelsida",
+      "abstract": "Abstrakt",
+      "acknowledgements": "Erkännanden",
+      "table_of_contents": "Innehållsförteckning",
+      "list_of_figures": "Lista över figurer",
+      "list_of_tables": "Lista över tabeller",
+      "introduction": "Introduktion",
+      "theoretical_framework": "Teoretisk ram",
+      "methodology": "Metodik",
+      "results": "Resultat",
+      "discussion": "Diskussion",
+      "conclusions": "Slutsatser",
+      "references": "Referenser",
+      "appendix": "Bilaga",
+      "appendix_a": "Bilaga A"
+    },
+    "tags_placeholder": "avhandling, grundutbildning, apa"
   },
   "progress": {
     "status_draft": "Utkast",
@@ -1280,7 +1443,14 @@
     "generating_response": "Genererar svar...",
     "message_placeholder": "Skriv ditt meddelande... (Ange för att skicka)",
     "configure_key_first": "Konfigurera din API-nyckel först",
-    "send": "Send"
+    "send": "Skicka",
+    "error_not_configured": "API-nyckel inte konfigurerad. Lägg till din nyckel på leverantörsfliken.",
+    "error_auth": "Ogiltig API-nyckel. Kontrollera att den är korrekt och aktiv.",
+    "error_rate_limited": "Gränsen för begäran har nåtts. Försök igen om några minuter.",
+    "error_network": "Nätverksfel. Kontrollera din internetanslutning.",
+    "error_safety": "Begäran blockerades av säkerhetspolicyn.",
+    "error_model_unavailable": "Den valda modellen är inte tillgänglig. Välj en annan i inställningarna.",
+    "error_provider": "Leverantörsfel. Försök igen."
   },
   "editor_meta": {
     "project_guide": "Projektguide",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Ej bekräftad — detta block kommer inte att inkluderas i PDF förrän du bekräftar det.",
     "packages": "Paket",
     "edit_figure_title": "Redigera titeln eller etiketten, eller skapa om figuren",
-    "edit_figure": "Redigera figur"
+    "edit_figure": "Redigera figur",
+    "preview_pending": "Kompilera en förhandsvisning från fliken «Förhandsgranska» för att se figuren här."
   },
   "compile": {
     "ensure_latex_installed_path": "Kontrollera att en LaTeX-kompilator är installerad och tillgänglig i PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Kompilerar... ({{count}} rader)",
     "backends_available": "{{backends}} tillgänglig",
     "latex_not_installed_status": "⚠ LaTeX inte installerad",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Kompilera",
+    "preflight_action_export": "Exportinlämning",
+    "preflight_title": "Kontroll före {{action}}",
+    "preflight_has_errors": "Åtgärda {{count}}-fel innan du fortsätter.",
+    "preflight_has_warnings": "{{count}} varning(er) hittades. Du kan fortsätta ändå.",
+    "preflight_errors_section": "Fel ({{count}})",
+    "preflight_warnings_section": "Varningar ({{count}})",
+    "preflight_suggestions_section": "Förslag ({{count}})",
+    "export_success": "Exporten slutförd",
+    "compile_as_draft": "Kompilera som utkast",
+    "readiness_complete": "Komplett",
+    "readiness_export_title": "Slutleverans blockerad",
+    "readiness_back": "Gå tillbaka till recension",
+    "readiness_compile_title": "Projektet är inte klart för formell version",
+    "readiness_export_subtitle": "För att exportera i slutgiltigt läge, slutför först leverans- och kvalitetskontrollerna.",
+    "readiness_compile_subtitle": "Kompilera som utkast eller granska dessa punkter innan du behandlar detta som en formell version.",
+    "readiness_delivery": "Leverans",
+    "readiness_quality": "Slutlig kvalitet",
     "severity_error": "Fel",
     "severity_warning": "Varning",
     "severity_suggestion": "Förslag",
@@ -1594,192 +1765,192 @@
     "order_hint_line_2": "Ordningen avgör rullgardinsmenyn när ett projekt skapas.",
     "add_custom_style": "Lägg till anpassad stil",
     "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "biblatex_style_required": "Biblatex stil *",
+    "references_default_title": "Referenser",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "citat",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Författar-datum",
+      "numeric": "Numerisk",
+      "notes_bibliography": "Anteckningar-Bibliog.",
+      "author_page": "Författarsida"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "American Psychological Association, 7:e upplagan",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Psykologi",
+          "Utbildning",
+          "Samhällsvetenskap",
+          "Omvårdnad",
+          "Kommunikation"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Den mest använda stilen globalt. Krävs i många psykologi, utbildning och samhällsvetenskapsprogram. Sjunde upplagan (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "USA",
+          "Kanada",
+          "Latinamerika",
+          "Australien"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Författare, år)",
+        "bibliography_title": "Referenser"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / ICMJE-rekommendationer",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Medicin",
+          "Omvårdnad",
+          "Apotek",
+          "Tandvård",
+          "Hälsovetenskap"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Obligatorisk numerisk stil för hälsovetenskap. Referenser är ordnade efter utseende. Standard i MEDLINE/PubMed-tidskrifter.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Global, medicinsk och hälsovetenskap"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenser"
       },
       "ieee": {
         "name": "IEEE",
         "full_name": "IEEE Citation Style",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Elektroteknik",
+          "Datorer",
+          "Telekommunikation",
+          "Robotik",
+          "Elektronik"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Standard numerisk stil för teknik, datorer och teknik. Allmänt antagen i ingenjörsskolor.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Global, ingenjörskonst och teknik"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenser"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Anmärkningar)",
+        "full_name": "Chicago Manual of Style, 17:e upplagan, Notes-Bibliography",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "Historia",
+          "Litteratur",
+          "Konst",
+          "Filosofi",
+          "Religionsvetenskap"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Anteckningar och bibliografisystem för humaniora. Citat visas i fotnoter.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "USA",
+          "Storbritannien",
+          "Kanada, humaniora"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Fotnot¹",
+        "bibliography_title": "Bibliografi"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (författardatum)",
+        "full_name": "Chicago Manual of Style, 17:e upplagan, Author-Date",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Ekonomi",
+          "Statsvetenskap",
+          "Sociologi",
+          "Antropologi",
+          "Geografi"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago författare-datum variant, föredragen inom samhällsvetenskap och ekonomi.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "USA",
+          "Kanada, samhällsvetenskap"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Författarår)",
+        "bibliography_title": "Referenser"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA Handbook, 9:e upplagan",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Litteratur",
+          "Språk",
+          "Lingvistik",
+          "Kulturstudier",
+          "Retorik"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Standard för språk-, litteratur- och kulturstudier i Nordamerika. Nionde upplagan (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "USA",
+          "Kanada, språk och litteratur"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(författarsidan)",
+        "bibliography_title": "Citerade verk"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Harvards referensstil",
         "disciplines": [
           "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Ledning",
+          "Ekonomi",
+          "Samhällsvetenskap"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Författar-datum stil som liknar APA. Används i stor utsträckning vid universitet i Storbritannien och Australien.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Storbritannien",
+          "Australien",
+          "Irland",
+          "Sydafrika"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Författarår)",
+        "bibliography_title": "Referenser"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Modern Humanities Research Association Style Guide, 3:e upplagan",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Humaniora",
+          "Historia",
+          "Litteratur",
+          "Filosofi",
+          "Lingvistik"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "UK humaniora standard som liknar Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Storbritannien",
+          "Irland, humaniora"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Fotnot¹",
+        "bibliography_title": "Bibliografi"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Alla discipliner (Brasilien)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Nationell standard för akademiskt arbete vid brasilianska universitet.",
         "regions_primary": [
-          "Brazil, required"
+          "Brasilien, krävs"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(FÖRFATTARE, år)",
+        "bibliography_title": "Referenser"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, kinesisk nationell standard",
         "disciplines": [
-          "All disciplines (China)"
+          "Alla discipliner (Kina)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Nationell standard för avhandlingar på kinesiska. Krävs vid kinesiska universitet.",
         "regions_primary": [
-          "China, required"
+          "Kina, krävs"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referenser"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Återställ standardstilar",
+    "reset_action": "Återställ"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Infoga korsreferens ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Valfri titel",
     "theorem_title_placeholder": "Pythagoras sats",
     "math_content": "Innehåll (accepterar matematisk LaTeX)",
-    "theorem_content_placeholder": "Låt $a^2 + b^2 = c^2$ där $c$ är hypotenusan..."
+    "theorem_content_placeholder": "Låt $a^2 + b^2 = c^2$ där $c$ är hypotenusan...",
+    "term_placeholder": "Ontologi",
+    "definition_placeholder": "Filosofins gren som studerar vara som varande.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "Artificiell intelligens"
   },
   "citation": {
     "error_connect": "Anslutningsfel.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Tom ekvation",
     "custom_molecule": "Anpassad molekyl",
     "molecule_compile_hint": "Struktur genererad med chemfig vid kompilering",
-    "chemical_syntax_hint": "Använd -> (reaktion), <=> (jämvikt), ^ (gas) och v (fällning)"
+    "chemical_syntax_hint": "Använd -> (reaktion), <=> (jämvikt), ^ (gas) och v (fällning)",
+    "label_example": "fig:mitt-diagram",
+    "circuit_lower": "krets",
+    "diagram_lower": "diagram",
+    "default_start": "Starta",
+    "default_process": "Process",
+    "default_end": "Slut",
+    "default_event": "Händelse {{number}}",
+    "default_major_scale": "C-dur skala"
   },
   "vocabulary": {
     "title": "Domän vokabulär",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "som har en",
     "repo_hint_suffix": "avsnitt. Det kan vara din egen GitHub-repo.",
     "alias_placeholder": "Alias (e.g. my-lab-terms)",
-    "adding": "Lägger till..."
+    "adding": "Lägger till...",
+    "catalog_error": "Det gick inte att ladda vokabulärkatalogen. Kontrollera din anslutning och försök igen.",
+    "repo_sync_error": "Det gick inte att synkronisera denna lagringsplats.",
+    "repo_add_error": "Det gick inte att lägga till arkivet. Kontrollera adressen och försök igen."
   },
   "profile_wizard": {
     "step_of": "Steg {{current}} av {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Installera från URL",
     "install_from_url_hint": "Klistra in URL för en .zip som innehåller en giltig profil.yaml.",
     "install_btn": "Installera",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Du behöver inte det exakta profilnamnet",
+    "guided_hint_body": "Börja med din institution eller en nära kombination av grad, fält och citeringsstil. Om det inte finns någon exakt matchning, börja med en enkel institutionell bas och justera den efteråt.",
+    "catalog_load_error": "Det gick inte att ladda profilkatalogen. Kontrollera din anslutning eller försök igen.",
+    "install_success": "\"{{name}}\" installerades framgångsrikt.",
+    "breadcrumb_all": "Alla",
+    "profile_count_one": "{{count}}-profil",
+    "profile_count_other": "{{count}} profiler",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Amerika",
+      "europe": "Europa",
+      "asia": "Asien",
+      "generic": "Generisk"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
+      "mexico": "Mexiko",
+      "usa": "USA",
+      "canada": "Kanada",
+      "brazil": "Brasilien",
       "argentina": "Argentina",
       "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
+      "uk": "Storbritannien",
+      "germany": "Tyskland",
+      "spain": "Spanien",
+      "netherlands": "Nederländerna",
+      "italy": "Italien",
+      "sweden": "Sverige",
+      "france": "Frankrike",
+      "china": "Kina",
       "japan": "Japan",
-      "south_korea": "South Korea",
+      "south_korea": "Sydkorea",
       "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "india": "Indien",
+      "generic": "Generisk"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
+      "bachillerato": "Gymnasiet",
+      "tecnico": "Teknisk examen",
+      "licenciatura": "Kandidatexamen",
+      "especialidad": "Specialisering",
+      "maestria": "Magisterexamen",
+      "doctorado": "Doktorsexamen",
       "posdoctorado": "Postdoc"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Institutionell",
+      "degree_specific": "Examensspecifikt",
+      "program_specific": "Programspecifik",
+      "discipline_specific": "Fältspecifikt"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
+      "all_disciplines": "Alla discipliner",
       "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "social_sciences": "Samhällsvetenskap",
+      "humanities": "Humaniora",
+      "health_sciences": "Hälsovetenskap",
+      "computing": "Datorer",
+      "natural_sciences": "Naturvetenskap"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Verifierad",
+    "status_reviewed_label": "Recenserad"
   },
   "about": {
     "title": "Om",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Tillämpa ändringar och återskapa figuren",
     "apply_visual_btn": "Tillämpa ändringar",
     "applying": "Ansöker...",
-    "done_msg": "Bilden uppdaterad"
+    "done_msg": "Bilden uppdaterad",
+    "tab_preview": "Förhandsgranska",
+    "preview_compile_btn": "Omkompilera förhandsgranskning",
+    "preview_compiling": "Sammanställer...",
+    "preview_apply_first": "Tillämpa ändringar innan förhandsgranskning.",
+    "preview_tectonic_note": "Tectonic är den aktiva motorn. Om förhandsgranskningen misslyckas kan denna siffra kräva en fullständig LaTeX-svit (MacTeX / MiKTeX / TeX Live). Du kan ändra motorn i Inställningar → LaTeX-motor.",
+    "preview_error_prefix": "Kompileringsfel:",
+    "preview_no_tectonic": "Tectonic är inte installerad eller kunde inte hittas."
   },
   "elements_tab": {
     "title": "Element",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Intern typ",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Paragraf",
+        "description": "Textblock i fritt format. Stöder betoning, inline-citat och inline LaTeX.",
+        "latex_output": "Escaped text skriven direkt in i dokumentet."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Rubrik/Rubrik",
+        "description": "Avsnittsrubrik: avsnitt (H1), underavsnitt (H2), eller underavsnitt (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Figur",
+        "description": "Bild med bildtext, källa och etikett för korsreferenser. Bredd: 50 %, 75 %, 100 %.",
+        "latex_output": "figurmiljö + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tabell",
+        "description": "Tabell med rubriker, rader, bildtext och källa. Stilar: enkel, bokflikar, bred, långbord.",
+        "latex_output": "tabellmiljö + tabell/långtabell + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Ekvation",
+        "description": "Numrerad eller onumrerad matematisk formel. Skrivet i ren LaTeX matte.",
+        "latex_output": "ekvation eller ekvation* miljö + valfri \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
+        "name": "Lista",
+        "description": "Punktlista (specificera), numrerad (uppräkna) eller beskrivande (beskrivning).",
         "latex_output": "\\begin{itemize/enumerate/description}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Bibliografisk hänvisning",
+        "description": "Parentes, narrativ eller flera hänvisningar kopplade till en BibTeX-nyckel i .bib-filen.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Rå LaTeX",
+        "description": "Godtyckligt LaTeX-fragment för avancerade fall. Kräver användarbekräftelse.",
+        "latex_output": "Ordagrant, orädd. Använd med försiktighet."
       }
     },
     "tags": {
       "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
+      "content": "innehåll",
+      "structure": "struktur",
+      "navigation": "navigering",
+      "image": "bild",
+      "graphic": "grafik",
       "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "statistics": "statistik",
+      "mathematics": "matematik",
+      "formula": "formel",
+      "list": "lista",
+      "enumeration": "uppräkning",
+      "bibliography": "bibliografi",
+      "reference": "referens",
+      "advanced": "avancerad",
+      "custom": "anpassad"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Projektets framsteg",
+    "row_overall": "Projekt",
+    "row_setup": "Inställning",
+    "row_writing": "Skrivande",
+    "row_delivery": "Leverans",
+    "row_quality": "Slutlig kvalitet",
+    "pending_prefix": "Väntar:",
+    "delivery_blocked": "Det finns väntande varor innan slutleverans",
+    "setup_title": "Ange den verkliga titeln på verket",
+    "setup_author": "Fullständigt huvudförfattarskap",
+    "setup_institution": "Gå in i den verkliga institutionen",
+    "setup_profile": "Välj en akademisk profil",
+    "setup_language": "Välj basspråk",
+    "setup_advisor": "Lägg till minst en rådgivare eller examensledare",
+    "writing_sections": "Aktivera minst ett innehållsavsnitt",
+    "writing_draft": "Skriv innehåll i ett huvudavsnitt",
+    "writing_words": "Utveckla ett omfattande första utkast",
+    "writing_reviewed": "Markera minst ett avsnitt som reviderat",
+    "delivery_references": "Inkludera ett referensavsnitt",
+    "delivery_abstract": "Skriv sammanfattningen eller sammanfattningen",
+    "delivery_required": "Fyll i de obligatoriska avsnitten av profilen",
+    "delivery_latex": "Bekräfta eller ta bort ogiltiga LaTeX-block",
+    "delivery_committee": "Komplettera kommittén för avancerat arbete",
+    "delivery_review_main": "Gå igenom huvudavsnitten före leverans",
+    "quality_citation": "Inkludera minst ett verifierbart citat i kroppen",
+    "quality_required_reviewed": "Markera nödvändiga kroppssektioner som reviderade",
+    "quality_raw_latex": "Migrera eller manuellt granska importerade LaTeX-block innan slutleverans",
+    "quality_plugin_warnings": "Lös figur- eller pluginvarningar före slutleverans",
+    "quality_profile": "Använd en institutionell eller anpassad profil för formella inlämningar"
   },
   "plugins_tab": {
     "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "subtitle": "{{count}} visuella plugins tillgängliga för att infoga figurer och diagram.",
+    "search_placeholder": "Sök efter namn, paket eller kategori...",
+    "no_results": "Inga plugins matchar den sökningen.",
     "quality": {
-      "stable": "stable",
+      "stable": "stabil",
       "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "experimental": "experimentell",
+      "draft": "utkast"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Välj ditt språk",
+    "subheading": "Du kan ändra detta senare i Inställningar.",
+    "more_languages": "Fler språk",
+    "loading_more": "Läser in fler språk...",
+    "catalog_error": "Det gick inte att ladda fler språk. Du kan fortsätta med ett medföljande språk.",
+    "skip": "Hoppa över",
+    "install_error": "Det gick inte att installera det språket. Kontrollera din anslutning och försök igen."
   },
   "toast": {
     "close_button": "Stäng avisering",
@@ -2527,7 +2721,50 @@
     "redo": "Gör om",
     "restore_btn": "Återställ exempel",
     "restore_title": "Ersätt med ett minimalt fungerande exempel",
-    "advanced_section": "Avancerade alternativ"
+    "advanced_section": "Avancerade alternativ",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Etikett för korsreferenser (e.g. eq:quadratic). Tom betyder ingen etikett."
+      },
+      "chemistry_output": {
+        "label": "Utgångsläge",
+        "description": "mhchem: inline \\ce{...}. chemfig: bindningsvinkelstrukturer."
+      },
+      "circuit_style": {
+        "label": "Amerikansk stil",
+        "description": "På: Amerikanska komponentsymboler (IEEE). Av: Europeiska symboler (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "TikZ bibliotek",
+        "description": "Kommaseparerade extra TikZ-bibliotek (e.g. calc, arrows.meta, mönster)."
+      },
+      "pgfplots_options": {
+        "label": "Alternativ för PGFPlots",
+        "description": "Extra alternativ infogade i \\beginZXQ0QXZ[...], som xbar eller compat=1.18."
+      },
+      "forest_options": {
+        "label": "Skogsalternativ",
+        "description": "Extra alternativ som skickas till skogsmiljön, till exempel klaffade kanter eller kantetikettstilar."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Riktade och oriktade grafer med noder, kanter, former och bågstilar."
+      },
+      "pgfplots": {
+        "description": "Plots, histogram, stapeldiagram, spridningsdiagram och värmekartor med PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Hierarkisk syntax, taxonomiska, fylogenetiska, besluts- och sannolikhetsträd."
+      },
+      "table_data": {
+        "description": "Datatabeller kan exporteras till booktabs, longtable- eller PGFPlots-data."
+      },
+      "timeline_gantt": {
+        "description": "Gantt-diagram och tidslinjer med grupper, uppgifter och beroenden."
+      }
+    }
   },
   "help": {
     "title": "Hjälpcenter",
@@ -2608,7 +2845,7 @@
       "hint_amp": "& bokstavligt och-tecken",
       "hint_under": "_ bokstavlig understreck",
       "hint_braces": "\\{ \\} bokstavligt lockiga hängslen",
-      "math_title": "Math — inline & display",
+      "math_title": "Matematik — i löptext och fristående",
       "hint_inline": "Använd $…$ i en mening – matematiken stannar i textflödet",
       "hint_inline_alt": "Alternativ: \\(…\\) — båda syntaxerna är likvärdiga",
       "hint_display": "Använd \\[…\\] för en centrerad ekvation på sin egen linje",

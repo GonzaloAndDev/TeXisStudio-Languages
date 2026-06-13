@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "הטיפוגרפיה והפלט הטובים ביותר של כל חלופה קלת משקל",
+            "100% ביבליוגרפיות תואמות (כלול גרסת ביבר נכונה)",
+            "כל חבילות ה-CTAN זמינות ללא הגבלה",
+            "תמיכה רב-לשונית מקורית: קירילית, CJK, ערבית, Devanagari",
+            "קומפילציה מרובת מעברים נכונה: TOC, אינדקסים, הפניות מוצלבות",
+            "התקנת Homebrew בפקודה אחת"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "הורדה גדולה (~5 GB)",
+            "ההתקנה אורכת 10-20 דקות"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "התקן את Homebrew (אם אין לך את זה)",
+              "note": "Homebrew הוא מנהל החבילות הסטנדרטי של macOS. אם כבר יש לך את זה, דלג על שלב זה."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "התקן MacTeX עם Homebrew",
+              "note": "הורדות ~5 GB. התהליך אורך 10-20 דקות תלוי בחיבור שלך."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "עדכון משתני סביבה",
+              "note": "או פשוט סגור ופתח מחדש את הטרמינל כדי שהוא יאסוף את ה-PATH החדש."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ודא את ההתקנה",
+              "note": "כל שלוש הפקודות צריכות להגיב עם מספר גרסה."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה כדי שתזהה את ההתקנה החדשה."
             }
           ],
           "tagline": "מומלץ - הפלט המשובח, היציב והשלם ביותר",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "הותקן תוך פחות מדקה",
+            "מוריד רק את החבילות שהעבודה שלך משתמשת בהן",
+            "מתקיים במקביל עם MacTeX אם אתה צריך את שניהם",
+            "ניתן לשדרוג עם שדרוג חליטה"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "הידור הראשון דורש חיבור לאינטרנט",
+            "חבילות מיוחדות מאוד (פיסיקה מתקדמת וכו') עשויות לדרוש MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "התקן את Homebrew (אם אין לך את זה)",
+              "note": "אם כבר יש לך Homebrew, דלג על שלב זה."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "התקן Tectonic עם Homebrew",
+              "note": "הורדה קלה. מוכן תוך פחות מדקה."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ודא את ההתקנה",
+              "note": "אתה אמור לראות משהו כמו: טקטוני 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה כדי שתזהה טקטוני."
             }
           ],
           "tagline": "קל משקל - מוריד רק את מה שהוא צריך",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "הטיפוגרפיה והפלט הטובים ביותר על פני חלופות קלות משקל",
+            "ביבליוגרפיות נכונות ב-100% - כלולה גרסת ביבר תואמת",
+            "כל חבילות ה-CTAN ללא הגבלה",
+            "תמיכה רב-לשונית מקורית: קירילית, CJK, ערבית, Devanagari",
+            "קומפילציה מרובת מעברים נכונה: TOC, אינדקסים, הפניות מוצלבות",
+            "התקנה עם פקודת מערכת אחת"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "התקנה מלאה לוקחת 3-5 GB",
+            "גרסת המאגר עשויה להיות מעט יותר ישנה מהגרסה הרשמית"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "אובונטו / דביאן / לינוקס מנטה",
+              "note": "כולל הכל. אם המקום מוגבל, השתמש ב-texlive-xetex במקום ב-texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "פדורה / RHEL / CentOS Stream",
+              "note": "מתקין את ערכת TeX Live המלאה."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "קשת / מנג'רו",
+              "note": "מתקין את הקבוצות העיקריות וביבר לביבליוגרפיה."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "סכימה מלאה באמצעות zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ודא את ההתקנה",
+              "note": "כל שלוש הפקודות צריכות להגיב עם מספר גרסה."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה כדי שתזהה את ההתקנה החדשה."
             }
           ],
           "tagline": "מומלץ - הפלט המשובח, היציב והשלם ביותר",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "לא דורש sudo כדי להתקין",
+            "מוריד רק את מה שהעבודה שלך צריכה",
+            "מתקיים במקביל עם TeX Live אם אתה צריך את שניהם"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "הידור הראשון דורש אינטרנט",
+            "חבילות מיוחדות מאוד (פיסיקה מתקדמת וכו') עשויות לדרוש TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "התקן עם הסקריפט הרשמי",
+              "note": "מוריד ומתקין את הבינארי ב-~/.cargo/bin או ~/bin בהתאם להגדרות שלך."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "חלופה: התקן עם Cargo",
+              "note": "דורש התקנת חלודה. קומפילציה ממקור, לוקח מספר דקות."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ודא את ההתקנה",
+              "note": "אתה אמור לראות משהו כמו: טקטוני 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה."
             }
           ],
           "tagline": "קל משקל - אין צורך במנהל חבילות מערכת",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "הטיפוגרפיה והפלט הטובים ביותר על פני חלופות קלות משקל",
+            "100% ביבליוגרפיות נכונות - ביבר כלול ותואם",
+            "כל חבילות ה-CTAN, הורדה לפי דרישה",
+            "לא דורש תות פרל (בניגוד ל-latexmk הידני)",
+            "תמיכה רב-לשונית: קירילית, CJK, ערבית, Devanagari",
+            "מתקין גרפי .exe קל לשימוש"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "קונסולת MiKTeX יכולה להיות מבלבלת בהתחלה",
+            "דורש קבלת התקנת חבילה במהלך ההידור הראשון"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "התקן MiKTeX עם כנף",
+              "note": "פתח את PowerShell כמשתמש רגיל (אין צורך במנהל מערכת). winget כלול ב-Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "חלופה: מתקין גרפי",
+              "note": "עבור אל miktex.org ← הורדה ← Windows. הורד את תוכנית ההתקנה של 64 סיביות והפעל אותו. בחר התקן MiKTeX רק בשבילי."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "ודא את ההתקנה",
+              "note": "צריך להגיב עם מספר גרסה."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה כדי שתזהה MiKTeX."
             }
           ],
           "tagline": "מומלץ ב-Windows - הפלט הטוב ביותר, מושלם ללא Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "מותקן תוך דקה אחת עם כנף",
+            "לא דורש פרל תות",
+            "מתקיים במקביל עם MiKTeX אם אתה צריך את שניהם",
+            "ניתן לשדרוג עם שדרוג כנף"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "הידור הראשון דורש אינטרנט",
+            "חבילות מיוחדות מאוד (פיסיקה מתקדמת וכו') עשויות לדרוש MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "התקן עם כנף",
+              "note": "פתח את PowerShell כמשתמש רגיל. אין צורך במנהל מערכת."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "ודא את ההתקנה",
+              "note": "אתה אמור לראות משהו כמו: טקטוני 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה כדי שתזהה טקטוני."
             }
           ],
           "tagline": "קל משקל - פקודה אחת, ללא Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "הטיפוגרפיה והפלט הטובים ביותר על פני חלופות קלות משקל",
+            "כל חבילות ה-CTAN כלולות, ללא הורדות נוספות",
+            "ביבליוגרפיות נכונות ב-100% - כולל ביבר תואם",
+            "תמיכה רב-לשונית מקורית: קירילית, CJK, ערבית, Devanagari",
+            "תואם לכל פרופיל מוסדי"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "התקנה איטית (30-90 דקות)",
+            "לוקח 4-8 GB של שטח דיסק",
+            "דורש Strawberry Perl עבור latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "הורד את מתקין TeX Live",
+              "note": "עבור אל tug.org/texlive → הורדה → install-tl-windows.exe. הורד את תוכנית ההתקנה."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "הפעל את תוכנית ההתקנה",
+              "note": "בחר התקנה פשוטה (גדול) כדי להתקין הכל. התהליך אורך 30-90 דקות."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "התקן Strawberry Perl (נדרש עבור latexmk)",
+              "note": "נדרש Perl כדי ש-latexmk יפעל ב-Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "ודא את ההתקנה",
+              "note": "כל שלוש הפקודות צריכות להגיב עם מספר גרסה."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "הפעל מחדש את TeXisStudio",
+              "note": "סגור ופתח מחדש את האפליקציה."
             }
           ],
           "tagline": "שלם - הפלט המשובח והיציב ביותר, ללא הפתעות",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "פוסט דוקטורט",
     "level_bachillerato": "תיכון",
     "level_tecnico": "טכני",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio נמצא במצב מודרך: התמקד בעבודה שלך והאפליקציה תטפל בעיצוב, ביבליוגרפיה ומשלוח.",
+    "error_opening_project": "לא ניתן היה לפתוח את התיקיה כפרויקט TeXisStudio. ודא שהוא מכיל tesis.project.yaml.",
+    "search_library_hint": "חפש בספרייה",
+    "detecting_latex": "מזהה LaTeX...",
+    "error_importing_tex": "לא ניתן לייבא את קובץ .tex: {{error}}"
   },
   "wizard": {
     "title": "פרויקט חדש",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "בסיס איתן לתזות",
     "recommend_reason_verified": "יש אימות מוסדי",
     "recommend_reason_reviewed": "נבדק על ידי הצוות",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive למחשב שולחני"
+    "error_vocab_install": "לא ניתן להפעיל את \"{{name}}\". בדוק את החיבור שלך או בטל את הבחירה בו כדי ליצור את הפרויקט ללא תמיכה זו. פירוט: {{error}}",
+    "google_drive_desktop": "Google Drive למחשב שולחני",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "משוואות ממוספרות \\\\eqref{}",
+          "משפטים והוכחות",
+          "מטריצות ווקטורים",
+          "דיאגרמות קומוטטיביות (tikz-cd)",
+          "עצי הוכחה (מחסני אוטובוס)"
+        ],
+        "external": [],
+        "tip": "LaTeX הוא הכלי הקנוני למתמטיקה פורמלית."
+      },
+      "logica": {
+        "native": [
+          "עצי ניכוי (מחסני אוטובוס)",
+          "טבלאות אמת",
+          "סמנטיקה פורמלית",
+          "דיאגרמות האסה"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "יחידות פיזיות \\\\SI{} (siunitx)",
+          "נגזרות חלקיות \\\\pdv{}",
+          "דיאגרמות פיינמן (טיקז-פיינמן)",
+          "עלילות (pgfplots)"
+        ],
+        "external": [
+          "סימולציות מספריות (ייצוא כ-PDF/PNG)"
+        ],
+        "tip": "השתמש ב-siunitx עבור כל היחידות - לעולם אל תכתוב 'קמ\"ש' ישירות."
+      },
+      "quimica": {
+        "native": [
+          "תגובות כימיות \\\\ce{} (mhchem)",
+          "מבנים מולקולריים (chemfig)",
+          "יחידות \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "מבנים תלת מימדיים מורכבים (ייצוא מ- ChemDraw כ-PDF)"
+        ],
+        "tip": "עבור מבנים פשוטים השתמש chemfig. עבור קריסטלוגרפיה או חלבונים, ייבא כ-PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "יחידות \\\\SI{} (siunitx)",
+          "מעגלים (circuitikz)",
+          "עלילות נתונים (pgfplots)",
+          "אלגוריתמים (אלגפסאודוקוד)"
+        ],
+        "external": [
+          "שרטוטים טכניים (AutoCAD → PDF)",
+          "דיאגרמות PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz מכסה את רוב מעגלי האות והכוח."
+      },
+      "computacion": {
+        "native": [
+          "קוד מקור (רשימה ראשונה)",
+          "אלגוריתמים עם פסאודוקוד",
+          "עלילות ביצועים (pgfplots)",
+          "עצי החלטה (טיקז)"
+        ],
+        "external": [
+          "דיאגרמות ארכיטקטורה מורכבות (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "הערות שוליים נרחבות",
+          "מנגנון ביקורתי וציטוטי טקסט",
+          "אינדקסים אנליטיים (makeindex)",
+          "דוגמאות לשוניות (gb4e)"
+        ],
+        "external": [
+          "תמונות גרפיקה (רזולוציה גבוהה כ-PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "טבלאות סטטיסטיות (ספרות)",
+          "עלילות (pgfplots)",
+          "ציטוטים ביבליוגרפיים בסגנון APA/Chicago"
+        ],
+        "external": [
+          "הדמיות נתונים מורכבות (R/Python → PDF/PNG)"
+        ],
+        "tip": "עבור עלילות פשוטות השתמש ב-pgfplots. להדמיות משוכללות, ייצא מ-R או מ-Python."
+      },
+      "medicina": {
+        "native": [
+          "טבלאות קליניות (ספריות)",
+          "יחידות רפואיות \\\\SI{}",
+          "דמויות עם כיתוב ותווית"
+        ],
+        "external": [
+          "תמונות / היסטולוגיה של DICOM (יצוא כ-PNG/TIFF ברזולוציה גבוהה)",
+          "תרשימי זרימה קליניים (draw.io → PDF)"
+        ],
+        "tip": "יש לייבא תמונות רפואיות אבחנתיות כקבצים חיצוניים, לא לשכפל ב-LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "ציונים שלמים (MuseScore/Sibelius → PDF)",
+          "קטעי שמע (קישור חיצוני)"
+        ],
+        "tip": "עבור תווים מוסיקליים מורכבים, השתמש בעורך תווים וצרף בתור PDF."
+      },
+      "arte": {
+        "native": [
+          "גיליונות טכניים עם טבלאות (כרטיסיות ספרים)"
+        ],
+        "external": [
+          "צלחות ויצירות אמנות (רזולוציה גבוהה כ-PNG/TIFF)",
+          "תיק חזותי (חיצוני PDF)",
+          "תוכניות (DWG → PDF)"
+        ],
+        "tip": "עבור תיקים, כלול PDF או PNG באיכות גבוהה. LaTeX מנהל פריסה וטקסט תיאורי."
+      },
+      "arquitectura": {
+        "native": [
+          "טבלאות תקציב וחומרים",
+          "לוחות זמנים",
+          "טקסטים תיאוריים"
+        ],
+        "external": [
+          "תוכניות קומה (AutoCAD/ArchiCAD → PDF)",
+          "עיבודים (ייצוא כ-PNG/PDF)",
+          "דגמים (תמונה כ-PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "טבלאות נתונים (ספריות)",
+          "יחידות \\\\SI{}",
+          "עצים פילוגנטיים (טיקז)"
+        ],
+        "external": [
+          "דיאגרמות אנטומיות מורכבות (Inkscape → PDF/SVG)",
+          "מיקרוסקופיה (PNG ברזולוציה גבוהה)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "טבלאות סטטיסטיות (ספרות)",
+          "עלילות (pgfplots)",
+          "משוואות אקונומטריות"
+        ],
+        "external": [
+          "לוחות מחוונים והמחשות אינטראקטיביות (ייצוא כ-PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "אבחון פרויקטים",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "שחזר גרסה זו",
     "snapshot_delete_title": "מחק גרסה",
     "section_guidance_label": "הנחיית מדור",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "שמור וצא",
+    "snapshot_restore_action": "לְשַׁחְזֵר",
+    "continue_editing": "תמשיך לערוך",
+    "unsaved_changes_message": "יש לך שינויים שלא נשמרו בקטע הזה. מה תרצה לעשות לפני היציאה?",
+    "unsaved_changes_title": "שינויים שלא נשמרו",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "visual_type_selector_title": "איזה סוג דיאגרמה אתה רוצה להוסיף?",
+    "default_set_a": "סט א",
+    "add_paragraph": "פסקה חדשה",
+    "review_grammar": "דִקדוּק",
+    "bib_refs_count": "{{count}} שופטים ב-.bib",
+    "section_status_legend": "אגדת סטטוס",
+    "sections_count": "קטעי {{count}}",
+    "review_spell": "אִיוּת",
+    "leave_without_saving": "עזוב בלי לשמור",
+    "default_table_column_2": "עמודה 2",
+    "default_set_c": "סט C",
+    "default_set_b": "סט ב'",
+    "default_table_column_1": "עמודה 1",
+    "no_bib_file": "אין .bib",
     "insert_plugin_figure_title": "הכנס דמות מדעית (61 סוגים)",
     "block_plugin_figure": "איור+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "אנו מראים רק את מה שאתה צריך לכתוב ולהגיש ללא מורכבות. אתה יכול להפעיל",
     "basic_mode_suffix": "בקטע הטקסט.",
     "basic_top_body": "הגדרות אלו מיועדות לקבלת החלטות שימושיות מבלי להזין פרטים טכניים של LaTeX. עבור אל",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "בדוק אם יש עדכונים",
+    "update_checking": "בודק...",
+    "update_available": "גרסה {{version}} זמינה - הפעל מחדש כדי להתקין",
+    "update_up_to_date": "אתה מעודכן",
+    "update_error": "לא ניתן היה לחפש עדכונים",
     "refresh_catalog": "רענן את הקטלוג",
     "package_status_stable": "יציב",
     "package_status_beta": "בטא",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "קל משקל וקל לתחזוקה. מומלץ לכתיבה יומיומית ולפרויקטים שאינם דורשים הפצת TeX מלאה.",
     "latex_suite_title": "חבילת LaTeX מלאה",
-    "latex_suite_description": "משתמש ב-latexmk עם TeX Live או MiKTeX. מומלץ לחבילות מתקדמות, ביבליוגרפיות מורכבות ומשלוח סופי.",
+    "latex_suite_description": "חבילת LaTeX מלאה ({{suiteName}}) עם latexmk. תומך בכל חבילות ה-CTAN, biblatex + Biber, מעטפת בריחה וקומפילציה מרובת מעברים. הבחירה המומלצת עבור מסמכים מלאים, פרופילים מוסדיים ודמויות תוספים.",
     "latex_available": "זמין",
     "latex_not_available": "לא מותקן",
     "latex_detected_version": "גרסה זוהתה: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "ברירת מחדל של מחשב נייד",
     "window_mode_remember": "זכור את המידה האחרונה",
     "window_mode_maximized": "מקסימום",
-    "window_mode_hint": "בחר חלון בגודל 1280 × 760, שחזר את הגודל האחרון שהשתמשת בו, או פתח באמצעות כל שטח הצג הפנוי."
+    "window_mode_hint": "בחר חלון בגודל 1280 × 760, שחזר את הגודל האחרון שהשתמשת בו, או פתח באמצעות כל שטח הצג הפנוי.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "עבור אל «ניהול התקנת LaTeX» כדי להתקין את {{suiteName}}.",
+    "latex_recommended_badge": "מומלץ",
+    "latex_upgrade_banner": "{{suiteName}} מותקן - הוא תומך בכל חבילות ה-CTAN, Biber ודמויות פלאגין ללא הגבלות. מומלץ להחליף.",
+    "latex_upgrade_btn": "עבור ל-{{suiteName}}",
+    "language_catalog_error": "לא ניתן היה לטעון את קטלוג השפה. בדוק את החיבור שלך ונסה שוב.",
+    "language_install_error": "לא ניתן להתקין את ערכת השפה. בדוק את החיבור שלך ונסה שוב."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "התמונה '{{file}}' המוזכרת בסעיף '{{section}}' לא נמצאה.",
@@ -1026,7 +1188,7 @@
     "hypothesis": "הַשׁעָרָה",
     "extra_preamble": "הקדמה נוספת",
     "latex_warning": "שדה זה מקבל LaTeX שרירותי. שגיאה כאן יכולה למנוע מהמסמך מהקומפילציה.",
-    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbb{R}}",
+    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbbZXQ0QXZ}",
     "footer": "השינויים יחולו בפעם הבאה שתרכיב את ה-PDF.",
     "advanced_hint": "אפשר מצב מתקדם כדי לראות גופנים, אופרטורים והגדרות פתיחה נוספות."
   },
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "למחוק את הפרופיל?",
     "delete_profile_body_before": "זה ימחק",
     "delete_profile_body_after": "לא ניתן לבטל פעולה זו.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "פרופילים מותקנים של {{profiles}}",
     "installed_profiles": "פרופילים מותקנים",
     "profile_count_hint": "פרופילי {{count}} · לחץ כדי להציג פרטים",
     "import_profile_title": "ייבא פרופיל מהספרייה",
@@ -1135,30 +1297,31 @@
     "selected_chip": "נבחר",
     "installed_chip": "מותקן",
     "sections_count_suffix": "סעיפים",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "תוספים",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "חומר קדמי",
+      "body": "גוף",
+      "back_matter": "חומר אחורי",
+      "appendix": "נספח"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "עמוד השער",
+      "abstract": "תקציר",
+      "acknowledgements": "תודות",
+      "table_of_contents": "תוכן עניינים",
+      "list_of_figures": "רשימת דמויות",
+      "list_of_tables": "רשימת טבלאות",
+      "introduction": "הקדמה",
+      "theoretical_framework": "מסגרת תיאורטית",
+      "methodology": "מתודולוגיה",
+      "results": "תוצאות",
+      "discussion": "דיון",
+      "conclusions": "מסקנות",
+      "references": "הפניות",
+      "appendix": "נספח",
+      "appendix_a": "נספח א'"
+    },
+    "tags_placeholder": "תזה, תואר ראשון, אפא"
   },
   "progress": {
     "status_draft": "טיוטה",
@@ -1280,7 +1443,14 @@
     "generating_response": "מייצר תגובה...",
     "message_placeholder": "כתוב את ההודעה שלך... (הזן כדי לשלוח)",
     "configure_key_first": "תחילה הגדר את מפתח ה-API שלך",
-    "send": "Send"
+    "send": "שלח",
+    "error_not_configured": "מפתח API לא מוגדר. הוסף את המפתח שלך בלשונית הספק.",
+    "error_auth": "מפתח API לא חוקי. בדוק שהוא תקין ופעיל.",
+    "error_rate_limited": "הגעת למגבלת הבקשות. נסה שוב בעוד מספר דקות.",
+    "error_network": "שגיאת רשת. בדוק את חיבור האינטרנט שלך.",
+    "error_safety": "הבקשה נחסמה על ידי מדיניות הבטיחות.",
+    "error_model_unavailable": "הדגם הנבחר אינו זמין. בחר אחד אחר בהגדרות.",
+    "error_provider": "שגיאת ספק. נסה שוב."
   },
   "editor_meta": {
     "project_guide": "מדריך פרויקט",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "לא אושר - בלוק זה לא ייכלל ב-PDF עד שתאשר אותו.",
     "packages": "חבילות",
     "edit_figure_title": "ערוך את הכותרת או התווית, או צור מחדש את הדמות",
-    "edit_figure": "ערוך דמות"
+    "edit_figure": "ערוך דמות",
+    "preview_pending": "הרכיב תצוגה מקדימה מהכרטיסייה \"תצוגה מקדימה\" כדי לראות את הדמות כאן."
   },
   "compile": {
     "ensure_latex_installed_path": "בדוק שקומפיילר LaTeX מותקן וזמין ב-PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "מהדר... (שורות {{count}})",
     "backends_available": "{{backends}} זמין",
     "latex_not_installed_status": "⚠ LaTeX לא מותקן",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "קומפילציה",
+    "preflight_action_export": "הגשת ייצוא",
+    "preflight_title": "בדיקה לפני {{action}}",
+    "preflight_has_errors": "תקן שגיאות {{count}} לפני שתמשיך.",
+    "preflight_has_warnings": "נמצאו אזהרות {{count}}. אתה יכול להמשיך בכל מקרה.",
+    "preflight_errors_section": "שגיאות ({{count}})",
+    "preflight_warnings_section": "אזהרות ({{count}})",
+    "preflight_suggestions_section": "הצעות ({{count}})",
+    "export_success": "הייצוא הושלם",
+    "compile_as_draft": "הידור כטיוטה",
+    "readiness_complete": "שלם",
+    "readiness_export_title": "מסירה סופית נחסמה",
+    "readiness_back": "חזור לסקירה",
+    "readiness_compile_title": "הפרויקט לא מוכן לגרסה רשמית",
+    "readiness_export_subtitle": "כדי לייצא במצב סופי, השלם תחילה את בדיקות המסירה והאיכות.",
+    "readiness_compile_subtitle": "הידור כטיוטה או סקור את הנקודות הללו לפני שתתייחס לזה כגרסה רשמית.",
+    "readiness_delivery": "משלוח",
+    "readiness_quality": "איכות סופית",
     "severity_error": "שגיאה",
     "severity_warning": "אזהרה",
     "severity_suggestion": "הצעה",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "השתמש ב-▲▼ כדי לשנות את הסדר.",
     "order_hint_line_2": "הסדר קובע את התפריט הנפתח בעת יצירת פרויקט.",
     "add_custom_style": "הוסף סגנון מותאם אישית",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "תעודה מזהה *",
+    "biblatex_style_required": "סגנון ביבלטקס *",
+    "references_default_title": "הפניות",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "ציטוט",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "מחבר-תאריך",
+      "numeric": "מספרי",
+      "notes_bibliography": "הערות-ביבליוג.",
+      "author_page": "מחבר-עמוד"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "איגוד הפסיכולוגים האמריקאי, מהדורה 7",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "פסיכולוגיה",
+          "חינוך",
+          "מדעי החברה",
+          "סיעוד",
+          "תקשורת"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "הסגנון הנפוץ ביותר בעולם. נדרש בהרבה תוכניות פסיכולוגיה, חינוך ומדעי החברה. מהדורה שביעית (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "ארצות הברית",
+          "קנדה",
+          "אמריקה הלטינית",
+          "אוסטרליה"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(מחבר, שנה)",
+        "bibliography_title": "הפניות"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "המלצות Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "רפואה",
+          "סיעוד",
+          "בית מרקחת",
+          "רפואת שיניים",
+          "מדעי הבריאות"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "סגנון מספרי נדרש למדעי הבריאות. הפניות מסודרות לפי מראה. סטנדרט בכתבי עת MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "מדעי הרפואה והבריאות העולמיים"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "הפניות"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE סגנון ציטוט",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "הנדסת חשמל",
+          "מחשוב",
+          "תקשורת",
+          "רובוטיקה",
+          "אלקטרוניקה"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "סגנון מספרי סטנדרטי להנדסה, מחשוב וטכנולוגיה. אומץ נרחב בבתי ספר להנדסה.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "גלובלי, הנדסי וטכנולוגיה"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "הפניות"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (הערות)",
+        "full_name": "Chicago Manual of Style, מהדורה 17, הערות-ביבליוגרפיה",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "היסטוריה",
+          "ספרות",
+          "אומנויות",
+          "פילוסופיה",
+          "לימודי דת"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "מערכת הערות וביבליוגרפיה למדעי הרוח. ציטוטים מופיעים בהערות שוליים.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "ארצות הברית",
+          "בריטניה",
+          "קנדה, מדעי הרוח"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "הערת שוליים¹",
+        "bibliography_title": "ביבליוגרפיה"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (תאריך המחבר)",
+        "full_name": "Chicago Manual of Style, מהדורה 17, מחבר-תאריך",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "כלכלה",
+          "מדע המדינה",
+          "סוציולוגיה",
+          "אנתרופולוגיה",
+          "גיאוגרפיה"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago וריאנט תאריך מחבר, מועדף במדעי החברה והכלכלה.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "ארצות הברית",
+          "קנדה, מדעי החברה"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(שנת המחבר)",
+        "bibliography_title": "הפניות"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "מדריך MLA, מהדורה 9",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "ספרות",
+          "שפה",
+          "בלשנות",
+          "לימודי תרבות",
+          "רטוריקה"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "תקן ללימודי שפה, ספרות ותרבות בצפון אמריקה. מהדורה תשיעית (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "ארצות הברית",
+          "קנדה, שפה וספרות"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(דף המחבר)",
+        "bibliography_title": "עבודות שצוטטו"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "הרווארד",
+        "full_name": "סגנון התייחסות של הרווארד",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "עסקים",
+          "ניהול",
+          "כלכלה",
+          "מדעי החברה"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "סגנון תאריך מחבר דומה ל-APA. בשימוש נרחב באוניברסיטאות בבריטניה ובאוסטרליה.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "בריטניה",
+          "אוסטרליה",
+          "אירלנד",
+          "דרום אפריקה"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(שנת המחבר)",
+        "bibliography_title": "הפניות"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "מדריך סגנון של האגודה למדעי הרוח המודרניים, מהדורה שלישית",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "מדעי הרוח",
+          "היסטוריה",
+          "ספרות",
+          "פילוסופיה",
+          "בלשנות"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "תקן מדעי הרוח בבריטניה דומה ל-Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "בריטניה",
+          "אירלנד, מדעי הרוח"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "הערת שוליים¹",
+        "bibliography_title": "ביבליוגרפיה"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "כל המקצועות (ברזיל)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "תקן לאומי לעבודה אקדמית באוניברסיטאות בברזיל.",
         "regions_primary": [
-          "Brazil, required"
+          "ברזיל, חובה"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(מחבר, שנה)",
+        "bibliography_title": "הפניות"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, תקן לאומי סיני",
         "disciplines": [
-          "All disciplines (China)"
+          "כל המקצועות (סין)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "תקן לאומי לתזות בסינית. חובה באוניברסיטאות סיניות.",
         "regions_primary": [
-          "China, required"
+          "סין, חובה"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "הפניות"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "שחזר סגנונות ברירת מחדל",
+    "reset_action": "שחזר"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ הוסף הפניה צולבת ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "כותרת אופציונלית",
     "theorem_title_placeholder": "משפט פיתגורס",
     "math_content": "תוכן (מקבל LaTeX מתמטי)",
-    "theorem_content_placeholder": "תנו ל-$a^2 + b^2 = c^2$ כאשר $c$ הוא התחתון..."
+    "theorem_content_placeholder": "תנו ל-$a^2 + b^2 = c^2$ כאשר $c$ הוא התחתון...",
+    "term_placeholder": "אונטולוגיה",
+    "definition_placeholder": "ענף של פילוסופיה החוקר את ההוויה כהוויה.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "בינה מלאכותית"
   },
   "citation": {
     "error_connect": "שגיאת חיבור.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "משוואה ריקה",
     "custom_molecule": "מולקולה מותאמת אישית",
     "molecule_compile_hint": "מבנה שנוצר עם chemfig בעת הידור",
-    "chemical_syntax_hint": "השתמש -> (תגובה), <=> (שיווי משקל), ^ (גז) ו-v (משקעים)"
+    "chemical_syntax_hint": "השתמש -> (תגובה), <=> (שיווי משקל), ^ (גז) ו-v (משקעים)",
+    "label_example": "fig:my-diagram",
+    "circuit_lower": "מעגל",
+    "diagram_lower": "תרשים",
+    "default_start": "התחל",
+    "default_process": "תהליך",
+    "default_end": "סוף",
+    "default_event": "אירוע {{number}}",
+    "default_major_scale": "סולם דו מז'ור"
   },
   "vocabulary": {
     "title": "אוצר מילים של תחום",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "שיש לו א",
     "repo_hint_suffix": "סעיף. זה יכול להיות ריפו GitHub משלך.",
     "alias_placeholder": "כינוי (e.g. my-lab-terms)",
-    "adding": "מוסיף..."
+    "adding": "מוסיף...",
+    "catalog_error": "לא ניתן היה לטעון את קטלוג אוצר המילים. בדוק את החיבור שלך ונסה שוב.",
+    "repo_sync_error": "לא ניתן היה לסנכרן את המאגר הזה.",
+    "repo_add_error": "לא ניתן להוסיף את המאגר. בדוק את הכתובת שלו ונסה שוב."
   },
   "profile_wizard": {
     "step_of": "שלב {{current}} של {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "התקן מ-URL",
     "install_from_url_hint": "הדבק את ה-URL של .zip המכיל פרופיל חוקי.yaml.",
     "install_btn": "התקן",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "אתה לא צריך את שם הפרופיל המדויק",
+    "guided_hint_body": "התחל עם המוסד שלך או שילוב הדוק של תואר, תחום וסגנון ציטוט. אם אין התאמה מדויקת, התחל עם בסיס מוסדי פשוט והתאם אותו לאחר מכן.",
+    "catalog_load_error": "לא ניתן היה לטעון את קטלוג הפרופילים. בדוק את החיבור שלך או נסה שוב.",
+    "install_success": "\"{{name}}\" הותקן בהצלחה.",
+    "breadcrumb_all": "הכל",
+    "profile_count_one": "פרופיל {{count}}",
+    "profile_count_other": "פרופילי {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "אמריקה",
+      "europe": "אירופה",
+      "asia": "אסיה",
+      "generic": "גנרי"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "מקסיקו",
+      "usa": "ארצות הברית",
+      "canada": "קנדה",
+      "brazil": "ברזיל",
+      "argentina": "ארגנטינה",
+      "chile": "צ'ילה",
+      "uk": "בריטניה",
+      "germany": "גרמניה",
+      "spain": "ספרד",
+      "netherlands": "הולנד",
+      "italy": "איטליה",
+      "sweden": "שבדיה",
+      "france": "צרפת",
+      "china": "סין",
+      "japan": "יפן",
+      "south_korea": "דרום קוריאה",
+      "singapore": "סינגפור",
+      "india": "הודו",
+      "generic": "גנרי"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "תיכון",
+      "tecnico": "תואר טכני",
+      "licenciatura": "תואר ראשון",
+      "especialidad": "התמחות",
+      "maestria": "תואר שני",
+      "doctorado": "דוקטורט",
+      "posdoctorado": "פוסט דוקטורט"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "מוסדי",
+      "degree_specific": "ספציפי לתואר",
+      "program_specific": "ספציפי לתוכנית",
+      "discipline_specific": "ספציפי לתחום"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "כל הדיסציפלינות",
+      "engineering": "הנדסה",
+      "social_sciences": "מדעי החברה",
+      "humanities": "מדעי הרוח",
+      "health_sciences": "מדעי הבריאות",
+      "computing": "מחשוב",
+      "natural_sciences": "מדעי הטבע"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "מאומת",
+    "status_reviewed_label": "נבדק"
   },
   "about": {
     "title": "בערך",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "החל שינויים ויצור מחדש את הדמות",
     "apply_visual_btn": "החל שינויים",
     "applying": "מגיש בקשה...",
-    "done_msg": "האיור עודכן"
+    "done_msg": "האיור עודכן",
+    "tab_preview": "תצוגה מקדימה",
+    "preview_compile_btn": "הידור מחדש של תצוגה מקדימה",
+    "preview_compiling": "הידור...",
+    "preview_apply_first": "החל שינויים לפני תצוגה מקדימה.",
+    "preview_tectonic_note": "Tectonic הוא המנוע הפעיל. אם התצוגה המקדימה נכשלת, נתון זה עשוי לדרוש חבילת LaTeX מלאה (MacTeX / MiKTeX / TeX Live). אתה יכול לשנות את המנוע בהגדרות → מנוע LaTeX.",
+    "preview_error_prefix": "שגיאת קומפילציה:",
+    "preview_no_tectonic": "Tectonic אינו מותקן או לא נמצא."
   },
   "elements_tab": {
     "title": "אלמנטים",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "סוג פנימי",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "פסקה",
+        "description": "בלוק טקסט בצורה חופשית. תומך בהדגשה, ציטוטים מוטבעים ו-LaTeX מוטבע.",
+        "latex_output": "טקסט בריחה שנכתב ישירות לתוך המסמך."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "כותרת / כותרת",
+        "description": "כותרת הסעיף: סעיף (H1), סעיף קטן (H2), או סעיף משנה (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "איור",
+        "description": "תמונה עם כיתוב, מקור ותווית להפניות צולבות. רוחב: 50%, 75%, 100%.",
+        "latex_output": "סביבת דמות + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "שולחן",
+        "description": "טבלה עם כותרות, שורות, כיתוב ומקור. סגנונות: פשוט, כרטיסיות ספרים, רחב, שולחן ארוך.",
+        "latex_output": "סביבת שולחן + טבלאי/שולחן ארוך + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "משוואה",
+        "description": "נוסחה מתמטית ממוספרת או לא ממוספרת. כתוב במתמטיקה טהורה LaTeX.",
+        "latex_output": "סביבת משוואה או משוואה* + \\label אופציונלי"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
+        "name": "רשימה",
+        "description": "רשימה עם תבליטים (פירוט), ממוספרת (ספירה) או תיאורית (תיאור).",
         "latex_output": "\\begin{itemize/enumerate/description}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "ציטוט ביבליוגרפי",
+        "description": "ציטוט בסוגריים, נרטיבי או ריבוי המקושר למפתח BibTeX בקובץ .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "גולמי LaTeX",
+        "description": "קטע LaTeX שרירותי למקרים מתקדמים. דורש אישור משתמש.",
+        "latex_output": "מילה במילה, לא נמלט. השתמש בזהירות."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "טקסט",
+      "content": "תוכן",
+      "structure": "מבנה",
+      "navigation": "ניווט",
+      "image": "תמונה",
+      "graphic": "גרפי",
+      "data": "נתונים",
+      "statistics": "סטטיסטיקה",
+      "mathematics": "מתמטיקה",
+      "formula": "נוסחה",
+      "list": "רשימה",
+      "enumeration": "ספירה",
+      "bibliography": "ביבליוגרפיה",
+      "reference": "התייחסות",
+      "advanced": "מתקדם",
+      "custom": "מותאם אישית"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "התקדמות הפרויקט",
+    "row_overall": "פרויקט",
+    "row_setup": "הגדרה",
+    "row_writing": "כתיבה",
+    "row_delivery": "משלוח",
+    "row_quality": "איכות סופית",
+    "pending_prefix": "בהמתנה:",
+    "delivery_blocked": "ישנם פריטים ממתינים לפני המסירה הסופית",
+    "setup_title": "קבע את הכותרת האמיתית של העבודה",
+    "setup_author": "מחבר ראשי מלא",
+    "setup_institution": "היכנסו למוסד האמיתי",
+    "setup_profile": "בחר פרופיל אקדמי",
+    "setup_language": "בחר את שפת הבסיס",
+    "setup_advisor": "הוסף לפחות יועץ או מנהל תזה אחד",
+    "writing_sections": "אפשר לפחות קטע תוכן אחד",
+    "writing_draft": "כתוב תוכן בחלק ראשי",
+    "writing_words": "פתח טיוטה ראשונה מהותית",
+    "writing_reviewed": "סמן לפחות סעיף אחד כמתוקן",
+    "delivery_references": "כלול סעיף הפניות",
+    "delivery_abstract": "כתוב את התקציר או התקציר",
+    "delivery_required": "השלם את החלקים הנדרשים בפרופיל",
+    "delivery_latex": "אשר או הסר בלוקים LaTeX לא מאומתים",
+    "delivery_committee": "להשלים את הוועדה לעבודה מתקדמת",
+    "delivery_review_main": "סקור את הסעיפים העיקריים לפני המסירה",
+    "quality_citation": "כלול לפחות ציטוט אחד שניתן לאימות בגוף",
+    "quality_required_reviewed": "סמן את חלקי הגוף הנדרשים כמתוקנים",
+    "quality_raw_latex": "העבר או סקור באופן ידני בלוקים מיובאים של LaTeX לפני המסירה הסופית",
+    "quality_plugin_warnings": "פתרון אזהרות איור או תוסף לפני המסירה הסופית",
+    "quality_profile": "השתמש בפרופיל מוסדי או מותאם אישית להגשות רשמיות"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "תוספים",
+    "subtitle": "תוספים חזותיים של {{count}} זמינים להוספת איורים ודיאגרמות.",
+    "search_placeholder": "חפש לפי שם, חבילה או קטגוריה...",
+    "no_results": "אין תוספים שתואמים לחיפוש הזה.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "יציב",
+      "beta": "בטא",
+      "experimental": "ניסיוני",
+      "draft": "טיוטה"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "בחר את השפה שלך",
+    "subheading": "תוכל לשנות זאת מאוחר יותר בהגדרות.",
+    "more_languages": "שפות נוספות",
+    "loading_more": "טוען שפות נוספות...",
+    "catalog_error": "לא ניתן לטעון שפות נוספות. אתה יכול להמשיך עם שפה מצורפת.",
+    "skip": "דלג",
+    "install_error": "לא ניתן להתקין את השפה הזו. בדוק את החיבור שלך ונסה שוב."
   },
   "toast": {
     "close_button": "סגור התראה",
@@ -2527,7 +2721,50 @@
     "redo": "בצע מחדש",
     "restore_btn": "שחזור דוגמה",
     "restore_title": "החלף בדוגמה עבודה מינימלית",
-    "advanced_section": "אפשרויות מתקדמות"
+    "advanced_section": "אפשרויות מתקדמות",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "תווית להפניות צולבות (e.g. eq:quadratic). ריק פירושו ללא תווית."
+      },
+      "chemistry_output": {
+        "label": "מצב פלט",
+        "description": "mhchem: מוטבע \\ce{...}. chemfig: מבני זווית קשר."
+      },
+      "circuit_style": {
+        "label": "בסגנון אמריקאי",
+        "description": "פועל: סמלי רכיבים אמריקאיים (IEEE). כבוי: סמלים אירופיים (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "ספריות TikZ",
+        "description": "ספריות TikZ נוספות מופרדות בפסיק (e.g. calc, arrows.meta, דפוסים)."
+      },
+      "pgfplots_options": {
+        "label": "אפשרויות PGFPlots",
+        "description": "אפשרויות נוספות שהוכנסו ל-\\beginZXQ0QXZ[…], כגון xbar או compat=1.18."
+      },
+      "forest_options": {
+        "label": "אפשרויות יער",
+        "description": "אפשרויות נוספות שהועברו לסביבת היער, כגון קצוות מפוצלים או סגנונות תווית קצה."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "גרפים מכוונים ולא מכוונים עם צמתים, קצוות, צורות וסגנונות קשת."
+      },
+      "pgfplots": {
+        "description": "עלילות, היסטוגרמות, תרשימי עמודות, עלילות פיזור ומפות חום עם PGFPlots."
+      },
+      "tree_forest": {
+        "description": "תחביר היררכי, טקסונומי, פילוגנטי, עצי החלטה והסתברות."
+      },
+      "table_data": {
+        "description": "טבלאות נתונים ניתנות לייצוא לנתוני Booktabs, Longtable או PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "תרשימי גאנט וקווי זמן עם קבוצות, משימות ותלות."
+      }
+    }
   },
   "help": {
     "title": "מרכז העזרה",

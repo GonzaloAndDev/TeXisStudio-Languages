@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Лучшая типографика и результат среди любой легкой альтернативы.",
+            "100% совместимые библиографии (включая правильную версию Biber)",
+            "Все пакеты CTAN доступны без ограничений.",
+            "Встроенная многоязычная поддержка: кириллица, CJK, арабский, деванагари.",
+            "Правильная многопроходная компиляция: оглавление, индексы, перекрестные ссылки.",
+            "Установка Homebrew одной командой"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Большая загрузка (~5 ГБ)",
+            "Установка занимает 10–20 минут."
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Установите Homebrew (если у вас его нет)",
+              "note": "Homebrew — стандартный менеджер пакетов macOS. Если он у вас уже есть, пропустите этот шаг."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Установите MacTeX с помощью Homebrew",
+              "note": "Загрузки ~5 ГБ. Процесс занимает 10–20 минут в зависимости от вашего соединения."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Обновить переменные среды",
+              "note": "Или просто закройте и снова откройте Терминал, чтобы он выбрал новый PATH."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Проверьте установку",
+              "note": "Все три команды должны ответить номером версии."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение, чтобы оно обнаружило новую установку."
             }
           ],
           "tagline": "Рекомендуется — лучший, наиболее стабильный и полный результат.",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Устанавливается менее чем за 1 минуту",
+            "Загружает только те пакеты, которые использует ваша диссертация.",
+            "Сосуществует с MacTeX, если вам нужны оба",
+            "Возможность обновления с помощью Brew Upgrade"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Для первой компиляции требуется подключение к Интернету",
+            "Узкоспециализированные пакеты (продвинутая физика и т. д.) могут требовать MacTeX."
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Установите Homebrew (если у вас его нет)",
+              "note": "Если у вас уже есть Homebrew, пропустите этот шаг."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Установите Tectonic с помощью Homebrew.",
+              "note": "Легкая загрузка. Готовность менее чем за 1 минуту."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Проверьте установку",
+              "note": "Вы должны увидеть что-то вроде: тектонический 0.15.x."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение, чтобы оно обнаружило тектонику."
             }
           ],
           "tagline": "Легкий — загружает только то, что ему нужно.",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Лучшая типографика и качество печати по сравнению с облегченными альтернативами.",
+            "100% правильная библиография — включена совместимая версия Biber",
+            "Все пакеты CTAN без ограничений",
+            "Встроенная многоязычная поддержка: кириллица, CJK, арабский, деванагари.",
+            "Правильная многопроходная компиляция: оглавление, индексы, перекрестные ссылки.",
+            "Установка одной системной командой"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Полная установка занимает 3–5 ГБ.",
+            "Версия из репозитория может быть немного старше официальной версии."
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "Убунту/Дебиан/Линукс Минт",
+              "note": "Включает в себя все. Если пространство ограничено, используйте texlive-xetex вместо texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Fedora/RHEL/CentOS Stream",
+              "note": "Устанавливает полную схему TeX Live."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "Арка / Манджаро",
+              "note": "Устанавливает основные группы и бибер для библиографии."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Полная схема через zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Проверьте установку",
+              "note": "Все три команды должны ответить номером версии."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение, чтобы оно обнаружило новую установку."
             }
           ],
           "tagline": "Рекомендуется — лучший, наиболее стабильный и полный результат.",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Не требует sudo для установки",
+            "Скачивает только то, что нужно вашей диссертации",
+            "Сосуществует с TeX Live, если вам нужны оба"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Для первой компиляции требуется Интернет",
+            "Узкоспециализированные пакеты (продвинутая физика и т. д.) могут потребовать TeX Live."
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Установить официальным скриптом",
+              "note": "Загружает и устанавливает двоичный файл в ~/.cargo/bin или ~/bin в зависимости от ваших настроек."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Альтернатива: установить с помощью Cargo",
+              "note": "Требуется установленный Rust. Компилируется из исходников, занимает несколько минут."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Проверьте установку",
+              "note": "Вы должны увидеть что-то вроде: тектонический 0.15.x."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение."
             }
           ],
           "tagline": "Легкий — менеджер системных пакетов не требуется.",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Лучшая типографика и качество печати по сравнению с облегченными альтернативами.",
+            "100% правильная библиография — Biber включен и совместим",
+            "Все пакеты CTAN, загружаемые по требованию.",
+            "Не требует Strawberry Perl (в отличие от руководства latexmk)",
+            "Многоязычная поддержка: кириллица, CJK, арабский, деванагари.",
+            "Простой в использовании графический установщик .exe"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "Консоль MiKTeX поначалу может сбить с толку.",
+            "Требуется принять установку пакета во время первой компиляции."
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Установите MiKTeX с крылышком.",
+              "note": "Откройте PowerShell как обычный пользователь (администратор не требуется). winget включен в Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Альтернатива: графический установщик",
+              "note": "Перейдите в miktex.org → Скачать → Windows. Загрузите 64-битный установщик и запустите его. Выберите «Установить MiKTeX только для меня»."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Проверьте установку",
+              "note": "Должен ответить номер версии."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение, чтобы оно обнаружило MiKTeX."
             }
           ],
           "tagline": "Рекомендуется для Windows — лучший результат, без Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Устанавливается за 1 минуту с помощью winget.",
+            "Не требует Strawberry Perl",
+            "Сосуществует с MiKTeX, если вам нужны оба",
+            "Возможность обновления с помощью обновления крыльев."
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Для первой компиляции требуется Интернет",
+            "Узкоспециализированные пакеты (продвинутая физика и т. д.) могут потребовать MiKTeX."
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Установить с помощью вингетта",
+              "note": "Откройте PowerShell как обычный пользователь. Администратор не нужен."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Проверьте установку",
+              "note": "Вы должны увидеть что-то вроде: тектонический 0.15.x."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение, чтобы оно обнаружило тектонику."
             }
           ],
           "tagline": "Легкость — одна команда, без Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Лучшая типографика и качество печати по сравнению с облегченными альтернативами.",
+            "Включены все пакеты CTAN, никаких дополнительных загрузок.",
+            "100% правильная библиография — включен совместимый Biber",
+            "Встроенная многоязычная поддержка: кириллица, CJK, арабский, деванагари.",
+            "Совместимость с любым институциональным профилем"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Медленная установка (30–90 минут)",
+            "Занимает 4–8 ГБ дискового пространства.",
+            "Требуется Strawberry Perl для latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Загрузите установщик TeX Live",
+              "note": "Перейдите в tug.org/texlive → скачать → install-tl-windows.exe. Загрузите установщик."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Запустите установщик",
+              "note": "Выберите Простая установка (большая), чтобы установить все. Процесс занимает 30–90 минут."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Установите Strawberry Perl (требуется для latexmk)",
+              "note": "Perl необходим для работы latexmk в Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Проверьте установку",
+              "note": "Все три команды должны ответить номером версии."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Перезагрузить TeXisStudio",
+              "note": "Закройте и снова откройте приложение."
             }
           ],
           "tagline": "Complete — лучший, самый стабильный результат, никаких сюрпризов",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "постдокторантура",
     "level_bachillerato": "Средняя школа",
     "level_tecnico": "Технический",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio находится в управляемом режиме: сосредоточьтесь на своей работе, а приложение позаботится о форматировании, библиографии и доставке.",
+    "error_opening_project": "Не удалось открыть эту папку как проект TeXisStudio. Убедитесь, что он содержит tesis.project.yaml.",
+    "search_library_hint": "Поиск в библиотеке",
+    "detecting_latex": "Обнаружение LaTeX…",
+    "error_importing_tex": "Не удалось импортировать файл .tex: {{error}}."
   },
   "wizard": {
     "title": "Новый проект",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "прочная база для дипломных работ",
     "recommend_reason_verified": "имеет институциональную проверку",
     "recommend_reason_reviewed": "проверено командой",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Диск для компьютеров"
+    "error_vocab_install": "Не удалось активировать «{{name}}». Проверьте подключение или отмените его выбор, чтобы создать проект без этой поддержки. Деталь: {{error}}",
+    "google_drive_desktop": "Google Диск для компьютеров",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Нумерованные уравнения \\\\eqref{}",
+          "Теоремы и доказательства",
+          "Матрицы и векторы",
+          "Коммутативные диаграммы (tikz-cd)",
+          "Деревья доказательств (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX — канонический инструмент формальной математики."
+      },
+      "logica": {
+        "native": [
+          "Деревья дедукции (bussproofs)",
+          "Таблицы истинности",
+          "Формальная семантика",
+          "Диаграммы Хассе"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Физические единицы \\\\SI{} (siunitx)",
+          "Частные производные \\\\pdv{}",
+          "Диаграммы Фейнмана (тикз-фейнман)",
+          "Участки (pgfplots)"
+        ],
+        "external": [
+          "Численное моделирование (экспорт в формате PDF/PNG)"
+        ],
+        "tip": "Используйте siunitx для всех единиц измерения — никогда не пишите «км/ч» напрямую."
+      },
+      "quimica": {
+        "native": [
+          "Химические реакции \\\\ce{} (mhchem)",
+          "Молекулярные структуры (химфиг)",
+          "Единицы \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Сложные 3D-структуры (экспорт из ChemDraw как PDF)"
+        ],
+        "tip": "Для простых структур используйте chemfig. Для кристаллографии или белков импортируйте как PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Единицы \\\\SI{} (siunitx)",
+          "Схемы (circuitikz)",
+          "Графики данных (pgfplots)",
+          "Алгоритмы (алгпсевдокод)"
+        ],
+        "external": [
+          "Технические чертежи (AutoCAD → PDF)",
+          "Схемы печатных плат (KiCad → PDF)"
+        ],
+        "tip": "circuitikz охватывает большинство сигнальных и силовых цепей."
+      },
+      "computacion": {
+        "native": [
+          "Исходный код (листинг)",
+          "Алгоритмы с псевдокодом",
+          "Графики производительности (pgfplots)",
+          "Деревья решений (тикз)"
+        ],
+        "external": [
+          "Диаграммы сложной архитектуры (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Обширные сноски",
+          "Критический аппарат и цитаты из текстов",
+          "Аналитические индексы (makeindex)",
+          "Лингвистические примеры (gb4e)"
+        ],
+        "external": [
+          "Изображения иллюстраций (высокое разрешение PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Статистические таблицы (книжные таблицы)",
+          "Участки (pgfplots)",
+          "Библиографические ссылки в стиле APA/Chicago."
+        ],
+        "external": [
+          "Сложная визуализация данных (R/Python → PDF/PNG)"
+        ],
+        "tip": "Для простых графиков используйте pgfplots. Для сложных визуализаций экспортируйте их из R или Python."
+      },
+      "medicina": {
+        "native": [
+          "Клинические таблицы (книжные таблицы)",
+          "Медицинские части \\\\SI{}",
+          "Рисунки с подписью и этикеткой"
+        ],
+        "external": [
+          "Изображения DICOM/гистология (экспорт в формате PNG/TIFF с высоким разрешением)",
+          "Клинические блок-схемы (draw.io → PDF)"
+        ],
+        "tip": "Диагностические медицинские изображения необходимо импортировать как внешние файлы, а не воспроизводить в LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Полные партитуры (MuseScore/Sibelius → PDF)",
+          "Аудиофрагменты (внешняя ссылка)"
+        ],
+        "tip": "Для сложной нотной записи используйте редактор партитур и прикрепите ее как PDF."
+      },
+      "arte": {
+        "native": [
+          "Табличные технические листы (booktabs)"
+        ],
+        "external": [
+          "Таблички и изображения (высокое разрешение в формате PNG/TIFF)",
+          "Визуальное портфолио (внешний PDF)",
+          "Планы (DWG → PDF)"
+        ],
+        "tip": "Для портфолио используйте высококачественный PDF или PNG. LaTeX управляет макетом и описательным текстом."
+      },
+      "arquitectura": {
+        "native": [
+          "Таблицы бюджета и материалов",
+          "Расписания",
+          "Описательные тексты"
+        ],
+        "external": [
+          "Планы этажей (AutoCAD/ArchiCAD → PDF)",
+          "Рендеры (экспорт в формате PNG/PDF)",
+          "Модели (фото в формате PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Таблицы данных (booktabs)",
+          "Единицы \\\\SI{}",
+          "Филогенетические деревья (тикз)"
+        ],
+        "external": [
+          "Сложные анатомические схемы (Inkscape → PDF/SVG)",
+          "Микроскопия (PNG с высоким разрешением)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Статистические таблицы (книжные таблицы)",
+          "Участки (pgfplots)",
+          "Эконометрические уравнения"
+        ],
+        "external": [
+          "Интерактивные информационные панели и визуализации (экспорт в формате PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Диагностика проекта",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Восстановить эту версию",
     "snapshot_delete_title": "Удалить версию",
     "section_guidance_label": "Руководство по разделу",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "Сохранить и выйти",
+    "snapshot_restore_action": "Восстановить",
+    "continue_editing": "Продолжайте редактировать",
+    "unsaved_changes_message": "У вас есть несохраненные изменения в этом разделе. Что бы ты хотел сделать перед отъездом?",
+    "unsaved_changes_title": "Несохраненные изменения",
+    "review_ai": "ИИ",
+    "visual_type_selector_title": "Какой тип диаграммы вы хотите вставить?",
+    "default_set_a": "Набор А",
+    "add_paragraph": "Новый абзац",
+    "review_grammar": "Грамматика",
+    "bib_refs_count": "{{count}} ссылки в .bib",
+    "section_status_legend": "Легенда статуса",
+    "sections_count": "Разделы {{count}}",
+    "review_spell": "Написание",
+    "leave_without_saving": "Уйти без сохранения",
+    "default_table_column_2": "Столбец 2",
+    "default_set_c": "Набор С",
+    "default_set_b": "Набор Б",
+    "default_table_column_1": "Столбец 1",
+    "no_bib_file": "нет .bib",
     "insert_plugin_figure_title": "Вставка научной фигуры (61 тип)",
     "block_plugin_figure": "Рисунок+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Мы показываем только то, что вам нужно написать и подать без сложностей. Вы можете включить",
     "basic_mode_suffix": "в текстовом разделе.",
     "basic_top_body": "Эти настройки предназначены для принятия полезных решений без ввода технических подробностей LaTeX. Переключиться на",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Проверьте наличие обновлений",
+    "update_checking": "Проверка…",
+    "update_available": "Доступна версия {{version}} — перезапустите, чтобы установить",
+    "update_up_to_date": "Вы в курсе",
+    "update_error": "Не удалось проверить наличие обновлений",
     "update_disabled": "Автоматическое обновление не настроено для этой версии",
     "refresh_catalog": "Обновить каталог",
     "package_status_stable": "Стабильный",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Легкий и простой в обслуживании. Рекомендуется для повседневного написания и проектов, не требующих полного дистрибутива TeX.",
     "latex_suite_title": "Полный пакет LaTeX",
-    "latex_suite_description": "Использует latexmk с TeX Live или MiKTeX. Рекомендуется для расширенных пакетов, сложной библиографии и окончательной доставки.",
+    "latex_suite_description": "Полный пакет LaTeX ({{suiteName}}) с latexmk. Поддерживает все пакеты CTAN, biblatex + Biber, экранирование оболочки и многопроходную компиляцию. Рекомендуемый выбор для полных документов, институциональных профилей и плагинов.",
     "latex_available": "Доступно",
     "latex_not_available": "Не установлено",
     "latex_detected_version": "Обнаруженная версия: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Ноутбук по умолчанию",
     "window_mode_remember": "Запомните последний размер",
     "window_mode_maximized": "Максимизировано",
-    "window_mode_hint": "Выберите окно размером 1280 × 760, восстановите последний использованный размер или откройте его, используя все доступное пространство монитора."
+    "window_mode_hint": "Выберите окно размером 1280 × 760, восстановите последний использованный размер или откройте его, используя все доступное пространство монитора.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Перейдите в «Управление установкой LaTeX», чтобы установить {{suiteName}}.",
+    "latex_recommended_badge": "Рекомендуется",
+    "latex_upgrade_banner": "Установлен {{suiteName}} — поддерживает все пакеты CTAN, Biber и фигурки плагинов без ограничений. Рекомендуется переключение.",
+    "latex_upgrade_btn": "Переключиться на {{suiteName}}",
+    "language_catalog_error": "Не удалось загрузить языковой каталог. Проверьте подключение и повторите попытку.",
+    "language_install_error": "Не удалось установить языковой пакет. Проверьте подключение и повторите попытку."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Изображение «{{file}}», указанное в разделе «{{section}}», не найдено.",
@@ -1026,7 +1188,7 @@
     "hypothesis": "Гипотеза",
     "extra_preamble": "Дополнительная преамбула",
     "latex_warning": "Это поле принимает произвольный LaTeX. Ошибка здесь может помешать компиляции документа.",
-    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbb{R}}",
+    "latex_placeholder": "% e.g.:\n\\hypersetup{colorlinks=true, linkcolor=blue}\n\\newcommand{\\R}{\\mathbbZXQ0QXZ}",
     "footer": "Изменения вступят в силу при следующей компиляции PDF.",
     "advanced_hint": "Включите расширенный режим, чтобы увидеть шрифты, операторы и дополнительные настройки преамбулы."
   },
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Удалить профиль?",
     "delete_profile_body_before": "Это удалит",
     "delete_profile_body_after": "Это действие невозможно отменить.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} установленные профили",
     "installed_profiles": "Установленные профили",
     "profile_count_hint": "Профили {{count}} · нажмите, чтобы просмотреть подробности",
     "import_profile_title": "Импортировать профиль из каталога",
@@ -1135,30 +1297,31 @@
     "selected_chip": "выбрано",
     "installed_chip": "установлен",
     "sections_count_suffix": "разделы",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Плагины",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Передняя часть",
+      "body": "Тело",
+      "back_matter": "Назад Материя",
+      "appendix": "Приложение"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Титульный лист",
+      "abstract": "Аннотация",
+      "acknowledgements": "Благодарности",
+      "table_of_contents": "Оглавление",
+      "list_of_figures": "Список фигур",
+      "list_of_tables": "Список таблиц",
+      "introduction": "Введение",
+      "theoretical_framework": "Теоретическая основа",
+      "methodology": "Методология",
+      "results": "Результаты",
+      "discussion": "Обсуждение",
+      "conclusions": "Выводы",
+      "references": "Ссылки",
+      "appendix": "Приложение",
+      "appendix_a": "Приложение А"
+    },
+    "tags_placeholder": "диссертация, бакалавриат, апа"
   },
   "progress": {
     "status_draft": "Черновик",
@@ -1280,7 +1443,14 @@
     "generating_response": "Создание ответа…",
     "message_placeholder": "Напишите свое сообщение... (Введите, чтобы отправить)",
     "configure_key_first": "Сначала настройте свой ключ API",
-    "send": "Send"
+    "send": "Отправить",
+    "error_not_configured": "Ключ API не настроен. Добавьте свой ключ на вкладке провайдера.",
+    "error_auth": "Неверный ключ API. Убедитесь, что он правильный и активный.",
+    "error_rate_limited": "Достигнут лимит запросов. Повторите попытку через несколько минут.",
+    "error_network": "Ошибка сети. Проверьте подключение к Интернету.",
+    "error_safety": "Запрос заблокирован политикой безопасности.",
+    "error_model_unavailable": "Выбранная модель недоступна. Выберите другой в настройках.",
+    "error_provider": "Ошибка провайдера. Попробуйте еще раз."
   },
   "editor_meta": {
     "project_guide": "Руководство проекта",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Не подтверждено — этот блок не будет включен в PDF, пока вы его не подтвердите.",
     "packages": "Пакеты",
     "edit_figure_title": "Отредактируйте заголовок или метку или заново создайте рисунок.",
-    "edit_figure": "Редактировать рисунок"
+    "edit_figure": "Редактировать рисунок",
+    "preview_pending": "Скомпилируйте превью из вкладки «Предварительный просмотр», чтобы увидеть рисунок здесь."
   },
   "compile": {
     "ensure_latex_installed_path": "Убедитесь, что компилятор LaTeX установлен и доступен в PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Компиляция… (строки {{count}})",
     "backends_available": "{{backends}} доступен",
     "latex_not_installed_status": "⚠ LaTeX не установлен",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Скомпилировать",
+    "preflight_action_export": "Экспортная подача",
+    "preflight_title": "Проверка до {{action}}",
+    "preflight_has_errors": "Прежде чем продолжить, исправьте ошибки {{count}}.",
+    "preflight_has_warnings": "Обнаружены предупреждения {{count}}. Вы все равно можете продолжить.",
+    "preflight_errors_section": "Ошибки ({{count}})",
+    "preflight_warnings_section": "Предупреждения ({{count}})",
+    "preflight_suggestions_section": "Предложения ({{count}})",
+    "export_success": "Экспорт завершен",
+    "compile_as_draft": "Скомпилировать как черновик",
+    "readiness_complete": "Завершить",
+    "readiness_export_title": "Окончательная доставка заблокирована",
+    "readiness_back": "Вернуться к обзору",
+    "readiness_compile_title": "Проект не готов к официальной версии",
+    "readiness_export_subtitle": "Для экспорта в окончательном режиме сначала завершите доставку и проверку качества.",
+    "readiness_compile_subtitle": "Скомпилируйте эти положения в виде черновика или просмотрите их, прежде чем рассматривать их как официальную версию.",
+    "readiness_delivery": "Доставка",
+    "readiness_quality": "Окончательное качество",
     "severity_error": "Ошибка",
     "severity_warning": "Предупреждение",
     "severity_suggestion": "Предложение",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "Используйте ▲▼, чтобы изменить порядок.",
     "order_hint_line_2": "Порядок определяет раскрывающийся список при создании проекта.",
     "add_custom_style": "Добавить собственный стиль",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "Идентификатор *",
+    "biblatex_style_required": "Библатексный стиль *",
+    "references_default_title": "Ссылки",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "цитирование",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "Автор-Дата",
+      "numeric": "Числовой",
+      "notes_bibliography": "Примечания-Библиог.",
+      "author_page": "Страница автора"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Американская психологическая ассоциация, 7-е издание",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "Психология",
+          "Образование",
+          "Социальные науки",
+          "Уход",
+          "Общение"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Самый распространенный стиль во всем мире. Требуется во многих программах по психологии, образованию и общественным наукам. Издание седьмое (2020 г.).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "Соединенные Штаты",
+          "Канада",
+          "Латинская Америка",
+          "Австралия"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Автор, Год)",
+        "bibliography_title": "Ссылки"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / Рекомендации ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Медицина",
+          "Уход",
+          "Аптека",
+          "Стоматология",
+          "Науки о здоровье"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Обязательный числовой стиль для медицинских наук. Ссылки отсортированы по внешнему виду. Стандарт в журналах MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Глобальные, медицинские и медицинские науки"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Ссылки"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE Стиль цитирования",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Электротехника",
+          "Вычисление",
+          "Телекоммуникации",
+          "Робототехника",
+          "Электроника"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Стандартный числовой стиль для проектирования, вычислений и технологий. Широко распространен в инженерных школах.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Глобальный, инженерия и технологии"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Ссылки"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Примечания)",
+        "full_name": "Chicago Руководство по стилю, 17-е издание, примечания-библиография",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "История",
+          "Литература",
+          "Искусство",
+          "Философия",
+          "Религиоведение"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Примечания и библиографическая система по гуманитарным наукам. Цитаты приведены в сносках.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Соединенные Штаты",
+          "Великобритания",
+          "Канада, гуманитарные науки"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Сноска¹",
+        "bibliography_title": "Библиография"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Автор-Дата)",
+        "full_name": "Chicago Руководство по стилю, 17-е издание, дата автора",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Экономика",
+          "Политология",
+          "Социология",
+          "Антропология",
+          "География"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago Вариант с датой автора, предпочтительный в социальных науках и экономике.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Соединенные Штаты",
+          "Канада, социальные науки"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Год автора)",
+        "bibliography_title": "Ссылки"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "Справочник MLA, 9-е издание",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Литература",
+          "Язык",
+          "Лингвистика",
+          "Культурология",
+          "Риторика"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Стандарт языка, литературы и культурологии в Северной Америке. Издание девятое (2021 г.).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Соединенные Штаты",
+          "Канада, язык и литература"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Страница автора)",
+        "bibliography_title": "Цитируемые работы"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "Гарвард",
+        "full_name": "Гарвардский стиль ссылок",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Бизнес",
+          "Управление",
+          "Экономика",
+          "Социальные науки"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Стиль даты автора аналогичен APA. Широко используется в университетах Великобритании и Австралии.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "Великобритания",
+          "Австралия",
+          "Ирландия",
+          "Южная Африка"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Год автора)",
+        "bibliography_title": "Ссылки"
       },
       "mhra": {
-        "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "name": "МХРА",
+        "full_name": "Руководство по стилю Ассоциации современных гуманитарных исследований, 3-е издание",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Гуманитарные науки",
+          "История",
+          "Литература",
+          "Философия",
+          "Лингвистика"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Британский стандарт гуманитарных наук, аналогичный Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Великобритания",
+          "Ирландия, гуманитарные науки"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Сноска¹",
+        "bibliography_title": "Библиография"
       },
       "abnt": {
-        "name": "ABNT",
-        "full_name": "ABNT NBR 6023:2018",
+        "name": "АБНТ",
+        "full_name": "АБНТ НБР 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Все дисциплины (Бразилия)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Национальный стандарт академической работы в бразильских университетах.",
         "regions_primary": [
-          "Brazil, required"
+          "Бразилия, обязательно"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(АВТОР, Год)",
+        "bibliography_title": "Ссылки"
       },
       "gb7714": {
-        "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "name": "ГБ/Т 7714",
+        "full_name": "ГБ/Т 7714-2015, китайский национальный стандарт",
         "disciplines": [
-          "All disciplines (China)"
+          "Все дисциплины (Китай)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Национальный стандарт диссертаций на китайском языке. Требуется в китайских университетах.",
         "regions_primary": [
-          "China, required"
+          "Китай, обязательно"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Ссылки"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Восстановить стили по умолчанию",
+    "reset_action": "Восстановить"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Вставьте перекрестную ссылку ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Необязательное название",
     "theorem_title_placeholder": "Теорема Пифагора",
     "math_content": "Содержание (принимает математический LaTeX)",
-    "theorem_content_placeholder": "Пусть $a^2 + b^2 = c^2$, где $c$ — гипотенуза..."
+    "theorem_content_placeholder": "Пусть $a^2 + b^2 = c^2$, где $c$ — гипотенуза...",
+    "term_placeholder": "Онтология",
+    "definition_placeholder": "Раздел философии, изучающий бытие как бытие.",
+    "acronym_placeholder": "ИИ",
+    "full_form_placeholder": "Искусственный интеллект"
   },
   "citation": {
     "error_connect": "Ошибка подключения.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Пустое уравнение",
     "custom_molecule": "Пользовательская молекула",
     "molecule_compile_hint": "Структура, созданная с помощью chemfig при компиляции",
-    "chemical_syntax_hint": "Используйте -> (реакция), <=> (равновесие), ^ (газ) и v (осадок)"
+    "chemical_syntax_hint": "Используйте -> (реакция), <=> (равновесие), ^ (газ) и v (осадок)",
+    "label_example": "рис: моя диаграмма",
+    "circuit_lower": "схема",
+    "diagram_lower": "диаграмма",
+    "default_start": "Старт",
+    "default_process": "Процесс",
+    "default_end": "Конец",
+    "default_event": "Событие {{number}}",
+    "default_major_scale": "До мажорная гамма"
   },
   "vocabulary": {
     "title": "Словари доменов",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "у которого есть",
     "repo_hint_suffix": "раздел. Это может быть ваш собственный репозиторий GitHub.",
     "alias_placeholder": "Псевдоним (e.g.my-lab-terms)",
-    "adding": "Добавление…"
+    "adding": "Добавление…",
+    "catalog_error": "Не удалось загрузить словарный каталог. Проверьте подключение и повторите попытку.",
+    "repo_sync_error": "Не удалось синхронизировать этот репозиторий.",
+    "repo_add_error": "Не удалось добавить репозиторий. Проверьте его адрес и повторите попытку."
   },
   "profile_wizard": {
     "step_of": "Шаг {{current}} из {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Установить из URL",
     "install_from_url_hint": "Вставьте URL из .zip, содержащего действительный профиль .yaml.",
     "install_btn": "Установить",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Вам не нужно точное имя профиля",
+    "guided_hint_body": "Начните с вашего учреждения или с близкого сочетания степени, области и стиля цитирования. Если точного совпадения нет, начните с простой институциональной базы и впоследствии скорректируйте ее.",
+    "catalog_load_error": "Не удалось загрузить каталог профилей. Проверьте подключение или повторите попытку.",
+    "install_success": "«{{name}}» успешно установлен.",
+    "breadcrumb_all": "Все",
+    "profile_count_one": "{{count}} профиль",
+    "profile_count_other": "{{count}} профили",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "Америка",
+      "europe": "Европа",
+      "asia": "Азия",
+      "generic": "Общий"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "Мексика",
+      "usa": "Соединенные Штаты",
+      "canada": "Канада",
+      "brazil": "Бразилия",
+      "argentina": "Аргентина",
+      "chile": "Чили",
+      "uk": "Великобритания",
+      "germany": "Германия",
+      "spain": "Испания",
+      "netherlands": "Нидерланды",
+      "italy": "Италия",
+      "sweden": "Швеция",
+      "france": "Франция",
+      "china": "Китай",
+      "japan": "Япония",
+      "south_korea": "Южная Корея",
+      "singapore": "Сингапур",
+      "india": "Индия",
+      "generic": "Общий"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "Средняя школа",
+      "tecnico": "Техническая степень",
+      "licenciatura": "Степень бакалавра",
+      "especialidad": "Специализация",
+      "maestria": "степень магистра",
+      "doctorado": "докторская степень",
+      "posdoctorado": "Постдок"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Институциональный",
+      "degree_specific": "В зависимости от степени",
+      "program_specific": "специфичный для программы",
+      "discipline_specific": "Для конкретной области"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Все дисциплины",
+      "engineering": "Инженерное дело",
+      "social_sciences": "Социальные науки",
+      "humanities": "Гуманитарные науки",
+      "health_sciences": "Науки о здоровье",
+      "computing": "Вычисление",
+      "natural_sciences": "Естественные науки"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Проверено",
+    "status_reviewed_label": "Рассмотрено"
   },
   "about": {
     "title": "О",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Применить изменения и регенерировать рисунок",
     "apply_visual_btn": "Применить",
     "applying": "Применение…",
-    "done_msg": "Рисунок обновлён"
+    "done_msg": "Рисунок обновлён",
+    "tab_preview": "Предварительный просмотр",
+    "preview_compile_btn": "Перекомпилировать предварительный просмотр",
+    "preview_compiling": "Компиляция…",
+    "preview_apply_first": "Примените изменения перед предварительным просмотром.",
+    "preview_tectonic_note": "Tectonic — активный двигатель. Если предварительный просмотр не удался, для этого рисунка может потребоваться полный пакет LaTeX (MacTeX / MiKTeX / TeX Live). Вы можете изменить двигатель в Настройки → Двигатель LaTeX.",
+    "preview_error_prefix": "Ошибка компиляции:",
+    "preview_no_tectonic": "Tectonic не установлен или не найден."
   },
   "elements_tab": {
     "title": "Элементы",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Внутренний тип",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Параграф",
+        "description": "Текстовый блок произвольной формы. Поддерживает выделение, встроенные цитаты и встроенный LaTeX.",
+        "latex_output": "Экранированный текст, записанный непосредственно в документ."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Название/Заголовок",
+        "description": "Заголовок раздела: раздел (H1), подраздел (H2) или подраздел (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Рисунок",
+        "description": "Изображение с подписью, источником и меткой для перекрестных ссылок. Ширина: 50%, 75%, 100%.",
+        "latex_output": "фигура окружения + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Таблица",
+        "description": "Таблица с заголовками, строками, заголовком и источником. Стили: простой, книжный, широкий, длинный стол.",
+        "latex_output": "среда таблицы + tabular/longtable + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Уравнение",
+        "description": "Нумерованная или ненумерованная математическая формула. Написано чистой математикой LaTeX.",
+        "latex_output": "уравнение или уравнение* среда + необязательно \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "Список",
+        "description": "Маркированный (постатейный), нумерованный (нумерованный) или описательный (описание) список.",
+        "latex_output": "\\begin{пункт/перечислить/описание}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Библиографическая ссылка",
+        "description": "Круглые, повествовательные или множественные цитаты, связанные с ключом BibTeX в файле .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "Сырой LaTeX",
+        "description": "Произвольный фрагмент LaTeX для сложных случаев. Требуется подтверждение пользователя.",
+        "latex_output": "Дословно, без изъянов. Используйте с осторожностью."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "текст",
+      "content": "содержание",
+      "structure": "структура",
+      "navigation": "навигация",
+      "image": "изображение",
+      "graphic": "графика",
+      "data": "данные",
+      "statistics": "статистика",
+      "mathematics": "математика",
+      "formula": "формула",
+      "list": "список",
+      "enumeration": "перечисление",
+      "bibliography": "библиография",
+      "reference": "ссылка",
+      "advanced": "продвинутый",
+      "custom": "обычай"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Ход проекта",
+    "row_overall": "Проект",
+    "row_setup": "Настройка",
+    "row_writing": "Написание",
+    "row_delivery": "Доставка",
+    "row_quality": "Окончательное качество",
+    "pending_prefix": "В ожидании:",
+    "delivery_blocked": "Есть ожидающие товары перед окончательной доставкой",
+    "setup_title": "Установите настоящее название произведения",
+    "setup_author": "Полное основное авторство",
+    "setup_institution": "Войдите в настоящее учреждение",
+    "setup_profile": "Выберите академический профиль",
+    "setup_language": "Выберите базовый язык",
+    "setup_advisor": "Добавьте хотя бы одного научного руководителя или руководителя диссертации.",
+    "writing_sections": "Включите хотя бы один раздел контента",
+    "writing_draft": "Напишите контент в основном разделе",
+    "writing_words": "Разработать существенный первый проект",
+    "writing_reviewed": "Отметить хотя бы один раздел как измененный",
+    "delivery_references": "Включить раздел ссылок",
+    "delivery_abstract": "Напишите резюме или аннотацию",
+    "delivery_required": "Заполните необходимые разделы профиля",
+    "delivery_latex": "Подтвердите или удалите непроверенные блоки LaTeX.",
+    "delivery_committee": "Заполнить комиссию по опережающим работам",
+    "delivery_review_main": "Перед доставкой просмотрите основные разделы",
+    "quality_citation": "Включите в текст хотя бы одну проверяемую цитату.",
+    "quality_required_reviewed": "Отметить необходимые разделы кузова как исправленные",
+    "quality_raw_latex": "Перенесите или вручную проверьте импортированные блоки LaTeX перед окончательной доставкой.",
+    "quality_plugin_warnings": "Устраните предупреждения о рисунках или плагинах перед окончательной доставкой.",
+    "quality_profile": "Используйте институциональный или индивидуальный профиль для официальных заявок."
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Плагины",
+    "subtitle": "Доступны визуальные плагины {{count}} для вставки рисунков и диаграмм.",
+    "search_placeholder": "Поиск по названию, упаковке или категории…",
+    "no_results": "Никакие плагины не соответствуют этому запросу.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "стабильный",
+      "beta": "бета",
+      "experimental": "экспериментальный",
+      "draft": "проект"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Выберите свой язык",
+    "subheading": "Вы можете изменить это позже в настройках.",
+    "more_languages": "Больше языков",
+    "loading_more": "Загрузка дополнительных языков…",
+    "catalog_error": "Не удалось загрузить больше языков. Вы можете продолжить работу со встроенным языком.",
+    "skip": "Пропустить",
+    "install_error": "Не удалось установить этот язык. Проверьте подключение и повторите попытку."
   },
   "toast": {
     "close_button": "Закрыть уведомление",
@@ -2527,7 +2721,50 @@
     "redo": "Повторить",
     "restore_btn": "Пример восстановления",
     "restore_title": "Замените минимальным рабочим примером",
-    "advanced_section": "Расширенные параметры"
+    "advanced_section": "Расширенные параметры",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Метка для перекрестных ссылок (e.g. eq:quadratic). Пустой означает отсутствие метки."
+      },
+      "chemistry_output": {
+        "label": "Режим вывода",
+        "description": "mhchem: встроенный \\ce{...}. chemfig: структуры валентных углов."
+      },
+      "circuit_style": {
+        "label": "Американский стиль",
+        "description": "Включено: американские символы компонентов (IEEE). Выкл.: Европейские символы (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Библиотеки TikZ",
+        "description": "Дополнительные библиотеки TikZ, разделенные запятыми (e.g.calc, стрелки.meta, шаблоны)."
+      },
+      "pgfplots_options": {
+        "label": "Параметры PGFPlots",
+        "description": "Дополнительные параметры, вставленные в \\beginZXQ0QXZ[…], например xbar или compat=1.18."
+      },
+      "forest_options": {
+        "label": "Варианты леса",
+        "description": "В среду леса передаются дополнительные параметры, такие как раздвоенные кромки или стили меток кромок."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Ориентированные и неориентированные графы с узлами, ребрами, фигурами и стилями дуг."
+      },
+      "pgfplots": {
+        "description": "Графики, гистограммы, гистограммы, диаграммы рассеяния и тепловые карты с помощью PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Иерархический синтаксис, таксономические, филогенетические, деревья решений и вероятности."
+      },
+      "table_data": {
+        "description": "Таблицы данных можно экспортировать в данные booktabs, longtable или PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Диаграммы Ганта и временные шкалы с группами, задачами и зависимостями."
+      }
+    }
   },
   "help": {
     "title": "Справочный центр",
@@ -2538,7 +2775,7 @@
     "section_figures": "Рисунки и плагины",
     "section_latex": "Основы LaTeX",
     "section_errors": "Распространённые ошибки",
-    "section_faq": "FAQ",
+    "section_faq": "Часто задаваемые вопросы",
     "start": {
       "intro": "TeXisStudio позволяет создавать профессиональные академические документы без знания LaTeX.",
       "step1": "1. Создайте или откройте проект на главном экране.",

@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Cea mai bună tipografie și rezultate ale oricărei alternative ușoare",
+            "Bibliografii 100% compatibile (versiunea corectă biber inclusă)",
+            "Toate pachetele CTAN sunt disponibile fără restricții",
+            "Suport nativ multilingv: chirilic, CJK, arabă, devanagari",
+            "Compilare corectă în mai multe treceri: TOC, indexuri, referințe încrucișate",
+            "Instalare Homebrew cu o singură comandă"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Descărcare mare (~5 GB)",
+            "Instalarea durează 10-20 de minute"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Instalați Homebrew (dacă nu îl aveți)",
+              "note": "Homebrew este managerul standard de pachete macOS. Dacă îl aveți deja, săriți peste acest pas."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Instalați MacTeX cu Homebrew",
+              "note": "Descărcări ~5 GB. Procesul durează 10-20 de minute, în funcție de conexiunea dvs."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Actualizați variabilele de mediu",
+              "note": "Sau pur și simplu închideți și redeschideți Terminalul, astfel încât să preia noua cale."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificați instalarea",
+              "note": "Toate cele trei comenzi ar trebui să răspundă cu un număr de versiune."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația, astfel încât să detecteze noua instalare."
             }
           ],
           "tagline": "Recomandat — rezultatul cel mai bun, cel mai stabil și complet",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Instalat în mai puțin de 1 minut",
+            "Descarcă numai pachetele pe care le folosește teza ta",
+            "Coexistă cu MacTeX dacă aveți nevoie de ambele",
+            "Upgrade cu upgrade de preparare"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Prima compilare necesită o conexiune la internet",
+            "Pachetele foarte specializate (fizică avansată etc.) pot necesita MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Instalați Homebrew (dacă nu îl aveți)",
+              "note": "Dacă aveți deja Homebrew, săriți peste acest pas."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Instalați Tectonic cu Homebrew",
+              "note": "Descărcare ușoară. Gata în mai puțin de 1 minut."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificați instalarea",
+              "note": "Ar trebui să vedeți ceva de genul: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația, astfel încât să detecteze tectonica."
             }
           ],
           "tagline": "Ușoară — descarcă doar ceea ce are nevoie",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Cele mai bune tipografii și rezultate peste alternative ușoare",
+            "Bibliografii 100% corecte — versiunea biber compatibilă inclusă",
+            "Toate pachetele CTAN fără restricții",
+            "Suport nativ multilingv: chirilic, CJK, arabă, devanagari",
+            "Compilare corectă în mai multe treceri: TOC, indexuri, referințe încrucișate",
+            "Instalare cu o singură comandă de sistem"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Instalarea completă durează 3–5 GB",
+            "Versiunea de depozit poate fi puțin mai veche decât versiunea oficială"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Include totul. Dacă spațiul este limitat, utilizați texlive-xetex în loc de texlive-full."
             },
             {
               "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "note": "Instalează schema completă TeX Live."
             },
             {
               "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "note": "Instalează grupurile principale și biber pentru bibliografie."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Schema completă prin zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificați instalarea",
+              "note": "Toate cele trei comenzi ar trebui să răspundă cu un număr de versiune."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația, astfel încât să detecteze noua instalare."
             }
           ],
           "tagline": "Recomandat — rezultatul cel mai bun, cel mai stabil și complet",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "Nu necesită sudo pentru a instala",
+            "Descarcă doar ceea ce are nevoie teza ta",
+            "Coexistă cu TeX Live dacă aveți nevoie de ambele"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Prima compilare necesită internet",
+            "Pachetele foarte specializate (fizică avansată etc.) pot necesita TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Instalați cu scriptul oficial",
+              "note": "Descărcă și instalează binarul în ~/.cargo/bin sau ~/bin, în funcție de configurația dvs."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternativă: instalați cu Cargo",
+              "note": "Necesită instalarea Rust. Compilează de la sursă, durează câteva minute."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificați instalarea",
+              "note": "Ar trebui să vedeți ceva de genul: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația."
             }
           ],
           "tagline": "Ușor - nu este necesar un manager de pachete de sistem",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Cele mai bune tipografii și rezultate peste alternative ușoare",
+            "Bibliografii 100% corecte — biber inclus și compatibil",
+            "Toate pachetele CTAN, descărcate la cerere",
+            "Nu necesită Strawberry Perl (spre deosebire de manualul latexmk)",
+            "Suport multilingv: chirilic, CJK, arabă, devanagari",
+            "Instalator grafic .exe ușor de utilizat"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "Consola MiKTeX poate fi confuză la început",
+            "Necesită acceptarea instalării pachetului în timpul primei compilări"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Instalați MiKTeX cu winget",
+              "note": "Deschideți PowerShell ca utilizator normal (nu este nevoie de administrator). winget este inclus în Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternativă: instalator grafic",
+              "note": "Accesați miktex.org → Descărcare → Windows. Descărcați programul de instalare pe 64 de biți și rulați-l. Alegeți Instalați MiKTeX numai pentru mine."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Verificați instalarea",
+              "note": "Ar trebui să răspundă cu un număr de versiune."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația, astfel încât să detecteze MiKTeX."
             }
           ],
           "tagline": "Recomandat pe Windows — cea mai bună ieșire, completă fără Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Instalat în 1 minut cu aripioară",
+            "Nu necesită Strawberry Perl",
+            "Coexistă cu MiKTeX dacă aveți nevoie de ambele",
+            "Upgrade cu upgrade winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Prima compilare necesită internet",
+            "Pachetele foarte specializate (fizică avansată etc.) pot necesita MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Instalați cu aripioară",
+              "note": "Deschideți PowerShell ca utilizator normal. Nu este nevoie de administrator."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificați instalarea",
+              "note": "Ar trebui să vedeți ceva de genul: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația, astfel încât să detecteze tectonica."
             }
           ],
           "tagline": "Ușor - o comandă, fără Perl",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Cele mai bune tipografii și rezultate peste alternative ușoare",
+            "Toate pachetele CTAN incluse, fără descărcări suplimentare",
+            "Bibliografii 100% corecte — biber compatibil inclus",
+            "Suport nativ multilingv: chirilic, CJK, arabă, devanagari",
+            "Compatibil cu orice profil instituțional"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Instalare lentă (30–90 minute)",
+            "Ocupă 4–8 GB de spațiu pe disc",
+            "Necesită Strawberry Perl pentru latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Descărcați programul de instalare TeX Live",
+              "note": "Accesați tug.org/texlive → descărcare → install-tl-windows.exe. Descărcați programul de instalare."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Rulați programul de instalare",
+              "note": "Alegeți Instalare simplă (mare) pentru a instala totul. Procesul durează 30-90 de minute."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Instalați Strawberry Perl (necesar pentru latexmk)",
+              "note": "Perl este necesar pentru ca latexmk să funcționeze pe Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificați instalarea",
+              "note": "Toate cele trei comenzi ar trebui să răspundă cu un număr de versiune."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Reporniți TeXisStudio",
+              "note": "Închideți și redeschideți aplicația."
             }
           ],
           "tagline": "Complet — cea mai bună, cea mai stabilă producție, fără surprize",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "Postdoctorat",
     "level_bachillerato": "liceu",
     "level_tecnico": "Tehnic",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio este în modul ghidat: concentrează-te pe munca ta, iar aplicația se va ocupa de formatare, bibliografie și livrare.",
+    "error_opening_project": "Nu s-a putut deschide acel folder ca proiect TeXisStudio. Asigurați-vă că conține tesis.project.yaml.",
+    "search_library_hint": "Căutați în bibliotecă",
+    "detecting_latex": "Se detectează LaTeX...",
+    "error_importing_tex": "Nu s-a putut importa fișierul .tex: {{error}}"
   },
   "wizard": {
     "title": "Proiect nou",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "bază solidă pentru teze",
     "recommend_reason_verified": "are verificare instituțională",
     "recommend_reason_reviewed": "revizuit de echipă",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive pentru desktop"
+    "error_vocab_install": "Nu s-a putut activa „{{name}}”. Verificați-vă conexiunea sau deselectați-o pentru a crea proiectul fără acest suport. Detaliu: {{error}}",
+    "google_drive_desktop": "Google Drive pentru desktop",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Ecuații numerotate \\\\eqref{}",
+          "Teoreme și dovezi",
+          "Matrici și vectori",
+          "Diagrame comutative (tikz-cd)",
+          "Arbori de dovadă (protecții autobuzelor)"
+        ],
+        "external": [],
+        "tip": "LaTeX este instrumentul canonic pentru matematica formală."
+      },
+      "logica": {
+        "native": [
+          "Arbori de deducere (antibus)",
+          "Tabelele de adevăr",
+          "Semantică formală",
+          "Diagrame Hasse"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Unități fizice \\\\SI{} (siunitx)",
+          "Derivate parțiale \\\\pdv{}",
+          "Diagrame Feynman (tikz-feynman)",
+          "Loturi (pgfplots)"
+        ],
+        "external": [
+          "Simulări numerice (exportați ca PDF/PNG)"
+        ],
+        "tip": "Utilizați siunitx pentru toate unitățile — nu scrieți niciodată „km/h” direct."
+      },
+      "quimica": {
+        "native": [
+          "Reacții chimice \\\\ce{} (mhchem)",
+          "Structuri moleculare (chemfig)",
+          "Unități \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Structuri 3D complexe (export din ChemDraw ca PDF)"
+        ],
+        "tip": "Pentru structuri simple folosiți chemfig. Pentru cristalografie sau proteine, importați ca PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Unități \\\\SI{} (siunitx)",
+          "Circuite (circuitikz)",
+          "Grafice de date (pgfplots)",
+          "Algoritmi (algpseudocod)"
+        ],
+        "external": [
+          "Desene tehnice (AutoCAD → PDF)",
+          "Diagrame PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz acoperă majoritatea circuitelor de semnal și putere."
+      },
+      "computacion": {
+        "native": [
+          "Cod sursă (lstlisting)",
+          "Algoritmi cu pseudocod",
+          "Grafice de performanță (pgfplots)",
+          "Arbori de decizie (tikz)"
+        ],
+        "external": [
+          "Diagrame de arhitectură complexe (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Note de subsol extinse",
+          "Aparatul critic și citarea textului",
+          "Indici analitici (makeindex)",
+          "Exemple lingvistice (gb4e)"
+        ],
+        "external": [
+          "Imagini de artă (rezoluție înaltă ca PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Tabele statistice (booktabs)",
+          "Loturi (pgfplots)",
+          "Citate bibliografice în stil APA/Chicago"
+        ],
+        "external": [
+          "Vizualizări complexe de date (R/Python → PDF/PNG)"
+        ],
+        "tip": "Pentru parcele simple utilizați pgfplots. Pentru vizualizări elaborate, exportați din R sau Python."
+      },
+      "medicina": {
+        "native": [
+          "Tabele clinice (booktabs)",
+          "Unități medicale \\\\SI{}",
+          "Figuri cu legenda și etichetă"
+        ],
+        "external": [
+          "Imagini DICOM/histologie (export ca PNG/TIFF de înaltă rezoluție)",
+          "Diagrame clinice (draw.io → PDF)"
+        ],
+        "tip": "Imaginile medicale de diagnosticare trebuie importate ca fișiere externe, nu reproduse în LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Partituri complete (MuseScore/Sibelius → PDF)",
+          "Fragmente audio (link extern)"
+        ],
+        "tip": "Pentru notații muzicale complexe, utilizați un editor de partituri și atașați-l ca PDF."
+      },
+      "arte": {
+        "native": [
+          "Fișe tehnice tabulate (booktabs)"
+        ],
+        "external": [
+          "Plăci și lucrări de artă (rezoluție înaltă ca PNG/TIFF)",
+          "Portofoliu vizual (PDF extern)",
+          "Planuri (DWG → PDF)"
+        ],
+        "tip": "Pentru portofolii, includeți PDF sau PNG de înaltă calitate. LaTeX gestionează aspectul și textul descriptiv."
+      },
+      "arquitectura": {
+        "native": [
+          "Buget și tabele materiale",
+          "Programe",
+          "Texte descriptive"
+        ],
+        "external": [
+          "Planuri de etaj (AutoCAD/ArchiCAD → PDF)",
+          "Randări (exportați ca PNG/PDF)",
+          "Modele (fotografie ca PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Tabele de date (booktabs)",
+          "Unități \\\\SI{}",
+          "Arbori filogenetici (tikz)"
+        ],
+        "external": [
+          "Diagrame anatomice complexe (Inkscape → PDF/SVG)",
+          "Microscopie (PNG de înaltă rezoluție)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Tabele statistice (booktabs)",
+          "Loturi (pgfplots)",
+          "Ecuații econometrice"
+        ],
+        "external": [
+          "Tablouri de bord și vizualizări interactive (exportați ca PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Diagnosticarea proiectului",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "Restaurați această versiune",
     "snapshot_delete_title": "Șterge versiunea",
     "section_guidance_label": "Îndrumarea secțiunii",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "Salvați și ieșiți",
+    "snapshot_restore_action": "Restaurați",
+    "continue_editing": "Continuați să editați",
+    "unsaved_changes_message": "Aveți modificări nesalvate în această secțiune. Ce ai vrea să faci înainte de a pleca?",
+    "unsaved_changes_title": "Modificări nesalvate",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
+    "visual_type_selector_title": "Ce tip de diagramă doriți să introduceți?",
     "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
+    "add_paragraph": "Alineat nou",
+    "review_grammar": "Gramatica",
+    "bib_refs_count": "{{count}} se referă în .bib",
+    "section_status_legend": "Legendă de stare",
+    "sections_count": "{{count}} secțiuni",
+    "review_spell": "ortografie",
+    "leave_without_saving": "Pleacă fără a salva",
+    "default_table_column_2": "Coloana 2",
     "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "default_set_b": "Setul B",
+    "default_table_column_1": "Coloana 1",
+    "no_bib_file": "nu .bib",
     "insert_plugin_figure_title": "Introduceți o figură științifică (61 de tipuri)",
     "block_plugin_figure": "Figura+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "Vă arătăm doar ceea ce trebuie să scrieți și să trimiteți fără complexitate. Puteți activa",
     "basic_mode_suffix": "în secțiunea de text.",
     "basic_top_body": "Aceste setări sunt concepute pentru decizii utile fără a introduce detalii tehnice LaTeX. Comutați la",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Verificați actualizările",
+    "update_checking": "Se verifică…",
+    "update_available": "Versiunea {{version}} disponibilă — reporniți pentru a instala",
+    "update_up_to_date": "Ești la curent",
+    "update_error": "Nu s-au putut verifica actualizări",
     "refresh_catalog": "Actualizează catalogul",
     "package_status_stable": "Stabil",
     "package_status_beta": "Beta",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Ușoare și ușor de întreținut. Recomandat pentru scrisul de zi cu zi și proiectele care nu necesită o distribuție completă TeX.",
     "latex_suite_title": "Suita completă LaTeX",
-    "latex_suite_description": "Utilizează latexmk cu TeX Live sau MiKTeX. Recomandat pentru pachete avansate, bibliografii complexe și livrare finală.",
+    "latex_suite_description": "Suită completă LaTeX ({{suiteName}}) cu latexmk. Suportă toate pachetele CTAN, biblatex + Biber, shell-escape și compilarea cu mai multe treceri. Alegerea recomandată pentru documente complete, profiluri instituționale și figuri de plugin.",
     "latex_available": "Disponibil",
     "latex_not_available": "Neinstalat",
     "latex_detected_version": "Versiunea detectată: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "Laptop implicit",
     "window_mode_remember": "Amintiți-vă ultima mărime",
     "window_mode_maximized": "Maximizat",
-    "window_mode_hint": "Alegeți o fereastră de 1280 × 760, restaurați ultima dimensiune pe care ați folosit-o sau deschideți folosind tot spațiul disponibil pe monitor."
+    "window_mode_hint": "Alegeți o fereastră de 1280 × 760, restaurați ultima dimensiune pe care ați folosit-o sau deschideți folosind tot spațiul disponibil pe monitor.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Accesați „Gestionați instalarea LaTeX” pentru a instala {{suiteName}}.",
+    "latex_recommended_badge": "Recomandat",
+    "latex_upgrade_banner": "{{suiteName}} este instalat - acceptă toate pachetele CTAN, Biber și figurile plugin fără restricții. Se recomandă comutarea.",
+    "latex_upgrade_btn": "Comutați la {{suiteName}}",
+    "language_catalog_error": "Nu s-a putut încărca catalogul de limbi. Verificați conexiunea și încercați din nou.",
+    "language_install_error": "Nu s-a putut instala pachetul de limbă. Verificați conexiunea și încercați din nou."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Imaginea „{{file}}” la care se face referire în secțiunea „{{section}}” nu a fost găsită.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "Ștergeți profilul?",
     "delete_profile_body_before": "Aceasta se va șterge",
     "delete_profile_body_after": "Această acțiune nu poate fi anulată.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} profile instalate",
     "installed_profiles": "Profiluri instalate",
     "profile_count_hint": "Profiluri {{count}} · dați clic pentru a vedea detalii",
     "import_profile_title": "Importați profilul din director",
@@ -1135,30 +1297,31 @@
     "selected_chip": "selectat",
     "installed_chip": "instalat",
     "sections_count_suffix": "secțiuni",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "Pluginuri",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Materia frontală",
+      "body": "Corpul",
+      "back_matter": "Materia din spate",
+      "appendix": "Anexa"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Pagina de titlu",
+      "abstract": "Rezumat",
+      "acknowledgements": "Mulțumiri",
+      "table_of_contents": "Cuprins",
+      "list_of_figures": "Lista figurilor",
+      "list_of_tables": "Lista de tabele",
+      "introduction": "Introducere",
+      "theoretical_framework": "Cadrul teoretic",
+      "methodology": "Metodologie",
+      "results": "Rezultate",
+      "discussion": "Discuție",
+      "conclusions": "Concluzii",
+      "references": "Referințe",
+      "appendix": "Anexa",
+      "appendix_a": "Anexa A"
+    },
+    "tags_placeholder": "teză, licență, apa"
   },
   "progress": {
     "status_draft": "Ciornă",
@@ -1280,7 +1443,14 @@
     "generating_response": "Se generează răspuns...",
     "message_placeholder": "Scrie-ți mesajul... (Intră pentru a trimite)",
     "configure_key_first": "Configurați mai întâi cheia API",
-    "send": "Send"
+    "send": "Trimite",
+    "error_not_configured": "Cheia API nu este configurată. Adăugați cheia dvs. în fila furnizor.",
+    "error_auth": "Cheie API nevalidă. Verificați dacă este corect și activ.",
+    "error_rate_limited": "Limita de cereri a fost atinsă. Încercați din nou peste câteva minute.",
+    "error_network": "Eroare de rețea. Verificați-vă conexiunea la internet.",
+    "error_safety": "Solicitarea a fost blocată de politica de siguranță.",
+    "error_model_unavailable": "Modelul selectat este indisponibil. Alegeți altul în setări.",
+    "error_provider": "Eroare de furnizor. Încearcă din nou."
   },
   "editor_meta": {
     "project_guide": "Ghid de proiect",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "Neconfirmat — acest bloc nu va fi inclus în PDF până când nu îl confirmați.",
     "packages": "Pachete",
     "edit_figure_title": "Editați titlul sau eticheta sau regenerați figura",
-    "edit_figure": "Editați figura"
+    "edit_figure": "Editați figura",
+    "preview_pending": "Compilați o previzualizare din fila «Previzualizare» pentru a vedea figura aici."
   },
   "compile": {
     "ensure_latex_installed_path": "Verificați dacă un compilator LaTeX este instalat și disponibil în PATH.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "Se compilează... (linii {{count}})",
     "backends_available": "{{backends}} disponibil",
     "latex_not_installed_status": "⚠ LaTeX nu este instalat",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Compilați",
+    "preflight_action_export": "Trimitere de export",
+    "preflight_title": "Verificare înainte de {{action}}",
+    "preflight_has_errors": "Remediați erorile {{count}} înainte de a continua.",
+    "preflight_has_warnings": "S-au găsit avertismente {{count}}. Puteți continua oricum.",
+    "preflight_errors_section": "Erori ({{count}})",
+    "preflight_warnings_section": "Avertismente ({{count}})",
+    "preflight_suggestions_section": "Sugestii ({{count}})",
+    "export_success": "Export finalizat",
+    "compile_as_draft": "Compilați ca schiță",
+    "readiness_complete": "Complet",
+    "readiness_export_title": "Livrarea finală a fost blocată",
+    "readiness_back": "Reveniți la recenzie",
+    "readiness_compile_title": "Proiectul nu este pregătit pentru versiunea oficială",
+    "readiness_export_subtitle": "Pentru a exporta în modul final, finalizați mai întâi livrarea și verificările de calitate.",
+    "readiness_compile_subtitle": "Compilați ca schiță sau revizuiți aceste puncte înainte de a trata aceasta ca o versiune oficială.",
+    "readiness_delivery": "Livrare",
+    "readiness_quality": "Calitatea finală",
     "severity_error": "Eroare",
     "severity_warning": "Avertisment",
     "severity_suggestion": "Sugestie",
@@ -1594,192 +1765,192 @@
     "order_hint_line_2": "Ordinea determină meniul derulant la crearea unui proiect.",
     "add_custom_style": "Adăugați un stil personalizat",
     "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "biblatex_style_required": "stil Biblatex *",
+    "references_default_title": "Referințe",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "citare",
     "types": {
-      "author_date": "Author-Date",
+      "author_date": "Autor-Data",
       "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "notes_bibliography": "Note-Bibliog.",
+      "author_page": "Autor-Pagină"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "Asociația Americană de Psihologie, ediția a 7-a",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "psihologie",
+          "Educație",
+          "stiinte sociale",
+          "Alăptarea",
+          "Comunicare"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "Cel mai folosit stil la nivel global. Necesar în multe programe de psihologie, educație și științe sociale. Ediția a șaptea (2020).",
         "regions_primary": [
-          "United States",
+          "Statele Unite ale Americii",
           "Canada",
-          "Latin America",
+          "America Latină",
           "Australia"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Autor, An)",
+        "bibliography_title": "Referințe"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / Recomandări ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "Medicina",
+          "Alăptarea",
+          "Farmacie",
+          "Stomatologie",
+          "Științe ale sănătății"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "Stilul numeric necesar pentru științele sănătății. Referințele sunt ordonate după aspect. Standard în reviste MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "Științe globale, medicale și de sănătate"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referințe"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE Stil citare",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "Inginerie electrică",
+          "Calculul",
+          "Telecomunicatii",
+          "Robotică",
+          "Electronice"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "Stil numeric standard pentru inginerie, calcul și tehnologie. Adoptat pe scară largă în școlile de inginerie.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "Global, inginerie și tehnologie"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referințe"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (Note)",
+        "full_name": "Chicago Manual de stil, ediția a XVII-a, Note-Bibliografie",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "istorie",
+          "Literatura",
+          "art",
+          "Filosofie",
+          "Studii religioase"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "Note și sistem de bibliografie pentru științe umaniste. Citările apar în notele de subsol.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "Statele Unite ale Americii",
+          "Regatul Unit",
+          "Canada, științe umaniste"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Nota de subsol¹",
+        "bibliography_title": "Bibliografie"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (Autor-Data)",
+        "full_name": "Chicago Manual de stil, ediția a 17-a, autor-data",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "Economie",
+          "Științe politice",
+          "Sociologie",
+          "Antropologie",
+          "Geografie"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago varianta autor-data, preferată în științe sociale și economie.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "Statele Unite ale Americii",
+          "Canada, științe sociale"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Anul autorului)",
+        "bibliography_title": "Referințe"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA Manual, ediția a 9-a",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "Literatura",
+          "Limbă",
+          "Lingvistică",
+          "Studii culturale",
+          "Retorică"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "Standard pentru limbă, literatură și studii culturale în America de Nord. Ediția a noua (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "Statele Unite ale Americii",
+          "Canada, limbă și literatură"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(Pagina autorului)",
+        "bibliography_title": "Lucrări citate"
       },
       "harvard": {
         "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "full_name": "Stil de referință Harvard",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "Afaceri",
+          "management",
+          "Economie",
+          "stiinte sociale"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "Stilul autor-date similar cu APA. Folosit pe scară largă în universitățile din Marea Britanie și Australia.",
         "regions_primary": [
-          "United Kingdom",
+          "Regatul Unit",
           "Australia",
-          "Ireland",
-          "South Africa"
+          "Irlanda",
+          "Africa de Sud"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(Anul autorului)",
+        "bibliography_title": "Referințe"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "Ghid de stil al Asociației de Cercetare în Științe Umaniste Moderne, ediția a 3-a",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "Științe umaniste",
+          "istorie",
+          "Literatura",
+          "Filosofie",
+          "Lingvistică"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Standard umanist din Marea Britanie similar cu Chicago Notes.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "Regatul Unit",
+          "Irlanda, umaniste"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "Nota de subsol¹",
+        "bibliography_title": "Bibliografie"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "Toate disciplinele (Brazilia)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "Standard național pentru munca academică în universitățile braziliene.",
         "regions_primary": [
-          "Brazil, required"
+          "Brazilia, obligatoriu"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(AUTOR, An)",
+        "bibliography_title": "Referințe"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, standard național chinezesc",
         "disciplines": [
-          "All disciplines (China)"
+          "Toate disciplinele (China)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "Standard național pentru teze în limba chineză. Necesar în universitățile chineze.",
         "regions_primary": [
-          "China, required"
+          "China, necesar"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "Referințe"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Restabiliți stilurile implicite",
+    "reset_action": "Restaurați"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Inserați referință încrucișată ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "Titlu optional",
     "theorem_title_placeholder": "Teorema lui Pitagora",
     "math_content": "Conținut (acceptă LaTeX matematic)",
-    "theorem_content_placeholder": "Fie $a^2 + b^2 = c^2$ unde $c$ este ipotenuza..."
+    "theorem_content_placeholder": "Fie $a^2 + b^2 = c^2$ unde $c$ este ipotenuza...",
+    "term_placeholder": "Ontologie",
+    "definition_placeholder": "Ramură a filosofiei care studiază ființa ca ființă.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "Inteligența artificială"
   },
   "citation": {
     "error_connect": "Eroare de conectare.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "Ecuație goală",
     "custom_molecule": "Moleculă personalizată",
     "molecule_compile_hint": "Structura generată cu chemfig la compilare",
-    "chemical_syntax_hint": "Utilizați -> (reacție), <=> (echilibru), ^ (gaz) și v (precipitat)"
+    "chemical_syntax_hint": "Utilizați -> (reacție), <=> (echilibru), ^ (gaz) și v (precipitat)",
+    "label_example": "fig:diagrama mea",
+    "circuit_lower": "circuit",
+    "diagram_lower": "diagramă",
+    "default_start": "Începeți",
+    "default_process": "Proces",
+    "default_end": "Sfârșit",
+    "default_event": "Evenimentul {{number}}",
+    "default_major_scale": "scara C major"
   },
   "vocabulary": {
     "title": "Vocabulare de domeniu",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "care are o",
     "repo_hint_suffix": "sectiunea. Poate fi propriul depozit GitHub.",
     "alias_placeholder": "Alias (e.g. my-lab-terms)",
-    "adding": "Se adaugă…"
+    "adding": "Se adaugă…",
+    "catalog_error": "Nu s-a putut încărca catalogul de vocabular. Verificați conexiunea și încercați din nou.",
+    "repo_sync_error": "Nu s-a putut sincroniza acest depozit.",
+    "repo_add_error": "Nu s-a putut adăuga depozitul. Verifică-i adresa și încearcă din nou."
   },
   "profile_wizard": {
     "step_of": "Pasul {{current}} din {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "Instalați de pe URL",
     "install_from_url_hint": "Lipiți URL al unui .zip care conține un profil valid.yaml.",
     "install_btn": "Instalați",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "Nu aveți nevoie de numele exact al profilului",
+    "guided_hint_body": "Începeți cu instituția dvs. sau cu o combinație apropiată de diplomă, domeniu și stil de citare. Dacă nu există o potrivire exactă, începeți cu o bază instituțională simplă și ajustați-o ulterior.",
+    "catalog_load_error": "Nu s-a putut încărca catalogul de profil. Verificați conexiunea sau încercați din nou.",
+    "install_success": "„{{name}}” instalat cu succes.",
+    "breadcrumb_all": "Toate",
+    "profile_count_one": "profil {{count}}",
+    "profile_count_other": "profile {{count}}",
     "continent": {
       "america": "America",
-      "europe": "Europe",
+      "europe": "Europa",
       "asia": "Asia",
       "generic": "Generic"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
+      "mexico": "Mexic",
+      "usa": "Statele Unite ale Americii",
       "canada": "Canada",
-      "brazil": "Brazil",
+      "brazil": "Brazilia",
       "argentina": "Argentina",
       "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
+      "uk": "Regatul Unit",
+      "germany": "Germania",
+      "spain": "Spania",
+      "netherlands": "Olanda",
+      "italy": "Italia",
+      "sweden": "Suedia",
+      "france": "Franța",
       "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
+      "japan": "Japonia",
+      "south_korea": "Coreea de Sud",
       "singapore": "Singapore",
       "india": "India",
       "generic": "Generic"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
+      "bachillerato": "liceu",
+      "tecnico": "Grad tehnic",
+      "licenciatura": "diplomă de licență",
+      "especialidad": "Specializarea",
+      "maestria": "diplomă de master",
+      "doctorado": "doctorat",
       "posdoctorado": "Postdoc"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "Instituțional",
+      "degree_specific": "Specific gradului",
+      "program_specific": "Specific programului",
+      "discipline_specific": "Specific domeniului"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "Toate disciplinele",
+      "engineering": "Inginerie",
+      "social_sciences": "stiinte sociale",
+      "humanities": "Științe umaniste",
+      "health_sciences": "Științe ale sănătății",
+      "computing": "Calculul",
+      "natural_sciences": "Stiintele naturii"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "Verificat",
+    "status_reviewed_label": "Revizuit"
   },
   "about": {
     "title": "Despre",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "Aplicați modificări și regenerați silueta",
     "apply_visual_btn": "Aplicați modificări",
     "applying": "Se aplică…",
-    "done_msg": "Cifra actualizată"
+    "done_msg": "Cifra actualizată",
+    "tab_preview": "Previzualizare",
+    "preview_compile_btn": "Previzualizarea recompilării",
+    "preview_compiling": "Compilarea…",
+    "preview_apply_first": "Aplicați modificările înainte de previzualizare.",
+    "preview_tectonic_note": "Tectonic este motorul activ. Dacă previzualizarea eșuează, această cifră poate necesita o suită completă LaTeX (MacTeX / MiKTeX / TeX Live). Puteți schimba motorul în Setări → Motor LaTeX.",
+    "preview_error_prefix": "Eroare de compilare:",
+    "preview_no_tectonic": "Tectonic nu este instalat sau nu a putut fi găsit."
   },
   "elements_tab": {
     "title": "Elemente",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "Tip intern",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "Paragraf",
+        "description": "Bloc de text în formă liberă. Acceptă sublinierea, citările inline și LaTeX inline.",
+        "latex_output": "Text cu escape scris direct în document."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "Titlu / Titlu",
+        "description": "Titlul secțiunii: secțiunea (H1), subsecțiunea (H2) sau subsubsecțiunea (H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "Figura",
+        "description": "Imagine cu legendă, sursă și etichetă pentru referințe încrucișate. Lățimi: 50%, 75%, 100%.",
+        "latex_output": "figură mediu + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "Tabelul",
+        "description": "Tabel cu anteturi, rânduri, legendă și sursă. Stiluri: simplu, booktabs, larg, longtable.",
+        "latex_output": "mediu de masă + tabelar/longtable + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "Ecuația",
+        "description": "Formula matematica numerotata sau nenumerotata. Scris în matematică LaTeX pură.",
+        "latex_output": "ecuație sau ecuație* mediu + opțional \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
+        "name": "Lista",
+        "description": "Lista cu marcatori (detaliați), numerotată (enumerați) sau descriptivă (descriere).",
         "latex_output": "\\begin{itemize/enumerate/description}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "Citare bibliografică",
+        "description": "Citare parantetică, narativă sau multiplă legată de o cheie BibTeX din fișierul .bib.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "LaTeX brut",
+        "description": "Fragment LaTeX arbitrar pentru cazuri avansate. Necesită confirmarea utilizatorului.",
+        "latex_output": "Verbatim, fără evadare. Utilizați cu grijă."
       }
     },
     "tags": {
       "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
+      "content": "continut",
+      "structure": "structura",
+      "navigation": "navigare",
+      "image": "imagine",
+      "graphic": "grafic",
+      "data": "date",
+      "statistics": "statistici",
+      "mathematics": "matematica",
       "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "list": "lista",
+      "enumeration": "enumerare",
+      "bibliography": "bibliografie",
+      "reference": "referință",
+      "advanced": "avansat",
+      "custom": "personalizat"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "Progresul proiectului",
+    "row_overall": "Proiect",
+    "row_setup": "Configurare",
+    "row_writing": "Scrierea",
+    "row_delivery": "Livrare",
+    "row_quality": "Calitatea finală",
+    "pending_prefix": "În așteptare:",
+    "delivery_blocked": "Există articole în așteptare înainte de livrarea finală",
+    "setup_title": "Stabiliți titlul real al lucrării",
+    "setup_author": "Autorul principal complet",
+    "setup_institution": "Intră în instituția reală",
+    "setup_profile": "Selectați un profil academic",
+    "setup_language": "Alegeți limba de bază",
+    "setup_advisor": "Adăugați cel puțin un consilier sau director de teză",
+    "writing_sections": "Activați cel puțin o secțiune de conținut",
+    "writing_draft": "Scrieți conținut într-o secțiune principală",
+    "writing_words": "Elaborați un prim proiect substanțial",
+    "writing_reviewed": "Marcați cel puțin o secțiune ca fiind revizuită",
+    "delivery_references": "Includeți o secțiune de referințe",
+    "delivery_abstract": "Scrieți rezumatul sau rezumatul",
+    "delivery_required": "Completați secțiunile necesare ale profilului",
+    "delivery_latex": "Confirmați sau eliminați blocurile LaTeX nevalidate",
+    "delivery_committee": "Completați comitetul pentru muncă avansată",
+    "delivery_review_main": "Consultați secțiunile principale înainte de livrare",
+    "quality_citation": "Includeți cel puțin o citare verificabilă în text",
+    "quality_required_reviewed": "Marcați secțiunile corpului necesare ca fiind revizuite",
+    "quality_raw_latex": "Migrați sau revizuiți manual blocurile LaTeX importate înainte de livrarea finală",
+    "quality_plugin_warnings": "Rezolvați avertismentele privind figurile sau pluginurile înainte de livrarea finală",
+    "quality_profile": "Utilizați un profil instituțional sau personalizat pentru trimiterile oficiale"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "Pluginuri",
+    "subtitle": "{{count}} pluginuri vizuale disponibile pentru inserarea figurilor și diagramelor.",
+    "search_placeholder": "Căutați după nume, pachet sau categorie...",
+    "no_results": "Niciun plugin nu corespunde acestei căutări.",
     "quality": {
-      "stable": "stable",
+      "stable": "stabil",
       "beta": "beta",
       "experimental": "experimental",
       "draft": "draft"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Selectați limba dvs",
+    "subheading": "Puteți schimba acest lucru mai târziu în Setări.",
+    "more_languages": "Mai multe limbi",
+    "loading_more": "Se încarcă mai multe limbi...",
+    "catalog_error": "Nu s-au putut încărca mai multe limbi. Puteți continua cu o limbă grupată.",
+    "skip": "Sari peste",
+    "install_error": "Nu s-a putut instala limba respectivă. Verificați conexiunea și încercați din nou."
   },
   "toast": {
     "close_button": "Închide notificarea",
@@ -2527,7 +2721,50 @@
     "redo": "Reface",
     "restore_btn": "Exemplu de restaurare",
     "restore_title": "Înlocuiți cu un exemplu de lucru minim",
-    "advanced_section": "Opțiuni avansate"
+    "advanced_section": "Opțiuni avansate",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Etichetă pentru referințe încrucișate (e.g. eq:quadratic). Gol înseamnă fără etichetă."
+      },
+      "chemistry_output": {
+        "label": "Mod de ieșire",
+        "description": "mhchem: \\ce în linie{...}. chemfig: structuri unghiulare de legătură."
+      },
+      "circuit_style": {
+        "label": "stil american",
+        "description": "Activat: simboluri ale componentelor americane (IEEE). Off: simboluri europene (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "biblioteci TikZ",
+        "description": "Biblioteci TikZ suplimentare separate prin virgulă (e.g. calc, săgeți.meta, modele)."
+      },
+      "pgfplots_options": {
+        "label": "Opțiuni PGFPlots",
+        "description": "Opțiuni suplimentare introduse în \\beginZXQ0QXZ[…], cum ar fi xbar sau compat=1.18."
+      },
+      "forest_options": {
+        "label": "Opțiuni de pădure",
+        "description": "Opțiuni suplimentare transmise mediului forestier, cum ar fi marginile bifurcate sau stilurile de etichetă de margine."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Grafice direcționate și nedirecționate cu noduri, muchii, forme și stiluri de arc."
+      },
+      "pgfplots": {
+        "description": "Grafice, histograme, diagrame cu bare, diagrame de dispersie și hărți termice cu PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Arbori de sintaxă ierarhică, taxonomică, filogenetică, de decizie și de probabilitate."
+      },
+      "table_data": {
+        "description": "Tabelele de date care pot fi exportate în booktabs, longtable sau date PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Diagrame Gantt și cronologie cu grupuri, sarcini și dependențe."
+      }
+    }
   },
   "help": {
     "title": "Centrul de ajutor",

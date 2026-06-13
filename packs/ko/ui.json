@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "가벼운 대안의 최고의 타이포그래피 및 출력",
+            "100% 호환되는 참고문헌(올바른 biber 버전 포함)",
+            "모든 CTAN 패키지를 제한 없이 사용 가능",
+            "기본 다국어 지원: 키릴 문자, CJK, 아랍어, 데바나가리 문자",
+            "올바른 다중 패스 편집: 목차, 색인, 상호 참조",
+            "원 명령 Homebrew 설치"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "대용량 다운로드(~5GB)",
+            "설치 시간은 10~20분 정도 소요됩니다."
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Homebrew 설치(없는 경우)",
+              "note": "Homebrew는 표준 macOS 패키지 관리자입니다. 이미 갖고 있다면 이 단계를 건너뛰세요."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Homebrew와 함께 MacTeX 설치",
+              "note": "다운로드 최대 5GB. 이 과정은 연결 상태에 따라 10~20분 정도 소요됩니다."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "환경 변수 업데이트",
+              "note": "또는 터미널을 닫았다가 다시 열면 새 PATH가 선택됩니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "설치 확인",
+              "note": "세 가지 명령 모두 버전 번호로 응답해야 합니다."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio 다시 시작",
+              "note": "새 설치를 감지하도록 앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "권장 — 가장 훌륭하고 안정적이며 완벽한 출력",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "1분도 안 걸려 설치 완료",
+            "논문에서 사용하는 패키지만 다운로드합니다.",
+            "둘 다 필요한 경우 MacTeX와 공존",
+            "양조 업그레이드로 업그레이드 가능"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "첫 번째 편집에는 인터넷 연결이 필요합니다.",
+            "고도로 전문화된 패키지(고급 물리학 등)에는 MacTeX가 필요할 수 있습니다."
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Homebrew 설치(없는 경우)",
+              "note": "이미 Homebrew가 있는 경우 이 단계를 건너뛰세요."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Homebrew와 함께 Tectonic 설치",
+              "note": "경량 다운로드. 1분 안에 준비됩니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "설치 확인",
+              "note": "다음과 같은 내용이 표시되어야 합니다: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio 다시 시작",
+              "note": "구조를 감지할 수 있도록 앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "경량 — 필요한 것만 다운로드",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "가벼운 대안에 비해 최고의 타이포그래피 및 출력",
+            "100% 정확한 참고문헌 — 호환 가능한 biber 버전 포함",
+            "제한 없는 모든 CTAN 패키지",
+            "기본 다국어 지원: 키릴 문자, CJK, 아랍어, 데바나가리 문자",
+            "올바른 다중 패스 편집: 목차, 색인, 상호 참조",
+            "단일 시스템 명령으로 설치"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "전체 설치에는 3~5GB 소요",
+            "리포지토리 버전은 공식 릴리스보다 약간 오래될 수 있습니다."
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "우분투/데비안/리눅스 민트",
+              "note": "모든 것을 포함합니다. 공간이 제한되어 있으면 texlive-full 대신 texlive-xetex를 사용하십시오."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "title": "Fedora/RHEL/CentOS 스트림",
+              "note": "전체 TeX Live 체계를 설치합니다."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "아치 / 만자로",
+              "note": "참고문헌용 기본 그룹과 바이버를 설치합니다."
             },
             {
-              "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "title": "오픈수세",
+              "note": "zypper를 통한 전체 구성표."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "설치 확인",
+              "note": "세 가지 명령 모두 버전 번호로 응답해야 합니다."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio 다시 시작",
+              "note": "새 설치를 감지하도록 앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "권장 — 가장 훌륭하고 안정적이며 완벽한 출력",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "설치에 sudo가 필요하지 않습니다",
+            "논문에 필요한 것만 다운로드",
+            "둘 다 필요한 경우 TeX Live와 공존"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "첫 번째 편집에는 인터넷이 필요합니다.",
+            "고도로 전문화된 패키지(고급 물리학 등)에는 TeX Live가 필요할 수 있습니다."
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "공식 스크립트로 설치",
+              "note": "설정에 따라 ~/.cargo/bin 또는 ~/bin에 바이너리를 다운로드하고 설치합니다."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "대안: Cargo와 함께 설치",
+              "note": "Rust가 설치되어 있어야 합니다. 소스에서 컴파일하며 몇 분 정도 걸립니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "설치 확인",
+              "note": "다음과 같은 내용이 표시되어야 합니다: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio 다시 시작",
+              "note": "앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "경량 — 시스템 패키지 관리자가 필요하지 않습니다.",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "가벼운 대안에 비해 최고의 타이포그래피 및 출력",
+            "100% 정확한 참고문헌 — 바이버 포함 및 호환 가능",
+            "요청 시 다운로드되는 모든 CTAN 패키지",
+            "Strawberry Perl이 필요하지 않습니다(수동 latexmk와 다름).",
+            "다국어 지원: 키릴 문자, CJK, 아랍어, 데바나가리 문자",
+            "사용하기 쉬운 .exe 그래픽 설치 프로그램"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "MiKTeX 콘솔은 처음에는 혼란스러울 수 있습니다.",
+            "첫 번째 컴파일 중에 패키지 설치를 수락해야 합니다."
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Winget으로 MiKTeX 설치",
+              "note": "일반 사용자로 PowerShell을 엽니다(관리자는 필요하지 않음). Winget은 Windows 10/11에 포함되어 있습니다."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "대안: 그래픽 설치 프로그램",
+              "note": "miktex.org → 다운로드 → Windows로 이동합니다. 64비트 설치 프로그램을 다운로드하고 실행합니다. 나에게만 MiKTeX 설치를 선택합니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "설치 확인",
+              "note": "버전 번호로 응답해야 합니다."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "TeXisStudio 다시 시작",
+              "note": "MiKTeX를 감지하도록 앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "Windows에서 권장 — Perl 없이도 완벽한 최고의 출력",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Winget으로 1분만에 설치",
+            "딸기 펄이 필요하지 않습니다",
+            "둘 다 필요한 경우 MiKTeX와 공존",
+            "Winget 업그레이드로 업그레이드 가능"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "첫 번째 편집에는 인터넷이 필요합니다.",
+            "고도로 전문화된 패키지(고급 물리학 등)에는 MiKTeX가 필요할 수 있습니다."
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Winget으로 설치",
+              "note": "일반 사용자로 PowerShell을 엽니다. 관리자가 필요하지 않습니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "설치 확인",
+              "note": "다음과 같은 내용이 표시되어야 합니다: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio 다시 시작",
+              "note": "구조를 감지할 수 있도록 앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "경량 — 하나의 명령, Perl 없음",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "가벼운 대안에 비해 최고의 타이포그래피 및 출력",
+            "모든 CTAN 패키지 포함, 추가 다운로드 없음",
+            "100% 정확한 참고문헌 — 호환 가능한 바이버 포함",
+            "기본 다국어 지원: 키릴 문자, CJK, 아랍어, 데바나가리 문자",
+            "모든 기관 프로필과 호환 가능"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "느린 설치(30~90분)",
+            "4~8GB의 디스크 공간 필요",
+            "latexmk에는 Strawberry Perl이 필요합니다."
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "TeX Live 설치 프로그램 다운로드",
+              "note": "tug.org/texlive → 다운로드 → install-tl-windows.exe로 이동합니다. 설치 프로그램을 다운로드합니다."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "설치 프로그램 실행",
+              "note": "모든 항목을 설치하려면 단순 설치(대형)를 선택하세요. 이 과정은 30~90분 정도 소요됩니다."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Strawberry Perl 설치(latexmk에 필요)",
+              "note": "latexmk가 Windows에서 작동하려면 Perl이 필요합니다."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "설치 확인",
+              "note": "세 가지 명령 모두 버전 번호로 응답해야 합니다."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio 다시 시작",
+              "note": "앱을 닫았다가 다시 엽니다."
             }
           ],
           "tagline": "완벽함 - 최상의, 가장 안정적인 출력, 놀라운 결과 없음",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "박사후 과정",
     "level_bachillerato": "고등학교",
     "level_tecnico": "기술",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio는 안내 모드입니다. 작업에 집중하면 앱이 서식 지정, 참고 문헌 및 전달을 처리합니다.",
+    "error_opening_project": "해당 폴더를 TeXisStudio 프로젝트로 열 수 없습니다. tesis.project.yaml가 포함되어 있는지 확인하세요.",
+    "search_library_hint": "도서관 검색",
+    "detecting_latex": "LaTeX 감지 중…",
+    "error_importing_tex": ".tex 파일을 가져올 수 없습니다: {{error}}"
   },
   "wizard": {
     "title": "새 프로젝트",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "논문을 위한 탄탄한 기반",
     "recommend_reason_verified": "제도적 검증을 거쳤습니다",
     "recommend_reason_reviewed": "팀에서 검토",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "데스크톱용 Google 드라이브"
+    "error_vocab_install": "\"{{name}}\"를 활성화할 수 없습니다. 이 지원 없이 프로젝트를 생성하려면 연결을 확인하거나 선택을 취소하세요. 세부사항: {{error}}",
+    "google_drive_desktop": "데스크톱용 Google 드라이브",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "번호가 매겨진 방정식 \\\\eqref{}",
+          "정리와 증명",
+          "행렬과 벡터",
+          "교환 다이어그램(tikz-cd)",
+          "프루프 트리(버스프루프)"
+        ],
+        "external": [],
+        "tip": "LaTeX는 형식 수학을 위한 표준 도구입니다."
+      },
+      "logica": {
+        "native": [
+          "공제 트리(버스프루프)",
+          "진리표",
+          "형식적 의미",
+          "하세 다이어그램"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "물리적 단위 \\\\SI{}(siunitx)",
+          "부분 파생 상품 \\\\pdv{}",
+          "파인만 다이어그램(tikz-feynman)",
+          "도표(pgfplots)"
+        ],
+        "external": [
+          "수치 시뮬레이션(PDF/PNG로 내보내기)"
+        ],
+        "tip": "모든 단위에 siunitx를 사용하십시오. 'km/h'를 직접 쓰지 마십시오."
+      },
+      "quimica": {
+        "native": [
+          "화학 반응 \\\\ce{} (mhchem)",
+          "분자 구조(chemfig)",
+          "단위 \\\\SI{}(siunitx)"
+        ],
+        "external": [
+          "복잡한 3D 구조(ChemDraw에서 PDF로 내보내기)"
+        ],
+        "tip": "간단한 구조의 경우 chemfig를 사용하십시오. 결정학이나 단백질의 경우 PDF로 가져옵니다."
+      },
+      "ingenieria": {
+        "native": [
+          "단위 \\\\SI{}(siunitx)",
+          "회로(circuitikz)",
+          "데이터 플롯(pgfplots)",
+          "알고리즘(algpseudocode)"
+        ],
+        "external": [
+          "기술 도면(AutoCAD → PDF)",
+          "PCB 다이어그램(KiCad → PDF)"
+        ],
+        "tip": "circuitikz는 대부분의 신호 및 전원 회로를 포괄합니다."
+      },
+      "computacion": {
+        "native": [
+          "소스 코드(목록 목록)",
+          "의사코드를 사용한 알고리즘",
+          "성능 플롯(pgfplots)",
+          "결정 트리(tikz)"
+        ],
+        "external": [
+          "복잡한 아키텍처 다이어그램(draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "광범위한 각주",
+          "중요 장치 및 텍스트 인용",
+          "분석 인덱스(makeindex)",
+          "언어적 예(gb4e)"
+        ],
+        "external": [
+          "작품 이미지(PNG/PDF와 같은 고해상도)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "통계표(북탭)",
+          "도표(pgfplots)",
+          "APA/Chicago 스타일의 서지 인용"
+        ],
+        "external": [
+          "복잡한 데이터 시각화(R/Python → PDF/PNG)"
+        ],
+        "tip": "간단한 플롯에는 pgfplots를 사용하십시오. 정교한 시각화를 위해서는 R 또는 Python에서 내보냅니다."
+      },
+      "medicina": {
+        "native": [
+          "임상 테이블(북탭)",
+          "의료 유닛 \\\\SI{}",
+          "캡션과 라벨이 있는 그림"
+        ],
+        "external": [
+          "DICOM 이미지/조직학(고해상도 PNG/TIFF로 내보내기)",
+          "임상 흐름도(draw.io → PDF)"
+        ],
+        "tip": "진단용 의료 영상은 LaTeX에서 재생산할 수 없으며 외부 파일로 가져와야 합니다."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "전체 악보(MuseScore/Sibelius → PDF)",
+          "오디오 조각(외부 링크)"
+        ],
+        "tip": "복잡한 기보법의 경우 악보 편집기를 사용하여 PDF로 첨부하세요."
+      },
+      "arte": {
+        "native": [
+          "표로 구성된 기술 시트(북탭)"
+        ],
+        "external": [
+          "접시 및 예술 작품(PNG/TIFF 등 고해상도)",
+          "시각적 포트폴리오(외부 PDF)",
+          "평면도(DWG → PDF)"
+        ],
+        "tip": "포트폴리오의 경우 고품질 PDF 또는 PNG를 포함하세요. LaTeX는 레이아웃과 설명 텍스트를 관리합니다."
+      },
+      "arquitectura": {
+        "native": [
+          "예산 및 자재 표",
+          "일정",
+          "설명 텍스트"
+        ],
+        "external": [
+          "평면도(AutoCAD/ArchiCAD → PDF)",
+          "렌더(PNG/PDF로 내보내기)",
+          "모델(사진: PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "데이터 테이블(북탭)",
+          "단위 \\\\SI{}",
+          "계통발생수(tikz)"
+        ],
+        "external": [
+          "복잡한 해부도(Inkscape → PDF/SVG)",
+          "현미경(고해상도 PNG)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "통계표(북탭)",
+          "도표(pgfplots)",
+          "계량 방정식"
+        ],
+        "external": [
+          "대화형 대시보드 및 시각화(PNG/PDF로 내보내기)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "프로젝트 진단",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "이 버전을 복원하세요",
     "snapshot_delete_title": "버전 삭제",
     "section_guidance_label": "구간 안내",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
+    "save_and_exit": "저장하고 종료",
+    "snapshot_restore_action": "복원",
+    "continue_editing": "계속 수정하세요",
+    "unsaved_changes_message": "이 섹션에 저장되지 않은 변경사항이 있습니다. 떠나기 전에 무엇을 하고 싶나요?",
+    "unsaved_changes_title": "저장되지 않은 변경사항",
     "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "visual_type_selector_title": "어떤 유형의 다이어그램을 삽입하시겠습니까?",
+    "default_set_a": "세트 A",
+    "add_paragraph": "새 단락",
+    "review_grammar": "문법",
+    "bib_refs_count": ".bib의 {{count}} 참조",
+    "section_status_legend": "상태 범례",
+    "sections_count": "{{count}} 섹션",
+    "review_spell": "철자법",
+    "leave_without_saving": "저장하지 않고 나가기",
+    "default_table_column_2": "2열",
+    "default_set_c": "C 세트",
+    "default_set_b": "세트 B",
+    "default_table_column_1": "열 1",
+    "no_bib_file": "아니요 .bib",
     "insert_plugin_figure_title": "과학도형 삽입(61종)",
     "block_plugin_figure": "그림+"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "작성하고 제출하는데 꼭 필요한 내용만 복잡하지 않게 보여드립니다. 활성화할 수 있습니다.",
     "basic_mode_suffix": "텍스트 섹션에서.",
     "basic_top_body": "이러한 설정은 LaTeX 기술 세부 사항을 입력하지 않고도 유용한 결정을 내릴 수 있도록 설계되었습니다. 다음으로 전환",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "업데이트 확인",
+    "update_checking": "확인 중…",
+    "update_available": "버전 {{version}} 사용 가능 — 설치하려면 다시 시작하세요",
+    "update_up_to_date": "당신은 최신 상태입니다",
+    "update_error": "업데이트를 확인할 수 없습니다.",
     "refresh_catalog": "카탈로그 새로 고침",
     "package_status_stable": "안정적",
     "package_status_beta": "베타",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "가볍고 유지 관리가 쉽습니다. 전체 TeX 배포가 필요하지 않은 일상적인 글쓰기 및 프로젝트에 권장됩니다.",
     "latex_suite_title": "완전한 LaTeX 제품군",
-    "latex_suite_description": "TeX Live 또는 MiKTeX와 함께 latexmk를 사용합니다. 고급 패키지, 복잡한 참고문헌 및 최종 전달에 권장됩니다.",
+    "latex_suite_description": "latexmk가 포함된 전체 LaTeX 제품군({{suiteName}}). 모든 CTAN 패키지, biblatex + Biber, 셸 이스케이프 및 다중 패스 컴파일을 지원합니다. 완전한 문서, 기관 프로필 및 플러그인 그림에 권장되는 선택입니다.",
     "latex_available": "가능",
     "latex_not_available": "설치되지 않음",
     "latex_detected_version": "감지된 버전: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "노트북 기본값",
     "window_mode_remember": "마지막 크기 기억하기",
     "window_mode_maximized": "극대화",
-    "window_mode_hint": "1280 × 760 창을 선택하거나, 마지막으로 사용한 크기를 복원하거나, 사용 가능한 모든 모니터 공간을 사용하여 엽니다."
+    "window_mode_hint": "1280 × 760 창을 선택하거나, 마지막으로 사용한 크기를 복원하거나, 사용 가능한 모든 모니터 공간을 사용하여 엽니다.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "{{suiteName}}를 설치하려면 «LaTeX 설치 관리»로 이동하세요.",
+    "latex_recommended_badge": "추천",
+    "latex_upgrade_banner": "{{suiteName}}가 설치되었습니다. 모든 CTAN 패키지, Biber 및 플러그인 수치를 제한 없이 지원합니다. 전환하는 것이 좋습니다.",
+    "latex_upgrade_btn": "{{suiteName}}로 전환",
+    "language_catalog_error": "언어 카탈로그를 로드할 수 없습니다. 연결을 확인하고 다시 시도하세요.",
+    "language_install_error": "언어팩을 설치할 수 없습니다. 연결을 확인하고 다시 시도하세요."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "'{{section}}' 섹션에서 참조된 '{{file}}' 이미지를 찾을 수 없습니다.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "프로필을 삭제하시겠습니까?",
     "delete_profile_body_before": "삭제됩니다",
     "delete_profile_body_after": "이 작업은 취소할 수 없습니다.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "{{profiles}} 설치된 프로필",
     "installed_profiles": "설치된 프로필",
     "profile_count_hint": "{{count}} 프로필 · 세부 정보를 보려면 클릭하세요.",
     "import_profile_title": "디렉터리에서 프로필 가져오기",
@@ -1135,30 +1297,31 @@
     "selected_chip": "선택됨",
     "installed_chip": "설치됨",
     "sections_count_suffix": "섹션",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "플러그인",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "머리말",
+      "body": "본체",
+      "back_matter": "백매터",
+      "appendix": "부록"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "제목 페이지",
+      "abstract": "초록",
+      "acknowledgements": "감사의 말",
+      "table_of_contents": "목차",
+      "list_of_figures": "그림 목록",
+      "list_of_tables": "테이블 목록",
+      "introduction": "소개",
+      "theoretical_framework": "이론적 틀",
+      "methodology": "방법론",
+      "results": "결과",
+      "discussion": "토론",
+      "conclusions": "결론",
+      "references": "참고자료",
+      "appendix": "부록",
+      "appendix_a": "부록 A"
+    },
+    "tags_placeholder": "논문, 학부, 아파"
   },
   "progress": {
     "status_draft": "초안",
@@ -1280,7 +1443,14 @@
     "generating_response": "응답 생성 중…",
     "message_placeholder": "메시지를 작성하세요… (보내려면 Enter를 누르세요)",
     "configure_key_first": "먼저 API 키를 구성하세요",
-    "send": "Send"
+    "send": "보내기",
+    "error_not_configured": "API 키가 구성되지 않았습니다. 공급자 탭에 키를 추가하세요.",
+    "error_auth": "API 키가 잘못되었습니다. 그것이 정확하고 활성화되어 있는지 확인하십시오.",
+    "error_rate_limited": "요청 한도에 도달했습니다. 몇 분 후에 다시 시도해 보세요.",
+    "error_network": "네트워크 오류입니다. 인터넷 연결을 확인하세요.",
+    "error_safety": "요청이 안전 정책에 의해 차단되었습니다.",
+    "error_model_unavailable": "선택한 모델을 사용할 수 없습니다. 설정에서 다른 것을 선택하세요.",
+    "error_provider": "공급자 오류입니다. 다시 시도해 보세요."
   },
   "editor_meta": {
     "project_guide": "프로젝트 가이드",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "확인되지 않음 — 이 블록은 귀하가 확인할 때까지 PDF에 포함되지 않습니다.",
     "packages": "패키지",
     "edit_figure_title": "제목이나 레이블을 편집하거나 그림을 재생성하세요.",
-    "edit_figure": "그림 편집"
+    "edit_figure": "그림 편집",
+    "preview_pending": "여기서 그림을 보려면 «미리보기» 탭에서 미리보기를 컴파일하세요."
   },
   "compile": {
     "ensure_latex_installed_path": "LaTeX 컴파일러가 설치되어 있고 PATH에서 사용 가능한지 확인하세요.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "컴파일 중… ({{count}} 라인)",
     "backends_available": "{{backends}} 사용 가능",
     "latex_not_installed_status": "⚠ LaTeX가 설치되지 않았습니다.",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "컴파일",
+    "preflight_action_export": "수출 제출",
+    "preflight_title": "{{action}} 이전 확인",
+    "preflight_has_errors": "계속하기 전에 {{count}} 오류를 수정하세요.",
+    "preflight_has_warnings": "{{count}} 경고가 발견되었습니다. 어쨌든 계속할 수 있습니다.",
+    "preflight_errors_section": "오류({{count}})",
+    "preflight_warnings_section": "경고({{count}})",
+    "preflight_suggestions_section": "제안({{count}})",
+    "export_success": "내보내기 완료",
+    "compile_as_draft": "초안으로 컴파일",
+    "readiness_complete": "완료",
+    "readiness_export_title": "최종 배송이 차단되었습니다.",
+    "readiness_back": "리뷰로 돌아가기",
+    "readiness_compile_title": "프로젝트가 정식 버전으로 준비되지 않았습니다.",
+    "readiness_export_subtitle": "최종 모드로 내보내려면 먼저 배송 및 품질 검사를 완료하세요.",
+    "readiness_compile_subtitle": "정식 버전으로 취급하기 전에 초안으로 컴파일하거나 이러한 사항을 검토하세요.",
+    "readiness_delivery": "배송",
+    "readiness_quality": "최종 품질",
     "severity_error": "오류",
     "severity_warning": "경고",
     "severity_suggestion": "제안",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "순서를 변경하려면 ▲▼를 사용하세요.",
     "order_hint_line_2": "순서에 따라 프로젝트 생성 시 드롭다운이 결정됩니다.",
     "add_custom_style": "맞춤 스타일 추가",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "아이디 *",
+    "biblatex_style_required": "비블라텍스 스타일 *",
+    "references_default_title": "참고자료",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "인용",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
+      "author_date": "저자-날짜",
+      "numeric": "숫자",
       "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_page": "작성자 페이지"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "미국심리학회, 7판",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "심리학",
+          "교육",
+          "사회 과학",
+          "간호",
+          "커뮤니케이션"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "전 세계적으로 가장 널리 사용되는 스타일입니다. 많은 심리학, 교육 및 사회 과학 프로그램에서 필요합니다. 일곱 번째 판(2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "미국",
+          "캐나다",
+          "라틴 아메리카",
+          "호주"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(저자, 연도)",
+        "bibliography_title": "참고자료"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "Vancouver / ICMJE 권장사항",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "의학",
+          "간호",
+          "약국",
+          "치과",
+          "건강 과학"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "건강 과학에 필요한 숫자 스타일입니다. 참고문헌은 외관순으로 정렬됩니다. MEDLINE/PubMed 저널의 표준입니다.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "글로벌, 의료 및 건강 과학"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "참고자료"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "IEEE 인용 스타일",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "전기 공학",
+          "컴퓨팅",
+          "통신",
+          "로봇공학",
+          "전자제품"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "엔지니어링, 컴퓨팅 및 기술에 대한 표준 숫자 스타일입니다. 공과대학에서 널리 채택됩니다.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "글로벌, 엔지니어링 및 기술"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "참고자료"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (주)",
+        "full_name": "Chicago 스타일 매뉴얼, 17판, 참고 문헌",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "역사",
+          "문학",
+          "예술",
+          "철학",
+          "종교 연구"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "인문학을 위한 노트 및 참고문헌 시스템입니다. 인용은 각주에 표시됩니다.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "미국",
+          "영국",
+          "캐나다, 인문학"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "각주 ¹",
+        "bibliography_title": "참고문헌"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (저자-날짜)",
+        "full_name": "Chicago 스타일 매뉴얼, 17판, 작성자 날짜",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "경제학",
+          "정치학",
+          "사회학",
+          "인류학",
+          "지리"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago 저자-날짜 변형, 사회 과학 및 경제학에서 선호됩니다.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "미국",
+          "캐나다, 사회과학"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(저자 연도)",
+        "bibliography_title": "참고자료"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "MLA 핸드북, 9판",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "문학",
+          "언어",
+          "언어학",
+          "문화 연구",
+          "수사학"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "북미 지역의 언어, 문학, 문화 연구에 대한 표준입니다. 제9판(2021년).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "미국",
+          "캐나다, 언어 및 문학"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(저자 페이지)",
+        "bibliography_title": "인용된 작품"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "하버드",
+        "full_name": "하버드 참조 스타일",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "비즈니스",
+          "관리",
+          "경제학",
+          "사회 과학"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "APA와 유사한 작성자 날짜 스타일. 영국과 호주 대학에서 널리 사용됩니다.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "영국",
+          "호주",
+          "아일랜드",
+          "남아프리카"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(저자 연도)",
+        "bibliography_title": "참고자료"
       },
       "mhra": {
-        "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "name": "므라",
+        "full_name": "현대인문학연구회 스타일가이드 제3판",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "인문학",
+          "역사",
+          "문학",
+          "철학",
+          "언어학"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "Chicago Notes와 유사한 영국 인문학 표준.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "영국",
+          "아일랜드, 인문학"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "각주 ¹",
+        "bibliography_title": "참고문헌"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "모든 분야(브라질)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "브라질 대학의 학업에 대한 국가 표준입니다.",
         "regions_primary": [
-          "Brazil, required"
+          "브라질(필수)"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(저자, 연도)",
+        "bibliography_title": "참고자료"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015, 중국 국가 표준",
         "disciplines": [
-          "All disciplines (China)"
+          "모든 학문(중국)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "중국어 논문의 국가 표준. 중국 대학에서는 필수입니다.",
         "regions_primary": [
-          "China, required"
+          "중국, 필수"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "참고자료"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "기본 스타일 복원",
+    "reset_action": "복원"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ 상호 참조 삽입({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "선택적 제목",
     "theorem_title_placeholder": "피타고라스의 정리",
     "math_content": "콘텐츠(수학적 LaTeX 허용)",
-    "theorem_content_placeholder": "$a^2 + b^2 = c^2$라고 가정합니다. 여기서 $c$는 빗변입니다."
+    "theorem_content_placeholder": "$a^2 + b^2 = c^2$라고 가정합니다. 여기서 $c$는 빗변입니다.",
+    "term_placeholder": "온톨로지",
+    "definition_placeholder": "존재를 존재로서 연구하는 철학의 한 분야.",
+    "acronym_placeholder": "AI",
+    "full_form_placeholder": "인공지능"
   },
   "citation": {
     "error_connect": "연결 오류입니다.",
@@ -2031,7 +2206,15 @@
     "empty_equation": "빈 방정식",
     "custom_molecule": "맞춤형 분자",
     "molecule_compile_hint": "컴파일 시 chemfig로 생성된 구조",
-    "chemical_syntax_hint": "->(반응), <=>(평형), ^(기체) 및 v(침전물)를 사용하세요."
+    "chemical_syntax_hint": "->(반응), <=>(평형), ^(기체) 및 v(침전물)를 사용하세요.",
+    "label_example": "그림:내 다이어그램",
+    "circuit_lower": "회로",
+    "diagram_lower": "다이어그램",
+    "default_start": "시작",
+    "default_process": "프로세스",
+    "default_end": "종료",
+    "default_event": "이벤트 {{number}}",
+    "default_major_scale": "C 메이저 스케일"
   },
   "vocabulary": {
     "title": "도메인 어휘",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "그건",
     "repo_hint_suffix": "섹션. 자신만의 GitHub 저장소가 될 수 있습니다.",
     "alias_placeholder": "별칭(e.g. my-lab-terms)",
-    "adding": "추가 중…"
+    "adding": "추가 중…",
+    "catalog_error": "어휘 카탈로그를 로드할 수 없습니다. 연결을 확인하고 다시 시도하세요.",
+    "repo_sync_error": "이 저장소를 동기화할 수 없습니다.",
+    "repo_add_error": "저장소를 추가할 수 없습니다. 주소를 확인하고 다시 시도하세요."
   },
   "profile_wizard": {
     "step_of": "{{total}}의 {{current}} 단계",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "URL에서 설치",
     "install_from_url_hint": "유효한 프로필.yaml가 포함된 .zip의 URL를 붙여넣습니다.",
     "install_btn": "설치",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "정확한 프로필 이름은 필요하지 않습니다.",
+    "guided_hint_body": "소속 기관이나 학위, 분야, 인용 스타일의 긴밀한 조합으로 시작하세요. 정확히 일치하는 항목이 없으면 간단한 제도적 기반부터 시작하여 나중에 조정하세요.",
+    "catalog_load_error": "프로필 카탈로그를 로드할 수 없습니다. 연결을 확인하거나 다시 시도하세요.",
+    "install_success": "\"{{name}}\"가 성공적으로 설치되었습니다.",
+    "breadcrumb_all": "모두",
+    "profile_count_one": "{{count}} 프로필",
+    "profile_count_other": "{{count}} 프로필",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "미국",
+      "europe": "유럽",
+      "asia": "아시아",
+      "generic": "일반"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "멕시코",
+      "usa": "미국",
+      "canada": "캐나다",
+      "brazil": "브라질",
+      "argentina": "아르헨티나",
+      "chile": "칠레",
+      "uk": "영국",
+      "germany": "독일",
+      "spain": "스페인",
+      "netherlands": "네덜란드",
+      "italy": "이탈리아",
+      "sweden": "스웨덴",
+      "france": "프랑스",
+      "china": "중국",
+      "japan": "일본",
+      "south_korea": "한국",
+      "singapore": "싱가포르",
+      "india": "인도",
+      "generic": "일반"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "고등학교",
+      "tecnico": "기술 학위",
+      "licenciatura": "학사 학위",
+      "especialidad": "전문화",
+      "maestria": "석사 학위",
+      "doctorado": "박사학위",
+      "posdoctorado": "박사후 연구원"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "기관",
+      "degree_specific": "학위별",
+      "program_specific": "프로그램별",
+      "discipline_specific": "분야별"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "모든 분야",
+      "engineering": "공학",
+      "social_sciences": "사회 과학",
+      "humanities": "인문학",
+      "health_sciences": "건강 과학",
+      "computing": "컴퓨팅",
+      "natural_sciences": "자연과학"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "확인됨",
+    "status_reviewed_label": "검토됨"
   },
   "about": {
     "title": "소개",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "변경 사항 적용 및 Figure 재생성",
     "apply_visual_btn": "변경사항 적용",
     "applying": "신청 중…",
-    "done_msg": "그림이 업데이트되었습니다."
+    "done_msg": "그림이 업데이트되었습니다.",
+    "tab_preview": "미리보기",
+    "preview_compile_btn": "재컴파일 미리보기",
+    "preview_compiling": "컴파일 중…",
+    "preview_apply_first": "미리보기 전에 변경사항을 적용하세요.",
+    "preview_tectonic_note": "Tectonic는 활성 엔진입니다. 미리보기가 실패하면 이 그림에는 전체 LaTeX 제품군(MacTeX / MiKTeX / TeX Live)이 필요할 수 있습니다. 설정 → LaTeX 엔진에서 엔진을 변경할 수 있습니다.",
+    "preview_error_prefix": "컴파일 오류:",
+    "preview_no_tectonic": "Tectonic가 설치되지 않았거나 찾을 수 없습니다."
   },
   "elements_tab": {
     "title": "요소",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "내부형",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "단락",
+        "description": "자유 형식 텍스트 블록. 강조, 인라인 인용 및 인라인 LaTeX를 지원합니다.",
+        "latex_output": "문서에 직접 작성된 이스케이프된 텍스트입니다."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
+        "name": "제목 / 표제",
+        "description": "섹션 제목: 섹션(H1), 하위 섹션(H2) 또는 하위 하위 섹션(H3).",
         "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "그림",
+        "description": "캡션, 출처, 상호 참조 라벨이 포함된 이미지입니다. 너비: 50%, 75%, 100%.",
+        "latex_output": "그림 환경 + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "테이블",
+        "description": "헤더, 행, 캡션, 소스가 포함된 테이블입니다. 스타일: 심플, 북탭, 와이드, 롱테이블.",
+        "latex_output": "테이블 환경 + 테이블 형식/롱 테이블 + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "방정식",
+        "description": "번호가 매겨진 또는 번호가 매겨지지 않은 수학 공식입니다. 순수한 LaTeX 수학으로 작성되었습니다.",
+        "latex_output": "방정식 또는 방정식* 환경 + 선택적 \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "목록",
+        "description": "글머리 기호(항목화), 번호 매기기(열거) 또는 설명(설명) 목록입니다.",
+        "latex_output": "\\begin{항목화/열거/설명}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
+        "name": "서지 인용",
+        "description": ".bib 파일의 BibTeX 키에 연결된 괄호, 설명 또는 다중 인용입니다.",
         "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "원시 LaTeX",
+        "description": "고급 사례를 위한 임의의 LaTeX 조각입니다. 사용자 확인이 필요합니다.",
+        "latex_output": "그대로, 이스케이프되지 않았습니다. 주의해서 사용하세요."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "텍스트",
+      "content": "내용",
+      "structure": "구조",
+      "navigation": "네비게이션",
+      "image": "이미지",
+      "graphic": "그래픽",
+      "data": "데이터",
+      "statistics": "통계",
+      "mathematics": "수학",
+      "formula": "공식",
+      "list": "목록",
+      "enumeration": "열거",
+      "bibliography": "참고문헌",
+      "reference": "참조",
+      "advanced": "고급",
+      "custom": "관습"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "프로젝트 진행",
+    "row_overall": "프로젝트",
+    "row_setup": "설정",
+    "row_writing": "글쓰기",
+    "row_delivery": "배송",
+    "row_quality": "최종 품질",
+    "pending_prefix": "보류 중:",
+    "delivery_blocked": "최종 배송 전 대기 중인 항목이 있습니다.",
+    "setup_title": "작품의 실제 제목을 설정하세요",
+    "setup_author": "완전한 주요 저자",
+    "setup_institution": "실제 기관에 들어가세요",
+    "setup_profile": "학업 프로필을 선택하세요",
+    "setup_language": "기본 언어를 선택하세요",
+    "setup_advisor": "지도교수나 논문감독을 1명 이상 추가하세요.",
+    "writing_sections": "콘텐츠 섹션을 하나 이상 활성화하세요.",
+    "writing_draft": "메인 섹션에 콘텐츠 작성",
+    "writing_words": "실질적인 초안 개발",
+    "writing_reviewed": "하나 이상의 섹션을 개정됨으로 표시",
+    "delivery_references": "참조 섹션 포함",
+    "delivery_abstract": "요약 또는 초록 작성",
+    "delivery_required": "프로필의 필수 섹션을 작성하세요.",
+    "delivery_latex": "검증되지 않은 LaTeX 블록 확인 또는 제거",
+    "delivery_committee": "고급작업위원회 완성",
+    "delivery_review_main": "배송 전 주요 섹션을 검토하세요.",
+    "quality_citation": "본문에 검증 가능한 인용문을 하나 이상 포함하세요.",
+    "quality_required_reviewed": "필수 본문 섹션을 개정됨으로 표시",
+    "quality_raw_latex": "최종 배송 전에 가져온 LaTeX 블록을 마이그레이션하거나 수동으로 검토하세요.",
+    "quality_plugin_warnings": "최종 배송 전에 그림 또는 플러그인 경고 해결",
+    "quality_profile": "공식 제출을 위해 기관 또는 사용자 정의 프로필을 사용하세요."
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "플러그인",
+    "subtitle": "그림과 다이어그램을 삽입하는 데 사용할 수 있는 {{count}} 시각적 플러그인.",
+    "search_placeholder": "이름, 패키지 또는 카테고리로 검색하세요…",
+    "no_results": "해당 검색과 일치하는 플러그인이 없습니다.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "안정적인",
+      "beta": "베타",
+      "experimental": "실험적인",
+      "draft": "초안"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "언어를 선택하세요",
+    "subheading": "나중에 설정에서 변경할 수 있습니다.",
+    "more_languages": "더 많은 언어",
+    "loading_more": "더 많은 언어 로드 중…",
+    "catalog_error": "더 많은 언어를 로드할 수 없습니다. 번들 언어를 계속 사용할 수 있습니다.",
+    "skip": "건너뛰기",
+    "install_error": "해당 언어를 설치할 수 없습니다. 연결을 확인하고 다시 시도하세요."
   },
   "toast": {
     "close_button": "알림 닫기",
@@ -2527,7 +2721,50 @@
     "redo": "다시 실행",
     "restore_btn": "복원 예시",
     "restore_title": "최소한의 작업 예제로 교체",
-    "advanced_section": "고급 옵션"
+    "advanced_section": "고급 옵션",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "상호 참조 레이블(e.g. eq:quadratic). 비어 있으면 라벨이 없음을 의미합니다."
+      },
+      "chemistry_output": {
+        "label": "출력 모드",
+        "description": "mhchem: 인라인 \\ce{...}. chemfig: 결합각 구조."
+      },
+      "circuit_style": {
+        "label": "아메리칸 스타일",
+        "description": "켜짐: 미국 구성요소 기호(IEEE). 꺼짐: 유럽 기호(IEC)."
+      },
+      "tikz_libraries": {
+        "label": "TikZ 라이브러리",
+        "description": "쉼표로 구분된 추가 TikZ 라이브러리(e.g.calc, arrows.meta, 패턴)."
+      },
+      "pgfplots_options": {
+        "label": "PGFPlots 옵션",
+        "description": "xbar 또는 compat=1.18와 같은 추가 옵션이 \\beginZXQ0QXZ[…]에 삽입되었습니다."
+      },
+      "forest_options": {
+        "label": "숲 옵션",
+        "description": "분기된 가장자리 또는 가장자리 레이블 스타일과 같은 추가 옵션이 포리스트 환경에 전달됩니다."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "노드, 모서리, 모양 및 호 스타일이 있는 방향성 및 방향성이 없는 그래프입니다."
+      },
+      "pgfplots": {
+        "description": "PGFPlot을 사용한 플롯, 히스토그램, 막대 차트, 산점도 및 열 지도."
+      },
+      "tree_forest": {
+        "description": "계층적 구문, 분류학, 계통발생학, 결정 및 확률 트리."
+      },
+      "table_data": {
+        "description": "북탭, 롱테이블 또는 PGFPlots 데이터로 내보낼 수 있는 데이터 테이블입니다."
+      },
+      "timeline_gantt": {
+        "description": "그룹, 작업, 종속성이 포함된 간트 차트 및 타임라인."
+      }
+    }
   },
   "help": {
     "title": "도움말 센터",

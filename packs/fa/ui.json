@@ -4,37 +4,37 @@
       "macos": {
         "mactex": {
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "بهترین تایپوگرافی و خروجی از هر جایگزین سبک وزن",
+            "کتابشناسی 100٪ سازگار (نسخه biber صحیح شامل)",
+            "تمام بسته های CTAN بدون محدودیت در دسترس هستند",
+            "پشتیبانی چند زبانه بومی: سیریلیک، CJK، عربی، دوانگاری",
+            "کامپایل چند گذری صحیح: TOC، نمایه ها، ارجاعات متقابل",
+            "نصب تک دستوری Homebrew"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "دانلود بزرگ (~5 گیگابایت)",
+            "نصب 10 تا 20 دقیقه طول می کشد"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Homebrew را نصب کنید (اگر آن را ندارید)",
+              "note": "Homebrew مدیر بسته استاندارد macOS است. اگر قبلاً آن را دارید، این مرحله را رد کنید."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "MacTeX را با Homebrew نصب کنید",
+              "note": "دانلود ~ 5 گیگابایت. این فرآیند بسته به اتصال شما 10 تا 20 دقیقه طول می کشد."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "به روز رسانی متغیرهای محیطی",
+              "note": "یا به سادگی ترمینال را ببندید و دوباره باز کنید تا PATH جدید را انتخاب کند."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "نصب را تایید کنید",
+              "note": "هر سه دستور باید با شماره نسخه پاسخ دهند."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید تا نصب جدید را تشخیص دهد."
             }
           ],
           "tagline": "توصیه می شود - بهترین، پایدارترین و کامل ترین خروجی",
@@ -42,31 +42,31 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "در کمتر از 1 دقیقه نصب می شود",
+            "فقط بسته هایی را که پایان نامه شما استفاده می کند دانلود می کند",
+            "اگر به هر دو نیاز دارید، با MacTeX همزیستی می کند",
+            "قابل ارتقا با ارتقاء دم"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "کامپایل اول نیاز به اتصال به اینترنت دارد",
+            "بسته های بسیار تخصصی (فیزیک پیشرفته و غیره) ممکن است به MacTeX نیاز داشته باشند"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Homebrew را نصب کنید (اگر آن را ندارید)",
+              "note": "اگر از قبل Homebrew دارید، این مرحله را رد کنید."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Tectonic را با Homebrew نصب کنید",
+              "note": "دانلود سبک وزن. در کمتر از 1 دقیقه آماده می شود."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "نصب را تایید کنید",
+              "note": "شما باید چیزی شبیه به: تکتونیکی 0.15.x را ببینید"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید تا تکتونیک را تشخیص دهد."
             }
           ],
           "tagline": "سبک - فقط آنچه را که نیاز دارد دانلود می کند",
@@ -76,41 +76,41 @@
       "linux": {
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "بهترین تایپوگرافی و خروجی نسبت به جایگزین های سبک وزن",
+            "کتابشناسی 100٪ صحیح - نسخه سازگار بایبر گنجانده شده است",
+            "تمامی بسته های CTAN بدون محدودیت",
+            "پشتیبانی چند زبانه بومی: سیریلیک، CJK، عربی، دوانگاری",
+            "کامپایل چند گذری صحیح: TOC، نمایه ها، ارجاعات متقابل",
+            "نصب با یک فرمان سیستمی"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "نصب کامل 3 تا 5 گیگابایت طول می کشد",
+            "نسخه مخزن ممکن است کمی قدیمی تر از نسخه رسمی باشد"
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "title": "اوبونتو / دبیان / لینوکس مینت",
+              "note": "همه چیز را شامل می شود. اگر فضا محدود است، از texlive-xetex به جای texlive-full استفاده کنید."
             },
             {
               "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "note": "طرح کامل TeX Live را نصب می کند."
             },
             {
-              "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "title": "قوس / مانجارو",
+              "note": "گروه های اصلی و biber را برای کتابشناسی نصب می کند."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "طرح کامل از طریق zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "نصب را تایید کنید",
+              "note": "هر سه دستور باید با شماره نسخه پاسخ دهند."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید تا نصب جدید را تشخیص دهد."
             }
           ],
           "tagline": "توصیه می شود - بهترین، پایدارترین و کامل ترین خروجی",
@@ -118,30 +118,30 @@
         },
         "tectonic": {
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "برای نصب نیازی به sudo نیست",
+            "فقط آنچه پایان نامه شما نیاز دارد دانلود می کند",
+            "اگر به هر دو نیاز دارید با TeX Live همزیستی می کند"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "تدوین اول نیاز به اینترنت دارد",
+            "بسته های بسیار تخصصی (فیزیک پیشرفته و غیره) ممکن است به TeX Live نیاز داشته باشند"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "با اسکریپت رسمی نصب کنید",
+              "note": "بسته به تنظیمات شما، باینری را در ~/.cargo/bin یا ~/bin دانلود و نصب می کند."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "جایگزین: نصب با Cargo",
+              "note": "نیاز به نصب Rust دارد. کامپایل از منبع، چند دقیقه طول می کشد."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "نصب را تایید کنید",
+              "note": "شما باید چیزی شبیه به: تکتونیکی 0.15.x را ببینید"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید."
             }
           ],
           "tagline": "سبک - بدون نیاز به مدیر بسته سیستم",
@@ -151,33 +151,33 @@
       "windows": {
         "miktex": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "بهترین تایپوگرافی و خروجی نسبت به جایگزین های سبک وزن",
+            "کتابشناسی 100٪ صحیح - biber شامل و سازگار است",
+            "همه بسته‌های CTAN، در صورت تقاضا دانلود می‌شوند",
+            "به Strawberry Perl نیازی ندارد (برخلاف latexmk دستی)",
+            "پشتیبانی چند زبانه: سیریلیک، CJK، عربی، دوانگاری",
+            "نصب کننده گرافیکی .exe با کاربری آسان"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "کنسول MiKTeX در ابتدا می تواند گیج کننده باشد",
+            "نیاز به پذیرش نصب بسته در اولین کامپایل دارد"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "MiKTeX را با winget نصب کنید",
+              "note": "PowerShell را به عنوان یک کاربر عادی باز کنید (بدون نیاز به مدیر). winget در ویندوز 10/11 گنجانده شده است."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "جایگزین: نصب کننده گرافیکی",
+              "note": "به آدرس miktex.org → دانلود → ویندوز بروید. نصب کننده 64 بیتی را دانلود و اجرا کنید. نصب MiKTeX فقط برای من را انتخاب کنید."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "نصب را تایید کنید",
+              "note": "باید با شماره نسخه پاسخ دهد."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید تا MiKTeX را شناسایی کند."
             }
           ],
           "tagline": "توصیه شده در ویندوز - بهترین خروجی، کامل بدون Perl",
@@ -185,27 +185,27 @@
         },
         "tectonic": {
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "با winget در 1 دقیقه نصب می شود",
+            "نیازی به پرل توت فرنگی ندارد",
+            "اگر به هر دو نیاز دارید با MiKTeX همزیستی می کند",
+            "قابل ارتقا با ارتقا winget"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "تدوین اول نیاز به اینترنت دارد",
+            "بسته های بسیار تخصصی (فیزیک پیشرفته و غیره) ممکن است به MiKTeX نیاز داشته باشند"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "با winget نصب کنید",
+              "note": "PowerShell را به عنوان یک کاربر عادی باز کنید. بدون نیاز به مدیر"
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "نصب را تایید کنید",
+              "note": "شما باید چیزی شبیه به: تکتونیکی 0.15.x را ببینید"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید تا تکتونیک را تشخیص دهد."
             }
           ],
           "tagline": "سبک - یک فرمان، بدون پرل",
@@ -213,37 +213,37 @@
         },
         "texlive": {
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "بهترین تایپوگرافی و خروجی نسبت به جایگزین های سبک وزن",
+            "همه بسته‌های CTAN شامل، بدون دانلود اضافی",
+            "کتابشناسی 100٪ صحیح - بایبر سازگار گنجانده شده است",
+            "پشتیبانی چند زبانه بومی: سیریلیک، CJK، عربی، دوانگاری",
+            "سازگار با هر پروفایل سازمانی"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "نصب آهسته (30 تا 90 دقیقه)",
+            "4 تا 8 گیگابایت فضای دیسک را اشغال می کند",
+            "برای latexmk به Strawberry Perl نیاز دارد"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "نصب کننده TeX Live را دانلود کنید",
+              "note": "به tug.org/texlive → دانلود → install-tl-windows.exe بروید. نصب کننده را دانلود کنید."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "نصب کننده را اجرا کنید",
+              "note": "برای نصب همه چیز، Simple install (بزرگ) را انتخاب کنید. این فرآیند 30 تا 90 دقیقه طول می کشد."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Strawberry Perl را نصب کنید (الزامی برای latexmk)",
+              "note": "Perl برای اینکه latexmk روی ویندوز کار کند لازم است."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "نصب را تایید کنید",
+              "note": "هر سه دستور باید با شماره نسخه پاسخ دهند."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "TeXisStudio را مجددا راه اندازی کنید",
+              "note": "برنامه را ببندید و دوباره باز کنید."
             }
           ],
           "tagline": "کامل - بهترین، پایدارترین خروجی، بدون غافلگیری",
@@ -391,11 +391,11 @@
     "level_posdoctorado": "فوق دکتری",
     "level_bachillerato": "دبیرستان",
     "level_tecnico": "فنی",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio در حالت هدایت‌شده است: روی کار خود تمرکز کنید و برنامه قالب‌بندی، کتاب‌شناسی و تحویل را مدیریت می‌کند.",
+    "error_opening_project": "نمی توان آن پوشه را به عنوان پروژه TeXisStudio باز کرد. مطمئن شوید که حاوی tesis.project.yaml باشد.",
+    "search_library_hint": "جستجوی کتابخانه",
+    "detecting_latex": "در حال تشخیص LaTeX…",
+    "error_importing_tex": "فایل .tex وارد نشد: {{error}}"
   },
   "wizard": {
     "title": "پروژه جدید",
@@ -566,8 +566,163 @@
     "recommend_reason_tesis": "پایه محکم برای پایان نامه ها",
     "recommend_reason_verified": "تایید نهادی دارد",
     "recommend_reason_reviewed": "توسط تیم بررسی شد",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive برای دسکتاپ"
+    "error_vocab_install": "\"{{name}}\" فعال نشد. اتصال خود را بررسی کنید یا آن را لغو انتخاب کنید تا پروژه بدون این پشتیبانی ایجاد شود. جزئیات: {{error}}",
+    "google_drive_desktop": "Google Drive برای دسکتاپ",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "معادلات عددی \\\\eqref{}",
+          "قضایا و براهین",
+          "ماتریس ها و بردارها",
+          "نمودارهای جابجایی (tikz-cd)",
+          "درختان ثابت (ساخت اتوبوس)"
+        ],
+        "external": [],
+        "tip": "LaTeX ابزار متعارفی برای ریاضیات رسمی است."
+      },
+      "logica": {
+        "native": [
+          "درختان کسر (bussproofs)",
+          "جداول حقیقت",
+          "معناشناسی رسمی",
+          "نمودارهای هاس"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "واحدهای فیزیکی \\\\SI{} (siunitx)",
+          "مشتقات جزئی \\\\pdv{}",
+          "نمودارهای فاینمن (tikz-feynman)",
+          "قطعه ها (pgfplots)"
+        ],
+        "external": [
+          "شبیه سازی عددی (صادرات به عنوان PDF/PNG)"
+        ],
+        "tip": "از siunitx برای همه واحدها استفاده کنید — هرگز به طور مستقیم «km/h» را ننویسید."
+      },
+      "quimica": {
+        "native": [
+          "واکنش‌های شیمیایی \\\\ce{} (mhchem)",
+          "ساختارهای مولکولی (chemfig)",
+          "واحد \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "ساختارهای سه بعدی پیچیده (صادرات از ChemDraw به عنوان PDF)"
+        ],
+        "tip": "برای ساختارهای ساده از chemfig استفاده کنید. برای کریستالوگرافی یا پروتئین ها، به عنوان PDF وارد کنید."
+      },
+      "ingenieria": {
+        "native": [
+          "واحد \\\\SI{} (siunitx)",
+          "مدارها (circuitikz)",
+          "نمودارهای داده (pgfplots)",
+          "الگوریتم ها (algpseudocode)"
+        ],
+        "external": [
+          "نقشه های فنی (AutoCAD → PDF)",
+          "نمودارهای PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz بیشتر مدارهای سیگنال و قدرت را پوشش می دهد."
+      },
+      "computacion": {
+        "native": [
+          "کد منبع (lstlisting)",
+          "الگوریتم هایی با شبه کد",
+          "نمودارهای عملکرد (pgfplots)",
+          "درختان تصمیم (tikz)"
+        ],
+        "external": [
+          "نمودارهای معماری پیچیده (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "پاورقی های گسترده",
+          "دستگاه انتقادی و استناد به متن",
+          "شاخص های تحلیلی (makeindex)",
+          "مثال های زبانی (gb4e)"
+        ],
+        "external": [
+          "تصاویر آثار هنری (با وضوح بالا به صورت PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "جداول آماری (کتابها)",
+          "قطعه ها (pgfplots)",
+          "استنادهای کتابشناختی به سبک APA/Chicago"
+        ],
+        "external": [
+          "تجسم داده های پیچیده (R/Python → PDF/PNG)"
+        ],
+        "tip": "برای نمودارهای ساده از pgfplots استفاده کنید. برای تجسم های دقیق، از R یا Python صادر کنید."
+      },
+      "medicina": {
+        "native": [
+          "جداول بالینی (کتابها)",
+          "واحدهای پزشکی \\\\SI{}",
+          "شکل ها با شرح و برچسب"
+        ],
+        "external": [
+          "تصاویر / بافت شناسی DICOM (صادرات به صورت PNG/TIFF با وضوح بالا)",
+          "نمودارهای بالینی (draw.io → PDF)"
+        ],
+        "tip": "تصاویر پزشکی تشخیصی باید به عنوان فایل های خارجی وارد شوند، نه اینکه در LaTeX تکثیر شوند."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "نمرات کامل (MuseScore/Sibelius → PDF)",
+          "قطعات صوتی (لینک خارجی)"
+        ],
+        "tip": "برای نت موسیقی پیچیده، از ویرایشگر نت استفاده کنید و به عنوان PDF ضمیمه کنید."
+      },
+      "arte": {
+        "native": [
+          "برگه های فنی جدول بندی شده (برگه کتاب)"
+        ],
+        "external": [
+          "صفحات و آثار هنری (رزولیشن بالا به صورت PNG/TIFF)",
+          "نمونه کارها بصری (PDF خارجی)",
+          "طرح‌ها (DWG → PDF)"
+        ],
+        "tip": "برای نمونه کارها، PDF یا PNG با کیفیت بالا را در نظر بگیرید. LaTeX طرح بندی و متن توصیفی را مدیریت می کند."
+      },
+      "arquitectura": {
+        "native": [
+          "جداول بودجه و مواد",
+          "برنامه ها",
+          "متون توصیفی"
+        ],
+        "external": [
+          "پلان طبقات (AutoCAD/ArchiCAD → PDF)",
+          "رندرها (صادرات به صورت PNG/PDF)",
+          "مدل ها (عکس به صورت PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "جداول داده ها (برگه های کتاب)",
+          "واحد \\\\SI{}",
+          "درختان فیلوژنتیک (تیکز)"
+        ],
+        "external": [
+          "نمودارهای آناتومیک پیچیده (Inkscape → PDF/SVG)",
+          "میکروسکوپ (PNG با وضوح بالا)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "جداول آماری (کتابها)",
+          "قطعه ها (pgfplots)",
+          "معادلات اقتصاد سنجی"
+        ],
+        "external": [
+          "داشبوردهای تعاملی و تجسم (صادرات به عنوان PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "عیب یابی پروژه",
@@ -789,26 +944,26 @@
     "snapshot_restore_title": "این نسخه را بازیابی کنید",
     "snapshot_delete_title": "نسخه را حذف کنید",
     "section_guidance_label": "راهنمای بخش",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "ذخیره و خارج شوید",
+    "snapshot_restore_action": "بازیابی کنید",
+    "continue_editing": "به ویرایش ادامه دهید",
+    "unsaved_changes_message": "شما تغییرات ذخیره نشده ای در این بخش دارید. دوست دارید قبل از رفتن چه کاری انجام دهید؟",
+    "unsaved_changes_title": "تغییرات ذخیره نشده",
+    "review_ai": "هوش مصنوعی",
+    "visual_type_selector_title": "چه نوع نموداری را می خواهید درج کنید؟",
+    "default_set_a": "مجموعه A",
+    "add_paragraph": "پاراگراف جدید",
+    "review_grammar": "گرامر",
+    "bib_refs_count": "{{count}} به .bib اشاره می کند",
+    "section_status_legend": "افسانه وضعیت",
+    "sections_count": "بخش های {{count}}",
+    "review_spell": "املا",
+    "leave_without_saving": "بدون صرفه جویی ترک کنید",
+    "default_table_column_2": "ستون 2",
+    "default_set_c": "مجموعه C",
+    "default_set_b": "مجموعه B",
+    "default_table_column_1": "ستون 1",
+    "no_bib_file": "نه .bib",
     "insert_plugin_figure_title": "درج شکل علمی (61 نوع)",
     "block_plugin_figure": "شکل +"
   },
@@ -927,11 +1082,11 @@
     "basic_mode_body": "ما فقط آنچه را که برای نوشتن و ارسال بدون پیچیدگی نیاز دارید نشان می دهیم. می توانید فعال کنید",
     "basic_mode_suffix": "در بخش متن",
     "basic_top_body": "این تنظیمات برای تصمیم گیری های مفید بدون وارد کردن جزئیات فنی LaTeX طراحی شده اند. تغییر به",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "به روز رسانی را بررسی کنید",
+    "update_checking": "در حال بررسی…",
+    "update_available": "نسخه {{version}} موجود است — برای نصب مجدد راه اندازی کنید",
+    "update_up_to_date": "شما به روز هستید",
+    "update_error": "نمی‌توان به‌روزرسانی‌ها را بررسی کرد",
     "refresh_catalog": "تازه کردن کاتالوگ",
     "package_status_stable": "پایدار",
     "package_status_beta": "بتا",
@@ -953,7 +1108,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "سبک وزن و نگهداری آسان. برای نوشتن روزمره و پروژه هایی که نیازی به توزیع کامل TeX ندارند توصیه می شود.",
     "latex_suite_title": "مجموعه کامل LaTeX",
-    "latex_suite_description": "از latexmk با TeX Live یا MiKTeX استفاده می کند. برای بسته های پیشرفته، کتابشناسی های پیچیده و تحویل نهایی توصیه می شود.",
+    "latex_suite_description": "مجموعه کامل LaTeX ({{suiteName}}) با latexmk. از تمامی بسته های CTAN، biblatex + Biber، shell-escape و کامپایل چند پاسی پشتیبانی می کند. انتخاب پیشنهادی برای اسناد کامل، نمایه‌های سازمانی و شکل‌های افزونه.",
     "latex_available": "موجود است",
     "latex_not_available": "نصب نشده است",
     "latex_detected_version": "نسخه شناسایی شده: {{version}}",
@@ -967,7 +1122,14 @@
     "window_mode_default": "پیش فرض لپ تاپ",
     "window_mode_remember": "آخرین اندازه را به خاطر بسپارید",
     "window_mode_maximized": "به حداکثر رساند",
-    "window_mode_hint": "یک پنجره 1280 × 760 انتخاب کنید، آخرین اندازه ای را که استفاده کرده اید بازیابی کنید، یا با استفاده از تمام فضای موجود مانیتور باز کنید."
+    "window_mode_hint": "یک پنجره 1280 × 760 انتخاب کنید، آخرین اندازه ای را که استفاده کرده اید بازیابی کنید، یا با استفاده از تمام فضای موجود مانیتور باز کنید.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "برای نصب {{suiteName}} به «مدیریت نصب LaTeX» بروید.",
+    "latex_recommended_badge": "توصیه می شود",
+    "latex_upgrade_banner": "{{suiteName}} نصب شده است - از تمام بسته های CTAN، Biber و شکل های افزونه بدون محدودیت پشتیبانی می کند. تعویض توصیه می شود.",
+    "latex_upgrade_btn": "به {{suiteName}} بروید",
+    "language_catalog_error": "کاتالوگ زبان بارگیری نشد. اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+    "language_install_error": "بسته زبان نصب نشد. اتصال خود را بررسی کنید و دوباره امتحان کنید."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "تصویر '{{file}}' ارجاع شده در بخش '{{section}}' یافت نشد.",
@@ -1061,7 +1223,7 @@
     "delete_profile_title": "پروفایل حذف شود؟",
     "delete_profile_body_before": "این حذف خواهد شد",
     "delete_profile_body_after": "این عمل قابل لغو نیست.",
-    "sidebar_counts": "{{profiles}} installed profiles",
+    "sidebar_counts": "پروفایل های نصب شده {{profiles}}",
     "installed_profiles": "پروفایل های نصب شده",
     "profile_count_hint": "پروفایل های {{count}} · برای مشاهده جزئیات کلیک کنید",
     "import_profile_title": "نمایه را از دایرکتوری وارد کنید",
@@ -1135,30 +1297,31 @@
     "selected_chip": "انتخاب شده است",
     "installed_chip": "نصب شده است",
     "sections_count_suffix": "بخش ها",
-    "tab_plugins": "Plugins",
+    "tab_plugins": "پلاگین ها",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "موضوع جلو",
+      "body": "بدن",
+      "back_matter": "بازگشت موضوع",
+      "appendix": "ضمیمه"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "صفحه عنوان",
+      "abstract": "چکیده",
+      "acknowledgements": "قدردانی ها",
+      "table_of_contents": "فهرست مطالب",
+      "list_of_figures": "فهرست ارقام",
+      "list_of_tables": "لیست جداول",
+      "introduction": "مقدمه",
+      "theoretical_framework": "چارچوب نظری",
+      "methodology": "روش شناسی",
+      "results": "نتایج",
+      "discussion": "بحث",
+      "conclusions": "نتیجه گیری",
+      "references": "مراجع",
+      "appendix": "ضمیمه",
+      "appendix_a": "ضمیمه A"
+    },
+    "tags_placeholder": "پایان نامه، کارشناسی، آپا"
   },
   "progress": {
     "status_draft": "پیش نویس",
@@ -1280,7 +1443,14 @@
     "generating_response": "در حال ایجاد پاسخ…",
     "message_placeholder": "پیام خود را بنویسید… (برای ارسال وارد شوید)",
     "configure_key_first": "ابتدا کلید API خود را پیکربندی کنید",
-    "send": "Send"
+    "send": "ارسال کنید",
+    "error_not_configured": "کلید API پیکربندی نشده است. کلید خود را در برگه ارائه دهنده اضافه کنید.",
+    "error_auth": "کلید API نامعتبر است. بررسی کنید که درست و فعال باشد.",
+    "error_rate_limited": "به محدودیت درخواست رسیده است. چند دقیقه دیگر دوباره امتحان کنید.",
+    "error_network": "خطای شبکه اتصال اینترنت خود را بررسی کنید.",
+    "error_safety": "این درخواست توسط خط مشی ایمنی مسدود شد.",
+    "error_model_unavailable": "مدل انتخاب شده در دسترس نیست. یکی دیگر را در تنظیمات انتخاب کنید.",
+    "error_provider": "خطای ارائه دهنده دوباره امتحان کنید."
   },
   "editor_meta": {
     "project_guide": "راهنمای پروژه",
@@ -1408,7 +1578,8 @@
     "unconfirmed_latex_hint": "تأیید نشد - این بلوک تا زمانی که آن را تأیید نکنید در PDF گنجانده نمی شود.",
     "packages": "بسته ها",
     "edit_figure_title": "عنوان یا برچسب را ویرایش کنید یا شکل را بازسازی کنید",
-    "edit_figure": "شکل را ویرایش کنید"
+    "edit_figure": "شکل را ویرایش کنید",
+    "preview_pending": "پیش نمایشی را از برگه «پیش نمایش» کامپایل کنید تا شکل را در اینجا ببینید."
   },
   "compile": {
     "ensure_latex_installed_path": "بررسی کنید که یک کامپایلر LaTeX در PATH نصب و موجود باشد.",
@@ -1498,24 +1669,24 @@
     "compiling_statusbar": "در حال کامپایل… (خطوط {{count}})",
     "backends_available": "{{backends}} موجود است",
     "latex_not_installed_status": "⚠ LaTeX نصب نشده است",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "کامپایل",
+    "preflight_action_export": "ارسال صادرات",
+    "preflight_title": "چک قبل از {{action}}",
+    "preflight_has_errors": "قبل از ادامه خطا(های) {{count}} را برطرف کنید.",
+    "preflight_has_warnings": "هشدار(های) {{count}} پیدا شد. به هر حال می توانید ادامه دهید.",
+    "preflight_errors_section": "خطاها ({{count}})",
+    "preflight_warnings_section": "هشدارها ({{count}})",
+    "preflight_suggestions_section": "پیشنهادات ({{count}})",
+    "export_success": "صادرات تکمیل شد",
+    "compile_as_draft": "کامپایل به عنوان پیش نویس",
+    "readiness_complete": "کامل",
+    "readiness_export_title": "تحویل نهایی مسدود شده است",
+    "readiness_back": "به بررسی برگردید",
+    "readiness_compile_title": "پروژه برای نسخه رسمی آماده نیست",
+    "readiness_export_subtitle": "برای صادرات در حالت نهایی، ابتدا بررسی های تحویل و کیفیت را تکمیل کنید.",
+    "readiness_compile_subtitle": "قبل از اینکه به عنوان نسخه رسمی تلقی شود، این نکات را به عنوان پیش نویس گردآوری کنید یا مرور کنید.",
+    "readiness_delivery": "تحویل",
+    "readiness_quality": "کیفیت نهایی",
     "severity_error": "خطا",
     "severity_warning": "هشدار",
     "severity_suggestion": "پیشنهاد",
@@ -1593,193 +1764,193 @@
     "order_hint_line_1": "از ▲▼ برای تغییر ترتیب استفاده کنید.",
     "order_hint_line_2": "هنگام ایجاد یک پروژه، ترتیب، فهرست کشویی را تعیین می کند.",
     "add_custom_style": "اضافه کردن سبک سفارشی",
-    "id_required": "ID *",
-    "biblatex_style_required": "Biblatex style *",
-    "references_default_title": "References",
+    "id_required": "شناسه *",
+    "biblatex_style_required": "سبک Biblatex *",
+    "references_default_title": "مراجع",
     "biblatex_label": "biblatex",
-    "citation_label": "citation",
+    "citation_label": "نقل قول",
     "types": {
-      "author_date": "Author-Date",
-      "numeric": "Numeric",
-      "notes_bibliography": "Notes-Bibliog.",
-      "author_page": "Author-Page"
+      "author_date": "نویسنده-تاریخ",
+      "numeric": "عددی",
+      "notes_bibliography": "یادداشت ها-کتابنامه.",
+      "author_page": "نویسنده-صفحه"
     },
     "builtins": {
       "apa7": {
         "name": "APA 7",
-        "full_name": "American Psychological Association, 7th Edition",
+        "full_name": "انجمن روانشناسی آمریکا، ویرایش هفتم",
         "disciplines": [
-          "Psychology",
-          "Education",
-          "Social sciences",
-          "Nursing",
-          "Communication"
+          "روانشناسی",
+          "آموزش و پرورش",
+          "علوم اجتماعی",
+          "پرستاری",
+          "ارتباط"
         ],
-        "description": "The most widely used style globally. Required in many psychology, education, and social science programs. Seventh edition (2020).",
+        "description": "پرکاربردترین سبک در سطح جهانی. در بسیاری از برنامه های روانشناسی، آموزش و علوم اجتماعی مورد نیاز است. ویرایش هفتم (2020).",
         "regions_primary": [
-          "United States",
-          "Canada",
-          "Latin America",
-          "Australia"
+          "ایالات متحده",
+          "کانادا",
+          "آمریکای لاتین",
+          "استرالیا"
         ],
-        "in_text_format": "(Author, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(نویسنده، سال)",
+        "bibliography_title": "مراجع"
       },
       "vancouver": {
         "name": "Vancouver",
-        "full_name": "Vancouver / ICMJE Recommendations",
+        "full_name": "توصیه های Vancouver / ICMJE",
         "disciplines": [
-          "Medicine",
-          "Nursing",
-          "Pharmacy",
-          "Dentistry",
-          "Health sciences"
+          "پزشکی",
+          "پرستاری",
+          "داروخانه",
+          "دندانپزشکی",
+          "علوم بهداشتی"
         ],
-        "description": "Required numeric style for health sciences. References are ordered by appearance. Standard in MEDLINE/PubMed journals.",
+        "description": "سبک عددی مورد نیاز برای علوم بهداشتی. مراجع بر اساس ظاهر مرتب شده اند. استاندارد در مجلات MEDLINE/PubMed.",
         "regions_primary": [
-          "Global, medical and health sciences"
+          "علوم جهانی، پزشکی و بهداشتی"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "مراجع"
       },
       "ieee": {
         "name": "IEEE",
-        "full_name": "IEEE Citation Style",
+        "full_name": "سبک نقل قول IEEE",
         "disciplines": [
-          "Electrical engineering",
-          "Computing",
-          "Telecommunications",
-          "Robotics",
-          "Electronics"
+          "مهندسی برق",
+          "محاسبات",
+          "مخابرات",
+          "رباتیک",
+          "الکترونیک"
         ],
-        "description": "Standard numeric style for engineering, computing, and technology. Widely adopted in engineering schools.",
+        "description": "سبک عددی استاندارد برای مهندسی، محاسبات و فناوری. به طور گسترده در دانشکده های مهندسی پذیرفته شده است.",
         "regions_primary": [
-          "Global, engineering and technology"
+          "جهانی، مهندسی و فناوری"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "مراجع"
       },
       "chicago17_notes": {
-        "name": "Chicago 17 (Notes)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Notes-Bibliography",
+        "name": "Chicago 17 (یادداشت)",
+        "full_name": "Chicago Manual of Style، ویرایش هفدهم، یادداشت ها-کتابشناسی",
         "disciplines": [
-          "History",
-          "Literature",
-          "Arts",
-          "Philosophy",
-          "Religious studies"
+          "تاریخچه",
+          "ادبیات",
+          "هنرها",
+          "فلسفه",
+          "مطالعات دینی"
         ],
-        "description": "Notes and bibliography system for the humanities. Citations appear in footnotes.",
+        "description": "سیستم یادداشت ها و کتابشناسی برای علوم انسانی. نقل قول ها در پاورقی ها ظاهر می شوند.",
         "regions_primary": [
-          "United States",
-          "United Kingdom",
-          "Canada, humanities"
+          "ایالات متحده",
+          "انگلستان",
+          "کانادا، علوم انسانی"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "پاورقی¹",
+        "bibliography_title": "کتابشناسی"
       },
       "chicago17_authordate": {
-        "name": "Chicago 17 (Author-Date)",
-        "full_name": "Chicago Manual of Style, 17th Edition, Author-Date",
+        "name": "Chicago 17 (تاریخ نویسنده)",
+        "full_name": "Chicago Manual of Style، ویرایش هفدهم، تاریخ نویسنده",
         "disciplines": [
-          "Economics",
-          "Political science",
-          "Sociology",
-          "Anthropology",
-          "Geography"
+          "اقتصاد",
+          "علوم سیاسی",
+          "جامعه شناسی",
+          "انسان شناسی",
+          "جغرافیا"
         ],
-        "description": "Chicago author-date variant, preferred in social sciences and economics.",
+        "description": "Chicago نوع تاریخ نویسنده، در علوم اجتماعی و اقتصاد ترجیح داده می شود.",
         "regions_primary": [
-          "United States",
-          "Canada, social sciences"
+          "ایالات متحده",
+          "کانادا، علوم اجتماعی"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(سال نویسنده)",
+        "bibliography_title": "مراجع"
       },
       "mla9": {
         "name": "MLA 9",
-        "full_name": "MLA Handbook, 9th Edition",
+        "full_name": "کتاب راهنمای MLA، ویرایش نهم",
         "disciplines": [
-          "Literature",
-          "Language",
-          "Linguistics",
-          "Cultural studies",
-          "Rhetoric"
+          "ادبیات",
+          "زبان",
+          "زبان شناسی",
+          "مطالعات فرهنگی",
+          "بلاغت"
         ],
-        "description": "Standard for language, literature, and cultural studies in North America. Ninth edition (2021).",
+        "description": "استاندارد برای زبان، ادبیات و مطالعات فرهنگی در آمریکای شمالی. چاپ نهم (2021).",
         "regions_primary": [
-          "United States",
-          "Canada, language and literature"
+          "ایالات متحده",
+          "کانادا، زبان و ادبیات"
         ],
-        "in_text_format": "(Author Page)",
-        "bibliography_title": "Works Cited"
+        "in_text_format": "(صفحه نویسنده)",
+        "bibliography_title": "آثار ذکر شده"
       },
       "harvard": {
-        "name": "Harvard",
-        "full_name": "Harvard Referencing Style",
+        "name": "هاروارد",
+        "full_name": "سبک مرجع هاروارد",
         "disciplines": [
-          "Business",
-          "Management",
-          "Economics",
-          "Social sciences"
+          "تجارت",
+          "مدیریت",
+          "اقتصاد",
+          "علوم اجتماعی"
         ],
-        "description": "Author-date style similar to APA. Widely used in UK and Australian universities.",
+        "description": "سبک تاریخ نویسنده شبیه به APA. به طور گسترده در دانشگاه های انگلستان و استرالیا استفاده می شود.",
         "regions_primary": [
-          "United Kingdom",
-          "Australia",
-          "Ireland",
-          "South Africa"
+          "انگلستان",
+          "استرالیا",
+          "ایرلند",
+          "آفریقای جنوبی"
         ],
-        "in_text_format": "(Author Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(سال نویسنده)",
+        "bibliography_title": "مراجع"
       },
       "mhra": {
         "name": "MHRA",
-        "full_name": "Modern Humanities Research Association Style Guide, 3rd Edition",
+        "full_name": "راهنمای سبک انجمن تحقیقات علوم انسانی مدرن، ویرایش سوم",
         "disciplines": [
-          "Humanities",
-          "History",
-          "Literature",
-          "Philosophy",
-          "Linguistics"
+          "علوم انسانی",
+          "تاریخچه",
+          "ادبیات",
+          "فلسفه",
+          "زبان شناسی"
         ],
-        "description": "UK humanities standard similar to Chicago Notes.",
+        "description": "استاندارد علوم انسانی انگلستان مشابه یادداشت های Chicago.",
         "regions_primary": [
-          "United Kingdom",
-          "Ireland, humanities"
+          "انگلستان",
+          "ایرلند، علوم انسانی"
         ],
-        "in_text_format": "Footnote¹",
-        "bibliography_title": "Bibliography"
+        "in_text_format": "پاورقی¹",
+        "bibliography_title": "کتابشناسی"
       },
       "abnt": {
         "name": "ABNT",
         "full_name": "ABNT NBR 6023:2018",
         "disciplines": [
-          "All disciplines (Brazil)"
+          "همه رشته ها (برزیل)"
         ],
-        "description": "National standard for academic work in Brazilian universities.",
+        "description": "استاندارد ملی برای کار آکادمیک در دانشگاه های برزیل.",
         "regions_primary": [
-          "Brazil, required"
+          "برزیل، مورد نیاز"
         ],
-        "in_text_format": "(AUTHOR, Year)",
-        "bibliography_title": "References"
+        "in_text_format": "(AUTHOR، سال)",
+        "bibliography_title": "مراجع"
       },
       "gb7714": {
         "name": "GB/T 7714",
-        "full_name": "GB/T 7714-2015, Chinese National Standard",
+        "full_name": "GB/T 7714-2015، استاندارد ملی چین",
         "disciplines": [
-          "All disciplines (China)"
+          "کلیه رشته ها (چین)"
         ],
-        "description": "National standard for theses in Chinese. Required in Chinese universities.",
+        "description": "استاندارد ملی برای پایان نامه ها به زبان چینی. در دانشگاه های چین مورد نیاز است.",
         "regions_primary": [
-          "China, required"
+          "چین، مورد نیاز"
         ],
         "in_text_format": "[1]",
-        "bibliography_title": "References"
+        "bibliography_title": "مراجع"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "بازیابی سبک های پیش فرض",
+    "reset_action": "بازیابی کنید"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ درج مرجع متقابل ({{count}})",
@@ -1836,7 +2007,11 @@
     "optional_title": "عنوان اختیاری",
     "theorem_title_placeholder": "قضیه فیثاغورث",
     "math_content": "محتوا (LaTeX ریاضی را می‌پذیرد)",
-    "theorem_content_placeholder": "اجازه دهید $a^2 + b^2 = c^2$ که در آن $c$ فرضیه است..."
+    "theorem_content_placeholder": "اجازه دهید $a^2 + b^2 = c^2$ که در آن $c$ فرضیه است...",
+    "term_placeholder": "هستی شناسی",
+    "definition_placeholder": "شاخه ای از فلسفه که هستی را به عنوان هستی مطالعه می کند.",
+    "acronym_placeholder": "هوش مصنوعی",
+    "full_form_placeholder": "هوش مصنوعی"
   },
   "citation": {
     "error_connect": "خطای اتصال",
@@ -2031,7 +2206,15 @@
     "empty_equation": "معادله خالی",
     "custom_molecule": "مولکول سفارشی",
     "molecule_compile_hint": "ساختار ایجاد شده با chemfig هنگام کامپایل",
-    "chemical_syntax_hint": "از -> (واکنش)، <=> (تعادل)، ^ (گاز) و v (رسوب) استفاده کنید."
+    "chemical_syntax_hint": "از -> (واکنش)، <=> (تعادل)، ^ (گاز) و v (رسوب) استفاده کنید.",
+    "label_example": "fig:my-diagram",
+    "circuit_lower": "مدار",
+    "diagram_lower": "نمودار",
+    "default_start": "شروع کنید",
+    "default_process": "فرآیند",
+    "default_end": "پایان",
+    "default_event": "رویداد {{number}}",
+    "default_major_scale": "مقیاس سی ماژور"
   },
   "vocabulary": {
     "title": "واژگان دامنه",
@@ -2061,7 +2244,10 @@
     "repo_hint_middle": "که دارای یک",
     "repo_hint_suffix": "بخش این می تواند مخزن GitHub خودتان باشد.",
     "alias_placeholder": "نام مستعار (e.g. my-lab-terms)",
-    "adding": "در حال افزودن…"
+    "adding": "در حال افزودن…",
+    "catalog_error": "کاتالوگ واژگان بارگیری نشد. اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+    "repo_sync_error": "نمی‌توان این مخزن را همگام‌سازی کرد.",
+    "repo_add_error": "نمی توان مخزن را اضافه کرد. آدرس آن را بررسی کنید و دوباره امتحان کنید."
   },
   "profile_wizard": {
     "step_of": "مرحله {{current}} از {{total}}",
@@ -2160,66 +2346,66 @@
     "install_from_url_title": "از URL نصب کنید",
     "install_from_url_hint": "URL یک .zip حاوی یک نمایه معتبر.yaml را جای‌گذاری کنید.",
     "install_btn": "نصب کنید",
-    "guided_hint_title": "You do not need the exact profile name",
-    "guided_hint_body": "Start with your institution or a close combination of degree, field, and citation style. If there is no exact match, begin with a simple institutional base and adjust it afterward.",
-    "catalog_load_error": "Could not load the profile catalog. Check your connection or try again.",
-    "install_success": "\"{{name}}\" installed successfully.",
-    "breadcrumb_all": "All",
-    "profile_count_one": "{{count}} profile",
-    "profile_count_other": "{{count}} profiles",
+    "guided_hint_title": "شما نیازی به نام دقیق پروفایل ندارید",
+    "guided_hint_body": "با موسسه خود یا ترکیبی نزدیک از مدرک، رشته و سبک استناد شروع کنید. اگر مطابقت دقیقی وجود ندارد، با یک پایه سازمانی ساده شروع کنید و سپس آن را تنظیم کنید.",
+    "catalog_load_error": "کاتالوگ نمایه بارگیری نشد. اتصال خود را بررسی کنید یا دوباره امتحان کنید.",
+    "install_success": "\"{{name}}\" با موفقیت نصب شد.",
+    "breadcrumb_all": "همه",
+    "profile_count_one": "پروفایل {{count}}",
+    "profile_count_other": "پروفایل های {{count}}",
     "continent": {
-      "america": "America",
-      "europe": "Europe",
-      "asia": "Asia",
-      "generic": "Generic"
+      "america": "آمریکا",
+      "europe": "اروپا",
+      "asia": "آسیا",
+      "generic": "عمومی"
     },
     "country": {
-      "mexico": "Mexico",
-      "usa": "United States",
-      "canada": "Canada",
-      "brazil": "Brazil",
-      "argentina": "Argentina",
-      "chile": "Chile",
-      "uk": "United Kingdom",
-      "germany": "Germany",
-      "spain": "Spain",
-      "netherlands": "Netherlands",
-      "italy": "Italy",
-      "sweden": "Sweden",
-      "france": "France",
-      "china": "China",
-      "japan": "Japan",
-      "south_korea": "South Korea",
-      "singapore": "Singapore",
-      "india": "India",
-      "generic": "Generic"
+      "mexico": "مکزیک",
+      "usa": "ایالات متحده",
+      "canada": "کانادا",
+      "brazil": "برزیل",
+      "argentina": "آرژانتین",
+      "chile": "شیلی",
+      "uk": "انگلستان",
+      "germany": "آلمان",
+      "spain": "اسپانیا",
+      "netherlands": "هلند",
+      "italy": "ایتالیا",
+      "sweden": "سوئد",
+      "france": "فرانسه",
+      "china": "چین",
+      "japan": "ژاپن",
+      "south_korea": "کره جنوبی",
+      "singapore": "سنگاپور",
+      "india": "هندوستان",
+      "generic": "عمومی"
     },
     "academic_level": {
-      "bachillerato": "High school",
-      "tecnico": "Technical degree",
-      "licenciatura": "Bachelor's degree",
-      "especialidad": "Specialization",
-      "maestria": "Master's degree",
-      "doctorado": "Doctorate",
-      "posdoctorado": "Postdoc"
+      "bachillerato": "دبیرستان",
+      "tecnico": "مدرک فنی",
+      "licenciatura": "مدرک لیسانس",
+      "especialidad": "تخصص",
+      "maestria": "فوق لیسانس",
+      "doctorado": "دکتری",
+      "posdoctorado": "پست دکتری"
     },
     "profile_scope": {
-      "institutional": "Institutional",
-      "degree_specific": "Degree-specific",
-      "program_specific": "Program-specific",
-      "discipline_specific": "Field-specific"
+      "institutional": "نهادی",
+      "degree_specific": "مخصوص مدرک",
+      "program_specific": "مخصوص برنامه",
+      "discipline_specific": "زمینه خاص"
     },
     "discipline": {
-      "all_disciplines": "All disciplines",
-      "engineering": "Engineering",
-      "social_sciences": "Social sciences",
-      "humanities": "Humanities",
-      "health_sciences": "Health sciences",
-      "computing": "Computing",
-      "natural_sciences": "Natural sciences"
+      "all_disciplines": "همه رشته ها",
+      "engineering": "مهندسی",
+      "social_sciences": "علوم اجتماعی",
+      "humanities": "علوم انسانی",
+      "health_sciences": "علوم بهداشتی",
+      "computing": "محاسبات",
+      "natural_sciences": "علوم طبیعی"
     },
-    "status_verified_label": "Verified",
-    "status_reviewed_label": "Reviewed"
+    "status_verified_label": "تایید شده است",
+    "status_reviewed_label": "بررسی شد"
   },
   "about": {
     "title": "درباره",
@@ -2309,7 +2495,14 @@
     "apply_visual_title": "تغییرات را اعمال کنید و شکل را بازسازی کنید",
     "apply_visual_btn": "اعمال تغییرات",
     "applying": "در حال اعمال…",
-    "done_msg": "شکل به روز شد"
+    "done_msg": "شکل به روز شد",
+    "tab_preview": "پیش نمایش",
+    "preview_compile_btn": "کامپایل مجدد پیش نمایش",
+    "preview_compiling": "در حال تدوین…",
+    "preview_apply_first": "قبل از پیش نمایش تغییرات را اعمال کنید.",
+    "preview_tectonic_note": "Tectonic موتور فعال است. اگر پیش نمایش ناموفق باشد، این رقم ممکن است به مجموعه کامل LaTeX (MacTeX / MiKTeX / TeX Live) نیاز داشته باشد. می توانید موتور را در تنظیمات → موتور LaTeX تغییر دهید.",
+    "preview_error_prefix": "خطای تالیف:",
+    "preview_no_tectonic": "Tectonic نصب نشده است یا یافت نشد."
   },
   "elements_tab": {
     "title": "عناصر",
@@ -2318,115 +2511,116 @@
     "internal_type_label": "نوع داخلی",
     "blocks": {
       "paragraph": {
-        "name": "Paragraph",
-        "description": "Free-form text block. Supports emphasis, inline citations, and inline LaTeX.",
-        "latex_output": "Escaped text written directly into the document."
+        "name": "پاراگراف",
+        "description": "بلوک متنی فرم آزاد از تاکید، نقل قول های درون خطی و LaTeX درون خطی پشتیبانی می کند.",
+        "latex_output": "متن فرار مستقیماً در سند نوشته شده است."
       },
       "heading": {
-        "name": "Title / Heading",
-        "description": "Section heading: section (H1), subsection (H2), or subsubsection (H3).",
-        "latex_output": "\\section{}, \\subsection{}, \\subsubsection{}"
+        "name": "عنوان / عنوان",
+        "description": "عنوان بخش: بخش (H1)، بخش فرعی (H2)، یا زیربخش (H3).",
+        "latex_output": "\\section{}، \\subsection{}، \\subsubsection{}"
       },
       "figure": {
-        "name": "Figure",
-        "description": "Image with caption, source, and label for cross-references. Widths: 50%, 75%, 100%.",
-        "latex_output": "figure environment + \\includegraphics + \\caption + \\label"
+        "name": "شکل",
+        "description": "تصویر با عنوان، منبع، و برچسب برای ارجاع متقابل. عرض: 50٪، 75٪، 100٪.",
+        "latex_output": "محیط فیگور + \\includegraphics + \\caption + \\label"
       },
       "table": {
-        "name": "Table",
-        "description": "Table with headers, rows, caption, and source. Styles: simple, booktabs, wide, longtable.",
-        "latex_output": "table environment + tabular/longtable + \\caption"
+        "name": "جدول",
+        "description": "جدول با سرصفحه، ردیف، عنوان و منبع. سبک ها: ساده، دفترچه، عریض، میز بلند.",
+        "latex_output": "محیط جدول + جدول / میز بلند + \\caption"
       },
       "equation": {
-        "name": "Equation",
-        "description": "Numbered or unnumbered mathematical formula. Written in pure LaTeX math.",
-        "latex_output": "equation or equation* environment + optional \\label"
+        "name": "معادله",
+        "description": "فرمول ریاضی شماره دار یا بدون شماره نوشته شده در ریاضی خالص LaTeX.",
+        "latex_output": "معادله یا معادله* محیط + اختیاری \\label"
       },
       "list": {
-        "name": "List",
-        "description": "Bulleted (itemize), numbered (enumerate), or descriptive (description) list.",
-        "latex_output": "\\begin{itemize/enumerate/description}"
+        "name": "فهرست کنید",
+        "description": "فهرست گلوله‌ای (مجموعه)، شماره‌دار (شمارش)، یا توصیفی (توضیح)",
+        "latex_output": "\\begin{itemize/numerate/description}"
       },
       "citation": {
-        "name": "Bibliographic citation",
-        "description": "Parenthetical, narrative, or multiple citation linked to a BibTeX key in the .bib file.",
-        "latex_output": "\\parencite{}, \\textcite{}, \\cite{}"
+        "name": "استناد کتابشناختی",
+        "description": "استناد پرانتزی، روایتی یا چندگانه مرتبط با یک کلید BibTeX در فایل .bib.",
+        "latex_output": "\\parencite{}، \\textcite{}، \\cite{}"
       },
       "raw_latex": {
-        "name": "Raw LaTeX",
-        "description": "Arbitrary LaTeX fragment for advanced cases. Requires user confirmation.",
-        "latex_output": "Verbatim, unescaped. Use with care."
+        "name": "خام LaTeX",
+        "description": "قطعه LaTeX دلخواه برای موارد پیشرفته. به تایید کاربر نیاز دارد.",
+        "latex_output": "کلمه به کلمه، بدون فرار. با احتیاط استفاده کنید."
       }
     },
     "tags": {
-      "text": "text",
-      "content": "content",
-      "structure": "structure",
-      "navigation": "navigation",
-      "image": "image",
-      "graphic": "graphic",
-      "data": "data",
-      "statistics": "statistics",
-      "mathematics": "mathematics",
-      "formula": "formula",
-      "list": "list",
-      "enumeration": "enumeration",
-      "bibliography": "bibliography",
-      "reference": "reference",
-      "advanced": "advanced",
-      "custom": "custom"
+      "text": "متن",
+      "content": "محتوا",
+      "structure": "ساختار",
+      "navigation": "ناوبری",
+      "image": "تصویر",
+      "graphic": "گرافیکی",
+      "data": "داده ها",
+      "statistics": "آمار",
+      "mathematics": "ریاضیات",
+      "formula": "فرمول",
+      "list": "فهرست",
+      "enumeration": "شمارش",
+      "bibliography": "کتابشناسی",
+      "reference": "مرجع",
+      "advanced": "پیشرفته",
+      "custom": "سفارشی"
     }
   },
   "readiness": {
-    "panel_title": "Project progress",
-    "row_overall": "Project",
-    "row_setup": "Setup",
-    "row_writing": "Writing",
-    "row_delivery": "Delivery",
-    "row_quality": "Final quality",
-    "pending_prefix": "Pending:",
-    "delivery_blocked": "There are pending items before final delivery",
-    "setup_title": "Set the real title of the work",
-    "setup_author": "Complete main authorship",
-    "setup_institution": "Enter the real institution",
-    "setup_profile": "Select an academic profile",
-    "setup_language": "Choose the base language",
-    "setup_advisor": "Add at least one advisor or thesis director",
-    "writing_sections": "Enable at least one content section",
-    "writing_draft": "Write content in a main section",
-    "writing_words": "Develop a substantial first draft",
-    "writing_reviewed": "Mark at least one section as revised",
-    "delivery_references": "Include a references section",
-    "delivery_abstract": "Write the summary or abstract",
-    "delivery_required": "Complete the required sections of the profile",
-    "delivery_latex": "Confirm or remove unvalidated LaTeX blocks",
-    "delivery_committee": "Complete the committee for advanced work",
-    "delivery_review_main": "Review the main sections before delivery",
-    "quality_citation": "Include at least one verifiable citation in the body",
-    "quality_required_reviewed": "Mark required body sections as revised",
-    "quality_raw_latex": "Migrate or manually review imported LaTeX blocks before final delivery",
-    "quality_plugin_warnings": "Resolve figure or plugin warnings before final delivery",
-    "quality_profile": "Use an institutional or custom profile for formal submissions"
+    "panel_title": "پیشرفت پروژه",
+    "row_overall": "پروژه",
+    "row_setup": "راه اندازی",
+    "row_writing": "نوشتن",
+    "row_delivery": "تحویل",
+    "row_quality": "کیفیت نهایی",
+    "pending_prefix": "در انتظار:",
+    "delivery_blocked": "اقلام معلقی قبل از تحویل نهایی وجود دارد",
+    "setup_title": "عنوان واقعی کار را تعیین کنید",
+    "setup_author": "تالیف اصلی کامل",
+    "setup_institution": "موسسه واقعی را وارد کنید",
+    "setup_profile": "پروفایل دانشگاهی را انتخاب کنید",
+    "setup_language": "زبان پایه را انتخاب کنید",
+    "setup_advisor": "حداقل یک مشاور یا مدیر پایان نامه اضافه کنید",
+    "writing_sections": "حداقل یک بخش محتوا را فعال کنید",
+    "writing_draft": "مطالب را در بخش اصلی بنویسید",
+    "writing_words": "یک پیش نویس قابل توجه اولیه را ایجاد کنید",
+    "writing_reviewed": "حداقل یک بخش را به عنوان اصلاح شده علامت بزنید",
+    "delivery_references": "شامل بخش مراجع",
+    "delivery_abstract": "خلاصه یا چکیده را بنویسید",
+    "delivery_required": "بخش های مورد نیاز نمایه را تکمیل کنید",
+    "delivery_latex": "بلوک های نامعتبر LaTeX را تأیید یا حذف کنید",
+    "delivery_committee": "کمیته کار پیشرفته را تکمیل کنید",
+    "delivery_review_main": "قبل از تحویل، بخش های اصلی را مرور کنید",
+    "quality_citation": "حداقل یک نقل قول قابل تأیید را در متن وارد کنید",
+    "quality_required_reviewed": "بخش‌های مورد نیاز بدن را به‌عنوان اصلاح‌شده علامت‌گذاری کنید",
+    "quality_raw_latex": "قبل از تحویل نهایی، بلوک‌های LaTeX وارد شده را مهاجرت کرده یا به صورت دستی بررسی کنید",
+    "quality_plugin_warnings": "قبل از تحویل نهایی، اخطارهای شکل یا افزونه را حل کنید",
+    "quality_profile": "برای ارسال های رسمی از یک نمایه سازمانی یا سفارشی استفاده کنید"
   },
   "plugins_tab": {
-    "title": "Plugins",
-    "subtitle": "{{count}} visual plugins available for inserting figures and diagrams.",
-    "search_placeholder": "Search by name, package, or category…",
-    "no_results": "No plugins match that search.",
+    "title": "پلاگین ها",
+    "subtitle": "افزونه های بصری {{count}} برای درج شکل ها و نمودارها موجود است.",
+    "search_placeholder": "جستجو بر اساس نام، بسته یا دسته…",
+    "no_results": "هیچ افزونه ای با آن جستجو مطابقت ندارد.",
     "quality": {
-      "stable": "stable",
-      "beta": "beta",
-      "experimental": "experimental",
-      "draft": "draft"
+      "stable": "پایدار",
+      "beta": "بتا",
+      "experimental": "تجربی",
+      "draft": "پیش نویس"
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "زبان خود را انتخاب کنید",
+    "subheading": "بعداً می‌توانید این را در تنظیمات تغییر دهید.",
+    "more_languages": "زبان های بیشتر",
+    "loading_more": "در حال بارگیری زبان های بیشتر…",
+    "catalog_error": "زبان های بیشتری بارگیری نشد. می توانید با یک زبان همراه ادامه دهید.",
+    "skip": "پرش کنید",
+    "install_error": "آن زبان نصب نشد. اتصال خود را بررسی کنید و دوباره امتحان کنید."
   },
   "toast": {
     "close_button": "بستن اعلان",
@@ -2527,7 +2721,50 @@
     "redo": "دوباره انجام دهید",
     "restore_btn": "نمونه را بازیابی کنید",
     "restore_title": "با یک نمونه کار حداقلی جایگزین کنید",
-    "advanced_section": "گزینه های پیشرفته"
+    "advanced_section": "گزینه های پیشرفته",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "برچسب برای ارجاع متقابل (e.g. eq:quadratic). خالی یعنی بدون برچسب."
+      },
+      "chemistry_output": {
+        "label": "حالت خروجی",
+        "description": "mhchem: درون خطی \\ce{...}. chemfig: ساختارهای باند زاویه."
+      },
+      "circuit_style": {
+        "label": "سبک آمریکایی",
+        "description": "روشن: نمادهای مؤلفه آمریکایی (IEEE). خاموش: نمادهای اروپایی (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "کتابخانه های TikZ",
+        "description": "کتابخانه های اضافی TikZ با کاما جدا شده (e.g. calc، arrows.meta، الگوها)."
+      },
+      "pgfplots_options": {
+        "label": "گزینه های PGFPlots",
+        "description": "گزینه های اضافی در \\beginZXQ0QXZ[…] درج شده است، مانند xbar یا compat=1.18."
+      },
+      "forest_options": {
+        "label": "گزینه های جنگل",
+        "description": "گزینه‌های اضافی به محیط جنگل منتقل می‌شوند، مانند لبه‌های دوشاخه یا سبک‌های برچسب لبه."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "گراف های جهت دار و بدون جهت با گره ها، لبه ها، اشکال و سبک های قوس."
+      },
+      "pgfplots": {
+        "description": "نمودارها، هیستوگرام ها، نمودارهای میله ای، نمودارهای پراکندگی، و نقشه های حرارتی با PGFPlots."
+      },
+      "tree_forest": {
+        "description": "نحو سلسله مراتبی، تاکسونومیک، فیلوژنتیک، تصمیم و درختان احتمال."
+      },
+      "table_data": {
+        "description": "جداول داده قابل صادرات به داده های booktabs، longtable یا PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "نمودارها و جدول زمانی گانت با گروه ها، وظایف و وابستگی ها."
+      }
+    }
   },
   "help": {
     "title": "مرکز راهنمایی",

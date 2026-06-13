@@ -105,11 +105,11 @@
     "level_posdoctorado": "Posdoctorado",
     "level_bachillerato": "Bachillerato",
     "level_tecnico": "Técnico",
-    "basic_mode_description": "TeXisStudio is in guided mode: focus on your work and the app will handle formatting, bibliography, and delivery.",
-    "error_opening_project": "Could not open that folder as a TeXisStudio project. Make sure it contains tesis.project.yaml.",
-    "search_library_hint": "Search library",
-    "detecting_latex": "Detecting LaTeX…",
-    "error_importing_tex": "Could not import the .tex file: {{error}}"
+    "basic_mode_description": "TeXisStudio está en modo guiado: tú enfócate en tu trabajo y la app te acompaña con formato, bibliografía y entrega.",
+    "error_opening_project": "No pude abrir esa carpeta como proyecto TeXisStudio. Verifica que contenga tesis.project.yaml.",
+    "search_library_hint": "Buscar en la biblioteca",
+    "detecting_latex": "Detectando LaTeX…",
+    "error_importing_tex": "No pude importar el archivo .tex: {{error}}"
   },
   "wizard": {
     "title": "Batz'il ts'ibajel",
@@ -280,8 +280,163 @@
     "recommend_reason_tesis": "sirve como base sólida para tesis",
     "recommend_reason_verified": "tiene verificación institucional",
     "recommend_reason_reviewed": "ya fue revisado por el equipo",
-    "error_vocab_install": "Could not activate \"{{name}}\". Check your connection or deselect it to create the project without this support. Detail: {{error}}",
-    "google_drive_desktop": "Google Drive para escritorio"
+    "error_vocab_install": "No se pudo activar \"{{name}}\". Revisa tu conexion o desmarcalo para crear el proyecto sin ese apoyo. Detalle: {{error}}",
+    "google_drive_desktop": "Google Drive para escritorio",
+    "disciplines": {
+      "matematicas": {
+        "native": [
+          "Ecuaciones numeradas \\\\eqref{}",
+          "Teoremas y demostraciones",
+          "Matrices y vectores",
+          "Diagramas conmutativos (tikz-cd)",
+          "Árboles de prueba (bussproofs)"
+        ],
+        "external": [],
+        "tip": "LaTeX es la herramienta canónica para matemáticas formales."
+      },
+      "logica": {
+        "native": [
+          "Árboles de deducción (bussproofs)",
+          "Tablas de verdad",
+          "Semántica formal",
+          "Diagramas de Hasse"
+        ],
+        "external": []
+      },
+      "fisica": {
+        "native": [
+          "Unidades físicas \\\\SI{} (siunitx)",
+          "Derivadas parciales \\\\pdv{}",
+          "Diagramas de Feynman (tikz-feynman)",
+          "Gráficas (pgfplots)"
+        ],
+        "external": [
+          "Simulaciones numéricas (exportar como PDF/PNG)"
+        ],
+        "tip": "Usa siunitx para todas las unidades — nunca escribir 'km/h' directo."
+      },
+      "quimica": {
+        "native": [
+          "Reacciones químicas \\\\ce{} (mhchem)",
+          "Estructuras moleculares (chemfig)",
+          "Unidades \\\\SI{} (siunitx)"
+        ],
+        "external": [
+          "Estructuras 3D complejas (exportar desde ChemDraw como PDF)"
+        ],
+        "tip": "Para estructuras sencillas usa chemfig. Para cristalografía o proteínas, importa como PDF."
+      },
+      "ingenieria": {
+        "native": [
+          "Unidades \\\\SI{} (siunitx)",
+          "Circuitos (circuitikz)",
+          "Gráficas de datos (pgfplots)",
+          "Algoritmos (algpseudocode)"
+        ],
+        "external": [
+          "Planos técnicos (AutoCAD → PDF)",
+          "Esquemas PCB (KiCad → PDF)"
+        ],
+        "tip": "circuitikz cubre la mayoría de los circuitos de señal y potencia."
+      },
+      "computacion": {
+        "native": [
+          "Código fuente (lstlisting)",
+          "Algoritmos con pseudocódigo",
+          "Gráficas de rendimiento (pgfplots)",
+          "Árboles de decisión (tikz)"
+        ],
+        "external": [
+          "Diagramas de arquitectura complejos (draw.io → PDF/PNG)"
+        ]
+      },
+      "humanidades": {
+        "native": [
+          "Notas al pie extensas",
+          "Aparato crítico y citas textuales",
+          "Índices analíticos (makeindex)",
+          "Ejemplos lingüísticos (gb4e)"
+        ],
+        "external": [
+          "Imágenes de obras de arte (alta resolución como PNG/PDF)"
+        ]
+      },
+      "ciencias_sociales": {
+        "native": [
+          "Tablas estadísticas (booktabs)",
+          "Gráficas (pgfplots)",
+          "Citas bibliográficas estilo APA/Chicago"
+        ],
+        "external": [
+          "Visualizaciones de datos complejas (R/Python → PDF/PNG)"
+        ],
+        "tip": "Para gráficas simples usa pgfplots. Para visualizaciones elaboradas, exporta desde R o Python."
+      },
+      "medicina": {
+        "native": [
+          "Tablas clínicas (booktabs)",
+          "Unidades médicas \\\\SI{}",
+          "Figuras con caption y label"
+        ],
+        "external": [
+          "Imágenes DICOM / histología (exportar como PNG/TIFF de alta resolución)",
+          "Organigramas clínicos (draw.io → PDF)"
+        ],
+        "tip": "Las imágenes médicas de diagnóstico deben importarse como archivo externo, no reproducidas en LaTeX."
+      },
+      "musica": {
+        "native": [],
+        "external": [
+          "Partituras completas (MuseScore/Sibelius → PDF)",
+          "Fragmentos de audio (enlace externo)"
+        ],
+        "tip": "La notación musical compleja conviene producirla en un editor de partituras y adjuntarla como PDF."
+      },
+      "arte": {
+        "native": [
+          "Fichas técnicas tabuladas (booktabs)"
+        ],
+        "external": [
+          "Láminas y obras (alta resolución como PNG/TIFF)",
+          "Portfolio visual (PDF externo)",
+          "Planos (DWG → PDF)"
+        ],
+        "tip": "Para portfolios, incluye el PDF o PNG de alta calidad. LaTeX gestiona layout y texto descriptivo."
+      },
+      "arquitectura": {
+        "native": [
+          "Tablas de presupuesto y materiales",
+          "Cronogramas",
+          "Textos descriptivos"
+        ],
+        "external": [
+          "Planos (AutoCAD/ArchiCAD → PDF)",
+          "Renders (exportar como PNG/PDF)",
+          "Maquetas (fotografía como PNG)"
+        ]
+      },
+      "biologia": {
+        "native": [
+          "Tablas de datos (booktabs)",
+          "Unidades \\\\SI{}",
+          "Árboles filogenéticos (tikz)"
+        ],
+        "external": [
+          "Esquemas anatómicos complejos (Inkscape → PDF/SVG)",
+          "Microscopia (PNG de alta resolución)"
+        ]
+      },
+      "economia": {
+        "native": [
+          "Tablas estadísticas (booktabs)",
+          "Gráficas (pgfplots)",
+          "Ecuaciones econométricas"
+        ],
+        "external": [
+          "Dashboards y visualizaciones interactivas (exportar como PNG/PDF)"
+        ]
+      }
+    }
   },
   "editor": {
     "diag_title": "Diagnósticos del proyecto",
@@ -503,26 +658,26 @@
     "snapshot_restore_title": "Restaurar esta versión",
     "snapshot_delete_title": "Eliminar versión",
     "section_guidance_label": "Orientación de la sección",
-    "save_and_exit": "Save and exit",
-    "snapshot_restore_action": "Restore",
-    "continue_editing": "Keep editing",
-    "unsaved_changes_message": "You have unsaved changes in this section. What would you like to do before leaving?",
-    "unsaved_changes_title": "Unsaved changes",
-    "review_ai": "AI",
-    "visual_type_selector_title": "What type of diagram do you want to insert?",
-    "default_set_a": "Set A",
-    "add_paragraph": "New paragraph",
-    "review_grammar": "Grammar",
-    "bib_refs_count": "{{count}} refs in .bib",
-    "section_status_legend": "Status legend",
-    "sections_count": "{{count}} sections",
-    "review_spell": "Spelling",
-    "leave_without_saving": "Leave without saving",
-    "default_table_column_2": "Column 2",
-    "default_set_c": "Set C",
-    "default_set_b": "Set B",
-    "default_table_column_1": "Column 1",
-    "no_bib_file": "no .bib",
+    "save_and_exit": "Guardar y salir",
+    "snapshot_restore_action": "Restaurar",
+    "continue_editing": "Seguir editando",
+    "unsaved_changes_message": "Tienes cambios sin guardar en esta sección. ¿Qué deseas hacer antes de salir?",
+    "unsaved_changes_title": "Cambios sin guardar",
+    "review_ai": "IA",
+    "visual_type_selector_title": "¿Qué tipo de diagrama quieres insertar?",
+    "default_set_a": "Conjunto A",
+    "add_paragraph": "Nuevo párrafo",
+    "review_grammar": "Gramática",
+    "bib_refs_count": "{{count}} refs en .bib",
+    "section_status_legend": "Leyenda de estados",
+    "sections_count": "{{count}} secciones",
+    "review_spell": "Ortografía",
+    "leave_without_saving": "Salir sin guardar",
+    "default_table_column_2": "Columna 2",
+    "default_set_c": "Conjunto C",
+    "default_set_b": "Conjunto B",
+    "default_table_column_1": "Columna 1",
+    "no_bib_file": "sin .bib",
     "insert_plugin_figure_title": "Insertar figura científica (61 tipos)",
     "block_plugin_figure": "Figura+"
   },
@@ -641,11 +796,11 @@
     "basic_mode_body": "Te mostramos solo lo necesario para escribir y entregar sin complicarte. Puedes activar",
     "basic_mode_suffix": "en la sección de texto.",
     "basic_top_body": "Esta configuración está pensada para que tomes decisiones útiles sin tener que entrar al detalle técnico de LaTeX. Si más adelante necesitas control fino, puedes cambiar a",
-    "update_check_btn": "Check for updates",
-    "update_checking": "Checking…",
-    "update_available": "Version {{version}} available — restart to install",
-    "update_up_to_date": "You are up to date",
-    "update_error": "Could not check for updates",
+    "update_check_btn": "Buscar actualizaciones",
+    "update_checking": "Buscando…",
+    "update_available": "Versión {{version}} disponible — reinicia para instalar",
+    "update_up_to_date": "Estás al día",
+    "update_error": "No se pudo buscar actualizaciones",
     "refresh_catalog": "Actualizar catálogo",
     "package_status_stable": "Estable",
     "package_status_beta": "Beta",
@@ -667,7 +822,7 @@
     "latex_tectonic_title": "Tectonic",
     "latex_tectonic_description": "Ligero y fácil de mantener. Recomendado para la escritura cotidiana y proyectos que no necesitan una distribución TeX completa.",
     "latex_suite_title": "Suite LaTeX completa",
-    "latex_suite_description": "Usa latexmk con TeX Live o MiKTeX. Recomendada para paquetes avanzados, bibliografías complejas y la entrega final.",
+    "latex_suite_description": "Suite LaTeX completa ({{suiteName}}) con latexmk. Soporta todos los paquetes de CTAN, biblatex + Biber, shell-escape y compilación multipasada. La opción recomendada para documentos completos, perfiles institucionales y figuras de plugins.",
     "latex_available": "Disponible",
     "latex_not_available": "No instalado",
     "latex_detected_version": "Versión detectada: {{version}}",
@@ -681,7 +836,14 @@
     "window_mode_default": "Predeterminado para laptop",
     "window_mode_remember": "Recordar último tamaño",
     "window_mode_maximized": "Maximizada",
-    "window_mode_hint": "Elige una ventana de 1280 × 760, recupera el último tamaño que usaste o abre aprovechando todo el monitor disponible."
+    "window_mode_hint": "Elige una ventana de 1280 × 760, recupera el último tamaño que usaste o abre aprovechando todo el monitor disponible.",
+    "latex_suite_title_os": "{{suiteName}} + latexmk",
+    "latex_suite_install_hint": "Ve a «Administrar instalación de LaTeX» para instalar {{suiteName}}.",
+    "latex_recommended_badge": "Recomendado",
+    "latex_upgrade_banner": "{{suiteName}} está instalado — admite todos los paquetes de CTAN, Biber y figuras de plugins sin restricciones. Se recomienda cambiar a él.",
+    "latex_upgrade_btn": "Cambiar a {{suiteName}}",
+    "language_catalog_error": "No se pudo cargar el catálogo de idiomas. Revisa tu conexión e inténtalo de nuevo.",
+    "language_install_error": "No se pudo instalar el paquete de idioma. Revisa tu conexión e inténtalo de nuevo."
   },
   "validation": {
     "E_MISSING_IMAGE_msg": "Ilel '{{file}}' ta snopel '{{section}}' ma' ilbil.",
@@ -851,28 +1013,29 @@
     "sections_count_suffix": "secciones",
     "tab_plugins": "Plugins",
     "placement": {
-      "front_matter": "Front Matter",
-      "body": "Body",
-      "back_matter": "Back Matter",
-      "appendix": "Appendix"
+      "front_matter": "Preliminares",
+      "body": "Cuerpo",
+      "back_matter": "Material final",
+      "appendix": "Anexos"
     },
     "section_element": {
-      "title_page": "Title Page",
-      "abstract": "Abstract",
-      "acknowledgements": "Acknowledgements",
-      "table_of_contents": "Table of Contents",
-      "list_of_figures": "List of Figures",
-      "list_of_tables": "List of Tables",
-      "introduction": "Introduction",
-      "theoretical_framework": "Theoretical Framework",
-      "methodology": "Methodology",
-      "results": "Results",
-      "discussion": "Discussion",
-      "conclusions": "Conclusions",
-      "references": "References",
-      "appendix": "Appendix",
-      "appendix_a": "Appendix A"
-    }
+      "title_page": "Portada",
+      "abstract": "Resumen",
+      "acknowledgements": "Agradecimientos",
+      "table_of_contents": "Tabla de contenidos",
+      "list_of_figures": "Lista de figuras",
+      "list_of_tables": "Lista de tablas",
+      "introduction": "Introducción",
+      "theoretical_framework": "Marco teórico",
+      "methodology": "Metodología",
+      "results": "Resultados",
+      "discussion": "Discusión",
+      "conclusions": "Conclusiones",
+      "references": "Referencias",
+      "appendix": "Apéndice",
+      "appendix_a": "Apéndice A"
+    },
+    "tags_placeholder": "tesis, licenciatura, apa"
   },
   "progress": {
     "status_draft": "Borrador",
@@ -994,7 +1157,14 @@
     "generating_response": "Generando respuesta…",
     "message_placeholder": "Escribe tu mensaje… (Enter para enviar)",
     "configure_key_first": "Configura tu API key primero",
-    "send": "Send"
+    "send": "Enviar",
+    "error_not_configured": "API key no configurada. Agrega tu clave en la pestaña del proveedor.",
+    "error_auth": "API key inválida. Verifica que sea correcta y esté activa.",
+    "error_rate_limited": "Límite de peticiones alcanzado. Intenta en unos minutos.",
+    "error_network": "Error de red. Verifica tu conexión a internet.",
+    "error_safety": "La solicitud fue bloqueada por la política de seguridad.",
+    "error_model_unavailable": "El modelo seleccionado no está disponible. Elige otro en la configuración.",
+    "error_provider": "Error del proveedor. Intenta de nuevo."
   },
   "editor_meta": {
     "project_guide": "Guía del proyecto",
@@ -1122,7 +1292,8 @@
     "unconfirmed_latex_hint": "No confirmado — este bloque no se incluirá en el PDF hasta que lo confirmes.",
     "packages": "Paquetes",
     "edit_figure_title": "Editar el título o la etiqueta, o regenerar la figura",
-    "edit_figure": "Editar figura"
+    "edit_figure": "Editar figura",
+    "preview_pending": "Compila una vista previa desde la pestaña «Vista previa» para ver la figura aquí."
   },
   "compile": {
     "ensure_latex_installed_path": "Verifica que el compilador LaTeX esté instalado y en el PATH.",
@@ -1212,24 +1383,24 @@
     "compiling_statusbar": "Compilando… ({{count}} líneas)",
     "backends_available": "{{backends}} disponibles",
     "latex_not_installed_status": "⚠ LaTeX no instalado",
-    "preflight_action_compile": "Compile",
-    "preflight_action_export": "Export submission",
-    "preflight_title": "Pre-{{action}} check",
-    "preflight_has_errors": "Fix {{count}} error(s) before continuing.",
-    "preflight_has_warnings": "{{count}} warning(s) found. You can continue anyway.",
-    "preflight_errors_section": "Errors ({{count}})",
-    "preflight_warnings_section": "Warnings ({{count}})",
-    "preflight_suggestions_section": "Suggestions ({{count}})",
-    "export_success": "Export completed",
-    "compile_as_draft": "Compile as draft",
-    "readiness_complete": "Complete",
-    "readiness_export_title": "Final delivery blocked",
-    "readiness_back": "Go back to review",
-    "readiness_compile_title": "Project not ready for formal version",
-    "readiness_export_subtitle": "To export in final mode, first complete the delivery and quality checks.",
-    "readiness_compile_subtitle": "Compile as draft or review these points before treating this as a formal version.",
-    "readiness_delivery": "Delivery",
-    "readiness_quality": "Final quality",
+    "preflight_action_compile": "Compilar",
+    "preflight_action_export": "Exportar entrega",
+    "preflight_title": "Verificación antes de {{action}}",
+    "preflight_has_errors": "Corrige {{count}} error(es) antes de continuar.",
+    "preflight_has_warnings": "{{count}} advertencia(s) encontrada(s). Puedes continuar.",
+    "preflight_errors_section": "Errores ({{count}})",
+    "preflight_warnings_section": "Advertencias ({{count}})",
+    "preflight_suggestions_section": "Sugerencias ({{count}})",
+    "export_success": "Exportación completada",
+    "compile_as_draft": "Compilar como borrador",
+    "readiness_complete": "Completo",
+    "readiness_export_title": "Entrega final bloqueada",
+    "readiness_back": "Volver a revisar",
+    "readiness_compile_title": "Proyecto pendiente para versión formal",
+    "readiness_export_subtitle": "Para exportar en modo final, completa primero los controles de entrega y calidad.",
+    "readiness_compile_subtitle": "Compila como borrador o revisa estos puntos antes de tratarlo como versión formal.",
+    "readiness_delivery": "Entrega",
+    "readiness_quality": "Calidad final",
     "severity_error": "Error",
     "severity_warning": "Advertencia",
     "severity_suggestion": "Sugerencia",
@@ -1492,8 +1663,8 @@
         "bibliography_title": "参考文献 / References"
       }
     },
-    "reset_title": "Restore default styles",
-    "reset_action": "Restore"
+    "reset_title": "Restaurar estilos por defecto",
+    "reset_action": "Restaurar"
   },
   "block_editor": {
     "insert_cross_reference": "⌗ Insertar referencia cruzada ({{count}})",
@@ -1550,7 +1721,11 @@
     "optional_title": "Título opcional",
     "theorem_title_placeholder": "Teorema de Pitágoras",
     "math_content": "Contenido (acepta LaTeX matemático)",
-    "theorem_content_placeholder": "Sea $a^2 + b^2 = c^2$ donde $c$ es la hipotenusa..."
+    "theorem_content_placeholder": "Sea $a^2 + b^2 = c^2$ donde $c$ es la hipotenusa...",
+    "term_placeholder": "Ontología",
+    "definition_placeholder": "Rama de la filosofía que estudia el ser en cuanto ser.",
+    "acronym_placeholder": "IA",
+    "full_form_placeholder": "Inteligencia Artificial"
   },
   "citation": {
     "error_connect": "Error al conectar.",
@@ -1745,7 +1920,15 @@
     "empty_equation": "Ecuación vacía",
     "custom_molecule": "Molécula personalizada",
     "molecule_compile_hint": "Estructura generada con chemfig al compilar",
-    "chemical_syntax_hint": "Usa -> (reacción), <=> (equilibrio), ^ (gas) y v (precipitado)"
+    "chemical_syntax_hint": "Usa -> (reacción), <=> (equilibrio), ^ (gas) y v (precipitado)",
+    "label_example": "fig:mi-diagrama",
+    "circuit_lower": "circuito",
+    "diagram_lower": "diagrama",
+    "default_start": "Inicio",
+    "default_process": "Proceso",
+    "default_end": "Fin",
+    "default_event": "Evento {{number}}",
+    "default_major_scale": "Escala de do mayor"
   },
   "vocabulary": {
     "title": "Vocabularios de dominio",
@@ -1775,7 +1958,10 @@
     "repo_hint_middle": "que tenga sección",
     "repo_hint_suffix": "Puede ser tu propio repo de GitHub.",
     "alias_placeholder": "Alias (ej: mi-lab-terminos)",
-    "adding": "Añadiendo…"
+    "adding": "Añadiendo…",
+    "catalog_error": "No se pudo cargar el catálogo de vocabularios. Revisa tu conexión e inténtalo de nuevo.",
+    "repo_sync_error": "No se pudo sincronizar este repositorio.",
+    "repo_add_error": "No se pudo añadir el repositorio. Revisa su dirección e inténtalo de nuevo."
   },
   "profile_wizard": {
     "step_of": "Paso {{current}} de {{total}}",
@@ -2023,7 +2209,14 @@
     "apply_visual_title": "Aplicar cambios y regenerar la figura",
     "apply_visual_btn": "Aplicar cambios",
     "applying": "Aplicando…",
-    "done_msg": "Figura actualizada"
+    "done_msg": "Figura actualizada",
+    "tab_preview": "Vista previa",
+    "preview_compile_btn": "Recompilar vista previa",
+    "preview_compiling": "Compilando…",
+    "preview_apply_first": "Aplica los cambios antes de previsualizar.",
+    "preview_tectonic_note": "Tectonic es el motor activo. Si la vista previa falla, es posible que esta figura requiera una suite LaTeX completa (MacTeX / MiKTeX / TeX Live). Puedes cambiar el motor en Configuración → Motor LaTeX.",
+    "preview_error_prefix": "Error de compilación:",
+    "preview_no_tectonic": "Tectonic no está instalado o no se encontró."
   },
   "elements_tab": {
     "title": "Elementos",
@@ -2131,37 +2324,37 @@
           "tagline": "Recomendado — resultados más finos, estables y completos",
           "description": "MacTeX es la distribución TeX Live completa para macOS. Produce los resultados más precisos y estables: tipografía perfecta, bibliografías APA/IEEE/Vancouver correctas al 100%, soporte nativo para Cirílico, CJK, Devanagari y cualquier paquete LaTeX publicado. Ideal para tesis finales, revistas y cualquier documento que deba verse impecable.",
           "pros": [
-            "Finest typography and output of any lightweight alternative",
-            "100% compatible bibliographies (correct biber version included)",
-            "All CTAN packages available without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "One-command Homebrew installation"
+            "Tipografía y salida más fina que cualquier alternativa ligera",
+            "Bibliografías compatibles al 100% (biber versión correcta incluida)",
+            "Todos los paquetes CTAN disponibles sin restricción",
+            "Soporte nativo multilingüe: Cirílico, CJK, Árabe, Devanagari",
+            "Compilación multi-pasada correcta: TOC, índices, referencias cruzadas",
+            "Instalación con Homebrew en un comando"
           ],
           "cons": [
-            "Large download (~5 GB)",
-            "Installation takes 10–20 minutes"
+            "Descarga grande (~5 GB)",
+            "Instalación tarda 10–20 minutos"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "Homebrew is the standard macOS package manager. If you already have it, skip this step."
+              "title": "Instalar Homebrew (si no lo tienes)",
+              "note": "Homebrew es el gestor de paquetes estándar de macOS. Si ya lo tienes, salta este paso."
             },
             {
-              "title": "Install MacTeX with Homebrew",
-              "note": "Downloads ~5 GB. The process takes 10–20 minutes depending on your connection."
+              "title": "Instalar MacTeX con Homebrew",
+              "note": "Descarga ~5 GB. El proceso tarda entre 10 y 20 minutos según tu conexión."
             },
             {
-              "title": "Update environment variables",
-              "note": "Or simply close and reopen Terminal so it picks up the new PATH."
+              "title": "Actualizar las variables de entorno",
+              "note": "O simplemente cierra y vuelve a abrir la Terminal para que tome el nuevo PATH."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificar la instalación",
+              "note": "Los tres comandos deben responder con número de versión."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación para que detecte la nueva instalación."
             }
           ]
         },
@@ -2169,31 +2362,31 @@
           "tagline": "Ligero — descarga solo lo que necesita",
           "description": "Motor LaTeX moderno y autónomo. Cubre el 80% de las tesis sin necesidad de instalar gigabytes. Si durante la escritura algún paquete muy específico falla, puedes instalar MacTeX junto a Tectonic — conviven sin conflicto y la app te deja elegir cuál usar.",
           "pros": [
-            "Installed in under 1 minute",
-            "Downloads only the packages your thesis uses",
-            "Coexists with MacTeX if you need both",
-            "Upgradeable with brew upgrade"
+            "Instalación en menos de 1 minuto",
+            "Descarga solo los paquetes que usa tu tesis",
+            "Convive con MacTeX si necesitas ambos",
+            "Actualizable con brew upgrade"
           ],
           "cons": [
-            "First compilation requires an internet connection",
-            "Highly specialized packages (advanced physics, etc.) may require MacTeX"
+            "Primera compilación requiere conexión a internet",
+            "Paquetes muy especializados (física avanzada, etc.) pueden requerir MacTeX"
           ],
           "steps": [
             {
-              "title": "Install Homebrew (if you don't have it)",
-              "note": "If you already have Homebrew, skip this step."
+              "title": "Instalar Homebrew (si no lo tienes)",
+              "note": "Si ya tienes Homebrew, salta este paso."
             },
             {
-              "title": "Install Tectonic with Homebrew",
-              "note": "Lightweight download. Ready in under 1 minute."
+              "title": "Instalar Tectonic con Homebrew",
+              "note": "Descarga liviana. Listo en menos de 1 minuto."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificar la instalación",
+              "note": "Deberías ver algo como: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación para que detecte tectonic."
             }
           ]
         }
@@ -2203,41 +2396,41 @@
           "tagline": "Recomendado — resultados más finos, estables y completos",
           "description": "TeX Live es la distribución LaTeX completa estándar en Linux. Produce resultados más precisos y estables que cualquier opción ligera: tipografía perfecta, bibliografías correctas al 100%, soporte multilingüe completo (Cirílico, CJK, Devanagari) y todos los paquetes CTAN disponibles. La opción correcta para documentos que deben verse impecables.",
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — compatible biber version included",
-            "All CTAN packages without restriction",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Correct multi-pass compilation: TOC, indexes, cross-references",
-            "Installation with a single system command"
+            "Tipografía y salida más fina que alternativas ligeras",
+            "Bibliografías 100% correctas — biber versión compatible incluida",
+            "Todos los paquetes CTAN sin restricción",
+            "Soporte multilingüe nativo: Cirílico, CJK, Árabe, Devanagari",
+            "Compilación multi-pasada correcta: TOC, índices, referencias cruzadas",
+            "Instalación con un solo comando del sistema"
           ],
           "cons": [
-            "Full installation takes 3–5 GB",
-            "Repository version may be slightly older than the official release"
+            "Instalación completa ocupa 3–5 GB",
+            "La versión del repositorio puede ser algo anterior a la oficial"
           ],
           "steps": [
             {
               "title": "Ubuntu / Debian / Linux Mint",
-              "note": "Includes everything. If space is limited, use texlive-xetex instead of texlive-full."
+              "note": "Incluye todo. Si el espacio es limitado, usa texlive-xetex en lugar de texlive-full."
             },
             {
               "title": "Fedora / RHEL / CentOS Stream",
-              "note": "Installs the full TeX Live scheme."
+              "note": "Instala el esquema completo de TeX Live."
             },
             {
               "title": "Arch / Manjaro",
-              "note": "Installs the main groups and biber for bibliography."
+              "note": "Instala los grupos principales y biber para bibliografía."
             },
             {
               "title": "openSUSE",
-              "note": "Full scheme via zypper."
+              "note": "Esquema completo vía zypper."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificar la instalación",
+              "note": "Los tres comandos deben responder con número de versión."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects the new installation."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación para que detecte la nueva instalación."
             }
           ]
         },
@@ -2245,30 +2438,30 @@
           "tagline": "Ligero — sin gestor de paquetes de sistema",
           "description": "Motor LaTeX moderno que cubre el 80% de las tesis sin necesitar gigabytes de espacio. Si algún paquete muy específico falla, puedes instalar TeX Live junto a Tectonic — conviven sin conflicto y la app te deja elegir cuál usar.",
           "pros": [
-            "Does not require sudo to install",
-            "Downloads only what your thesis needs",
-            "Coexists with TeX Live if you need both"
+            "No requiere sudo para instalar",
+            "Descarga solo lo que necesita tu tesis",
+            "Convive con TeX Live si necesitas ambos"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require TeX Live"
+            "Primera compilación requiere internet",
+            "Paquetes muy especializados (física avanzada, etc.) pueden requerir TeX Live"
           ],
           "steps": [
             {
-              "title": "Install with the official script",
-              "note": "Downloads and installs the binary in ~/.cargo/bin or ~/bin depending on your setup."
+              "title": "Instalar con el script oficial",
+              "note": "Descarga e instala el binario en ~/.cargo/bin o ~/bin según tu configuración."
             },
             {
-              "title": "Alternative: install with Cargo",
-              "note": "Requires Rust installed. Compiles from source, takes several minutes."
+              "title": "Alternativa: instalar con Cargo",
+              "note": "Requiere Rust instalado. Compila desde fuente, tarda varios minutos."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificar la instalación",
+              "note": "Deberías ver algo como: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación."
             }
           ]
         }
@@ -2278,33 +2471,33 @@
           "tagline": "Recomendado en Windows — resultados más finos, completo sin Perl",
           "description": "MiKTeX es la distribución LaTeX completa para Windows. Produce resultados más precisos y estables que Tectonic: tipografía perfecta, bibliografías correctas al 100%, soporte multilingüe completo y todos los paquetes CTAN disponibles. Descarga automáticamente solo lo que necesitas — eficiente y completo al mismo tiempo.",
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "100% correct bibliographies — biber included and compatible",
-            "All CTAN packages, downloaded on demand",
-            "Does not require Strawberry Perl (unlike manual latexmk)",
-            "Multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Easy-to-use .exe graphical installer"
+            "Tipografía y salida más fina que alternativas ligeras",
+            "Bibliografías 100% correctas — biber incluido y compatible",
+            "Todos los paquetes CTAN, descargados bajo demanda",
+            "No necesita Strawberry Perl (a diferencia de latexmk manual)",
+            "Soporte multilingüe: Cirílico, CJK, Árabe, Devanagari",
+            "Instalador gráfico .exe fácil de usar"
           ],
           "cons": [
-            "The MiKTeX console can be confusing at first",
-            "Requires accepting package installation during the first compilation"
+            "La consola de MiKTeX puede confundir al principio",
+            "Requiere aceptar la instalación de paquetes durante la primera compilación"
           ],
           "steps": [
             {
-              "title": "Install MiKTeX with winget",
-              "note": "Open PowerShell as a normal user (no administrator needed). winget is included in Windows 10/11."
+              "title": "Instalar MiKTeX con winget",
+              "note": "Abre PowerShell como usuario normal (no se necesita administrador). winget está incluido en Windows 10/11."
             },
             {
-              "title": "Alternative: graphical installer",
-              "note": "Go to miktex.org → Download → Windows. Download the 64-bit installer and run it. Choose Install MiKTeX only for me."
+              "title": "Alternativa: instalador gráfico",
+              "note": "Ve a miktex.org → Download → Windows. Descarga el instalador de 64 bits y ejecútalo. Elige Install MiKTeX only for me."
             },
             {
-              "title": "Verify the installation",
-              "note": "Should respond with a version number."
+              "title": "Verificar la instalación",
+              "note": "Debe responder con número de versión."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects MiKTeX."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación para que detecte MiKTeX."
             }
           ]
         },
@@ -2312,27 +2505,27 @@
           "tagline": "Ligero — un comando, sin Perl",
           "description": "Motor LaTeX autónomo que cubre el 80% de las tesis. No requiere TeX Live ni Strawberry Perl. Si algún paquete muy específico falla, puedes instalar MiKTeX junto a Tectonic — conviven sin conflicto y la app te deja elegir cuál usar.",
           "pros": [
-            "Installed in 1 minute with winget",
-            "Does not require Strawberry Perl",
-            "Coexists with MiKTeX if you need both",
-            "Upgradeable with winget upgrade"
+            "Instalación en 1 minuto con winget",
+            "No necesita Strawberry Perl",
+            "Convive con MiKTeX si necesitas ambos",
+            "Actualizable con winget upgrade"
           ],
           "cons": [
-            "First compilation requires internet",
-            "Highly specialized packages (advanced physics, etc.) may require MiKTeX"
+            "Primera compilación requiere internet",
+            "Paquetes muy especializados (física avanzada, etc.) pueden requerir MiKTeX"
           ],
           "steps": [
             {
-              "title": "Install with winget",
-              "note": "Open PowerShell as a normal user. No administrator needed."
+              "title": "Instalar con winget",
+              "note": "Abre PowerShell como usuario normal. No necesitas administrador."
             },
             {
-              "title": "Verify the installation",
-              "note": "You should see something like: tectonic 0.15.x"
+              "title": "Verificar la instalación",
+              "note": "Deberías ver algo como: tectonic 0.15.x"
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app so it detects tectonic."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación para que detecte tectonic."
             }
           ]
         },
@@ -2340,37 +2533,37 @@
           "tagline": "Completo — resultados más finos, estables, sin sorpresas",
           "description": "TeX Live en Windows produce los resultados más precisos y estables posibles: tipografía perfecta, bibliografías al 100%, soporte multilingüe completo y todos los paquetes CTAN. Para tesis que deben verse impecables — física teórica, matemáticas avanzadas, documentos multilingüe — es la elección correcta.",
           "pros": [
-            "Finest typography and output over lightweight alternatives",
-            "All CTAN packages included, no additional downloads",
-            "100% correct bibliographies — compatible biber included",
-            "Native multilingual support: Cyrillic, CJK, Arabic, Devanagari",
-            "Compatible with any institutional profile"
+            "Tipografía y salida más fina que alternativas ligeras",
+            "Todos los paquetes CTAN incluidos, sin descargas adicionales",
+            "Bibliografías 100% correctas — biber compatible incluido",
+            "Soporte multilingüe nativo: Cirílico, CJK, Árabe, Devanagari",
+            "Compatible con cualquier perfil institucional"
           ],
           "cons": [
-            "Slow installation (30–90 minutes)",
-            "Takes 4–8 GB of disk space",
-            "Requires Strawberry Perl for latexmk"
+            "Instalación lenta (30–90 minutos)",
+            "Ocupa 4–8 GB de disco",
+            "Requiere Strawberry Perl para latexmk"
           ],
           "steps": [
             {
-              "title": "Download the TeX Live installer",
-              "note": "Go to tug.org/texlive → download → install-tl-windows.exe. Download the installer."
+              "title": "Descargar el instalador de TeX Live",
+              "note": "Ve a tug.org/texlive → download → install-tl-windows.exe. Descarga el instalador."
             },
             {
-              "title": "Run the installer",
-              "note": "Choose Simple install (big) to install everything. The process takes 30–90 minutes."
+              "title": "Ejecutar el instalador",
+              "note": "Elige Simple install (big) para instalar todo. El proceso tarda 30–90 minutos."
             },
             {
-              "title": "Install Strawberry Perl (required for latexmk)",
-              "note": "Perl is required for latexmk to work on Windows."
+              "title": "Instalar Strawberry Perl (necesario para latexmk)",
+              "note": "Perl es necesario para que latexmk funcione en Windows."
             },
             {
-              "title": "Verify the installation",
-              "note": "All three commands should respond with a version number."
+              "title": "Verificar la instalación",
+              "note": "Los tres comandos deben responder con número de versión."
             },
             {
-              "title": "Restart TeXisStudio",
-              "note": "Close and reopen the app."
+              "title": "Reiniciar TeXisStudio",
+              "note": "Cierra y vuelve a abrir la aplicación."
             }
           ]
         }
@@ -2421,12 +2614,13 @@
     }
   },
   "welcome": {
-    "heading": "Select your language",
-    "subheading": "You can change this later in Settings.",
-    "more_languages": "More languages",
-    "loading_more": "Loading more languages…",
-    "catalog_error": "Could not load more languages. You can continue with a bundled language.",
-    "skip": "Skip"
+    "heading": "Selecciona tu idioma",
+    "subheading": "Puedes cambiarlo después en Ajustes.",
+    "more_languages": "Más idiomas",
+    "loading_more": "Cargando más idiomas…",
+    "catalog_error": "No se pudieron cargar más idiomas. Puedes continuar con un idioma incluido.",
+    "skip": "Omitir",
+    "install_error": "No se pudo instalar ese idioma. Revisa tu conexión e inténtalo de nuevo."
   },
   "toast": {
     "close_button": "Lok'esel k'opil",
@@ -2527,7 +2721,50 @@
     "redo": "Rehacer",
     "restore_btn": "Restaurar ejemplo",
     "restore_title": "Reemplazar con un ejemplo mínimo funcional",
-    "advanced_section": "Opciones avanzadas"
+    "advanced_section": "Opciones avanzadas",
+    "fields": {
+      "math_label": {
+        "label": "\\label{...}",
+        "description": "Etiqueta para referencias cruzadas (p. ej. eq:cuadratica). Vacío significa sin etiqueta."
+      },
+      "chemistry_output": {
+        "label": "Modo de salida",
+        "description": "mhchem: \\ce{...} en línea. chemfig: estructuras con enlaces y ángulos."
+      },
+      "circuit_style": {
+        "label": "Estilo americano",
+        "description": "Activado: símbolos americanos (IEEE). Desactivado: símbolos europeos (IEC)."
+      },
+      "tikz_libraries": {
+        "label": "Bibliotecas TikZ",
+        "description": "Bibliotecas TikZ adicionales separadas por comas (p. ej. calc, arrows.meta, patterns)."
+      },
+      "pgfplots_options": {
+        "label": "Opciones de PGFPlots",
+        "description": "Opciones adicionales insertadas en \\begin{axis}[…], como xbar o compat=1.18."
+      },
+      "forest_options": {
+        "label": "Opciones de Forest",
+        "description": "Opciones adicionales del entorno forest, como ramas bifurcadas o estilos de etiquetas."
+      }
+    },
+    "engines": {
+      "graph_node": {
+        "description": "Grafos dirigidos y no dirigidos con nodos, aristas, formas y estilos de arco."
+      },
+      "pgfplots": {
+        "description": "Gráficas, histogramas, barras, dispersión y mapas de calor con PGFPlots."
+      },
+      "tree_forest": {
+        "description": "Árboles jerárquicos sintácticos, taxonómicos, filogenéticos, de decisión y probabilidad."
+      },
+      "table_data": {
+        "description": "Tablas de datos exportables a booktabs, longtable o datos de PGFPlots."
+      },
+      "timeline_gantt": {
+        "description": "Diagramas de Gantt y cronologías con grupos, tareas y dependencias."
+      }
+    }
   },
   "help": {
     "title": "Centro de ayuda",
