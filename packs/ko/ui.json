@@ -164,8 +164,8 @@
           ],
           "steps": [
             {
-              "title": "Winget으로 MiKTeX 설치",
-              "note": "일반 사용자로 PowerShell을 엽니다(관리자는 필요하지 않음). Winget은 Windows 10/11에 포함되어 있습니다."
+              "title": "winget으로 MiKTeX 설치",
+              "note": "일반 사용자로 PowerShell을 엽니다(관리자는 필요하지 않음). winget은 Windows 10/11에 포함되어 있습니다."
             },
             {
               "title": "대안: 그래픽 설치 프로그램",
@@ -185,10 +185,10 @@
         },
         "tectonic": {
           "pros": [
-            "Winget으로 1분만에 설치",
+            "winget으로 1분만에 설치",
             "딸기 펄이 필요하지 않습니다",
             "둘 다 필요한 경우 MiKTeX와 공존",
-            "Winget 업그레이드로 업그레이드 가능"
+            "winget 업그레이드로 업그레이드 가능"
           ],
           "cons": [
             "첫 번째 편집에는 인터넷이 필요합니다.",
@@ -196,7 +196,7 @@
           ],
           "steps": [
             {
-              "title": "Winget으로 설치",
+              "title": "winget으로 설치",
               "note": "일반 사용자로 PowerShell을 엽니다. 관리자가 필요하지 않습니다."
             },
             {

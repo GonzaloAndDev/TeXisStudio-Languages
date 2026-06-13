@@ -165,7 +165,7 @@
           "steps": [
             {
               "title": "MiKTeX'yi kanatla takın",
-              "note": "PowerShell'i normal bir kullanıcı olarak açın (yöneticiye gerek yoktur). Winget, Windows 10/11'e dahildir."
+              "note": "PowerShell'i normal bir kullanıcı olarak açın (yöneticiye gerek yoktur). winget, Windows 10/11'e dahildir."
             },
             {
               "title": "Alternatif: grafik yükleyici",
@@ -185,10 +185,10 @@
         },
         "tectonic": {
           "pros": [
-            "Winget ile 1 dakikada kurulum",
+            "winget ile 1 dakikada kurulum",
             "Strawberry Perl gerektirmez",
             "Her ikisine de ihtiyacınız varsa MiKTeX ile bir arada bulunur",
-            "Winget yükseltmesi ile yükseltilebilir"
+            "winget yükseltmesi ile yükseltilebilir"
           ],
           "cons": [
             "İlk derleme internet gerektirir",
@@ -196,7 +196,7 @@
           ],
           "steps": [
             {
-              "title": "Winget ile kurulum",
+              "title": "winget ile kurulum",
               "note": "PowerShell'i normal bir kullanıcı olarak açın. Yöneticiye gerek yok."
             },
             {

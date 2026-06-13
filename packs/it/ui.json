@@ -185,10 +185,10 @@
         },
         "tectonic": {
           "pros": [
-            "Installato in 1 minuto con Winget",
+            "Installato in 1 minuto con winget",
             "Non richiede Perl alla fragola",
             "Coesiste con MiKTeX se ti servono entrambi",
-            "Aggiornabile con aggiornamento Winget"
+            "Aggiornabile con aggiornamento winget"
           ],
           "cons": [
             "La prima compilazione richiede Internet",
@@ -196,7 +196,7 @@
           ],
           "steps": [
             {
-              "title": "Installare con Winget",
+              "title": "Installare con winget",
               "note": "Apri PowerShell come utente normale. Non è necessario alcun amministratore."
             },
             {
