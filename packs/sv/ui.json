@@ -1080,7 +1080,7 @@
     "spell_lang_hint_2": "avsnitt som inkluderar stavningskontroll.",
     "basic_mode_title": "Grundläge aktivt",
     "basic_mode_body": "Vi visar bara vad du behöver skriva och skicka in utan komplexitet. Du kan aktivera",
-    "basic_mode_suffix": "i textdelen.",
+    "basic_mode_suffix": "i avsnittet Gränssnitt & skrivande.",
     "basic_top_body": "Dessa inställningar är utformade för användbara beslut utan att ange tekniska detaljer för LaTeX. Byt till",
     "update_check_btn": "Sök efter uppdateringar",
     "update_checking": "Kontroll…",
