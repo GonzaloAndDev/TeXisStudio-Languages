@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio는 설치된 항목에 따라 백엔드를 자동으로 선택합니다. 고급 모드에서는 편집 화면에서 엔진을 수동으로 선택할 수 있습니다.",
     "status_ready": "PDF 생성 준비 완료",
     "status_missing": "PDF 생성 설정이 누락되었습니다.",
-    "status_system": "시스템: {{platform}}"
+    "status_system": "시스템: {{platform}}",
+    "how_to_update": "최신 상태로 유지하는 방법"
   },
   "common": {
     "save": "저장",
@@ -314,7 +315,8 @@
     "working": "처리 중…",
     "language_picker_title": "언어",
     "collapse": "접기",
-    "expand": "펼치기"
+    "expand": "펼치기",
+    "dismiss": "닫기"
   },
   "lang": {
     "picker_label": "인터페이스 언어",
@@ -2359,7 +2361,8 @@
     "adding": "추가 중…",
     "catalog_error": "어휘 카탈로그를 로드할 수 없습니다. 연결을 확인하고 다시 시도하세요.",
     "repo_sync_error": "이 저장소를 동기화할 수 없습니다.",
-    "repo_add_error": "저장소를 추가할 수 없습니다. 주소를 확인하고 다시 시도하세요."
+    "repo_add_error": "저장소를 추가할 수 없습니다. 주소를 확인하고 다시 시도하세요.",
+    "install_error": "팩을 설치할 수 없습니다."
   },
   "profile_wizard": {
     "step_of": "{{total}}의 {{current}} 단계",
@@ -2887,7 +2890,13 @@
         "description": "그룹, 작업, 종속성이 포함된 간트 차트 및 타임라인."
       }
     },
-    "crash_fallback": "시각적 편집기에서 이 그림을 렌더링할 수 없습니다(손상되었거나 호환되지 않는 데이터). 모달을 닫고 메타데이터를 편집하거나 Figure를 다시 생성합니다."
+    "crash_fallback": "시각적 편집기에서 이 그림을 렌더링할 수 없습니다(손상되었거나 호환되지 않는 데이터). 모달을 닫고 메타데이터를 편집하거나 Figure를 다시 생성합니다.",
+    "col_align_hint": "열 정렬. 'decimal'은 숫자를 소수점(siunitx S 열)으로 정렬합니다.",
+    "align_auto": "자동",
+    "align_left": "왼쪽",
+    "align_center": "센터",
+    "align_right": "맞아",
+    "align_decimal": "십진수"
   },
   "help": {
     "title": "도움말 센터",
@@ -3027,7 +3036,26 @@
     "add_reaction": "반응",
     "add_reactant": "반응물",
     "add_product": "제품",
-    "empty_hint": "시작하려면 수식이나 반응을 추가하세요."
+    "empty_hint": "시작하려면 수식이나 반응을 추가하세요.",
+    "add_structure": "구조",
+    "structure": "구조",
+    "template": "템플릿",
+    "template_custom": "— 사용자 정의(chemfig) —",
+    "chemfig_source": "원시 화학 무화과(고급, 선택 사항)",
+    "chemfig_overrides": "템플릿 대신 원시 chemfig가 사용됩니다.",
+    "template_hint": "템플릿을 선택하거나 사용자 정의 구조에 대한 원시 chemfig를 입력하세요.",
+    "tpl_benzene": "벤젠",
+    "tpl_cyclohexane": "사이클로헥산",
+    "tpl_cyclopentane": "사이클로펜탄",
+    "tpl_naphthalene": "나프탈렌",
+    "tpl_phenol": "페놀",
+    "tpl_toluene": "톨루엔",
+    "tpl_aniline": "아닐린",
+    "tpl_benzoic-acid": "벤조산",
+    "tpl_methane": "메탄",
+    "tpl_ethanol": "에탄올",
+    "tpl_acetic-acid": "아세트산",
+    "tpl_glucose-chain": "포도당(개방형 사슬)"
   },
   "tikz": {
     "shapes": "모양",
@@ -3248,6 +3276,14 @@
     "add_case": "케이스 추가",
     "case_if": "만약에",
     "case_expr_placeholder": "표현",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "위의 필드를 클릭하여 해당 필드에 기호를 삽입하세요.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "실시간 미리보기(대략)",
+    "empty": "플롯을 미리 보려면 데이터나 함수를 추가하세요.",
+    "unsupported": "{{types}}에는 실시간 미리보기가 제공되지 않습니다. 정확한 결과를 보려면 컴파일하세요."
   }
 }

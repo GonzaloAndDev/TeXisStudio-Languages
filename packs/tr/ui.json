@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio, yüklü olana göre arka ucu otomatik olarak seçer. Gelişmiş modda, derleme ekranından motoru manuel olarak seçebilirsiniz.",
     "status_ready": "PDF oluşturmaya hazır",
     "status_missing": "PDF oluşturma kurulumu eksik",
-    "status_system": "Sistem: {{platform}}"
+    "status_system": "Sistem: {{platform}}",
+    "how_to_update": "Nasıl güncel tutulur?"
   },
   "common": {
     "save": "Kaydet",
@@ -314,7 +315,8 @@
     "working": "İşleniyor…",
     "language_picker_title": "Dil",
     "collapse": "Daralt",
-    "expand": "Genişlet"
+    "expand": "Genişlet",
+    "dismiss": "Kapat"
   },
   "lang": {
     "picker_label": "Arayüz dili",
@@ -2359,7 +2361,8 @@
     "adding": "Ekleniyor…",
     "catalog_error": "Kelime kataloğu yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.",
     "repo_sync_error": "Bu depo senkronize edilemedi.",
-    "repo_add_error": "Depo eklenemedi. Adresini kontrol edip tekrar deneyin."
+    "repo_add_error": "Depo eklenemedi. Adresini kontrol edip tekrar deneyin.",
+    "install_error": "Paket yüklenemedi"
   },
   "profile_wizard": {
     "step_of": "{{total}}'nin {{current}} adımı",
@@ -2887,7 +2890,13 @@
         "description": "Gruplar, görevler ve bağımlılıklarla birlikte Gantt grafikleri ve zaman çizelgeleri."
       }
     },
-    "crash_fallback": "Görsel düzenleyici bu rakamı oluşturamadı (bozuk veya uyumsuz veriler). Modeli kapatın ve meta verileri düzenleyin veya şekli yeniden oluşturun."
+    "crash_fallback": "Görsel düzenleyici bu rakamı oluşturamadı (bozuk veya uyumsuz veriler). Modeli kapatın ve meta verileri düzenleyin veya şekli yeniden oluşturun.",
+    "col_align_hint": "Sütun hizalaması. 'decimal', sayıları ondalık basamağa göre hizalar (siunitx S sütunu).",
+    "align_auto": "oto",
+    "align_left": "sol",
+    "align_center": "merkez",
+    "align_right": "doğru",
+    "align_decimal": "ondalık sayı"
   },
   "help": {
     "title": "Yardım Merkezi",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Tepki",
     "add_reactant": "Reaktan",
     "add_product": "Ürün",
-    "empty_hint": "Başlamak için bir formül veya reaksiyon ekleyin."
+    "empty_hint": "Başlamak için bir formül veya reaksiyon ekleyin.",
+    "add_structure": "Yapı",
+    "structure": "Yapı",
+    "template": "Şablon",
+    "template_custom": "— özel (chemfig) —",
+    "chemfig_source": "Ham kimyasal madde (gelişmiş, isteğe bağlı)",
+    "chemfig_overrides": "Şablon yerine ham kimyasal kullanılacaktır.",
+    "template_hint": "Bir şablon seçin veya özel yapılar için raw chemfig yazın.",
+    "tpl_benzene": "benzen",
+    "tpl_cyclohexane": "sikloheksan",
+    "tpl_cyclopentane": "Siklopentan",
+    "tpl_naphthalene": "Naftalin",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Toluen",
+    "tpl_aniline": "Anilin",
+    "tpl_benzoic-acid": "Benzoik asit",
+    "tpl_methane": "Metan",
+    "tpl_ethanol": "Etanol",
+    "tpl_acetic-acid": "Asetik asit",
+    "tpl_glucose-chain": "Glikoz (açık zincir)"
   },
   "tikz": {
     "shapes": "Şekiller",
@@ -3248,6 +3276,14 @@
     "add_case": "Vaka ekle",
     "case_if": "eğer",
     "case_expr_placeholder": "ifade",
-    "case_cond_placeholder": "\\text{eğer } x > 0"
+    "case_cond_placeholder": "\\text{eğer } x > 0",
+    "palette_no_target": "Oraya sembol eklemek için yukarıdaki bir alanı tıklayın.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Canlı önizleme (yaklaşık)",
+    "empty": "Grafiği önizlemek için veri veya işlev ekleyin.",
+    "unsupported": "Canlı önizleme şunun için mevcut değil: {{types}}. Kesin sonucu görmek için derleyin."
   }
 }

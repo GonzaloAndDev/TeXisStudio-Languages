@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio sceglie automaticamente il backend in base a ciò che è installato. In modalità avanzata è possibile scegliere manualmente il motore nella schermata di compilazione.",
     "status_ready": "Pronto per generare PDF",
     "status_missing": "Manca la configurazione della generazione PDF",
-    "status_system": "Sistema: {{platform}}"
+    "status_system": "Sistema: {{platform}}",
+    "how_to_update": "Come mantenerlo aggiornato"
   },
   "common": {
     "save": "Salva",
@@ -314,7 +315,8 @@
     "working": "In corso…",
     "language_picker_title": "Lingua",
     "collapse": "Crollo",
-    "expand": "Espandi"
+    "expand": "Espandi",
+    "dismiss": "Chiudi"
   },
   "lang": {
     "picker_label": "Linguaggio dell'interfaccia",
@@ -2359,7 +2361,8 @@
     "adding": "Aggiunta…",
     "catalog_error": "Impossibile caricare il catalogo dei vocaboli. Controlla la connessione e riprova.",
     "repo_sync_error": "Impossibile sincronizzare questo repository.",
-    "repo_add_error": "Impossibile aggiungere il repository. Controlla il suo indirizzo e riprova."
+    "repo_add_error": "Impossibile aggiungere il repository. Controlla il suo indirizzo e riprova.",
+    "install_error": "Impossibile installare il pacchetto"
   },
   "profile_wizard": {
     "step_of": "Passo {{current}} di {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Diagrammi di Gantt e sequenze temporali con gruppi, attività e dipendenze."
       }
     },
-    "crash_fallback": "L'editor visivo non è riuscito a riprodurre questa figura (dati danneggiati o incompatibili). Chiudi la finestra modale e modifica i metadati o rigenera la figura."
+    "crash_fallback": "L'editor visivo non è riuscito a riprodurre questa figura (dati danneggiati o incompatibili). Chiudi la finestra modale e modifica i metadati o rigenera la figura.",
+    "col_align_hint": "Allineamento delle colonne. 'decimal' allinea i numeri al punto decimale (colonna siunitx S).",
+    "align_auto": "automatico",
+    "align_left": "sinistra",
+    "align_center": "centro",
+    "align_right": "giusto",
+    "align_decimal": "decimale"
   },
   "help": {
     "title": "Centro assistenza",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reazione",
     "add_reactant": "Reagente",
     "add_product": "Prodotto",
-    "empty_hint": "Aggiungi una formula o una reazione per iniziare."
+    "empty_hint": "Aggiungi una formula o una reazione per iniziare.",
+    "add_structure": "Struttura",
+    "structure": "Struttura",
+    "template": "Modello",
+    "template_custom": "— personalizzato (chemfig) —",
+    "chemfig_source": "Chemfig crudo (avanzato, opzionale)",
+    "chemfig_overrides": "Verrà utilizzato il chemfig grezzo al posto del modello.",
+    "template_hint": "Scegli un modello o digita chemfig grezzo per strutture personalizzate.",
+    "tpl_benzene": "Benzene",
+    "tpl_cyclohexane": "Cicloesano",
+    "tpl_cyclopentane": "Ciclopentano",
+    "tpl_naphthalene": "Naftalene",
+    "tpl_phenol": "Fenolo",
+    "tpl_toluene": "Toluene",
+    "tpl_aniline": "Anilina",
+    "tpl_benzoic-acid": "Acido benzoico",
+    "tpl_methane": "Metano",
+    "tpl_ethanol": "Etanolo",
+    "tpl_acetic-acid": "Acido acetico",
+    "tpl_glucose-chain": "Glucosio (catena aperta)"
   },
   "tikz": {
     "shapes": "Forme",
@@ -3248,6 +3276,14 @@
     "add_case": "Aggiungi caso",
     "case_if": "se",
     "case_expr_placeholder": "espressione",
-    "case_cond_placeholder": "\\text{se } x > 0"
+    "case_cond_placeholder": "\\text{se } x > 0",
+    "palette_no_target": "Fare clic su un campo sopra per inserire dei simboli lì.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Anteprima dal vivo (approssimativa)",
+    "empty": "Aggiungi dati o una funzione per visualizzare in anteprima il grafico.",
+    "unsupported": "Anteprima dal vivo non disponibile per: {{types}}. Compila per vedere il risultato esatto."
   }
 }

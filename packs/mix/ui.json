@@ -28,7 +28,8 @@
     "working": "Ta ndiko…",
     "language_picker_title": "Idioma",
     "collapse": "Contraer",
-    "expand": "Expandir"
+    "expand": "Expandir",
+    "dismiss": "Ndoo"
   },
   "lang": {
     "picker_label": "Tu'un k'eyi",
@@ -2073,7 +2074,8 @@
     "adding": "Añadiendo…",
     "catalog_error": "No se pudo cargar el catálogo de vocabularios. Revisa tu conexión e inténtalo de nuevo.",
     "repo_sync_error": "No se pudo sincronizar este repositorio.",
-    "repo_add_error": "No se pudo añadir el repositorio. Revisa su dirección e inténtalo de nuevo."
+    "repo_add_error": "No se pudo añadir el repositorio. Revisa su dirección e inténtalo de nuevo.",
+    "install_error": "No se pudo instalar el pack"
   },
   "profile_wizard": {
     "step_of": "Paso {{current}} de {{total}}",
@@ -2690,7 +2692,8 @@
           ]
         }
       }
-    }
+    },
+    "how_to_update": "Cómo mantenerlo actualizado"
   },
   "readiness": {
     "panel_title": "Avance del proyecto",
@@ -2887,7 +2890,13 @@
         "description": "Diagramas de Gantt y cronologías con grupos, tareas y dependencias."
       }
     },
-    "crash_fallback": "El editor visual no pudo dibujar esta figura (datos corruptos o incompatibles). Cierra el modal y edita los metadatos o regenera la figura."
+    "crash_fallback": "El editor visual no pudo dibujar esta figura (datos corruptos o incompatibles). Cierra el modal y edita los metadatos o regenera la figura.",
+    "col_align_hint": "Alineación de columna. 'decimal' alinea los números por el punto decimal (columna S de siunitx).",
+    "align_auto": "auto",
+    "align_left": "izquierda",
+    "align_center": "centro",
+    "align_right": "derecha",
+    "align_decimal": "decimal"
   },
   "help": {
     "title": "Centro de ayuda",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reacción",
     "add_reactant": "Reactivo",
     "add_product": "Producto",
-    "empty_hint": "Añade una fórmula o una reacción para empezar."
+    "empty_hint": "Añade una fórmula o una reacción para empezar.",
+    "add_structure": "Estructura",
+    "structure": "Estructura",
+    "template": "Plantilla",
+    "template_custom": "— personalizada (chemfig) —",
+    "chemfig_source": "chemfig crudo (avanzado, opcional)",
+    "chemfig_overrides": "El chemfig crudo se usará en vez de la plantilla.",
+    "template_hint": "Elige una plantilla; o escribe chemfig crudo para estructuras a medida.",
+    "tpl_benzene": "Benceno",
+    "tpl_cyclohexane": "Ciclohexano",
+    "tpl_cyclopentane": "Ciclopentano",
+    "tpl_naphthalene": "Naftaleno",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Tolueno",
+    "tpl_aniline": "Anilina",
+    "tpl_benzoic-acid": "Ácido benzoico",
+    "tpl_methane": "Metano",
+    "tpl_ethanol": "Etanol",
+    "tpl_acetic-acid": "Ácido acético",
+    "tpl_glucose-chain": "Glucosa (cadena abierta)"
   },
   "tikz": {
     "shapes": "Formas",
@@ -3248,6 +3276,14 @@
     "add_case": "Agregar caso",
     "case_if": "si",
     "case_expr_placeholder": "expresión",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "Haz clic en un campo de arriba para insertar símbolos ahí.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Vista previa en vivo (aproximada)",
+    "empty": "Agrega datos o una función para previsualizar la gráfica.",
+    "unsupported": "Vista previa no disponible para: {{types}}. Compila para ver el resultado exacto."
   }
 }

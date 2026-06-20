@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio alege backend-ul automat pe baza a ceea ce este instalat. În modul avansat, puteți alege motorul manual pe ecranul de compilare.",
     "status_ready": "Gata să genereze PDF",
     "status_missing": "Configurarea generației PDF lipsește",
-    "status_system": "Sistem: {{platform}}"
+    "status_system": "Sistem: {{platform}}",
+    "how_to_update": "Cum să-l țin la zi"
   },
   "common": {
     "save": "Salvați",
@@ -314,7 +315,8 @@
     "working": "Se procesează…",
     "language_picker_title": "Limba",
     "collapse": "Colaps",
-    "expand": "Extindeți"
+    "expand": "Extindeți",
+    "dismiss": "Închide"
   },
   "lang": {
     "picker_label": "Limbajul interfeței",
@@ -2359,7 +2361,8 @@
     "adding": "Se adaugă…",
     "catalog_error": "Nu s-a putut încărca catalogul de vocabular. Verificați conexiunea și încercați din nou.",
     "repo_sync_error": "Nu s-a putut sincroniza acest depozit.",
-    "repo_add_error": "Nu s-a putut adăuga depozitul. Verifică-i adresa și încearcă din nou."
+    "repo_add_error": "Nu s-a putut adăuga depozitul. Verifică-i adresa și încearcă din nou.",
+    "install_error": "Pachetul nu a putut fi instalat"
   },
   "profile_wizard": {
     "step_of": "Pasul {{current}} din {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Diagrame Gantt și cronologie cu grupuri, sarcini și dependențe."
       }
     },
-    "crash_fallback": "Editorul vizual nu a putut reda această cifră (date corupte sau incompatibile). Închideți modulul și editați metadatele sau regenerați figura."
+    "crash_fallback": "Editorul vizual nu a putut reda această cifră (date corupte sau incompatibile). Închideți modulul și editați metadatele sau regenerați figura.",
+    "col_align_hint": "Alinierea coloanelor. „zecimal” aliniază numerele după punctul zecimal (coloana sinitx S).",
+    "align_auto": "auto",
+    "align_left": "stânga",
+    "align_center": "centru",
+    "align_right": "corect",
+    "align_decimal": "zecimală"
   },
   "help": {
     "title": "Centrul de ajutor",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reacție",
     "add_reactant": "Reactant",
     "add_product": "Produs",
-    "empty_hint": "Adăugați o formulă sau o reacție pentru a începe."
+    "empty_hint": "Adăugați o formulă sau o reacție pentru a începe.",
+    "add_structure": "Structura",
+    "structure": "Structura",
+    "template": "Șablon",
+    "template_custom": "- personalizat (chemfig) -",
+    "chemfig_source": "Chemfig crudă (avansat, opțional)",
+    "chemfig_overrides": "Chemfig-ul brut va fi folosit în locul șablonului.",
+    "template_hint": "Alegeți un șablon sau introduceți chemfig brut pentru structuri personalizate.",
+    "tpl_benzene": "Benzen",
+    "tpl_cyclohexane": "Ciclohexan",
+    "tpl_cyclopentane": "Ciclopentan",
+    "tpl_naphthalene": "naftalina",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Toluen",
+    "tpl_aniline": "anilina",
+    "tpl_benzoic-acid": "Acid benzoic",
+    "tpl_methane": "metan",
+    "tpl_ethanol": "Etanol",
+    "tpl_acetic-acid": "Acid acetic",
+    "tpl_glucose-chain": "Glucoză (lanț deschis)"
   },
   "tikz": {
     "shapes": "Forme",
@@ -3248,6 +3276,14 @@
     "add_case": "Adăugați caz",
     "case_if": "dacă",
     "case_expr_placeholder": "expresie",
-    "case_cond_placeholder": "\\text{dacă } x > 0"
+    "case_cond_placeholder": "\\text{dacă } x > 0",
+    "palette_no_target": "Faceți clic pe un câmp de mai sus pentru a introduce simboluri acolo.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Previzualizare live (aproximativ)",
+    "empty": "Adăugați date sau o funcție pentru a previzualiza diagrama.",
+    "unsupported": "Previzualizarea live nu este disponibilă pentru: {{types}}. Compilați pentru a vedea rezultatul exact."
   }
 }

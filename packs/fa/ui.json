@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio پشتیبان را به طور خودکار بر اساس آنچه نصب شده انتخاب می کند. در حالت پیشرفته می توانید موتور را به صورت دستی در صفحه کامپایل انتخاب کنید.",
     "status_ready": "آماده تولید PDF",
     "status_missing": "تنظیم نسل PDF وجود ندارد",
-    "status_system": "سیستم: {{platform}}"
+    "status_system": "سیستم: {{platform}}",
+    "how_to_update": "چگونه آن را به روز نگه داریم"
   },
   "common": {
     "save": "ذخیره کنید",
@@ -314,7 +315,8 @@
     "working": "در حال پردازش…",
     "language_picker_title": "زبان",
     "collapse": "فرو ریختن",
-    "expand": "گسترش دهید"
+    "expand": "گسترش دهید",
+    "dismiss": "بستن"
   },
   "lang": {
     "picker_label": "زبان رابط",
@@ -2359,7 +2361,8 @@
     "adding": "در حال افزودن…",
     "catalog_error": "کاتالوگ واژگان بارگیری نشد. اتصال خود را بررسی کنید و دوباره امتحان کنید.",
     "repo_sync_error": "نمی‌توان این مخزن را همگام‌سازی کرد.",
-    "repo_add_error": "نمی توان مخزن را اضافه کرد. آدرس آن را بررسی کنید و دوباره امتحان کنید."
+    "repo_add_error": "نمی توان مخزن را اضافه کرد. آدرس آن را بررسی کنید و دوباره امتحان کنید.",
+    "install_error": "بسته نصب نشد"
   },
   "profile_wizard": {
     "step_of": "مرحله {{current}} از {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "نمودارها و جدول زمانی گانت با گروه ها، وظایف و وابستگی ها."
       }
     },
-    "crash_fallback": "ویرایشگر بصری نمی تواند این شکل را ارائه دهد (داده های خراب یا ناسازگار). مدال را ببندید و متادیتا را ویرایش کنید یا شکل را بازسازی کنید."
+    "crash_fallback": "ویرایشگر بصری نمی تواند این شکل را ارائه دهد (داده های خراب یا ناسازگار). مدال را ببندید و متادیتا را ویرایش کنید یا شکل را بازسازی کنید.",
+    "col_align_hint": "تراز ستون. 'اعشاری' اعداد را با نقطه اعشار تراز می کند (ستون siunitx S).",
+    "align_auto": "خودکار",
+    "align_left": "سمت چپ",
+    "align_center": "مرکز",
+    "align_right": "درست است",
+    "align_decimal": "اعشاری"
   },
   "help": {
     "title": "مرکز راهنمایی",
@@ -3027,7 +3036,26 @@
     "add_reaction": "واکنش",
     "add_reactant": "واکنش دهنده",
     "add_product": "محصول",
-    "empty_hint": "برای شروع یک فرمول یا یک واکنش اضافه کنید."
+    "empty_hint": "برای شروع یک فرمول یا یک واکنش اضافه کنید.",
+    "add_structure": "ساختار",
+    "structure": "ساختار",
+    "template": "الگو",
+    "template_custom": "- سفارشی (chemfig) -",
+    "chemfig_source": "مواد شیمیایی خام (پیشرفته، اختیاری)",
+    "chemfig_overrides": "به جای الگو از chemfig خام استفاده می شود.",
+    "template_hint": "یک الگو را انتخاب کنید یا برای ساختارهای سفارشی chemfig خام را تایپ کنید.",
+    "tpl_benzene": "بنزن",
+    "tpl_cyclohexane": "سیکلوهگزان",
+    "tpl_cyclopentane": "سیکلوپنتان",
+    "tpl_naphthalene": "نفتالین",
+    "tpl_phenol": "فنل",
+    "tpl_toluene": "تولوئن",
+    "tpl_aniline": "آنیلین",
+    "tpl_benzoic-acid": "اسید بنزوئیک",
+    "tpl_methane": "متان",
+    "tpl_ethanol": "اتانول",
+    "tpl_acetic-acid": "اسید استیک",
+    "tpl_glucose-chain": "گلوکز (زنجیره باز)"
   },
   "tikz": {
     "shapes": "اشکال",
@@ -3248,6 +3276,14 @@
     "add_case": "مورد اضافه کنید",
     "case_if": "اگر",
     "case_expr_placeholder": "بیان",
-    "case_cond_placeholder": "\\text{اگر } x > 0"
+    "case_cond_placeholder": "\\text{اگر } x > 0",
+    "palette_no_target": "برای درج نمادها روی یک فیلد در بالا کلیک کنید.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "پیش نمایش زنده (تقریبی)",
+    "empty": "داده یا تابعی را برای پیش نمایش نمودار اضافه کنید.",
+    "unsupported": "پیش نمایش زنده برای: {{types}} در دسترس نیست. کامپایل کنید تا نتیجه دقیق را ببینید."
   }
 }

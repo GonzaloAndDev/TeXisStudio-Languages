@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio vybere backend automaticky podle toho, co je nainstalováno. V pokročilém režimu si můžete motor vybrat ručně na obrazovce kompilace.",
     "status_ready": "Připraveno ke generování PDF",
     "status_missing": "Chybí nastavení generace PDF",
-    "status_system": "Systém: {{platform}}"
+    "status_system": "Systém: {{platform}}",
+    "how_to_update": "Jak jej udržovat aktuální"
   },
   "common": {
     "save": "Uložit",
@@ -314,7 +315,8 @@
     "working": "Probíhá…",
     "language_picker_title": "Jazyk",
     "collapse": "kolaps",
-    "expand": "Rozbalit"
+    "expand": "Rozbalit",
+    "dismiss": "Zavřít"
   },
   "lang": {
     "picker_label": "Jazyk rozhraní",
@@ -2359,7 +2361,8 @@
     "adding": "Přidávání…",
     "catalog_error": "Nepodařilo se načíst katalog slovní zásoby. Zkontrolujte připojení a zkuste to znovu.",
     "repo_sync_error": "Toto úložiště se nepodařilo synchronizovat.",
-    "repo_add_error": "Nelze přidat úložiště. Zkontrolujte jeho adresu a zkuste to znovu."
+    "repo_add_error": "Nelze přidat úložiště. Zkontrolujte jeho adresu a zkuste to znovu.",
+    "install_error": "Balíček nelze nainstalovat"
   },
   "profile_wizard": {
     "step_of": "Krok {{current}} z {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Ganttovy diagramy a časové osy se skupinami, úkoly a závislostmi."
       }
     },
-    "crash_fallback": "Vizuální editor nemohl vykreslit tento obrázek (poškozená nebo nekompatibilní data). Zavřete modal a upravte metadata nebo vygenerujte obrázek."
+    "crash_fallback": "Vizuální editor nemohl vykreslit tento obrázek (poškozená nebo nekompatibilní data). Zavřete modal a upravte metadata nebo vygenerujte obrázek.",
+    "col_align_hint": "Zarovnání sloupců. 'decimal' zarovnává čísla podle desetinné čárky (sloupec siunitx S).",
+    "align_auto": "auto",
+    "align_left": "vlevo",
+    "align_center": "střed",
+    "align_right": "správně",
+    "align_decimal": "desítkové"
   },
   "help": {
     "title": "Centrum nápovědy",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reakce",
     "add_reactant": "Reaktant",
     "add_product": "Produkt",
-    "empty_hint": "Začněte přidáním vzorce nebo reakce."
+    "empty_hint": "Začněte přidáním vzorce nebo reakce.",
+    "add_structure": "Struktura",
+    "structure": "Struktura",
+    "template": "Šablona",
+    "template_custom": "— vlastní (chemfig) —",
+    "chemfig_source": "Raw chemfig (pokročilý, volitelný)",
+    "chemfig_overrides": "Místo šablony bude použit surový chemfig.",
+    "template_hint": "Vyberte šablonu nebo zadejte raw chemfig pro vlastní struktury.",
+    "tpl_benzene": "Benzen",
+    "tpl_cyclohexane": "cyklohexan",
+    "tpl_cyclopentane": "cyklopentan",
+    "tpl_naphthalene": "Naftalen",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Toluen",
+    "tpl_aniline": "anilin",
+    "tpl_benzoic-acid": "Kyselina benzoová",
+    "tpl_methane": "metan",
+    "tpl_ethanol": "Ethanol",
+    "tpl_acetic-acid": "Kyselina octová",
+    "tpl_glucose-chain": "Glukóza (otevřený řetězec)"
   },
   "tikz": {
     "shapes": "Tvary",
@@ -3248,6 +3276,14 @@
     "add_case": "Přidat případ",
     "case_if": "pokud",
     "case_expr_placeholder": "výraz",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "Kliknutím na pole výše do něj vložíte symboly.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Živý náhled (přibližně)",
+    "empty": "Přidejte data nebo funkci pro náhled grafu.",
+    "unsupported": "Živý náhled není k dispozici pro: {{types}}. Zkompilujte, abyste viděli přesný výsledek."
   }
 }

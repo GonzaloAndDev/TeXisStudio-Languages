@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio kiest de backend automatisch op basis van wat er is geïnstalleerd. In de geavanceerde modus kunt u de engine handmatig kiezen op het compilatiescherm.",
     "status_ready": "Klaar om PDF te genereren",
     "status_missing": "De configuratie van de PDF-generatie ontbreekt",
-    "status_system": "Systeem: {{platform}}"
+    "status_system": "Systeem: {{platform}}",
+    "how_to_update": "Hoe u het up-to-date kunt houden"
   },
   "common": {
     "save": "Opslaan",
@@ -314,7 +315,8 @@
     "working": "Bezig…",
     "language_picker_title": "Taal",
     "collapse": "Samenvouwen",
-    "expand": "Uitbreiden"
+    "expand": "Uitbreiden",
+    "dismiss": "Sluiten"
   },
   "lang": {
     "picker_label": "Interfacetaal",
@@ -2359,7 +2361,8 @@
     "adding": "Toevoegen…",
     "catalog_error": "Kan de woordenschatcatalogus niet laden. Controleer uw verbinding en probeer het opnieuw.",
     "repo_sync_error": "Kan deze opslagplaats niet synchroniseren.",
-    "repo_add_error": "Kan de opslagplaats niet toevoegen. Controleer het adres en probeer het opnieuw."
+    "repo_add_error": "Kan de opslagplaats niet toevoegen. Controleer het adres en probeer het opnieuw.",
+    "install_error": "Het pakket kon niet worden geïnstalleerd"
   },
   "profile_wizard": {
     "step_of": "Stap {{current}} van {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Gantt-diagrammen en tijdlijnen met groepen, taken en afhankelijkheden."
       }
     },
-    "crash_fallback": "De visuele editor kon dit cijfer niet weergeven (corrupte of incompatibele gegevens). Sluit de modal en bewerk de metagegevens of genereer de figuur opnieuw."
+    "crash_fallback": "De visuele editor kon dit cijfer niet weergeven (corrupte of incompatibele gegevens). Sluit de modal en bewerk de metagegevens of genereer de figuur opnieuw.",
+    "col_align_hint": "Uitlijning van kolommen. 'decimaal' lijnt getallen uit op de komma (siunitx S-kolom).",
+    "align_auto": "auto",
+    "align_left": "links",
+    "align_center": "centrum",
+    "align_right": "juist",
+    "align_decimal": "decimaal"
   },
   "help": {
     "title": "Helpcentrum",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reactie",
     "add_reactant": "Reagens",
     "add_product": "Product",
-    "empty_hint": "Voeg een formule of reactie toe om aan de slag te gaan."
+    "empty_hint": "Voeg een formule of reactie toe om aan de slag te gaan.",
+    "add_structure": "Structuur",
+    "structure": "Structuur",
+    "template": "Sjabloon",
+    "template_custom": "— op maat (chemfig) —",
+    "chemfig_source": "Raw chemfig (geavanceerd, optioneel)",
+    "chemfig_overrides": "De onbewerkte chemfig zal worden gebruikt in plaats van de sjabloon.",
+    "template_hint": "Kies een sjabloon of typ raw chemfig voor aangepaste structuren.",
+    "tpl_benzene": "Benzeen",
+    "tpl_cyclohexane": "Cyclohexaan",
+    "tpl_cyclopentane": "Cyclopentaan",
+    "tpl_naphthalene": "Naftaleen",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Tolueen",
+    "tpl_aniline": "Aniline",
+    "tpl_benzoic-acid": "Benzoëzuur",
+    "tpl_methane": "Methaan",
+    "tpl_ethanol": "Ethanol",
+    "tpl_acetic-acid": "Azijnzuur",
+    "tpl_glucose-chain": "Glucose (open keten)"
   },
   "tikz": {
     "shapes": "Vormen",
@@ -3248,6 +3276,14 @@
     "add_case": "Casus toevoegen",
     "case_if": "als",
     "case_expr_placeholder": "expressie",
-    "case_cond_placeholder": "\\text{als } x > 0"
+    "case_cond_placeholder": "\\text{als } x > 0",
+    "palette_no_target": "Klik op een veld hierboven om daar symbolen in te voegen.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Live voorbeeld (bij benadering)",
+    "empty": "Voeg gegevens of een functie toe om een voorbeeld van de plot te bekijken.",
+    "unsupported": "Live preview niet beschikbaar voor: {{types}}. Compileer om het exacte resultaat te zien."
   }
 }

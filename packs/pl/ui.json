@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio automatycznie wybiera backend na podstawie tego, co jest zainstalowane. W trybie zaawansowanym możesz wybrać silnik ręcznie na ekranie kompilacji.",
     "status_ready": "Gotowy do wygenerowania PDF",
     "status_missing": "Brak konfiguracji generacji PDF",
-    "status_system": "System: {{platform}}"
+    "status_system": "System: {{platform}}",
+    "how_to_update": "Jak to na bieżąco aktualizować"
   },
   "common": {
     "save": "Zapisz",
@@ -314,7 +315,8 @@
     "working": "Przetwarzanie…",
     "language_picker_title": "Język",
     "collapse": "Zwiń",
-    "expand": "Rozwiń"
+    "expand": "Rozwiń",
+    "dismiss": "Zamknij"
   },
   "lang": {
     "picker_label": "Język interfejsu",
@@ -2359,7 +2361,8 @@
     "adding": "Dodawanie…",
     "catalog_error": "Nie można załadować katalogu słownictwa. Sprawdź połączenie i spróbuj ponownie.",
     "repo_sync_error": "Nie można zsynchronizować tego repozytorium.",
-    "repo_add_error": "Nie można dodać repozytorium. Sprawdź jego adres i spróbuj ponownie."
+    "repo_add_error": "Nie można dodać repozytorium. Sprawdź jego adres i spróbuj ponownie.",
+    "install_error": "Nie można zainstalować pakietu"
   },
   "profile_wizard": {
     "step_of": "Krok {{current}} z {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Wykresy Gantta i osie czasu z grupami, zadaniami i zależnościami."
       }
     },
-    "crash_fallback": "Edytor wizualny nie mógł wyrenderować tej figury (dane uszkodzone lub niezgodne). Zamknij moduł i edytuj metadane lub wygeneruj ponownie figurę."
+    "crash_fallback": "Edytor wizualny nie mógł wyrenderować tej figury (dane uszkodzone lub niezgodne). Zamknij moduł i edytuj metadane lub wygeneruj ponownie figurę.",
+    "col_align_hint": "Wyrównanie kolumn. 'decimal' wyrównuje liczby do przecinka dziesiętnego (kolumna siunitx S).",
+    "align_auto": "auto",
+    "align_left": "lewo",
+    "align_center": "centrum",
+    "align_right": "prawda",
+    "align_decimal": "dziesiętny"
   },
   "help": {
     "title": "Centrum pomocy",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reakcja",
     "add_reactant": "Reagent",
     "add_product": "Produkt",
-    "empty_hint": "Aby rozpocząć, dodaj formułę lub reakcję."
+    "empty_hint": "Aby rozpocząć, dodaj formułę lub reakcję.",
+    "add_structure": "Struktura",
+    "structure": "Struktura",
+    "template": "Szablon",
+    "template_custom": "— niestandardowe (chemfig) —",
+    "chemfig_source": "Surowy chemfig (zaawansowany, opcjonalnie)",
+    "chemfig_overrides": "Zamiast szablonu zostanie użyty surowy chemfig.",
+    "template_hint": "Wybierz szablon lub wpisz surowy chemfig, aby uzyskać niestandardowe struktury.",
+    "tpl_benzene": "Benzen",
+    "tpl_cyclohexane": "Cykloheksan",
+    "tpl_cyclopentane": "Cyklopentan",
+    "tpl_naphthalene": "Naftalen",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "toluen",
+    "tpl_aniline": "Anilina",
+    "tpl_benzoic-acid": "Kwas benzoesowy",
+    "tpl_methane": "Metan",
+    "tpl_ethanol": "Etanol",
+    "tpl_acetic-acid": "Kwas octowy",
+    "tpl_glucose-chain": "Glukoza (otwarty łańcuch)"
   },
   "tikz": {
     "shapes": "Kształty",
@@ -3248,6 +3276,14 @@
     "add_case": "Dodaj sprawę",
     "case_if": "jeśli",
     "case_expr_placeholder": "wyrażenie",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "Kliknij pole powyżej, aby wstawić tam symbole.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Podgląd na żywo (w przybliżeniu)",
+    "empty": "Dodaj dane lub funkcję podglądu wykresu.",
+    "unsupported": "Podgląd na żywo niedostępny dla: {{types}}. Skompiluj, aby zobaczyć dokładny wynik."
   }
 }

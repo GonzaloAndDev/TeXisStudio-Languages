@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio väljer backend automatiskt baserat på vad som är installerat. I avancerat läge kan du välja motor manuellt på kompileringsskärmen.",
     "status_ready": "Redo att generera PDF",
     "status_missing": "PDF generationsinställningar saknas",
-    "status_system": "System: {{platform}}"
+    "status_system": "System: {{platform}}",
+    "how_to_update": "Hur man håller den uppdaterad"
   },
   "common": {
     "save": "Spara",
@@ -314,7 +315,8 @@
     "working": "Bearbetar…",
     "language_picker_title": "Språk",
     "collapse": "Kollapsa",
-    "expand": "Expandera"
+    "expand": "Expandera",
+    "dismiss": "Stäng"
   },
   "lang": {
     "picker_label": "Gränssnittsspråk",
@@ -2359,7 +2361,8 @@
     "adding": "Lägger till...",
     "catalog_error": "Det gick inte att ladda vokabulärkatalogen. Kontrollera din anslutning och försök igen.",
     "repo_sync_error": "Det gick inte att synkronisera denna lagringsplats.",
-    "repo_add_error": "Det gick inte att lägga till arkivet. Kontrollera adressen och försök igen."
+    "repo_add_error": "Det gick inte att lägga till arkivet. Kontrollera adressen och försök igen.",
+    "install_error": "Paketet kunde inte installeras"
   },
   "profile_wizard": {
     "step_of": "Steg {{current}} av {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Gantt-diagram och tidslinjer med grupper, uppgifter och beroenden."
       }
     },
-    "crash_fallback": "Den visuella redigeraren kunde inte återge denna figur (skadad eller inkompatibel data). Stäng modalen och redigera metadata eller återskapa figuren."
+    "crash_fallback": "Den visuella redigeraren kunde inte återge denna figur (skadad eller inkompatibel data). Stäng modalen och redigera metadata eller återskapa figuren.",
+    "col_align_hint": "Kolumnjustering. 'decimal' justerar siffror med decimalkomma (kolumnen siunitx S).",
+    "align_auto": "auto",
+    "align_left": "vänster",
+    "align_center": "mitten",
+    "align_right": "rätt",
+    "align_decimal": "decimal"
   },
   "help": {
     "title": "Hjälpcenter",
@@ -3027,7 +3036,26 @@
     "add_reaction": "Reaktion",
     "add_reactant": "Reaktant",
     "add_product": "Produkt",
-    "empty_hint": "Lägg till en formel eller en reaktion för att komma igång."
+    "empty_hint": "Lägg till en formel eller en reaktion för att komma igång.",
+    "add_structure": "Struktur",
+    "structure": "Struktur",
+    "template": "Mall",
+    "template_custom": "— custom (chemfig) —",
+    "chemfig_source": "Raw chemfig (avancerat, valfritt)",
+    "chemfig_overrides": "Den råa chemfig kommer att användas istället för mallen.",
+    "template_hint": "Välj en mall eller skriv rå chemfig för anpassade strukturer.",
+    "tpl_benzene": "Bensen",
+    "tpl_cyclohexane": "Cyklohexan",
+    "tpl_cyclopentane": "Cyklopentan",
+    "tpl_naphthalene": "Naftalen",
+    "tpl_phenol": "Fenol",
+    "tpl_toluene": "Toluen",
+    "tpl_aniline": "Anilin",
+    "tpl_benzoic-acid": "Bensoesyra",
+    "tpl_methane": "Metan",
+    "tpl_ethanol": "Etanol",
+    "tpl_acetic-acid": "Ättiksyra",
+    "tpl_glucose-chain": "Glukos (öppen kedja)"
   },
   "tikz": {
     "shapes": "Former",
@@ -3248,6 +3276,14 @@
     "add_case": "Lägg till fall",
     "case_if": "om",
     "case_expr_placeholder": "uttryck",
-    "case_cond_placeholder": "\\text{om } x > 0"
+    "case_cond_placeholder": "\\text{om } x > 0",
+    "palette_no_target": "Klicka på ett fält ovan för att infoga symboler där.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Live förhandsvisning (ungefärligt)",
+    "empty": "Lägg till data eller en funktion för att förhandsgranska plottet.",
+    "unsupported": "Liveförhandsvisning inte tillgänglig för: {{types}}. Kompilera för att se det exakta resultatet."
   }
 }

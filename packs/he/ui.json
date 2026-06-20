@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio בוחר את הקצה העורפי באופן אוטומטי על סמך מה שמותקן. במצב מתקדם ניתן לבחור את המנוע באופן ידני במסך הקומפילציה.",
     "status_ready": "מוכן ליצור PDF",
     "status_missing": "הגדרת דור PDF חסרה",
-    "status_system": "מערכת: {{platform}}"
+    "status_system": "מערכת: {{platform}}",
+    "how_to_update": "איך לשמור את זה מעודכן"
   },
   "common": {
     "save": "שמור",
@@ -314,7 +315,8 @@
     "working": "מעבד…",
     "language_picker_title": "שפה",
     "collapse": "התמוטט",
-    "expand": "הרחב"
+    "expand": "הרחב",
+    "dismiss": "סגור"
   },
   "lang": {
     "picker_label": "שפת ממשק",
@@ -2359,7 +2361,8 @@
     "adding": "מוסיף...",
     "catalog_error": "לא ניתן היה לטעון את קטלוג אוצר המילים. בדוק את החיבור שלך ונסה שוב.",
     "repo_sync_error": "לא ניתן היה לסנכרן את המאגר הזה.",
-    "repo_add_error": "לא ניתן להוסיף את המאגר. בדוק את הכתובת שלו ונסה שוב."
+    "repo_add_error": "לא ניתן להוסיף את המאגר. בדוק את הכתובת שלו ונסה שוב.",
+    "install_error": "לא ניתן היה להתקין את החבילה"
   },
   "profile_wizard": {
     "step_of": "שלב {{current}} של {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "תרשימי גאנט וקווי זמן עם קבוצות, משימות ותלות."
       }
     },
-    "crash_fallback": "העורך הוויזואלי לא הצליח להציג את הדמות הזו (נתונים פגומים או לא תואמים). סגור את המודאל וערוך את המטא נתונים או צור מחדש את הדמות."
+    "crash_fallback": "העורך הוויזואלי לא הצליח להציג את הדמות הזו (נתונים פגומים או לא תואמים). סגור את המודאל וערוך את המטא נתונים או צור מחדש את הדמות.",
+    "col_align_hint": "יישור עמודות. 'עשרוני' מיישר מספרים לפי הנקודה העשרונית (עמודה siunitx S).",
+    "align_auto": "אוטומטי",
+    "align_left": "שמאל",
+    "align_center": "מרכז",
+    "align_right": "נכון",
+    "align_decimal": "עשרוני"
   },
   "help": {
     "title": "מרכז העזרה",
@@ -3027,7 +3036,26 @@
     "add_reaction": "תגובה",
     "add_reactant": "מגיב",
     "add_product": "מוצר",
-    "empty_hint": "הוסף נוסחה או תגובה כדי להתחיל."
+    "empty_hint": "הוסף נוסחה או תגובה כדי להתחיל.",
+    "add_structure": "מבנה",
+    "structure": "מבנה",
+    "template": "תבנית",
+    "template_custom": "- מותאם אישית (chemfig) -",
+    "chemfig_source": "chemfig גולמי (מתקדם, אופציונלי)",
+    "chemfig_overrides": "ה- chemfig הגולמי ישמש במקום התבנית.",
+    "template_hint": "בחר תבנית, או הקלד chemfig גולמי עבור מבנים מותאמים אישית.",
+    "tpl_benzene": "בנזן",
+    "tpl_cyclohexane": "ציקלוהקסאן",
+    "tpl_cyclopentane": "ציקלופנטן",
+    "tpl_naphthalene": "נפתלין",
+    "tpl_phenol": "פנול",
+    "tpl_toluene": "טולואן",
+    "tpl_aniline": "אנילין",
+    "tpl_benzoic-acid": "חומצה בנזואית",
+    "tpl_methane": "מתאן",
+    "tpl_ethanol": "אתנול",
+    "tpl_acetic-acid": "חומצה אצטית",
+    "tpl_glucose-chain": "גלוקוז (שרשרת פתוחה)"
   },
   "tikz": {
     "shapes": "צורות",
@@ -3248,6 +3276,14 @@
     "add_case": "הוסף מקרה",
     "case_if": "אם",
     "case_expr_placeholder": "ביטוי",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "לחץ על שדה למעלה כדי להוסיף שם סמלים.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "תצוגה מקדימה חיה (בערך)",
+    "empty": "הוסף נתונים או פונקציה לתצוגה מקדימה של העלילה.",
+    "unsupported": "תצוגה מקדימה חיה לא זמינה עבור: {{types}}. קומפילו כדי לראות את התוצאה המדויקת."
   }
 }

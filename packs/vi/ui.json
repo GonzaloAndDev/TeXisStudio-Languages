@@ -283,7 +283,8 @@
     "technical_detail_body": "TeXisStudio tự động chọn phần phụ trợ dựa trên những gì được cài đặt. Ở chế độ nâng cao, bạn có thể chọn công cụ theo cách thủ công trên màn hình biên dịch.",
     "status_ready": "Sẵn sàng tạo PDF",
     "status_missing": "Thiếu thiết lập thế hệ PDF",
-    "status_system": "Hệ thống: {{platform}}"
+    "status_system": "Hệ thống: {{platform}}",
+    "how_to_update": "Làm thế nào để giữ cho nó được cập nhật"
   },
   "common": {
     "save": "Lưu",
@@ -314,7 +315,8 @@
     "working": "Đang xử lý…",
     "language_picker_title": "Ngôn ngữ",
     "collapse": "Thu gọn",
-    "expand": "Mở rộng"
+    "expand": "Mở rộng",
+    "dismiss": "Đóng"
   },
   "lang": {
     "picker_label": "Ngôn ngữ giao diện",
@@ -2359,7 +2361,8 @@
     "adding": "Đang thêm…",
     "catalog_error": "Không thể tải danh mục từ vựng. Hãy kiểm tra kết nối của bạn và thử lại.",
     "repo_sync_error": "Không thể đồng bộ hóa kho lưu trữ này.",
-    "repo_add_error": "Không thể thêm kho lưu trữ. Hãy kiểm tra địa chỉ của nó và thử lại."
+    "repo_add_error": "Không thể thêm kho lưu trữ. Hãy kiểm tra địa chỉ của nó và thử lại.",
+    "install_error": "Không thể cài đặt gói"
   },
   "profile_wizard": {
     "step_of": "Bước {{current}} của {{total}}",
@@ -2887,7 +2890,13 @@
         "description": "Biểu đồ Gantt và dòng thời gian với các nhóm, nhiệm vụ và phần phụ thuộc."
       }
     },
-    "crash_fallback": "Trình chỉnh sửa trực quan không thể hiển thị hình này (dữ liệu bị hỏng hoặc không tương thích). Đóng phương thức và chỉnh sửa siêu dữ liệu hoặc tạo lại hình."
+    "crash_fallback": "Trình chỉnh sửa trực quan không thể hiển thị hình này (dữ liệu bị hỏng hoặc không tương thích). Đóng phương thức và chỉnh sửa siêu dữ liệu hoặc tạo lại hình.",
+    "col_align_hint": "Căn chỉnh cột. 'thập phân' căn chỉnh các số theo dấu thập phân (cột siunitx S).",
+    "align_auto": "tự động",
+    "align_left": "trái",
+    "align_center": "trung tâm",
+    "align_right": "đúng",
+    "align_decimal": "số thập phân"
   },
   "help": {
     "title": "Trung tâm trợ giúp",
@@ -3027,7 +3036,26 @@
     "add_reaction": "phản ứng",
     "add_reactant": "chất phản ứng",
     "add_product": "sản phẩm",
-    "empty_hint": "Thêm công thức hoặc phản ứng để bắt đầu."
+    "empty_hint": "Thêm công thức hoặc phản ứng để bắt đầu.",
+    "add_structure": "Cấu trúc",
+    "structure": "Cấu trúc",
+    "template": "mẫu",
+    "template_custom": "— tùy chỉnh (chemfig) —",
+    "chemfig_source": "Hóa chất thô (nâng cao, tùy chọn)",
+    "chemfig_overrides": "Hóa chất thô sẽ được sử dụng thay cho mẫu.",
+    "template_hint": "Chọn một mẫu hoặc nhập chemfig thô cho các cấu trúc tùy chỉnh.",
+    "tpl_benzene": "Benzen",
+    "tpl_cyclohexane": "Cyclohexan",
+    "tpl_cyclopentane": "Cyclopentan",
+    "tpl_naphthalene": "Naphtalen",
+    "tpl_phenol": "Phenol",
+    "tpl_toluene": "toluen",
+    "tpl_aniline": "Anilin",
+    "tpl_benzoic-acid": "Axit benzoic",
+    "tpl_methane": "Mêtan",
+    "tpl_ethanol": "Ethanol",
+    "tpl_acetic-acid": "Axit axetic",
+    "tpl_glucose-chain": "Glucose (chuỗi mở)"
   },
   "tikz": {
     "shapes": "Hình dạng",
@@ -3248,6 +3276,14 @@
     "add_case": "Thêm trường hợp",
     "case_if": "nếu",
     "case_expr_placeholder": "biểu hiện",
-    "case_cond_placeholder": "\\text{if } x > 0"
+    "case_cond_placeholder": "\\text{if } x > 0",
+    "palette_no_target": "Bấm vào một trường ở trên để chèn ký hiệu vào đó.",
+    "align_placeholder": "x_1 + 2 x_2 &= 3",
+    "variables_placeholder": "x_1, x_2, x_3"
+  },
+  "plot_preview": {
+    "title": "Xem trước trực tiếp (gần đúng)",
+    "empty": "Thêm dữ liệu hoặc chức năng để xem trước cốt truyện.",
+    "unsupported": "Xem trước trực tiếp không có sẵn cho: {{types}}. Biên dịch để xem kết quả chính xác."
   }
 }
