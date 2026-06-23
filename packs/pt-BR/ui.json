@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
+              "title": "Ubuntu/Debian/Linux Mint",
               "note": "Inclui tudo. Se o espaço for limitado, use texlive-xetex em vez de texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Fluxo Fedora / RHEL / CentOS",
               "note": "Instala o esquema TeX Live completo."
             },
             {
@@ -408,9 +408,9 @@
     "corrupt_no_snapshots": "Nenhum instantâneo está disponível. O projeto não pode ser recuperado automaticamente.",
     "corrupt_restore": "Restaurar",
     "corrupt_restoring": "Restaurando...",
-    "corrupt_restored": "Instantâneo restaurado. Abrindo projeto...",
+    "corrupt_restored": "Snapshot restaurado. Abrindo projeto...",
     "corrupt_restore_error": "Não foi possível restaurar o instantâneo. Verifique as permissões do arquivo ou escolha outra.",
-    "corrupt_dismiss": "Abra outro projeto"
+    "corrupt_dismiss": "Abrir outro projeto"
   },
   "wizard": {
     "title": "Novo projeto",
@@ -1007,7 +1007,7 @@
     "tree_add": "Adicionar seção",
     "tree_add_chapter": "Novo capítulo",
     "tree_add_prelim": "Nova seção preliminar",
-    "tree_add_back": "Nova matéria traseira",
+    "tree_add_back": "Nova seção final",
     "tree_add_appendix": "Novo apêndice",
     "tree_section_options": "Opções de seção",
     "tree_rename": "Renomear",
@@ -1177,8 +1177,8 @@
     "update_available": "Versão {{version}} disponível — reinicie para instalar",
     "update_up_to_date": "Você está atualizado",
     "update_error": "Não foi possível verificar atualizações",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "Você só tem Tectonic – ótimo para a escrita diária. Para pacotes avançados, biblatex + Biber, ou figuras de plugins, instale {{suiteName}}.",
+    "latex_tectonic_only_btn": "Instale {{suiteName}}",
     "update_disabled": "Atualização automática não configurada para esta versão",
     "refresh_catalog": "Atualizar catálogo",
     "package_status_stable": "Estável",
@@ -1543,7 +1543,7 @@
     "error_safety": "A solicitação foi bloqueada pela política de segurança.",
     "error_model_unavailable": "O modelo selecionado não está disponível. Escolha outro nas configurações.",
     "error_provider": "Erro do provedor. Tente novamente.",
-    "cancel_request": "Cancelar a solicitação durante o voo"
+    "cancel_request": "Cancelar solicitação em andamento"
   },
   "editor_meta": {
     "project_guide": "Guia do projeto",
@@ -2149,7 +2149,7 @@
     "create_bib_suffix": "em seu projeto.",
     "no_results": "Nenhum resultado para “{{query}}”",
     "no_title": "Sem título",
-    "add_via_doi": "Adicione a primeira referência por DOI"
+    "add_via_doi": "Adicionar primeira referência por DOI"
   },
   "doc_options": {
     "title": "Opções de documento",
@@ -2418,7 +2418,38 @@
     "placement_body": "Corpo",
     "placement_back_matter": "Matéria posterior",
     "placement_appendix": "Apêndice",
-    "section_required": "obrigatório"
+    "section_required": "obrigatório",
+    "step_quality": "Qualidade",
+    "quality_intro": "Adicione as evidências e as restrições de entrega que tornam esse perfil confiável. Um novo perfil permanece em rascunho até ser revisado ou verificado com evidências reais.",
+    "source_urls_label": "URLs de origem oficiais, um por linha",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "Revise todos os dias",
+    "layout_requirements": "Requisitos de layout e entrega",
+    "paper_placeholder": "Papel, e.g. papel carta ou a4",
+    "line_spacing_placeholder": "Espaçamento entre linhas, e.g. 1.5 ou 2",
+    "abstract_words_placeholder": "Limite de palavras abstratas",
+    "margin_top_placeholder": "Margem superior",
+    "margin_bottom_placeholder": "Margem inferior",
+    "margin_left_placeholder": "Margem esquerda",
+    "margin_right_placeholder": "Margem direita",
+    "max_words_placeholder": "Limite de palavras do texto principal",
+    "pdfa_required": "Requer PDF/A",
+    "quality_checklist": "Lista de verificação profissional: {{done}}/{{total}}",
+    "quality_sources": "Verifiquei as fontes institucionais oficiais e guardei suas URLs.",
+    "quality_titlePage": "Revisei os requisitos da página de título, comitê, diploma, cidade e ano.",
+    "quality_layout": "Capturei o tamanho da página, margens, espaçamento entre linhas e limites de palavras quando necessário.",
+    "quality_bibliography": "Combinei o estilo da bibliografia com um backend LaTeX que pode realmente compilá-lo.",
+    "quality_compileSample": "Testarei este perfil com um projeto de amostra antes de usá-lo para entrega final.",
+    "quality_externalAssets": "Se uma figura, logotipo, mapa, pontuação ou diagrama for melhor feito fora do LaTeX, importarei o PDF/PNG/SVG final em vez de forçar o LaTeX.",
+    "quality_summary": "Qualidade {{done}}/{{total}}",
+    "status_label": "Status do perfil",
+    "status_promotion_hint": "Revisado requer URLs de origem oficiais e uma data de revisão. Verificado adicionalmente requer evidência de CI automatizada.",
+    "reviewed_at_label": "Revisado em",
+    "reviewed_by_label": "Avaliado por",
+    "verified_at_label": "Verificado em",
+    "verified_by_label": "Verificado por",
+    "ci_evidence_label": "Evidência CI URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "Base institucional simples",
@@ -2612,13 +2643,13 @@
     "applying": "Aplicando…",
     "done_msg": "Figura atualizada",
     "tab_preview": "Visualização",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "Código LaTeX completo da figura",
+    "full_code_loading": "Carregando…",
+    "full_code_hint": "Este é o conteúdo real de output.tex gerado pelo plugin. Editá-lo manualmente o sobrescreve. Se você regenerar a figura pelo editor visual, suas alterações manuais serão substituídas.",
+    "full_code_edit": "Editar manualmente",
+    "full_code_save": "Salvar código",
+    "full_code_saving": "Salvando…",
+    "full_code_error": "Não foi possível ler o código da figura.",
     "preview_compile_btn": "Visualização de recompilação",
     "preview_compiling": "Compilando…",
     "preview_apply_first": "Aplique as alterações antes de visualizar.",
@@ -2627,7 +2658,7 @@
     "preview_no_tectonic": "Tectonic não está instalado ou não foi encontrado.",
     "full_code_empty": "O código da figura não pode ficar vazio.",
     "full_code_invalid": "O código editado manualmente não é compilado. Corrija o erro LaTeX e tente novamente.",
-    "manual_edit_warning": "Esta figura foi editada manualmente em LaTeX. A regeneração a partir do editor visual substituirá as alterações manuais."
+    "manual_edit_warning": "Esta figura foi editada manualmente em LaTeX. Regenerá-la pelo editor visual substituirá suas alterações manuais."
   },
   "elements_tab": {
     "title": "Elementos",
@@ -2890,7 +2921,7 @@
         "description": "Gráficos de Gantt e cronogramas com grupos, tarefas e dependências."
       }
     },
-    "crash_fallback": "O editor visual não conseguiu renderizar esta figura (dados corrompidos ou incompatíveis). Feche o modal e edite os metadados ou gere novamente a figura.",
+    "crash_fallback": "O editor visual não conseguiu renderizar esta figura (dados corrompidos ou incompatíveis). Feche a janela e edite os metadados ou regenere a figura.",
     "col_align_hint": "Alinhamento de coluna. 'decimal' alinha os números pela vírgula decimal (coluna siunitx S).",
     "align_auto": "automático",
     "align_left": "esquerda",
@@ -3216,7 +3247,7 @@
     "sup_sub": "Sobrescrito + subscrito",
     "sum": "Soma",
     "prod": "Produto",
-    "int": "Integral",
+    "int": "Integrante",
     "lim": "Limite",
     "stackrel": "Relação empilhada",
     "overset": "Exagerado",

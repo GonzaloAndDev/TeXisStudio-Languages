@@ -121,7 +121,7 @@
     "corrupt_no_snapshots": "没有可用的快照。该项目无法自动恢复。",
     "corrupt_restore": "恢复",
     "corrupt_restoring": "正在恢复...",
-    "corrupt_restored": "快照已恢复。打开项目...",
+    "corrupt_restored": "快照已恢复。正在打开项目...",
     "corrupt_restore_error": "无法恢复快照。检查文件权限或选择其他权限。",
     "corrupt_dismiss": "打开另一个项目"
   },
@@ -497,7 +497,7 @@
     "meta_city": "城市",
     "meta_year": "年份",
     "meta_keywords": "关键词",
-    "meta_orcid": "ORCID",
+    "meta_orcid": "奥西德",
     "meta_funding": "资助",
     "meta_committee": "答辩委员会",
     "meta_add_committee": "添加成员",
@@ -719,8 +719,8 @@
     "toolbar_split_tip_inactive": "编辑文本块以启用拆分",
     "tree_add": "添加部分",
     "tree_add_chapter": "新篇章",
-    "tree_add_prelim": "新的初步部分",
-    "tree_add_back": "新背事",
+    "tree_add_prelim": "新增前置章节",
+    "tree_add_back": "新增后置章节",
     "tree_add_appendix": "新附录",
     "tree_section_options": "部分选项",
     "tree_rename": "重命名",
@@ -890,8 +890,8 @@
     "update_available": "{{version}} 版本可用 — 重启以安装",
     "update_up_to_date": "已是最新版本",
     "update_error": "无法检查更新",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "你只有 Tectonic——适合日常写作。对于高级软件包 biblatex + Biber 或插件人物，请安装 {{suiteName}}。",
+    "latex_tectonic_only_btn": "安装{{suiteName}}",
     "update_disabled": "此版本未配置自动更新",
     "refresh_catalog": "刷新目录",
     "package_status_stable": "稳定",
@@ -1095,7 +1095,7 @@
     "add_section": "添加部分",
     "move_up": "向上移动",
     "move_down": "下移",
-    "delete_section": "Delete section",
+    "delete_section": "删除部分",
     "no_sections_add_one": "没有章节。 Add at least one.",
     "save_changes": "保存更改",
     "profile_name_required": "配置文件名称是必需的。",
@@ -1132,12 +1132,12 @@
     "status_draft": "草稿",
     "status_in_review": "审阅中",
     "status_revised": "已修改",
-    "status_approved": "Approved",
+    "status_approved": "已批准",
     "placement_front_matter": "前言",
     "placement_body": "身体",
     "placement_back_matter": "回事",
     "placement_appendix": "附录",
-    "stats_total_sections": "Total sections",
+    "stats_total_sections": "总节数",
     "stats_approved": "已批准",
     "stats_in_review": "审核中",
     "stats_revised": "修改",
@@ -1256,7 +1256,7 @@
     "error_safety": "该请求被安全策略阻止。",
     "error_model_unavailable": "所选型号不可用。在设置中选择另一项。",
     "error_provider": "提供者错误。再试一次。",
-    "cancel_request": "取消飞行中的请求"
+    "cancel_request": "取消正在进行的请求"
   },
   "editor_meta": {
     "project_guide": "项目指南",
@@ -1862,7 +1862,7 @@
     "create_bib_suffix": "在你的项目中。",
     "no_results": "没有找到“{{query}}”的结果",
     "no_title": "无题",
-    "add_via_doi": "添加 DOI 的第一个参考"
+    "add_via_doi": "通过 DOI 添加第一条参考文献"
   },
   "doc_options": {
     "title": "文档选项",
@@ -2131,7 +2131,38 @@
     "placement_body": "正文",
     "placement_back_matter": "后记部分",
     "placement_appendix": "附录",
-    "section_required": "必填"
+    "section_required": "必填",
+    "step_quality": "质量",
+    "quality_intro": "添加使此配置文件可靠的证据和交付限制。新的个人资料一直处于草稿状态，直到经过审查或用真实证据进行验证。",
+    "source_urls_label": "官方源 URL，每行一个",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "每天回顾一下",
+    "layout_requirements": "布局和交付要求",
+    "paper_placeholder": "纸，e.g。信纸或a4纸",
+    "line_spacing_placeholder": "行距，e.g。 1.5 或 2",
+    "abstract_words_placeholder": "摘要字数限制",
+    "margin_top_placeholder": "上边距",
+    "margin_bottom_placeholder": "下边距",
+    "margin_left_placeholder": "左边距",
+    "margin_right_placeholder": "右边距",
+    "max_words_placeholder": "正文字数限制",
+    "pdfa_required": "需要 PDF/A",
+    "quality_checklist": "专业检查表：{{done}}/{{total}}",
+    "quality_sources": "我检查了官方机构来源并保留了它们的 URL。",
+    "quality_titlePage": "我查看了扉页、委员会、学位、城市和年份要求。",
+    "quality_layout": "我在需要时捕获了页面大小、边距、行间距和字数限制。",
+    "quality_bibliography": "我将参考书目风格与实际可以编译它的 LaTeX 后端相匹配。",
+    "quality_compileSample": "在将其用于最终交付之前，我将使用示例项目测试此配置文件。",
+    "quality_externalAssets": "如果图形、徽标、地图、乐谱或图表在 LaTeX 之外制作得更好，我将导入最终的 PDF/PNG/SVG，而不是强制 LaTeX。",
+    "quality_summary": "品质 {{done}}/{{total}}",
+    "status_label": "个人资料状态",
+    "status_promotion_hint": "审核需要官方源 URL 和审核日期。验证还需要自动化 CI 证据。",
+    "reviewed_at_label": "评论于",
+    "reviewed_by_label": "审阅者",
+    "verified_at_label": "验证于",
+    "verified_by_label": "验证者",
+    "ci_evidence_label": "CI证据URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "简单机构基础",
@@ -2400,7 +2431,7 @@
               "note": "包括一切。如果空间有限，请使用 texlive-xetex 而不是 texlive-full。"
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Fedora / RHEL / CentOS 流",
               "note": "安装完整的 TeX Live 方案。"
             },
             {
@@ -2690,13 +2721,13 @@
     "applying": "正在应用…",
     "done_msg": "图形已更新",
     "tab_preview": "预览",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "图形的完整 LaTeX 代码",
+    "full_code_loading": "加载中...",
+    "full_code_hint": "这是插件生成的 output.tex 的真实内容。手动编辑会覆盖它。如果从可视化编辑器重新生成图形，手动更改将被替换。",
+    "full_code_edit": "手动编辑",
+    "full_code_save": "保存代码",
+    "full_code_saving": "正在保存...",
+    "full_code_error": "无法读取图形代码。",
     "preview_compile_btn": "重新编译预览",
     "preview_compiling": "正在编译...",
     "preview_apply_first": "在预览之前应用更改。",
@@ -2705,7 +2736,7 @@
     "preview_no_tectonic": "Tectonic 未安装或找不到。",
     "full_code_empty": "图形代码不能为空。",
     "full_code_invalid": "手工编辑的代码无法编译。修复 LaTeX 错误并重试。",
-    "manual_edit_warning": "此手办为LaTeX。从可视化编辑器重新生成将覆盖您的手动更改。"
+    "manual_edit_warning": "此图形已手动编辑 LaTeX。从可视化编辑器重新生成会覆盖您的手动更改。"
   },
   "readiness": {
     "panel_title": "项目进度",
@@ -2890,7 +2921,7 @@
         "description": "包含组、任务和依赖关系的甘特图和时间线。"
       }
     },
-    "crash_fallback": "可视化编辑器无法渲染该图（数据损坏或不兼容）。关闭模式并编辑元数据或重新生成图形。",
+    "crash_fallback": "可视化编辑器无法渲染此图形（数据损坏或不兼容）。关闭对话框并编辑元数据，或重新生成图形。",
     "col_align_hint": "列对齐。 'decimal' 按小数点对齐数字（siunitx S 列）。",
     "align_auto": "汽车",
     "align_left": "左",
@@ -3279,7 +3310,7 @@
     "case_cond_placeholder": "\\text{如果} x > 0",
     "palette_no_target": "单击上面的字段可在其中插入符号。",
     "align_placeholder": "x_1 + 2 x_2 &= 3",
-    "variables_placeholder": "x_1, x_2, x_3"
+    "variables_placeholder": "x_1、x_2、x_3"
   },
   "plot_preview": {
     "title": "实时预览（大约）",

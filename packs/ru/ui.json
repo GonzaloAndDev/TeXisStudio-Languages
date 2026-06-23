@@ -89,11 +89,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
+              "title": "Убунту/Дебиан/Линукс Минт",
               "note": "Включает в себя все. Если пространство ограничено, используйте texlive-xetex вместо texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Fedora/RHEL/CentOS Stream",
               "note": "Устанавливает полную схему TeX Live."
             },
             {
@@ -790,7 +790,7 @@
     "meta_city": "Город",
     "meta_year": "Год",
     "meta_keywords": "Ключевые слова",
-    "meta_orcid": "ORCID",
+    "meta_orcid": "ОРЦИД",
     "meta_funding": "Финансирование",
     "meta_committee": "Члены комитета",
     "meta_add_committee": "Добавить участника",
@@ -1177,8 +1177,8 @@
     "update_available": "Доступна версия {{version}} — перезапустите, чтобы установить",
     "update_up_to_date": "Вы в курсе",
     "update_error": "Не удалось проверить наличие обновлений",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "У вас есть только Tectonic — отлично подходит для повседневного письма. Для расширенных пакетов biblatex + Biber или фигур плагинов установите {{suiteName}}.",
+    "latex_tectonic_only_btn": "Установить {{suiteName}}",
     "update_disabled": "Автоматическое обновление не настроено для этой версии",
     "refresh_catalog": "Обновить каталог",
     "package_status_stable": "Стабильный",
@@ -2009,7 +2009,7 @@
         "bibliography_title": "Ссылки"
       },
       "mhra": {
-        "name": "MHRA",
+        "name": "МХРА",
         "full_name": "Руководство по стилю Ассоциации современных гуманитарных исследований, 3-е издание",
         "disciplines": [
           "Гуманитарные науки",
@@ -2027,8 +2027,8 @@
         "bibliography_title": "Библиография"
       },
       "abnt": {
-        "name": "ABNT",
-        "full_name": "ABNT NBR 6023:2018",
+        "name": "АБНТ",
+        "full_name": "АБНТ НБР 6023:2018",
         "disciplines": [
           "Все дисциплины (Бразилия)"
         ],
@@ -2418,7 +2418,38 @@
     "placement_body": "Тело",
     "placement_back_matter": "Обратная связь",
     "placement_appendix": "Приложение",
-    "section_required": "требуется"
+    "section_required": "требуется",
+    "step_quality": "Качество",
+    "quality_intro": "Добавьте доказательства и ограничения доставки, которые делают этот профиль надежным. Новый профиль остается в черновике до тех пор, пока он не будет проверен или подтвержден реальными доказательствами.",
+    "source_urls_label": "URL-адреса официальных источников, по одному в каждой строке.",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "Обзор каждый день",
+    "layout_requirements": "Требования к оформлению и доставке",
+    "paper_placeholder": "Бумага, e.g. почтовая бумага или бумага формата А4",
+    "line_spacing_placeholder": "Межстрочный интервал, e.g. 1.5 или 2",
+    "abstract_words_placeholder": "Ограничение абстрактного слова",
+    "margin_top_placeholder": "Верхняя маржа",
+    "margin_bottom_placeholder": "Нижнее поле",
+    "margin_left_placeholder": "Левое поле",
+    "margin_right_placeholder": "Правое поле",
+    "max_words_placeholder": "Максимальное количество слов в основном тексте",
+    "pdfa_required": "Требуется PDF/A.",
+    "quality_checklist": "Профессиональный контрольный список: {{done}}/{{total}}",
+    "quality_sources": "Я проверил официальные институциональные источники и сохранил их URL-адреса.",
+    "quality_titlePage": "Я рассмотрел титульный лист, требования к комитету, степени, городу и году обучения.",
+    "quality_layout": "При необходимости я фиксировал размер страницы, поля, межстрочный интервал и ограничения на количество слов.",
+    "quality_bibliography": "Я сопоставил стиль библиографии с бэкэндом LaTeX, который действительно может его скомпилировать.",
+    "quality_compileSample": "Я протестирую этот профиль на примере проекта, прежде чем использовать его для окончательной реализации.",
+    "quality_externalAssets": "Если рисунок, логотип, карту, партитуру или диаграмму лучше создать вне LaTeX, я импортирую окончательный вариант PDF/PNG/SVG вместо принудительного использования LaTeX.",
+    "quality_summary": "Качество {{done}}/{{total}}",
+    "status_label": "Статус профиля",
+    "status_promotion_hint": "Для проверки требуются официальные URL-адреса источников и дата проверки. Проверено дополнительно требует автоматического подтверждения CI.",
+    "reviewed_at_label": "Проверено на",
+    "reviewed_by_label": "Проверено пользователем",
+    "verified_at_label": "Проверено на",
+    "verified_by_label": "Проверено",
+    "ci_evidence_label": "Доказательства CI URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "Простая институциональная база",
@@ -2612,13 +2643,13 @@
     "applying": "Применение…",
     "done_msg": "Рисунок обновлён",
     "tab_preview": "Предварительный просмотр",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "Полный код LaTeX рисунка",
+    "full_code_loading": "Загрузка…",
+    "full_code_hint": "Это реальное содержимое вывода .tex, созданного плагином. Редактирование вручную перезаписывает его — если вы повторно создаете фигуру из визуального редактора, внесенные вручную изменения заменяются.",
+    "full_code_edit": "Редактировать вручную",
+    "full_code_save": "Сохранить код",
+    "full_code_saving": "Сохранение…",
+    "full_code_error": "Не удалось прочитать код рисунка.",
     "preview_compile_btn": "Перекомпилировать предварительный просмотр",
     "preview_compiling": "Компиляция…",
     "preview_apply_first": "Примените изменения перед предварительным просмотром.",
@@ -3278,8 +3309,8 @@
     "case_expr_placeholder": "выражение",
     "case_cond_placeholder": "\\text{если } x > 0",
     "palette_no_target": "Щелкните поле выше, чтобы вставить туда символы.",
-    "align_placeholder": "x_1 + 2 x_2 &= 3",
-    "variables_placeholder": "x_1, x_2, x_3"
+    "align_placeholder": "х_1 + 2 х_2 &= 3",
+    "variables_placeholder": "х_1, х_2, х_3"
   },
   "plot_preview": {
     "title": "Предварительный просмотр в реальном времени (приблизительно)",

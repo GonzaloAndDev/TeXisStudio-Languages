@@ -121,7 +121,7 @@
     "corrupt_no_snapshots": "Aucun instantané n'est disponible. Le projet ne peut pas être récupéré automatiquement.",
     "corrupt_restore": "Restaurer",
     "corrupt_restoring": "Restauration...",
-    "corrupt_restored": "Instantané restauré. Projet d'ouverture...",
+    "corrupt_restored": "Instantané restauré. Ouverture du projet...",
     "corrupt_restore_error": "Impossible de restaurer l'instantané. Vérifiez les autorisations du fichier ou choisissez-en une autre.",
     "corrupt_dismiss": "Ouvrir un autre projet"
   },
@@ -720,7 +720,7 @@
     "tree_add": "Ajouter une rubrique",
     "tree_add_chapter": "Nouveau chapitre",
     "tree_add_prelim": "Nouvelle section préliminaire",
-    "tree_add_back": "Nouveau dossier",
+    "tree_add_back": "Nouvelle section de fin",
     "tree_add_appendix": "Nouvelle annexe",
     "tree_section_options": "Options de sections",
     "tree_rename": "Renommer",
@@ -890,8 +890,8 @@
     "update_available": "Version {{version}} disponible — redémarrer pour installer",
     "update_up_to_date": "Vous êtes à jour",
     "update_error": "Impossible de vérifier les mises à jour",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "Vous n’avez que Tectonic – parfait pour l’écriture quotidienne. Pour les packages avancés, biblatex + Biber, ou les figures de plugin, installez {{suiteName}}.",
+    "latex_tectonic_only_btn": "Installer {{suiteName}}",
     "update_disabled": "Mises à jour automatiques non configurées pour cette version",
     "refresh_catalog": "Actualiser le catalogue",
     "package_status_stable": "Stable",
@@ -1064,7 +1064,7 @@
     "verified_at": "Vérifié le {{date}}{{by}}",
     "reviewed_at": "Révisé le {{date}}{{by}}",
     "by_person": " par {{person}}",
-    "source": "Source",
+    "source": "Origine",
     "ci_evidence_available": "Preuve CI disponible",
     "latex_engine": "Moteur LaTeX",
     "bibliography": "Bibliographie",
@@ -1256,7 +1256,7 @@
     "error_safety": "La demande a été bloquée par la politique de sécurité.",
     "error_model_unavailable": "Le modèle sélectionné n'est pas disponible. Choisissez-en un autre dans les paramètres.",
     "error_provider": "Erreur du fournisseur. Essayer à nouveau.",
-    "cancel_request": "Annuler la demande en vol"
+    "cancel_request": "Annuler la requête en cours"
   },
   "editor_meta": {
     "project_guide": "Guide du projet",
@@ -2131,7 +2131,38 @@
     "placement_body": "Corps du document",
     "placement_back_matter": "Pages finales",
     "placement_appendix": "Annexe",
-    "section_required": "obligatoire"
+    "section_required": "obligatoire",
+    "step_quality": "Qualité",
+    "quality_intro": "Ajoutez les preuves et les contraintes de livraison qui rendent ce profil fiable. Un nouveau profil reste à l'état de brouillon jusqu'à ce qu'il soit examiné ou vérifié avec des preuves réelles.",
+    "source_urls_label": "URL des sources officielles, une par ligne",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "Revoir tous les jours",
+    "layout_requirements": "Exigences d’aménagement et de livraison",
+    "paper_placeholder": "Papier, e.g. papier à lettres ou papier a4",
+    "line_spacing_placeholder": "Espacement des lignes, e.g. 1.5 ou 2",
+    "abstract_words_placeholder": "Limite de mots abstraits",
+    "margin_top_placeholder": "Marge supérieure",
+    "margin_bottom_placeholder": "Marge inférieure",
+    "margin_left_placeholder": "Marge gauche",
+    "margin_right_placeholder": "Marge droite",
+    "max_words_placeholder": "Limite de mots du texte principal",
+    "pdfa_required": "Nécessite PDF/A",
+    "quality_checklist": "Liste de contrôle professionnelle : {{done}}/{{total}}",
+    "quality_sources": "J'ai vérifié les sources institutionnelles officielles et conservé leurs URL.",
+    "quality_titlePage": "J'ai examiné la page de titre, les exigences du comité, du diplôme, de la ville et de l'année.",
+    "quality_layout": "J'ai capturé la taille de la page, les marges, l'espacement des lignes et les limites de mots lorsque cela était nécessaire.",
+    "quality_bibliography": "J'ai fait correspondre le style de bibliographie avec un backend LaTeX qui peut réellement le compiler.",
+    "quality_compileSample": "Je vais tester ce profil avec un exemple de projet avant de l'utiliser pour la livraison finale.",
+    "quality_externalAssets": "Si une figure, un logo, une carte, une partition ou un diagramme est mieux réalisé en dehors de LaTeX, j'importerai le PDF/PNG/SVG final au lieu de forcer LaTeX.",
+    "quality_summary": "Qualité {{done}}/{{total}}",
+    "status_label": "Statut du profil",
+    "status_promotion_hint": "Révisé nécessite des URL de source officielles et une date de révision. Vérifié nécessite en outre des preuves CI automatisées.",
+    "reviewed_at_label": "Révisé à",
+    "reviewed_by_label": "Révisé par",
+    "verified_at_label": "Vérifié à",
+    "verified_by_label": "Vérifié par",
+    "ci_evidence_label": "Preuve CI URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "Base institutionnelle simple",
@@ -2396,11 +2427,11 @@
           ],
           "steps": [
             {
-              "title": "Ubuntu / Debian / Linux Mint",
+              "title": "Ubuntu/Debian/Linux Mint",
               "note": "Inclut tout. Si l'espace est limité, utilisez texlive-xetex à la place de texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Flux Fedora/RHEL/CentOS",
               "note": "Installe le schéma TeX Live complet."
             },
             {
@@ -2690,13 +2721,13 @@
     "applying": "Application…",
     "done_msg": "Figure mise à jour",
     "tab_preview": "Aperçu",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "Code LaTeX complet de la figure",
+    "full_code_loading": "Chargement…",
+    "full_code_hint": "Voici le contenu réel de output.tex généré par le plugin. Le modifier à la main l’écrase. Si vous régénérez la figure depuis l’éditeur visuel, vos modifications manuelles seront remplacées.",
+    "full_code_edit": "Modifier à la main",
+    "full_code_save": "Enregistrer le code",
+    "full_code_saving": "Sauvegarde…",
+    "full_code_error": "Impossible de lire le code de la figure.",
     "preview_compile_btn": "Aperçu de la recompilation",
     "preview_compiling": "Compilation…",
     "preview_apply_first": "Appliquez les modifications avant de prévisualiser.",
@@ -2705,7 +2736,7 @@
     "preview_no_tectonic": "Tectonic n’est pas installé ou est introuvable.",
     "full_code_empty": "Le code de la figure ne peut pas être vide.",
     "full_code_invalid": "Le code édité manuellement ne se compile pas. Corrigez l'erreur LaTeX et réessayez.",
-    "manual_edit_warning": "Cette figure a édité à la main LaTeX. La régénération à partir de l'éditeur visuel écrasera vos modifications manuelles."
+    "manual_edit_warning": "Cette figure a été modifiée manuellement en LaTeX. La régénérer depuis l’éditeur visuel écrasera vos modifications manuelles."
   },
   "readiness": {
     "panel_title": "Avancement du projet",
@@ -2890,7 +2921,7 @@
         "description": "Diagrammes de Gantt et chronologies avec groupes, tâches et dépendances."
       }
     },
-    "crash_fallback": "L'éditeur visuel n'a pas pu restituer cette figure (données corrompues ou incompatibles). Fermez le modal et modifiez les métadonnées ou régénérez la figure.",
+    "crash_fallback": "L’éditeur visuel n’a pas pu afficher cette figure (données corrompues ou incompatibles). Fermez la fenêtre et modifiez les métadonnées ou régénérez la figure.",
     "col_align_hint": "Alignement des colonnes. 'decimal' aligne les nombres par le point décimal (colonne siunitx S).",
     "align_auto": "automobile",
     "align_left": "à gauche",

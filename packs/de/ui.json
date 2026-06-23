@@ -121,9 +121,9 @@
     "corrupt_no_snapshots": "Es sind keine Schnappschüsse verfügbar. Das Projekt kann nicht automatisch wiederhergestellt werden.",
     "corrupt_restore": "Wiederherstellen",
     "corrupt_restoring": "Wiederherstellung...",
-    "corrupt_restored": "Snapshot wiederhergestellt. Eröffnungsprojekt...",
+    "corrupt_restored": "Snapshot wiederhergestellt. Projekt wird geöffnet...",
     "corrupt_restore_error": "Der Snapshot konnte nicht wiederhergestellt werden. Überprüfen Sie die Dateiberechtigungen oder wählen Sie eine andere aus.",
-    "corrupt_dismiss": "Öffnen Sie ein anderes Projekt"
+    "corrupt_dismiss": "Anderes Projekt öffnen"
   },
   "wizard": {
     "title": "Neues Projekt",
@@ -719,8 +719,8 @@
     "toolbar_split_tip_inactive": "Bearbeiten Sie einen Textblock, um die Aufteilung zu ermöglichen",
     "tree_add": "Abschnitt hinzufügen",
     "tree_add_chapter": "Neues Kapitel",
-    "tree_add_prelim": "Neuer Vorteil",
-    "tree_add_back": "Neue Rückenangelegenheit",
+    "tree_add_prelim": "Neuer Vorspannabschnitt",
+    "tree_add_back": "Neuer Nachspannabschnitt",
     "tree_add_appendix": "Neuer Anhang",
     "tree_section_options": "Abschnittsoptionen",
     "tree_rename": "Umbenennen",
@@ -890,8 +890,8 @@
     "update_available": "Version {{version}} verfügbar — neu starten zum Installieren",
     "update_up_to_date": "Du bist auf dem neuesten Stand",
     "update_error": "Updates konnten nicht geprüft werden",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "Sie haben nur Tectonic – gut für das alltägliche Schreiben. Für erweiterte Pakete biblatex + Biber oder Plugin-Figuren installieren Sie {{suiteName}}.",
+    "latex_tectonic_only_btn": "Installieren Sie {{suiteName}}",
     "update_disabled": "Automatische Updates für diese Version nicht eingerichtet",
     "refresh_catalog": "Katalog aktualisieren",
     "package_status_stable": "Stabil",
@@ -1256,7 +1256,7 @@
     "error_safety": "Die Anfrage wurde durch die Sicherheitsrichtlinie blockiert.",
     "error_model_unavailable": "Das ausgewählte Modell ist nicht verfügbar. Wählen Sie in den Einstellungen eine andere aus.",
     "error_provider": "Anbieterfehler. Versuchen Sie es erneut.",
-    "cancel_request": "Stornieren Sie die Fluganfrage"
+    "cancel_request": "Laufende Anfrage abbrechen"
   },
   "editor_meta": {
     "project_guide": "Projektleitfaden",
@@ -1862,7 +1862,7 @@
     "create_bib_suffix": "in Ihrem Projekt.",
     "no_results": "Keine Ergebnisse für „{{query}}“",
     "no_title": "Ohne Titel",
-    "add_via_doi": "Fügen Sie die erste Referenz von DOI hinzu"
+    "add_via_doi": "Erste Referenz per DOI hinzufügen"
   },
   "doc_options": {
     "title": "Dokumentoptionen",
@@ -1871,7 +1871,7 @@
     "paper_size": "Papierformat",
     "letter_paper": "Brief",
     "line_spacing": "Zeilenabstand",
-    "spacing_single": "Single",
+    "spacing_single": "Einzel",
     "spacing_onehalf": "1.5 (Empfang)",
     "spacing_double": "Doppelt",
     "margins": "Ränder",
@@ -2068,7 +2068,7 @@
     "repo_hint_prefix": "Zeigen Sie auf irgendetwas",
     "repo_hint_middle": "das hat ein",
     "repo_hint_suffix": "Abschnitt. Es kann Ihr eigenes GitHub-Repo sein.",
-    "alias_placeholder": "Alias (e.g. my-lab-terms)",
+    "alias_placeholder": "Alias ​​(e.g. my-lab-terms)",
     "adding": "Hinzufügen…",
     "filter_by_area": "Nach Bereich filtern",
     "all_areas": "Alle Bereiche",
@@ -2131,7 +2131,38 @@
     "placement_body": "Hauptteil",
     "placement_back_matter": "Nachspann",
     "placement_appendix": "Anhang",
-    "section_required": "erforderlich"
+    "section_required": "erforderlich",
+    "step_quality": "Qualität",
+    "quality_intro": "Fügen Sie die Nachweise und Übermittlungsbeschränkungen hinzu, die dieses Profil zuverlässig machen. Ein neues Profil bleibt im Entwurf, bis es überprüft oder mit echten Beweisen verifiziert wird.",
+    "source_urls_label": "Offizielle Quell-URLs, eine pro Zeile",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "Überprüfen Sie jeden Tag",
+    "layout_requirements": "Layout- und Lieferanforderungen",
+    "paper_placeholder": "Papier, e.g. Briefpapier oder A4-Papier",
+    "line_spacing_placeholder": "Zeilenabstand, e.g. 1.5 oder 2",
+    "abstract_words_placeholder": "Abstraktes Wortlimit",
+    "margin_top_placeholder": "Oberer Rand",
+    "margin_bottom_placeholder": "Unterer Rand",
+    "margin_left_placeholder": "Linker Rand",
+    "margin_right_placeholder": "Rechter Rand",
+    "max_words_placeholder": "Wortbeschränkung für den Haupttext",
+    "pdfa_required": "Erfordert PDF/A",
+    "quality_checklist": "Professionelle Checkliste: {{done}}/{{total}}",
+    "quality_sources": "Ich habe die offiziellen institutionellen Quellen überprüft und ihre URLs beibehalten.",
+    "quality_titlePage": "Ich habe die Anforderungen für Titelseite, Ausschuss, Abschluss, Stadt und Jahr überprüft.",
+    "quality_layout": "Bei Bedarf habe ich Seitengröße, Ränder, Zeilenabstand und Wortgrenzen erfasst.",
+    "quality_bibliography": "Ich habe den Bibliographiestil mit einem LaTeX-Backend abgeglichen, das ihn tatsächlich kompilieren kann.",
+    "quality_compileSample": "Ich werde dieses Profil mit einem Beispielprojekt testen, bevor ich es für die endgültige Lieferung verwende.",
+    "quality_externalAssets": "Wenn eine Abbildung, ein Logo, eine Karte, eine Partitur oder ein Diagramm besser außerhalb von LaTeX erstellt werden sollte, importiere ich das endgültige PDF/PNG/SVG, anstatt LaTeX zu erzwingen.",
+    "quality_summary": "Qualität {{done}}/{{total}}",
+    "status_label": "Profilstatus",
+    "status_promotion_hint": "Für die Überprüfung sind offizielle Quell-URLs und ein Überprüfungsdatum erforderlich. Verifiziert erfordert zusätzlich einen automatisierten CI-Nachweis.",
+    "reviewed_at_label": "Bewertet unter",
+    "reviewed_by_label": "Bewertet von",
+    "verified_at_label": "Verifiziert bei",
+    "verified_by_label": "Verifiziert durch",
+    "ci_evidence_label": "CI-Nachweis URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "Einfache institutionelle Basis",
@@ -2400,7 +2431,7 @@
               "note": "Beinhaltet alles. Wenn der Platz begrenzt ist, verwenden Sie texlive-xetex anstelle von texlive-full."
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Fedora / RHEL / CentOS-Stream",
               "note": "Installiert das vollständige TeX Live-Schema."
             },
             {
@@ -2690,13 +2721,13 @@
     "applying": "Wird übernommen…",
     "done_msg": "Abbildung aktualisiert",
     "tab_preview": "Vorschau",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "Vollständiger LaTeX-Code der Abbildung",
+    "full_code_loading": "Laden…",
+    "full_code_hint": "Dies ist der tatsächliche Inhalt von output.tex, der vom Plugin erzeugt wurde. Wenn Sie ihn manuell bearbeiten, wird er überschrieben. Wenn Sie die Abbildung im visuellen Editor neu erzeugen, werden Ihre manuellen Änderungen ersetzt.",
+    "full_code_edit": "Von Hand bearbeiten",
+    "full_code_save": "Code speichern",
+    "full_code_saving": "Sparen…",
+    "full_code_error": "Der Zahlencode konnte nicht gelesen werden.",
     "preview_compile_btn": "Vorschau neu kompilieren",
     "preview_compiling": "Kompilieren…",
     "preview_apply_first": "Wenden Sie die Änderungen vor der Vorschau an.",
@@ -2705,7 +2736,7 @@
     "preview_no_tectonic": "Tectonic ist nicht installiert oder konnte nicht gefunden werden.",
     "full_code_empty": "Der Zahlencode darf nicht leer sein.",
     "full_code_invalid": "Der handbearbeitete Code lässt sich nicht kompilieren. Beheben Sie den LaTeX-Fehler und versuchen Sie es erneut.",
-    "manual_edit_warning": "Diese Figur wurde von Hand bearbeitet LaTeX. Durch die Neugenerierung aus dem visuellen Editor werden Ihre manuellen Änderungen überschrieben."
+    "manual_edit_warning": "Diese Abbildung wurde manuell in LaTeX bearbeitet. Beim erneuten Erzeugen aus dem visuellen Editor werden Ihre manuellen Änderungen überschrieben."
   },
   "readiness": {
     "panel_title": "Projektfortschritt",
@@ -2890,9 +2921,9 @@
         "description": "Gantt-Diagramme und Zeitleisten mit Gruppen, Aufgaben und Abhängigkeiten."
       }
     },
-    "crash_fallback": "Der visuelle Editor konnte diese Abbildung nicht rendern (beschädigte oder inkompatible Daten). Schließen Sie das Modal und bearbeiten Sie die Metadaten oder generieren Sie die Abbildung neu.",
+    "crash_fallback": "Der visuelle Editor konnte diese Abbildung nicht anzeigen (beschädigte oder inkompatible Daten). Schließen Sie den Dialog und bearbeiten Sie die Metadaten oder erzeugen Sie die Abbildung neu.",
     "col_align_hint": "Spaltenausrichtung. „decimal“ richtet Zahlen nach dem Dezimalpunkt aus (Spalte siunitx).",
-    "align_auto": "auto",
+    "align_auto": "Auto",
     "align_left": "links",
     "align_center": "Zentrum",
     "align_right": "richtig",

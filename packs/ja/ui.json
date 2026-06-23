@@ -12,7 +12,7 @@
     "error": "エラー",
     "warning": "警告",
     "info": "情報",
-    "ok": "OK",
+    "ok": "わかりました",
     "yes": "はい",
     "no": "いいえ",
     "back": "戻る",
@@ -121,7 +121,7 @@
     "corrupt_no_snapshots": "利用可能なスナップショットはありません。プロジェクトは自動的に回復できません。",
     "corrupt_restore": "復元",
     "corrupt_restoring": "復元中...",
-    "corrupt_restored": "スナップショットが復元されました。プロジェクトを開く...",
+    "corrupt_restored": "スナップショットを復元しました。プロジェクトを開いています...",
     "corrupt_restore_error": "スナップショットを復元できませんでした。ファイルのアクセス許可を確認するか、別のアクセス許可を選択してください。",
     "corrupt_dismiss": "別のプロジェクトを開く"
   },
@@ -497,7 +497,7 @@
     "meta_city": "都市",
     "meta_year": "年",
     "meta_keywords": "キーワード",
-    "meta_orcid": "ORCID",
+    "meta_orcid": "オーシド",
     "meta_funding": "資金提供",
     "meta_committee": "審査委員会",
     "meta_add_committee": "メンバーを追加",
@@ -719,8 +719,8 @@
     "toolbar_split_tip_inactive": "テキストブロックを編集して分割を有効にする",
     "tree_add": "セクションを追加",
     "tree_add_chapter": "新しい章",
-    "tree_add_prelim": "新しい予選セクション",
-    "tree_add_back": "新しい後付け事項",
+    "tree_add_prelim": "新しい前付けセクション",
+    "tree_add_back": "新しい後付けセクション",
     "tree_add_appendix": "新しい付録",
     "tree_section_options": "セクションのオプション",
     "tree_rename": "名前の変更",
@@ -890,8 +890,8 @@
     "update_available": "バージョン {{version}} が利用可能 — 再起動してインストール",
     "update_up_to_date": "最新バージョンです",
     "update_error": "アップデートを確認できませんでした",
-    "latex_tectonic_only_note": "You only have Tectonic — fine for everyday writing. For advanced packages, biblatex + Biber, or plugin figures, install {{suiteName}}.",
-    "latex_tectonic_only_btn": "Install {{suiteName}}",
+    "latex_tectonic_only_note": "Tectonic しかありません。日常の執筆には十分です。高度なパッケージ、biblatex + Biber、またはプラグイン図の場合は、{{suiteName}} をインストールします。",
+    "latex_tectonic_only_btn": "{{suiteName}}をインストールする",
     "update_disabled": "このリリースでは自動更新は設定されていません",
     "refresh_catalog": "カタログを更新する",
     "package_status_stable": "安定した",
@@ -1063,7 +1063,7 @@
     "no_coverage_tags": "カバレッジタグなし",
     "verified_at": "検証日{{date}}{{by}}",
     "reviewed_at": "レビュー日{{date}}{{by}}",
-    "by_person": " by {{person}}",
+    "by_person": "by {{person}}",
     "source": "ソース",
     "ci_evidence_available": "利用可能なCI証拠",
     "latex_engine": "LaTeXエンジン",
@@ -1256,7 +1256,7 @@
     "error_safety": "リクエストは安全ポリシーによってブロックされました。",
     "error_model_unavailable": "選択したモデルは使用できません。設定で別のものを選択してください。",
     "error_provider": "プロバイダーエラー。もう一度やり直してください。",
-    "cancel_request": "飛行中のリクエストをキャンセルする"
+    "cancel_request": "進行中のリクエストをキャンセル"
   },
   "editor_meta": {
     "project_guide": "プロジェクトガイド",
@@ -1862,7 +1862,7 @@
     "create_bib_suffix": "あなたのプロジェクトで。",
     "no_results": "「{{query}}」に一致する結果はありません",
     "no_title": "無題",
-    "add_via_doi": "DOI による最初の参照を追加"
+    "add_via_doi": "DOI で最初の参考文献を追加"
   },
   "doc_options": {
     "title": "ドキュメントオプション",
@@ -2131,7 +2131,38 @@
     "placement_body": "本文",
     "placement_back_matter": "後付け",
     "placement_appendix": "付録",
-    "section_required": "必須"
+    "section_required": "必須",
+    "step_quality": "品質",
+    "quality_intro": "このプロファイルを信頼できるものにする証拠と配信制約を追加します。新しいプロファイルは、レビューまたは実際の証拠で検証されるまで、下書きのままになります。",
+    "source_urls_label": "公式ソース URL (1 行に 1 つ)",
+    "source_urls_placeholder": "https://example.edu/thesis-guidelines\nhttps://example.edu/graduate-format",
+    "review_interval_label": "毎日見直す",
+    "layout_requirements": "レイアウトと納品の要件",
+    "paper_placeholder": "紙、e.g。便箋またはa4用紙",
+    "line_spacing_placeholder": "行間、e.g。 1.5 または 2",
+    "abstract_words_placeholder": "抽象的な単語数制限",
+    "margin_top_placeholder": "上マージン",
+    "margin_bottom_placeholder": "下マージン",
+    "margin_left_placeholder": "左マージン",
+    "margin_right_placeholder": "右マージン",
+    "max_words_placeholder": "本文の文字数制限",
+    "pdfa_required": "PDF/Aが必要です",
+    "quality_checklist": "プロフェッショナルチェックリスト: {{done}}/{{total}}",
+    "quality_sources": "私は公的機関の情報源を確認し、その URL を記録しました。",
+    "quality_titlePage": "タイトルページ、委員会、学位、都市、年度の要件を確認しました。",
+    "quality_layout": "必要に応じて、ページ サイズ、余白、行間隔、文字数制限をキャプチャしました。",
+    "quality_bibliography": "参考文献のスタイルを、実際にコンパイルできる LaTeX バックエンドと一致させました。",
+    "quality_compileSample": "最終的な納品に使用する前に、サンプル プロジェクトでこのプロファイルをテストします。",
+    "quality_externalAssets": "図、ロゴ、地図、スコア、または図表が LaTeX の外で作成された方がよい場合は、LaTeX を強制する代わりに、最終的な PDF/PNG/SVG をインポートします。",
+    "quality_summary": "品質 {{done}}/{{total}}",
+    "status_label": "プロファイルのステータス",
+    "status_promotion_hint": "レビュー済みには、公式ソース URL とレビュー日が必要です。 Verified にはさらに、自動化された CI 証拠が必要です。",
+    "reviewed_at_label": "レビュー先",
+    "reviewed_by_label": "レビュー者",
+    "verified_at_label": "検証済み",
+    "verified_by_label": "検証者",
+    "ci_evidence_label": "CI 証拠 URL",
+    "ci_evidence_placeholder": "https://github.com/org/repo/actions/runs/123456"
   },
   "community": {
     "preset_starter": "シンプルな機関ベース",
@@ -2400,7 +2431,7 @@
               "note": "すべてが含まれます。スペースが限られている場合は、texlive-full の代わりに texlive-xetex を使用してください。"
             },
             {
-              "title": "Fedora / RHEL / CentOS Stream",
+              "title": "Fedora / RHEL / CentOS ストリーム",
               "note": "完全な TeX Live スキームをインストールします。"
             },
             {
@@ -2690,13 +2721,13 @@
     "applying": "適用中…",
     "done_msg": "図が更新されました",
     "tab_preview": "プレビュー",
-    "full_code_title": "Full LaTeX code of the figure",
-    "full_code_loading": "Loading…",
-    "full_code_hint": "This is the real content of output.tex generated by the plugin. Editing it by hand overwrites it — if you regenerate the figure from the visual editor, your manual changes are replaced.",
-    "full_code_edit": "Edit by hand",
-    "full_code_save": "Save code",
-    "full_code_saving": "Saving…",
-    "full_code_error": "Could not read the figure code.",
+    "full_code_title": "図の完全な LaTeX コード",
+    "full_code_loading": "読み込み中…",
+    "full_code_hint": "これはプラグインが生成した output.tex の実際の内容です。手動で編集すると上書きされます。ビジュアルエディターから図を再生成すると、手動変更は置き換えられます。",
+    "full_code_edit": "手動で編集する",
+    "full_code_save": "コードを保存する",
+    "full_code_saving": "保存中…",
+    "full_code_error": "図形コードを読み取れませんでした。",
     "preview_compile_btn": "再コンパイルプレビュー",
     "preview_compiling": "コンパイル中…",
     "preview_apply_first": "プレビューする前に変更を適用します。",
@@ -2705,7 +2736,7 @@
     "preview_no_tectonic": "Tectonic がインストールされていないか、見つかりませんでした。",
     "full_code_empty": "図形コードを空にすることはできません。",
     "full_code_invalid": "手動で編集したコードはコンパイルされません。 LaTeX エラーを修正して、再試行してください。",
-    "manual_edit_warning": "この図は LaTeX を手動で編集しています。ビジュアル エディターから再生成すると、手動での変更が上書きされます。"
+    "manual_edit_warning": "この図は LaTeX で手動編集されています。ビジュアルエディターから再生成すると、手動変更は上書きされます。"
   },
   "readiness": {
     "panel_title": "プロジェクト進捗",
@@ -2890,7 +2921,7 @@
         "description": "グループ、タスク、依存関係を含むガント チャートとタイムライン。"
       }
     },
-    "crash_fallback": "ビジュアル エディターはこの図をレンダリングできませんでした (破損したデータまたは互換性のないデータ)。モーダルを閉じてメタデータを編集するか、Figure を再生成します。",
+    "crash_fallback": "ビジュアルエディターはこの図を表示できませんでした（データが破損しているか互換性がありません）。ダイアログを閉じてメタデータを編集するか、図を再生成してください。",
     "col_align_hint": "列の配置。 '10 進数' は、数値を小数点で揃えます (siunitx S 列)。",
     "align_auto": "自動",
     "align_left": "左",
@@ -3279,7 +3310,7 @@
     "case_cond_placeholder": "\\text{if } x > 0",
     "palette_no_target": "上のフィールドをクリックして、そこに記号を挿入します。",
     "align_placeholder": "x_1 + 2 x_2 &= 3",
-    "variables_placeholder": "x_1, x_2, x_3"
+    "variables_placeholder": "x_1、x_2、x_3"
   },
   "plot_preview": {
     "title": "ライブプレビュー (おおよそ)",
