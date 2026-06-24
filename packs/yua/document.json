@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "yua",
+  "fallback_locale": "es",
+  "labels": {
+    "chapter": "Capítulo",
+    "bibliography": "Referencias",
+    "figure": "Figura",
+    "table": "Tabla",
+    "abstract": "Resumen",
+    "contents": "Índice",
+    "appendix": "Anexo",
+    "glossary": "Glosario",
+    "acronyms": "Abreviaturas",
+    "keywords": "Palabras clave",
+    "continued": "continuación",
+    "source": "Fuente"
+  }
+}

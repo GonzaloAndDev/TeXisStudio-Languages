@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "fr",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Chapitre",
+    "bibliography": "Bibliographie",
+    "figure": "Figure",
+    "table": "Tableau",
+    "abstract": "Résumé",
+    "contents": "Table des matières",
+    "appendix": "Annexe",
+    "glossary": "Glossaire",
+    "acronyms": "Abréviations",
+    "keywords": "Mots-clés",
+    "continued": "suite",
+    "source": "Source"
+  }
+}

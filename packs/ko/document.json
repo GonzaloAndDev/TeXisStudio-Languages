@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "ko",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "장",
+    "bibliography": "참고문헌",
+    "figure": "그림",
+    "table": "표",
+    "abstract": "초록",
+    "contents": "목차",
+    "appendix": "부록",
+    "glossary": "용어집",
+    "acronyms": "약어",
+    "keywords": "핵심어",
+    "continued": "계속",
+    "source": "출처"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "ar",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "الفصل",
+    "bibliography": "المراجع",
+    "figure": "الشكل",
+    "table": "الجدول",
+    "abstract": "الملخص",
+    "contents": "المحتويات",
+    "appendix": "الملحق",
+    "glossary": "المسرد",
+    "acronyms": "الاختصارات",
+    "keywords": "الكلمات المفتاحية",
+    "continued": "يتبع",
+    "source": "المصدر"
+  }
+}

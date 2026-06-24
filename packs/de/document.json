@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "de",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Kapitel",
+    "bibliography": "Literaturverzeichnis",
+    "figure": "Abbildung",
+    "table": "Tabelle",
+    "abstract": "Zusammenfassung",
+    "contents": "Inhaltsverzeichnis",
+    "appendix": "Anhang",
+    "glossary": "Glossar",
+    "acronyms": "Abkürzungen",
+    "keywords": "Schlüsselwörter",
+    "continued": "Fortsetzung",
+    "source": "Quelle"
+  }
+}

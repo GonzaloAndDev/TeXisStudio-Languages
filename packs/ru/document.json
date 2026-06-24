@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "ru",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Глава",
+    "bibliography": "Список литературы",
+    "figure": "Рисунок",
+    "table": "Таблица",
+    "abstract": "Аннотация",
+    "contents": "Содержание",
+    "appendix": "Приложение",
+    "glossary": "Глоссарий",
+    "acronyms": "Сокращения",
+    "keywords": "Ключевые слова",
+    "continued": "продолжение",
+    "source": "Источник"
+  }
+}

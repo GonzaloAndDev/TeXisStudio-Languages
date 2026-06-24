@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "ro",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Capitol",
+    "bibliography": "Bibliografie",
+    "figure": "Figură",
+    "table": "Tabel",
+    "abstract": "Rezumat",
+    "contents": "Cuprins",
+    "appendix": "Anexă",
+    "glossary": "Glosar",
+    "acronyms": "Abrevieri",
+    "keywords": "Cuvinte-cheie",
+    "continued": "continuare",
+    "source": "Sursă"
+  }
+}

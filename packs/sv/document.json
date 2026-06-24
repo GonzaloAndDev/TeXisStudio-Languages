@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "sv",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Kapitel",
+    "bibliography": "Referenser",
+    "figure": "Figur",
+    "table": "Tabell",
+    "abstract": "Sammanfattning",
+    "contents": "Innehållsförteckning",
+    "appendix": "Bilaga",
+    "glossary": "Ordlista",
+    "acronyms": "Förkortningar",
+    "keywords": "Nyckelord",
+    "continued": "fortsättning",
+    "source": "Källa"
+  }
+}

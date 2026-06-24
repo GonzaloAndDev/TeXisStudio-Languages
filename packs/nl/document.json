@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "nl",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Hoofdstuk",
+    "bibliography": "Bibliografie",
+    "figure": "Figuur",
+    "table": "Tabel",
+    "abstract": "Samenvatting",
+    "contents": "Inhoudsopgave",
+    "appendix": "Bijlage",
+    "glossary": "Woordenlijst",
+    "acronyms": "Afkortingen",
+    "keywords": "Trefwoorden",
+    "continued": "vervolg",
+    "source": "Bron"
+  }
+}

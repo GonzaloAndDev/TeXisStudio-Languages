@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "vi",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Chương",
+    "bibliography": "Tài liệu tham khảo",
+    "figure": "Hình",
+    "table": "Bảng",
+    "abstract": "Tóm tắt",
+    "contents": "Mục lục",
+    "appendix": "Phụ lục",
+    "glossary": "Thuật ngữ",
+    "acronyms": "Chữ viết tắt",
+    "keywords": "Từ khóa",
+    "continued": "tiếp theo",
+    "source": "Nguồn"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "zh",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "章",
+    "bibliography": "参考文献",
+    "figure": "图",
+    "table": "表",
+    "abstract": "摘要",
+    "contents": "目录",
+    "appendix": "附录",
+    "glossary": "术语表",
+    "acronyms": "缩略语",
+    "keywords": "关键词",
+    "continued": "续",
+    "source": "来源"
+  }
+}

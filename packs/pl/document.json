@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "pl",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Rozdział",
+    "bibliography": "Bibliografia",
+    "figure": "Rysunek",
+    "table": "Tabela",
+    "abstract": "Streszczenie",
+    "contents": "Spis treści",
+    "appendix": "Dodatek",
+    "glossary": "Słownik",
+    "acronyms": "Skróty",
+    "keywords": "Słowa kluczowe",
+    "continued": "ciąg dalszy",
+    "source": "Źródło"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "uk",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Розділ",
+    "bibliography": "Список літератури",
+    "figure": "Рисунок",
+    "table": "Таблиця",
+    "abstract": "Анотація",
+    "contents": "Зміст",
+    "appendix": "Додаток",
+    "glossary": "Глосарій",
+    "acronyms": "Скорочення",
+    "keywords": "Ключові слова",
+    "continued": "продовження",
+    "source": "Джерело"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "ja",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "章",
+    "bibliography": "参考文献",
+    "figure": "図",
+    "table": "表",
+    "abstract": "要旨",
+    "contents": "目次",
+    "appendix": "付録",
+    "glossary": "用語集",
+    "acronyms": "略語",
+    "keywords": "キーワード",
+    "continued": "続き",
+    "source": "出典"
+  }
+}

@@ -125,3 +125,43 @@ jobs:
               sys.exit(1)
           print(f"OK: catalog.json valido con {len(catalog['packages'])} paquetes y {len(vocab_packs)} vocabulary_packs")
           PY
+
+      - name: Validate document localization contract 2.0
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+
+          required = {
+              'chapter', 'bibliography', 'figure', 'table', 'abstract',
+              'contents', 'appendix', 'glossary', 'acronyms', 'keywords',
+              'continued', 'source',
+          }
+          spanish_fallback_allowed = {'mix', 'nah', 'tzh', 'yua', 'zap'}
+          errors = []
+          pack_dirs = sorted(path for path in pathlib.Path('packs').iterdir() if path.is_dir())
+          for pack in pack_dirs:
+              path = pack / 'document.json'
+              if not path.exists():
+                  errors.append(f"DOCUMENT_I18N_MISSING: {path}")
+                  continue
+              data = json.loads(path.read_text(encoding='utf-8'))
+              if data.get('schema_version') != '2.0':
+                  errors.append(f"DOCUMENT_I18N_VERSION: {path}")
+              if data.get('locale') != pack.name:
+                  errors.append(f"DOCUMENT_I18N_LOCALE: {path}")
+              labels = data.get('labels') or {}
+              missing = required - labels.keys()
+              empty = [key for key in required if not str(labels.get(key, '')).strip()]
+              if missing or empty:
+                  errors.append(f"DOCUMENT_I18N_FIELDS: {path} missing={sorted(missing)} empty={sorted(empty)}")
+              fallback = data.get('fallback_locale')
+              if fallback == 'es' and pack.name not in spanish_fallback_allowed:
+                  errors.append(f"DOCUMENT_I18N_UNAUTHORIZED_SPANISH_FALLBACK: {path}")
+              if pack.name in spanish_fallback_allowed and fallback != 'es':
+                  errors.append(f"DOCUMENT_I18N_FALLBACK_NOT_EXPLICIT: {path}")
+
+          if errors:
+              print('\n'.join(f"ERROR: {error}" for error in errors))
+              sys.exit(1)
+          print(f"OK: {len(pack_dirs)} recursos documentales 2.0")
+          PY

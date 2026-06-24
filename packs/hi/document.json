@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "hi",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "अध्याय",
+    "bibliography": "संदर्भ",
+    "figure": "चित्र",
+    "table": "तालिका",
+    "abstract": "सारांश",
+    "contents": "विषय-सूची",
+    "appendix": "परिशिष्ट",
+    "glossary": "शब्दावली",
+    "acronyms": "संक्षिप्ताक्षर",
+    "keywords": "मुख्य शब्द",
+    "continued": "जारी",
+    "source": "स्रोत"
+  }
+}

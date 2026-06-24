@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "nah",
+  "fallback_locale": "es",
+  "labels": {
+    "chapter": "Centlamantli",
+    "bibliography": "Tlahtolnextilihtzin",
+    "figure": "Tlaixnextiloni",
+    "table": "Tlahcuilōamaitl",
+    "abstract": "Ioltenehualiztli",
+    "contents": "Tlapohualamaitl",
+    "appendix": "Anexo",
+    "glossary": "Glosario",
+    "acronyms": "Abreviaturas",
+    "keywords": "Palabras clave",
+    "continued": "continuación",
+    "source": "Fuente"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "tr",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Bölüm",
+    "bibliography": "Kaynakça",
+    "figure": "Şekil",
+    "table": "Tablo",
+    "abstract": "Özet",
+    "contents": "İçindekiler",
+    "appendix": "Ek",
+    "glossary": "Sözlük",
+    "acronyms": "Kısaltmalar",
+    "keywords": "Anahtar kelimeler",
+    "continued": "devam",
+    "source": "Kaynak"
+  }
+}

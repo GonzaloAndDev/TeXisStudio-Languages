@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "fil",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Kabanata",
+    "bibliography": "Mga Sanggunian",
+    "figure": "Larawan",
+    "table": "Talahanayan",
+    "abstract": "Abstrak",
+    "contents": "Talaan ng Nilalaman",
+    "appendix": "Apendise",
+    "glossary": "Talasalitaan",
+    "acronyms": "Mga Daglat",
+    "keywords": "Mga Susing Salita",
+    "continued": "ipinagpatuloy",
+    "source": "Pinagmulan"
+  }
+}

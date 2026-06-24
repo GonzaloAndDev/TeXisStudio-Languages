@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "th",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "บท",
+    "bibliography": "บรรณานุกรม",
+    "figure": "รูป",
+    "table": "ตาราง",
+    "abstract": "บทคัดย่อ",
+    "contents": "สารบัญ",
+    "appendix": "ภาคผนวก",
+    "glossary": "อภิธานศัพท์",
+    "acronyms": "คำย่อ",
+    "keywords": "คำสำคัญ",
+    "continued": "ต่อ",
+    "source": "ที่มา"
+  }
+}

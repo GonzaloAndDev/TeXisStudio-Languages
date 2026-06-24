@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "it",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "Capitolo",
+    "bibliography": "Bibliografia",
+    "figure": "Figura",
+    "table": "Tabella",
+    "abstract": "Sommario",
+    "contents": "Indice",
+    "appendix": "Appendice",
+    "glossary": "Glossario",
+    "acronyms": "Abbreviazioni",
+    "keywords": "Parole chiave",
+    "continued": "continua",
+    "source": "Fonte"
+  }
+}

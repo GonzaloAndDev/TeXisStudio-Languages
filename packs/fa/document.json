@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "locale": "fa",
+  "fallback_locale": null,
+  "labels": {
+    "chapter": "فصل",
+    "bibliography": "منابع",
+    "figure": "شکل",
+    "table": "جدول",
+    "abstract": "چکیده",
+    "contents": "فهرست مطالب",
+    "appendix": "پیوست",
+    "glossary": "واژه‌نامه",
+    "acronyms": "اختصارات",
+    "keywords": "کلیدواژه‌ها",
+    "continued": "ادامه",
+    "source": "منبع"
+  }
+}
