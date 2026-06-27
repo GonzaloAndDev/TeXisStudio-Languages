@@ -6,5 +6,7 @@
   "figure_name": "Figure",
   "table_name": "Tableau",
   "abstract_name": "Résumé",
-  "contents_name": "Table des matières"
+  "contents_name": "Table des matières",
+  "engine": "xelatex",
+  "font": "Latin Modern Roman"
 }

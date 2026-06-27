@@ -10,5 +10,7 @@
   "contents_name": "Sumário",
   "date_format": "\\today",
   "abnt_compatible": true,
-  "hyphenation_rules": "portuguese"
+  "hyphenation_rules": "portuguese",
+  "engine": "xelatex",
+  "font": "Latin Modern Roman"
 }

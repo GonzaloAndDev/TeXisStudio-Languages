@@ -6,5 +6,7 @@
   "figure_name": "Abbildung",
   "table_name": "Tabelle",
   "abstract_name": "Zusammenfassung",
-  "contents_name": "Inhaltsverzeichnis"
+  "contents_name": "Inhaltsverzeichnis",
+  "engine": "xelatex",
+  "font": "Latin Modern Roman"
 }

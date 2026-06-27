@@ -10,5 +10,7 @@
   "abstract_name": "Аннотация",
   "contents_name": "Содержание",
   "date_format": "\\today",
-  "hyphenation_rules": "russian"
+  "hyphenation_rules": "russian",
+  "engine": "xelatex",
+  "font": "Linux Libertine O"
 }
