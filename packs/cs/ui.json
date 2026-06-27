@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "Skóre: {{score}}/100",
+    "repair_actions": "Doporučené opravy",
+    "dim_visual_pdf": "Vizuální PDF",
+    "history": "Nedávné kontroly",
+    "history_ok": "OK",
+    "history_fail": "blokováno"
   }
 }

@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "Puan: {{score}}/100",
+    "repair_actions": "Önerilen düzeltmeler",
+    "dim_visual_pdf": "Görsel PDF",
+    "history": "Son kontroller",
+    "history_ok": "OK",
+    "history_fail": "engellendi"
   }
 }

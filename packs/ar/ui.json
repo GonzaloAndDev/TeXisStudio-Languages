@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "النتيجة: {{score}}/100",
+    "repair_actions": "الإصلاحات المقترحة",
+    "dim_visual_pdf": "فحص PDF بصري",
+    "history": "الفحوصات الأخيرة",
+    "history_ok": "OK",
+    "history_fail": "محظور"
   }
 }

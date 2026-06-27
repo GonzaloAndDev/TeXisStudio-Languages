@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "Scor: {{score}}/100",
+    "repair_actions": "Corecții recomandate",
+    "dim_visual_pdf": "PDF vizual",
+    "history": "Verificări recente",
+    "history_ok": "OK",
+    "history_fail": "blocat"
   }
 }

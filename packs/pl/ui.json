@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "Ocena: {{score}}/100",
+    "repair_actions": "Zalecane poprawki",
+    "dim_visual_pdf": "Wizualny PDF",
+    "history": "Ostatnie kontrole",
+    "history_ok": "OK",
+    "history_fail": "zablokowano"
   }
 }

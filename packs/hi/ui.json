@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "स्कोर: {{score}}/100",
+    "repair_actions": "अनुशंसित सुधार",
+    "dim_visual_pdf": "दृश्य PDF",
+    "history": "हाल की जांचें",
+    "history_ok": "OK",
+    "history_fail": "अवरुद्ध"
   }
 }

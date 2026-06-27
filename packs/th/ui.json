@@ -3380,6 +3380,12 @@
     "dim_profile_trust": "Perfil",
     "profile_trust": "Perfil: {{status}}",
     "profile_ok": "apto para entrega final",
-    "profile_warn": "no recomendado para entrega final"
+    "profile_warn": "no recomendado para entrega final",
+    "score": "คะแนน: {{score}}/100",
+    "repair_actions": "การแก้ไขที่แนะนำ",
+    "dim_visual_pdf": "ตรวจ PDF แบบภาพ",
+    "history": "การตรวจล่าสุด",
+    "history_ok": "OK",
+    "history_fail": "ถูกบล็อก"
   }
 }
